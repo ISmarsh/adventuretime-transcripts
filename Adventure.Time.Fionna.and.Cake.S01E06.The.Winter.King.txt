@@ -1,7 +1,6 @@
+[It all starts showing the city of Fionna's world, it is a snowy morning with blue sky. Gary is then shown outside Fionna's apartment knocking on the door.]
 
-[It all starts showing the city of Fionna's world, it is a snowy morning with blue sky. Gary is then shown outside Fionna's apartment knocking on the door.]''
-
-﻿[ Screams ]
+[Screams]
 [ Knock on door ]
 Gary Prince: Fionna?
 
@@ -731,8 +730,9 @@ I'll be right back.
 
 Hurry up! Get back!
 
-[ Indistinct shouting
-] Everything okay?
+[Indistinct shouting]
+
+Everything okay?
 
 Uh... surprise!
 
@@ -1051,5 +1051,3 @@ magic crown that will work,
 and I'll be cursed
 the right way.
 
-Category:Incomplete transcripts
-Category:Stubs

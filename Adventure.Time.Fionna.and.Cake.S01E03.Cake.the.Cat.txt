@@ -1,5 +1,4 @@
-
-﻿[ Screams ]
+[Screams]
 
 [ Shriek ]
 
@@ -1032,6 +1031,3 @@ go on an adventure?!
 Heh. Well...
 
 Awww. My hat!
-Category:Transcripts
-Category:Articles under construction
-Category:Incomplete transcripts
