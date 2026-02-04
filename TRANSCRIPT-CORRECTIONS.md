@@ -28,8 +28,13 @@ The following episodes have raw dialogue without speaker labels:
 
 - **Video frame extraction** - Extract frames at timestamp to verify speaker
 - **SDH subtitles** - Use speaker labels from SDH tracks when available
+- **PGS OCR** - Extract text from Blu-ray bitmap subtitles (see [PGS-OCR-WORKFLOW.md](PGS-OCR-WORKFLOW.md))
 - **Context clues** - Scene setup, dialogue references, character patterns
 
 ## Notes
 
-Main series Blu-ray has PGS (bitmap) subtitles only - would require OCR or alternative subtitle sources.
+Main series Blu-ray has PGS (bitmap) subtitles which include some speaker labels. See [PGS-OCR-WORKFLOW.md](PGS-OCR-WORKFLOW.md) for extraction process.
+
+## Tools
+
+- `tools/pgs_to_srt.py` - Python script for PGS to SRT conversion with OCR
