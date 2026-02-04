@@ -36,15 +36,9 @@ OCR output typically has errors:
 - Stylized fonts cause garbled text
 - Approximately 10-20% of lines need correction
 
-## Quality Assessment (S08E21 Test)
+## OCR Results Summary
 
-| Metric | Result |
-|--------|--------|
-| Total subtitles | 188 |
-| Lines with speaker labels | 14 |
-| Speakers found | FINN, JAKE, BMO, WHIPPLE, BOTH, ALL |
-| Clean lines | ~60-70% |
-| Garbled lines | ~30-40% |
+All 10 episodes needing speaker attribution were processed. Islands miniseries (S08) yielded useful speaker labels; Elements miniseries (S09) had minimal labels. Overall ~60-70% of OCR lines are clean, ~30-40% need manual correction.
 
 ## Comparison: OCR vs Wiki-Scraped
 
