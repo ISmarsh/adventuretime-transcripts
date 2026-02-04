@@ -35,6 +35,10 @@ The following episodes have raw dialogue without speaker labels:
 
 Main series Blu-ray has PGS (bitmap) subtitles which include some speaker labels. See [PGS-OCR-WORKFLOW.md](PGS-OCR-WORKFLOW.md) for extraction process.
 
+**Subtitle sources:**
+- Blu-ray PGS (bitmap, needs OCR)
+- SUBDL (subdl.com) - may have text-based subtitles
+
 ## Tools
 
 - `tools/pgs_to_srt.py` - Python script for PGS to SRT conversion with OCR
