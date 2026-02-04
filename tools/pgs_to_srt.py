@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
-"""Convert PGS/SUP bitmap subtitles to SRT using Tesseract OCR."""
+"""Convert PGS/SUP bitmap subtitles to SRT using Tesseract OCR.
 
+Requirements:
+    pip install pillow pytesseract
+    Tesseract OCR must be installed: https://github.com/tesseract-ocr/tesseract
+    Windows: winget install UB-Mannheim.TesseractOCR
+"""
+
+import shutil
 import struct
 import sys
 from pathlib import Path
@@ -9,8 +16,12 @@ from dataclasses import dataclass
 from PIL import Image
 import pytesseract
 
-# Set Tesseract path for Windows
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+# Configure Tesseract: check PATH first, fall back to Windows default
+_tesseract_path = shutil.which('tesseract')
+if not _tesseract_path and sys.platform == 'win32':
+    _tesseract_path = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+if _tesseract_path:
+    pytesseract.pytesseract.tesseract_cmd = _tesseract_path
 
 
 @dataclass
