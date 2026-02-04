@@ -10,11 +10,11 @@ Requirements:
 import shutil
 import struct
 import sys
-from pathlib import Path
 from dataclasses import dataclass
+from pathlib import Path
 
-from PIL import Image
 import pytesseract
+from PIL import Image
 
 # Configure Tesseract: check PATH first, fall back to Windows default
 _tesseract_path = shutil.which('tesseract')
