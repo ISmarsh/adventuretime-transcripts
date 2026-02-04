@@ -23,6 +23,9 @@ if not _tesseract_path and sys.platform == 'win32':
 if _tesseract_path:
     pytesseract.pytesseract.tesseract_cmd = _tesseract_path
 
+# Default duration when subtitle end time can't be determined from PGS data
+DEFAULT_SUBTITLE_DURATION_SECS = 3
+
 
 @dataclass
 class Subtitle:
@@ -81,7 +84,7 @@ def parse_pgs(data: bytes):
             if current_image and num_objects > 0:
                 text = ocr_image(current_image)
                 if text.strip():
-                    pending_sub = Subtitle(current_pts, pts + 3, text)
+                    pending_sub = Subtitle(current_pts, pts + DEFAULT_SUBTITLE_DURATION_SECS, text)
                 current_image = None
         elif seg_type == 0x80:  # END segment
             pass
