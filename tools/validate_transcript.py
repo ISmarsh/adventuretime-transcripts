@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate transcript files against the gold-standard format.
+r"""Validate transcript files against the gold-standard format.
 
 Usage:
     # Validate a single file:
@@ -17,7 +17,6 @@ import json
 import re
 import sys
 from pathlib import Path
-
 
 # Speaker line pattern (must match parse_transcript_speakers.py)
 SPEAKER_PATTERN = re.compile(r"^([A-Z][^:\[\]]+?):\s", re.MULTILINE)

@@ -346,7 +346,7 @@ def main():
         if wikitext is None:
             print("\nAPI fetch failed. Options:")
             print(f"  1. Open in browser: https://adventuretime.fandom.com/wiki/{episode_title.replace(' ', '_')}/Transcript")
-            print(f"  2. Copy the transcript text")
+            print("  2. Copy the transcript text")
             print(f"  3. Run: python tools/wiki_to_transcript.py --paste --season {args.season} --episode {args.episode} --title \"{episode_title}\"")
             sys.exit(1)
     elif args.paste:
@@ -366,7 +366,7 @@ def main():
 
     # Count speaker lines for summary
     speaker_lines = len(re.findall(r"^[A-Z][^:\[\]]+?:\s", transcript, re.MULTILINE))
-    total_lines = len([l for l in transcript.split("\n") if l.strip()])
+    total_lines = len([line for line in transcript.split("\n") if line.strip()])
     print(f"  {total_lines} content lines, {speaker_lines} with speaker labels")
 
     if args.dry_run:
