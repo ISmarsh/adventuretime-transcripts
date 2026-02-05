@@ -221,6 +221,11 @@ def clean_wikitext(text: str) -> str:
 
         # Handle raw format lines (Speaker: Dialogue)
         if in_transcript:
+            # Skip wiki category and interlanguage link lines
+            stripped = line.strip()
+            if re.match(r"^(Category:\s|[a-z]{2}:)", stripped):
+                continue
+
             # Strip remaining wiki markup from raw lines
             line = strip_wiki_markup(line)
 
