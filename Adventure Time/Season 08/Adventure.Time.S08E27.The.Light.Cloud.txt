@@ -6,7 +6,7 @@ Jake:  What a wild adventure, yellow stretching dog.
 
 Lady Rainicorn:  You said it, beautiful baby boy.
 
-[Rumbling]Huh? Huh?
+[Rumbling] Huh? Huh?
 
 Crowd:  The guardian!
 
@@ -120,7 +120,7 @@ Minerva:  We have everything you could need.
 
 Frieda:  You hungry?
 
-[Snaps fingers]Always.
+[Snaps fingers] Always.
 
 Finn:  Minerva bot, please show him today’s specials.
 
@@ -200,7 +200,7 @@ Minerva:  You should be angry --at me.
 
 Frieda:  Nah. I'm over it.
 
-[Indistinct conversations]Finn: Hey, everyone!
+[Indistinct conversations] Finn: Hey, everyone!
 
 Minerva:  Uh, excuse me.
 
@@ -276,19 +276,19 @@ Hey, this guy is great!
 
 Finn:  What are we hanging around here for?
 
-[Crowd murmuring]What?!
+[Crowd murmuring] What?!
 
 Minerva:  I did want to leave the island when I was younger, but --
 
 Finn:  You can leave now. Just come with me.
 
-[Crowd cheering]They're actually listening to him.
+[Crowd cheering] They're actually listening to him.
 
 Minerva bot:  All aboard!
 
 [Cheering continues]
 
-[Feedback]Patch me into all Minerva bots.
+[Feedback] Patch me into all Minerva bots.
 
 Minerva:  Attention!
 
@@ -384,7 +384,7 @@ Jake:  What a wild adventure, yellow stretching dog.
 
 Lady Rainicorn:  You said it, beautiful baby boy.
 
-[Rumbling]Huh? Huh?
+[Rumbling] Huh? Huh?
 
 Finn:  Oh, yeah.
 

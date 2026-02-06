@@ -106,9 +106,9 @@ LSP:  Oh, Glob!
 
 Finn or Jake:  What's going on?
 
-Announcer/Host Character:  Blechfast Princess,Bileberry Princess,
+Announcer/Host:  Blechfast Princess,Bileberry Princess,
 
-Announcer/Host Character:  and Hot Blob Princess are about to skate.
+Announcer/Host:  and Hot Blob Princess are about to skate.
 
 LSP:  The Snack Pack!
 
@@ -118,21 +118,21 @@ LSP:  Stink Pack!
 
 Crowd/Background Characters:  Ooh.Ooh. Ooh.Ooh.
 
-Announcer/Host Character:  Skate battle!Byow‐byow‐byow!
+Announcer/Host:  Skate battle!Byow‐byow‐byow!
 
 Crowd/Background Characters:  Wawawa!
 
-Announcer/Host Character:  Classic street slime rules --
+Announcer/Host:  Classic street slime rules --
 
-Announcer/Host Character:  quack grinds,sheering the duck,
+Announcer/Host:  quack grinds,sheering the duck,
 
-Announcer/Host Character:  or insincere hot‐dogging
+Announcer/Host:  or insincere hot‐dogging
 
-Announcer/Host Character:  will result in instant disqualification!
+Announcer/Host:  will result in instant disqualification!
 
-Announcer/Host Character:  First up....
+Announcer/Host:  First up....
 
-Announcer/Host Character:  The Bearnicks!
+Announcer/Host:  The Bearnicks!
 
 ♪♪
 
@@ -204,7 +204,7 @@ LSP:  My new, totally awesome team,The Lumps, challenges my old team,The Stupids
 
 [Cheers and applause]
 
-Announcer/Host Character:  First up...
+Announcer/Host:  First up...
 
 The Lumps.
 
