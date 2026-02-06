@@ -90,16 +90,12 @@ Huntress:  Witch Wizard! No. Finn!
 [- [straining] - [wick hissing]]
 Huntress:  Huh?
 [explosion]
-Huntress:  <i>Well, it finally happened.</i> <i>I lost the bar.</i>
-[cries]
+Huntress:  Well, it finally happened.I lost the bar.[cries]
 [audience laughing]
 [glass breaking]
-Huntress:  <i>So no tab then?</i> [Norm cries] <i>Frasier, the took Cheers.</i>
-Frasier:  <i>Heavens!</i> <i>That's terrible.</i> [groans] Piece of junk.
-Frasier:  <i>Let me</i> <i>buy you a drink, Sam.</i>
-Sam:  <i>It's my bar.</i>
-[audience laughing]
-Cliff:  <i>Was your bar.</i> Since when did greyhounds have onions in them? She's still sore about when I worked here.
+Huntress:  So no tab then? [Norm cries] Frasier, the took Cheers.Frasier:  Heavens!That's terrible. [groans] Piece of junk.
+Frasier:  Let mebuy you a drink, Sam.Sam:  It's my bar.[audience laughing]
+Cliff:  Was your bar. Since when did greyhounds have onions in them? She's still sore about when I worked here.
 [- [munching] - [Ruby] Sore?]
 Cliff:  You broke all my top shelf liquor doing your stupid routines. It's called flair. Check it.
 [gulping]
@@ -116,16 +112,13 @@ Cliff:  Ruby, you got any oven mitts or foil I can wrap myself in? Cake, he's a 
 Gary:  I'm really sorry I suggested the spot. I thought it was abandoned. I mean, technically, we did squat there. Yeah, but the whole concept of ownership is jacked.
 [phone vibrating]
 Gary:  [groans] Where am I gonna live now? You could always, you know, stay at my place. Oh. Um... Really? Aw, you angels. But what about your bakery dreams? [sighs] Queenie won this one, Fionna.
-Cliff:  <i>Aw, don't let him</i> <i>get you down, Sam.</i> <i>Not yet.</i> <i>Cheers can come back</i> <i>bigger and crazier than ever.</i> <i>You can do it.</i>
-Norm:  <i>You can do it, Sam.</i>
-Frasier:  <i>Save Cheers.</i>
-Cliff:  <i>Eh, we gotta</i> <i>drink somewhere.</i> Cliff is right. Cheers... Uh... We just got to come back bigger and crazier than ever.
+Cliff:  Aw, don't let himget you down, Sam.Not yet.Cheers can come backbigger and crazier than ever.You can do it.Norm:  You can do it, Sam.Frasier:  Save Cheers.Cliff:  Eh, we gottadrink somewhere. Cliff is right. Cheers... Uh... We just got to come back bigger and crazier than ever.
 [- Unstoppable. - [glass shattering]]
 [Ruby grumbling]
 Kirin:  Oh, how about a leech? Like a giant, magical, healing leech? You know, to suck out all the poison. What? No, no. That doesn't exist. Look for any mentions of "The Heart of the Forest." Check the ancient texts, the new stuff, the joke books. Yes. He seems to be under a powerful enchantment.
-Princess Bubblegum:  <i>What does Huntress Wizard say?</i> She didn't. I don't know when Huntress is coming back. Hmm, no mention of a heart, but check it. Distendo!
+Princess Bubblegum:  What does Huntress Wizard say? She didn't. I don't know when Huntress is coming back. Hmm, no mention of a heart, but check it. Distendo!
 [pops]
-Simon:  Pep. Give him some space, students. Oh, Finn. <i>It's going to be all right.</i> I'm at my wit's end. Don't worry, Simon. I've sent help.
+Simon:  Pep. Give him some space, students. Oh, Finn. It's going to be all right. I'm at my wit's end. Don't worry, Simon. I've sent help.
 [- [Banana Guard 1 mimics siren] - [engine rumbling]]
 [crashes]
 [grunts]
@@ -152,7 +145,7 @@ Finn:  Whoa, whoa! Hmm.
 Finn:  Yep, I'm on Babyworld Finn duty tonight. Nah, Peptank's got a thing.
 [party music playing]
 Finn:  Listen, you're super old. You've probably bought a bunch of property, right? Well, you know, the market was always so crazy and... Stop that. Was I supposed to be saving money this whole time? What the heck is an APR? [groans] How was I supposed to know any of this?
-Simon:  <i>Put that away.</i> Are you out? What's all that noise? No. What are you doing? I gotta get the boba out of his neck. That's his Adam's apple. Oh. You're a good doctor.
+Simon:  Put that away. Are you out? What's all that noise? No. What are you doing? I gotta get the boba out of his neck. That's his Adam's apple. Oh. You're a good doctor.
 [mimicking ambulance siren]
 [thunder rumbling]
 [light flickering]
@@ -166,21 +159,19 @@ Simon:  Hello.
 [screaming]
 [straining]
 [panting]
-The Voice:  <i>You all right up there?</i> Huh? <i>Oh, a visitor.</i>
-[zaps]
+The Voice:  You all right up there? Huh? Oh, a visitor.[zaps]
 The Voice:  Who's there?
 [grunts]
 The Voice:  This place is crazy.
 [screams]
 The Voice:  I have to get back to Ooo.
-The Voice:  <i>You wish to leave</i> <i>this place, little homey?</i> Yes.
-The Voice:  <i>You just</i> <i>gotta choose</i> <i>which direction</i> <i>you want to grow.</i> Choose.
+The Voice:  You wish to leavethis place, little homey? Yes.
+The Voice:  You justgotta choosewhich directionyou want to grow. Choose.
 [growling]
-Simon:  <i>I'm in the ambulance</i> <i>with Finn.</i> There.
-Fionna:  Simon! Simon, seriously. What's going on? [Simon sighs] <i>I'm in the ambulance with Finn.</i> Oh, no. <i>Is it bad?</i> Fionna, Finn's gonna be fine. He's got a lot of people pulling for him. But what if people pulling for him doesn't matter? What if they give up on him?
+Simon:  I'm in the ambulancewith Finn. There.
+Fionna:  Simon! Simon, seriously. What's going on? [Simon sighs] I'm in the ambulance with Finn. Oh, no. Is it bad? Fionna, Finn's gonna be fine. He's got a lot of people pulling for him. But what if people pulling for him doesn't matter? What if they give up on him?
 [- We won't. I promise. - [defibrillator charging]]
-Banana Guard:  <i>Clear.</i>
-[- [Banana Guard screams] - [phone call ends]]
+Banana Guard:  Clear.[- [Banana Guard screams] - [phone call ends]]
 [straining]
 Banana Guard:  Hey, no!
 [sighs]
