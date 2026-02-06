@@ -436,7 +436,7 @@ It was.
 
 Minerva:  Take care of yourself in Ooo.
 
-Minerva bot (Susan):  Be careful when you're eating blueberries.
+Minerva bot:  Be careful when you're eating blueberries.
 
 Too many can hurt your tummy.
 
