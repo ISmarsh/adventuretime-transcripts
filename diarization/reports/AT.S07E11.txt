@@ -1,0 +1,86 @@
+Episode: AT.S07E11 (Take Her Back)
+12 speaker clusters, 242 total segments
+
+
+SPEAKER_00 (24 segs, 36.6s, 11 embedded)
+  "That's like you, PB."
+  "Don't believe in yourself so much then, dum-dum."
+  "Word."
+  "Hey, wait!"
+  "What should I do?"
+
+SPEAKER_01 (51 segs, 89.5s, 23 embedded)
+  "Cut it out!"
+  "That's not helping her."
+  "Sorry guys, there are no cure-alls."
+  "Your parents were just burping on you for kicks."
+  "Pride, hmm."
+
+SPEAKER_02 (2 segs, 1.8s, 0 embedded)
+  "Get it back in the face!"
+  "Go get his blood bucket!"
+
+SPEAKER_03 (3 segs, 10.3s, 2 embedded)
+  "This process uses no tubes and involves no quantifiable measurements."
+  "Calm your mind and let the crystal medium work its magic."
+  "It's science."
+
+SPEAKER_04 (22 segs, 26.5s, 6 embedded)
+  "I get poisoned all the time just doing the dishes."
+  "I get poisoned on purpose."
+  "For research."
+  "I have a poison lab back at the castle."
+  "Hmm."
+
+SPEAKER_05 (4 segs, 11.2s, 4 embedded)
+  "You run in the path of my light!"
+  "How can you lead me when I am your guide?"
+  "That's not really why I'm crying."
+  "Princess, we really miss you!"
+
+SPEAKER_06 (22 segs, 60.4s, 10 embedded)
+  "Oh yeah, that makes sense."
+  "Oh, sorry, last one."
+  "What did you eat, Jake?"
+  "Hey now, I pride myself in having nice smelling burps."
+  "Just kidding."
+
+SPEAKER_07 (12 segs, 13.6s, 2 embedded)
+  "What?!"
+  "Run!"
+  "That's her voice!"
+  "Roger!"
+  "Run!"
+
+SPEAKER_08 (78 segs, 117.3s, 28 embedded)
+  "But Mom and Dad always burped on us."
+  "It's a cure-all!"
+  "It's like an old-timey deity who weighed your deeds on a scale."
+  "Moon pearls."
+  "We're on our trail."
+
+SPEAKER_09 (3 segs, 22.5s, 3 embedded)
+  "The moon."
+  "It's spring again, and the yard is full of tiny flowers."
+  "You used to call them weeds, and you killed them all."
+
+SPEAKER_10 (8 segs, 40.3s, 6 embedded)
+  "Time to time."
+  "Don't slip away at me."
+  "Loving flows like a garden rose."
+  "Rising grows."
+  "Love out of time."
+
+SPEAKER_11 (4 segs, 14.0s, 3 embedded)
+  "Adventure time, come on, grab your friends."
+  "We're going to a very distant land with Finn and Jake and Marceline and Princess"
+  "It's adventure time."
+  "Wait, I was hunting a vampire."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_08: 0.535
+  SPEAKER_01 <-> SPEAKER_04: 0.516
+  SPEAKER_09 <-> SPEAKER_10: 0.516
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E11.npz

@@ -1,0 +1,68 @@
+Episode: AT.S09E04 (Winter Light)
+9 speaker clusters, 184 total segments
+
+
+SPEAKER_00 (3 segs, 8.2s, 3 embedded)
+  "The Goose is loose."
+  "There's no point in having friends."
+  "Because everything will end."
+
+SPEAKER_01 (27 segs, 58.5s, 16 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very messed up lands With Finn and Jake, "
+  "Even if I felt like it, I can't."
+  "Let me show you."
+  "The Princesses and I are the Elementals incarnate."
+
+SPEAKER_02 (8 segs, 24.9s, 8 embedded)
+  "You sure put a magical amount of pepper in it."
+  "Yeah, I feel drained like a dirty bathtub."
+  "Man, there's got to be something we can do about patience of spell."
+  "You know, ancient magic was actually my major."
+  "And there is one artifact that could potentially help us, a book called The Ench"
+
+SPEAKER_03 (3 segs, 40.0s, 2 embedded)
+  "It's a humid night The moon is getting full again Somewhere there's a slight fig"
+  "Come along with me"
+  "and the butterflies and bees"
+
+SPEAKER_04 (23 segs, 33.5s, 7 embedded)
+  "What are you doing?"
+  "This is my..."
+  "This is my house!"
+  "Carol?"
+  "Finn?"
+
+SPEAKER_05 (21 segs, 38.2s, 8 embedded)
+  "So that's the only way in and out?"
+  "I never said that."
+  "Can you help Captain Tasty find the hidden..."
+  "This is a placemat from a seafood restaurant."
+  "Now that's bespoke."
+
+SPEAKER_06 (56 segs, 84.2s, 16 embedded)
+  "Thanks."
+  "Well, maybe there's some kind of weak point or secret entrance."
+  "Huh?"
+  "Ah!"
+  "Oh my glob!"
+
+SPEAKER_07 (39 segs, 84.6s, 22 embedded)
+  "Okay, fellas, using these blueprints I acquired, we're gonna take down patient S"
+  "But first, we have to crack through the ice dome that covers the land, avoid the"
+  "We'll enter via the sewer line."
+  "And this word search is way too hard."
+  "That's because you ain't got spy skills like me."
+
+SPEAKER_08 (3 segs, 19.2s, 2 embedded)
+  "Huh?"
+  "Oh, I get it."
+  "Brr."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_07: 0.399
+  SPEAKER_07 <-> SPEAKER_08: 0.363
+  SPEAKER_01 <-> SPEAKER_02: 0.354
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S09E04.npz

@@ -1,0 +1,50 @@
+Episode: AT.S06E31 (Walnuts & Rain)
+6 speaker clusters, 172 total segments
+
+
+SPEAKER_00 (2 segs, 25.9s, 1 embedded)
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (5 segs, 49.4s, 5 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Ahh!"
+  "No!"
+  "Ah..."
+
+SPEAKER_02 (45 segs, 142.3s, 26 embedded)
+  "Oh, good, you're awake."
+  "Good, good, good, good, good."
+  "How you feeling?"
+  "Well, here I was playing some freestyle, and then, wow, you fell down the hole."
+  "You bounced off parachute number two and landed on three old walnuts."
+
+SPEAKER_03 (47 segs, 112.0s, 29 embedded)
+  "And when that salsa cloud had you by the tail?"
+  "Yeah."
+  "I can't wait to get back home, though."
+  "Yeah, me too."
+  "I need some space."
+
+SPEAKER_04 (44 segs, 121.7s, 29 embedded)
+  "Oh, that's wonderful."
+  "Why, this is the Fang Kingdom of Huge, of course."
+  "You fell through that crack in my ceiling and landed in a normal-sized pie."
+  "Oh, no, no, no."
+  "Don't be silly, child."
+
+SPEAKER_05 (27 segs, 34.7s, 8 embedded)
+  "Yeah, and I swung him around into that golden cactus."
+  "Man, that was algebraic."
+  "Yeah, man, that adventure was tight."
+  "Finn?"
+  "Ahh!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.298
+  SPEAKER_03 <-> SPEAKER_04: 0.292
+  SPEAKER_01 <-> SPEAKER_04: 0.224
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E31.npz

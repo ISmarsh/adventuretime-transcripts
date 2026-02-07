@@ -1,0 +1,71 @@
+Episode: AT.S06E35 (Graybles 1000+)
+9 speaker clusters, 147 total segments
+
+
+SPEAKER_00 (5 segs, 33.3s, 4 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Hello, label."
+  "Cuber, label brother, where are you?"
+  "Never mind."
+
+SPEAKER_01 (2 segs, 26.7s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "to a cliff under a tree"
+
+SPEAKER_02 (12 segs, 41.1s, 9 embedded)
+  "I will marry you, Ice King!"
+  "I will marry you, Ice King!"
+  "I will marry you!"
+  "Oh, yeah."
+  "Good morning, madness."
+
+SPEAKER_03 (15 segs, 41.0s, 11 embedded)
+  "Oh, come on."
+  "It's Finn."
+  "Hey, Finn, I'm a whittlebane."
+  "Hey, Finn, I'm a whittlebane."
+  "Hey, Finn, I'm a whittlebane."
+
+SPEAKER_04 (7 segs, 11.0s, 3 embedded)
+  "I see that Mr. Cupcake is at Madame Eclair's apartment again."
+  "His massage business is really taking off."
+  "Hmm."
+  "Starchy?"
+  "Starchy?"
+
+SPEAKER_05 (11 segs, 12.6s, 4 embedded)
+  "What?"
+  "BMO, you gotta let me dig this hole."
+  "It's important."
+  "Yeah."
+  "We beat this evil wizard, see?"
+
+SPEAKER_06 (16 segs, 40.1s, 8 embedded)
+  "Don't listen to him, BMO."
+  "I beat the wizard."
+  "So I'm making Finn dig the hole, even though I can do it in like two seconds."
+  "Heh, heh, heh."
+  "So it's too strong, so we're burying it for safety."
+
+SPEAKER_07 (18 segs, 28.3s, 11 embedded)
+  "It's time for the wedding!"
+  "Yes, sir."
+  "Starchy is just going for a walk."
+  "Crass lard."
+  "Oh, look, wildflowers."
+
+SPEAKER_08 (60 segs, 173.9s, 36 embedded)
+  "Oh, this cave air is doing wonders for my physiological people."
+  "But I'm a baby."
+  "Tuber?"
+  "Sister Tuber?"
+  "Beeple, beeple, beeple."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_03: 0.461
+  SPEAKER_00 <-> SPEAKER_01: 0.451
+  SPEAKER_02 <-> SPEAKER_07: 0.402
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E35.npz

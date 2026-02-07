@@ -1,0 +1,74 @@
+Episode: AT.S08E06 (Bun Bun)
+9 speaker clusters, 238 total segments
+
+
+SPEAKER_00 (3 segs, 31.2s, 1 embedded)
+  "It's your time, come on grab your friends We'll go to very distant lands We'll t"
+  "Come along with me"
+  "And the butterflies and bees This party is so crazy!"
+
+SPEAKER_01 (30 segs, 59.7s, 16 embedded)
+  "I don't get sad."
+  "I'm evil."
+  "I'm just bored of this intense loneliness."
+  "Um, who are you?"
+  "Sure, I like dogs."
+
+SPEAKER_02 (42 segs, 57.8s, 14 embedded)
+  "Understood."
+  "Yo, yo, yo, yo!"
+  "I'm here!"
+  "Hey, Finn!"
+  "What's up, my main cinnaman?"
+
+SPEAKER_03 (5 segs, 12.5s, 4 embedded)
+  "In the human, he wears a bear hat."
+  "Someday he'll be old and fat."
+  "Unless he is immortal or a turtle."
+  "Because turtles always love gold."
+  "Turtles got told by me, Phoebe, pure gold."
+
+SPEAKER_04 (30 segs, 45.6s, 10 embedded)
+  "Bun Bun, we'll have to run you through some security checks."
+  "Turn around."
+  "Jump back."
+  "Jump forward."
+  "Reach for the sky."
+
+SPEAKER_05 (17 segs, 39.5s, 11 embedded)
+  "Cinnamon Bun, welcome."
+  "Please deliver this card to the Slime Kingdom."
+  "Yo, yo, yo, yo, yo, yo, yo, yo, yo!"
+  "Sit down, CB."
+  "Let's catch up."
+
+SPEAKER_06 (41 segs, 67.9s, 20 embedded)
+  "Everyone watch, I'm gonna do a flip!"
+  "Hi, I'm Bun Bun."
+  "Yay!"
+  "Um, it feels good, I think."
+  "What's the opposite of good?"
+
+SPEAKER_07 (7 segs, 8.5s, 3 embedded)
+  "Yeah, the princess is expecting you."
+  "Oh-ho-ho-ho!"
+  "Bun-bun!"
+  "Wow."
+  "Oh!"
+
+SPEAKER_08 (56 segs, 99.4s, 24 embedded)
+  "Hey, Cinnamon Bun."
+  "Hi, I'm here on diplomatic business."
+  "On behalf of the Fire Kingdom, here's the get well card for Hot Dog Princess."
+  "Please pass it along to the next princess after you've signed."
+  "Uh..."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.651  <- possible match
+  SPEAKER_03 <-> SPEAKER_04: 0.624  <- possible match
+  SPEAKER_04 <-> SPEAKER_05: 0.651
+  SPEAKER_03 <-> SPEAKER_04: 0.624
+  SPEAKER_03 <-> SPEAKER_05: 0.543
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E06.npz

@@ -7,6 +7,14 @@
     "SPEAKER_04": "Sweet P",
     "SPEAKER_06": "LSP"
   },
-  "skipped": [],
-  "timestamp": "2026-02-06T22:17:16"
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_05",
+    "SPEAKER_07"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:48:15"
 }

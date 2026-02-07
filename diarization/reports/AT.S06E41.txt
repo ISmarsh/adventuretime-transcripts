@@ -1,0 +1,56 @@
+Episode: AT.S06E41 (On the Lam)
+7 speaker clusters, 140 total segments
+
+
+SPEAKER_00 (7 segs, 33.2s, 6 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Here comes the rascal!"
+  "Huh."
+  "Grab him!"
+
+SPEAKER_01 (4 segs, 12.6s, 2 embedded)
+  "Oh, the barrels."
+  "Yes, I just can't wait for tonight when I get to haul these barrels out to the d"
+  "I hate this city, and I love hauling."
+  "I should go do something."
+
+SPEAKER_02 (2 segs, 27.6s, 1 embedded)
+  "Come along with me"
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+SPEAKER_03 (4 segs, 16.5s, 3 embedded)
+  "So, how's the goop?"
+  "Sorry, I meticulously stashed it away beneath the bar, right..."
+  "Here!"
+  "It's the rebel leader!"
+
+SPEAKER_04 (16 segs, 35.6s, 8 embedded)
+  "A cold tankard of alien goop."
+  "Tankard of goop."
+  "Coming right up."
+  "So, have you been here before?"
+  "I don't remember."
+
+SPEAKER_05 (93 segs, 194.9s, 46 embedded)
+  "Yum, yum!"
+  "That's right, you silly guards."
+  "Stay distracted, talking to each other."
+  "And when you least expect it, old Martin is gonna steal those gold helmets off y"
+  "The very thing that got me imprisoned here in the first place."
+
+SPEAKER_06 (11 segs, 34.9s, 8 embedded)
+  "Hey, you two mugs, be on the lookout for rebels."
+  "Yum, yum, yum, yum, yum, yum, yum, yum, yum, yum, yum."
+  "Papa."
+  "Papa?"
+  "Guards, guards, it's the rebel leader!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.601  <- possible match
+  SPEAKER_03 <-> SPEAKER_04: 0.601
+  SPEAKER_04 <-> SPEAKER_05: 0.491
+  SPEAKER_01 <-> SPEAKER_06: 0.334
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E41.npz

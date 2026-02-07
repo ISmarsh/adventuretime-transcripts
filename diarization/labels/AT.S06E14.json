@@ -1,0 +1,22 @@
+{
+  "episode_id": "AT.S06E14",
+  "title": "Princess Day",
+  "season": 6,
+  "speaker_map": {
+    "SPEAKER_04": "Marceline",
+    "SPEAKER_05": "Princess Bubblegum",
+    "SPEAKER_08": "LSP"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_09"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:48:15"
+}

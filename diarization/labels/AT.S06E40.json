@@ -1,0 +1,23 @@
+{
+  "episode_id": "AT.S06E40",
+  "title": "Orgalorg",
+  "season": 6,
+  "speaker_map": {
+    "SPEAKER_03": "Bufo",
+    "SPEAKER_05": "Ice King",
+    "SPEAKER_10": "LSP"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_04",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_09"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:48:15"
+}

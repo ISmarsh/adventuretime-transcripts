@@ -1,0 +1,26 @@
+{
+  "episode_id": "AT.S06E25",
+  "title": "Astral Plane",
+  "season": 6,
+  "speaker_map": {
+    "SPEAKER_03": "Jake",
+    "SPEAKER_10": "Ice King",
+    "SPEAKER_11": "Finn_S04-S06"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_12",
+    "SPEAKER_13"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:48:15"
+}

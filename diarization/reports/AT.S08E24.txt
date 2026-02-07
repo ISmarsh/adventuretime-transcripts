@@ -1,0 +1,53 @@
+Episode: AT.S08E24 (Hide and Seek)
+6 speaker clusters, 202 total segments
+
+
+SPEAKER_00 (33 segs, 65.6s, 15 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands With Ben and Jake and "
+  "No."
+  "It used to be a desert island."
+  "So how's your experimenter classes going, Frida?"
+
+SPEAKER_01 (19 segs, 32.5s, 7 embedded)
+  "You didn't think that was cute, did you?"
+  "Come on, I'm innocent, I told you."
+  "I'm just a handsome bystander."
+  "Ah!"
+  "Ooh."
+
+SPEAKER_02 (8 segs, 18.0s, 4 embedded)
+  "Oh, hey."
+  "I made a... Whee!"
+  "Huh, this was more fun in my dreams."
+  "Find them."
+  "Catch them."
+
+SPEAKER_03 (47 segs, 164.0s, 29 embedded)
+  "Kara."
+  "Kara."
+  "Kara!"
+  "Yes, Dr."
+  "Gross?"
+
+SPEAKER_04 (86 segs, 117.2s, 26 embedded)
+  "I'll help you."
+  "What have you got for me, Kara?"
+  "A saddle hider with two busted legs."
+  "Oh, I love busted legs."
+  "When will he be at full health?"
+
+SPEAKER_05 (9 segs, 23.9s, 3 embedded)
+  "Find them."
+  "Catch them."
+  "Find them."
+  "Catch them."
+  "New patient for Doctor Minerva on Deck 3."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.438
+  SPEAKER_01 <-> SPEAKER_02: 0.326
+  SPEAKER_02 <-> SPEAKER_03: 0.286
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E24.npz

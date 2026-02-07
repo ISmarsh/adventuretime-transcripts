@@ -1,0 +1,18 @@
+{
+  "episode_id": "AT.S06E33",
+  "title": "Jermaine",
+  "season": 6,
+  "speaker_map": {
+    "SPEAKER_00": "Finn_S04-S06",
+    "SPEAKER_02": "Jake",
+    "SPEAKER_03": "Jermaine"
+  },
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_04",
+    "SPEAKER_05"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:48:15"
+}

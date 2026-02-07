@@ -1,0 +1,74 @@
+Episode: AT.S07E04 (Mama Said)
+10 speaker clusters, 237 total segments
+
+
+SPEAKER_00 (5 segs, 41.7s, 5 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Mama said, Mama said."
+  "Come along with me."
+  "and the butterflies and bees"
+
+SPEAKER_01 (49 segs, 77.8s, 18 embedded)
+  "You hear that?"
+  "Yeah."
+  "It's pretty."
+  "You want to go check it out?"
+  "Mm, yeah."
+
+SPEAKER_02 (3 segs, 11.3s, 1 embedded)
+  "Whoops!"
+  "What?"
+  "I'm flying!"
+
+SPEAKER_03 (2 segs, 8.4s, 2 embedded)
+  "I am an excellent source of vitamin B, copper, and zinc."
+  "Uh, congrats?"
+
+SPEAKER_04 (8 segs, 48.1s, 6 embedded)
+  "Though often referred to as mushroom tea, the fermented drink kombucha is actual"
+  "Mushroom chop!"
+  "The branch of biology dealing with fungi is called mycology."
+  "Since mushrooms contain no chlorophyll, they are unable to make their own food t"
+  "Mushrooms are gentle to clean me... Whoa!"
+
+SPEAKER_05 (70 segs, 102.4s, 27 embedded)
+  "There, right there."
+  "Do you see?"
+  "Stools."
+  "Huh?"
+  "They're stools, not chairs."
+
+SPEAKER_06 (59 segs, 104.9s, 19 embedded)
+  "Uh, yeah, it's a small thing."
+  "Actually, I'm kind of glad we're walking in this direction."
+  "We never walk in this direction."
+  "Hey, how long do you think capturing a flying mushroom takes?"
+  "Well, we gotta find one first."
+
+SPEAKER_07 (29 segs, 47.5s, 12 embedded)
+  "Hey, do you have any bigger chairs?"
+  "Looks like a mushroom."
+  "Yeah, that too."
+  "How long?"
+  "But you know PB just left her kingdom to him and all her stuff."
+
+SPEAKER_08 (2 segs, 0.7s, 0 embedded)
+  "What?"
+  "Uh..."
+
+SPEAKER_09 (6 segs, 17.3s, 6 embedded)
+  "Uh... Mama?"
+  "Mama said there'd be days like this."
+  "There'd be days like this, Mama said."
+  "Mama said there'd be days like this."
+  "There'd be days like this, my mama said."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_04: 0.620  <- possible match
+  SPEAKER_02 <-> SPEAKER_04: 0.620
+  SPEAKER_00 <-> SPEAKER_02: 0.535
+  SPEAKER_07 <-> SPEAKER_09: 0.448
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E04.npz

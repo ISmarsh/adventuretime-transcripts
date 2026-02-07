@@ -1,0 +1,69 @@
+Episode: AT.S07E07 (Everything Stays)
+9 speaker clusters, 179 total segments
+
+
+SPEAKER_00 (3 segs, 45.6s, 0 embedded)
+  "Let's go in the garden You'll find something waiting Right there where you left "
+  "What the heck is this?"
+  "This party is over!"
+
+SPEAKER_01 (8 segs, 15.0s, 4 embedded)
+  "And then he said, fine."
+  "And that's the story of how I met your dad."
+  "No, Marceline, sweetie, it's nap time."
+  "All dreams are weird."
+  "Honey, something weird might just be something familiar viewed from a different "
+
+SPEAKER_02 (67 segs, 171.0s, 34 embedded)
+  "Adventure time, come on, grab your friends."
+  "We're going to a very distant land with Finn and Jake and Marceline and Princess"
+  "It's adventure time."
+  "Marceline, no!"
+  "Wait!"
+
+SPEAKER_03 (2 segs, 2.4s, 1 embedded)
+  "Don't worry."
+  "We'll be ready for it."
+
+SPEAKER_04 (11 segs, 21.2s, 5 embedded)
+  "Well, you got me."
+  "What gave it away?"
+  "The boots?"
+  "Why can't you just let us eat humans?"
+  "You're like messing up the natural order."
+
+SPEAKER_05 (35 segs, 86.9s, 21 embedded)
+  "Go away, vampire."
+  "Oh, you want old tube red tom to play the song."
+  "No, the child is right."
+  "As humans, it's our duty to tell the tales, to sing the songs."
+  "Art must survive."
+
+SPEAKER_06 (18 segs, 40.5s, 9 embedded)
+  "I don't know if you'll ever hear this message."
+  "I fear my thoughts are no longer my own."
+  "Just watch over me until I can find my way out of this labyrinth in my brain and"
+  "And then maybe Betty, my princess, maybe you will love me again."
+  "Please love me again, Betty!"
+
+SPEAKER_07 (18 segs, 52.0s, 10 embedded)
+  "Don't let anyone read my diaries!"
+  "Burn them, Finn!"
+  "They're embarrassing!"
+  "Ouch!"
+  "Goodbye, Marcy."
+
+SPEAKER_08 (15 segs, 25.7s, 8 embedded)
+  "Can I play now?"
+  "But I don't want to sleep."
+  "My dreams are weird."
+  "But, Mom, my dreams are weeee-eard."
+  "Hey, Simon."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_06: 0.481
+  SPEAKER_03 <-> SPEAKER_05: 0.442
+  SPEAKER_04 <-> SPEAKER_05: 0.374
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E07.npz

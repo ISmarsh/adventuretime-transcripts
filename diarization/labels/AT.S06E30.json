@@ -1,0 +1,23 @@
+{
+  "episode_id": "AT.S06E30",
+  "title": "The Diary",
+  "season": 6,
+  "speaker_map": {
+    "SPEAKER_07": "Jake",
+    "SPEAKER_09": "BMO"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_08",
+    "SPEAKER_10"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:48:15"
+}

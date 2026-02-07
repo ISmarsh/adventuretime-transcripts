@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S06E21",
+  "title": "Dentist",
+  "season": 6,
+  "speaker_map": {
+    "SPEAKER_04": "Jake",
+    "SPEAKER_05": "Finn_S04-S06"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:48:15"
+}

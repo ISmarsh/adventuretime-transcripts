@@ -1,0 +1,56 @@
+Episode: AT.S08E02 (Don't Look)
+7 speaker clusters, 236 total segments
+
+
+SPEAKER_00 (3 segs, 37.6s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "I just had a most wonderful dream."
+
+SPEAKER_01 (16 segs, 29.0s, 7 embedded)
+  "Let's go."
+  "Oh."
+  "I'm not doing anything wrong."
+  "I was just lady watching."
+  "Where'd my muscles go?"
+
+SPEAKER_02 (74 segs, 123.8s, 37 embedded)
+  "Hmm, make more friends with Sing Talking."
+  "Ha!"
+  "That's a dumb story."
+  "I love dumb stories."
+  "What would you change about yourself if you got that treasure?"
+
+SPEAKER_03 (111 segs, 159.6s, 34 embedded)
+  "Hey there, Finn, whatcha reading?"
+  "It's a manuscript about the legend of Dead Mountain."
+  "Supposedly, if you get to the top, there's a treasure that will change you into "
+  "Nah, I'd like to be taller."
+  "How tall are we talking about?"
+
+SPEAKER_04 (3 segs, 4.6s, 2 embedded)
+  "Hey, ice cube!"
+  "Oh, no."
+  "Yay!"
+
+SPEAKER_05 (6 segs, 11.4s, 3 embedded)
+  "Hey dudes, nice eyes, Finn."
+  "What's the word?"
+  "What's the heps?"
+  "What's your major?"
+  "You're a nerd."
+
+SPEAKER_06 (23 segs, 44.2s, 11 embedded)
+  "You're awake!"
+  "You want some tea?"
+  "Or saltine crackers?"
+  "I am a real boy!"
+  "With wings!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_04: 0.404
+  SPEAKER_00 <-> SPEAKER_04: 0.398
+  SPEAKER_01 <-> SPEAKER_02: 0.356
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E02.npz
