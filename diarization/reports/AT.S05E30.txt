@@ -1,0 +1,69 @@
+Episode: AT.S05E30 (Frost & Fire)
+10 speaker clusters, 186 total segments
+
+
+SPEAKER_00 (4 segs, 22.7s, 3 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Milk."
+  "Milk."
+
+SPEAKER_01 (1 segs, 25.0s, 0 embedded)
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (4 segs, 20.7s, 3 embedded)
+  "Oh, so good!"
+  "Take yourself!"
+  "Huh?"
+  "Uh... Whoa, whoa, whoa, whoa, whoa, whoa."
+
+SPEAKER_03 (12 segs, 21.0s, 7 embedded)
+  "Hmm, that's weird."
+  "I had a dream too."
+  "I'll tell you about it."
+  "So then paintings were found and everyone's eyes lit up."
+  "Cinnamon bun smiled and said, I saw it from miles away."
+
+SPEAKER_04 (2 segs, 7.2s, 2 embedded)
+  "Finn."
+  "What?"
+
+SPEAKER_05 (20 segs, 42.4s, 12 embedded)
+  "Huh?"
+  "Let me."
+  "Why don't you get a room?"
+  "My hams!"
+  "Beat it, you freaky old son!"
+
+SPEAKER_06 (23 segs, 35.6s, 8 embedded)
+  "Is this like eating for you?"
+  "I don't know about eating, but it feels nice."
+  "Why'd you pick this spot?"
+  "Why does anyone do anything?"
+  "Hmm, why do they?"
+
+SPEAKER_07 (64 segs, 124.3s, 28 embedded)
+  "Huh?"
+  "What's cooking?"
+  "Smells good."
+  "My body is engulfed in flames!"
+  "Jake, I had an awesome dream."
+
+SPEAKER_08 (47 segs, 113.1s, 24 embedded)
+  "Hey, you two should get a room!"
+  "You and that log!"
+  "Not you and Finn, because you're hugging a log, you weirdo!"
+  "Hey now, stay away from me!"
+  "Oh, so you want to get real, do you?"
+
+SPEAKER_09 (2 segs, 2.4s, 1 embedded)
+  "Eggs!"
+  "Gorilla!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_08: 0.564
+  SPEAKER_05 <-> SPEAKER_06: 0.535
+  SPEAKER_02 <-> SPEAKER_04: 0.401
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E30.npz

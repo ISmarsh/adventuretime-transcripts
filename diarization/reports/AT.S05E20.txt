@@ -1,0 +1,43 @@
+Episode: AT.S05E20 (Shh!)
+5 speaker clusters, 48 total segments
+
+
+SPEAKER_00 (14 segs, 22.5s, 4 embedded)
+  "Ow!"
+  "Ow!"
+  "Okay, fine!"
+  "Uncle!"
+  "Uncle!"
+
+SPEAKER_01 (4 segs, 31.1s, 4 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "I don't know."
+  "I think that's the answer."
+
+SPEAKER_02 (3 segs, 4.9s, 1 embedded)
+  "Ahh!"
+  "Oh, oh, oh..."
+  "Yeah."
+
+SPEAKER_03 (8 segs, 69.9s, 7 embedded)
+  "I invited some bikini babes over to dance to this song!"
+  "It's my favorite song!"
+  "What?"
+  "Why are you not talking?"
+  "BMO!"
+
+SPEAKER_04 (16 segs, 40.4s, 9 embedded)
+  "Finn!"
+  "Jake!"
+  "It makes me so happy!"
+  "Uh, why are you not talking?"
+  "What happened to Finn and Jake?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_03: 0.485
+  SPEAKER_02 <-> SPEAKER_04: 0.401
+  SPEAKER_01 <-> SPEAKER_02: 0.328
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E20.npz

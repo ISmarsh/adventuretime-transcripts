@@ -1,0 +1,85 @@
+Episode: AT.S05E16 (Puhoy)
+11 speaker clusters, 225 total segments
+
+
+SPEAKER_00 (7 segs, 26.3s, 3 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Huh?"
+  "Now this, I understand."
+  "Yes!"
+
+SPEAKER_01 (2 segs, 25.4s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (35 segs, 55.2s, 13 embedded)
+  "Beep!"
+  "Look out!"
+  "Beep!"
+  "Beep!"
+  "Pillow delivery!"
+
+SPEAKER_03 (5 segs, 14.7s, 5 embedded)
+  "Daddy, we're your kids."
+  "You're getting all hung up on imaginary problems."
+  "Stay with your new wife."
+  "You've known her longer now than any of us."
+  "You're not even sure I ever really existed, and I'm pretty sure I didn't look li"
+
+SPEAKER_04 (28 segs, 62.5s, 17 embedded)
+  "There you are, Finn the Human."
+  "All right, Finn."
+  "My name is Roslyn and daughter of Quilton."
+  "You have to call me the whole thing."
+  "Oh, uh... Just kidding."
+
+SPEAKER_05 (19 segs, 36.1s, 9 embedded)
+  "Maybe she just didn't get it yet."
+  "Oh, no!"
+  "My favorite window!"
+  "Oh, there you are."
+  "You found your mug."
+
+SPEAKER_06 (59 segs, 106.2s, 29 embedded)
+  "I guess I'm just thinking about Flame Princess."
+  "I told her a joke the other day, and she didn't even laugh or anything."
+  "Guess it's over between us."
+  "That's it?"
+  "A joke?"
+
+SPEAKER_07 (9 segs, 24.5s, 8 embedded)
+  "The pillow nomicon."
+  "Oh, my glob."
+  "There is no information about the door, save for the fact it shows up periodical"
+  "Quilton, I need to find that door."
+  "What did the Oracle say, Father?"
+
+SPEAKER_08 (25 segs, 62.4s, 15 embedded)
+  "Oof."
+  "He missed her."
+  "You'd better get one in Blanket Dragon."
+  "Hi there."
+  "I am Quilton, son of Pillowford, and you have saved our village."
+
+SPEAKER_09 (15 segs, 26.2s, 6 embedded)
+  "A pack of fearsome pillow goblins?"
+  "Ah, yes."
+  "Come in."
+  "Yes, and you must be Finn, the human man, seeker of the wandering portal."
+  "Yes."
+
+SPEAKER_10 (19 segs, 55.5s, 11 embedded)
+  "Ha ha ha ha ha ha ha!"
+  "Alphanumeric!"
+  "Pillow sheep, you're more fluff than sense."
+  "Oh, they have, have they?"
+  "Tiny pillows."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_09: 0.474
+  SPEAKER_07 <-> SPEAKER_08: 0.466
+  SPEAKER_08 <-> SPEAKER_09: 0.395
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E16.npz

@@ -1,0 +1,54 @@
+Episode: AT.S05E17 (BMO Lost)
+7 speaker clusters, 207 total segments
+
+
+SPEAKER_00 (5 segs, 36.7s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Hey man, it's safe in here."
+  "You can hide in here."
+  "Oh shoot man, uh oh."
+
+SPEAKER_01 (1 segs, 25.4s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and do so as we"
+
+SPEAKER_02 (2 segs, 4.6s, 2 embedded)
+  "Oh no, my face."
+  "Finn, Jake, kiss my face."
+
+SPEAKER_03 (35 segs, 78.6s, 14 embedded)
+  "Ricky?"
+  "Ricky?"
+  "Ricky!"
+  "Yay!"
+  "One second, sweetie."
+
+SPEAKER_04 (74 segs, 154.3s, 37 embedded)
+  "Dancing is cool, check it out yo This one is called the warm"
+  "Oh no, it's crazy far."
+  "Okay, now easy does it."
+  "Easy, easy."
+  "So, this is the pit."
+
+SPEAKER_05 (18 segs, 22.8s, 6 embedded)
+  "Jake?"
+  "Is that you at the door?"
+  "No, man."
+  "I'm in the kitchen, making us breakfast."
+  "I can't not answer the door, then."
+
+SPEAKER_06 (68 segs, 162.9s, 38 embedded)
+  "I hear that, friend."
+  "Do you mind if I wallow with you a bit?"
+  "I'm a bubble."
+  "That's what they say."
+  "Looks like you've given up on things."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.604  <- possible match
+  SPEAKER_03 <-> SPEAKER_04: 0.604
+  SPEAKER_02 <-> SPEAKER_03: 0.554
+  SPEAKER_02 <-> SPEAKER_04: 0.553
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E17.npz

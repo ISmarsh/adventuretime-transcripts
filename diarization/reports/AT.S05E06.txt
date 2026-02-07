@@ -1,0 +1,81 @@
+Episode: AT.S05E06 (Jake the Dad)
+10 speaker clusters, 182 total segments
+
+
+SPEAKER_00 (4 segs, 38.1s, 2 embedded)
+  "In a large mixing bowl, crack the eggs and whisk the milk, vanilla, and all eggs"
+  "Stay back, Jakey."
+  "Plus all my stuff is here."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (10 segs, 40.3s, 6 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+  "Yes!"
+
+SPEAKER_02 (10 segs, 17.0s, 5 embedded)
+  "Hey, free book."
+  "Hey everybody, look."
+  "Look at this book I found about eating babies."
+  "A book?"
+  "What's about eating babies?"
+
+SPEAKER_03 (4 segs, 8.3s, 4 embedded)
+  "I'll be right back."
+  "I said to the bread lady, what happened to your husband?"
+  "Easy bread, easy bread."
+  "I got all the bread you need."
+
+SPEAKER_04 (17 segs, 57.8s, 11 embedded)
+  "Puppies!"
+  "Puppies!"
+  "Puppies!"
+  "Puppies!"
+  "Is that a no?"
+
+SPEAKER_05 (4 segs, 10.3s, 4 embedded)
+  "Breakfast time."
+  "Sorry honey, I'm on guard duty."
+  "You're sleeping for both of us tonight."
+  "Breakfast ideas for pups."
+
+SPEAKER_06 (14 segs, 21.9s, 4 embedded)
+  "Hey, Jake!"
+  "Hey, lady!"
+  "We came to see your new pups."
+  "Oh, that's a butt."
+  "Pretty cute."
+
+SPEAKER_07 (21 segs, 71.6s, 16 embedded)
+  "They're just asleep."
+  "It's okay."
+  "You gotta be... a tough... you... a tough... dad."
+  "The puppies aren't moving!"
+  "There might be a giant fox out there."
+
+SPEAKER_08 (9 segs, 21.2s, 5 embedded)
+  "Yeah, Finn."
+  "I love all my little babies so much."
+  "I'm so hungry that there must be something wrong with my stomach, said the baby "
+  "Will one of you babies be so kind as to look inside my belly and see what's wron"
+  "Yeah, well, said the babies."
+
+SPEAKER_09 (85 segs, 190.7s, 49 embedded)
+  "Hey, dudes."
+  "They're still pretty sleepy."
+  "Sleepy little sweeties."
+  "Pups, meet everybody."
+  "Charlie, TV, Viola, Kim Kil Won, and this sweet little lady is Jake Jr. Aw!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_08: 0.652  <- possible match
+  SPEAKER_08 <-> SPEAKER_09: 0.648  <- possible match
+  SPEAKER_07 <-> SPEAKER_09: 0.628  <- possible match
+  SPEAKER_07 <-> SPEAKER_08: 0.652
+  SPEAKER_08 <-> SPEAKER_09: 0.648
+  SPEAKER_07 <-> SPEAKER_09: 0.628
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E06.npz

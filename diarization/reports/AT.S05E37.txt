@@ -1,0 +1,45 @@
+Episode: AT.S05E37 (Box Prince)
+5 speaker clusters, 142 total segments
+
+
+SPEAKER_00 (6 segs, 25.4s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "You put cards in your mouth?"
+  "Ta-da!"
+  "You did it, Jake!"
+
+SPEAKER_01 (35 segs, 57.7s, 16 embedded)
+  "Nachos."
+  "Nah."
+  "Chose."
+  "Yeah, whatever."
+  "Move your face, you're messing up the game."
+
+SPEAKER_02 (9 segs, 35.0s, 6 embedded)
+  "I'm gonna check it out."
+  "That must be your prince."
+  "Ah!"
+  "Hmm."
+  "And the chip will fall out of your teeth."
+
+SPEAKER_03 (88 segs, 179.3s, 32 embedded)
+  "Aw, yes."
+  "The storm has passed!"
+  "Jake!"
+  "Phew!"
+  "Phew."
+
+SPEAKER_04 (4 segs, 36.9s, 3 embedded)
+  "Why do you hate cat steak?"
+  "I told you to buy floss."
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "This party is so crazy!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.567
+  SPEAKER_00 <-> SPEAKER_02: 0.424
+  SPEAKER_02 <-> SPEAKER_04: 0.310
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E37.npz

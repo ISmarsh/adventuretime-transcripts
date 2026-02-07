@@ -1,0 +1,68 @@
+Episode: AT.S06E01 (Wake Up)
+9 speaker clusters, 212 total segments
+
+
+SPEAKER_00 (2 segs, 30.3s, 1 embedded)
+  "I'm coming, Daddy!"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (2 segs, 20.5s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (14 segs, 17.3s, 4 embedded)
+  "Hello."
+  "So, I wish for... a pony for my GF!"
+  "Shelby!"
+  "Sorry, dudes."
+  "My girl's been hounding me for a pony for months."
+
+SPEAKER_03 (6 segs, 18.4s, 5 embedded)
+  "Denise, we've concluded you're an interesting and conventionally hot woman."
+  "My siblings and I would like to request a date with you."
+  "Are you available for a date with..."
+  "Please select your dates now."
+  "Definitely gonna send these to Denise."
+
+SPEAKER_04 (7 segs, 15.5s, 4 embedded)
+  "What's up?"
+  "Hey, um, those guys are doing selfies on the Lich."
+  "Is that safe?"
+  "Yeah, but why isn't he killing everyone in the room right now?"
+  "Controlling our minds, making us rip each other's eyes out while we buttercup on"
+
+SPEAKER_05 (24 segs, 49.4s, 9 embedded)
+  "Eat it, Lynch!"
+  "Eat it, Lynch!"
+  "Whoo!"
+  "What?"
+  "Eee!"
+
+SPEAKER_06 (27 segs, 48.1s, 12 embedded)
+  "It's 1230."
+  "Dude, I found out my human dad is still alive."
+  "Whoa, what?"
+  "He's at some place called the Citadel."
+  "Are you gonna go see him?"
+
+SPEAKER_07 (62 segs, 126.6s, 34 embedded)
+  "Nom, nom, nom, nom, nom, nom, nom."
+  "No more crackers!"
+  "Prismo!"
+  "Hey, man, hey!"
+  "Hey."
+
+SPEAKER_08 (65 segs, 117.7s, 33 embedded)
+  "Jake."
+  "I'm Prismo, the Wishmaster."
+  "We can have all the cheesy crackers we want."
+  "Oh yeah, that's fine."
+  "Well, the Lich's primary function is to cause mass death."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_07: 0.515
+  SPEAKER_02 <-> SPEAKER_04: 0.349
+  SPEAKER_01 <-> SPEAKER_05: 0.311
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E01.npz

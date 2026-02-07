@@ -1,0 +1,34 @@
+Episode: AT.S01E06 (The Jiggler)
+4 speaker clusters, 225 total segments
+
+
+SPEAKER_00 (2 segs, 22.3s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "To a cliff under a tree"
+
+SPEAKER_01 (3 segs, 12.5s, 1 embedded)
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Baby."
+  "Just start crying."
+
+SPEAKER_02 (134 segs, 258.3s, 65 embedded)
+  "Baby, I know what you need."
+  "What's that?"
+  "You want your little baby socks, for your little baby feet."
+  "Baby, I know what you crave."
+  "Oh yeah, what's that?"
+
+SPEAKER_03 (81 segs, 128.6s, 32 embedded)
+  "Hey, how can you sing like that, dude?"
+  "Seriously Stanley, for a watermelon you get into trouble way more often than you"
+  "That is the most adorable thing I have ever seen."
+  "And he loves your baby song."
+  "Sing some more of it, dude."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_01: 0.354
+  SPEAKER_02 <-> SPEAKER_03: 0.278
+  SPEAKER_01 <-> SPEAKER_02: 0.135
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S01E06.npz

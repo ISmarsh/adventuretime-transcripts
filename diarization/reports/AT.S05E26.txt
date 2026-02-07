@@ -1,0 +1,89 @@
+Episode: AT.S05E26 (Wizards Only, Fools)
+12 speaker clusters, 257 total segments
+
+
+SPEAKER_00 (9 segs, 24.1s, 5 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we can win the battle."
+  "Boo."
+
+SPEAKER_01 (2 segs, 7.9s, 2 embedded)
+  "Look, I'm a nurse and all, but my uncle is a magic worker, and he cured my sadne"
+  "That was very close-minded."
+
+SPEAKER_02 (8 segs, 31.1s, 5 embedded)
+  "Oh, we've got to put you to rest for good."
+  "Princess Bubblegum, for shame."
+  "And I'm very disappointed in you, Abraka Daniel."
+  "However, Princess, since you have always been a dear friend to the wizard commun"
+  "What?"
+
+SPEAKER_03 (2 segs, 26.0s, 0 embedded)
+  "Two."
+  "me and the butterflies and bees we can wander through the forest and do so as we"
+
+SPEAKER_04 (20 segs, 23.5s, 4 embedded)
+  "No way!"
+  "I'm no rat!"
+  "I am bound by the sacred trust of esoteric knowledge!"
+  "Say the password, Ice King!"
+  "You think I'll just hand you the keys to the city?"
+
+SPEAKER_05 (31 segs, 54.8s, 11 embedded)
+  "Yo, it's fakes!"
+  "No, wait!"
+  "Bam!"
+  "You're busted!"
+  "Dang, it's a dead end."
+
+SPEAKER_06 (12 segs, 31.6s, 7 embedded)
+  "Boring."
+  "Stranson Doblo, you are guilty of impersonating a wizard, as well as purchasing "
+  "The sentence is... Whoa!"
+  "Oh, you are guilty of harboring non-magic users."
+  "Oh, boy."
+
+SPEAKER_07 (74 segs, 140.1s, 42 embedded)
+  "No!"
+  "Get away from me, you butchers!"
+  "Starchy, you have a cold."
+  "The cure is right here."
+  "Just let me... No!"
+
+SPEAKER_08 (25 segs, 35.4s, 11 embedded)
+  "How is he?"
+  "He's still sick."
+  "Yo, that stinks."
+  "Tonight's part three of his graveyard secrets workshop."
+  "Yeah, Prubs, give him the medicine."
+
+SPEAKER_09 (15 segs, 25.5s, 3 embedded)
+  "Aww."
+  "OK, that makes sense."
+  "Yeah, I mean, magic's probably more nazi for your body in the long run."
+  "Hurry, princess."
+  "This is it?"
+
+SPEAKER_10 (35 segs, 49.1s, 10 embedded)
+  "Wizards don't play."
+  "Trespassers get killed mad quick like Zap Zap."
+  "Let's stay home."
+  "Just kidding."
+  "Well, what's with the wall?"
+
+SPEAKER_11 (19 segs, 39.4s, 7 embedded)
+  "Welcome, brothers!"
+  "Sorry about that biz outside."
+  "All right, bros. Ronald James got mad spells for wizards of all EXPs."
+  "No need for memorization, incantation, or hard-to-find boo-loo-roo."
+  "Just rip one of these babies open and you'll be like... We got a bottle-returns "
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_08: 0.496
+  SPEAKER_08 <-> SPEAKER_09: 0.444
+  SPEAKER_02 <-> SPEAKER_06: 0.438
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E26.npz

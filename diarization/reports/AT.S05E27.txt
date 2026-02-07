@@ -1,0 +1,66 @@
+Episode: AT.S05E27 (Jake Suit)
+8 speaker clusters, 258 total segments
+
+
+SPEAKER_00 (6 segs, 11.5s, 1 embedded)
+  "Mm-hmm."
+  "Special occasion."
+  "Special occasion."
+  "Special occasion."
+  "Special occasion."
+
+SPEAKER_01 (5 segs, 35.6s, 3 embedded)
+  "We'll start with full body immersion therapy."
+  "No!"
+  "Yes!"
+  "Come along with me."
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+SPEAKER_02 (4 segs, 24.2s, 4 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "This is a nightmare come true for me, sister."
+  "Who's ready for rehabilitation?"
+
+SPEAKER_03 (20 segs, 36.3s, 10 embedded)
+  "Oh, hey, you came."
+  "I got worried because you didn't answer special occasion phone."
+  "My relatives are waiting inside."
+  "Well, that's why I called on special occasion phone."
+  "All my less evil family members are here for dinner."
+
+SPEAKER_04 (8 segs, 37.1s, 5 embedded)
+  "What are you doing in front of my family?"
+  "Hmph!"
+  "Hi, lady."
+  "Finn!"
+  "I'm right here."
+
+SPEAKER_05 (101 segs, 137.0s, 36 embedded)
+  "Yup!"
+  "Yeah, totally snuck that landing!"
+  "Yeah!"
+  "Whoo!"
+  "Whoo!"
+
+SPEAKER_06 (100 segs, 146.8s, 33 embedded)
+  "Oh, you're a little rough with the jig suit today, bro."
+  "You mashed up my doggy bag pretty hard."
+  "Why didn't you stop me?"
+  "When you're in my body, it pushes out my brain, so I have no control."
+  "OK, bro."
+
+SPEAKER_07 (13 segs, 26.8s, 6 embedded)
+  "Unleash the beast!"
+  "Come on, BMO, bring it!"
+  "That's nothing!"
+  "You're weak, BMO!"
+  "Sam, top of play ball's a treat, huh?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_07: 0.440
+  SPEAKER_00 <-> SPEAKER_04: 0.425
+  SPEAKER_00 <-> SPEAKER_07: 0.420
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E27.npz

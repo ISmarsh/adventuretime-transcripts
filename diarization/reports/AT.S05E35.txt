@@ -1,0 +1,80 @@
+Episode: AT.S05E35 (Love Games)
+11 speaker clusters, 206 total segments
+
+
+SPEAKER_00 (2 segs, 8.9s, 2 embedded)
+  "Oh, we always come here when we want to shake it, Finn."
+  "It's the only triple cray rated disco in all of Ooh."
+
+SPEAKER_01 (5 segs, 30.9s, 4 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Yes."
+  "No!"
+  "I'm sorry, I can't do it."
+
+SPEAKER_02 (49 segs, 70.0s, 15 embedded)
+  "Hello."
+  "But let's just say the time has come to stop dating princesses and return to sav"
+  "Yeah, but maybe we should stop talking about this love junk and get back to adve"
+  "Now we're talking."
+  "Don't cry, slime princess."
+
+SPEAKER_03 (2 segs, 28.1s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "To a cliff under a tree This party is so crazy!"
+
+SPEAKER_04 (4 segs, 3.5s, 0 embedded)
+  "Call this a room?"
+  "Not even a window."
+  "Wait, are we rolling?"
+  "How much farther?"
+
+SPEAKER_05 (41 segs, 98.7s, 24 embedded)
+  "I demand order."
+  "I, Elder Plops, being the coolest guy in the room, will settle this dispute."
+  "The matter will be settled on the battleground."
+  "The battleground of love."
+  "The couple that I deem most truly in love shall rule the slime kingdom for life."
+
+SPEAKER_06 (50 segs, 127.0s, 31 embedded)
+  "I think someone's knocking at the door."
+  "Finn, Jake, I need your help."
+  "It's an emergency."
+  "I need Finn to marry me."
+  "I'm sorry, SP, but I've given up the dating scene."
+
+SPEAKER_07 (6 segs, 19.4s, 4 embedded)
+  "I wanna touch your hand with my hand."
+  "I want to rub your cheek with my cheek."
+  "Maybe later we can get to not disturb."
+  "I'm done!"
+  "Yup!"
+
+SPEAKER_08 (18 segs, 36.0s, 13 embedded)
+  "Attention, my loyal Slime Jack!"
+  "My husband would like to say something!"
+  "And he would, too, if not for his extremely sore throat."
+  "So I will say it for him."
+  "We challenge you to the Trials of Glarb."
+
+SPEAKER_09 (24 segs, 66.8s, 12 embedded)
+  "If I hear another peep, there's gonna be trouble."
+  "Final warning."
+  "Okay, go ahead, BMO."
+  "Okay, welcome back to the program."
+  "We're talking with my special guest, Finn the Human."
+
+SPEAKER_10 (4 segs, 37.6s, 1 embedded)
+  "Okay."
+  "Just let it all out."
+  "When I'm heating up my lunch Or delivering a dungeon punch I can't"
+  "Why can't I get over you?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_10: 0.498
+  SPEAKER_01 <-> SPEAKER_03: 0.370
+  SPEAKER_07 <-> SPEAKER_08: 0.318
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E35.npz

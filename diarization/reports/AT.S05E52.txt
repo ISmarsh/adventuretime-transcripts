@@ -1,0 +1,69 @@
+Episode: AT.S05E52 (Billy's Bucket List)
+9 speaker clusters, 201 total segments
+
+
+SPEAKER_00 (10 segs, 10.8s, 2 embedded)
+  "Your father, Finn."
+  "He's alive."
+  "He's alive."
+  "He's alive."
+  "He's alive."
+
+SPEAKER_01 (2 segs, 28.3s, 1 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (3 segs, 24.8s, 3 embedded)
+  "Come along with me and the butterflies and bees."
+  "We can wander through the forest and do so as we please."
+  "This party is so crazy!"
+
+SPEAKER_03 (29 segs, 67.1s, 14 embedded)
+  "Finn!"
+  "Finn!"
+  "Finn."
+  "Huh?"
+  "Who that?"
+
+SPEAKER_04 (6 segs, 12.2s, 6 embedded)
+  "Haha, check out these dummies."
+  "You're gonna pay for this, Billy!"
+  "I ain't afraid of you at this big."
+  "You think you can jump me like that?"
+  "This breeze feels great, Doofus."
+
+SPEAKER_05 (24 segs, 77.4s, 16 embedded)
+  "I thought Billy was your hero."
+  "I love rap music, but only when it's good rap."
+  "Flimsy threats, like a tiny blade of grass and a maelstrom you are."
+  "That storm is me, Jordan, Lord of the fairies."
+  "Way to go, Finn the Coward."
+
+SPEAKER_06 (15 segs, 18.7s, 5 embedded)
+  "Billy!"
+  "You finished my list."
+  "Now I can rest like a great hero."
+  "Thank you, Finn."
+  "Tell Canyon I watch her sleep."
+
+SPEAKER_07 (22 segs, 33.2s, 9 embedded)
+  "Yo!"
+  "Check check one two!"
+  "Hey!"
+  "I'm Rap Bear!"
+  "I can rap!"
+
+SPEAKER_08 (85 segs, 128.8s, 24 embedded)
+  "Uh... Nope."
+  "Off the dome, here we go."
+  "Uh."
+  "I'mma start it now."
+  "I'mma battle now."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.503
+  SPEAKER_01 <-> SPEAKER_07: 0.390
+  SPEAKER_07 <-> SPEAKER_08: 0.332
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E52.npz

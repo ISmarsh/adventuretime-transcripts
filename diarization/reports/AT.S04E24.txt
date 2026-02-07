@@ -1,0 +1,71 @@
+Episode: AT.S04E24 (Reign of Gunters)
+10 speaker clusters, 243 total segments
+
+
+SPEAKER_00 (2 segs, 19.1s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 25.8s, 2 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "This party is so crazy!"
+
+SPEAKER_02 (4 segs, 10.3s, 3 embedded)
+  "Evil presence detected."
+  "Must defend candy."
+  "Take the ball!"
+  "Goodbye, Princess N-"
+
+SPEAKER_03 (2 segs, 8.6s, 1 embedded)
+  "Gunther?"
+  "Wait a minute!"
+
+SPEAKER_04 (7 segs, 10.3s, 4 embedded)
+  "Hold on, man."
+  "I like it."
+  "I got a rhythm going."
+  "Dink, dink, da-dink, dink."
+  "Dink, dink, da-dink, da-dink, da-dink, da-dink."
+
+SPEAKER_05 (31 segs, 69.5s, 16 embedded)
+  "Yo, Ben, are you seeing these penguins?"
+  "Well, he'll have to beat my banana guards and my gumball guardians."
+  "What did he say?"
+  "Well, what's your plan?"
+  "You do?"
+
+SPEAKER_06 (69 segs, 136.3s, 42 embedded)
+  "Where the turds is my demonic wishing eye?"
+  "I've looked everywhere."
+  "What is it, girl?"
+  "You know where it is?"
+  "Lead the way."
+
+SPEAKER_07 (18 segs, 30.2s, 8 embedded)
+  "Hello?"
+  "So then he was telling me to beef in the eye of glob and stuff."
+  "Whoa."
+  "Did you do it?"
+  "Yes, I did."
+
+SPEAKER_08 (41 segs, 68.6s, 14 embedded)
+  "Hmm, huh?"
+  "Thanks."
+  "Jake?"
+  "Huh?"
+  "Hey!"
+
+SPEAKER_09 (66 segs, 77.7s, 15 embedded)
+  "Uh... Jake?"
+  "We gots penguins."
+  "Hmm?"
+  "Oh, yeah."
+  "Come on, you guys!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_03: 0.485
+  SPEAKER_06 <-> SPEAKER_07: 0.476
+  SPEAKER_05 <-> SPEAKER_09: 0.387
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E24.npz

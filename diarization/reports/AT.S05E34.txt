@@ -1,0 +1,86 @@
+Episode: AT.S05E34 (The Vault)
+12 speaker clusters, 247 total segments
+
+
+SPEAKER_00 (4 segs, 18.8s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we can win the battle."
+
+SPEAKER_01 (4 segs, 10.8s, 4 embedded)
+  "Welcome, adventurer."
+  "I am the Hypno-Priest."
+  "I will be your guide deep into your subconscious mind."
+  "Follow me now, adventurer."
+
+SPEAKER_02 (32 segs, 36.7s, 6 embedded)
+  "You know it."
+  "Got any work for me?"
+  "I can step to that."
+  "I think it's pronounced amulet."
+  "Sounds cool."
+
+SPEAKER_03 (2 segs, 26.2s, 1 embedded)
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_04 (7 segs, 8.4s, 1 embedded)
+  "Ah!"
+  "Psst, psst."
+  "Shoko."
+  "What are you doing here?"
+  "I'm spying on you."
+
+SPEAKER_05 (16 segs, 34.0s, 9 embedded)
+  "Hey, girl."
+  "Sniffing around for that cheddar?"
+  "I might could, but it's a top shelf shakedown."
+  "Know what I'm saying?"
+  "There's a rival camp down river."
+
+SPEAKER_06 (1 segs, 1.0s, 0 embedded)
+  "to my finger's knife."
+
+SPEAKER_07 (11 segs, 11.9s, 2 embedded)
+  "She's coming!"
+  "Huh?"
+  "Stay away from me, you gang boy!"
+  "Ah!"
+  "A bath boy!"
+
+SPEAKER_08 (64 segs, 117.2s, 34 embedded)
+  "Bring them inside."
+  "Hey, you're up."
+  "I thought you might be hungry."
+  "So who knocked you out?"
+  "Oh, I hate those boys."
+
+SPEAKER_09 (8 segs, 14.0s, 5 embedded)
+  "Hello, Mother."
+  "Are you OK, Princess?"
+  "Are you in danger?"
+  "OK. Are you in danger?"
+  "I knew it."
+
+SPEAKER_10 (36 segs, 51.2s, 6 embedded)
+  "Yeah."
+  "I don't know."
+  "Lady said it's good."
+  "Mm, she likes those games where you're, like, collecting materials to make stati"
+  "Nah, it's just different."
+
+SPEAKER_11 (61 segs, 89.7s, 19 embedded)
+  "Coming!"
+  "Yo, bro, you're sleepwalking again."
+  "Wake up!"
+  "Whoa, Jake?"
+  "Was I..."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_11: 0.485
+  SPEAKER_09 <-> SPEAKER_11: 0.434
+  SPEAKER_00 <-> SPEAKER_07: 0.389
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E34.npz

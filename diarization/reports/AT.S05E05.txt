@@ -1,0 +1,43 @@
+Episode: AT.S05E05 (All the Little People)
+5 speaker clusters, 275 total segments
+
+
+SPEAKER_00 (9 segs, 32.2s, 6 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+  "Do what thou swill be the whole piece of law."
+
+SPEAKER_01 (2 segs, 28.3s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "Me to a cliff under a tree"
+
+SPEAKER_02 (36 segs, 94.2s, 18 embedded)
+  "Check out Lady and Princess Bubblegum."
+  "Whoa."
+  "Whoa."
+  "Wham, wham, wham, wham, wham!"
+  "Wham, wham."
+
+SPEAKER_03 (106 segs, 150.8s, 30 embedded)
+  "I don't know."
+  "I'm the first come first serve kind of guy."
+  "Get in line, ladies."
+  "This Rainicorn thing can't last forever."
+  "I didn't mean that."
+
+SPEAKER_04 (114 segs, 150.2s, 33 embedded)
+  "Hey Jake, do you think you should date someone just like you or someone who's li"
+  "All right, well, what about BMO and Ice King?"
+  "What about them?"
+  "Would they make a good couple?"
+  "I'm just thinking out loud."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_02: 0.586
+  SPEAKER_02 <-> SPEAKER_04: 0.402
+  SPEAKER_03 <-> SPEAKER_04: 0.367
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E05.npz
