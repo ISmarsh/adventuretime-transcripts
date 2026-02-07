@@ -1,0 +1,71 @@
+Episode: AT.S06E24 (Evergreen)
+10 speaker clusters, 210 total segments
+
+
+SPEAKER_00 (2 segs, 27.6s, 0 embedded)
+  "Something in my ear?"
+  "This party's over."
+
+SPEAKER_01 (2 segs, 20.6s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (10 segs, 32.2s, 8 embedded)
+  "I just think we should discuss this, Evergreen."
+  "But Evergreen, even if the comet is as dangerous as you say, what can we possibl"
+  "Wait, wait."
+  "Evergreen, please."
+  "Wish magic is really the real deal."
+
+SPEAKER_03 (10 segs, 30.1s, 8 embedded)
+  "Now, now, hold on, Evergreen."
+  "Have not a comet impacted our world every thousand years with no lasting grievou"
+  "Ah, but this, Balthus, is no ordinary comet."
+  "I'm with Chatsberry."
+  "If this comet hits, we four indeed may perish."
+
+SPEAKER_04 (92 segs, 201.9s, 36 embedded)
+  "Discuss?"
+  "Are you listening, Chatsberry?"
+  "When this comet hits, everybody dies."
+  "Not just everybody but us, but us."
+  "Behold!"
+
+SPEAKER_05 (7 segs, 16.0s, 3 embedded)
+  "Gunther, no!"
+  "Gunther, no!"
+  "Gunther, no!"
+  "Morning."
+  "Man, what a dream."
+
+SPEAKER_06 (5 segs, 5.9s, 2 embedded)
+  "What?"
+  "What is it?"
+  "Something in my teeth?"
+  "Something in my hair?"
+  "Something in my nose?"
+
+SPEAKER_07 (11 segs, 9.4s, 0 embedded)
+  "That's what you get!"
+  "Gunther, no."
+  "Gunther, no."
+  "Gunther, no."
+  "Gunther, no."
+
+SPEAKER_08 (63 segs, 139.6s, 26 embedded)
+  "Stop, demon!"
+  "Get back here, I say!"
+  "Haha!"
+  "Nowhere to run!"
+  "I, the great and powerful Urgence Evergreen, command you to freeze into a millio"
+
+SPEAKER_09 (1 segs, 0.9s, 0 embedded)
+  "Oh!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.483
+  SPEAKER_04 <-> SPEAKER_05: 0.456
+  SPEAKER_01 <-> SPEAKER_08: 0.329
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E24.npz

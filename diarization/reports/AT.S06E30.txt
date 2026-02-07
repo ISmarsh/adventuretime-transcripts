@@ -1,0 +1,83 @@
+Episode: AT.S06E30 (The Diary)
+11 speaker clusters, 249 total segments
+
+
+SPEAKER_00 (2 segs, 20.7s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (4 segs, 29.9s, 2 embedded)
+  "Hey, Murch!"
+  "Is that the new nose in Nali's bootleg 7-inch?"
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (62 segs, 124.2s, 41 embedded)
+  "Dear Diary."
+  "Wow, I sound like a real cornball."
+  "Oh well."
+  "Dear Diary, Mom is going to love you."
+  "She's always ragging about me spending too much time with my notes and books."
+
+SPEAKER_03 (10 segs, 16.4s, 3 embedded)
+  "Hiya, BP."
+  "What's up?"
+  "Justin?"
+  "Guilty as charged."
+  "You psyched for your birthday, birthday girl?"
+
+SPEAKER_04 (8 segs, 17.2s, 4 embedded)
+  "Oh, yes."
+  "Yes, this is one of mine for my dancing cat period."
+  "Oh, goodness."
+  "Feels like a lifetime ago."
+  "I must have made hundreds of boxes since then."
+
+SPEAKER_05 (4 segs, 11.3s, 3 embedded)
+  "BP."
+  "She ran away, went wild, cut herself off from the world, hid away in a cave, nev"
+  "It's the one at the fork in the road to Butterscotch Lake."
+  "The box said she does weird stuff to bodies up there."
+
+SPEAKER_06 (6 segs, 10.0s, 3 embedded)
+  "Nurse Poundcake!"
+  "I've got the injection, Doctor."
+  "I'm not gonna make it, man."
+  "You will live!"
+  "Way to take control of the situation, nurse."
+
+SPEAKER_07 (75 segs, 128.5s, 29 embedded)
+  "It's good to be passionate about your hobbies."
+  "Okay."
+  "Attaboy."
+  "Hey, hello, young man."
+  "Oh."
+
+SPEAKER_08 (68 segs, 104.0s, 28 embedded)
+  "Ah."
+  "Psych."
+  "Delicious chocolate bridge."
+  "Oh."
+  "Yeah."
+
+SPEAKER_09 (4 segs, 6.4s, 2 embedded)
+  "I ordered it from this dude in lumpy space."
+  "Is it insane?"
+  "It's almost too insane."
+  "Work out."
+
+SPEAKER_10 (5 segs, 31.1s, 3 embedded)
+  "Oh, don't worry about him."
+  "Yo, TV, get me a chocolate bar."
+  "TV, I think Bob."
+  "There you go."
+  "You said you wanted the kid to spend more time outside."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.623  <- possible match
+  SPEAKER_04 <-> SPEAKER_05: 0.623
+  SPEAKER_07 <-> SPEAKER_10: 0.475
+  SPEAKER_01 <-> SPEAKER_09: 0.320
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E30.npz

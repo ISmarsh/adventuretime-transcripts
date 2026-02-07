@@ -1,0 +1,84 @@
+Episode: AT.S06E09 (The Prince Who Wanted Everything)
+12 speaker clusters, 196 total segments
+
+
+SPEAKER_00 (1 segs, 25.9s, 0 embedded)
+  "This party is so good!"
+
+SPEAKER_01 (3 segs, 31.2s, 2 embedded)
+  "Adventure time!"
+  "Come on, grab your friends We'll go to very distant lands Kick the cat if you're"
+  "Yes, your hotness."
+
+SPEAKER_02 (10 segs, 18.5s, 6 embedded)
+  "Son, come here at once!"
+  "Why aren't you working on your monster exercises?"
+  "How do you know your name?"
+  "Judo Trap!"
+  "Y'all seeing those big floaty faces?"
+
+SPEAKER_03 (1 segs, 0.1s, 0 embedded)
+  "Ah!"
+
+SPEAKER_04 (28 segs, 67.7s, 17 embedded)
+  "Ugh."
+  "Huh?"
+  "What?"
+  "Where am I?"
+  "Gunther?"
+
+SPEAKER_05 (8 segs, 11.0s, 4 embedded)
+  "I want you to read it, because you're their dad."
+  "Please be their dad right now and bring them to life!"
+  "No!"
+  "That's not how I sound!"
+  "Read it in a better voice!"
+
+SPEAKER_06 (11 segs, 17.5s, 5 embedded)
+  "No, Ice King, listen."
+  "I'm gonna give you the straight dope."
+  "Okay."
+  "You're weird and old and you kidnap princesses."
+  "I know."
+
+SPEAKER_07 (7 segs, 13.8s, 3 embedded)
+  "Aha!"
+  "Cake, I'll save the captives."
+  "You take care of those animals."
+  "Ha!"
+  "Dance, you puppy!"
+
+SPEAKER_08 (4 segs, 4.9s, 1 embedded)
+  "Huh?"
+  "Come on, you beautiful bandy."
+  "Only your pure spirit can defeat your evil family."
+  "And this sword."
+
+SPEAKER_09 (7 segs, 5.7s, 0 embedded)
+  "No!"
+  "Release."
+  "What just happened?"
+  "I don't care."
+  "As long as we can hang out."
+
+SPEAKER_10 (105 segs, 238.1s, 68 embedded)
+  "Okay, okay!"
+  "Sheesh."
+  "By the window!"
+  "For from the window shall I shower the poor with presents, as is my altruistic n"
+  "Haha!"
+
+SPEAKER_11 (9 segs, 16.2s, 5 embedded)
+  "Eat these worms!"
+  "Sharpen your teeth."
+  "No."
+  "Eat these worms."
+  "Eat those worms and sharpen those teeth."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_11: 0.554
+  SPEAKER_07 <-> SPEAKER_08: 0.549
+  SPEAKER_05 <-> SPEAKER_06: 0.541
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E09.npz

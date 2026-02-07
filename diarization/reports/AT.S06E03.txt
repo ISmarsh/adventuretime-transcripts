@@ -1,0 +1,57 @@
+Episode: AT.S06E03 (James II)
+7 speaker clusters, 294 total segments
+
+
+SPEAKER_00 (4 segs, 34.5s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Is this... James Heaven?"
+  "Jesus!"
+
+SPEAKER_01 (68 segs, 132.7s, 28 embedded)
+  "Willy!"
+  "Willy!"
+  "Willy!"
+  "Oh, Willy!"
+  "Shh!"
+
+SPEAKER_02 (32 segs, 26.6s, 5 embedded)
+  "James!"
+  "Hey!"
+  "Stop running!"
+  "You mustn't get back here!"
+  "Ahh!"
+
+SPEAKER_03 (22 segs, 32.2s, 8 embedded)
+  "Let's hear it for James!"
+  "Wow, James sacrificed his life for you again, PB."
+  "Yeah, that's like the 25th time, right?"
+  "Obviously, you'll have to re-clone him."
+  "Totes."
+
+SPEAKER_04 (58 segs, 90.7s, 19 embedded)
+  "I'm the leader."
+  "Hey guys, this is a picture of one of the perpetrators."
+  "Take a good look."
+  "I need to see the other 24 pictures."
+  "What?"
+
+SPEAKER_05 (54 segs, 112.4s, 27 embedded)
+  "Look out, Princess!"
+  "Ahh!"
+  "I'm registering Mondo my garage down there."
+  "Huh?"
+  "Oh my god!"
+
+SPEAKER_06 (2 segs, 27.6s, 0 embedded)
+  "I'm not gonna miss him."
+  "This party is..."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_02: 0.614  <- possible match
+  SPEAKER_00 <-> SPEAKER_02: 0.614
+  SPEAKER_02 <-> SPEAKER_05: 0.567
+  SPEAKER_03 <-> SPEAKER_04: 0.424
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E03.npz

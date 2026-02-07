@@ -1,0 +1,77 @@
+Episode: AT.S06E16 (Joshua and Margaret Investigations)
+10 speaker clusters, 194 total segments
+
+
+SPEAKER_00 (6 segs, 45.4s, 4 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Yes!"
+  "Over."
+  "Come on, come on!"
+
+SPEAKER_01 (4 segs, 5.3s, 1 embedded)
+  "Gouses!"
+  "Hello, Daddy."
+  "Hello, Mommy."
+  "It's so nice to be here with you now."
+
+SPEAKER_02 (2 segs, 5.5s, 2 embedded)
+  "Well, it was a day like any other day."
+  "And so they never told me."
+
+SPEAKER_03 (5 segs, 26.8s, 4 embedded)
+  "Feel better."
+  "Come along with me and the butterflies and bees."
+  "We can wander through the forest and do so as we please."
+  "Come along with me"
+  "to a cliff under a tree"
+
+SPEAKER_04 (14 segs, 36.9s, 6 embedded)
+  "birthday birthday birthday birthday birthday birthday birthday birthday birthday"
+  "Birthday, birthday, birthday, birthday!"
+  "Yay!"
+  "Nice job, Mr. Birthday Boy!"
+  "Thanks."
+
+SPEAKER_05 (7 segs, 22.6s, 5 embedded)
+  "Joshua!"
+  "Oh, not yet."
+  "Uh-huh."
+  "Oh, no."
+  "I must have scared the dickens out of you."
+
+SPEAKER_06 (13 segs, 42.9s, 11 embedded)
+  "Yes, hello."
+  "Oh, yes."
+  "A monster's been stealing my pies off of the window sill."
+  "Oh, yes, you can see the monster tracks leading off into the forest."
+  "The monster tracks are very real."
+
+SPEAKER_07 (11 segs, 18.0s, 6 embedded)
+  "Yay, birthday story time, please!"
+  "Oh!"
+  "Wyatt!"
+  "Oh, geez."
+  "You got me."
+
+SPEAKER_08 (69 segs, 148.4s, 32 embedded)
+  "These steaks are tough and stringy, like you."
+  "Margaret, you're on a family way now."
+  "You should take a back seat from investigations."
+  "You're missing the point, sugar."
+  "What if something bad happens?"
+
+SPEAKER_09 (58 segs, 120.1s, 30 embedded)
+  "Oh, there, there, baby."
+  "You're going to be a fighter."
+  "Just like your mother."
+  "Bear-o-ro."
+  "Steak break."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_05: 0.520
+  SPEAKER_01 <-> SPEAKER_02: 0.512
+  SPEAKER_01 <-> SPEAKER_07: 0.352
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E16.npz

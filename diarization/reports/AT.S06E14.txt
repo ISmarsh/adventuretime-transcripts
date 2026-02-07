@@ -1,0 +1,76 @@
+Episode: AT.S06E14 (Princess Day)
+10 speaker clusters, 197 total segments
+
+
+SPEAKER_00 (12 segs, 18.1s, 4 embedded)
+  "Ahem."
+  "Eat the berries."
+  "Dip them in the syrup."
+  "Rup, rup."
+  "Want me to show you how?"
+
+SPEAKER_01 (2 segs, 27.9s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (3 segs, 23.2s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "I don't know, but they got past me."
+
+SPEAKER_03 (43 segs, 117.2s, 34 embedded)
+  "We are delighted to host this year's Princess Day here in Breakfast Kingdom."
+  "Please enjoy the continental breakfast expertly prepared by our very own breakfa"
+  "Now on to more pressing matters."
+  "Brigands have been attacking our western seaports."
+  "Dozens of unregistered princesses roam the land."
+
+SPEAKER_04 (41 segs, 95.3s, 20 embedded)
+  "LSP, wait up!"
+  "Yo, LSP."
+  "Tick-tock."
+  "You know, I like your vibe, dude."
+  "You don't take anyone's sass."
+
+SPEAKER_05 (10 segs, 18.8s, 5 embedded)
+  "Hey, you want to ditch this jazz?"
+  "I'd love to, but I'm really invested in this crossword puzzle."
+  "Figs."
+  "Hmm."
+  "She is acting so bad."
+
+SPEAKER_06 (5 segs, 6.8s, 1 embedded)
+  "It's true."
+  "She does have egg breath."
+  "When I recover my sight, I'm going to imprison you, you giggling girls!"
+  "Ah!"
+  "Ah!"
+
+SPEAKER_07 (13 segs, 20.4s, 2 embedded)
+  "Huh?"
+  "Jerry!"
+  "Who did this to you, Jerry?"
+  "Hide where?"
+  "I know somebody's in here."
+
+SPEAKER_08 (58 segs, 123.6s, 33 embedded)
+  "You guys, I'm bored out of my face."
+  "I make a motion to stop talking about dumb stuff that's lame."
+  "It's not a box."
+  "It's a rotting log."
+  "The joke's on you, because I wasn't invited."
+
+SPEAKER_09 (6 segs, 6.7s, 2 embedded)
+  "Yeah, and what about that peanut juice, Peanut Princess?"
+  "Fine!"
+  "And hey, what about my hair?"
+  "You know how long she can make a nut butter?"
+  "Ah!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.511
+  SPEAKER_04 <-> SPEAKER_05: 0.416
+  SPEAKER_03 <-> SPEAKER_05: 0.398
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E14.npz

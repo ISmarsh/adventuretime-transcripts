@@ -1,0 +1,49 @@
+Episode: AT.S06E22 (The Cooler)
+7 speaker clusters, 159 total segments
+
+
+SPEAKER_00 (19 segs, 45.0s, 6 embedded)
+  "My jets are tiny."
+  "No one look at my tiny jets."
+  "At least your body's normal, man."
+  "My body isn't hot anymore."
+  "What's going on, man?"
+
+SPEAKER_01 (1 segs, 23.3s, 0 embedded)
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (18 segs, 57.5s, 13 embedded)
+  "Blow up the Candy Kingdom!"
+  "I've been saying this for months now, and I'll say it again."
+  "Let's blow them up with their stockpile of you-know-whats."
+  "We've debated this too long."
+  "Their sugar burns hotter and faster with lots of extra calories."
+
+SPEAKER_03 (111 segs, 286.2s, 73 embedded)
+  "It's as I feared."
+  "The magma in the kingdom's core is cooling down, weakening the life force of our"
+  "I've gathered you here to figure out how to stop this."
+  "We need ideas, people."
+  "I'll do my best, sis."
+
+SPEAKER_04 (1 segs, 0.1s, 0 embedded)
+  "Hmm."
+
+SPEAKER_05 (5 segs, 30.5s, 4 embedded)
+  "it's freezing in here whoa I'm losing a lot of weight calorie control and modera"
+  "Perhaps everyone can form into a big love hug to stay warm."
+  "I'm not that smart."
+  "But why the Candy Kingdom?"
+  "Roger that, princess."
+
+SPEAKER_06 (2 segs, 20.6s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_06: 0.317
+  SPEAKER_00 <-> SPEAKER_05: 0.279
+  SPEAKER_02 <-> SPEAKER_06: 0.267
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E22.npz

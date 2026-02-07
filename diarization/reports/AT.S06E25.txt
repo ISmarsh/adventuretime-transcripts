@@ -1,0 +1,100 @@
+Episode: AT.S06E25 (Astral Plane)
+14 speaker clusters, 258 total segments
+
+
+SPEAKER_00 (7 segs, 12.9s, 4 embedded)
+  "Who, me?"
+  "You can see me, too?"
+  "Yes, I am, Grob."
+  "No, but sometimes gob does."
+  "You're dreaming so far from home."
+
+SPEAKER_01 (2 segs, 20.6s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (5 segs, 21.2s, 4 embedded)
+  "Hey, this place is pretty nice."
+  "Who's there?"
+  "Ah!"
+  "Mmm!"
+  "Mmm!"
+
+SPEAKER_03 (8 segs, 12.4s, 3 embedded)
+  "Well, that's normal."
+  "People always have weird thoughts around campfires."
+  "Do they keep pets?"
+  "All right, buddy, that's a little too much campfire."
+  "Time for bed."
+
+SPEAKER_04 (7 segs, 11.4s, 3 embedded)
+  "Hey, is Finn seeing anyone right now?"
+  "Could you introduce us?"
+  "Oh, my glob, is he here now?"
+  "Fire defense missiles."
+  "Grob, assessment."
+
+SPEAKER_05 (2 segs, 28.5s, 1 embedded)
+  "Let's do it."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_06 (15 segs, 18.5s, 6 embedded)
+  "You know, just pay me back when you can."
+  "Hello?"
+  "Huh?"
+  "You can see me?"
+  "See you."
+
+SPEAKER_07 (7 segs, 32.3s, 7 embedded)
+  "What the...?"
+  "Time will unbind our memory glue And I'll be as nobody-ish as all of you"
+  "So don't care about a thing now."
+  "Like a trash bag when it's windy out."
+  "Like a butt that has a face."
+
+SPEAKER_08 (2 segs, 6.2s, 2 embedded)
+  "Well, it's not enough to have created something amazing, right?"
+  "What if I just let my Martian super-society go to butt?"
+
+SPEAKER_09 (6 segs, 14.6s, 4 embedded)
+  "I'm thinking, Starman."
+  "It doesn't make sense."
+  "Every 1,000 years, the catalyst comet mysteriously reincarnates itself and colli"
+  "But the comet's never been so off schedule, and it's never freaking hit Mars."
+  "What do you think, Finn the Human?"
+
+SPEAKER_10 (28 segs, 44.4s, 15 embedded)
+  "Ice King?"
+  "Yeah, I guess there's some cool people here."
+  "Music's a little loud, but the punch is top drawer."
+  "Mm-hmm."
+  "Hey, you should come to one of my parties sometime."
+
+SPEAKER_11 (98 segs, 154.0s, 40 embedded)
+  "Jake, so I just had this weird thought."
+  "Well, I don't know."
+  "Isn't it sort of strange that we keep pets?"
+  "We kind of make them worship us."
+  "What?"
+
+SPEAKER_12 (24 segs, 36.1s, 8 embedded)
+  "Missiles away."
+  "Impact with catalyst comet in five, four, three, two, one."
+  "Yes."
+  "Do you think it worked, Starman?"
+  "Uh, yeah, probably, right."
+
+SPEAKER_13 (44 segs, 32.4s, 6 embedded)
+  "You don't have to go home, but you know how it goes."
+  "Whoa."
+  "Forty-one, forty-two, forty-three, forty-four, forty-five, forty-six, forty-seve"
+  "Six, four, three, two, one."
+  "Mmm!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_08 <-> SPEAKER_09: 0.551
+  SPEAKER_00 <-> SPEAKER_09: 0.403
+  SPEAKER_01 <-> SPEAKER_07: 0.389
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E25.npz
