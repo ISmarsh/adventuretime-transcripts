@@ -1,0 +1,6 @@
+# Diarization output (generated, ~282 JSON files)
+diarization/
+
+# Editor / OS
+.claude/
+nul
