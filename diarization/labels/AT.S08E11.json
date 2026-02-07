@@ -1,17 +1,16 @@
 {
-  "episode_id": "AT.S08E01",
-  "title": "Broke His Crown",
+  "episode_id": "AT.S08E11",
+  "title": "Daddy-Daughter Card Wars",
   "season": 8,
   "speaker_map": {
-    "SPEAKER_02": "Ice King",
-    "SPEAKER_04": "Princess Bubblegum",
-    "SPEAKER_06": "Princess Bubblegum",
-    "SPEAKER_07": "Marceline"
+    "SPEAKER_06": "Jake"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_01",
+    "SPEAKER_02",
     "SPEAKER_03",
+    "SPEAKER_04",
     "SPEAKER_05"
   ],
   "auto_labeled": true,
