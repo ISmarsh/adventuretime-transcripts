@@ -4,3 +4,10 @@ diarization/
 # Editor / OS
 .claude/
 nul
+
+# Local config (volume paths are machine-specific)
+docker-compose.yml
+
+# Python
+__pycache__/
+*.pyc

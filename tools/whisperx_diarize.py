@@ -64,7 +64,11 @@ PYANNOTE_MODEL = "pyannote/speaker-diarization-3.1"
 WHISPER_MODEL = "medium.en"
 if sys.platform == "win32":
     DEFAULT_VIDEO_DIRS = [Path("D:/Shows"), Path("S:/Shows")]
+elif Path("/shows-d").is_dir():
+    # Docker container with mounted volumes
+    DEFAULT_VIDEO_DIRS = [Path("/shows-d"), Path("/shows-s")]
 else:
+    # WSL2 with Windows drives mounted
     DEFAULT_VIDEO_DIRS = [Path("/mnt/d/Shows"), Path("/mnt/s/Shows")]
 
 TRANSCRIPT_SERIES_DIRS = {

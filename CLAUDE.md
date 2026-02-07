@@ -53,11 +53,25 @@ diarization/
   voice_profiles/_index.json   # profile metadata
 ```
 
+### Docker setup (GPU processing)
+
+For bulk processing with GPU acceleration, use the Docker container:
+
+```bash
+docker compose build                                      # one-time (~5 min)
+docker compose run whisperx status                        # check pipeline progress
+docker compose run whisperx process --season 1 --workers 1  # process with GPU
+docker compose run whisperx embed-clusters --season 1     # batch clustering
+```
+
+Requires: Docker Desktop (WSL2 backend), NVIDIA GPU driver, `HF_TOKEN` env var.
+Video dirs mounted read-only from host; diarization output writes directly to project.
+
 ### Performance notes
 
 - `process --device auto` auto-detects GPU; CUDA gives ~5x speedup over CPU
-- `process` on Linux/WSL2 uses `fork` to share model memory via copy-on-write -- more workers from same RAM
-- `process` on Windows uses `spawn` (each worker loads its own model copy) -- 2 workers is the practical max
+- Docker container uses Linux `fork` to share model memory via copy-on-write -- more workers from same RAM
+- Windows native uses `spawn` (each worker loads its own model copy) -- 2 workers is the practical max
 - `embed-clusters` loads ECAPA model once and processes episodes sequentially; omit `--episode` for auto-discovery
 - `embed-label` is instant (numpy + JSON), safe to parallelize
 - `status` scans filesystem only, no model loading
