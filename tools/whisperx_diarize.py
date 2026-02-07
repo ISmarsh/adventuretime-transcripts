@@ -1274,6 +1274,24 @@ def _load_profile_sample_counts(profile_dir: Path) -> dict[str, int]:
     }
 
 
+def _load_profile_first_episodes(profile_dir: Path) -> dict[str, str]:
+    """Load first_episode constraints from the index file.
+
+    Returns a dict mapping profile name -> earliest episode ID where the
+    character exists (e.g. "AT.S06E01").  Profiles without the field are
+    omitted — they match any episode.
+    """
+    index_path = profile_dir / "_index.json"
+    if not index_path.exists():
+        return {}
+    index = json.loads(index_path.read_text(encoding="utf-8"))
+    return {
+        name: info["first_episode"]
+        for name, info in index.get("profiles", {}).items()
+        if "first_episode" in info
+    }
+
+
 def _filter_outliers(embeddings, threshold_std: float = 2.0):
     """Return boolean mask of embeddings to keep (remove outliers)."""
     import numpy as np
@@ -2087,6 +2105,9 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
     # Load sample counts for threshold scaling
     sample_counts = _load_profile_sample_counts(pdir)
 
+    # Load first_episode constraints for temporal filtering
+    first_episodes = _load_profile_first_episodes(pdir)
+
     # Discover episodes
     if args.episode:
         ep_ids = args.episode if isinstance(args.episode, list) else [args.episode]
@@ -2148,6 +2169,15 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
         if not profiles:
             print(f"[{idx:03d}/{total}] {ep_id} -- SKIP (no profiles for season {season})")
             continue
+
+        # Filter by first_episode constraint (skip profiles for characters
+        # that don't exist yet in this episode)
+        if first_episodes:
+            profiles = {n: v for n, v in profiles.items()
+                        if ep_id >= first_episodes.get(n, "")}
+            if not profiles:
+                print(f"[{idx:03d}/{total}] {ep_id} -- SKIP (no eligible profiles)")
+                continue
 
         profile_names = list(profiles.keys())
         centroids = np.stack([profiles[n] for n in profile_names])

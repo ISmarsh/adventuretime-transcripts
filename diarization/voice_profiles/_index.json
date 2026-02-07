@@ -745,6 +745,7 @@
         "AT.S09E10",
         "AT.S10E11"
       ],
+      "first_episode": "AT.S06E33",
       "updated": "2026-02-07T14:19:14"
     },
     "Joshua": {
@@ -764,6 +765,7 @@
       "episodes": [
         "AT.S06E42"
       ],
+      "first_episode": "AT.S05E44",
       "updated": "2026-02-07T14:19:14"
     },
     "Lemongrab": {
@@ -873,6 +875,7 @@
       "episodes": [
         "AT.S06E02"
       ],
+      "first_episode": "AT.S06E01",
       "updated": "2026-02-07T14:19:14"
     },
     "Me-Mow": {
@@ -1040,6 +1043,7 @@
       "episodes": [
         "AT.S06E01"
       ],
+      "first_episode": "AT.S04E26",
       "updated": "2026-02-07T14:19:14"
     },
     "Ricardio": {
@@ -1104,6 +1108,7 @@
         "AT.S09E13",
         "AT.S10E06"
       ],
+      "first_episode": "AT.S06E01",
       "updated": "2026-02-07T14:19:14"
     },
     "Tiny Manticore": {
@@ -1111,6 +1116,7 @@
       "episodes": [
         "AT.S08E07"
       ],
+      "first_episode": "AT.S04E15",
       "updated": "2026-02-07T14:19:14"
     },
     "Tree Trunks": {
