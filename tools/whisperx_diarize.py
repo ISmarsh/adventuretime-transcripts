@@ -117,6 +117,7 @@ CANONICAL_SPEAKER: dict[str, str] = {
     "betty-grof": "Betty",
     "gunter": "Gunter",
     "fern": "Fern",
+    "neptr": "NEPTR",
     "susan-strong": "Susan Strong",
     "magic-man": "Magic Man",
     "tree-trunks": "Tree Trunks",
@@ -813,7 +814,8 @@ def build_cluster_map(lines: list[TLine]) -> dict[str, ClusterMap]:
             continue
         if tl.speaker.lower() in MULTI_SPEAKER:
             continue
-        votes[tl.dia_speaker][tl.speaker] += 1
+        # Canonicalize so "Lumpy Space Princess" and "LSP" count together
+        votes[tl.dia_speaker][_canon(tl.speaker)] += 1
 
     mapping = {}
     for cluster, ctr in votes.items():
@@ -935,6 +937,20 @@ def validate_and_fix(lines: list[TLine], cmap: dict[str, ClusterMap]) -> EpResul
     r = EpResult()
     merged = build_merged_character_map(cmap)
 
+    # Build canon-keyed merged map for alias-aware lookups
+    canon_merged: dict[str, tuple[int, int, float, set[str]]] = {}
+    for char, data in merged.items():
+        ckey = _canon(char)
+        if ckey in canon_merged:
+            prev = canon_merged[ckey]
+            canon_merged[ckey] = (
+                prev[0] + data[0], prev[1] + data[1],
+                (prev[0] + data[0]) / max(prev[1] + data[1], 1),
+                prev[3] | data[3],
+            )
+        else:
+            canon_merged[ckey] = data
+
     for i, tl in enumerate(lines):
         if tl.is_scene or not tl.text:
             continue
@@ -944,11 +960,13 @@ def validate_and_fix(lines: list[TLine], cmap: dict[str, ClusterMap]) -> EpResul
             r.labeled += 1
             if tl.dia_speaker and tl.dia_speaker in cmap:
                 cm = cmap[tl.dia_speaker]
+                cs = _canon(tl.speaker)
+                cc = _canon(cm.character)
                 # Check merged: line's speaker might match a different cluster
-                if cm.character == tl.speaker:
+                if cc == cs:
                     tl.validation = "agree"
                     r.agree += 1
-                elif tl.speaker in merged and tl.dia_speaker in merged[tl.speaker][3]:
+                elif cs in canon_merged and tl.dia_speaker in canon_merged[cs][3]:
                     # Speaker is in the set of clusters for this character
                     tl.validation = "agree"
                     r.agree += 1
@@ -1209,6 +1227,18 @@ def _resolve_speaker(name: str) -> str:
     """Resolve a transcript speaker name to its canonical form."""
     alias_map = _load_alias_map()
     return alias_map.get(name, name)
+
+
+def _canon(name: str) -> str:
+    """Canonicalize a speaker name for validation comparison.
+
+    Strips season-bucket suffix (Finn_S01-S03 → Finn) then resolves
+    transcript aliases (Lumpy Space Princess → LSP).
+    """
+    m = BUCKET_RE.match(name)
+    if m:
+        name = m.group(1)
+    return _resolve_speaker(name)
 
 
 def _get_profile_name(character: str, season: int) -> str:

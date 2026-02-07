@@ -44,14 +44,16 @@ Transcripts are NOT used as ground truth — they are the thing being validated.
 
 ### Bulk workflow (once profiles are seeded)
 
+**Important**: `--season N` matches across all series (AT, DL, FC). Use `--series AT` to scope to Adventure Time only.
+
 ```
-1. process --season 1 --workers 1              # batch diarize (GPU)
-2. embed-clusters --season 1                   # batch clustering
-3. auto-label --season 1                       # preview: compare clusters against profiles
-4. auto-label --season 1 --apply               # write label files (no profile merge)
-5. [Review + fix false positives in labels]    # Claude spot-checks reports, user approves
-6. auto-label --season 1 --merge              # merge reviewed labels into voice profiles
-7. validate --season 1                         # compare against transcripts
+1. process --series AT --season 1 --workers 1        # batch diarize (GPU)
+2. embed-clusters --series AT --season 1             # batch clustering
+3. auto-label --series AT --season 1                 # preview: compare clusters against profiles
+4. auto-label --series AT --season 1 --apply         # write label files (no profile merge)
+5. [Review + fix false positives in labels]          # Claude spot-checks reports, user approves
+6. auto-label --series AT --season 1 --merge         # merge reviewed labels into voice profiles
+7. validate --series AT --season 1                   # compare against transcripts
 ```
 
 `auto-label` classifies each cluster centroid against voice profile centroids via cosine
@@ -61,22 +63,27 @@ Clusters below threshold are flagged `REVIEW` for manual identification.
 - `--apply` writes label files only (no profile merge) — safe to re-run with `--force`
 - `--merge` reads existing label files and merges into voice profiles — run after review
 - Use both together (`--apply --merge`) to write + merge in one step (old behavior)
+- `--additive` only processes clusters currently in `skipped`, preserving existing `speaker_map` entries. Use after manual review to expand coverage without overwriting corrections.
+- **Temporal filtering**: `first_episode` field in `_index.json` per-profile prevents anachronistic matches (e.g. Fern profile from S09 won't match S01 clusters). Applied automatically during auto-label.
 
 Threshold system (layered):
 - **Base threshold**: `--threshold` (default 0.60)
-- **Sample-count scaling**: profiles with <100 samples get up to +0.10 penalty (e.g. Starchy with 11 samples → effective 0.69)
+- **Sample-count scaling**: profiles with <100 samples get up to +0.10 penalty
 - **Per-character override**: `--char-threshold "Ice King=0.65"` for known confusable voices (Tom Kenny voices many AT characters)
 
 ### Data layout
+
+50 voice profiles, ~42K samples across S01-S10. 277 label files.
 
 ```
 diarization/
   AT.S08E01.json              # v2 whisperX output (from process)
   clusters/AT.S08E01.npz      # per-cluster embeddings (from embed-clusters)
-  labels/AT.S08E01.json       # cluster→character mapping (from embed-label)
+  labels/AT.S08E01.json       # cluster→character mapping (from embed-label/auto-label)
   reports/AT.S08E01.txt       # cluster ID report for review (from embed-clusters)
   voice_profiles/Finn.npz     # accumulated character profiles (from embed-label)
   voice_profiles/_index.json   # profile metadata
+  validation_progress.json    # validate results with full disagree details per episode
 ```
 
 ### Docker setup (GPU processing)
@@ -105,7 +112,7 @@ Video dirs mounted read-only from host; diarization output writes directly to pr
 
 ### Known false positive patterns
 
-- **Joshua (deep male voice)**: 54 samples from 3 episodes. Consistently matches random deep-voiced background characters (Nightosphere demons, mud scamps). Hit 3 false positives in S04 alone. Sample-count penalty helps but doesn't fully prevent.
+- **Joshua (deep male voice)**: Consistently matches random deep-voiced background characters (Nightosphere demons, mud scamps). Hit 3 false positives in S04 alone. Sample-count penalty and temporal filtering help but don't fully prevent.
 - **Young female voices**: Me-Mow, Young Marceline, and Fionna profiles confuse with each other and with random young/feminine-sounding characters (candy citizens, episode-specific kids).
 - **Elements arc transformations** (S09E02-E09): Characters get elementally transformed and their voice shifts enough to match *other* profiles (e.g. transformed Flame Princess → Marceline). All S09 Elements episodes need manual review.
 - **Themed intros**: Special arcs (Elements, Islands) have custom intros sung by cast members. These cluster separately and match character profiles but aren't actual character dialogue — always false positives.
@@ -117,8 +124,19 @@ Video dirs mounted read-only from host; diarization output writes directly to pr
 - **No circular dependency**: Cluster embeddings come from anonymous pyannote speakers, not transcript labels
 - **Pairwise split detection**: Cosine similarity >= 0.75 flags likely same-character splits
 - **Season bucketing**: Finn gets separate profiles per season range (voice actor aging)
-- **Alias resolution**: Uses the-enchiridion character data for canonical names
+- **Alias resolution**: Uses the-enchiridion character data for canonical names. `_canon()` strips bucket suffixes (Finn_S01-S03 → Finn) then resolves aliases (Lumpy Space Princess → LSP) for comparison.
 - **Skip mixed clusters**: When pyannote merges two characters, skip rather than mislabel
+
+### Validate expected results
+
+`validate` fuzzy-matches transcript lines to whisperX segments by timestamp, then compares speaker attributions using canonical name resolution.
+
+- **~51% agree rate** is the S01 baseline after alias resolution. Remaining disagrees are real diarization errors, not transcript issues.
+- **Finn↔Jake confusion**: 35% of all S01 disagrees. Pyannote struggles to separate two young male voices. Transcript is almost always correct.
+- **Minor characters in major clusters**: 26% of disagrees. Characters without voice profiles land in the nearest major cluster. Expected and not fixable without seeding more profiles.
+- **Finn→PB confusion**: Severe in close dialogue scenes (e.g. S01E01 cemetery scene: 26/68 disagrees). Young Finn and PB cluster together when alone.
+- **Multi-speaker lines**: "Finn and Jake" etc. — inherently ambiguous, ~1% of disagrees.
+- Validate is primarily useful for **spotting transcript attribution errors** and **measuring diarization quality**, not for correcting diarization.
 
 ## Video Archive
 
