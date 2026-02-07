@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S02E03",
+  "title": "Loyalty to the King",
+  "season": 2,
+  "speaker_map": {
+    "SPEAKER_03": "LSP",
+    "SPEAKER_04": "Finn_S01-S03",
+    "SPEAKER_05": "Jake",
+    "SPEAKER_06": "Ice King"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:10:23"
+}

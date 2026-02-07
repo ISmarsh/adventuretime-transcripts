@@ -1999,18 +1999,30 @@ def cmd_embed_label(args: argparse.Namespace) -> None:
         pdir.mkdir(parents=True, exist_ok=True)
         _save_profile(profile_path, centroid, all_embeddings, all_metadata)
 
-    # Save label file
+    # Save label file (merge into existing if present)
     labels_dir = dia_dir / "labels"
     labels_dir.mkdir(parents=True, exist_ok=True)
     label_path = labels_dir / f"{ep_id}.json"
-    label_data = {
-        "episode_id": ep_id,
-        "title": meta.get("title", ""),
-        "season": season,
-        "speaker_map": speaker_map,
-        "skipped": sorted(skips),
-        "timestamp": datetime.now().isoformat(timespec="seconds"),
-    }
+
+    if label_path.exists() and not getattr(args, "replace", False):
+        label_data = json.loads(label_path.read_text(encoding="utf-8"))
+        label_data["speaker_map"].update(speaker_map)
+        # Remove newly-mapped speakers from skipped list
+        existing_skipped = set(label_data.get("skipped", []))
+        existing_skipped -= set(speaker_map.keys())
+        existing_skipped |= skips
+        label_data["skipped"] = sorted(existing_skipped)
+        label_data["timestamp"] = datetime.now().isoformat(timespec="seconds")
+    else:
+        label_data = {
+            "episode_id": ep_id,
+            "title": meta.get("title", ""),
+            "season": season,
+            "speaker_map": speaker_map,
+            "skipped": sorted(skips),
+            "timestamp": datetime.now().isoformat(timespec="seconds"),
+        }
+
     label_path.write_text(
         json.dumps(label_data, indent=2, ensure_ascii=False),
         encoding="utf-8",
@@ -2500,6 +2512,9 @@ def main() -> None:
     p_elabel.add_argument(
         "--skip", nargs="*", default=[],
         help="Clusters to skip (noise, music, etc.)")
+    p_elabel.add_argument(
+        "--replace", action="store_true",
+        help="Replace existing label file instead of merging")
     p_elabel.add_argument(
         "--diarization-dir", default="diarization", help="JSON directory")
 

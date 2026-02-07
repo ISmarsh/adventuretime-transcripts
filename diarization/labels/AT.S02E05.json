@@ -1,0 +1,23 @@
+{
+  "episode_id": "AT.S02E05",
+  "title": "Storytelling",
+  "season": 2,
+  "speaker_map": {
+    "SPEAKER_02": "Jake",
+    "SPEAKER_04": "LSP",
+    "SPEAKER_05": "LSP",
+    "SPEAKER_10": "Finn_S01-S03"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_03",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_09"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:10:24"
+}

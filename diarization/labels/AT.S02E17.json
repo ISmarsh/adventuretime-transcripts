@@ -1,0 +1,23 @@
+{
+  "episode_id": "AT.S02E17",
+  "title": "Death in Bloom",
+  "season": 2,
+  "speaker_map": {
+    "SPEAKER_02": "Peppermint Butler",
+    "SPEAKER_03": "Princess Bubblegum",
+    "SPEAKER_05": "Finn_S01-S03",
+    "SPEAKER_07": "Jake",
+    "SPEAKER_08": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_04",
+    "SPEAKER_06",
+    "SPEAKER_09",
+    "SPEAKER_10"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:18:38"
+}
