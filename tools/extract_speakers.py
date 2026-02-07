@@ -33,6 +33,9 @@ from pathlib import Path
 # Speaker label pattern: capitalized name(s) followed by colon at line start
 SPEAKER_RE = re.compile(r"^([A-Z][A-Za-z \u2019'.\-()]+):\s")
 
+# Placeholder speaker labels that indicate unlabeled lines
+PLACEHOLDER_RE = re.compile(r"^\?\?\?:\s+|^([A-Z][A-Za-z .\-]+) \[\?\]:\s+")
+
 # SDH speaker patterns: [SPEAKER], SPEAKER:, (SPEAKER)
 SDH_SPEAKER_RE = re.compile(
     r"^\[([A-Z][A-Z .']+)\]\s*(.*)|"
@@ -281,8 +284,14 @@ def parse_transcript(text: str) -> list[TranscriptLine]:
             speaker = m.group(1).strip()
             dialogue = stripped[m.end():].strip()
         else:
-            speaker = ""
-            dialogue = stripped
+            # Check for placeholder labels (???: or Name [?]:)
+            pm = PLACEHOLDER_RE.match(stripped)
+            if pm:
+                speaker = ""  # Treat as unlabeled
+                dialogue = stripped[pm.end():].strip()
+            else:
+                speaker = ""
+                dialogue = stripped
 
         lines.append(TranscriptLine(
             line_num=i,
@@ -318,6 +327,7 @@ def match_transcript_to_srt(
         best_ratio = 0.0
         best_entry = None
 
+        # Primary search: narrow window around current position
         search_start = max(0, srt_idx - 5)
         search_end = min(len(srt_entries), srt_idx + 20)
 
@@ -329,6 +339,21 @@ def match_transcript_to_srt(
             if ratio > best_ratio:
                 best_ratio = ratio
                 best_entry = entry
+
+        # Fallback: wider search if narrow window missed (e.g., hybrid wiki+SRT transcripts)
+        if best_ratio < MIN_MATCH_RATIO and len(text_to_match) > 5:
+            for j in range(len(srt_entries)):
+                if search_start <= j < search_end:
+                    continue  # Already checked
+                entry = srt_entries[j]
+                if not entry.text:
+                    continue
+                ratio = SequenceMatcher(None, text_to_match.lower(), entry.text.lower()).ratio()
+                if ratio > best_ratio:
+                    best_ratio = ratio
+                    best_entry = entry
+                    if ratio >= 0.9:
+                        break  # Good enough, stop searching
 
         if best_entry and best_ratio >= MIN_MATCH_RATIO:
             tline.matched_srt = best_entry
@@ -802,16 +827,22 @@ def format_output(transcript_lines: list[TranscriptLine], original_text: str) ->
             continue
 
         if not SPEAKER_RE.match(stripped) and not stripped.startswith("["):
+            # Strip placeholder prefixes for matching
+            match_text = stripped
+            pm = PLACEHOLDER_RE.match(stripped)
+            if pm:
+                match_text = stripped[pm.end():].strip()
+
             best_key = ""
             best_ratio = 0.0
             for key in attribution:
-                ratio = SequenceMatcher(None, stripped.lower(), key.lower()).ratio()
+                ratio = SequenceMatcher(None, match_text.lower(), key.lower()).ratio()
                 if ratio > best_ratio:
                     best_ratio = ratio
                     best_key = key
             if best_ratio >= 0.8 and best_key:
                 speaker = attribution[best_key]
-                output_lines.append(f"{speaker}:  {stripped}")
+                output_lines.append(f"{speaker}:  {match_text}")
                 continue
 
         output_lines.append(stripped)
