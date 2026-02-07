@@ -1962,7 +1962,6 @@ def cmd_embed_label(args: argparse.Namespace) -> None:
         profile_path = pdir / f"{profile_name}.npz"
 
         # Build metadata for new samples
-        cluster_meta = meta.get("clusters", {}).get(cluster, {})
         new_metadata = [{
             "episode": ep_id,
             "season": season,
