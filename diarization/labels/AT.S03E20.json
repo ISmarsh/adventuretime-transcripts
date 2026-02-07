@@ -5,14 +5,14 @@
   "speaker_map": {
     "SPEAKER_00": "BMO",
     "SPEAKER_03": "Finn_S01-S03",
-    "SPEAKER_04": "Ice King"
+    "SPEAKER_04": "Ice King",
+    "SPEAKER_01": "Shelby"
   },
   "skipped": [
-    "SPEAKER_01",
     "SPEAKER_02",
     "SPEAKER_05"
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T11:31:34"
+  "timestamp": "2026-02-07T14:49:54"
 }

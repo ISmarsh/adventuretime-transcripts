@@ -3,17 +3,17 @@
   "title": "The Visitor",
   "season": 6,
   "speaker_map": {
-    "SPEAKER_05": "Finn_S04-S06"
+    "SPEAKER_05": "Finn_S04-S06",
+    "SPEAKER_03": "Martin"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_01",
     "SPEAKER_02",
-    "SPEAKER_03",
     "SPEAKER_04",
     "SPEAKER_06"
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:48:15"
+  "timestamp": "2026-02-07T14:49:55"
 }

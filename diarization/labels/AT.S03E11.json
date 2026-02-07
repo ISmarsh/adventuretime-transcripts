@@ -5,7 +5,8 @@
   "speaker_map": {
     "SPEAKER_06": "Tree Trunks",
     "SPEAKER_08": "Jake",
-    "SPEAKER_12": "Finn_S01-S03"
+    "SPEAKER_12": "Finn_S01-S03",
+    "SPEAKER_05": "Banana Guard"
   },
   "skipped": [
     "SPEAKER_00",
@@ -13,7 +14,6 @@
     "SPEAKER_02",
     "SPEAKER_03",
     "SPEAKER_04",
-    "SPEAKER_05",
     "SPEAKER_07",
     "SPEAKER_09",
     "SPEAKER_10",
@@ -21,5 +21,5 @@
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T11:31:31"
+  "timestamp": "2026-02-07T14:49:54"
 }

@@ -7,11 +7,11 @@
     "SPEAKER_05": "BMO",
     "SPEAKER_06": "BMO",
     "SPEAKER_08": "Jake",
-    "SPEAKER_10": "Finn_S07-S10"
+    "SPEAKER_10": "Finn_S07-S10",
+    "SPEAKER_01": "NEPTR"
   },
   "skipped": [
     "SPEAKER_00",
-    "SPEAKER_01",
     "SPEAKER_02",
     "SPEAKER_04",
     "SPEAKER_07",
@@ -19,5 +19,5 @@
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:52:58"
+  "timestamp": "2026-02-07T14:49:55"
 }

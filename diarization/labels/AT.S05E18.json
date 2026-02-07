@@ -8,16 +8,16 @@
     "SPEAKER_05": "Princess Bubblegum",
     "SPEAKER_06": "Finn_S04-S06",
     "SPEAKER_08": "Jake",
-    "SPEAKER_10": "Ice King"
+    "SPEAKER_10": "Ice King",
+    "SPEAKER_02": "Lemongrab"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_01",
-    "SPEAKER_02",
     "SPEAKER_07",
     "SPEAKER_09"
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:29:35"
+  "timestamp": "2026-02-07T14:49:55"
 }

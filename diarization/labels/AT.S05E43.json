@@ -3,7 +3,8 @@
   "title": "Root Beer Guy",
   "season": 5,
   "speaker_map": {
-    "SPEAKER_01": "Princess Bubblegum"
+    "SPEAKER_01": "Princess Bubblegum",
+    "SPEAKER_07": "Banana Guard"
   },
   "skipped": [
     "SPEAKER_00",
@@ -12,11 +13,10 @@
     "SPEAKER_04",
     "SPEAKER_05",
     "SPEAKER_06",
-    "SPEAKER_07",
     "SPEAKER_08",
     "SPEAKER_09"
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:29:47"
+  "timestamp": "2026-02-07T14:49:55"
 }

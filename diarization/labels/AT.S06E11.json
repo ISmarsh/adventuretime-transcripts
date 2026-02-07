@@ -3,12 +3,12 @@
   "title": "Little Brother",
   "season": 6,
   "speaker_map": {
-    "SPEAKER_06": "Jake"
+    "SPEAKER_06": "Jake",
+    "SPEAKER_01": "Fionna",
+    "SPEAKER_02": "Shelby"
   },
   "skipped": [
     "SPEAKER_00",
-    "SPEAKER_01",
-    "SPEAKER_02",
     "SPEAKER_03",
     "SPEAKER_04",
     "SPEAKER_05",
@@ -22,5 +22,5 @@
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:48:15"
+  "timestamp": "2026-02-07T14:49:55"
 }

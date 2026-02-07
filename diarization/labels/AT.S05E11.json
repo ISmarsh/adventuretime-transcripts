@@ -6,16 +6,16 @@
     "SPEAKER_00": "Marceline",
     "SPEAKER_02": "Ice King",
     "SPEAKER_04": "Fionna",
-    "SPEAKER_07": "Prince Gumball"
+    "SPEAKER_07": "Prince Gumball",
+    "SPEAKER_05": "Cake",
+    "SPEAKER_08": "Me-Mow"
   },
   "skipped": [
     "SPEAKER_01",
     "SPEAKER_03",
-    "SPEAKER_05",
-    "SPEAKER_06",
-    "SPEAKER_08"
+    "SPEAKER_06"
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:29:32"
+  "timestamp": "2026-02-07T14:49:54"
 }

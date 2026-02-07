@@ -2,9 +2,10 @@
   "episode_id": "AT.S08E24",
   "title": "Hide and Seek",
   "season": 8,
-  "speaker_map": {},
+  "speaker_map": {
+    "SPEAKER_00": "Young PB"
+  },
   "skipped": [
-    "SPEAKER_00",
     "SPEAKER_01",
     "SPEAKER_02",
     "SPEAKER_03",
@@ -13,5 +14,5 @@
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T13:09:02"
+  "timestamp": "2026-02-07T14:49:55"
 }

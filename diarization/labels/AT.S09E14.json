@@ -4,14 +4,14 @@
   "season": 9,
   "speaker_map": {
     "SPEAKER_02": "Finn_S07-S10",
-    "SPEAKER_04": "Jake"
+    "SPEAKER_04": "Jake",
+    "SPEAKER_00": "Princess Bubblegum"
   },
   "skipped": [
-    "SPEAKER_00",
     "SPEAKER_01",
     "SPEAKER_03"
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T13:20:32"
+  "timestamp": "2026-02-07T14:49:55"
 }

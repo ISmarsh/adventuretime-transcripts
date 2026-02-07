@@ -8,12 +8,12 @@
     "SPEAKER_06": "Marceline",
     "SPEAKER_07": "BMO",
     "SPEAKER_10": "Tree Trunks",
-    "SPEAKER_11": "Ice King"
+    "SPEAKER_11": "Ice King",
+    "SPEAKER_02": "Finn_S04-S06"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_01",
-    "SPEAKER_02",
     "SPEAKER_04",
     "SPEAKER_08",
     "SPEAKER_09",
@@ -22,5 +22,5 @@
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:29:30"
+  "timestamp": "2026-02-07T14:49:54"
 }

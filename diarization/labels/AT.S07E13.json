@@ -5,16 +5,16 @@
   "speaker_map": {
     "SPEAKER_02": "Marceline",
     "SPEAKER_05": "Ice King",
-    "SPEAKER_07": "Princess Bubblegum"
+    "SPEAKER_07": "Princess Bubblegum",
+    "SPEAKER_03": "Finn_S07-S10",
+    "SPEAKER_04": "King of Ooo"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_01",
-    "SPEAKER_03",
-    "SPEAKER_04",
     "SPEAKER_06"
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:52:58"
+  "timestamp": "2026-02-07T14:49:55"
 }

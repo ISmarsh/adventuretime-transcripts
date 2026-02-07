@@ -4,14 +4,14 @@
   "season": 7,
   "speaker_map": {
     "SPEAKER_02": "Marceline",
-    "SPEAKER_03": "Princess Bubblegum"
+    "SPEAKER_03": "Princess Bubblegum",
+    "SPEAKER_01": "King of Ooo"
   },
   "skipped": [
     "SPEAKER_00",
-    "SPEAKER_01",
     "SPEAKER_04"
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:52:58"
+  "timestamp": "2026-02-07T14:49:55"
 }

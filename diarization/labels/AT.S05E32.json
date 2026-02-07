@@ -10,19 +10,19 @@
     "SPEAKER_08": "Flame King",
     "SPEAKER_11": "Jake",
     "SPEAKER_12": "Jake",
-    "SPEAKER_14": "Ice King"
+    "SPEAKER_14": "Ice King",
+    "SPEAKER_09": "Flame Princess",
+    "SPEAKER_10": "Cinnamon Bun"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_01",
     "SPEAKER_05",
     "SPEAKER_07",
-    "SPEAKER_09",
-    "SPEAKER_10",
     "SPEAKER_13",
     "SPEAKER_15"
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:29:41"
+  "timestamp": "2026-02-07T14:49:55"
 }

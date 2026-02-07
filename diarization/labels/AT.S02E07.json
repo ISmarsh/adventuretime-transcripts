@@ -8,7 +8,8 @@
     "SPEAKER_03": "Finn_S01-S03",
     "SPEAKER_04": "Jake",
     "SPEAKER_05": "Jake",
-    "SPEAKER_13": "Finn_S01-S03"
+    "SPEAKER_13": "Finn_S01-S03",
+    "SPEAKER_12": "Finn_S01-S03"
   },
   "skipped": [
     "SPEAKER_00",
@@ -17,8 +18,7 @@
     "SPEAKER_08",
     "SPEAKER_09",
     "SPEAKER_10",
-    "SPEAKER_11",
-    "SPEAKER_12"
+    "SPEAKER_11"
   ],
-  "timestamp": "2026-02-07T11:11:55"
+  "timestamp": "2026-02-07T14:49:54"
 }
