@@ -48,15 +48,19 @@ Transcripts are NOT used as ground truth — they are the thing being validated.
 1. process --season 1 --workers 1              # batch diarize (GPU)
 2. embed-clusters --season 1                   # batch clustering
 3. auto-label --season 1                       # preview: compare clusters against profiles
-4. auto-label --season 1 --apply               # apply confident matches (sim >= 0.55)
-5. [Review REVIEW-flagged clusters manually]   # Claude + user for low-confidence/new chars
-6. validate --season 1                         # compare against transcripts
+4. auto-label --season 1 --apply               # write label files (no profile merge)
+5. [Review + fix false positives in labels]    # Claude spot-checks reports, user approves
+6. auto-label --season 1 --merge              # merge reviewed labels into voice profiles
+7. validate --season 1                         # compare against transcripts
 ```
 
 `auto-label` classifies each cluster centroid against voice profile centroids via cosine
 similarity. Labels with `AUTO` (margin >= 0.05 over 2nd best) or `auto` (close margin).
 Clusters below threshold are flagged `REVIEW` for manual identification.
-Use `--apply` to write label files and merge into profiles; omit for preview-only mode.
+
+- `--apply` writes label files only (no profile merge) — safe to re-run with `--force`
+- `--merge` reads existing label files and merges into voice profiles — run after review
+- Use both together (`--apply --merge`) to write + merge in one step (old behavior)
 
 Threshold system (layered):
 - **Base threshold**: `--threshold` (default 0.60)

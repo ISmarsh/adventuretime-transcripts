@@ -2063,6 +2063,7 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
     pdir = _profile_dir(dia_dir)
     threshold = args.threshold
     apply = args.apply
+    merge = args.merge
 
     # Parse per-character threshold overrides
     char_thresholds: dict[str, float] = {}
@@ -2215,14 +2216,72 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
             needs_review += 1
 
         if apply and proposed_map:
-            # Auto-apply confident mappings via embed-label logic
+            # Write label file only (no profile merge)
             labels_dir = dia_dir / "labels"
             labels_dir.mkdir(parents=True, exist_ok=True)
             label_path = labels_dir / f"{ep_id}.json"
 
-            # Merge into profiles
-            for cluster, character in sorted(proposed_map.items()):
+            label_data = {
+                "episode_id": ep_id,
+                "title": title,
+                "season": season,
+                "speaker_map": proposed_map,
+                "skipped": sorted(set(cluster_keys) - set(proposed_map)),
+                "auto_labeled": True,
+                "threshold": threshold,
+                "timestamp": datetime.now().isoformat(timespec="seconds"),
+            }
+            label_path.write_text(
+                json.dumps(label_data, indent=2, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            auto_applied += 1
+            print(f"  -> Applied {len(proposed_map)} labels, "
+                  f"{len(review_clusters)} need review")
+
+    # Merge labels into voice profiles (separate step)
+    if merge:
+        labels_dir = dia_dir / "labels"
+        cluster_dir = dia_dir / "clusters"
+        if not labels_dir.is_dir():
+            print("No labels directory found.", file=sys.stderr)
+            sys.exit(1)
+
+        # Find label files matching the episode filter
+        merge_eps = ep_ids if apply else []
+        if not merge_eps:
+            # Discover from existing labels
+            for lp in sorted(labels_dir.glob("*.json")):
+                merge_eps.append(lp.stem)
+            # Apply same filters
+            if series_filter and series_filter != "all":
+                code = series_filter.upper()
+                merge_eps = [e for e in merge_eps if e.startswith(code + ".")]
+            if season_filter is not None:
+                pattern = f"S{season_filter:02d}E"
+                merge_eps = [e for e in merge_eps if pattern in e]
+
+        merged_count = 0
+        for ep_id in merge_eps:
+            label_path = labels_dir / f"{ep_id}.json"
+            cluster_path = cluster_dir / f"{ep_id}.npz"
+            if not label_path.exists() or not cluster_path.exists():
+                continue
+
+            label_data = json.loads(label_path.read_text(encoding="utf-8"))
+            speaker_map = label_data.get("speaker_map", {})
+            if not speaker_map:
+                continue
+
+            cluster_data = np.load(str(cluster_path), allow_pickle=False)
+            meta_str = str(cluster_data.get("_meta", "{}"))
+            meta = json.loads(meta_str)
+            season = meta.get("season", 0)
+
+            for cluster, character in sorted(speaker_map.items()):
                 emb_key = f"{cluster}_embeddings"
+                if emb_key not in cluster_data.files:
+                    continue
                 new_embeddings = cluster_data[emb_key]
                 if len(new_embeddings) == 0:
                     continue
@@ -2248,39 +2307,23 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
                 _save_profile(
                     profile_path, new_centroid, all_embeddings, all_metadata)
 
-            # Save label file
-            label_data = {
-                "episode_id": ep_id,
-                "title": title,
-                "season": season,
-                "speaker_map": proposed_map,
-                "skipped": sorted(set(cluster_keys) - set(proposed_map)),
-                "auto_labeled": True,
-                "threshold": threshold,
-                "timestamp": datetime.now().isoformat(timespec="seconds"),
-            }
-            label_path.write_text(
-                json.dumps(label_data, indent=2, ensure_ascii=False),
-                encoding="utf-8",
-            )
-            auto_applied += 1
-            print(f"  -> Applied {len(proposed_map)} labels, "
-                  f"{len(review_clusters)} need review")
+            merged_count += 1
 
-    # Update profile index if we applied anything
-    if apply and auto_applied > 0:
-        profiles_meta = {}
-        for npz_path in pdir.glob("*.npz"):
-            prof = _load_profile(npz_path)
-            episodes_in = list({
-                m.get("episode", "") for m in prof["metadata"]
-            })
-            profiles_meta[npz_path.stem] = {
-                "samples": len(prof["embeddings"]),
-                "episodes": sorted(e for e in episodes_in if e),
-                "updated": datetime.now().isoformat(timespec="seconds"),
-            }
-        _save_index(pdir, profiles_meta)
+        # Update profile index
+        if merged_count > 0:
+            profiles_meta = {}
+            for npz_path in pdir.glob("*.npz"):
+                prof = _load_profile(npz_path)
+                episodes_in = list({
+                    m.get("episode", "") for m in prof["metadata"]
+                })
+                profiles_meta[npz_path.stem] = {
+                    "samples": len(prof["embeddings"]),
+                    "episodes": sorted(e for e in episodes_in if e),
+                    "updated": datetime.now().isoformat(timespec="seconds"),
+                }
+            _save_index(pdir, profiles_meta)
+            print(f"\nMerged profiles from {merged_count} episodes")
 
     print(f"\n{'=' * 60}")
     print(f"Auto-label: {total} episodes, "
@@ -2535,7 +2578,11 @@ def main() -> None:
         help="Per-character threshold overrides (e.g. 'Ice King=0.65')")
     p_auto.add_argument(
         "--apply", action="store_true",
-        help="Auto-apply labels above threshold (default: preview only)")
+        help="Write label files above threshold (default: preview only)")
+    p_auto.add_argument(
+        "--merge", action="store_true",
+        help="Merge labeled clusters into voice profiles. "
+             "Use after --apply + review to avoid contamination.")
     p_auto.add_argument("--force", action="store_true",
                         help="Re-process already-labeled episodes")
     p_auto.add_argument("--limit", type=int, help="Max episodes to process")
