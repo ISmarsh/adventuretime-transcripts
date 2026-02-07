@@ -1,0 +1,26 @@
+{
+  "episode_id": "AT.S04E06",
+  "title": "Daddy's Little Monster",
+  "season": 4,
+  "speaker_map": {
+    "SPEAKER_02": "Hunson Abadeer",
+    "SPEAKER_07": "Marceline",
+    "SPEAKER_08": "Marceline",
+    "SPEAKER_09": "Finn_S04-S06",
+    "SPEAKER_10": "Jake",
+    "SPEAKER_11": "Jake",
+    "SPEAKER_12": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_13"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:19:52"
+}

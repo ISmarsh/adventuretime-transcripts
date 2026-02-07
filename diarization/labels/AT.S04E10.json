@@ -1,0 +1,20 @@
+{
+  "episode_id": "AT.S04E10",
+  "title": "Goliad",
+  "season": 4,
+  "speaker_map": {
+    "SPEAKER_03": "Princess Bubblegum",
+    "SPEAKER_06": "Jake",
+    "SPEAKER_07": "Finn_S04-S06"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_04",
+    "SPEAKER_05"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:19:53"
+}

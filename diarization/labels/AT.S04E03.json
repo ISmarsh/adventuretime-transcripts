@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S04E03",
+  "title": "Web Weirdos",
+  "season": 4,
+  "speaker_map": {
+    "SPEAKER_02": "Jake",
+    "SPEAKER_04": "Finn_S04-S06"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_03",
+    "SPEAKER_05",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:19:50"
+}

@@ -1,10 +1,10 @@
 {
-  "episode_id": "AT.S04E21",
-  "title": "Who Would Win",
+  "episode_id": "AT.S04E23",
+  "title": "The Hard Easy",
   "season": 4,
   "speaker_map": {
     "SPEAKER_05": "Jake",
-    "SPEAKER_06": "Finn_S04-S06"
+    "SPEAKER_07": "Finn_S04-S06"
   },
   "skipped": [
     "SPEAKER_00",
@@ -12,10 +12,11 @@
     "SPEAKER_02",
     "SPEAKER_03",
     "SPEAKER_04",
-    "SPEAKER_07",
-    "SPEAKER_08"
+    "SPEAKER_06",
+    "SPEAKER_08",
+    "SPEAKER_09"
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:19:58"
+  "timestamp": "2026-02-07T12:19:59"
 }

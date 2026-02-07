@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S04E25",
+  "title": "I Remember You",
+  "season": 4,
+  "speaker_map": {
+    "SPEAKER_02": "Marceline",
+    "SPEAKER_06": "Ice King",
+    "SPEAKER_03": "Marceline",
+    "SPEAKER_05": "Ice King"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_04"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:20:37"
+}
