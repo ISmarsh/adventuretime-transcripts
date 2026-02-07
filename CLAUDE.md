@@ -118,6 +118,18 @@ Video dirs mounted read-only from host; diarization output writes directly to pr
 - **Themed intros**: Special arcs (Elements, Islands) have custom intros sung by cast members. These cluster separately and match character profiles but aren't actual character dialogue — always false positives.
 - **Alternate-world episodes**: Same voice actors play alternate versions of characters (e.g. Beyond the Grotto S10E03). Voice matches are technically correct but character identities differ. Accept or skip based on project needs.
 - **~40% map rate is normal**: Across S01-S10 the mapping rate is consistently ~40%. The other 60% are intro/outro music, minor one-off characters, and mixed clusters. Don't chase 100%.
+- **Mixed clusters**: When pyannote lumps multiple characters into one cluster (e.g. S01E01 SPEAKER_06 had Gumball Guardian + Chocoberry + Chet), skip the cluster rather than mislabel. Look for clusters where validation disagrees span many different transcript speakers.
+
+### Profile contamination limits
+
+Investigated whether surgical profile cleanup could improve Finn/Jake separation. Key findings:
+
+- **Baseline cosine similarities**: Finn_S01-S03 ↔ Jake = 0.39, Finn ↔ PB = 0.30, Jake ↔ PB = 0.07
+- **Finn/Jake contamination is pervasive**: 94% of Finn_S01-S03 episodes also have Jake. Only 5 Finn episodes are Jake-free. ~525 Finn↔Jake swaps across S01 validation.
+- **Finn/PB contamination is localized**: Only 7 S01 episodes show Finn/PB swaps (87 total). Top 3 episodes account for 69% of it.
+- **Removing contaminated episodes makes things worse**: Tested removing 5 worst Finn↔Jake episodes from both profiles. Similarity *increased* from 0.387 to 0.416 (+7%). Those episodes contribute far more correct samples (~80%) than contaminating ones (~20%), so removing them shrinks the profile and shifts the centroid toward noisier data.
+- **Segment-level cleanup would require solving the original problem**: Can't identify which individual audio segments within a cluster belong to the wrong speaker without ground-truth diarization.
+- **Conclusion**: The 0.39 Finn/Jake similarity is a fundamental property of the voices (young Jeremy Shada vs John DiMaggio), not a correctable artifact. Accept it as a known limitation.
 
 ### Key design decisions
 
