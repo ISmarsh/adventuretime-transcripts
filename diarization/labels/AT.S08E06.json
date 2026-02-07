@@ -7,15 +7,15 @@
     "SPEAKER_02": "Finn_S07-S10",
     "SPEAKER_03": "Flame Princess",
     "SPEAKER_04": "Flame Princess",
-    "SPEAKER_05": "Princess Bubblegum"
+    "SPEAKER_05": "Princess Bubblegum",
+    "SPEAKER_08": "Cinnamon Bun"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_06",
-    "SPEAKER_07",
-    "SPEAKER_08"
+    "SPEAKER_07"
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T13:09:01"
+  "timestamp": "2026-02-07T13:32:38"
 }
