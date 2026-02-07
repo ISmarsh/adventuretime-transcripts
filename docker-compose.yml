@@ -1,12 +1,11 @@
-# Copy to docker-compose.yml and adjust volume paths to your video locations.
-# docker-compose.yml is gitignored (machine-specific paths).
+# Diarization pipeline — GPU-accelerated whisperX in Docker.
 #
 # Prerequisites:
 #   - Docker Desktop with WSL2 backend
 #   - NVIDIA GPU driver (nvidia-smi should work from host)
 #   - HuggingFace token with pyannote access:
 #       1. Accept terms at https://huggingface.co/pyannote/speaker-diarization-3.1
-#       2. Set env var: HUGGINGFACE_TOKEN=hf_your_token_here
+#       2. Set HUGGINGFACE_TOKEN in .env (see .env.example)
 #
 # Usage:
 #   docker compose build                          # one-time (~5 min)
@@ -26,9 +25,9 @@ services:
               capabilities: [gpu]
     volumes:
       - .:/app
-      # Mount your video directories read-only. The container expects
+      # Mount video directories read-only. The container expects
       # /shows-d and /shows-s — the script auto-detects these paths.
-      - /path/to/videos-1:/shows-d:ro
-      - /path/to/videos-2:/shows-s:ro
+      - ${VIDEO_DIR_D:?Set VIDEO_DIR_D in .env}:/shows-d:ro
+      - ${VIDEO_DIR_S:?Set VIDEO_DIR_S in .env}:/shows-s:ro
     environment:
-      - HF_TOKEN=${HUGGINGFACE_TOKEN}
+      - HF_TOKEN=${HUGGINGFACE_TOKEN:?Set HUGGINGFACE_TOKEN in .env}

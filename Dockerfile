@@ -5,11 +5,15 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     && rm -rf /var/lib/apt/lists/*
 
+# Remove torchvision from base image — incompatible with torch 2.8 and unused
+RUN pip uninstall -y torchvision
+
 RUN pip install --no-cache-dir \
     whisperx \
     pyannote.audio \
     speechbrain \
-    numpy
+    numpy \
+    "transformers<4.50"
 
 WORKDIR /app
 

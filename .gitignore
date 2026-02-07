@@ -5,8 +5,8 @@ diarization/
 .claude/
 nul
 
-# Local config (volume paths are machine-specific)
-docker-compose.yml
+# Local config (machine-specific paths + tokens)
+.env
 
 # Python
 __pycache__/

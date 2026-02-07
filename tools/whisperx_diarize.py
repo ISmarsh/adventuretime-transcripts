@@ -457,7 +457,8 @@ def worker_process(episode_dict: dict, output_dir: str) -> dict:
         audio = whisperx.load_audio(str(wav_path))
 
         # Step 1: Transcribe
-        result = _worker_whisper.transcribe(audio, batch_size=16, language="en")
+        batch_size = 4 if _worker_device == "cuda" else 16
+        result = _worker_whisper.transcribe(audio, batch_size=batch_size, language="en")
 
         # Step 2: Align (word-level timestamps)
         result = whisperx.align(
@@ -596,62 +597,92 @@ def run_batch(
     failed_ids: list[str] = []
     batch_start = time.monotonic()
 
-    # On Linux, use fork to share model memory via copy-on-write
-    if sys.platform != "win32":
+    # Single worker: run in-process to avoid fork+CUDA deadlock
+    if workers == 1:
         worker_init(threads_per_worker, hf_token, whisper_model, device)
-        import multiprocessing
-        ctx = multiprocessing.get_context("fork")
-        pool_kwargs = dict(
-            max_workers=workers,
-            mp_context=ctx,
-            initializer=_worker_init_fork,
-            initargs=(threads_per_worker,),
-        )
     else:
-        pool_kwargs = dict(
-            max_workers=workers,
-            initializer=worker_init,
-            initargs=(threads_per_worker, hf_token, whisper_model, device),
-        )
+        # On Linux, use fork to share model memory via copy-on-write (CPU only)
+        if sys.platform != "win32":
+            worker_init(threads_per_worker, hf_token, whisper_model, device)
+            import multiprocessing
+            ctx = multiprocessing.get_context("fork")
+            pool_kwargs = dict(
+                max_workers=workers,
+                mp_context=ctx,
+                initializer=_worker_init_fork,
+                initargs=(threads_per_worker,),
+            )
+        else:
+            pool_kwargs = dict(
+                max_workers=workers,
+                initializer=worker_init,
+                initargs=(threads_per_worker, hf_token, whisper_model, device),
+            )
+    def _log_result(ep: Episode, result: dict) -> None:
+        nonlocal completed, succeeded, failed
+        completed += 1
+        pct = completed * 100 / total
+        wall_elapsed = time.monotonic() - batch_start
+        wall_per_ep = wall_elapsed / completed
+        wall_remaining = (total - completed) * wall_per_ep
 
-    with ProcessPoolExecutor(**pool_kwargs) as pool:
-        futures = {
-            pool.submit(
-                worker_process, episode_to_dict(ep, whisper_model), str(output_dir),
-            ): ep
-            for ep in episodes
-        }
+        if result["success"]:
+            succeeded += 1
+            logger.info(
+                "[%03d/%03d %3.0f%%] %s %s -- %d speakers, %d segs, "
+                "%.0fs audio, took %.0fs | elapsed %s, ETA %s",
+                completed, total, pct,
+                result["episode_id"], ep.title,
+                result["num_speakers"], result["n_segments"],
+                result["duration"], result["elapsed"],
+                format_duration(wall_elapsed),
+                format_duration(wall_remaining),
+            )
+        else:
+            failed += 1
+            failed_ids.append(result["episode_id"])
+            logger.error(
+                "[%03d/%03d %3.0f%%] %s FAILED: %s | elapsed %s",
+                completed, total, pct,
+                result["episode_id"], result.get("error", "unknown"),
+                format_duration(wall_elapsed),
+            )
 
-        for future in as_completed(futures):
-            ep = futures[future]
-            result = future.result()
-            completed += 1
-            pct = completed * 100 / total
-            wall_elapsed = time.monotonic() - batch_start
-            wall_per_ep = wall_elapsed / completed
-            wall_remaining = (total - completed) * wall_per_ep
-
-            if result["success"]:
-                succeeded += 1
-                logger.info(
-                    "[%03d/%03d %3.0f%%] %s %s -- %d speakers, %d segs, "
-                    "%.0fs audio, took %.0fs | elapsed %s, ETA %s",
-                    completed, total, pct,
-                    result["episode_id"], ep.title,
-                    result["num_speakers"], result["n_segments"],
-                    result["duration"], result["elapsed"],
-                    format_duration(wall_elapsed),
-                    format_duration(wall_remaining),
+    if workers == 1:
+        for ep in episodes:
+            ep_dict = episode_to_dict(ep, whisper_model)
+            result = worker_process(ep_dict, str(output_dir))
+            # CPU fallback: retry OOM failures on CPU
+            if (
+                not result["success"]
+                and device == "cuda"
+                and "out of memory" in result.get("error", "").lower()
+            ):
+                import torch
+                torch.cuda.empty_cache()
+                logger.warning(
+                    "%s: CUDA OOM, retrying on CPU...", result["episode_id"],
                 )
-            else:
-                failed += 1
-                failed_ids.append(result["episode_id"])
-                logger.error(
-                    "[%03d/%03d %3.0f%%] %s FAILED: %s | elapsed %s",
-                    completed, total, pct,
-                    result["episode_id"], result.get("error", "unknown"),
-                    format_duration(wall_elapsed),
-                )
+                worker_init(threads_per_worker, hf_token, whisper_model, "cpu")
+                result = worker_process(ep_dict, str(output_dir))
+                # Restore CUDA models for next episode
+                worker_init(threads_per_worker, hf_token, whisper_model, device)
+            # Free CUDA memory between episodes to prevent fragmentation
+            if device == "cuda":
+                import torch
+                torch.cuda.empty_cache()
+            _log_result(ep, result)
+    else:
+        with ProcessPoolExecutor(**pool_kwargs) as pool:
+            futures = {
+                pool.submit(
+                    worker_process, episode_to_dict(ep, whisper_model),
+                    str(output_dir),
+                ): ep
+                for ep in episodes
+            }
+            for future in as_completed(futures):
+                _log_result(futures[future], future.result())
 
     wall_time = time.monotonic() - batch_start
     logger.info("")
