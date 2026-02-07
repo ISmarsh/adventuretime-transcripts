@@ -1,0 +1,23 @@
+{
+  "episode_id": "AT.S05E41",
+  "title": "The Pit",
+  "season": 5,
+  "speaker_map": {
+    "SPEAKER_03": "Joshua",
+    "SPEAKER_04": "BMO",
+    "SPEAKER_09": "Jake",
+    "SPEAKER_10": "Finn_S04-S06"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_08"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:29:46"
+}

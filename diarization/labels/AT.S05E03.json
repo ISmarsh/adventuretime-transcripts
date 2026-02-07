@@ -1,0 +1,26 @@
+{
+  "episode_id": "AT.S05E03",
+  "title": "Five More Short Graybles",
+  "season": 5,
+  "speaker_map": {
+    "SPEAKER_03": "Jake",
+    "SPEAKER_05": "Banana Guard",
+    "SPEAKER_06": "Marceline",
+    "SPEAKER_07": "BMO",
+    "SPEAKER_10": "Tree Trunks",
+    "SPEAKER_11": "Ice King"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_04",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_12",
+    "SPEAKER_13"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:29:30"
+}

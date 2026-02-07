@@ -1,0 +1,22 @@
+{
+  "episode_id": "AT.S05E30",
+  "title": "Frost & Fire",
+  "season": 5,
+  "speaker_map": {
+    "SPEAKER_03": "Jake",
+    "SPEAKER_05": "Flame Princess",
+    "SPEAKER_06": "Flame Princess",
+    "SPEAKER_07": "Finn_S04-S06",
+    "SPEAKER_08": "Ice King"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_04",
+    "SPEAKER_09"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:29:39"
+}

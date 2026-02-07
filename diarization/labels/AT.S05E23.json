@@ -1,0 +1,26 @@
+{
+  "episode_id": "AT.S05E23",
+  "title": "One Last Job",
+  "season": 5,
+  "speaker_map": {
+    "SPEAKER_03": "Jake",
+    "SPEAKER_04": "BMO",
+    "SPEAKER_12": "LSP",
+    "SPEAKER_13": "Starchy"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_10",
+    "SPEAKER_11"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:29:37"
+}

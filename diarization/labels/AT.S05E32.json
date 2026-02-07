@@ -1,0 +1,28 @@
+{
+  "episode_id": "AT.S05E32",
+  "title": "Earth & Water",
+  "season": 5,
+  "speaker_map": {
+    "SPEAKER_02": "Princess Bubblegum",
+    "SPEAKER_03": "Princess Bubblegum",
+    "SPEAKER_04": "Flame Princess",
+    "SPEAKER_06": "Finn_S04-S06",
+    "SPEAKER_08": "Flame King",
+    "SPEAKER_11": "Jake",
+    "SPEAKER_12": "Jake",
+    "SPEAKER_14": "Ice King"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_05",
+    "SPEAKER_07",
+    "SPEAKER_09",
+    "SPEAKER_10",
+    "SPEAKER_13",
+    "SPEAKER_15"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:29:41"
+}

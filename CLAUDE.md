@@ -99,6 +99,12 @@ Video dirs mounted read-only from host; diarization output writes directly to pr
 - `auto-label` loads profiles once, compares centroids — no model loading, instant per episode
 - `status` scans filesystem only, no model loading
 
+### Known false positive patterns
+
+- **Joshua (deep male voice)**: 54 samples from 3 episodes. Consistently matches random deep-voiced background characters (Nightosphere demons, mud scamps). Hit 3 false positives in S04 alone. Sample-count penalty helps but doesn't fully prevent.
+- **Young female voices**: Me-Mow, Young Marceline, and Fionna profiles confuse with each other and with random young/feminine-sounding characters (candy citizens, episode-specific kids).
+- **~40% map rate is normal**: Across S01-S04 the mapping rate is consistently ~40%. The other 60% are intro/outro music, minor one-off characters, and mixed clusters. Don't chase 100%.
+
 ### Key design decisions
 
 - **No circular dependency**: Cluster embeddings come from anonymous pyannote speakers, not transcript labels
