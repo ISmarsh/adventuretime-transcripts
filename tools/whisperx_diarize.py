@@ -2064,6 +2064,7 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
     threshold = args.threshold
     apply = args.apply
     merge = args.merge
+    additive = getattr(args, "additive", False)
 
     # Parse per-character threshold overrides
     char_thresholds: dict[str, float] = {}
@@ -2090,7 +2091,7 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
     if args.episode:
         ep_ids = args.episode if isinstance(args.episode, list) else [args.episode]
     else:
-        # Auto-discover: have clusters, no labels (unless --force)
+        # Auto-discover: have clusters, no labels (unless --force/--additive)
         cluster_dir = dia_dir / "clusters"
         labels_dir = dia_dir / "labels"
         existing_labels = (
@@ -2099,7 +2100,11 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
         ep_ids = []
         if cluster_dir.is_dir():
             for cp in sorted(cluster_dir.glob("*.npz")):
-                if args.force or cp.stem not in existing_labels:
+                if additive:
+                    # Only episodes that HAVE existing labels
+                    if cp.stem in existing_labels:
+                        ep_ids.append(cp.stem)
+                elif args.force or cp.stem not in existing_labels:
                     ep_ids.append(cp.stem)
 
     # Apply series/season filters
@@ -2158,10 +2163,27 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
 
         print(f"\n[{idx:03d}/{total}] {ep_id} {title}")
 
+        # In additive mode, load existing label and only process skipped clusters
+        existing_label_data: dict | None = None
+        if additive:
+            label_path = dia_dir / "labels" / f"{ep_id}.json"
+            if label_path.exists():
+                existing_label_data = json.loads(
+                    label_path.read_text(encoding="utf-8"))
+                skipped_set = set(existing_label_data.get("skipped", []))
+                clusters_to_process = [c for c in cluster_keys if c in skipped_set]
+                if not clusters_to_process:
+                    print("  (no skipped clusters to process)")
+                    continue
+            else:
+                clusters_to_process = cluster_keys
+        else:
+            clusters_to_process = cluster_keys
+
         proposed_map: dict[str, str] = {}
         review_clusters: list[str] = []
 
-        for cluster in cluster_keys:
+        for cluster in clusters_to_process:
             emb_key = f"{cluster}_embeddings"
             embeddings = cluster_data[emb_key]
             if len(embeddings) == 0:
@@ -2221,22 +2243,34 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
             labels_dir.mkdir(parents=True, exist_ok=True)
             label_path = labels_dir / f"{ep_id}.json"
 
-            label_data = {
-                "episode_id": ep_id,
-                "title": title,
-                "season": season,
-                "speaker_map": proposed_map,
-                "skipped": sorted(set(cluster_keys) - set(proposed_map)),
-                "auto_labeled": True,
-                "threshold": threshold,
-                "timestamp": datetime.now().isoformat(timespec="seconds"),
-            }
+            if additive and existing_label_data:
+                # Merge new matches into existing label file
+                label_data = existing_label_data
+                label_data["speaker_map"].update(proposed_map)
+                existing_skipped = set(label_data.get("skipped", []))
+                existing_skipped -= set(proposed_map.keys())
+                label_data["skipped"] = sorted(existing_skipped,
+                    key=lambda s: int(s.split("_")[1]) if "_" in s else 0)
+                label_data["timestamp"] = datetime.now().isoformat(
+                    timespec="seconds")
+            else:
+                label_data = {
+                    "episode_id": ep_id,
+                    "title": title,
+                    "season": season,
+                    "speaker_map": proposed_map,
+                    "skipped": sorted(set(cluster_keys) - set(proposed_map)),
+                    "auto_labeled": True,
+                    "threshold": threshold,
+                    "timestamp": datetime.now().isoformat(timespec="seconds"),
+                }
             label_path.write_text(
                 json.dumps(label_data, indent=2, ensure_ascii=False),
                 encoding="utf-8",
             )
             auto_applied += 1
-            print(f"  -> Applied {len(proposed_map)} labels, "
+            print(f"  -> {'Additive: ' if additive else ''}Applied "
+                  f"{len(proposed_map)} labels, "
                   f"{len(review_clusters)} need review")
 
     # Merge labels into voice profiles (separate step)
@@ -2585,6 +2619,9 @@ def main() -> None:
              "Use after --apply + review to avoid contamination.")
     p_auto.add_argument("--force", action="store_true",
                         help="Re-process already-labeled episodes")
+    p_auto.add_argument("--additive", action="store_true",
+                        help="Only process skipped clusters in existing labels "
+                             "(preserves existing mappings)")
     p_auto.add_argument("--limit", type=int, help="Max episodes to process")
     p_auto.add_argument(
         "--diarization-dir", default="diarization", help="JSON directory")
