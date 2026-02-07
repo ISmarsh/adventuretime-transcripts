@@ -1,0 +1,20 @@
+{
+  "episode_id": "AT.S10E07",
+  "title": "Marcy & Hunson",
+  "season": 10,
+  "speaker_map": {
+    "SPEAKER_00": "Finn_S07-S10",
+    "SPEAKER_03": "Peppermint Butler",
+    "SPEAKER_04": "Marceline",
+    "SPEAKER_06": "Hunson Abadeer",
+    "SPEAKER_07": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_05"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T13:31:41"
+}

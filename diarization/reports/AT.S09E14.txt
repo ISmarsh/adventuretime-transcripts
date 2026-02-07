@@ -1,0 +1,46 @@
+Episode: AT.S09E14 (Three Buckets)
+5 speaker clusters, 225 total segments
+
+
+SPEAKER_00 (17 segs, 32.0s, 9 embedded)
+  "Ah!"
+  "I can't bear this burden any longer."
+  "It was me!"
+  "I am the vuvuzela smasher!"
+  "Jake, I'm sorry!"
+
+SPEAKER_01 (54 segs, 110.6s, 23 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Ha!"
+  "Nah, man!"
+  "Imitating on cool people infects you with their loserishness."
+
+SPEAKER_02 (117 segs, 189.6s, 50 embedded)
+  "No, it was me!"
+  "I'm the Vuvuzela Smasher."
+  "NEPTER?"
+  "No, I'm the Vuvuzela Smasher."
+  "Nah, me and Fi- Fern are supposed to clean out the chicken coop today."
+
+SPEAKER_03 (20 segs, 41.3s, 5 embedded)
+  "Pimo, how could you?"
+  "Whoop, whoop, whoop."
+  "Hey, wait up."
+  "Whoop, whoop."
+  "Whoop!"
+
+SPEAKER_04 (17 segs, 56.5s, 7 embedded)
+  "Finn!"
+  "Yo."
+  "Oh, hey."
+  "Me and Pimo are heading over to the vuvuzela store in the music kingdom."
+  "You wanna come with?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_02: 0.390
+  SPEAKER_02 <-> SPEAKER_03: 0.295
+  SPEAKER_00 <-> SPEAKER_02: 0.260
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S09E14.npz

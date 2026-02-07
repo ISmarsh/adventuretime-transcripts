@@ -1,0 +1,56 @@
+Episode: AT.S10E11 (Temple of Mars)
+7 speaker clusters, 203 total segments
+
+
+SPEAKER_00 (4 segs, 32.8s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Come along with me and the butterflies and bees."
+  "This party is so good!"
+
+SPEAKER_01 (5 segs, 12.4s, 3 embedded)
+  "Nice."
+  "Beats me."
+  "I was just eating a sausage on some stupid planet."
+  "Then all of a sudden, there was a beautiful rainbow explosion and a loud noise, "
+  "Then here I was standing next to this Mars door."
+
+SPEAKER_02 (36 segs, 73.0s, 14 embedded)
+  "Uh, hi Finn."
+  "It's just me."
+  "I came to your playhouse because I'm worried about Jake."
+  "Ugh."
+  "Ooh."
+
+SPEAKER_03 (36 segs, 80.5s, 17 embedded)
+  "Empathy?"
+  "Normal man."
+  "Nay, king man."
+  "Finn, Betty is tormented."
+  "Just look at her."
+
+SPEAKER_04 (42 segs, 114.8s, 22 embedded)
+  "Oh, Finn."
+  "Uh, how is it..."
+  "I'm trying to get better."
+  "I'm filling this hole with sand, grain by grain."
+  "I Should really get back to my sea and nah, you should come with us Now only Mar"
+
+SPEAKER_05 (2 segs, 4.7s, 1 embedded)
+  "If anyone else feels like solving any of these puzzles, just jump right in, you "
+  "Hey, over here."
+
+SPEAKER_06 (77 segs, 114.3s, 32 embedded)
+  "Boiled eggs."
+  "In the fridge."
+  "Jake, you're back!"
+  "I've missed you so mu- Oh."
+  "Jermaine!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_06: 0.529
+  SPEAKER_04 <-> SPEAKER_06: 0.282
+  SPEAKER_02 <-> SPEAKER_03: 0.127
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S10E11.npz

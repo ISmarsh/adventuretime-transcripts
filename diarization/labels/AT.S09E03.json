@@ -1,15 +1,14 @@
 {
-  "episode_id": "AT.S09E10",
-  "title": "Abstract",
+  "episode_id": "AT.S09E03",
+  "title": "Bespoken For",
   "season": 9,
   "speaker_map": {
-    "SPEAKER_01": "Finn_S07-S10",
-    "SPEAKER_02": "Jermaine",
-    "SPEAKER_05": "Jake",
-    "SPEAKER_06": "Jake"
+    "SPEAKER_05": "Ice King"
   },
   "skipped": [
     "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
     "SPEAKER_03",
     "SPEAKER_04"
   ],

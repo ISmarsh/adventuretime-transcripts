@@ -1,0 +1,65 @@
+Episode: AT.S10E07 (Marcy & Hunson)
+8 speaker clusters, 209 total segments
+
+
+SPEAKER_00 (12 segs, 29.2s, 5 embedded)
+  "Oh, once an abodeer."
+  "Yes, yes, but no, then yes again."
+  "And maybe?"
+  "Look, maybe cool it with the prying around Marceline."
+  "Do you hear like a really stupid sounding laugh?"
+
+SPEAKER_01 (5 segs, 10.1s, 3 embedded)
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog, and then we'll kill them."
+  "The book will never end."
+  "It's Adventure Time."
+
+SPEAKER_02 (3 segs, 1.6s, 0 embedded)
+  "My face!"
+  "Shoot!"
+  "Finn's turn!"
+
+SPEAKER_03 (27 segs, 67.4s, 16 embedded)
+  "Swordsmith deity from your unseen throne, bless this sword with your mighty hone"
+  "This new sword is guaranteed to defend you against Princess Bubblegum's heinous "
+  "Uncle Gumball."
+  "Aunt Lolly."
+  "Cousin Chicle."
+
+SPEAKER_04 (35 segs, 106.0s, 19 embedded)
+  "Psst, psst."
+  "Dad, what are you doing here?"
+  "Mm."
+  "How many souls did he suck on his way here?"
+  "Oh, I guess like zero."
+
+SPEAKER_05 (19 segs, 54.9s, 10 embedded)
+  "Oh, Chicle, have you finally discovered the vampire girl's weakness?"
+  "I think so."
+  "Chuckling mode off."
+  "I have a nice laugh."
+  "Time to blend in completely unnoticed."
+
+SPEAKER_06 (88 segs, 157.6s, 43 embedded)
+  "defend the human and Jake the dog."
+  "Hey, did Marceline call me?"
+  "Now to send you back."
+  "Not so fast."
+  "It's like I got a free flight here."
+
+SPEAKER_07 (19 segs, 24.7s, 5 embedded)
+  "I like your swordsmith hat."
+  "Let's go see Marcy."
+  "Great sword making, Pep Butt."
+  "Uh... heh."
+  "Ahem."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.424
+  SPEAKER_05 <-> SPEAKER_06: 0.259
+  SPEAKER_00 <-> SPEAKER_07: 0.181
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S10E07.npz

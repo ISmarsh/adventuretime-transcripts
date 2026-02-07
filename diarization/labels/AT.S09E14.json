@@ -1,15 +1,15 @@
 {
-  "episode_id": "AT.S09E11",
-  "title": "Ketchup",
+  "episode_id": "AT.S09E14",
+  "title": "Three Buckets",
   "season": 9,
   "speaker_map": {
-    "SPEAKER_03": "BMO",
-    "SPEAKER_05": "Marceline"
+    "SPEAKER_02": "Finn_S07-S10",
+    "SPEAKER_04": "Jake"
   },
   "skipped": [
+    "SPEAKER_00",
     "SPEAKER_01",
-    "SPEAKER_02",
-    "SPEAKER_04"
+    "SPEAKER_03"
   ],
   "auto_labeled": true,
   "threshold": 0.6,
