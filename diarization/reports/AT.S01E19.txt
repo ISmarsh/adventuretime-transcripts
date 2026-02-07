@@ -1,0 +1,76 @@
+Episode: AT.S01E19 (The Duke)
+11 speaker clusters, 244 total segments
+
+
+SPEAKER_00 (2 segs, 21.1s, 1 embedded)
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (1 segs, 20.0s, 0 embedded)
+  "picture time come on grab your friends we'll go to very distant lands"
+
+SPEAKER_02 (2 segs, 2.9s, 1 embedded)
+  "Ha!"
+  "Yeah!"
+
+SPEAKER_03 (2 segs, 8.5s, 2 embedded)
+  "Call to order the Sesquicentennial Grand Meeting of Ooo Royalty."
+  "I now call upon the delegate from the Candy Kingdom."
+
+SPEAKER_04 (32 segs, 85.1s, 24 embedded)
+  "Who's the toughest little nut?"
+  "That's you."
+  "One second."
+  "Oh, sorry to make you wait."
+  "I made these daisy crowns for you guys as a token of my gratitude for waiting."
+
+SPEAKER_05 (55 segs, 110.0s, 29 embedded)
+  "Here, try throwing this one."
+  "Here's one called Caturday Surprise."
+  "Two witnesses!"
+  "She's completely bonkers!"
+  "Don't worry, that won't happen."
+
+SPEAKER_06 (11 segs, 23.5s, 7 embedded)
+  "Boy, I'm sorry."
+  "I can't stop now."
+  "My dear, not to worry."
+  "The medicine milk in this suit will have you healed lickety-split."
+  "In just five days, you'll be back to your beautiful bubble gummy cell."
+
+SPEAKER_07 (12 segs, 30.1s, 10 embedded)
+  "Are you here to arrest the Duke?"
+  "How did you know?"
+  "The Nuts told me."
+  "For I am the Duchess of Nuts!"
+  "I know of my husband's crime against the princess."
+
+SPEAKER_08 (86 segs, 161.3s, 43 embedded)
+  "Let's see how it flies."
+  "Oh Lame Oh"
+  "What have you done?!"
+  "Oh no, she thinks that nuts guy did it."
+  "We gotta go clear up what happened."
+
+SPEAKER_09 (4 segs, 8.1s, 3 embedded)
+  "Jake!"
+  "Oh Finn, my flawless, flawless champion!"
+  "Bring the Duke of Nuts to justice!"
+  "The justice of a cold dungeon!"
+
+SPEAKER_10 (36 segs, 92.4s, 27 embedded)
+  "Throw it!"
+  "What the heck is going on I have no idea but it's probably best to stay out of i"
+  "Princess, are you okay?"
+  "Yeah, I guess if green and bald is okay."
+  "Five days?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.650  <- possible match
+  SPEAKER_09 <-> SPEAKER_10: 0.646  <- possible match
+  SPEAKER_06 <-> SPEAKER_07: 0.650
+  SPEAKER_09 <-> SPEAKER_10: 0.646
+  SPEAKER_08 <-> SPEAKER_10: 0.577
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E19.npz

@@ -1,0 +1,82 @@
+Episode: AT.S01E10 (Memories of Boom Boom Mountain)
+11 speaker clusters, 254 total segments
+
+
+SPEAKER_00 (6 segs, 10.9s, 2 embedded)
+  "Excuse me."
+  "What do you want, baby?"
+  "Why are you crying?"
+  "Margaret, this baby won't tell me what's wrong with it and it's stuck to a leaf "
+  "You just kissed a boom boom baby."
+
+SPEAKER_01 (2 segs, 21.4s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (8 segs, 5.7s, 1 embedded)
+  "Give it here, Joshua."
+  "This baby just needs some love and kisses to be happy."
+  "Mwah."
+  "Mwah."
+  "Mwah."
+
+SPEAKER_03 (14 segs, 35.0s, 8 embedded)
+  "You guys sure you want another round of squid eating?"
+  "Look, Mommy."
+  "No."
+  "Over here."
+  "Don't turn around."
+
+SPEAKER_04 (20 segs, 56.3s, 9 embedded)
+  "You're not too bad for a human, boy."
+  "What did you call me?"
+  "You can't just walk away from a roughhouse!"
+  "Ah, Finn!"
+  "Ready to get destroyed?"
+
+SPEAKER_05 (14 segs, 24.7s, 6 embedded)
+  "What?"
+  "Did you just pet me?"
+  "I'll pet you, pet, pet."
+  "Hey, pet, pet."
+  "Hey, this is great."
+
+SPEAKER_06 (37 segs, 90.3s, 22 embedded)
+  "Get back here, you chicken!"
+  "Yeah!"
+  "Yes, I am sad, having been forced to watch roughhousing men for centuries."
+  "Please, no rough housing."
+  "It makes me so hungry."
+
+SPEAKER_07 (35 segs, 49.6s, 16 embedded)
+  "That's what I'm talking about!"
+  "Yeah!"
+  "Yeah!"
+  "Way to go, Finn!"
+  "He still cries when he poops."
+
+SPEAKER_08 (105 segs, 198.0s, 54 embedded)
+  "What'd you say?"
+  "What?"
+  "Whoa!"
+  "I think someone's crying."
+  "Stop!"
+
+SPEAKER_09 (9 segs, 15.8s, 3 embedded)
+  "Not too bad?"
+  "I'm better than that."
+  "Huh?"
+  "Tank, do you hear that?"
+  "Ready over there, Mushroom Gang?"
+
+SPEAKER_10 (1 segs, 20.7s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and do so as we"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_09: 0.704  <- possible match
+  SPEAKER_03 <-> SPEAKER_09: 0.704
+  SPEAKER_04 <-> SPEAKER_05: 0.561
+  SPEAKER_01 <-> SPEAKER_03: 0.558
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E10.npz

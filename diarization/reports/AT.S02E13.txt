@@ -1,0 +1,55 @@
+Episode: AT.S02E13 (The Pods)
+7 speaker clusters, 226 total segments
+
+
+SPEAKER_00 (2 segs, 20.2s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (6 segs, 16.7s, 4 embedded)
+  "I hadn't even thought about that."
+  "So they're planting the beans and waiting for evil to grow."
+  "so they could kill it and go-ho-ho to the ice cream marathon."
+  "Whee!"
+  "Yeah!"
+
+SPEAKER_02 (5 segs, 15.4s, 2 embedded)
+  "Why, thank you, Finn and Jake, for sort of saving our village."
+  "You're sort of welcome."
+  "Now, if you'll excuse us, we need to start removing all of this ice cream from o"
+  "Not so fast."
+  "I'll take it from here, folks."
+
+SPEAKER_03 (15 segs, 54.7s, 7 embedded)
+  "Actually, I'm a gnome knight who was magically transformed into a frog, and then"
+  "No!"
+  "I'm on the verge of death!"
+  "Yeah, you've had a good run."
+  "No, I cannot die until I find a being whose spirit is brave and pure to take ove"
+
+SPEAKER_04 (102 segs, 172.3s, 42 embedded)
+  "Jake!"
+  "Hey man, just when we conserve our energy, the ice cream marathon starts tomorro"
+  "It came from over there."
+  "Whoa, Jake, check it out."
+  "You will?"
+
+SPEAKER_05 (92 segs, 161.2s, 38 embedded)
+  "I know what the ice cream marathon is."
+  "I've been training for weeks and I am determined to eat more ice cream at the ic"
+  "You sure like ice cream."
+  "Ice cream is good."
+  "What the croak was that?"
+
+SPEAKER_06 (3 segs, 24.3s, 3 embedded)
+  "Come along with me and the butterflies and bees."
+  "We can wander through the forest and do so as we please."
+  "This party is so cool!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_06: 0.375
+  SPEAKER_04 <-> SPEAKER_05: 0.374
+  SPEAKER_02 <-> SPEAKER_03: 0.360
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E13.npz

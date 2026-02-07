@@ -1,0 +1,64 @@
+Episode: AT.S01E20 (Freak City)
+9 speaker clusters, 285 total segments
+
+
+SPEAKER_00 (2 segs, 20.5s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (1 segs, 21.0s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and do so as we"
+
+SPEAKER_02 (43 segs, 60.8s, 15 embedded)
+  "Welcome travelers."
+  "I am Gork, leader of Freak City."
+  "I can see one of you has felt the magic man's touch."
+  "I will tell you all that I know."
+  "We are the accursed ones."
+
+SPEAKER_03 (2 segs, 9.1s, 2 embedded)
+  "You know, believe it or not, I'm not really a beggar."
+  "I'm actually a... Magic man!"
+
+SPEAKER_04 (4 segs, 5.1s, 1 embedded)
+  "Food for a beggar."
+  "Food for a poor old man."
+  "So you got any kid?"
+  "Food?"
+
+SPEAKER_05 (11 segs, 12.7s, 5 embedded)
+  "Huh?"
+  "Wait a second."
+  "Kim, get underneath Trudy."
+  "No, man, please."
+  "I freaking hate Trudy."
+
+SPEAKER_06 (126 segs, 226.6s, 69 embedded)
+  "Walking, walking, walking, handball break!"
+  "She's the wheeze guy."
+  "I got this little piece of sugar."
+  "Nuts."
+  "I'm freaking all about sugar."
+
+SPEAKER_07 (24 segs, 49.4s, 14 embedded)
+  "What is wrong with you, magic man?"
+  "You gave me that candy."
+  "Now I'll do you a favor in return."
+  "A magic favor."
+  "A mystical, magical favor."
+
+SPEAKER_08 (71 segs, 150.7s, 35 embedded)
+  "Woohoo!"
+  "Hey, get away from me!"
+  "Quit it!"
+  "Wait, Finn."
+  "Maybe helping the starving homeless guy is the wrong thing to do."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_06: 0.629  <- possible match
+  SPEAKER_05 <-> SPEAKER_06: 0.629
+  SPEAKER_03 <-> SPEAKER_07: 0.373
+  SPEAKER_03 <-> SPEAKER_04: 0.349
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E20.npz

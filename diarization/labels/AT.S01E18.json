@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S01E18",
+  "title": "Dungeon",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_01": "Princess Bubblegum",
+    "SPEAKER_03": "Finn_S01-S03",
+    "SPEAKER_05": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_02",
+    "SPEAKER_04",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.55,
+  "timestamp": "2026-02-07T16:38:21"
+}

@@ -1,0 +1,58 @@
+Episode: AT.S02E26 (Heat Signature)
+7 speaker clusters, 249 total segments
+
+
+SPEAKER_00 (17 segs, 66.4s, 14 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Marceline!"
+  "Oh yeah, Jake!"
+  "Time to join in on the fun."
+
+SPEAKER_01 (3 segs, 27.2s, 1 embedded)
+  "Look out, Commander!"
+  "My heat signature!"
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+SPEAKER_02 (17 segs, 34.1s, 9 embedded)
+  "You're friends with some real morons."
+  "Oh my God, Melissa."
+  "Ever since Clara stopped eating meat, her skin looks so good."
+  "I mean, she still looks fat, but like, I can't say that junk to her face."
+  "I'm doing so awesome on my own."
+
+SPEAKER_03 (101 segs, 182.5s, 54 embedded)
+  "Woo!"
+  "Hey, so I want you all to meet Finn and Jake."
+  "They aren't completely lame."
+  "What up?"
+  "Guys, this is Wendy."
+
+SPEAKER_04 (58 segs, 88.8s, 27 embedded)
+  "Man, I still can't believe Marceline is 1,000 years old and has never seen Heat "
+  "This movie is going to blow their minds."
+  "Marceline, we brought Heat Signature."
+  "Hello."
+  "Hello."
+
+SPEAKER_05 (11 segs, 23.5s, 8 embedded)
+  "When did you go all soft?"
+  "You still like teaching people about kicks."
+  "We did it!"
+  "Yeah!"
+  "Way to go, Marceline."
+
+SPEAKER_06 (37 segs, 62.6s, 15 embedded)
+  "Hey."
+  "My neck sort of hurts."
+  "Don't you feel a little hungry for blood?"
+  "Jake, do you feel it?"
+  "Yeah, I could go for some blood."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.400
+  SPEAKER_00 <-> SPEAKER_06: 0.377
+  SPEAKER_03 <-> SPEAKER_05: 0.369
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E26.npz

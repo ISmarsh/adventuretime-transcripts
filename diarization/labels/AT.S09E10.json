@@ -1,0 +1,17 @@
+{
+  "episode_id": "AT.S09E10",
+  "title": "Abstract",
+  "season": 9,
+  "speaker_map": {
+    "SPEAKER_02": "Jermaine",
+    "SPEAKER_06": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_05"
+  ],
+  "timestamp": "2026-02-06T21:50:01"
+}

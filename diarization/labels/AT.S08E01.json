@@ -1,0 +1,18 @@
+{
+  "episode_id": "AT.S08E01",
+  "title": "Broke His Crown",
+  "season": 8,
+  "speaker_map": {
+    "SPEAKER_02": "Ice King",
+    "SPEAKER_04": "Marceline",
+    "SPEAKER_05": "Princess Bubblegum"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_03",
+    "SPEAKER_06",
+    "SPEAKER_07"
+  ],
+  "timestamp": "2026-02-06T21:06:32"
+}

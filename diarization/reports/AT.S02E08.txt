@@ -1,0 +1,66 @@
+Episode: AT.S02E08 (Crystals Have Power)
+8 speaker clusters, 238 total segments
+
+
+SPEAKER_00 (4 segs, 57.6s, 3 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "to a cliff under a tree"
+
+SPEAKER_01 (35 segs, 116.1s, 23 embedded)
+  "Get your hands off my lover."
+  "That voice."
+  "It sounds like..."
+  "Yes, Finn, it's me."
+  "Tree Trunks."
+
+SPEAKER_02 (8 segs, 15.8s, 2 embedded)
+  "Do it, man."
+  "Do it."
+  "Oh!"
+  "Jake!"
+  "Help!"
+
+SPEAKER_03 (38 segs, 73.4s, 19 embedded)
+  "Uh, which one of you is Finn the Human?"
+  "Uh, we're good."
+  "Get him."
+  "I'm just following orders, bub."
+  "Whose orders?"
+
+SPEAKER_04 (9 segs, 16.0s, 5 embedded)
+  "I don't know, but I'm trapped in this crystal ball."
+  "Jake, you should stop these guys now!"
+  "Get me out of here!"
+  "Jake, kick Tree Trunks in the tummy."
+  "She's probably still got that crystal gin apple inside her."
+
+SPEAKER_05 (31 segs, 44.7s, 11 embedded)
+  "Hmm."
+  "Yo, man, what's going on?"
+  "I found this crystal on our doorstep."
+  "It's pretty mysterious."
+  "I'm trying to find information about it using the holo book."
+
+SPEAKER_06 (33 segs, 42.1s, 9 embedded)
+  "Jake, what did you do to your brother?"
+  "We were just playing, and then I got out of control."
+  "I'm sorry, Dad."
+  "No, son, you did good."
+  "Having no self-control makes you a tough galoot."
+
+SPEAKER_07 (76 segs, 174.7s, 35 embedded)
+  "Uh, that's cool."
+  "But you know what's really cool?"
+  "Tough guy contests!"
+  "Woo-hoo!"
+  "Tough boys!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.588
+  SPEAKER_06 <-> SPEAKER_07: 0.542
+  SPEAKER_02 <-> SPEAKER_07: 0.450
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E08.npz

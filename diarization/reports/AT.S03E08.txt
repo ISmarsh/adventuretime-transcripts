@@ -1,0 +1,77 @@
+Episode: AT.S03E08 (Wizard Battle)
+11 speaker clusters, 209 total segments
+
+
+SPEAKER_00 (1 segs, 25.0s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and do so as we"
+
+SPEAKER_01 (3 segs, 4.3s, 2 embedded)
+  "Is it an open mouth kiss?"
+  "No."
+  "Then I choose to exit the battle."
+
+SPEAKER_02 (3 segs, 29.8s, 1 embedded)
+  "You ready in there?"
+  "Yeah, I'm coming."
+  "Get ready for the ultimate prize Watch her lips pop before your eyes Never in yo"
+
+SPEAKER_03 (2 segs, 22.3s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_04 (8 segs, 16.5s, 6 embedded)
+  "Oh, Finn, you did all that for me?"
+  "Mm."
+  "That's for being sweet."
+  "And that's for cheating."
+  "Finn, you know better than to ruin the sanctity of Wizard Battle."
+
+SPEAKER_05 (6 segs, 4.4s, 0 embedded)
+  "Yeah."
+  "Ahh!"
+  "Roar!"
+  "Hand trip!"
+  "What?"
+
+SPEAKER_06 (28 segs, 95.7s, 21 embedded)
+  "Ladies and gentlemen, I am the Grandmaster Wizard of Ceremonies."
+  "And now, the rules."
+  "Contestants will fight each other with spells from the eight schools of magic."
+  "No science, science wizard."
+  "No weapons, weapon head."
+
+SPEAKER_07 (29 segs, 61.8s, 9 embedded)
+  "Ice King!"
+  "Boo!"
+  "You're a contestant?"
+  "Hmm?"
+  "You guys come here to watch me win?"
+
+SPEAKER_08 (43 segs, 68.2s, 19 embedded)
+  "Wizard battle is starting soon."
+  "Oh, I know."
+  "We got here six hours early, you dork."
+  "Just wake me up when they start selling hot dogs."
+  "Whoa, what do you know?"
+
+SPEAKER_09 (51 segs, 86.5s, 20 embedded)
+  "It's a battle for supremacy amongst masters of magic."
+  "Wizard battle."
+  "Jake."
+  "Woo!"
+  "Woo!"
+
+SPEAKER_10 (34 segs, 82.8s, 18 embedded)
+  "The opposites."
+  "Huh?"
+  "The wizards with opposite powers will take each other on first."
+  "And are you a wizard?"
+  "Yes."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_09: 0.584
+  SPEAKER_07 <-> SPEAKER_08: 0.480
+  SPEAKER_08 <-> SPEAKER_09: 0.456
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E08.npz

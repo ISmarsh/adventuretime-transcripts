@@ -1,0 +1,56 @@
+Episode: AT.S01E18 (Dungeon)
+7 speaker clusters, 218 total segments
+
+
+SPEAKER_00 (11 segs, 40.8s, 8 embedded)
+  "It's your time!"
+  "Come on, grab your friends!"
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+  "The book will never end, it's adventure time!"
+
+SPEAKER_01 (7 segs, 14.0s, 3 embedded)
+  "All right, guys, hammer all these safety signs around this dungeon hole."
+  "I've got to jet off on my swan to take care of some royal junk."
+  "You got it, Princess."
+  "I hope you learned a lesson from all this."
+  "You're darn right I am."
+
+SPEAKER_02 (22 segs, 35.4s, 12 embedded)
+  "Who the heck?"
+  "Hey, it's OK. Shh."
+  "I'm your guardian angel, Finn."
+  "I'm here to save you."
+  "Mm-hmm."
+
+SPEAKER_03 (112 segs, 221.7s, 48 embedded)
+  "There."
+  "That's the last sign, Jake."
+  "Now no one will ever go down this hole ever."
+  "Probably a lot of dangerous, awesome stuff down this hole."
+  "I better go take a look."
+
+SPEAKER_04 (25 segs, 77.4s, 16 embedded)
+  "Bubblegum, away!"
+  "I have approximate knowledge of many things for instance I know that I am possib"
+  "I'm going to unzip your skin and wear you like a little coat."
+  "Now you die!"
+  "Wait a second."
+
+SPEAKER_05 (38 segs, 88.9s, 24 embedded)
+  "Whatever you want, Mama."
+  "Go, dude."
+  "For you see, that's the secret entrance to the Dungeon of the Crystal Eye."
+  "Legend has it that the eye rests in the deepest chamber of this accursed dungeon"
+  "Man, we shouldn't even be talking about it, because it's lunchtime."
+
+SPEAKER_06 (1 segs, 20.8s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and do so as we"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.322
+  SPEAKER_03 <-> SPEAKER_05: 0.253
+  SPEAKER_02 <-> SPEAKER_05: 0.231
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E18.npz

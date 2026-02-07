@@ -1,5 +1,9 @@
-# Diarization output (generated, ~282 JSON files)
-diarization/
+# Diarization bulk output (regenerable from source audio)
+diarization/*
+# Un-ignore curated data (manual labeling effort + trained profiles)
+!diarization/labels/
+!diarization/voice_profiles/
+!diarization/reports/
 
 # Editor / OS
 .claude/

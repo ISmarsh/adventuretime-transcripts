@@ -1,0 +1,15 @@
+{
+  "episode_id": "AT.S09E11",
+  "title": "Ketchup",
+  "season": 9,
+  "speaker_map": {
+    "SPEAKER_03": "BMO",
+    "SPEAKER_05": "Marceline"
+  },
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_04"
+  ],
+  "timestamp": "2026-02-06T21:13:06"
+}

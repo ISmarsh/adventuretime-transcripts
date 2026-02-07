@@ -1,0 +1,46 @@
+Episode: AT.S01E17 (When Wedding Bells Thaw)
+6 speaker clusters, 239 total segments
+
+
+SPEAKER_00 (2 segs, 20.5s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (1 segs, 28.0s, 0 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+
+SPEAKER_02 (8 segs, 9.7s, 3 embedded)
+  "Ew."
+  "Bye-bye."
+  "Hee-hee-hee-hee-hee."
+  "What?"
+  "Silence!"
+
+SPEAKER_03 (50 segs, 79.5s, 19 embedded)
+  "Are you okay, dude?"
+  "Yeah, why?"
+  "You look bored."
+  "Well good, because I'm about to kick it up a notch."
+  "Yeah."
+
+SPEAKER_04 (71 segs, 134.0s, 35 embedded)
+  "Nah, that's just how I look when I'm listening to music."
+  "Bring it!"
+  "Who do you think it is?"
+  "Could be anybody."
+  "I can't quite make it out."
+
+SPEAKER_05 (106 segs, 215.6s, 60 embedded)
+  "I think this is the right address."
+  "Maybe this is this one."
+  "Sike!"
+  "Woo hoo hoo!"
+  "Now I can kill you!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_05: 0.413
+  SPEAKER_02 <-> SPEAKER_04: 0.393
+  SPEAKER_04 <-> SPEAKER_05: 0.344
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E17.npz

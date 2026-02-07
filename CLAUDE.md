@@ -27,6 +27,7 @@ Transcripts are NOT used as ground truth — they are the thing being validated.
 | `process` | whisperX transcription + pyannote diarization → v2 JSON | ~8 min/ep (CPU), ~1-2 min (GPU) |
 | `embed-clusters` | Build per-cluster embeddings, print ID report, save to reports/ | ~20s/ep |
 | `embed-label` | Save cluster→character mapping, merge into voice profiles | instant |
+| `auto-label` | Propose/apply cluster labels using voice profiles (cosine similarity) | instant |
 | `validate` | Compare diarization against transcript (uses label files when available) | ~20s |
 | `status` | Show pipeline progress across all episodes | instant |
 
@@ -40,6 +41,27 @@ Transcripts are NOT used as ground truth — they are the thing being validated.
 5. embed-label --episode AT.S08E08 --map SPEAKER_00=Starchy SPEAKER_01=Finn ...
 6. validate --episode AT.S08E08          # compare against transcript
 ```
+
+### Bulk workflow (once profiles are seeded)
+
+```
+1. process --season 1 --workers 1              # batch diarize (GPU)
+2. embed-clusters --season 1                   # batch clustering
+3. auto-label --season 1                       # preview: compare clusters against profiles
+4. auto-label --season 1 --apply               # apply confident matches (sim >= 0.55)
+5. [Review REVIEW-flagged clusters manually]   # Claude + user for low-confidence/new chars
+6. validate --season 1                         # compare against transcripts
+```
+
+`auto-label` classifies each cluster centroid against voice profile centroids via cosine
+similarity. Labels with `AUTO` (margin >= 0.05 over 2nd best) or `auto` (close margin).
+Clusters below threshold are flagged `REVIEW` for manual identification.
+Use `--apply` to write label files and merge into profiles; omit for preview-only mode.
+
+Threshold system (layered):
+- **Base threshold**: `--threshold` (default 0.60)
+- **Sample-count scaling**: profiles with <100 samples get up to +0.10 penalty (e.g. Starchy with 11 samples → effective 0.69)
+- **Per-character override**: `--char-threshold "Ice King=0.65"` for known confusable voices (Tom Kenny voices many AT characters)
 
 ### Data layout
 
@@ -74,6 +96,7 @@ Video dirs mounted read-only from host; diarization output writes directly to pr
 - Windows native uses `spawn` (each worker loads its own model copy) -- 2 workers is the practical max
 - `embed-clusters` loads ECAPA model once and processes episodes sequentially; omit `--episode` for auto-discovery
 - `embed-label` is instant (numpy + JSON), safe to parallelize
+- `auto-label` loads profiles once, compares centroids — no model loading, instant per episode
 - `status` scans filesystem only, no model loading
 
 ### Key design decisions

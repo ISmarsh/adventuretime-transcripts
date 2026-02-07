@@ -1,0 +1,18 @@
+{
+  "episode_id": "AT.S01E17",
+  "title": "When Wedding Bells Thaw",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_03": "Jake",
+    "SPEAKER_04": "Finn_S01-S03",
+    "SPEAKER_05": "Ice King"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.55,
+  "timestamp": "2026-02-07T16:38:20"
+}

@@ -1,0 +1,23 @@
+Episode: AT.S00E11 (Frog Seasons Autumn)
+2 speaker clusters, 35 total segments
+
+
+SPEAKER_00 (17 segs, 38.2s, 9 embedded)
+  "Oh, hello, bird."
+  "I'm a scarecrow, see?"
+  "But I don't really want to scare you, so let me read you a poem instead."
+  "Like a wilted flower, frail and bowed, rattled by the freezing autumn winds."
+  "Oh, I guess I'm very good at my job."
+
+SPEAKER_01 (16 segs, 21.0s, 6 embedded)
+  "We're still on his trail, Jake."
+  "Hey, Raggedy."
+  "We'd love to stay in chat, but we're kind of on a mission here."
+  "Maybe next time."
+  "Upon this powered field... Shh, wait."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_01: 0.094
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S00E11.npz

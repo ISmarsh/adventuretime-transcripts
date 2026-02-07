@@ -1,0 +1,72 @@
+Episode: AT.S02E25 (Mortal Recoil)
+9 speaker clusters, 218 total segments
+
+
+SPEAKER_00 (6 segs, 37.4s, 4 embedded)
+  "What's her condition, Dr. Ice Cream?"
+  "She's totally gross over 90% of her body."
+  "The other 10% is crazy nasty."
+  "Will she make it, Doctor?"
+  "I don't know, Nurse Pumpcake."
+
+SPEAKER_01 (4 segs, 34.3s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "The Ice Wizard is a weak fool."
+  "Finn, I need you to get me some things."
+
+SPEAKER_02 (9 segs, 24.4s, 5 embedded)
+  "Evil presence detected."
+  "What do we do, Doctor?"
+  "I hope she's OK."
+  "Attention, everyone."
+  "Is Phoebe OK?"
+
+SPEAKER_03 (41 segs, 70.8s, 15 embedded)
+  "My wife!"
+  "Is there anything weird about her?"
+  "I can't see through these pain tears."
+  "She's fine."
+  "It's just that after Princess fell into the well, I saw something strange happen"
+
+SPEAKER_04 (23 segs, 31.8s, 10 embedded)
+  "Put sugar on her."
+  "Two scoops."
+  "We're losing her."
+  "No, not my number one."
+  "Princess, if you die on me, I will never forgive you."
+
+SPEAKER_05 (28 segs, 51.7s, 14 embedded)
+  "You look like sick gray meat, but we're going to jack you up so awesome."
+  "We should wheel her to her bedroom, right?"
+  "Yeah, man, and then we'll do magic tricks."
+  "Like fake magic?"
+  "Yeah, like bluh, bluh, bluh, bluh, bluh."
+
+SPEAKER_06 (84 segs, 132.3s, 27 embedded)
+  "Just get out of here!"
+  "Sorry about that, Peebles."
+  "Huh?"
+  "Finn, Finn, the other princesses and I made you a new backpack."
+  "Whoa, raggedy princess."
+
+SPEAKER_07 (17 segs, 37.1s, 8 embedded)
+  "Oh, gotcha."
+  "I'll go get some tea."
+  "Whoa."
+  "Something weird's going on."
+  "Hey, Princess, sorry you're not feeling good."
+
+SPEAKER_08 (3 segs, 7.5s, 2 embedded)
+  "You're pretty old."
+  "You're welcome, Finn."
+  "I don't know, Nurse Palm Cake."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_07: 0.657  <- possible match
+  SPEAKER_05 <-> SPEAKER_07: 0.657
+  SPEAKER_03 <-> SPEAKER_04: 0.563
+  SPEAKER_04 <-> SPEAKER_05: 0.435
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E25.npz

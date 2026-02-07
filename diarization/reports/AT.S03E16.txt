@@ -1,0 +1,79 @@
+Episode: AT.S03E16 (Jake vs  Me-Mow)
+11 speaker clusters, 174 total segments
+
+
+SPEAKER_00 (2 segs, 30.1s, 1 embedded)
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (2 segs, 21.5s, 2 embedded)
+  "Picture time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (49 segs, 112.0s, 30 embedded)
+  "You got a lot of meat, Wildberry Princess."
+  "Thanks for cooking looking for us."
+  "Sometimes I think there's a monster who loses my stomach."
+  "And that's why I'm hungry all the time."
+  "Ugh."
+
+SPEAKER_03 (50 segs, 97.8s, 24 embedded)
+  "Whoa!"
+  "Quiet, or you die."
+  "Me now."
+  "Assassin, second class."
+  "But once I take out a princess, I graduate to full membership."
+
+SPEAKER_05 (5 segs, 13.9s, 3 embedded)
+  "Oh, Princess!"
+  "You're alive!"
+  "We saw a crown next to a pile of dirty meat."
+  "Then we slipped on the meat, and I thought I tasted your juice, but it was just "
+  "We're so glad it wasn't actually you!"
+
+SPEAKER_06 (6 segs, 9.8s, 2 embedded)
+  "Don't taste good."
+  "OK."
+  "I suspect that I've been targeted by the Guild of Assassin."
+  "Whoa."
+  "How do you know?"
+
+SPEAKER_07 (16 segs, 37.7s, 11 embedded)
+  "Yeah, you know."
+  "Oh, you're welcome, Pin."
+  "And thank you for answering my origin summons."
+  "Oh, it's nothing really."
+  "Someone's trying to kill me."
+
+SPEAKER_08 (3 segs, 26.4s, 1 embedded)
+  "Cat noise?"
+  "Oh, cats go meow."
+  "Meow, meow, meow, meow, meow, meow, meow, meow, meow, meow, meow, meow, meow, me"
+
+SPEAKER_09 (2 segs, 32.7s, 1 embedded)
+  "Don't be weepy sleepy puppies Slip your slippers on your footies In the morning "
+  "All the drawstrings you can chew."
+
+SPEAKER_10 (22 segs, 39.0s, 9 embedded)
+  "Hey, yeah."
+  "How can we aid thee?"
+  "Jake!"
+  "I'm full of poison."
+  "The assassin!"
+
+SPEAKER_11 (17 segs, 30.0s, 11 embedded)
+  "It is a big deal, and I demand deets."
+  "I'm listening, but I'm going to keep eating."
+  "Go!"
+  "Princess, we vow to protect your juice."
+  "Right, Jake?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_10 <-> SPEAKER_11: 0.704  <- possible match
+  SPEAKER_03 <-> SPEAKER_06: 0.657  <- possible match
+  SPEAKER_10 <-> SPEAKER_11: 0.704
+  SPEAKER_03 <-> SPEAKER_06: 0.657
+  SPEAKER_03 <-> SPEAKER_07: 0.597
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E16.npz

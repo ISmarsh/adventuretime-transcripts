@@ -1,0 +1,68 @@
+Episode: AT.S01E16 (Ocean of Fear)
+9 speaker clusters, 252 total segments
+
+
+SPEAKER_00 (5 segs, 20.2s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then the human."
+  "The book will never end its adventure."
+
+SPEAKER_01 (3 segs, 19.7s, 3 embedded)
+  "Come along with me and the butterflies and bees."
+  "We can wander through the forest and do so as we please."
+  "Me to a cliff under a tree"
+
+SPEAKER_02 (5 segs, 15.6s, 3 embedded)
+  "In the dark recesses of the mind, a disease known as fear feasts upon the souls "
+  "Wonderful."
+  "And so fear is forced deep within the soul of a hero."
+  "Conquered."
+  "At least for now."
+
+SPEAKER_03 (7 segs, 18.3s, 6 embedded)
+  "Finn, you are wrong."
+  "The mark of a great hero is his flaw."
+  "Silence, fear feaster!"
+  "We know a lot!"
+  "Because the limo driver's flaw is being late."
+
+SPEAKER_04 (1 segs, 1.0s, 0 embedded)
+  "Dude!"
+
+SPEAKER_05 (13 segs, 15.6s, 2 embedded)
+  "Don't be scared."
+  "I shall not be scared."
+  "Boop."
+  "You got it, dude."
+  "Give me away, Jake."
+
+SPEAKER_06 (27 segs, 51.7s, 14 embedded)
+  "Fear."
+  "Fear of the ocean."
+  "You're too scared of the ocean to ever be a true hero."
+  "Yeah, right."
+  "Of course you will."
+
+SPEAKER_07 (116 segs, 196.8s, 57 embedded)
+  "Whoa!"
+  "Stop farting on me!"
+  "Yeah, and you know the penalty for stealing boots."
+  "It's poots!"
+  "Aw, newts."
+
+SPEAKER_08 (74 segs, 108.6s, 24 embedded)
+  "Come back, Dean!"
+  "It's gross!"
+  "You can't just go around stealing boots!"
+  "Bark, bark, bark, bark!"
+  "I'm coming, Jake."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.448
+  SPEAKER_00 <-> SPEAKER_01: 0.391
+  SPEAKER_05 <-> SPEAKER_07: 0.343
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E16.npz

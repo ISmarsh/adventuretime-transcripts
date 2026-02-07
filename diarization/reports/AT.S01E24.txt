@@ -1,0 +1,60 @@
+Episode: AT.S01E24 (What Have You Done)
+8 speaker clusters, 258 total segments
+
+
+SPEAKER_00 (2 segs, 9.0s, 1 embedded)
+  "No!"
+  "I think I heard the word virile in there."
+
+SPEAKER_01 (15 segs, 20.2s, 3 embedded)
+  "How about I swaddle you up like a sweet baby?"
+  "Ta-blah!"
+  "What's the password?"
+  "You got me!"
+  "Huh?"
+
+SPEAKER_02 (16 segs, 34.0s, 9 embedded)
+  "Hmm."
+  "She really didn't explain anything."
+  "Yeah, this place is deserted."
+  "Except for that guy."
+  "Oh, this is a total rook."
+
+SPEAKER_03 (60 segs, 132.1s, 35 embedded)
+  "Princess explained it all when she sent us on the mission."
+  "Remember?"
+  "Go capture the Ice King and bring him to me."
+  "I'm sure she's got a good reason."
+  "It's been here, Finn."
+
+SPEAKER_04 (81 segs, 168.6s, 47 embedded)
+  "Who is it?"
+  "Oh, someone left me a gift."
+  "Peanut brittle, but I'm on a diet."
+  "He-he-he-he."
+  "Should've stuck to your diet!"
+
+SPEAKER_05 (76 segs, 149.7s, 40 embedded)
+  "Our secret mission to capture the Ice King is underway."
+  "Though I probably shouldn't say stuff like that out loud."
+  "We finally captured the Ice King!"
+  "Why'd we do this again?"
+  "Where is everybody?"
+
+SPEAKER_06 (4 segs, 22.4s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Crystal polka!"
+  "You needed it once in the grand hall!"
+
+SPEAKER_07 (2 segs, 22.2s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "To a cliff under a tree"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.577
+  SPEAKER_03 <-> SPEAKER_05: 0.512
+  SPEAKER_01 <-> SPEAKER_02: 0.382
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E24.npz

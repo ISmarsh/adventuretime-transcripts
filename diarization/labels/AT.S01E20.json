@@ -1,0 +1,21 @@
+{
+  "episode_id": "AT.S01E20",
+  "title": "Freak City",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_05": "Finn_S01-S03",
+    "SPEAKER_06": "Finn_S01-S03",
+    "SPEAKER_08": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_07"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.55,
+  "timestamp": "2026-02-07T16:38:22"
+}

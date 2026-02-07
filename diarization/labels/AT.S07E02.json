@@ -1,0 +1,15 @@
+{
+  "episode_id": "AT.S07E02",
+  "title": "Varmints",
+  "season": 7,
+  "speaker_map": {
+    "SPEAKER_02": "Marceline",
+    "SPEAKER_03": "Princess Bubblegum"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_04"
+  ],
+  "timestamp": "2026-02-06T21:49:59"
+}

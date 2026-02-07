@@ -1,0 +1,23 @@
+Episode: AT.S00E05 (Have You Seen the Muffin Mess)
+2 speaker clusters, 31 total segments
+
+
+SPEAKER_00 (17 segs, 42.1s, 7 embedded)
+  "No more Luddite."
+  "I've got Nanite."
+  "I hope muffins aren't easy to make or I'm being an idiot."
+  "Nanites."
+  "Wait, hold it."
+
+SPEAKER_01 (13 segs, 41.4s, 9 embedded)
+  "Hello?"
+  "What's shaking?"
+  "I don't know."
+  "Finn's got rat germs all through his body."
+  "I'll do it."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_01: 0.090
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S00E05.npz

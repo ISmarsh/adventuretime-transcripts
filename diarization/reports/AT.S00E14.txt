@@ -1,0 +1,67 @@
+Episode: AT.S00E14 (Diamonds and Lemons)
+8 speaker clusters, 183 total segments
+
+
+SPEAKER_00 (17 segs, 27.5s, 8 embedded)
+  "That's small potatoes."
+  "We should do something big."
+  "I got a storage full of live dynamite."
+  "Hey, we should grief Finn and Jake."
+  "We could plant a tree on the tree house."
+
+SPEAKER_01 (16 segs, 24.6s, 5 embedded)
+  "And as for the space requirements on the ground... How many aces do you have?"
+  "Oh, shoot."
+  "I only got two."
+  "Ben."
+  "Sorry about that."
+
+SPEAKER_02 (18 segs, 49.5s, 7 embedded)
+  "No, that's silly."
+  "You need something more sciency."
+  "Diamond lapis some gunpowder to see nuggets add the star to more gunpowder and p"
+  "He's been at it all day."
+  "I should help him."
+
+SPEAKER_03 (11 segs, 17.7s, 7 embedded)
+  "Who here loves windmills?"
+  "All right, now get to work."
+  "Thanks."
+  "When it's done, I'm going to grind up a whole mess of bone meal."
+  "What's that, boss?"
+
+SPEAKER_04 (11 segs, 18.1s, 4 embedded)
+  "Au contraire, mon friend."
+  "I'm extremely sensible."
+  "See this bucket of water?"
+  "It's in case I fall in the lava and catch fire."
+  "I got five."
+
+SPEAKER_05 (28 segs, 52.0s, 10 embedded)
+  "Aah!"
+  "Look guys, it was totally epic."
+  "I wrecked the library's glass ceiling like NBD."
+  "Then I pushed a creeper down there and all the stupid smart dorks cried like tin"
+  "Huh?"
+
+SPEAKER_06 (66 segs, 131.7s, 33 embedded)
+  "You sad mobs!"
+  "Y'all wish you had this sweet dang bucket!"
+  "Yah!"
+  "Ah!"
+  "It's mine time!"
+
+SPEAKER_07 (12 segs, 78.4s, 8 embedded)
+  "Aah!"
+  "Aah!"
+  "Impertinence!"
+  "Grow!"
+  "Grow!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_04: 0.364
+  SPEAKER_06 <-> SPEAKER_07: 0.347
+  SPEAKER_00 <-> SPEAKER_01: 0.309
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S00E14.npz

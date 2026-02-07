@@ -1,0 +1,81 @@
+Episode: AT.S02E17 (Death in Bloom)
+11 speaker clusters, 259 total segments
+
+
+SPEAKER_00 (1 segs, 10.8s, 1 embedded)
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (1 segs, 25.7s, 0 embedded)
+  "This party is so good!"
+
+SPEAKER_02 (21 segs, 36.6s, 10 embedded)
+  "Excuse me, but did you all say Land of the Dead?"
+  "A what?"
+  "Oh, uh, yeah."
+  "I can take it."
+  "Certainly, Finn."
+
+SPEAKER_03 (20 segs, 37.3s, 10 embedded)
+  "Uh, Fudge, what time is it?"
+  "I gotta go to Veggie Village for the annual technology fair."
+  "Will y'all watch my princess plant for me?"
+  "I usually hire a sitter, but eh."
+  "Awesome."
+
+SPEAKER_04 (7 segs, 14.2s, 3 embedded)
+  "Ah, OK."
+  "So, um, you wanna hop in my paunch and I'll stretch us down?"
+  "Oh, look, an escalator."
+  "I don't know."
+  "Wouldn't be so bad if there weren't folks trying to eat our skin."
+
+SPEAKER_05 (73 segs, 120.8s, 27 embedded)
+  "Of course, Princess."
+  "You're in good hands, Princess Plant."
+  "And then the monster got punched in the head, and the princess was safe."
+  "And everyone was happy."
+  "Ah!"
+
+SPEAKER_06 (18 segs, 20.2s, 4 embedded)
+  "Hyah!"
+  "Hey!"
+  "Hey, what's up, fellas?"
+  "Hi, Lester."
+  "Oh, man, flesh."
+
+SPEAKER_07 (40 segs, 59.6s, 15 embedded)
+  "Uh... Because we're awesome?"
+  "Woo!"
+  "Hmmm..."
+  "Step out of line."
+  "Aw, dingle!"
+
+SPEAKER_08 (60 segs, 84.5s, 20 embedded)
+  "Yeah, time to make sleepies."
+  "Wow, man."
+  "Who knew Peppermint Butler was so cool?"
+  "Let's go!"
+  "It'll only take her like 20 minutes to get back once that conference is over."
+
+SPEAKER_09 (8 segs, 8.6s, 3 embedded)
+  "Welcome to the underworld."
+  "Cause of death?"
+  "Uh, a spear in the neck."
+  "You may enter."
+  "Yay."
+
+SPEAKER_10 (7 segs, 26.2s, 6 embedded)
+  "Oh, shoot."
+  "You're a smart guy, Halt."
+  "Get him!"
+  "Ah!"
+  "Yeah, wow, wow, wow, wow, wow, wow, wow, wow."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_08: 0.676  <- possible match
+  SPEAKER_07 <-> SPEAKER_08: 0.676
+  SPEAKER_04 <-> SPEAKER_07: 0.554
+  SPEAKER_04 <-> SPEAKER_08: 0.498
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E17.npz

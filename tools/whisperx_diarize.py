@@ -1262,6 +1262,18 @@ def _load_all_profiles(profile_dir: Path) -> dict:
     return profiles
 
 
+def _load_profile_sample_counts(profile_dir: Path) -> dict[str, int]:
+    """Load sample counts for all profiles from the index file."""
+    index_path = profile_dir / "_index.json"
+    if not index_path.exists():
+        return {}
+    index = json.loads(index_path.read_text(encoding="utf-8"))
+    return {
+        name: info.get("samples", 0)
+        for name, info in index.get("profiles", {}).items()
+    }
+
+
 def _filter_outliers(embeddings, threshold_std: float = 2.0):
     """Return boolean mask of embeddings to keep (remove outliers)."""
     import numpy as np
@@ -2022,6 +2034,252 @@ def cmd_embed_label(args: argparse.Namespace) -> None:
 
 
 # ---------------------------------------------------------------------------
+# CLI: auto-label subcommand
+# ---------------------------------------------------------------------------
+
+
+def cmd_auto_label(args: argparse.Namespace) -> None:
+    """Propose or apply cluster→character mappings using voice profiles."""
+    import numpy as np
+
+    if sys.stdout.encoding != "utf-8":
+        sys.stdout = io.TextIOWrapper(
+            sys.stdout.buffer, encoding="utf-8", errors="replace")
+
+    root = Path(__file__).resolve().parent.parent
+    dia_dir = root / args.diarization_dir
+    pdir = _profile_dir(dia_dir)
+    threshold = args.threshold
+    apply = args.apply
+
+    # Parse per-character threshold overrides
+    char_thresholds: dict[str, float] = {}
+    if getattr(args, "char_threshold", None):
+        for ct in args.char_threshold:
+            if "=" not in ct:
+                print(f"Error: invalid char-threshold '{ct}' — "
+                      f"use Character=threshold format", file=sys.stderr)
+                sys.exit(1)
+            name, val = ct.split("=", 1)
+            char_thresholds[name] = float(val)
+
+    # Load voice profiles
+    all_profiles = _load_all_profiles(pdir)
+    if not all_profiles:
+        print("No voice profiles found. Label some episodes with "
+              "'embed-label' first.", file=sys.stderr)
+        sys.exit(1)
+
+    # Load sample counts for threshold scaling
+    sample_counts = _load_profile_sample_counts(pdir)
+
+    # Discover episodes
+    if args.episode:
+        ep_ids = args.episode if isinstance(args.episode, list) else [args.episode]
+    else:
+        # Auto-discover: have clusters, no labels (unless --force)
+        cluster_dir = dia_dir / "clusters"
+        labels_dir = dia_dir / "labels"
+        existing_labels = (
+            {p.stem for p in labels_dir.glob("*.json")} if labels_dir.is_dir() else set()
+        )
+        ep_ids = []
+        if cluster_dir.is_dir():
+            for cp in sorted(cluster_dir.glob("*.npz")):
+                if args.force or cp.stem not in existing_labels:
+                    ep_ids.append(cp.stem)
+
+    # Apply series/season filters
+    series_filter = getattr(args, "series", "all")
+    season_filter = getattr(args, "season", None)
+    if series_filter and series_filter != "all":
+        code = series_filter.upper()
+        ep_ids = [e for e in ep_ids if e.startswith(code + ".")]
+    if season_filter is not None:
+        pattern = f"S{season_filter:02d}E"
+        ep_ids = [e for e in ep_ids if pattern in e]
+
+    if args.limit:
+        ep_ids = ep_ids[:args.limit]
+
+    if not ep_ids:
+        print("No episodes to auto-label.")
+        return
+
+    # Load report text for sample dialogue context
+    report_dir = dia_dir / "reports"
+
+    total = len(ep_ids)
+    auto_applied = 0
+    needs_review = 0
+
+    for idx, ep_id in enumerate(ep_ids, 1):
+        cluster_path = dia_dir / "clusters" / f"{ep_id}.npz"
+        if not cluster_path.exists():
+            print(f"[{idx:03d}/{total}] {ep_id} -- SKIP (no clusters)")
+            continue
+
+        cluster_data = np.load(str(cluster_path), allow_pickle=False)
+        meta_str = str(cluster_data.get("_meta", "{}"))
+        meta = json.loads(meta_str)
+        season = meta.get("season", 0)
+        title = meta.get("title", "")
+
+        # Season-filter profiles
+        profiles = _select_season_profiles(all_profiles, season)
+        if not profiles:
+            print(f"[{idx:03d}/{total}] {ep_id} -- SKIP (no profiles for season {season})")
+            continue
+
+        profile_names = list(profiles.keys())
+        centroids = np.stack([profiles[n] for n in profile_names])
+        c_norms = np.linalg.norm(centroids, axis=1, keepdims=True)
+        c_normed = centroids / np.maximum(c_norms, 1e-10)
+
+        # Find all cluster keys
+        cluster_keys = sorted(
+            k.replace("_embeddings", "")
+            for k in cluster_data.files
+            if k.endswith("_embeddings")
+        )
+
+        print(f"\n[{idx:03d}/{total}] {ep_id} {title}")
+
+        proposed_map: dict[str, str] = {}
+        review_clusters: list[str] = []
+
+        for cluster in cluster_keys:
+            emb_key = f"{cluster}_embeddings"
+            embeddings = cluster_data[emb_key]
+            if len(embeddings) == 0:
+                continue
+
+            # Compute cluster centroid
+            centroid = _compute_centroid(embeddings)
+            centroid_normed = centroid / max(np.linalg.norm(centroid), 1e-10)
+
+            # Cosine similarity against all profiles
+            sims = centroid_normed @ c_normed.T
+            ranked = sorted(
+                zip(profile_names, sims.tolist()),
+                key=lambda x: -x[1],
+            )
+            best_name, best_sim = ranked[0]
+            second_name, second_sim = ranked[1] if len(ranked) > 1 else ("", 0.0)
+
+            # Load sample dialogue from report if available
+            n_segs = meta.get("clusters", {}).get(cluster, {}).get("n_segments", "?")
+
+            # Effective threshold: per-character override > sample-scaled > base
+            if best_name in char_thresholds:
+                eff_threshold = char_thresholds[best_name]
+            else:
+                n_samples = sample_counts.get(best_name, 0)
+                # Small profiles get a penalty: up to +0.10 for <100 samples
+                if n_samples < 100:
+                    penalty = 0.10 * (1 - n_samples / 100)
+                else:
+                    penalty = 0.0
+                eff_threshold = threshold + penalty
+
+            if best_sim >= eff_threshold:
+                margin = best_sim - second_sim
+                marker = "AUTO" if margin >= 0.05 else "auto"
+                proposed_map[cluster] = best_name
+                thresh_note = (f" thr={eff_threshold:.2f}"
+                               if eff_threshold != threshold else "")
+                print(f"  {cluster} ({n_segs} segs) -> {best_name} "
+                      f"[{marker}] sim={best_sim:.3f}{thresh_note} "
+                      f"(2nd: {second_name} {second_sim:.3f})")
+            else:
+                review_clusters.append(cluster)
+                thresh_note = (f" thr={eff_threshold:.2f}"
+                               if eff_threshold != threshold else "")
+                print(f"  {cluster} ({n_segs} segs) -> ??? "
+                      f"[REVIEW] best={best_name} sim={best_sim:.3f}{thresh_note} "
+                      f"(2nd: {second_name} {second_sim:.3f})")
+
+        if review_clusters:
+            needs_review += 1
+
+        if apply and proposed_map:
+            # Auto-apply confident mappings via embed-label logic
+            labels_dir = dia_dir / "labels"
+            labels_dir.mkdir(parents=True, exist_ok=True)
+            label_path = labels_dir / f"{ep_id}.json"
+
+            # Merge into profiles
+            for cluster, character in sorted(proposed_map.items()):
+                emb_key = f"{cluster}_embeddings"
+                new_embeddings = cluster_data[emb_key]
+                if len(new_embeddings) == 0:
+                    continue
+                profile_name = _get_profile_name(character, season)
+                profile_path = pdir / f"{profile_name}.npz"
+                new_metadata = [{
+                    "episode": ep_id,
+                    "season": season,
+                    "cluster": cluster,
+                    "sample_idx": i,
+                } for i in range(len(new_embeddings))]
+
+                if profile_path.exists():
+                    existing = _load_profile(profile_path)
+                    all_embeddings = np.vstack(
+                        [existing["embeddings"], new_embeddings])
+                    all_metadata = existing["metadata"] + new_metadata
+                else:
+                    all_embeddings = new_embeddings
+                    all_metadata = new_metadata
+
+                new_centroid = _compute_centroid(all_embeddings)
+                _save_profile(
+                    profile_path, new_centroid, all_embeddings, all_metadata)
+
+            # Save label file
+            label_data = {
+                "episode_id": ep_id,
+                "title": title,
+                "season": season,
+                "speaker_map": proposed_map,
+                "skipped": sorted(set(cluster_keys) - set(proposed_map)),
+                "auto_labeled": True,
+                "threshold": threshold,
+                "timestamp": datetime.now().isoformat(timespec="seconds"),
+            }
+            label_path.write_text(
+                json.dumps(label_data, indent=2, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            auto_applied += 1
+            print(f"  -> Applied {len(proposed_map)} labels, "
+                  f"{len(review_clusters)} need review")
+
+    # Update profile index if we applied anything
+    if apply and auto_applied > 0:
+        profiles_meta = {}
+        for npz_path in pdir.glob("*.npz"):
+            prof = _load_profile(npz_path)
+            episodes_in = list({
+                m.get("episode", "") for m in prof["metadata"]
+            })
+            profiles_meta[npz_path.stem] = {
+                "samples": len(prof["embeddings"]),
+                "episodes": sorted(e for e in episodes_in if e),
+                "updated": datetime.now().isoformat(timespec="seconds"),
+            }
+        _save_index(pdir, profiles_meta)
+
+    print(f"\n{'=' * 60}")
+    print(f"Auto-label: {total} episodes, "
+          f"{auto_applied} applied, {needs_review} need review")
+    ct_info = (f", char overrides: {char_thresholds}"
+               if char_thresholds else "")
+    print(f"Profiles: {len(all_profiles)} loaded, "
+          f"threshold={threshold:.2f}{ct_info}")
+
+
+# ---------------------------------------------------------------------------
 # Progress tracking
 # ---------------------------------------------------------------------------
 
@@ -2245,6 +2503,30 @@ def main() -> None:
     p_elabel.add_argument(
         "--diarization-dir", default="diarization", help="JSON directory")
 
+    # auto-label subcommand
+    p_auto = sub.add_parser(
+        "auto-label",
+        help="Propose/apply cluster labels using voice profiles")
+    p_auto.add_argument(
+        "--episode", nargs="+",
+        help="Episode ID(s). Omit to auto-discover unlabeled episodes.")
+    p_auto.add_argument("--series", choices=["all", "at", "dl", "fc"], default="all")
+    p_auto.add_argument("--season", type=int, help="Filter by season")
+    p_auto.add_argument(
+        "--threshold", type=float, default=0.60,
+        help="Min cosine similarity for auto-label (default: 0.60)")
+    p_auto.add_argument(
+        "--char-threshold", nargs="+", metavar="CHAR=THRESH",
+        help="Per-character threshold overrides (e.g. 'Ice King=0.65')")
+    p_auto.add_argument(
+        "--apply", action="store_true",
+        help="Auto-apply labels above threshold (default: preview only)")
+    p_auto.add_argument("--force", action="store_true",
+                        help="Re-process already-labeled episodes")
+    p_auto.add_argument("--limit", type=int, help="Max episodes to process")
+    p_auto.add_argument(
+        "--diarization-dir", default="diarization", help="JSON directory")
+
     # status subcommand
     p_status = sub.add_parser("status", help="Show pipeline progress across all episodes")
     p_status.add_argument("--series", choices=["all", "at", "dl", "fc"], default="all")
@@ -2269,6 +2551,8 @@ def main() -> None:
         cmd_embed_clusters(args)
     elif args.command == "embed-label":
         cmd_embed_label(args)
+    elif args.command == "auto-label":
+        cmd_auto_label(args)
     elif args.command == "status":
         cmd_status(args)
 

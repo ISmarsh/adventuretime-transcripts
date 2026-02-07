@@ -1,0 +1,89 @@
+Episode: AT.S01E03 (Prisoners of Love)
+13 speaker clusters, 251 total segments
+
+
+SPEAKER_00 (2 segs, 21.8s, 1 embedded)
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (3 segs, 21.7s, 3 embedded)
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then the human."
+
+SPEAKER_02 (2 segs, 3.5s, 1 embedded)
+  "Yes."
+  "Well, I'd like to marry you."
+
+SPEAKER_03 (4 segs, 7.3s, 3 embedded)
+  "What are you thinking, Finn?"
+  "I've almost devised a plan."
+  "I'm going to let him drop while I finalize the details in my mind."
+  "Sweet."
+
+SPEAKER_04 (81 segs, 151.5s, 40 embedded)
+  "Oh, no!"
+  "Our sled's broken!"
+  "Hey, let's build one out of snow!"
+  "What are you doing, Jay?"
+  "What?"
+
+SPEAKER_05 (2 segs, 2.0s, 1 embedded)
+  "Oh."
+  "I don't know how."
+
+SPEAKER_06 (15 segs, 27.9s, 10 embedded)
+  "Hello."
+  "He's back."
+  "Oh, my God, he's back."
+  "And I'm not having any fun."
+  "That wasn't fun."
+
+SPEAKER_07 (19 segs, 31.4s, 4 embedded)
+  "Yeah!"
+  "Whoo!"
+  "Okay!"
+  "Whoo!"
+  "I'm a flying dog"
+
+SPEAKER_08 (13 segs, 14.7s, 2 embedded)
+  "Whoo-hoo-hoo-hoo, yeah!"
+  "Oh, man, that was great."
+  "You guys are gonna get it."
+  "Yeah, right, sure."
+  "Eat it."
+
+SPEAKER_09 (21 segs, 36.9s, 10 embedded)
+  "Slides are for suckers."
+  "Just ride on my gut."
+  "Yeah, I know what Ice King means."
+  "A big nerd."
+  "Trespassing!"
+
+SPEAKER_10 (73 segs, 180.8s, 47 embedded)
+  "You know why I'm here?"
+  "It means I'm king of ice!"
+  "This is my domain!"
+  "And you're violating ice world law!"
+  "This is my kingdom."
+
+SPEAKER_11 (5 segs, 10.9s, 3 embedded)
+  "Slime Princess, are you alright?"
+  "He's held us here for weeks, questioning us about our favorite sports and quirky"
+  "I've tried to tell him as little as possible."
+  "I understand."
+  "And lovely space princess."
+
+SPEAKER_12 (4 segs, 14.7s, 3 embedded)
+  "When you say lame, do you spell it out?"
+  "Thank you for saving us, Finn."
+  "You're welcome, slime princess."
+  "And remember when you said you'd vow to marry us to the thing of our choosing?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_12: 0.579
+  SPEAKER_08 <-> SPEAKER_09: 0.548
+  SPEAKER_04 <-> SPEAKER_11: 0.524
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E03.npz

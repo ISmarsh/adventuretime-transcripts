@@ -1,0 +1,55 @@
+Episode: AT.S02E15 (The Real You)
+8 speaker clusters, 224 total segments
+
+
+SPEAKER_00 (2 segs, 37.7s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "To a cliff under a tree This party is so crazy!"
+
+SPEAKER_01 (2 segs, 8.0s, 2 embedded)
+  "Finn!"
+  "Finn, my science barbecue was a fiasco."
+
+SPEAKER_02 (20 segs, 58.8s, 13 embedded)
+  "Better not say nothing, you."
+  "Um, so I called Grillmeister for the BDQ, but Pepper won't give up the spatula."
+  "Fine, fine."
+  "You can have it."
+  "And the great question endures."
+
+SPEAKER_03 (1 segs, 2.2s, 1 embedded)
+  "That was incredible!"
+
+SPEAKER_04 (40 segs, 85.5s, 18 embedded)
+  "Princess!"
+  "Oh, hi guys."
+  "Just getting the grill cooking for tonight's BBQ."
+  "Oh!"
+  "What's that you got behind your back there, Finny?"
+
+SPEAKER_05 (116 segs, 239.6s, 66 embedded)
+  "Careful!"
+  "You wrecked my gift for Princess Bubblegum."
+  "Whoops!"
+  "Hey, what's it supposed to be anyway?"
+  "It's a scale model of the Candy Kingdom, made out of my saliva."
+
+SPEAKER_06 (39 segs, 71.0s, 19 embedded)
+  "So this means you want to give her your spit, huh?"
+  "Yep."
+  "Hey, no."
+  "It's OK, dude."
+  "I totally get it."
+
+SPEAKER_07 (3 segs, 24.5s, 3 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "That was the greatest conference ever!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_07: 0.396
+  SPEAKER_04 <-> SPEAKER_05: 0.372
+  SPEAKER_02 <-> SPEAKER_06: 0.330
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E15.npz
