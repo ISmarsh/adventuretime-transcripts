@@ -1,0 +1,25 @@
+{
+  "episode_id": "AT.S03E12",
+  "title": "The Creeps",
+  "season": 3,
+  "speaker_map": {
+    "SPEAKER_02": "Finn_S01-S03",
+    "SPEAKER_03": "Princess Bubblegum",
+    "SPEAKER_05": "BMO",
+    "SPEAKER_08": "LSP",
+    "SPEAKER_10": "Jake",
+    "SPEAKER_11": "Jake",
+    "SPEAKER_12": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_04",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_09"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:31:32"
+}

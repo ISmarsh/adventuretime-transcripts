@@ -1,0 +1,18 @@
+{
+  "episode_id": "AT.S03E14",
+  "title": "Beautopia",
+  "season": 3,
+  "speaker_map": {
+    "SPEAKER_03": "Finn_S01-S03",
+    "SPEAKER_04": "Finn_S01-S03",
+    "SPEAKER_05": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:31:32"
+}

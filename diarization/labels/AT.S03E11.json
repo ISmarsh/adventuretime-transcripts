@@ -1,0 +1,25 @@
+{
+  "episode_id": "AT.S03E11",
+  "title": "Apple Thief",
+  "season": 3,
+  "speaker_map": {
+    "SPEAKER_06": "Tree Trunks",
+    "SPEAKER_08": "Jake",
+    "SPEAKER_12": "Finn_S01-S03"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_07",
+    "SPEAKER_09",
+    "SPEAKER_10",
+    "SPEAKER_11"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:31:31"
+}

@@ -1,15 +1,16 @@
 {
-  "episode_id": "AT.S03E22",
-  "title": "Paper Pete",
+  "episode_id": "AT.S03E21",
+  "title": "Marceline's Closet",
   "season": 3,
   "speaker_map": {
     "SPEAKER_02": "Jake",
-    "SPEAKER_04": "Finn_S01-S03"
+    "SPEAKER_03": "Finn_S01-S03",
+    "SPEAKER_04": "Finn_S01-S03",
+    "SPEAKER_08": "Marceline"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_01",
-    "SPEAKER_03",
     "SPEAKER_05",
     "SPEAKER_06",
     "SPEAKER_07"
