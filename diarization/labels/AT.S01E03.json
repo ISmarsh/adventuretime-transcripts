@@ -3,10 +3,23 @@
   "title": "Prisoners of Love",
   "season": 1,
   "speaker_map": {
-    "SPEAKER_04": "Finn",
+    "SPEAKER_04": "Finn_S01-S03",
+    "SPEAKER_06": "LSP",
+    "SPEAKER_08": "Jake",
     "SPEAKER_09": "Jake",
     "SPEAKER_10": "Ice King"
   },
-  "skipped": [],
-  "timestamp": "2026-02-07T16:36:55"
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_05",
+    "SPEAKER_07",
+    "SPEAKER_11",
+    "SPEAKER_12"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:08:27"
 }

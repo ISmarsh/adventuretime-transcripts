@@ -3,9 +3,18 @@
   "title": "My Two Favorite People",
   "season": 1,
   "speaker_map": {
-    "SPEAKER_05": "Finn",
+    "SPEAKER_05": "Finn_S01-S03",
     "SPEAKER_07": "Jake"
   },
-  "skipped": [],
-  "timestamp": "2026-02-07T16:33:52"
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:08:30"
 }

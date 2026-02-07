@@ -3,9 +3,14 @@
   "title": "City of Thieves",
   "season": 1,
   "speaker_map": {
-    "SPEAKER_02": "Finn",
+    "SPEAKER_02": "Finn_S01-S03",
     "SPEAKER_03": "Jake"
   },
-  "skipped": [],
-  "timestamp": "2026-02-07T16:36:58"
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:08:32"
 }

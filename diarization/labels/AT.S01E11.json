@@ -3,9 +3,17 @@
   "title": "Wizard",
   "season": 1,
   "speaker_map": {
-    "SPEAKER_02": "Finn",
+    "SPEAKER_01": "Jake",
+    "SPEAKER_02": "Finn_S01-S03",
     "SPEAKER_04": "Bufo"
   },
-  "skipped": [],
-  "timestamp": "2026-02-07T16:34:09"
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_03",
+    "SPEAKER_05",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:08:31"
 }
