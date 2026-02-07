@@ -107,7 +107,10 @@ Video dirs mounted read-only from host; diarization output writes directly to pr
 
 - **Joshua (deep male voice)**: 54 samples from 3 episodes. Consistently matches random deep-voiced background characters (Nightosphere demons, mud scamps). Hit 3 false positives in S04 alone. Sample-count penalty helps but doesn't fully prevent.
 - **Young female voices**: Me-Mow, Young Marceline, and Fionna profiles confuse with each other and with random young/feminine-sounding characters (candy citizens, episode-specific kids).
-- **~40% map rate is normal**: Across S01-S04 the mapping rate is consistently ~40%. The other 60% are intro/outro music, minor one-off characters, and mixed clusters. Don't chase 100%.
+- **Elements arc transformations** (S09E02-E09): Characters get elementally transformed and their voice shifts enough to match *other* profiles (e.g. transformed Flame Princess → Marceline). All S09 Elements episodes need manual review.
+- **Themed intros**: Special arcs (Elements, Islands) have custom intros sung by cast members. These cluster separately and match character profiles but aren't actual character dialogue — always false positives.
+- **Alternate-world episodes**: Same voice actors play alternate versions of characters (e.g. Beyond the Grotto S10E03). Voice matches are technically correct but character identities differ. Accept or skip based on project needs.
+- **~40% map rate is normal**: Across S01-S10 the mapping rate is consistently ~40%. The other 60% are intro/outro music, minor one-off characters, and mixed clusters. Don't chase 100%.
 
 ### Key design decisions
 

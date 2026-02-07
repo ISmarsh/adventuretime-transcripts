@@ -5,17 +5,17 @@
   "speaker_map": {
     "SPEAKER_04": "Peppermint Butler",
     "SPEAKER_06": "Finn_S04-S06",
-    "SPEAKER_07": "Jake"
+    "SPEAKER_07": "Jake",
+    "SPEAKER_08": "Prismo"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_01",
     "SPEAKER_02",
     "SPEAKER_03",
-    "SPEAKER_05",
-    "SPEAKER_08"
+    "SPEAKER_05"
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:48:15"
+  "timestamp": "2026-02-07T14:19:13"
 }

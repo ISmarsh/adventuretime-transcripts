@@ -3,16 +3,16 @@
   "title": "Bonnibel Bubblegum",
   "season": 10,
   "speaker_map": {
-    "SPEAKER_01": "Princess Bubblegum"
+    "SPEAKER_01": "Princess Bubblegum",
+    "SPEAKER_05": "Young PB"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_02",
     "SPEAKER_03",
-    "SPEAKER_04",
-    "SPEAKER_05"
+    "SPEAKER_04"
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T13:31:41"
+  "timestamp": "2026-02-07T13:36:14"
 }
