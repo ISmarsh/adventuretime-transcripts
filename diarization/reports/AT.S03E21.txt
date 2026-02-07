@@ -1,0 +1,67 @@
+Episode: AT.S03E21 (Marceline's Closet)
+9 speaker clusters, 174 total segments
+
+
+SPEAKER_00 (6 segs, 53.3s, 5 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Shake your ass for free."
+  "Here she comes."
+  "Let's get out of here."
+
+SPEAKER_01 (3 segs, 35.2s, 2 embedded)
+  "Come along with me and the butterflies and bees."
+  "We can wander through the forest and do so as we please."
+  "me to a cliff under"
+
+SPEAKER_02 (26 segs, 28.3s, 5 embedded)
+  "of balloon music."
+  "Pretty good."
+  "I don't think you've mastered it yet."
+  "Well, duh."
+  "I just started."
+
+SPEAKER_03 (23 segs, 41.3s, 10 embedded)
+  "She's gonna kill us."
+  "When she finds out, she's gonna tie us up and eat us like a spider."
+  "You don't think I know that?"
+  "We'll wait for the right moment and sneak out."
+  "Right under her big fat caboose."
+
+SPEAKER_04 (73 segs, 138.2s, 30 embedded)
+  "Do you think it's right for Marceline to invite us to jam without Princess and B"
+  "It's just a jam sash."
+  "Is that what you're gonna jam with?"
+  "Yeah, man."
+  "Balloon music is the future."
+
+SPEAKER_05 (4 segs, 13.6s, 2 embedded)
+  "Hello?"
+  "Where are you?"
+  "Oh, there you are."
+  "My broom."
+
+SPEAKER_06 (1 segs, 24.6s, 0 embedded)
+  "So, I walk alone"
+
+SPEAKER_07 (7 segs, 19.2s, 5 embedded)
+  "Hello Journal, it's me."
+  "It's been a while since we talked about my life and stuff."
+  "Let's start with my feelings about my friends."
+  "Oh wait, I don't have friends."
+  "We've crossed the line."
+
+SPEAKER_08 (31 segs, 84.4s, 18 embedded)
+  "Smells like sourdough in here."
+  "Huh."
+  "She didn't wash hands."
+  "Is someone here?"
+  "That's what stinks."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.556
+  SPEAKER_05 <-> SPEAKER_08: 0.545
+  SPEAKER_07 <-> SPEAKER_08: 0.494
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S03E21.npz

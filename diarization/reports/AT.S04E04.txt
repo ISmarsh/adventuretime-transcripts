@@ -1,0 +1,68 @@
+Episode: AT.S04E04 (Dream of Love)
+9 speaker clusters, 169 total segments
+
+
+SPEAKER_00 (6 segs, 19.7s, 3 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends!"
+  "We'll go to very distant lands."
+  "We'll take the dog, and then we'll kill them."
+  "Hmm?"
+
+SPEAKER_01 (2 segs, 27.9s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "To a cliff under a tree This party is so crazy!"
+
+SPEAKER_02 (24 segs, 58.5s, 13 embedded)
+  "Yeah, my stomach is jonesing for it bad."
+  "You gonna bring some apple pie to Princess Bubblegum's thing?"
+  "Well, okay."
+  "See you later, then."
+  "What?"
+
+SPEAKER_03 (42 segs, 140.0s, 23 embedded)
+  "Tree trunks!"
+  "Huh?"
+  "Tee-tee!"
+  "Tree trunks!"
+  "Oh my, look who's here!"
+
+SPEAKER_04 (41 segs, 81.0s, 23 embedded)
+  "Oh, man!"
+  "All right, what's next?"
+  "Let's see."
+  "First, we visit Tree Trunks for apple pie, and then we go to Bubblegum's science"
+  "Wait, what about the movie at the drive-in?"
+
+SPEAKER_05 (14 segs, 41.6s, 4 embedded)
+  "Let's go, apple pie!"
+  "Whoo!"
+  "Mmm."
+  "That's good."
+  "Is that?"
+
+SPEAKER_06 (5 segs, 25.2s, 4 embedded)
+  "This is too much!"
+  "It's driving me crazy!"
+  "Stop!"
+  "Go."
+  "I'm freaking out."
+
+SPEAKER_07 (2 segs, 29.1s, 1 embedded)
+  "Must this pig forever"
+  "In my dreams our love is just a dream to me But in my heart it lives and breathe"
+
+SPEAKER_08 (28 segs, 63.3s, 10 embedded)
+  "Hello!"
+  "What are you doing here?"
+  "I never really left."
+  "Cool."
+  "Cool, cool."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_05: 0.551
+  SPEAKER_05 <-> SPEAKER_06: 0.529
+  SPEAKER_02 <-> SPEAKER_06: 0.435
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E04.npz

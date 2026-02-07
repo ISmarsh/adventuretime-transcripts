@@ -1,0 +1,51 @@
+Episode: AT.S04E14 (Card Wars)
+7 speaker clusters, 205 total segments
+
+
+SPEAKER_00 (1 segs, 25.6s, 0 embedded)
+  "with me and the butterflies and bees we can wander through the forest and do so "
+
+SPEAKER_01 (2 segs, 19.0s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (21 segs, 32.5s, 10 embedded)
+  "No, I do not play such games."
+  "Wait, Jake."
+  "What's that mean?"
+  "Oh, Zeng."
+  "I do not play such games."
+
+SPEAKER_03 (3 segs, 17.5s, 3 embedded)
+  "Uh, maybe we should take a break?"
+  "Oh!"
+  "In your face, Dweeb."
+
+SPEAKER_04 (6 segs, 10.0s, 4 embedded)
+  "I flooped a volcano!"
+  "What?"
+  "That'll destroy your kingdom too, won't it?"
+  "Maybe."
+  "My pig!"
+
+SPEAKER_05 (72 segs, 144.6s, 40 embedded)
+  "Hey Jake, what's wrong?"
+  "You look dumpy."
+  "How come?"
+  "Is it because of that metal box?"
+  "Is something sad inside?"
+
+SPEAKER_06 (100 segs, 205.0s, 52 embedded)
+  "No, it's nothing."
+  "You're a charmer, fin human."
+  "No, it's, well, Lady Rainicorn doesn't want to play the game Card Wars with me."
+  "I always beat her, because she says no more card warring."
+  "What's Card Wars?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.573
+  SPEAKER_04 <-> SPEAKER_06: 0.519
+  SPEAKER_03 <-> SPEAKER_04: 0.481
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E14.npz

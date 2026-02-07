@@ -1,0 +1,53 @@
+Episode: AT.S03E20 (Holly Jolly Secrets Part II)
+6 speaker clusters, 166 total segments
+
+
+SPEAKER_00 (5 segs, 27.2s, 4 embedded)
+  "I think I can break the code, Bin."
+  "Yes."
+  "I have detected a noticeable pattern in the tears of sadness that fall from the "
+  "His tears drop at an equal rate until the thirteenth tear, when the right side d"
+  "The 13th letter of the alphabet is M. If I print the letter M every time Ice Kin"
+
+SPEAKER_01 (6 segs, 47.4s, 4 embedded)
+  "Okay, that sounds good."
+  "And so it was decided that once every year when the weather got chilly that Finn"
+  "Peppermint Butler, Phil, a candy cane man, one of the gumdrop girls, Lady Rainic"
+  "when Finn and Jake had a fleeting moment of empathy for the biggest weirdo in Oo"
+  "It was a miracle."
+
+SPEAKER_02 (13 segs, 43.2s, 7 embedded)
+  "Huh, I guess you do know all the words."
+  "You guys cold?"
+  "Yeah, it's kinda chilly in here."
+  "Ah!"
+  "Ah!"
+
+SPEAKER_03 (24 segs, 42.8s, 12 embedded)
+  "Anyway, start the next video, BMO."
+  "We gotta crack the code on the Ice King's evil secret tapes."
+  "Really?"
+  "Oh my glob, Jake."
+  "Is this it?"
+
+SPEAKER_04 (111 segs, 271.7s, 72 embedded)
+  "What's on those tapes?"
+  "I can kind of make it out."
+  "Dang it, BMO."
+  "Just turn to your right a little."
+  "By the power of ice, I want your cup of cocoa to fall over."
+
+SPEAKER_05 (5 segs, 23.1s, 3 embedded)
+  "Please, let me go home."
+  "I don't know what you're talking about."
+  "No."
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "This party is so crazy!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_05: 0.428
+  SPEAKER_03 <-> SPEAKER_04: 0.397
+  SPEAKER_03 <-> SPEAKER_05: 0.337
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S03E20.npz

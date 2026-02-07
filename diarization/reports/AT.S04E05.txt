@@ -1,0 +1,94 @@
+Episode: AT.S04E05 (Return to the Nightosphere)
+13 speaker clusters, 232 total segments
+
+
+SPEAKER_00 (1 segs, 26.9s, 0 embedded)
+  "Come along with me and the butterflies and bees We can wander through the forest"
+
+SPEAKER_01 (4 segs, 18.8s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we can win the battle."
+
+SPEAKER_02 (12 segs, 12.1s, 2 embedded)
+  "Tight."
+  "Ow!"
+  "That guy stinks."
+  "Say something!"
+  "Say something to me!"
+
+SPEAKER_03 (61 segs, 102.3s, 30 embedded)
+  "Mayhaps we drank juice of the Elder Toad."
+  "Yeah, right."
+  "When did we ever did wrong actions?"
+  "Get real."
+  "Who you calling?"
+
+SPEAKER_04 (83 segs, 135.5s, 35 embedded)
+  "Whoa!"
+  "What?"
+  "Where are we?"
+  "I don't know."
+  "What did we do last night?"
+
+SPEAKER_05 (8 segs, 24.8s, 5 embedded)
+  "The Teller can help you."
+  "Get in my flipping belly, and I will transport you."
+  "My insides are habitable."
+  "You will not be digested."
+  "Huh?"
+
+SPEAKER_06 (7 segs, 27.9s, 5 embedded)
+  "What the..."
+  "Marceline?"
+  "I'm gonna close this portal."
+  "You're forbidden to come back to the Nightosphere."
+  "But Marcy, let us help you."
+
+SPEAKER_07 (4 segs, 7.1s, 3 embedded)
+  "The teller will get you in touch with Hunts and Abadeer."
+  "We got systems down here."
+  "You gotta swim the proper channels, you know?"
+  "Youse ain't special."
+
+SPEAKER_08 (12 segs, 14.3s, 3 embedded)
+  "That guy?"
+  "Okay, Bozos, make room, make room, make room."
+  "Ouch!"
+  "Come on!"
+  "Scooch over, fatty."
+
+SPEAKER_09 (6 segs, 14.1s, 5 embedded)
+  "Look!"
+  "Charlie, don't socialize with the smaller demons."
+  "They're dirty and stupid."
+  "I can't, dude."
+  "This outbox is packed tighter than my tummy tunnel when I can't make brown on th"
+
+SPEAKER_10 (24 segs, 31.3s, 6 embedded)
+  "The Nightosphere."
+  "You're in the Nightosphere."
+  "Uh, yes."
+  "You got thrown in jail."
+  "Look."
+
+SPEAKER_11 (1 segs, 2.9s, 1 embedded)
+  "You juicy little mortal soul!"
+
+SPEAKER_12 (7 segs, 17.6s, 5 embedded)
+  "Does anyone need to go pee-pees?"
+  "Go ahead."
+  "Okay, who's here with a question for Mr. Abadir?"
+  "How dare you jump-stress us here!"
+  "No one leaves the nightosphere!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_11 <-> SPEAKER_12: 0.642  <- possible match
+  SPEAKER_07 <-> SPEAKER_08: 0.602  <- possible match
+  SPEAKER_11 <-> SPEAKER_12: 0.642
+  SPEAKER_07 <-> SPEAKER_08: 0.602
+  SPEAKER_04 <-> SPEAKER_06: 0.358
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E05.npz

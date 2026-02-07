@@ -1,0 +1,69 @@
+Episode: AT.S04E08 (Hug Wolf)
+9 speaker clusters, 174 total segments
+
+
+SPEAKER_00 (2 segs, 25.9s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (4 segs, 18.7s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+
+SPEAKER_02 (4 segs, 18.3s, 3 embedded)
+  "When you see the wicker devil in Tree Afterlife, tell him Jake says, hello."
+  "I am terrified of Finn."
+  "I'm gonna hug you up."
+  "This is the biggest hug that's ever existed."
+
+SPEAKER_03 (25 segs, 58.8s, 11 embedded)
+  "Huh?"
+  "Not again."
+  "What's the matter, Cinnamon Bun?"
+  "Please, Finn, if you're going to hug me again, don't make it as hard as you hugg"
+  "I didn't hug you last night."
+
+SPEAKER_04 (15 segs, 50.9s, 8 embedded)
+  "No."
+  "Rin, you are hurting me."
+  "I think you need a good night's sleep."
+  "I'll hug her, Mom."
+  "Jake, we need to steal for baseball."
+
+SPEAKER_05 (59 segs, 142.7s, 34 embedded)
+  "Then let's burn its butt down to the roof, Rubbins."
+  "Finn, I can feel a bunch of eyeballs peeping us from the woods."
+  "Boy, I'm gonna snuggle you to pieces."
+  "Dude, the tree's about to explode its evil juice all over."
+  "You got a fever, man."
+
+SPEAKER_06 (8 segs, 17.8s, 6 embedded)
+  "Hot to the touch!"
+  "Oh, I'm scared, Jake."
+  "No hugs."
+  "I'm sorry."
+  "I feel hot."
+
+SPEAKER_07 (50 segs, 101.8s, 27 embedded)
+  "The Tree of Blight."
+  "Every hundred years, it spews evil spores across the land."
+  "What the?"
+  "Is this an extra butt?"
+  "Quick, Jake, burn the tree."
+
+SPEAKER_08 (5 segs, 9.6s, 2 embedded)
+  "Surely this frosted drink will soothe my fevered tempers."
+  "Hello?"
+  "Good heavens!"
+  "I'll dig in through!"
+  "Me neither."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_06: 0.570
+  SPEAKER_03 <-> SPEAKER_04: 0.510
+  SPEAKER_02 <-> SPEAKER_04: 0.488
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E08.npz

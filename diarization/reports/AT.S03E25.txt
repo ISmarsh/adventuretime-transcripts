@@ -1,0 +1,62 @@
+Episode: AT.S03E25 (Dad's Dungeon)
+8 speaker clusters, 187 total segments
+
+
+SPEAKER_00 (2 segs, 21.5s, 2 embedded)
+  "Picture time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (8 segs, 9.2s, 3 embedded)
+  "A cheetah!"
+  "A fart!"
+  "A cookie!"
+  "An external hard drive."
+  "Oh, oh, change into fin by giving him my body."
+
+SPEAKER_02 (75 segs, 147.8s, 41 embedded)
+  "Hello, boys."
+  "Dad!"
+  "If you're hearing this pre-recorded hologram message, it's because I passed on, "
+  "Right now, I'm holding both of you in my hands."
+  "I made you boys something."
+
+SPEAKER_03 (8 segs, 21.3s, 5 embedded)
+  "What the?"
+  "Give me back my blood, Joshua."
+  "Uh..."
+  "There's another cartridge."
+  "Joshua, return my blood to me, or by demon's law, I will cut off your love handl"
+
+SPEAKER_04 (18 segs, 48.4s, 12 embedded)
+  "All right, what do you want to see next?"
+  "All right, I'll try to turn into a cheetah farting."
+  "I can't do the spots."
+  "Ugh."
+  "Let's take the flower path."
+
+SPEAKER_05 (62 segs, 101.9s, 26 embedded)
+  "BMO, your ideas are boring."
+  "Sparkles in the house?"
+  "Did you squish the sparkles?"
+  "No, they're around this holo message player."
+  "It's got a cartridge with it."
+
+SPEAKER_06 (8 segs, 39.2s, 5 embedded)
+  "Let's squish them!"
+  "You're both still little squishy babies."
+  "Whoa burgers and hot dogs."
+  "Whoa."
+  "Partake of the fruit."
+
+SPEAKER_07 (3 segs, 34.3s, 2 embedded)
+  "Partake of the fruit."
+  "Yeah."
+  "This party is so crazy!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_06: 0.395
+  SPEAKER_04 <-> SPEAKER_05: 0.379
+  SPEAKER_05 <-> SPEAKER_06: 0.372
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S03E25.npz
