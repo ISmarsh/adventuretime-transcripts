@@ -1,15 +1,15 @@
 {
-  "episode_id": "AT.S07E02",
-  "title": "Varmints",
+  "episode_id": "AT.S07E23",
+  "title": "Crossover",
   "season": 7,
   "speaker_map": {
-    "SPEAKER_02": "Marceline",
-    "SPEAKER_03": "Princess Bubblegum"
+    "SPEAKER_03": "Jake",
+    "SPEAKER_04": "Finn_S07-S10"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_01",
-    "SPEAKER_04"
+    "SPEAKER_02"
   ],
   "auto_labeled": true,
   "threshold": 0.6,

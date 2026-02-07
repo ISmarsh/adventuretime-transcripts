@@ -1,0 +1,23 @@
+{
+  "episode_id": "AT.S07E12",
+  "title": "Checkmate",
+  "season": 7,
+  "speaker_map": {
+    "SPEAKER_02": "Princess Bubblegum",
+    "SPEAKER_03": "Peppermint Butler",
+    "SPEAKER_05": "Jake",
+    "SPEAKER_09": "Marceline",
+    "SPEAKER_10": "Marceline"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_04",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_08"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:52:58"
+}

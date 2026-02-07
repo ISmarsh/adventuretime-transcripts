@@ -1,14 +1,14 @@
 {
-  "episode_id": "AT.S07E02",
-  "title": "Varmints",
+  "episode_id": "AT.S07E03",
+  "title": "Cherry Cream Soda",
   "season": 7,
   "speaker_map": {
-    "SPEAKER_02": "Marceline",
-    "SPEAKER_03": "Princess Bubblegum"
+    "SPEAKER_05": "Starchy"
   },
   "skipped": [
-    "SPEAKER_00",
     "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
     "SPEAKER_04"
   ],
   "auto_labeled": true,

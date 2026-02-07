@@ -1,18 +1,17 @@
 {
-  "episode_id": "AT.S07E21",
-  "title": "King's Ransom",
+  "episode_id": "AT.S07E01",
+  "title": "Bonnie and Neddy",
   "season": 7,
   "speaker_map": {
-    "SPEAKER_04": "Finn_S07-S10",
-    "SPEAKER_05": "Ice King",
-    "SPEAKER_07": "Jake"
+    "SPEAKER_02": "Finn_S07-S10",
+    "SPEAKER_04": "Jake",
+    "SPEAKER_06": "Princess Bubblegum"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_01",
-    "SPEAKER_02",
     "SPEAKER_03",
-    "SPEAKER_06"
+    "SPEAKER_05"
   ],
   "auto_labeled": true,
   "threshold": 0.6,

@@ -1,18 +1,18 @@
 {
-  "episode_id": "AT.S07E21",
-  "title": "King's Ransom",
+  "episode_id": "AT.S07E26",
+  "title": "The Thin Yellow Line",
   "season": 7,
   "speaker_map": {
-    "SPEAKER_04": "Finn_S07-S10",
-    "SPEAKER_05": "Ice King",
+    "SPEAKER_02": "Princess Bubblegum",
+    "SPEAKER_05": "Finn_S07-S10",
+    "SPEAKER_06": "Banana Guard",
     "SPEAKER_07": "Jake"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_01",
-    "SPEAKER_02",
     "SPEAKER_03",
-    "SPEAKER_06"
+    "SPEAKER_04"
   ],
   "auto_labeled": true,
   "threshold": 0.6,

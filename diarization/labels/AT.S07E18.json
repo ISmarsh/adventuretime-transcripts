@@ -1,0 +1,23 @@
+{
+  "episode_id": "AT.S07E18",
+  "title": "President Porpoise is Missing!",
+  "season": 7,
+  "speaker_map": {
+    "SPEAKER_01": "BMO",
+    "SPEAKER_02": "Jake",
+    "SPEAKER_04": "Ice King",
+    "SPEAKER_07": "Finn_S07-S10",
+    "SPEAKER_10": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_03",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_08",
+    "SPEAKER_09"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:52:58"
+}

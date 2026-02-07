@@ -2115,7 +2115,7 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
     if args.limit:
         ep_ids = ep_ids[:args.limit]
 
-    if not ep_ids:
+    if not ep_ids and not merge:
         print("No episodes to auto-label.")
         return
 

@@ -1,15 +1,19 @@
 {
-  "episode_id": "AT.S07E02",
-  "title": "Varmints",
+  "episode_id": "AT.S07E07",
+  "title": "Everything Stays",
   "season": 7,
   "speaker_map": {
     "SPEAKER_02": "Marceline",
-    "SPEAKER_03": "Princess Bubblegum"
+    "SPEAKER_06": "Ice King",
+    "SPEAKER_08": "Young Marceline"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_01",
-    "SPEAKER_04"
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_07"
   ],
   "auto_labeled": true,
   "threshold": 0.6,

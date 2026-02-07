@@ -1,10 +1,10 @@
 {
-  "episode_id": "AT.S07E02",
-  "title": "Varmints",
+  "episode_id": "AT.S07E24",
+  "title": "The Hall of Egress",
   "season": 7,
   "speaker_map": {
-    "SPEAKER_02": "Marceline",
-    "SPEAKER_03": "Princess Bubblegum"
+    "SPEAKER_02": "Finn_S07-S10",
+    "SPEAKER_03": "Jake"
   },
   "skipped": [
     "SPEAKER_00",
