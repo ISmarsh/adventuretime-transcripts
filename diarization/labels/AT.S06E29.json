@@ -5,14 +5,14 @@
   "speaker_map": {
     "SPEAKER_01": "Finn_S04-S06",
     "SPEAKER_09": "Jake",
-    "SPEAKER_14": "Marceline"
+    "SPEAKER_14": "Marceline",
+    "SPEAKER_05": "Susan Strong"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_02",
     "SPEAKER_03",
     "SPEAKER_04",
-    "SPEAKER_05",
     "SPEAKER_06",
     "SPEAKER_07",
     "SPEAKER_08",
@@ -23,5 +23,5 @@
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:48:15"
+  "timestamp": "2026-02-07T12:58:00"
 }

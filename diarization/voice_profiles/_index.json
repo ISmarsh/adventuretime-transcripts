@@ -1,14 +1,14 @@
 {
   "model": "speechbrain/spkrec-ecapa-voxceleb",
   "embedding_dim": 192,
-  "updated": "2026-02-07T12:54:34",
+  "updated": "2026-02-07T12:58:00",
   "profiles": {
     "Ash": {
       "samples": 25,
       "episodes": [
         "AT.S03E03"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Banana Guard": {
       "samples": 62,
@@ -22,7 +22,7 @@
         "AT.S08E08",
         "AT.S08E14"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "BMO": {
       "samples": 682,
@@ -67,7 +67,7 @@
         "AT.S07E25",
         "AT.S09E11"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Bufo": {
       "samples": 112,
@@ -75,35 +75,35 @@
         "AT.S01E11",
         "AT.S06E40"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Business Men": {
       "samples": 38,
       "episodes": [
         "AT.S01E08"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Cake": {
       "samples": 10,
       "episodes": [
         "AT.S03E09"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Candy People": {
       "samples": 6,
       "episodes": [
         "AT.S01E01"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Clarence": {
       "samples": 14,
       "episodes": [
         "AT.S03E24"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Doctor Princess": {
       "samples": 15,
@@ -111,7 +111,7 @@
         "AT.S02E11",
         "AT.S06E06"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Finn_S01-S03": {
       "samples": 4415,
@@ -194,7 +194,7 @@
         "AT.S03E25",
         "AT.S03E26"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Finn_S04-S06": {
       "samples": 1774,
@@ -286,7 +286,7 @@
         "AT.S06E42",
         "AT.S06E43"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Finn_S07-S10": {
       "samples": 461,
@@ -312,7 +312,7 @@
         "AT.S07E26",
         "AT.S08E14"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Fionna": {
       "samples": 68,
@@ -321,14 +321,14 @@
         "AT.S05E11",
         "AT.S06E09"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Flambo": {
       "samples": 4,
       "episodes": [
         "AT.S03E26"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Flame King": {
       "samples": 46,
@@ -338,7 +338,7 @@
         "AT.S05E32",
         "AT.S05E47"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Flame Princess": {
       "samples": 253,
@@ -352,21 +352,21 @@
         "AT.S05E47",
         "AT.S06E22"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Ghost Princess": {
       "samples": 12,
       "episodes": [
         "AT.S03E24"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Gumball Guardian": {
       "samples": 16,
       "episodes": [
         "AT.S01E01"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Hunson Abadeer": {
       "samples": 50,
@@ -374,7 +374,7 @@
         "AT.S02E01",
         "AT.S04E06"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Ice King": {
       "samples": 1866,
@@ -433,7 +433,7 @@
         "AT.S08E01",
         "AT.S08E08"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Jake": {
       "samples": 4856,
@@ -619,7 +619,7 @@
         "AT.S08E14",
         "AT.S09E10"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Jermaine": {
       "samples": 72,
@@ -627,7 +627,7 @@
         "AT.S06E33",
         "AT.S09E10"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Joshua": {
       "samples": 95,
@@ -638,7 +638,14 @@
         "AT.S05E41",
         "AT.S06E16"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
+    },
+    "King of Ooo": {
+      "samples": 39,
+      "episodes": [
+        "AT.S06E42"
+      ],
+      "updated": "2026-02-07T12:58:00"
     },
     "Lemongrab": {
       "samples": 206,
@@ -653,7 +660,7 @@
         "AT.S05E51",
         "AT.S06E28"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "LSP": {
       "samples": 637,
@@ -689,7 +696,7 @@
         "AT.S07E16",
         "AT.S07E20"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Marceline": {
       "samples": 709,
@@ -723,14 +730,14 @@
         "AT.S08E01",
         "AT.S09E11"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Margaret": {
       "samples": 2,
       "episodes": [
         "AT.S01E10"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Me-Mow": {
       "samples": 52,
@@ -738,7 +745,7 @@
         "AT.S03E16",
         "AT.S07E17"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "NEPTR": {
       "samples": 95,
@@ -750,7 +757,7 @@
         "AT.S06E08",
         "AT.S07E17"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Peppermint Butler": {
       "samples": 133,
@@ -770,7 +777,7 @@
         "AT.S07E11",
         "AT.S07E12"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Prince Gumball": {
       "samples": 43,
@@ -778,7 +785,7 @@
         "AT.S03E09",
         "AT.S05E11"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Princess Bubblegum": {
       "samples": 1647,
@@ -862,14 +869,14 @@
         "AT.S08E01",
         "AT.S08E14"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Ricardio": {
       "samples": 36,
       "episodes": [
         "AT.S01E07"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Starchy": {
       "samples": 124,
@@ -885,21 +892,23 @@
         "AT.S07E22",
         "AT.S08E08"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Susan Strong": {
-      "samples": 8,
+      "samples": 33,
       "episodes": [
-        "AT.S02E18"
+        "AT.S02E18",
+        "AT.S06E29"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Sweet P": {
-      "samples": 24,
+      "samples": 30,
       "episodes": [
+        "AT.S06E26",
         "AT.S06E39"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Tree Trunks": {
       "samples": 376,
@@ -919,21 +928,21 @@
         "AT.S06E39",
         "AT.S07E16"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Water Nymphs": {
       "samples": 11,
       "episodes": [
         "AT.S02E07"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Wildberry Princess": {
       "samples": 11,
       "episodes": [
         "AT.S03E16"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     },
     "Young Marceline": {
       "samples": 33,
@@ -942,7 +951,7 @@
         "AT.S05E14",
         "AT.S07E07"
       ],
-      "updated": "2026-02-07T12:54:34"
+      "updated": "2026-02-07T12:58:00"
     }
   }
 }
