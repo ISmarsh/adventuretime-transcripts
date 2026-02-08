@@ -1,0 +1,27 @@
+{
+  "episode_id": "FC.S01E08",
+  "title": "Jerry",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_02": "Ice King",
+    "SPEAKER_03": "Simon",
+    "SPEAKER_04": "Ice King",
+    "SPEAKER_06": "Fionna",
+    "SPEAKER_10": "BMO",
+    "SPEAKER_13": "Cake",
+    "SPEAKER_14": "Cake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_05",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_11",
+    "SPEAKER_12"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T17:13:49"
+}

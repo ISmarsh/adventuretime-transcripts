@@ -1,0 +1,31 @@
+{
+  "episode_id": "FC.S01E05",
+  "title": "Destiny",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_08": "Fionna",
+    "SPEAKER_09": "Cake",
+    "SPEAKER_13": "Me-Mow",
+    "SPEAKER_18": "Ice King"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_10",
+    "SPEAKER_11",
+    "SPEAKER_12",
+    "SPEAKER_14",
+    "SPEAKER_15",
+    "SPEAKER_16",
+    "SPEAKER_17",
+    "SPEAKER_19"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T17:13:49"
+}

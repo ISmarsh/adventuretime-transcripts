@@ -1,0 +1,26 @@
+{
+  "episode_id": "FC.S01E02",
+  "title": "Simon Petrikov",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_03": "Simon",
+    "SPEAKER_04": "Me-Mow"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_10",
+    "SPEAKER_11",
+    "SPEAKER_12",
+    "SPEAKER_13"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T17:13:49"
+}
