@@ -152,6 +152,9 @@ MANUAL_ALIASES: dict[str, str] = {
     "Pep But": "Peppermint Butler",
     "Pep-But": "Peppermint Butler",
     "Simon Petrikov": "Simon",  # Same voice, separate from Ice King
+    "Red-tie businessman": "Business Men",
+    "Businessmen": "Business Men",
+    "Imaginary Neptr": "NEPTR",
 }
 
 PROGRESS_FILE = "validation_progress.json"
@@ -447,11 +450,13 @@ def worker_process(episode_dict: dict, output_dir: str) -> dict:
         # Extract audio
         tmp_dir = tempfile.mkdtemp(prefix="whisperx_")
         wav_path = Path(tmp_dir) / f"{ep_id}.wav"
-        subprocess.run(
-            ["ffmpeg", "-y", "-i", str(video_path), "-vn", "-acodec", "pcm_s16le",
-             "-ar", "16000", "-ac", "1", str(wav_path)],
-            capture_output=True, check=True,
-        )
+        ffmpeg_cmd = ["ffmpeg", "-y", "-i", str(video_path)]
+        audio_track = episode_dict.get("audio_track")
+        if audio_track is not None:
+            ffmpeg_cmd += ["-map", f"0:a:{audio_track}"]
+        ffmpeg_cmd += ["-vn", "-acodec", "pcm_s16le",
+                       "-ar", "16000", "-ac", "1", str(wav_path)]
+        subprocess.run(ffmpeg_cmd, capture_output=True, check=True)
         wav_size_mb = wav_path.stat().st_size / (1024 * 1024)
 
         # Load audio
@@ -554,8 +559,10 @@ def worker_process(episode_dict: dict, output_dir: str) -> dict:
                 pass
 
 
-def episode_to_dict(ep: Episode, whisper_model: str) -> dict:
-    return {
+def episode_to_dict(
+    ep: Episode, whisper_model: str, audio_track: int | None = None,
+) -> dict:
+    d = {
         "episode_id": ep.episode_id,
         "output_filename": ep.output_filename,
         "title": ep.title,
@@ -566,6 +573,9 @@ def episode_to_dict(ep: Episode, whisper_model: str) -> dict:
         "video_path": str(ep.video_path),
         "whisper_model": whisper_model,
     }
+    if audio_track is not None:
+        d["audio_track"] = audio_track
+    return d
 
 
 # ---------------------------------------------------------------------------
@@ -580,6 +590,7 @@ def run_batch(
     hf_token: str,
     whisper_model: str,
     device: str = "cpu",
+    audio_track: int | None = None,
 ) -> None:
     total = len(episodes)
     if total == 0:
@@ -651,7 +662,7 @@ def run_batch(
 
     if workers == 1:
         for ep in episodes:
-            ep_dict = episode_to_dict(ep, whisper_model)
+            ep_dict = episode_to_dict(ep, whisper_model, audio_track)
             result = worker_process(ep_dict, str(output_dir))
             # CPU fallback: retry OOM failures on CPU
             if (
@@ -677,7 +688,8 @@ def run_batch(
         with ProcessPoolExecutor(**pool_kwargs) as pool:
             futures = {
                 pool.submit(
-                    worker_process, episode_to_dict(ep, whisper_model),
+                    worker_process,
+                    episode_to_dict(ep, whisper_model, audio_track),
                     str(output_dir),
                 ): ep
                 for ep in episodes
@@ -1148,14 +1160,16 @@ def _get_ecapa():
     return _ecapa_model
 
 
-def _extract_wav(video_path: Path, output_path: Path) -> bool:
+def _extract_wav(
+    video_path: Path, output_path: Path, audio_track: int | None = None,
+) -> bool:
     """Extract 16kHz mono WAV from video. Returns True on success."""
-    subprocess.run(
-        [find_tool("ffmpeg"), "-y", "-i", str(video_path), "-vn",
-         "-acodec", "pcm_s16le", "-ar", "16000", "-ac", "1",
-         str(output_path)],
-        capture_output=True,
-    )
+    cmd = [find_tool("ffmpeg"), "-y", "-i", str(video_path)]
+    if audio_track is not None:
+        cmd += ["-map", f"0:a:{audio_track}"]
+    cmd += ["-vn", "-acodec", "pcm_s16le", "-ar", "16000", "-ac", "1",
+            str(output_path)]
+    subprocess.run(cmd, capture_output=True)
     return output_path.exists() and output_path.stat().st_size > 100
 
 
@@ -1232,12 +1246,18 @@ def _resolve_speaker(name: str) -> str:
 def _canon(name: str) -> str:
     """Canonicalize a speaker name for validation comparison.
 
-    Strips season-bucket suffix (Finn_S01-S03 → Finn) then resolves
-    transcript aliases (Lumpy Space Princess → LSP).
+    Strips season-bucket suffix (Finn_S01-S03 → Finn) and series-bucket
+    suffix (Prismo_FC → Prismo) then resolves transcript aliases
+    (Lumpy Space Princess → LSP).
     """
     m = BUCKET_RE.match(name)
     if m:
         name = m.group(1)
+    # Strip series-bucket suffix (e.g. Prismo_FC, Gary_FC)
+    for suffix in ("_FC", "_DL"):
+        if name.endswith(suffix):
+            name = name[:-len(suffix)]
+            break
     return _resolve_speaker(name)
 
 
@@ -1319,6 +1339,24 @@ def _load_profile_first_episodes(profile_dir: Path) -> dict[str, str]:
         name: info["first_episode"]
         for name, info in index.get("profiles", {}).items()
         if "first_episode" in info
+    }
+
+
+def _load_profile_last_episodes(profile_dir: Path) -> dict[str, str]:
+    """Load last_episode constraints from the index file.
+
+    Returns a dict mapping profile name -> latest episode ID where the
+    profile is valid (e.g. "AT.S10E13").  Profiles without the field are
+    omitted — they match any episode.
+    """
+    index_path = profile_dir / "_index.json"
+    if not index_path.exists():
+        return {}
+    index = json.loads(index_path.read_text(encoding="utf-8"))
+    return {
+        name: info["last_episode"]
+        for name, info in index.get("profiles", {}).items()
+        if "last_episode" in info
     }
 
 
@@ -1523,11 +1561,13 @@ def cmd_process(args: argparse.Namespace) -> None:
     if skipped:
         logger.info("Skipping %d already-processed episodes", len(skipped))
 
+    audio_track = getattr(args, "audio_track", None)
     logger.info("Processing %d episodes with %d workers (device=%s)",
                 len(matched), args.workers, device)
     if device == "cuda" and args.workers > 1:
         logger.warning("Multiple GPU workers compete for VRAM; consider --workers 1")
-    run_batch(matched, output_dir, args.workers, hf_token, args.whisper_model, device)
+    run_batch(matched, output_dir, args.workers, hf_token, args.whisper_model,
+              device, audio_track=audio_track)
 
 
 # ---------------------------------------------------------------------------
@@ -1723,7 +1763,8 @@ def _embed_clusters_one(
     wav_path = Path(tmp_dir) / f"{ep_id}.wav"
 
     try:
-        if not _extract_wav(video_path, wav_path):
+        if not _extract_wav(video_path, wav_path,
+                            getattr(args, "audio_track", None)):
             lines.append("ERROR: WAV extraction failed")
             return "\n".join(lines)
 
@@ -2077,18 +2118,24 @@ def cmd_embed_label(args: argparse.Namespace) -> None:
     )
     print(f"\nSaved label mapping to {label_path}")
 
-    # Update profile index
+    # Update profile index (preserve custom fields like first/last_episode)
+    existing_index = {}
+    index_path = pdir / "_index.json"
+    if index_path.exists():
+        existing_index = json.loads(
+            index_path.read_text(encoding="utf-8")
+        ).get("profiles", {})
     profiles_meta = {}
     for npz_path in pdir.glob("*.npz"):
         prof = _load_profile(npz_path)
         episodes_in = list({
             m.get("episode", "") for m in prof["metadata"]
         })
-        profiles_meta[npz_path.stem] = {
-            "samples": len(prof["embeddings"]),
-            "episodes": sorted(e for e in episodes_in if e),
-            "updated": datetime.now().isoformat(timespec="seconds"),
-        }
+        entry = dict(existing_index.get(npz_path.stem, {}))
+        entry["samples"] = len(prof["embeddings"])
+        entry["episodes"] = sorted(e for e in episodes_in if e)
+        entry["updated"] = datetime.now().isoformat(timespec="seconds")
+        profiles_meta[npz_path.stem] = entry
     _save_index(pdir, profiles_meta)
     print(f"Updated index: {len(profiles_meta)} profiles")
 
@@ -2135,8 +2182,9 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
     # Load sample counts for threshold scaling
     sample_counts = _load_profile_sample_counts(pdir)
 
-    # Load first_episode constraints for temporal filtering
+    # Load temporal constraints for filtering
     first_episodes = _load_profile_first_episodes(pdir)
+    last_episodes = _load_profile_last_episodes(pdir)
 
     # Discover episodes
     if args.episode:
@@ -2200,11 +2248,14 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
             print(f"[{idx:03d}/{total}] {ep_id} -- SKIP (no profiles for season {season})")
             continue
 
-        # Filter by first_episode constraint (skip profiles for characters
-        # that don't exist yet in this episode)
-        if first_episodes:
-            profiles = {n: v for n, v in profiles.items()
-                        if ep_id >= first_episodes.get(n, "")}
+        # Filter by first_episode / last_episode constraints (skip profiles
+        # for characters that don't exist yet or whose voice changed)
+        if first_episodes or last_episodes:
+            profiles = {
+                n: v for n, v in profiles.items()
+                if ep_id >= first_episodes.get(n, "")
+                and (n not in last_episodes or ep_id <= last_episodes[n])
+            }
             if not profiles:
                 print(f"[{idx:03d}/{total}] {ep_id} -- SKIP (no eligible profiles)")
                 continue
@@ -2403,19 +2454,25 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
 
             merged_count += 1
 
-        # Update profile index
+        # Update profile index (preserve custom fields like first/last_episode)
         if merged_count > 0:
+            existing_index = {}
+            index_path = pdir / "_index.json"
+            if index_path.exists():
+                existing_index = json.loads(
+                    index_path.read_text(encoding="utf-8")
+                ).get("profiles", {})
             profiles_meta = {}
             for npz_path in pdir.glob("*.npz"):
                 prof = _load_profile(npz_path)
                 episodes_in = list({
                     m.get("episode", "") for m in prof["metadata"]
                 })
-                profiles_meta[npz_path.stem] = {
-                    "samples": len(prof["embeddings"]),
-                    "episodes": sorted(e for e in episodes_in if e),
-                    "updated": datetime.now().isoformat(timespec="seconds"),
-                }
+                entry = dict(existing_index.get(npz_path.stem, {}))
+                entry["samples"] = len(prof["embeddings"])
+                entry["episodes"] = sorted(e for e in episodes_in if e)
+                entry["updated"] = datetime.now().isoformat(timespec="seconds")
+                profiles_meta[npz_path.stem] = entry
             _save_index(pdir, profiles_meta)
             print(f"\nMerged profiles from {merged_count} episodes")
 
@@ -2597,6 +2654,11 @@ def main() -> None:
                         help="Device for inference (default: auto-detect)")
     p_proc.add_argument("--dry-run", action="store_true", help="Preview mapping only")
     p_proc.add_argument("--force", action="store_true", help="Re-process existing output")
+    p_proc.add_argument(
+        "--audio-track", type=int, default=None,
+        help="Audio stream index to extract (e.g. 1 for second track). "
+             "Default: let ffmpeg pick the default stream.",
+    )
 
     # validate subcommand
     p_val = sub.add_parser("validate", help="Validate/fix transcript speaker labels")
@@ -2636,6 +2698,10 @@ def main() -> None:
         help="Sample dialogue lines per cluster (default: 5)")
     p_eclust.add_argument(
         "--diarization-dir", default="diarization", help="JSON directory")
+    p_eclust.add_argument(
+        "--audio-track", type=int, default=None,
+        help="Audio stream index to extract (e.g. 1 for second track)",
+    )
 
     # embed-label subcommand
     p_elabel = sub.add_parser(

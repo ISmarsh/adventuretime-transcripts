@@ -64,7 +64,7 @@ Clusters below threshold are flagged `REVIEW` for manual identification.
 - `--merge` reads existing label files and merges into voice profiles — run after review
 - Use both together (`--apply --merge`) to write + merge in one step (old behavior)
 - `--additive` only processes clusters currently in `skipped`, preserving existing `speaker_map` entries. Use after manual review to expand coverage without overwriting corrections.
-- **Temporal filtering**: `first_episode` field in `_index.json` per-profile prevents anachronistic matches (e.g. Fern profile from S09 won't match S01 clusters). Applied automatically during auto-label.
+- **Temporal filtering**: `first_episode` and `last_episode` fields in `_index.json` per-profile prevent anachronistic matches. `first_episode` blocks early episodes (e.g. Fern profile from S09 won't match S01 clusters). `last_episode` blocks later episodes (e.g. AT Finn buckets and Prismo won't match FC/DL where voice actors differ). Applied automatically during auto-label.
 
 Threshold system (layered):
 - **Base threshold**: `--threshold` (default 0.60)
@@ -99,6 +99,7 @@ docker compose run whisperx embed-clusters --season 1     # batch clustering
 
 Requires: Docker Desktop (WSL2 backend), NVIDIA GPU driver, `HF_TOKEN` env var.
 Video dirs mounted read-only from host; diarization output writes directly to project.
+The script is live-mounted (`.:/app`), so code changes are immediately available without rebuilding — only rebuild when dependencies change.
 
 ### Performance notes
 
@@ -113,7 +114,7 @@ Video dirs mounted read-only from host; diarization output writes directly to pr
 ### Known false positive patterns
 
 - **Joshua (deep male voice)**: Consistently matches random deep-voiced background characters (Nightosphere demons, mud scamps). Hit 3 false positives in S04 alone. Sample-count penalty and temporal filtering help but don't fully prevent.
-- **Young female voices**: Me-Mow, Young Marceline, and Fionna profiles confuse with each other and with random young/feminine-sounding characters (candy citizens, episode-specific kids).
+- **Young female voices (worst confusable cluster)**: Me-Mow, Young Marceline, Fionna, and Young PB profiles all cross-match with each other and with random young/feminine-sounding characters. Worse than the deep male voice problem — temporal bounds (`last_episode`) are more effective than threshold tuning for preventing cross-series false positives.
 - **Elements arc transformations** (S09E02-E09): Characters get elementally transformed and their voice shifts enough to match *other* profiles (e.g. transformed Flame Princess → Marceline). All S09 Elements episodes need manual review.
 - **Themed intros**: Special arcs (Elements, Islands) have custom intros sung by cast members. These cluster separately and match character profiles but aren't actual character dialogue — always false positives.
 - **Alternate-world episodes**: Same voice actors play alternate versions of characters (e.g. Beyond the Grotto S10E03). Voice matches are technically correct but character identities differ. Accept or skip based on project needs.
@@ -136,8 +137,11 @@ Investigated whether surgical profile cleanup could improve Finn/Jake separation
 - **No circular dependency**: Cluster embeddings come from anonymous pyannote speakers, not transcript labels
 - **Pairwise split detection**: Cosine similarity >= 0.75 flags likely same-character splits
 - **Season bucketing**: Finn gets separate profiles per season range (voice actor aging)
-- **Alias resolution**: Uses the-enchiridion character data for canonical names. `_canon()` strips bucket suffixes (Finn_S01-S03 → Finn) then resolves aliases (Lumpy Space Princess → LSP) for comparison.
+- **Alias resolution**: Uses the-enchiridion character data for canonical names. `_canon()` strips season-bucket suffixes (Finn_S01-S03 → Finn) and series-bucket suffixes (Prismo_FC → Prismo) then resolves aliases (Lumpy Space Princess → LSP) for comparison.
+- **MANUAL_ALIASES vs `_canon()`**: `MANUAL_ALIASES` feeds `_resolve_speaker()` which is called during **profile creation** (embed-label line 2020). Adding bucket names here (e.g. `"Prismo_FC": "Prismo"`) causes profile contamination — FC samples merge into the AT profile. Series-bucket stripping belongs in `_canon()` only, which is used for **validation comparison** only. Never add bucket variants to MANUAL_ALIASES.
+- **Profile rebuild procedure**: If a profile gets contaminated, delete the .npz, find label files with that character's mappings (`grep` labels/), re-run `embed-label` for each episode.
 - **Skip mixed clusters**: When pyannote merges two characters, skip rather than mislabel
+- **`last_episode` string comparison sorts series naturally**: Episode IDs sort alphabetically as `AT.*` < `DL.*` < `FC.*`, so `last_episode: "AT.S10E13"` blocks all DL/FC matches without series-aware logic. Convenient for this project's naming convention.
 
 ### Validate expected results
 
@@ -162,6 +166,7 @@ Investigated whether surgical profile cleanup could improve Finn/Jake separation
 ### ffmpeg
 
 - Returns exit code 0 even when it fails to create a file — always check file existence AND size > 100 bytes after extraction
+- **Multi-language releases**: WEB-DL files tagged "DUAL" may have a non-English audio track as the default stream. Always verify the default track language with `ffprobe -show_streams -select_streams a` before processing. Use `--audio-track N` to select the correct stream (e.g. `--audio-track 1` for second audio track).
 
 ### Vision API (Haiku)
 
