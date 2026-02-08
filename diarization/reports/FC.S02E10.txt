@@ -1,0 +1,158 @@
+Episode: FC.S02E10 (The Bear and the Rose)
+21 speaker clusters, 331 total segments
+
+
+SPEAKER_00 (5 segs, 9.2s, 1 embedded)
+  "Announcement!"
+  "Announcement!"
+  "Announcement!"
+  "This sad day would not be complete without Finn's closest family member."
+  "Got a minute?"
+
+SPEAKER_01 (13 segs, 57.9s, 6 embedded)
+  "New blood left itself wide open."
+  "You won't last long."
+  "Yeah, I can't cook."
+  "We're all a bit messed up, Fi, but we don't have to fly solo."
+  "Well, actually, I've recorded a demo, if you're interested."
+
+SPEAKER_02 (13 segs, 40.2s, 8 embedded)
+  "My poor boy."
+  "Finn is one of a kind."
+  "He should be preserved at all costs."
+  "This way, Finn will live forever, like me and Marcy."
+  "Nothing wrong with that."
+
+SPEAKER_03 (17 segs, 27.5s, 7 embedded)
+  "Uh..."
+  "It wasn't Queenie!"
+  "Fiona, where have you been?"
+  "I wrecked the place."
+  "I didn't mean to."
+
+SPEAKER_04 (39 segs, 80.8s, 24 embedded)
+  "We really hurt her."
+  "I've been pursuing you for the wrong reasons."
+  "Like I wanted to prove something or force a happy ending."
+  "But I don't think we're good for each other."
+  "I hate that I want you so much."
+
+SPEAKER_05 (34 segs, 61.9s, 17 embedded)
+  "Oh, dear."
+  "Everybody out of the pool."
+  "Thank you, Finn."
+  "No prob, Robob."
+  "Anything to protect your data, Mom."
+
+SPEAKER_06 (9 segs, 15.6s, 3 embedded)
+  "Dang."
+  "Yeah, this is crazy."
+  "Ah!"
+  "After all that work we did, it's just evil."
+  "What kind of a low-down varmint could commit such a cruel act?"
+
+SPEAKER_07 (6 segs, 13.8s, 3 embedded)
+  "We'll hit the rest tomorrow."
+  "Hot dogs?"
+  "Remember, don't overmix your dough."
+  "Why?"
+  "Your cookies will come out too hard."
+
+SPEAKER_08 (7 segs, 13.6s, 5 embedded)
+  "You sure?"
+  "Oh, Fiona."
+  "I can see you're trying to make amends."
+  "It's just not enough."
+  "But no one has made food for me in a long time."
+
+SPEAKER_09 (40 segs, 63.0s, 15 embedded)
+  "Oh, my God."
+  "Is that Dutch apple?"
+  "All right, you win."
+  "Breath work."
+  "It's pretty good."
+
+SPEAKER_10 (10 segs, 50.0s, 7 embedded)
+  "It's... it's a... Show me."
+  "Please."
+  "Sleepy puppies, slip your slippers on your footies."
+  "In the morning you'll get goodies, puppy hats and puppy hoodies."
+  "Stripes or polka dots, heather gray and feather socks."
+
+SPEAKER_11 (13 segs, 94.8s, 6 embedded)
+  "The time out!"
+  "Huh?"
+  "Ah!"
+  "None of them landed a new one."
+  "Thick."
+
+SPEAKER_12 (9 segs, 18.8s, 6 embedded)
+  "There's only a slight possibility that if the upload fails, his soul will be tra"
+  "Yeah, that sword is gone."
+  "Hmm?"
+  "Why do wizards need gardening tips?"
+  "This is good stuff."
+
+SPEAKER_13 (9 segs, 14.8s, 4 embedded)
+  "That's cool."
+  "For the record, I'm firmly against this."
+  "Is this preserving him or insulting him?"
+  "Insulting life itself."
+  "No offense."
+
+SPEAKER_14 (19 segs, 49.7s, 13 embedded)
+  "Give up, twig-ass."
+  "You're trapped!"
+  "We'll stay here and suckle on the green magic cheat growing ripe with po- I alre"
+  "But I hate you."
+  "There's something."
+
+SPEAKER_15 (25 segs, 40.6s, 12 embedded)
+  "How you feeling now, Mom?"
+  "Loads better."
+  "You're such a dear to pop over and deal with the Bergamites."
+  "Don't you agree?"
+  "Yes, he battles so handsomely."
+
+SPEAKER_16 (11 segs, 16.7s, 6 embedded)
+  "Gotta try harder, dummy."
+  "You could be way more angry."
+  "Fiona obviously still wants him."
+  "I don't think Fiona knows what she wants."
+  "And Felix..."
+
+SPEAKER_17 (6 segs, 13.1s, 4 embedded)
+  "Fight me for this land, warrior!"
+  "When I saw them kissing, it's like my mind went blank."
+  "No."
+  "But I'm not sure if that's what really upset me."
+  "I really thought Fiona and I could have been friends."
+
+SPEAKER_18 (8 segs, 10.5s, 3 embedded)
+  "Hmm."
+  "Where's Carrie and Marshall at?"
+  "Can I try?"
+  "Do you think Fiona would take a fencing class with me?"
+  "It would be so fun to spar."
+
+SPEAKER_19 (21 segs, 42.6s, 11 embedded)
+  "This isn't right."
+  "Nope."
+  "I'm an ooh!"
+  "Staying here with me after all?"
+  "The heart was a conduit."
+
+SPEAKER_20 (7 segs, 10.7s, 2 embedded)
+  "Send out word!"
+  "This is Finn the Human's last day!"
+  "Creator, your favorite son is here."
+  "Please eat something."
+  "Finished, Poppy."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_10 <-> SPEAKER_11: 0.592
+  SPEAKER_07 <-> SPEAKER_08: 0.553
+  SPEAKER_03 <-> SPEAKER_04: 0.524
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S02E10.npz

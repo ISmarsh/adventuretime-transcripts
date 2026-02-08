@@ -1,0 +1,100 @@
+Episode: FC.S01E04 (Prismo the Wishmaster)
+13 speaker clusters, 378 total segments
+
+
+SPEAKER_00 (7 segs, 14.0s, 4 embedded)
+  "Oh my gosh, you really are Fiona and Cake!"
+  "You're real ones!"
+  "Simon, your crown!"
+  "Don't panic, but I think Gulb is digesting us."
+  "Breaking us apart, layer by layer, down to our essential forms."
+
+SPEAKER_01 (9 segs, 25.6s, 7 embedded)
+  "Good night, Normulon."
+  "Well, I'm trying to, but it's kind of distracting."
+  "You have no idea what it took, the terrible things I did just to get here, and n"
+  "Spit it out."
+  "Oh, I wish it was quiet enough to think."
+
+SPEAKER_02 (12 segs, 26.0s, 6 embedded)
+  "Can we go on an adventure?"
+  "I stepped through a portal in that sad man's head."
+  "That tells me nothing."
+  "Gum Gary!"
+  "Shh!"
+
+SPEAKER_03 (19 segs, 29.1s, 7 embedded)
+  "Legs are arms!"
+  "Amazing!"
+  "It's like a video game and we're getting upgrades for beating those weirdos!"
+  "Nobody sprays cake."
+  "Who do you think you are, you big bully?"
+
+SPEAKER_04 (43 segs, 61.8s, 17 embedded)
+  "I don't know, but this is cool."
+  "Whoa, big boy!"
+  "Hey!"
+  "Hey!"
+  "Whoa!"
+
+SPEAKER_05 (2 segs, 3.1s, 1 embedded)
+  "Are we close?"
+  "Adventure time!"
+
+SPEAKER_06 (39 segs, 101.8s, 22 embedded)
+  "This might be the most delicious tea I've ever tasted."
+  "I almost understand why you abandoned your post for this quaint life."
+  "Cairo siphon."
+  "Who's next?"
+  "Hmm... No..."
+
+SPEAKER_07 (10 segs, 21.6s, 4 embedded)
+  "No."
+  "Oh, crud!"
+  "Fiona!"
+  "Cake!"
+  "Run!"
+
+SPEAKER_08 (3 segs, 2.0s, 0 embedded)
+  "I dunked up."
+  "Join the club."
+  "What's up?"
+
+SPEAKER_09 (34 segs, 130.7s, 20 embedded)
+  "Hey, good night, Sammy."
+  "I'm sorry, sir, but we're about to close."
+  "Oh, I won't be long, Sammy."
+  "I'm not going back!"
+  "I don't like sacred flames."
+
+SPEAKER_10 (167 segs, 326.3s, 78 embedded)
+  "Uh, Mr. Prismo?"
+  "Just ignore it."
+  "Make your wish."
+  "No wish."
+  "Wish granted."
+
+SPEAKER_11 (6 segs, 13.2s, 3 embedded)
+  "What the heck?"
+  "Did you just make us go through a big circle?"
+  "You dum-dum!"
+  "If you don't help us, Simon, our entire world and everyone we know will die."
+  "What are we gonna do?"
+
+SPEAKER_12 (20 segs, 32.4s, 9 embedded)
+  "Well... Aw, my hat!"
+  "Hey, yo, what's going on now, Cake?"
+  "Do me next."
+  "Aw, I just wanted cool powers."
+  "Well, maybe you have some."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.851  <- likely same character
+  SPEAKER_03 <-> SPEAKER_12: 0.755  <- likely same character
+  SPEAKER_03 <-> SPEAKER_11: 0.752  <- likely same character
+  SPEAKER_02 <-> SPEAKER_12: 0.749  <- possible match
+  SPEAKER_11 <-> SPEAKER_12: 0.718  <- possible match
+  SPEAKER_02 <-> SPEAKER_11: 0.660  <- possible match
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S01E04.npz

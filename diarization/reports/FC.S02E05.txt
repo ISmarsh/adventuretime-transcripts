@@ -1,0 +1,107 @@
+Episode: FC.S02E05 (The Butterfly and the River)
+14 speaker clusters, 370 total segments
+
+
+SPEAKER_00 (8 segs, 11.6s, 4 embedded)
+  "Marsh!"
+  "Now put your hands up."
+  "Now put your hands back down."
+  "Now empty them pockets."
+  "We wanna see getting them pockets."
+
+SPEAKER_01 (9 segs, 34.2s, 7 embedded)
+  "Oh, demon baby."
+  "Yes, yes, I hear you."
+  "Marshall, no!"
+  "You've ruined your shorts!"
+  "You have till Sunday."
+
+SPEAKER_02 (53 segs, 87.1s, 25 embedded)
+  "Not at all."
+  "I'm so hopped up on baking, I didn't even notice."
+  "Yes."
+  "Could you chop this baking chocolate?"
+  "No, no."
+
+SPEAKER_03 (31 segs, 44.1s, 10 embedded)
+  "No, no, Marshall."
+  "We're working now."
+  "Sorry, Mom."
+  "No, no."
+  "Oh."
+
+SPEAKER_04 (23 segs, 29.5s, 8 embedded)
+  "Hey, I've been trying to get you on the phone."
+  "I had a change of plans."
+  "You mind if this is a working lunch?"
+  "All right, business."
+  "Come on."
+
+SPEAKER_05 (6 segs, 19.6s, 2 embedded)
+  "Love a baby in a tree."
+  "Tank?"
+  "The willow is sentient."
+  "What the heck happened?"
+  "One thousand years ago, an epidemic of those monstrous butterflies took over, co"
+
+SPEAKER_06 (12 segs, 40.6s, 4 embedded)
+  "Loneliness never bothers me Loneliness and I are thick as thieves Wherever I am,"
+  "May I get, uh, two scoops of double fudge delight?"
+  "Sure, kid."
+  "Coming right up."
+  "Ah!"
+
+SPEAKER_07 (8 segs, 14.6s, 5 embedded)
+  "Huh?"
+  "All right, ladies!"
+  "Who's ready to clear this dump?"
+  "Shut her down, girls!"
+  "Yeah, cake!"
+
+SPEAKER_08 (13 segs, 27.0s, 9 embedded)
+  "Whoa."
+  "So, you're the Marshall-ly."
+  "Woman, you already have two men."
+  "Let Gary have one."
+  "Bubba, did you bring anything?"
+
+SPEAKER_09 (44 segs, 108.4s, 24 embedded)
+  "The heart of the forest."
+  "Yeah, but what is that?"
+  "It's the source of green magic."
+  "And also a portal."
+  "That's how you got here?"
+
+SPEAKER_10 (16 segs, 23.7s, 9 embedded)
+  "But first, we have to help Huntress."
+  "What was that heart thing you were looking for?"
+  "He's cutting off your dang hand!"
+  "Are you guys OK?"
+  "What the hell?"
+
+SPEAKER_11 (46 segs, 82.2s, 24 embedded)
+  "Nice."
+  "Where'd you get the fabric?"
+  "So, what's the game plan today, Fee?"
+  "Well, I lost the fundraiser venue, but I can still fix it."
+  "And you got kicked out of your place."
+
+SPEAKER_12 (38 segs, 82.7s, 17 embedded)
+  "Sorry, am I in the way?"
+  "My baby's an angel."
+  "Hey, is this too loud?"
+  "Uh, no."
+  "Hey, do you need any help?"
+
+SPEAKER_13 (61 segs, 161.4s, 33 embedded)
+  "I slept terribly."
+  "You should have tried another dresser."
+  "Come and get it, Huntress!"
+  "Not what I expected."
+  "I saw you on Cheers."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_10 <-> SPEAKER_11: 0.824  <- likely same character
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S02E05.npz

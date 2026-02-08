@@ -1,0 +1,131 @@
+Episode: FC.S01E10 (Cheers)
+18 speaker clusters, 334 total segments
+
+
+SPEAKER_00 (1 segs, 6.0s, 1 embedded)
+  "This will be a cycle of learning and forgetting and relearning and forgetting ag"
+
+SPEAKER_01 (2 segs, 6.4s, 1 embedded)
+  "Scarab!"
+  "All I was doing was playing games on my work PC, and you put me in a flippin' eg"
+
+SPEAKER_02 (9 segs, 47.8s, 5 embedded)
+  "Aah!"
+  "Get off me!"
+  "Ants!"
+  "Hey."
+  "I think it's..."
+
+SPEAKER_03 (21 segs, 55.3s, 12 embedded)
+  "Ugh, every time we get close, the crown gets further away."
+  "This book cheats."
+  "Get out of here, choose goose."
+  "Get out of here!"
+  "Look, I know this is hard to understand, but I have to decode the secrets of thi"
+
+SPEAKER_04 (54 segs, 101.8s, 25 embedded)
+  "Hey, man, I'm sorry we put you in a bunch of jars, but we're back in our world n"
+  "Our post office."
+  "That was our oldest building."
+  "Oh, my God."
+  "Cake's so cool."
+
+SPEAKER_05 (30 segs, 58.1s, 10 embedded)
+  "Excuse."
+  "Get zapped."
+  "Get eggy!"
+  "Back up, everybody."
+  "I've seen movies."
+
+SPEAKER_06 (11 segs, 14.4s, 5 embedded)
+  "Yes!"
+  "Uh... Nova!"
+  "I'm okay."
+  "I accidentally got the ritual to work."
+  "I'm with Golbeni."
+
+SPEAKER_07 (39 segs, 135.0s, 23 embedded)
+  "I'll stop him."
+  "With music."
+  "Your song about tumbleweeds?"
+  "No, a new heartfelt song inspired by our love."
+  "Oh, Betty."
+
+SPEAKER_08 (24 segs, 50.9s, 16 embedded)
+  "Gonna have to ice these nooks for a week."
+  "Okay, let's see."
+  "Is Fiona World still there?"
+  "Wait, what?"
+  "They're legit now?"
+
+SPEAKER_09 (34 segs, 82.3s, 19 embedded)
+  "Crossovers."
+  "Crud."
+  "He's hot."
+  "All the worlds you've visited?"
+  "All the people you've infected?"
+
+SPEAKER_10 (11 segs, 34.0s, 7 embedded)
+  "Unholy things, give us that crown!"
+  "Wow!"
+  "Nova, that was amazing."
+  "Lord it again."
+  "I think we should check the launch pad for clues about where he's headed."
+
+SPEAKER_11 (8 segs, 28.0s, 4 embedded)
+  "Keep laying!"
+  "Well, if it isn't Mr. and 2 Ms. Killworker, because she was stealing office supp"
+  "Go, cake!"
+  "Oh, no, cake."
+  "Hey Fiona, would it be okay if we just stayed here Oh Angels stay forever."
+
+SPEAKER_12 (5 segs, 10.7s, 3 embedded)
+  "Hello, I'm Perry, the Living Island of Insight."
+  "May you direct me to the nearest ocean?"
+  "Or inland sea?"
+  "This is juicy stuff."
+  "Keep going."
+
+SPEAKER_13 (20 segs, 35.9s, 10 embedded)
+  "I could summon a Sun Ship to give chase."
+  "Oh, no."
+  "But the Moon Demon King is so far ahead."
+  "We'll never catch up."
+  "Oh, Casper, I should have known."
+
+SPEAKER_14 (11 segs, 35.2s, 7 embedded)
+  "Oh, I just cast a spell you showed me."
+  "Moon Demon King!"
+  "Too late, Casper."
+  "I'm going to an undisclosed third location."
+  "They ruined our house."
+
+SPEAKER_15 (34 segs, 84.1s, 19 embedded)
+  "Yeah, that sounds smart too."
+  "Fire once for Casper's idea, fire twice for Nova's idea."
+  "Simon, I know you're really into this story, but if you're not enjoying yourself"
+  "That's the great thing about books."
+  "No."
+
+SPEAKER_16 (10 segs, 19.0s, 2 embedded)
+  "I have to."
+  "I have to."
+  "I have to."
+  "I have to."
+  "Stop the scarab!"
+
+SPEAKER_17 (7 segs, 14.8s, 5 embedded)
+  "You who?"
+  "Blow, blow, blow."
+  "Give me that fingers diggers."
+  "You?"
+  "Silly boy."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_05: 0.644  <- possible match
+  SPEAKER_02 <-> SPEAKER_05: 0.644
+  SPEAKER_05 <-> SPEAKER_16: 0.570
+  SPEAKER_02 <-> SPEAKER_16: 0.524
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S01E10.npz

@@ -1,0 +1,155 @@
+Episode: DL.S01E02 (Obsidian)
+22 speaker clusters, 620 total segments
+
+
+SPEAKER_00 (7 segs, 24.2s, 6 embedded)
+  "Good evening, and how you been?"
+  "Are you the chump with dry skin?"
+  "Oh, quack, a boy with a head crack."
+  "Hey!"
+  "Marceline, Marceline, the vampire queen."
+
+SPEAKER_01 (18 segs, 67.4s, 12 embedded)
+  "Oh, so mysterious all the time."
+  "Just like your song."
+  "How you doing back there, glass boy?"
+  "This is all going to go great."
+  "Wow!"
+
+SPEAKER_02 (11 segs, 40.6s, 8 embedded)
+  "This is going out to a little girl named Marceline."
+  "Marceline."
+  "Marceline."
+  "Is it just you and me in the wreckage of the world?"
+  "That must be so confusing for a little girl."
+
+SPEAKER_03 (15 segs, 56.3s, 5 embedded)
+  "Boo, I'm sorry."
+  "Did I scare you?"
+  "Are you just afraid of having fun?"
+  "Ha!"
+  "You don't think it's funny?"
+
+SPEAKER_04 (6 segs, 14.6s, 3 embedded)
+  "Oh my gosh, she is so dark."
+  "Is this what passes for music and cotton candy land or whatever?"
+  "Any other day, I would totally annihilate you for wrecking my stuff!"
+  "But Bonnie is more important."
+  "Ha-ha!"
+
+SPEAKER_05 (4 segs, 40.2s, 2 embedded)
+  "Don't you see?"
+  "You're exactly what I don't want to be."
+  "Honestly, you're a walking, talking, candy tragedy."
+  "I'm glad that I woke up I don't really care about your stupid candy kingdom I sh"
+
+SPEAKER_06 (8 segs, 23.8s, 5 embedded)
+  "Um, Peebs, are you gonna be okay hearing this again?"
+  "Do what you have to do, Marceline."
+  "My face."
+  "Princess."
+  "My bass is smashed."
+
+SPEAKER_07 (122 segs, 354.8s, 73 embedded)
+  "It's pretty whatever."
+  "I don't know."
+  "I rarely see you this focused."
+  "Thanks, peeps."
+  "Wait, was that a diss?"
+
+SPEAKER_08 (221 segs, 544.8s, 122 embedded)
+  "Uh, right."
+  "Wait, wait."
+  "Hold on, you guys."
+  "Sorry I'm late, princess."
+  "I was reading."
+
+SPEAKER_09 (36 segs, 72.1s, 18 embedded)
+  "These are our princesses."
+  "The sun has set."
+  "Don't kid yourself, crack face."
+  "I like the way you are."
+  "Choir Master, make the children sing."
+
+SPEAKER_10 (4 segs, 12.6s, 3 embedded)
+  "This is the last place the beast will..."
+  "What a tragic turn."
+  "I am so sad to tell you that your reign is over."
+  "No way."
+
+SPEAKER_11 (3 segs, 9.3s, 3 embedded)
+  "You've gotten warped, Princess."
+  "First Glass Boy, then the fakie Marceline."
+  "Now you're putting faith in a prince is even more helpless than you, okay?"
+
+SPEAKER_12 (3 segs, 30.3s, 2 embedded)
+  "So mad at the coconut I am sick of living in the ocean So mad at the coconut I d"
+  "So bad at the coconut!"
+  "Who are you?"
+
+SPEAKER_13 (1 segs, 4.2s, 1 embedded)
+  "I was afraid people would judge me the way I judge them."
+
+SPEAKER_14 (8 segs, 9.8s, 2 embedded)
+  "No visitors."
+  "We're in a state of emergency."
+  "Do you have a royal invitation?"
+  "Get lost, Pinky."
+  "The Great Bell!"
+
+SPEAKER_15 (5 segs, 9.7s, 3 embedded)
+  "Book, love and glass, boy."
+  "Bibliophile."
+  "Doesn't everything you read just leak out of you?"
+  "Yeah, you have a great personality."
+  "Yeah, sorry for bullying you your whole life."
+
+SPEAKER_16 (10 segs, 31.9s, 8 embedded)
+  "Gotcha, Keithies!"
+  "And you're going to the jail tower for this."
+  "The Outsider's song just made the dragon angrier and sassier!"
+  "What's your plan now?"
+  "So either grow up or step aside."
+
+SPEAKER_17 (19 segs, 54.3s, 9 embedded)
+  "Yeah, a bit."
+  "The key!"
+  "Sure!"
+  "Marceline!"
+  "Marceline!"
+
+SPEAKER_18 (32 segs, 63.3s, 17 embedded)
+  "Now, next to the family of bugs, draw a silver tree."
+  "Perfect."
+  "Above that tree, draw a panda with a hat."
+  "No, no."
+  "The panda is very important."
+
+SPEAKER_19 (44 segs, 120.3s, 24 embedded)
+  "Now what?"
+  "That's silly."
+  "I want to draw a walrus in an overcoat."
+  "OK, Mommy."
+  "That's it!"
+
+SPEAKER_20 (15 segs, 25.4s, 4 embedded)
+  "Quit stalling."
+  "Begin the retelling."
+  "Glassboy?"
+  "What have you done?"
+  "I just wanted to fix myself."
+
+SPEAKER_21 (12 segs, 19.0s, 3 embedded)
+  "What?"
+  "This is how I cope!"
+  "Please don't!"
+  "I'm too old to die!"
+  "You're after Marceline?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_08: 0.868  <- likely same character
+  SPEAKER_06 <-> SPEAKER_07: 0.692  <- possible match
+  SPEAKER_09 <-> SPEAKER_11: 0.632  <- possible match
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\DL.S01E02.npz

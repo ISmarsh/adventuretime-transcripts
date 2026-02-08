@@ -1,0 +1,149 @@
+Episode: FC.S02E01 (The Hare and the Sprout)
+21 speaker clusters, 321 total segments
+
+
+SPEAKER_00 (4 segs, 11.1s, 2 embedded)
+  "Fix that hole, girl."
+  "Miss Campbell, as a token of appreciation for saving our fair city, 15% off your"
+  "And, uh, apologies for firing you last year."
+  "My house is in there."
+
+SPEAKER_01 (11 segs, 18.8s, 4 embedded)
+  "Not feeling so great, Sammy."
+  "I tell you, my dogs are barking so much, I miss you in a noise complaint."
+  "Oh, yeah."
+  "Brekkie, Huntress."
+  "Thanks, babe."
+
+SPEAKER_02 (6 segs, 8.7s, 3 embedded)
+  "I haven't seen him in a while."
+  "Wait, those two are back on again?"
+  "I gotta give that girl a call."
+  "You have her number?"
+  "No."
+
+SPEAKER_03 (19 segs, 61.2s, 16 embedded)
+  "It all started when Prismo the Wishmaster made a wish."
+  "He made a new version of Finn the Human."
+  "A girl named Fiona."
+  "But her magical world turned into a boring one."
+  "So, she went on a quest to fix it."
+
+SPEAKER_04 (11 segs, 19.0s, 5 embedded)
+  "My friends, defend the castle!"
+  "Sick."
+  "Can't wait to bloody these up."
+  "Oh, can I have the green puff?"
+  "Oh, yeah, right."
+
+SPEAKER_05 (10 segs, 15.0s, 3 embedded)
+  "Oh, Hunter."
+  "These roses keep springing up all over the park."
+  "They remind me of Rosa Rubisinosa."
+  "I thought you'd like one."
+  "Oh."
+
+SPEAKER_06 (78 segs, 128.6s, 22 embedded)
+  "Hey, Babyface."
+  "Want to come over for breakfast before we bounce?"
+  "Or are you too busy being an independent single gal living it up in your brand-n"
+  "Whoo!"
+  "Well, it depends."
+
+SPEAKER_07 (15 segs, 44.8s, 7 embedded)
+  "And on your left, you'll see more destruction brought to our fair city by none o"
+  "The simpletons of this city might love you for now, but deep down, you know you'"
+  "Huh?"
+  "Well, even before the world got wrecked, this place used to be a real dump."
+  "But you idiots really made something of it, huh?"
+
+SPEAKER_08 (36 segs, 59.0s, 15 embedded)
+  "What do people normally pick?"
+  "Mmm."
+  "My pick."
+  "I'll just stick with the coffee."
+  "Beep, beep, beep."
+
+SPEAKER_09 (19 segs, 31.3s, 9 embedded)
+  "Fiona, cake."
+  "Did you get the cocoa powder?"
+  "Yep, this is it."
+  "Babe, ew."
+  "Here, I made thank you pastries."
+
+SPEAKER_10 (5 segs, 17.5s, 4 embedded)
+  "You're listening to the original GROF."
+  "My name is DJ Sloan."
+  "You know, that song always reminds me of my many feelings."
+  "Seriously, how bad can I feel about myself?"
+  "Well, anyway, I got the hot, hot, hottest new single from DJ Flame."
+
+SPEAKER_11 (39 segs, 119.6s, 21 embedded)
+  "Is that really what happened, Astrid?"
+  "Last I saw, he was heading to Huntress Wizard's place."
+  "Hey, girl."
+  "I'm out for a walk."
+  "Thought I'd check in."
+
+SPEAKER_12 (8 segs, 13.7s, 4 embedded)
+  "Cheers, this film, before a live studio audience."
+  "I think I'm in my impressionist period."
+  "I don't paint."
+  "I have no desire to paint."
+  "But if I did paint, I feel like that would really be my thing."
+
+SPEAKER_13 (2 segs, 30.4s, 1 embedded)
+  "Huntress... Wizard... Red."
+  "Come on!"
+
+SPEAKER_14 (1 segs, 11.8s, 1 embedded)
+  "Hyper Viper."
+
+SPEAKER_15 (6 segs, 32.5s, 3 embedded)
+  "Magic Kitty!"
+  "Can you turn into an elephant?"
+  "What's next on the list fee super fine dark cocoa powder You know what that mean"
+  "Whoa, Simon!"
+  "You're teaching a class about yourself?"
+
+SPEAKER_16 (12 segs, 30.4s, 5 embedded)
+  "Blood everywhere!"
+  "Cool."
+  "Ugh!"
+  "Help me."
+  "Help me."
+
+SPEAKER_17 (17 segs, 18.0s, 4 embedded)
+  "Finn, what poisoned you?"
+  "A cockatrice?"
+  "A naga?"
+  "A medium-sized manticore?"
+  "A cone snail?"
+
+SPEAKER_18 (8 segs, 30.2s, 3 embedded)
+  "Finn?"
+  "What's all this biz?"
+  "Have you been training animals to feed you?"
+  "Finn?"
+  "Why are you so lazy?"
+
+SPEAKER_19 (3 segs, 6.0s, 2 embedded)
+  "If you had this kind of hustle before, I would have kept you on."
+  "Here's those fairy lights you asked about."
+  "How's that tarp holding up?"
+
+SPEAKER_20 (5 segs, 12.9s, 4 embedded)
+  "Sure do appreciate the help, Fiona."
+  "My back is just so horribly jacked up."
+  "Ah, wonderful."
+  "This will ensure that my lava cakes are truly..."
+  "Thanks for picking it off the shelf for me, sweetie."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_06: 0.652  <- possible match
+  SPEAKER_03 <-> SPEAKER_06: 0.652
+  SPEAKER_19 <-> SPEAKER_20: 0.529
+  SPEAKER_08 <-> SPEAKER_16: 0.510
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S02E01.npz
