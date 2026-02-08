@@ -1,0 +1,95 @@
+Episode: AT.S08E10 (The Music Hole)
+14 speaker clusters, 178 total segments
+
+
+SPEAKER_00 (2 segs, 18.0s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (11 segs, 36.0s, 7 embedded)
+  "We are going live in five!"
+  "Good afternoon and welcome to Plan C. I mean Battle of the Bands."
+  "Come on!"
+  "Now, let's all give a warm welcome to our celebrity guest, Judge!"
+  "Please welcome our first contestants to the stage, MC NEPTR and Flame P. Yo, yo,"
+
+SPEAKER_02 (15 segs, 27.8s, 8 embedded)
+  "My pick."
+  "I am not playing without it."
+  "Dude, I slew a freaking bone demon for that thing."
+  "Come on."
+  "What music?"
+
+SPEAKER_03 (15 segs, 27.9s, 11 embedded)
+  "Battle of the bands, what up?"
+  "Make some noise!"
+  "Turn it up!"
+  "Turn the music up!"
+  "Yo, my name's F.B."
+
+SPEAKER_04 (22 segs, 53.4s, 11 embedded)
+  "Really?"
+  "No one's ever said that."
+  "Shut up."
+  "It's true."
+  "Well, I've had a lot of practice."
+
+SPEAKER_05 (1 segs, 6.4s, 1 embedded)
+  "Uh... Oh, excuse me."
+
+SPEAKER_06 (13 segs, 22.9s, 7 embedded)
+  "No, it's not."
+  "It's still good."
+  "Five seconds rule."
+  "Mrs. Heck is serious."
+  "Did you try making feel better waffles?"
+
+SPEAKER_07 (3 segs, 28.4s, 1 embedded)
+  "I'm gonna fly, fly like an eagle With the power of myself, constant pain I'm gon"
+  "Oh, hold on, hold on."
+  "Can Suzy get more bass in the monitor?"
+
+SPEAKER_08 (12 segs, 37.4s, 7 embedded)
+  "Hey, yo my man, no photos."
+  "Oh, nice."
+  "Hey, they're trying to bribe the celebrity guest judge."
+  "Hey, Sonya, find it so we can get on with the show."
+  "Where is that music coming from?"
+
+SPEAKER_09 (2 segs, 29.3s, 1 embedded)
+  "With a sorrow in our hearts we can play."
+  "And I look up to you And we hear different sounds than the heart lets do Wakeful"
+
+SPEAKER_10 (8 segs, 7.2s, 0 embedded)
+  "Poor Finn's sword."
+  "I'm sorry, man."
+  "Everything's broken."
+  "Poor Finn's sword."
+  "I'm sorry, man."
+
+SPEAKER_11 (39 segs, 67.1s, 21 embedded)
+  "It's gonna distract me from my sword staring."
+  "Better track down the source and kill it."
+  "Wow, I wonder how long they practiced that."
+  "This song is incredible."
+  "Unless something amazing happens, I do believe we have a winner."
+
+SPEAKER_12 (27 segs, 53.1s, 13 embedded)
+  "I don't know what to do."
+  "Yeah, but he just keeps dropping them on the ground and we're all like, still go"
+  "Are you sure?"
+  "You're right."
+  "Plan C, activate."
+
+SPEAKER_13 (7 segs, 55.2s, 5 embedded)
+  "I don't know what to do without you."
+  "I don't know where to put my hands."
+  "I've been trying to lay my head down, but I'm writing this at 3 AM."
+  "I don't need you."
+  "But I don't think I could stand to be where you don't see me."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_06: 0.809  <- likely same character
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E10.npz

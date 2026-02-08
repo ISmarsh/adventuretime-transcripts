@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S08E02",
+  "title": "Don't Look",
+  "season": 8,
+  "speaker_map": {
+    "SPEAKER_01": "Ice King",
+    "SPEAKER_02": "Jake",
+    "SPEAKER_03": "Finn_S07-S10",
+    "SPEAKER_06": "Princess Bubblegum",
+    "SPEAKER_05": "Shelby"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_04"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:49:55"
+}

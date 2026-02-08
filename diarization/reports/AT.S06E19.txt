@@ -1,0 +1,54 @@
+Episode: AT.S06E19 (Is That You)
+7 speaker clusters, 249 total segments
+
+
+SPEAKER_00 (2 segs, 28.7s, 1 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (1 segs, 25.2s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and do so as we"
+
+SPEAKER_02 (50 segs, 83.2s, 19 embedded)
+  "A truer friend, there was none."
+  "And Prisma was his name."
+  "Hey, we can put it back in the fridge if you want."
+  "I'm in here."
+  "Crazy dream, man."
+
+SPEAKER_03 (63 segs, 107.8s, 29 embedded)
+  "Dude, what is the deal?"
+  "Dude, I can't wait to get this batch of pickles to Jake."
+  "He's totes gonna bust a pipe when he gets hit with the cumin and the undertones "
+  "Dude, I get out of relationships because I don't want to have a discussion about"
+  "That's right."
+
+SPEAKER_04 (15 segs, 27.1s, 6 embedded)
+  "Wolf?"
+  "What was that?"
+  "Quick, to bed."
+  "This has to be the last thing we think about."
+  "Okay... dream."
+
+SPEAKER_05 (8 segs, 17.1s, 6 embedded)
+  "Oh... Prismo, we love you forever, our dreams!"
+  "Prismo, we love you forever, our dreams!"
+  "Prismo, we love you forever, our dreams!"
+  "Pickle-rama, pickle-rama, pickle-rama, pickle-rama!"
+  "Finale!"
+
+SPEAKER_06 (107 segs, 210.8s, 52 embedded)
+  "Falling out, I've fallen out, you're home now in the sky."
+  "Falling out, I've fallen out, a single tear we cry."
+  "An artisan of pickling."
+  "And now just one remains."
+  "And now just one."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_06: 0.603  <- possible match
+  SPEAKER_04 <-> SPEAKER_06: 0.603
+  SPEAKER_05 <-> SPEAKER_06: 0.503
+  SPEAKER_00 <-> SPEAKER_04: 0.424
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E19.npz

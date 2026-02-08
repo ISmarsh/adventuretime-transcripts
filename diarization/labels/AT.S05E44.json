@@ -1,0 +1,26 @@
+{
+  "episode_id": "AT.S05E44",
+  "title": "Apple Wedding",
+  "season": 5,
+  "speaker_map": {
+    "SPEAKER_05": "LSP",
+    "SPEAKER_07": "LSP",
+    "SPEAKER_10": "Tree Trunks",
+    "SPEAKER_12": "Princess Bubblegum",
+    "SPEAKER_03": "King of Ooo",
+    "SPEAKER_06": "Cinnamon Bun"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_04",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_11",
+    "SPEAKER_13"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:49:55"
+}

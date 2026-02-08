@@ -1,0 +1,30 @@
+{
+  "episode_id": "DL.S01E01",
+  "title": "BMO",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_01": "Peppermint Butler",
+    "SPEAKER_02": "Princess Bubblegum",
+    "SPEAKER_09": "Shelby",
+    "SPEAKER_12": "BMO",
+    "SPEAKER_13": "BMO",
+    "SPEAKER_16": "Princess Bubblegum",
+    "SPEAKER_17": "Princess Bubblegum"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_10",
+    "SPEAKER_11",
+    "SPEAKER_14",
+    "SPEAKER_15"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T17:13:50"
+}

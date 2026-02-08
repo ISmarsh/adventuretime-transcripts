@@ -1,0 +1,77 @@
+Episode: AT.S02E21 (Belly of the Beast)
+11 speaker clusters, 214 total segments
+
+
+SPEAKER_00 (1 segs, 25.5s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and do so as we"
+
+SPEAKER_01 (1 segs, 4.0s, 1 embedded)
+  "Cubby, are you bothering these guys with your fantasy stories?"
+
+SPEAKER_03 (2 segs, 20.3s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_04 (22 segs, 29.0s, 6 embedded)
+  "I'm Cubby."
+  "Hi, Cubby."
+  "What's going on?"
+  "I heard what you said about this being a monster spelling."
+  "I've been telling everyone that for three days."
+
+SPEAKER_05 (82 segs, 168.5s, 43 embedded)
+  "Dream monster!"
+  "Quick, let's go enjoy this dream before we wake up."
+  "Yeah!"
+  "Dream the dream, dream, dream, dream."
+  "Hmm?"
+
+SPEAKER_06 (4 segs, 11.2s, 2 embedded)
+  "My hot dog's dead."
+  "My pizza's dead."
+  "My cupcake is dead."
+  "All of our favorite foods are totally dead."
+
+SPEAKER_07 (15 segs, 21.0s, 3 embedded)
+  "Oh, it's gross!"
+  "Help!"
+  "Help me!"
+  "Hang these streamers!"
+  "What?"
+
+SPEAKER_08 (39 segs, 69.8s, 15 embedded)
+  "I don't know."
+  "I think I'm still asleep."
+  "What if I'm still asleep?"
+  "Then we're sharing the same dream, dude."
+  "Look out your window."
+
+SPEAKER_09 (5 segs, 6.3s, 1 embedded)
+  "Shh, shh, shh."
+  "You know who I am?"
+  "I'm the Chief."
+  "Full blown."
+  "Come on, Jake, we gotta get out of here."
+
+SPEAKER_10 (21 segs, 50.2s, 15 embedded)
+  "But-"
+  "But you haven't been partying."
+  "You move to music, but that's not dancing."
+  "You chew pancakes, but you're not tasting."
+  "To truly party, one must leave behind the problems that are troubling and open o"
+
+SPEAKER_11 (7 segs, 24.5s, 6 embedded)
+  "Yeah, yeah, yeah!"
+  "So turn up the music and we'll never leave!"
+  "Better believe!"
+  "We'll never run from the fun because we're... Bears!"
+  "Hear me, monster."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_09: 0.640  <- possible match
+  SPEAKER_05 <-> SPEAKER_09: 0.640
+  SPEAKER_05 <-> SPEAKER_06: 0.561
+  SPEAKER_10 <-> SPEAKER_11: 0.494
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E21.npz

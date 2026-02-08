@@ -1,0 +1,22 @@
+{
+  "episode_id": "AT.S04E09",
+  "title": "Princess Monster Wife",
+  "season": 4,
+  "speaker_map": {
+    "SPEAKER_04": "Jake",
+    "SPEAKER_05": "Ice King",
+    "SPEAKER_06": "Finn_S04-S06",
+    "SPEAKER_08": "LSP",
+    "SPEAKER_09": "LSP",
+    "SPEAKER_02": "LSP"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_03",
+    "SPEAKER_07"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:49:54"
+}

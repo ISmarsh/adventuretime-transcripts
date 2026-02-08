@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S03E10",
+  "title": "What Was Missing",
+  "season": 3,
+  "speaker_map": {
+    "SPEAKER_02": "Jake",
+    "SPEAKER_04": "Princess Bubblegum",
+    "SPEAKER_05": "Marceline",
+    "SPEAKER_06": "Finn_S01-S03"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_03"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:31:31"
+}

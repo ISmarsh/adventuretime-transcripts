@@ -1,0 +1,61 @@
+Episode: AT.S04E10 (Goliad)
+8 speaker clusters, 228 total segments
+
+
+SPEAKER_00 (1 segs, 18.8s, 0 embedded)
+  "it's your time come on grab your friends we'll go to very distant lands"
+
+SPEAKER_01 (1 segs, 22.8s, 0 embedded)
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (7 segs, 38.5s, 3 embedded)
+  "Yes, Jake."
+  "Um, hmm."
+  "Ah!"
+  "Ah!"
+  "Jake."
+
+SPEAKER_03 (70 segs, 165.0s, 42 embedded)
+  "As Princess of Candy Kingdom, I'm in charge of a lot of candy people."
+  "They rely on me."
+  "I can't imagine what might happen to them if I was gone."
+  "And after my brush with death at the hands of the Lich, I realize something."
+  "I'm not going to live forever, Finn."
+
+SPEAKER_04 (27 segs, 46.5s, 13 embedded)
+  "Finn, Jake, the princess wants to see you."
+  "Yeah, thanks, Ben."
+  "I'm excited to learn."
+  "These kids seem pretty scary."
+  "Yeah, I think so, Finn."
+
+SPEAKER_05 (12 segs, 24.1s, 8 embedded)
+  "Alright, listen up!"
+  "You kids better stop dunking around and get up that ramp!"
+  "You're gonna mess up Goliad!"
+  "I'm Don John Cherry Tempo!"
+  "It's my way, the highway blobs love it!"
+
+SPEAKER_06 (34 segs, 66.5s, 20 embedded)
+  "What you building?"
+  "Look, it's just my size."
+  "Hey, get away from my fort, you big stinky monster!"
+  "Yeah, me too."
+  "Aw, she's cute."
+
+SPEAKER_07 (70 segs, 95.3s, 25 embedded)
+  "Um, it's just a little stick fort."
+  "Oh, rad!"
+  "I like it when you get small, Jake."
+  "Whoa, Peppermint Butler!"
+  "Hi, Goliad."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.628  <- possible match
+  SPEAKER_04 <-> SPEAKER_05: 0.620  <- possible match
+  SPEAKER_03 <-> SPEAKER_04: 0.628
+  SPEAKER_04 <-> SPEAKER_05: 0.620
+  SPEAKER_03 <-> SPEAKER_05: 0.553
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E10.npz

@@ -1,0 +1,21 @@
+{
+  "episode_id": "AT.S04E20",
+  "title": "You Made Me",
+  "season": 4,
+  "speaker_map": {
+    "SPEAKER_05": "Finn_S04-S06",
+    "SPEAKER_06": "Lemongrab",
+    "SPEAKER_07": "Princess Bubblegum",
+    "SPEAKER_08": "Princess Bubblegum",
+    "SPEAKER_02": "Young Marceline",
+    "SPEAKER_03": "Lemongrab",
+    "SPEAKER_04": "Banana Guard"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:49:54"
+}

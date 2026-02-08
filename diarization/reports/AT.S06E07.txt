@@ -1,0 +1,75 @@
+Episode: AT.S06E07 (Food Chain)
+11 speaker clusters, 166 total segments
+
+
+SPEAKER_00 (7 segs, 25.0s, 4 embedded)
+  "This way!"
+  "Hey, is that my butt?"
+  "Man, it's been a while!"
+  "Finn!"
+  "When we're born as caterpillars, I'll marry you all over again!"
+
+SPEAKER_01 (4 segs, 10.5s, 3 embedded)
+  "Yes, I have to hurry and find food, otherwise my family won't survive."
+  "But I don't know if I can go on."
+  "I've never been this happy."
+  "Yes."
+
+SPEAKER_02 (3 segs, 23.6s, 3 embedded)
+  "Come along with me and the butterflies and bees."
+  "We can wander through the forest and do so as we please."
+  "Me to a cliff under a tree"
+
+SPEAKER_03 (5 segs, 46.9s, 2 embedded)
+  "Adventure time, come on grab your friends, we'll go to very distant lands."
+  "Shake the caterpillar, fin the flower, the fun will never end."
+  "It's adventure time!"
+  "Ah!"
+  "Hey You are my hero"
+
+SPEAKER_04 (1 segs, 25.7s, 0 embedded)
+  "And around as the nature flows It's like one big ring Caterpillars eat plants Sm"
+
+SPEAKER_05 (59 segs, 100.4s, 23 embedded)
+  "Hey, this is pretty fun."
+  "Hey, have you noticed we are birds now?"
+  "I'm hungies."
+  "Go over there."
+  "That oasis looks pretty good to me."
+
+SPEAKER_06 (28 segs, 36.1s, 10 embedded)
+  "There's no way I'm eating a bug's butt."
+  "Those kids are right."
+  "That's a big deal about the food chain anyway."
+  "What?"
+  "You feeling okay, bro?"
+
+SPEAKER_07 (27 segs, 60.3s, 12 embedded)
+  "I don't get it."
+  "Well, it looks like they're having fun."
+  "Shh, real leaves aren't made out of candy."
+  "They always have a gross bitter taste."
+  "Ugh, that's gross too."
+
+SPEAKER_08 (2 segs, 44.4s, 0 embedded)
+  "Why would I need to know about caterpillar families?"
+  "Let's hit the snack bar and eat something yummy."
+
+SPEAKER_09 (1 segs, 28.1s, 0 embedded)
+  "Again, Caterpillar eats the plant How natural, no waste, it is an endless chain "
+
+SPEAKER_10 (24 segs, 64.9s, 13 embedded)
+  "Whee!"
+  "Terry eats all the caterpillars."
+  "Oh, it's so good."
+  "The caterpillar eats the leaf."
+  "Then the bird eats the caterpillar."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.668  <- possible match
+  SPEAKER_06 <-> SPEAKER_07: 0.668
+  SPEAKER_05 <-> SPEAKER_07: 0.328
+  SPEAKER_01 <-> SPEAKER_02: 0.296
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E07.npz

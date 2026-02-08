@@ -1,0 +1,34 @@
+{
+  "episode_id": "DL.S01E02",
+  "title": "Obsidian",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_01": "Princess Bubblegum",
+    "SPEAKER_02": "Ice King",
+    "SPEAKER_06": "Marceline",
+    "SPEAKER_07": "Marceline",
+    "SPEAKER_08": "Princess Bubblegum",
+    "SPEAKER_17": "Wildberry Princess",
+    "SPEAKER_19": "Young Marceline"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_09",
+    "SPEAKER_10",
+    "SPEAKER_11",
+    "SPEAKER_12",
+    "SPEAKER_13",
+    "SPEAKER_14",
+    "SPEAKER_15",
+    "SPEAKER_16",
+    "SPEAKER_18",
+    "SPEAKER_20",
+    "SPEAKER_21"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T17:13:50"
+}

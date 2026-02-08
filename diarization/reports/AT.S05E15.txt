@@ -1,0 +1,72 @@
+Episode: AT.S05E15 (A Glitch is a Glitch)
+10 speaker clusters, 213 total segments
+
+
+SPEAKER_00 (2 segs, 22.1s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 24.8s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "This party is..."
+
+SPEAKER_02 (2 segs, 4.0s, 1 embedded)
+  "How do we stop that computer worm, you pile of goo?"
+  "Ha!"
+
+SPEAKER_03 (8 segs, 51.1s, 2 embedded)
+  "What?"
+  "Ah!"
+  "Ah!"
+  "My beautiful face!"
+  "My hopes and dreams, Roman!"
+
+SPEAKER_04 (5 segs, 5.2s, 2 embedded)
+  "I want to kick his boing loins, too!"
+  "Uh, guys?"
+  "Hello?"
+  "Princess?"
+  "Let's forget all about this."
+
+SPEAKER_05 (58 segs, 98.0s, 21 embedded)
+  "Hi, Princess."
+  "What now, Ice King?"
+  "Remember that time last summer when you said you'd only go out on a date with me"
+  "Pee-bumps!"
+  "Pee-bumps!"
+
+SPEAKER_06 (47 segs, 81.8s, 15 embedded)
+  "All right, give me a second."
+  "Sorry, dude, you ruined it."
+  "Man, I don't have the patience for this animation junk."
+  "Whoever does this must have no life whatsoever."
+  "Oof!"
+
+SPEAKER_07 (63 segs, 114.1s, 28 embedded)
+  "Okay, now make him look angrier."
+  "Nope, not funny anymore."
+  "Yo, Finn, did you order a brick?"
+  "I don't think so."
+  "False alarm."
+
+SPEAKER_08 (7 segs, 11.3s, 3 embedded)
+  "Useless!"
+  "Computer!"
+  "You sassafrosten!"
+  "Have much salmon!"
+  "Wham of salmon!"
+
+SPEAKER_09 (16 segs, 29.3s, 7 embedded)
+  "I doubt I said that."
+  "Pee-bumps!"
+  "Pee-bumps!"
+  "Pee-bumps!"
+  "Pee-bumps!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_08 <-> SPEAKER_09: 0.513
+  SPEAKER_04 <-> SPEAKER_05: 0.508
+  SPEAKER_04 <-> SPEAKER_07: 0.491
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E15.npz

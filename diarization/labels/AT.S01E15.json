@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S01E15",
+  "title": "What is Life",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_00": "Jake",
+    "SPEAKER_02": "Ice King",
+    "SPEAKER_03": "Finn_S01-S03",
+    "SPEAKER_04": "NEPTR"
+  },
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_05",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:08:33"
+}

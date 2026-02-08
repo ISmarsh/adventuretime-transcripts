@@ -1,0 +1,44 @@
+Episode: AT.S07E24 (The Hall of Egress)
+5 speaker clusters, 189 total segments
+
+
+SPEAKER_00 (8 segs, 12.6s, 2 embedded)
+  "Are you awake?"
+  "Are you gonna open your eyes now?"
+  "Are you scared?"
+  "Then do it."
+  "One."
+
+SPEAKER_01 (3 segs, 37.1s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "No comment!"
+
+SPEAKER_02 (127 segs, 218.9s, 47 embedded)
+  "Yeah, that sucked."
+  "But then we found the dungeon train, remember?"
+  "Anyway, Glambo's brother's map says the weird cave should be like right over..."
+  "Ha, it's right here."
+  "This is like an ancient sacred temple."
+
+SPEAKER_03 (41 segs, 63.1s, 18 embedded)
+  "Remember, last time we were out this way?"
+  "It was right after you messed things all up with Flame Princess."
+  "That was awesome."
+  "No, it wasn't."
+  "Sure it was."
+
+SPEAKER_04 (9 segs, 43.1s, 5 embedded)
+  "OK."
+  "Great."
+  "Here!"
+  "Oh!"
+  "Huh?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_04: 0.479
+  SPEAKER_02 <-> SPEAKER_04: 0.208
+  SPEAKER_00 <-> SPEAKER_02: 0.196
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E24.npz

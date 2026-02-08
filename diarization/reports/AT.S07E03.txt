@@ -1,0 +1,44 @@
+Episode: AT.S07E03 (Cherry Cream Soda)
+5 speaker clusters, 177 total segments
+
+
+SPEAKER_01 (5 segs, 49.2s, 1 embedded)
+  "It's your time, come on grab your friends We'll go to very distant lands We'll t"
+  "You two are married."
+  "Ahh!"
+  "Dorothy!"
+  "this part"
+
+SPEAKER_02 (2 segs, 5.3s, 1 embedded)
+  "You come back with no explanation, rack up the place, and you expect to just pic"
+  "Get out of my house!"
+
+SPEAKER_03 (60 segs, 97.9s, 24 embedded)
+  "Root Beer Guy!"
+  "One day at a time."
+  "Okay, Rofie, just a second."
+  "Hmm?"
+  "Hello?"
+
+SPEAKER_04 (57 segs, 123.1s, 35 embedded)
+  "Fearlessly, Captain Root Beer Guy charges across the battlefield."
+  "The ancient sleeper raises his power staff to attack."
+  "With one lever pull, Captain Root Beer Guy saves the day!"
+  "Hi, sweetie."
+  "I was dead, but I came back to life."
+
+SPEAKER_05 (53 segs, 120.5s, 29 embedded)
+  "Rofie or Kai?"
+  "Nope, Starchy."
+  "You do this every morning."
+  "Look, we've been married two months already."
+  "I love you, baby, but isn't there an expiration date to this grieving thing?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.629  <- possible match
+  SPEAKER_02 <-> SPEAKER_03: 0.629
+  SPEAKER_04 <-> SPEAKER_05: 0.231
+  SPEAKER_02 <-> SPEAKER_04: 0.137
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E03.npz

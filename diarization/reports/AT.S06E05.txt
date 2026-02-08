@@ -1,0 +1,40 @@
+Episode: AT.S06E05 (Sad Face)
+5 speaker clusters, 69 total segments
+
+
+SPEAKER_00 (2 segs, 20.6s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 35.0s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "To a cliff under a tree This party is so crazy!"
+
+SPEAKER_02 (17 segs, 80.1s, 3 embedded)
+  "BMO, when is something going to happen?"
+  "Shh."
+  "Just watch."
+  "It happens once a month."
+  "I promise."
+
+SPEAKER_03 (39 segs, 99.3s, 24 embedded)
+  "Can it make a..."
+  "Too much artsy, not enough fartsy."
+  "We talked about this clown."
+  "Wasn't that something?"
+  "Ladies and gentlemen, boys and girls, you're perfectly safe."
+
+SPEAKER_04 (5 segs, 27.1s, 0 embedded)
+  "But where does it go?"
+  "A-ha-ha-ha-ha!"
+  "No!"
+  "Stop!"
+  "Stop!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_01: 0.400
+  SPEAKER_02 <-> SPEAKER_03: 0.307
+  SPEAKER_00 <-> SPEAKER_02: 0.124
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E05.npz

@@ -1,0 +1,17 @@
+{
+  "episode_id": "AT.S07E03",
+  "title": "Cherry Cream Soda",
+  "season": 7,
+  "speaker_map": {
+    "SPEAKER_05": "Starchy"
+  },
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:52:58"
+}

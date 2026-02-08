@@ -1,0 +1,159 @@
+Episode: FC.S02E08 (The Insect that Sang)
+21 speaker clusters, 339 total segments
+
+
+SPEAKER_00 (14 segs, 57.3s, 11 embedded)
+  "What's happening?"
+  "I thought Jake was my number one, but you've always been there for me, Hoots."
+  "I quit my job to see DJ Flame."
+  "That's not DJ Flame."
+  "Put your hands up, now put your hands back down Now empty them pockets, we wanna"
+
+SPEAKER_01 (10 segs, 20.2s, 8 embedded)
+  "What's going on?"
+  "I'm pulling the venue."
+  "What?"
+  "I was just using the fundraiser to get back into Marshall Lee's life."
+  "If he's out, I'm out."
+
+SPEAKER_02 (44 segs, 83.1s, 21 embedded)
+  "Maybe this is a sign we should just throw in the towel."
+  "Cake, are you giving me guff?"
+  "I'm just saying, we might wanna start getting realistic here."
+  "Fiona!"
+  "Oh, damn."
+
+SPEAKER_03 (18 segs, 77.0s, 12 embedded)
+  "Once upon a time, three fierce bandits prowled through the forest primeval."
+  "Fierce as they were, the bandits weren't very good."
+  "Until one day, their fortunes shifted."
+  "Destiny beckoned."
+  "Fabulous powers were bestowed unto these most worthy rogues."
+
+SPEAKER_04 (26 segs, 61.1s, 18 embedded)
+  "You Shielas are in the Hall of Judgment."
+  "You've been accused of a serious cosmic crime."
+  "Court is now in session."
+  "In the course of his duties, Cosmic Owl was ruthlessly pursued and murdered by t"
+  "We got an anonymous tip from a hot witness."
+
+SPEAKER_05 (21 segs, 36.2s, 9 embedded)
+  "You're a fool, Campbell."
+  "The event is inconsequential."
+  "I need tonight's convergence to happen."
+  "I'm ready for whatever."
+  "We're going somewhere."
+
+SPEAKER_06 (11 segs, 19.5s, 5 embedded)
+  "Please kill me."
+  "Not guilty!"
+  "I've seen like five episodes of Nykor."
+  "I got this."
+  "Uh, eyewitness accounts are wrong like 70% of the time."
+
+SPEAKER_07 (64 segs, 130.1s, 33 embedded)
+  "I'll find another venue, and the fundraiser's gonna be a big success!"
+  "I can find a new venue in less than a day."
+  "What is event planning harder than saving the world once?"
+  "First, I gotta call Felix."
+  "Kate, can I use your phone?"
+
+SPEAKER_08 (15 segs, 58.1s, 11 embedded)
+  "Murderer!"
+  "Cuckoo!"
+  "Sick!"
+  "That's evidence."
+  "What the hell?"
+
+SPEAKER_09 (15 segs, 24.9s, 6 embedded)
+  "Fiona, I don't know if I'm gonna make it to the event tonight."
+  "Dude, I'm still at the lemon carp gig."
+  "They won't let me leave."
+  "Feed that kitty, idiots."
+  "Boy, that's your cue."
+
+SPEAKER_10 (6 segs, 10.9s, 5 embedded)
+  "Did I secretly want them to fail?"
+  "I'm horrible."
+  "It's been totally jerkified."
+  "All I can do is help it die with dignity."
+  "With my ball-bam burglar burp."
+
+SPEAKER_11 (5 segs, 10.9s, 4 embedded)
+  "This is idiotic!"
+  "We should section the forest into a grid and do a flesh-ended zuche."
+  "Fin is doing great."
+  "He has ascended from this plane."
+  "What?"
+
+SPEAKER_12 (5 segs, 11.2s, 3 embedded)
+  "You proved me wrong, Campbell."
+  "I can offer you a free apartment, upward mobility, the company of beautiful men."
+  "What do you say, Fiona?"
+  "Don't answer now."
+  "Just think about it."
+
+SPEAKER_13 (15 segs, 26.1s, 7 embedded)
+  "You're up, squirrel."
+  "Do I want to help the sweet spot?"
+  "Yes."
+  "Am I afraid of public speaking?"
+  "No."
+
+SPEAKER_14 (19 segs, 42.4s, 12 embedded)
+  "And in my own body as well."
+  "Well, as your honor knows, croak dreams are more Prismo's thing."
+  "Yeah."
+  "But I admit some curiosity."
+  "It's full of jalapenos, but it's not that hot."
+
+SPEAKER_15 (13 segs, 26.2s, 8 embedded)
+  "Steady as she goes."
+  "Just relax and allow invisible forces to log... No!"
+  "You gotta trust in the universe."
+  "This is the only way to find out what's hurting him."
+  "It works!"
+
+SPEAKER_16 (9 segs, 35.8s, 4 embedded)
+  "Where's DJ Flame?"
+  "Ta-da!"
+  "And that's why I haven't brushed in years."
+  "Am I worth a bother?"
+  "Or am I rotten after all?"
+
+SPEAKER_17 (5 segs, 59.4s, 4 embedded)
+  "I hate the way that I trust me The way that you trust me Cause it's not that tru"
+  "Sometimes I wonder when I stumble Will I give up or just have the grace to fall?"
+  "Because the weight, it gets so heavy And I just can't seem to carry all the thin"
+  "I could scream and cry about it But will you hear, will I doubt it?"
+  "Cause I just am not who you want me to be Trustful, can I count on you at all?"
+
+SPEAKER_18 (10 segs, 20.4s, 5 embedded)
+  "We don't want any help from Hannah."
+  "Fiona, that son of a bitch."
+  "Hey."
+  "Got any double fudge delights?"
+  "Simone, wait."
+
+SPEAKER_19 (4 segs, 7.1s, 2 embedded)
+  "Listen, people!"
+  "If everyone donates just $2, it can make all the difference."
+  "Do it for Fiona!"
+  "Please."
+
+SPEAKER_20 (6 segs, 12.0s, 5 embedded)
+  "Please come sing Boys Night Need You!"
+  "Exclamation point emoticon."
+  "Will, alone at last."
+  "Sorry."
+  "Aww."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_20: 0.617  <- possible match
+  SPEAKER_01 <-> SPEAKER_12: 0.603  <- possible match
+  SPEAKER_02 <-> SPEAKER_20: 0.617
+  SPEAKER_01 <-> SPEAKER_12: 0.603
+  SPEAKER_02 <-> SPEAKER_19: 0.598
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S02E08.npz

@@ -7,8 +7,10 @@ Requirements:
     Windows: winget install UB-Mannheim.TesseractOCR
 """
 
+import argparse
 import shutil
 import struct
+import subprocess
 import sys
 from dataclasses import dataclass
 from pathlib import Path
@@ -234,16 +236,89 @@ def write_srt(subtitles: list[Subtitle], path: Path):
             f.write(f"{sub.text}\n\n")
 
 
-def main():
-    if len(sys.argv) < 2:
-        print("Usage: python pgs_to_srt.py <input.sup> [output.srt]")
+def find_pgs_stream(mkv_path: Path) -> int | None:
+    """Find PGS subtitle stream index in an MKV file using ffprobe."""
+    try:
+        result = subprocess.run(
+            [
+                'ffprobe', '-v', 'error',
+                '-select_streams', 's',
+                '-show_entries', 'stream=index,codec_name',
+                '-of', 'csv=p=0',
+                str(mkv_path),
+            ],
+            capture_output=True, text=True, check=True,
+        )
+    except FileNotFoundError:
+        print("Error: ffprobe not found. Install ffmpeg.", file=sys.stderr)
         sys.exit(1)
 
-    sup_path = Path(sys.argv[1])
-    srt_path = Path(sys.argv[2]) if len(sys.argv) > 2 else sup_path.with_suffix('.srt')
+    for line in result.stdout.strip().splitlines():
+        parts = line.strip().split(',')
+        if len(parts) >= 2 and parts[1] == 'hdmv_pgs_subtitle':
+            return int(parts[0])
+    return None
 
-    print(f"Reading {sup_path}...")
-    data = sup_path.read_bytes()
+
+def extract_pgs(mkv_path: Path, sup_path: Path, stream_index: int):
+    """Extract PGS subtitle stream from MKV to SUP file."""
+    try:
+        subprocess.run(
+            [
+                'ffmpeg', '-y', '-v', 'error',
+                '-i', str(mkv_path),
+                '-map', f'0:{stream_index}',
+                '-c', 'copy',
+                str(sup_path),
+            ],
+            check=True,
+        )
+    except FileNotFoundError:
+        print("Error: ffmpeg not found.", file=sys.stderr)
+        sys.exit(1)
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Convert PGS/SUP bitmap subtitles to SRT using Tesseract OCR.",
+    )
+    parser.add_argument('input', help="SUP file (or MKV file with --extract)")
+    parser.add_argument('output', nargs='?', help="Output SRT file (default: input with .srt extension)")
+    parser.add_argument(
+        '--extract', action='store_true',
+        help="Input is MKV: extract PGS stream to SUP first, then OCR",
+    )
+    parser.add_argument(
+        '--sup-dir', type=Path, default=None,
+        help="Directory for intermediate SUP file (default: same as output)",
+    )
+    args = parser.parse_args()
+
+    input_path = Path(args.input)
+
+    if args.extract:
+        # MKV → SUP → SRT pipeline
+        stream_idx = find_pgs_stream(input_path)
+        if stream_idx is None:
+            print(f"Error: No PGS subtitle stream found in {input_path}", file=sys.stderr)
+            sys.exit(1)
+
+        srt_path = Path(args.output) if args.output else input_path.with_suffix('.srt')
+        sup_dir = args.sup_dir or srt_path.parent
+        sup_path = sup_dir / input_path.with_suffix('.sup').name
+
+        print(f"Extracting PGS stream {stream_idx} from {input_path.name}...")
+        extract_pgs(input_path, sup_path, stream_idx)
+
+        print(f"Reading {sup_path}...")
+        data = sup_path.read_bytes()
+    else:
+        # Direct SUP → SRT
+        sup_path = input_path
+        srt_path = Path(args.output) if args.output else sup_path.with_suffix('.srt')
+
+        print(f"Reading {sup_path}...")
+        data = sup_path.read_bytes()
 
     print("Parsing PGS and running OCR...")
     subtitles = parse_pgs(data)

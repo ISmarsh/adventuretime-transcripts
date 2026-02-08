@@ -1,0 +1,58 @@
+Episode: AT.S02E12 (Her Parents)
+8 speaker clusters, 225 total segments
+
+
+SPEAKER_00 (2 segs, 7.4s, 2 embedded)
+  "Lady?"
+  "What did she say?"
+
+SPEAKER_01 (2 segs, 20.7s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (9 segs, 23.1s, 6 embedded)
+  "Let the games begin!"
+  "Jake, I think they want to eat me."
+  "Of course we do."
+  "Jake said you'd make a great lunch."
+  "Jake, come on!"
+
+SPEAKER_03 (24 segs, 51.5s, 15 embedded)
+  "Jake, is that you?"
+  "Are you going to let us in?"
+  "Oh, he's so handsome."
+  "Oh, Bob, our daughter's finally found a handsome rainicorn to love."
+  "Well, we are a little blind."
+
+SPEAKER_04 (47 segs, 68.9s, 18 embedded)
+  "How about you, Finny?"
+  "Need a refill?"
+  "I'm pretty full, man."
+  "Let me see if I can rearrange."
+  "Nope."
+
+SPEAKER_05 (112 segs, 214.5s, 55 embedded)
+  "You want some more eggs, BMO?"
+  "Yes, please."
+  "Ah."
+  "Oh."
+  "Hello?"
+
+SPEAKER_06 (23 segs, 51.0s, 16 embedded)
+  "I think we could spot a member of our own species, Jake."
+  "We're not blind."
+  "Yes, I guess we are a little blind."
+  "Jake, what is that thing that's talking?"
+  "Jake, please ask your goblin butler to stop insulting my heritage."
+
+SPEAKER_07 (2 segs, 36.3s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "This party is so crazy!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_04: 0.490
+  SPEAKER_01 <-> SPEAKER_02: 0.400
+  SPEAKER_04 <-> SPEAKER_05: 0.380
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E12.npz

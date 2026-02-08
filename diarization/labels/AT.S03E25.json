@@ -1,0 +1,20 @@
+{
+  "episode_id": "AT.S03E25",
+  "title": "Dad's Dungeon",
+  "season": 3,
+  "speaker_map": {
+    "SPEAKER_01": "BMO",
+    "SPEAKER_02": "Joshua",
+    "SPEAKER_04": "Jake",
+    "SPEAKER_05": "Finn_S01-S03"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_03",
+    "SPEAKER_06",
+    "SPEAKER_07"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:31:36"
+}

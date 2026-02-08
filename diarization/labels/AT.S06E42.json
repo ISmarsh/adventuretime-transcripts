@@ -1,0 +1,22 @@
+{
+  "episode_id": "AT.S06E42",
+  "title": "Hot Diggity Doom",
+  "season": 6,
+  "speaker_map": {
+    "SPEAKER_03": "Princess Bubblegum",
+    "SPEAKER_05": "Jake",
+    "SPEAKER_06": "Finn_S04-S06",
+    "SPEAKER_07": "Starchy",
+    "SPEAKER_09": "Peppermint Butler",
+    "SPEAKER_04": "King of Ooo"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_08"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:57:52"
+}

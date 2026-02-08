@@ -1,0 +1,79 @@
+Episode: AT.S07E12 (Checkmate)
+11 speaker clusters, 194 total segments
+
+
+SPEAKER_00 (1 segs, 0.4s, 0 embedded)
+  "Ooh!"
+
+SPEAKER_01 (45 segs, 115.2s, 32 embedded)
+  "I come to you."
+  "In the flesh."
+  "Whoa, I just want to talk."
+  "No, thank you."
+  "Just hear me out, Marceline."
+
+SPEAKER_02 (38 segs, 74.8s, 19 embedded)
+  "I dreamed about you while I was in my poison coma."
+  "You think I'm nice?"
+  "Yeah, brains, I lost count."
+  "Oh, yeah."
+  "I arranged a little snacky snack for the team."
+
+SPEAKER_03 (23 segs, 50.3s, 10 embedded)
+  "Evil is rising."
+  "In vile power, the fiend walks among us again."
+  "The Vampire King."
+  "With all my investigations into the supernatural, I should know better, but I ca"
+  "I'm dying to see him in person."
+
+SPEAKER_04 (10 segs, 13.1s, 2 embedded)
+  "Ooh!"
+  "Hey."
+  "Say something!"
+  "Ask him to sign the book!"
+  "Do it!"
+
+SPEAKER_05 (22 segs, 42.4s, 6 embedded)
+  "Hello?"
+  "Yo, yo, yo, yo!"
+  "Bubblegum sent me for the bucket."
+  "Merci and adios."
+  "It's good, you know?"
+
+SPEAKER_06 (2 segs, 4.0s, 2 embedded)
+  "Roll out!"
+  "Thorn Arm, activate!"
+
+SPEAKER_07 (15 segs, 17.3s, 4 embedded)
+  "You gonna help or what?"
+  "Stick you!"
+  "Okay, go ahead."
+  "What the heck?"
+  "It's against my code to strike a foe who's raised their bottom to the sky."
+
+SPEAKER_08 (7 segs, 8.1s, 3 embedded)
+  "Shoot."
+  "Look."
+  "Look at these babies."
+  "These pleadin' puppies."
+  "Whoops."
+
+SPEAKER_09 (3 segs, 11.3s, 2 embedded)
+  "Adventure time, come on, grab your friends."
+  "We're going to a very distant land with Finn and Jake and Marceline and Princess"
+  "It's adventure time."
+
+SPEAKER_10 (26 segs, 52.8s, 12 embedded)
+  "I was all old and withered, and you were still nice and pink."
+  "That's okay."
+  "I'm done with bat jacks."
+  "I have this weird feeling in my tums."
+  "Because you're scared of the vampire king?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_09 <-> SPEAKER_10: 0.469
+  SPEAKER_03 <-> SPEAKER_04: 0.402
+  SPEAKER_07 <-> SPEAKER_08: 0.350
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E12.npz

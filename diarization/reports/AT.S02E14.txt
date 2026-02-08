@@ -1,0 +1,67 @@
+Episode: AT.S02E14 (The Silent King)
+9 speaker clusters, 322 total segments
+
+
+SPEAKER_00 (5 segs, 28.6s, 5 embedded)
+  "Yeah!"
+  "Come along with me and the butterflies and bees."
+  "We can wander through the forest and do so as we please."
+  "Come along with me"
+  "to a cliff under a tree"
+
+SPEAKER_01 (2 segs, 27.7s, 1 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (4 segs, 10.1s, 2 embedded)
+  "Since the dawn of time, the balance of what is right and what is wrong"
+  "All right."
+  "Oh."
+  "A wizard put a curse on me."
+
+SPEAKER_03 (8 segs, 17.9s, 5 embedded)
+  "If there isn't a king to tell me to not start a riot, I could start a riot then."
+  "No rules, baby."
+  "Start that riot!"
+  "Riot!"
+  "Flip this table!"
+
+SPEAKER_04 (99 segs, 131.0s, 33 embedded)
+  "Ow!"
+  "Ow!"
+  "Ow!"
+  "Ow!"
+  "Ow!"
+
+SPEAKER_05 (76 segs, 58.6s, 14 embedded)
+  "The goblins have suffered long enough, Zergiok!"
+  "Shush!"
+  "You guys can't live without me, right?"
+  "Ow!"
+  "Ow!"
+
+SPEAKER_06 (101 segs, 196.5s, 55 embedded)
+  "Great job, Warriors."
+  "You've freed us."
+  "I am Gummy, Royal Goblin Chief of Staff."
+  "Nice to meet you."
+  "I'm sorry."
+
+SPEAKER_07 (5 segs, 7.0s, 3 embedded)
+  "Stop the riot!"
+  "I'm being born!"
+  "Ooh!"
+  "What?"
+  "I'll take this."
+
+SPEAKER_08 (1 segs, 9.4s, 1 embedded)
+  "Ah heck Maria I need to ask you something do you want to do this marriage thing "
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.677  <- possible match
+  SPEAKER_04 <-> SPEAKER_05: 0.677
+  SPEAKER_04 <-> SPEAKER_06: 0.554
+  SPEAKER_05 <-> SPEAKER_06: 0.521
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E14.npz

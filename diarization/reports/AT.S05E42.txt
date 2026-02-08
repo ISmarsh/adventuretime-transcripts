@@ -1,0 +1,66 @@
+Episode: AT.S05E42 (James)
+8 speaker clusters, 201 total segments
+
+
+SPEAKER_00 (3 segs, 24.8s, 3 embedded)
+  "Come along with me and the butterflies and bees."
+  "We can wander through the forest and do so as we please."
+  "Come along with me to a cliff under a tree."
+
+SPEAKER_01 (5 segs, 30.1s, 4 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "James, speed up that back leg!"
+  "Where's James?"
+  "James!"
+
+SPEAKER_02 (68 segs, 133.2s, 35 embedded)
+  "Ladies and gentlemen, thank you for coming."
+  "We may begin the ceremony."
+  "We're on a mission to collect samples only."
+  "I want to start colonizing this area by the end of the year."
+  "James, give a readout on fuel."
+
+SPEAKER_03 (45 segs, 71.1s, 18 embedded)
+  "Jake?"
+  "Jake?"
+  "Hey, man."
+  "Hey, dude."
+  "You still thinking about... Yeah."
+
+SPEAKER_04 (21 segs, 50.9s, 14 embedded)
+  "Right away, Princess."
+  "We have a surplus of fuel."
+  "So after we collect samples, we may explore."
+  "I'm registering Mondo Mega Rides down there."
+  "I'll ready the radiation suits upon landing."
+
+SPEAKER_05 (42 segs, 93.2s, 23 embedded)
+  "You are killing me, PB."
+  "Mostly looks like it's just dirt here."
+  "This'll be fun."
+  "Jake, open up the basket, I'm gonna make a shot!"
+  "Do it!"
+
+SPEAKER_06 (4 segs, 6.3s, 2 embedded)
+  "I wasn't going to say anything, but yeah."
+  "Maybe when we get to know him better, it'll be charming."
+  "You see anything, brother?"
+  "I don't know, man."
+
+SPEAKER_07 (12 segs, 28.9s, 8 embedded)
+  "Princess Bubblegum's ready for us, so we should go."
+  "Okay."
+  "Just give me a few more months in here and I'll be ready."
+  "Yeah."
+  "It's unfortunate we can't enjoy some of these cool things we're passing by."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.735  <- possible match
+  SPEAKER_06 <-> SPEAKER_07: 0.661  <- possible match
+  SPEAKER_04 <-> SPEAKER_05: 0.735
+  SPEAKER_06 <-> SPEAKER_07: 0.661
+  SPEAKER_05 <-> SPEAKER_07: 0.520
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E42.npz

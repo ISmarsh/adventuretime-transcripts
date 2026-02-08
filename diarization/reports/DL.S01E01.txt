@@ -1,0 +1,140 @@
+Episode: DL.S01E01 (BMO)
+18 speaker clusters, 916 total segments
+
+
+SPEAKER_00 (25 segs, 8.7s, 1 embedded)
+  "Excuse me."
+  "We're too small and stupid to save ourselves."
+  "Hop!"
+  "Hop!"
+  "Hop!"
+
+SPEAKER_01 (11 segs, 20.3s, 5 embedded)
+  "Yeah, watch it next time."
+  "Hey, Flatfoot."
+  "We found this thing inside the Hugo mat."
+  "We don't know what it does."
+  "So it's yours."
+
+SPEAKER_02 (150 segs, 324.3s, 61 embedded)
+  "15 minutes have elapsed."
+  "Subject continues to struggle like a dum-dum."
+  "Attempts are pitiful, but I am sworn not to interfere."
+  "I found a weird bug bot on a rock."
+  "Yes, ma'am."
+
+SPEAKER_03 (47 segs, 115.6s, 26 embedded)
+  "Go back and see if you can salvage the pieces."
+  "Shouldn't we report this to Hugo?"
+  "Oh, no need to worry."
+  "I'll take care of that personally."
+  "Get in the car."
+
+SPEAKER_04 (56 segs, 96.2s, 26 embedded)
+  "Y4, report."
+  "Ah, Hugo's not going to care about that."
+  "Don't come back until you find something useful."
+  "There's bound to be useful U-Pod parts in here."
+  "We should call Mr. M."
+
+SPEAKER_05 (13 segs, 16.3s, 5 embedded)
+  "It's ruined!"
+  "We'll go around!"
+  "Yes?"
+  "I think we finally cracked it, sir."
+  "Permission to run a test?"
+
+SPEAKER_06 (8 segs, 13.7s, 4 embedded)
+  "I'm fine!"
+  "Ooh, pod fails."
+  "They're spreading everywhere."
+  "I've never heard you say those words."
+  "Uh-oh."
+
+SPEAKER_07 (22 segs, 50.8s, 13 embedded)
+  "Bob, do you have any threes?"
+  "Uh, go fish."
+  "My winning hand!"
+  "Uh, no!"
+  "Why would I?"
+
+SPEAKER_08 (32 segs, 61.0s, 14 embedded)
+  "Elves, by the laws of the Drift, we assert our claim to this very sweet photon t"
+  "Heck no, Cole."
+  "The transmogger belongs to Mr. M. I have the receipt."
+  "From you."
+  "You sold it, man."
+
+SPEAKER_09 (18 segs, 34.0s, 8 embedded)
+  "Dude, climb with your legs, not your arms."
+  "I'm getting tired."
+  "We're almost there, sweetie."
+  "Come on."
+  "What are you up to?"
+
+SPEAKER_10 (42 segs, 82.8s, 24 embedded)
+  "Hey, wait."
+  "Huh?"
+  "Uh, yes."
+  "The Hugo mats were Mr. M's idea."
+  "That boy loves flashy gadgets."
+
+SPEAKER_11 (38 segs, 70.1s, 18 embedded)
+  "This is it!"
+  "The elves stand victorious!"
+  "Wow."
+  "Buy my eggs!"
+  "Buy my eggs!"
+
+SPEAKER_12 (24 segs, 35.7s, 8 embedded)
+  "Huh?"
+  "What are you doing?"
+  "There was Mars!"
+  "Welcome, drip goer."
+  "I told you we would make it."
+
+SPEAKER_13 (246 segs, 518.6s, 114 embedded)
+  "Did you know there are more stars in the sky than there are grains of sand in th"
+  "It's true."
+  "This is a rare giant asteroid made entirely of heavy metal."
+  "His name is Lars Star Saber."
+  "I don't know any of these guys."
+
+SPEAKER_14 (21 segs, 24.5s, 6 embedded)
+  "Don't hit me!"
+  "Move over!"
+  "I'm stuck."
+  "Cool."
+  "What?"
+
+SPEAKER_15 (3 segs, 13.9s, 3 embedded)
+  "Who are we going to see again?"
+  "We'll rebuild Hugo's old lab."
+  "Maybe we can find some non-apocalyptic energy."
+
+SPEAKER_16 (37 segs, 55.9s, 12 embedded)
+  "We are going the wrong way!"
+  "Hold it!"
+  "Keep both eyes open!"
+  "Robot, what the heck?"
+  "Cheese, I'm in trouble!"
+
+SPEAKER_17 (93 segs, 50.2s, 13 embedded)
+  "So beautiful."
+  "Come on, Wi-Fi!"
+  "Give me the bullock orange."
+  "No, mine!"
+  "She's easy like potato pie."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_12 <-> SPEAKER_13: 0.740  <- possible match
+  SPEAKER_16 <-> SPEAKER_17: 0.720  <- possible match
+  SPEAKER_06 <-> SPEAKER_07: 0.633  <- possible match
+  SPEAKER_13 <-> SPEAKER_17: 0.613  <- possible match
+  SPEAKER_02 <-> SPEAKER_17: 0.610  <- possible match
+  SPEAKER_12 <-> SPEAKER_13: 0.740
+  SPEAKER_16 <-> SPEAKER_17: 0.720
+  SPEAKER_06 <-> SPEAKER_07: 0.633
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\DL.S01E01.npz

@@ -1,0 +1,17 @@
+# Diarization bulk output (regenerable from source audio)
+diarization/*
+# Un-ignore curated data (manual labeling effort + trained profiles)
+!diarization/labels/
+!diarization/voice_profiles/
+!diarization/reports/
+
+# Editor / OS
+.claude/
+nul
+
+# Local config (machine-specific paths + tokens)
+.env
+
+# Python
+__pycache__/
+*.pyc

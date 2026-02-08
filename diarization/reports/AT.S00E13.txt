@@ -1,0 +1,12 @@
+Episode: AT.S00E13 (Frog Seasons Spring Again)
+1 speaker clusters, 39 total segments
+
+
+SPEAKER_00 (39 segs, 71.9s, 14 embedded)
+  "Hey Jake, what do you think this river is made of?"
+  "Man, I don't even want to know."
+  "Then why'd you put your face in it?"
+  "Because I'm the figurehead."
+  "So then LSP was all, get out of my kitchen, fan."
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S00E13.npz

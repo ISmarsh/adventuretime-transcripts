@@ -1,0 +1,24 @@
+{
+  "episode_id": "AT.S09E02",
+  "title": "Skyhooks",
+  "season": 9,
+  "speaker_map": {
+    "SPEAKER_00": "Tree Trunks",
+    "SPEAKER_01": "Sweet P",
+    "SPEAKER_02": "Finn_S07-S10",
+    "SPEAKER_03": "Jake",
+    "SPEAKER_05": "Lemongrab",
+    "SPEAKER_06": "Princess Bubblegum",
+    "SPEAKER_08": "BMO"
+  },
+  "skipped": [
+    "SPEAKER_04",
+    "SPEAKER_07",
+    "SPEAKER_09",
+    "SPEAKER_10",
+    "SPEAKER_11"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T13:20:32"
+}

@@ -1,0 +1,26 @@
+{
+  "episode_id": "AT.S03E03",
+  "title": "Memory of a Memory",
+  "season": 3,
+  "speaker_map": {
+    "SPEAKER_05": "Finn_S01-S03",
+    "SPEAKER_09": "Marceline",
+    "SPEAKER_12": "Jake",
+    "SPEAKER_03": "Ash",
+    "SPEAKER_06": "Young Marceline",
+    "SPEAKER_10": "Young Marceline"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_04",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_11",
+    "SPEAKER_13"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:42:59"
+}

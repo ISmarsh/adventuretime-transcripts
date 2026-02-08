@@ -1,0 +1,167 @@
+Episode: DL.S01E03 (Together Again)
+22 speaker clusters, 1059 total segments
+
+
+SPEAKER_00 (6 segs, 32.8s, 5 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "This sucks."
+  "Ahh!"
+  "Oh, I'm so tired."
+
+SPEAKER_01 (7 segs, 15.7s, 4 embedded)
+  "Oh, sorry, newbies."
+  "I was on a bathroom break."
+  "Welcome to eternity."
+  "Cause of death?"
+  "Look out!"
+
+SPEAKER_02 (20 segs, 29.2s, 6 embedded)
+  "Oh, Finn, please save LSP."
+  "Yes."
+  "She's beautiful and smart."
+  "She's got so much to live for."
+  "Oh, my God."
+
+SPEAKER_03 (20 segs, 49.2s, 11 embedded)
+  "Oh, I've done it now."
+  "Fate shall decree who shall be my bride."
+  "It's like flipping a coin, but for intellectuals."
+  "Ouch."
+  "Who will you save?"
+
+SPEAKER_04 (175 segs, 283.7s, 51 embedded)
+  "Whoo!"
+  "Oh, man, are they angry."
+  "Angry and fresh out of ice cream."
+  "Hey-o!"
+  "Up top."
+
+SPEAKER_05 (179 segs, 284.8s, 70 embedded)
+  "Okay, yeah."
+  "You can't rush things."
+  "Nice shortcut."
+  "Ice King!"
+  "Sling me, bro."
+
+SPEAKER_06 (8 segs, 21.3s, 6 embedded)
+  "All right, I'm here."
+  "What do you want?"
+  "Oh no, not this crud again."
+  "Ugh, my friend's waiting for me."
+  "Freaking Sandrake."
+
+SPEAKER_07 (28 segs, 66.7s, 18 embedded)
+  "Dang, dude."
+  "Cram it, dirt stash."
+  "You're making me a gag rope!"
+  "Oh, that clown?"
+  "Yeah, that guy sucked."
+
+SPEAKER_08 (27 segs, 55.4s, 16 embedded)
+  "Huh?"
+  "Way to guard the castle, moat."
+  "I don't care if you hate my new friend."
+  "He's cool."
+  "He's got a cool vibe."
+
+SPEAKER_09 (32 segs, 46.7s, 12 embedded)
+  "I'm sure you'll hit him next throw, sir."
+  "I missed on purpose!"
+  "Next the water works, sonny!"
+  "Belly aching never solved a ding dang thing."
+  "Welcome home."
+
+SPEAKER_10 (68 segs, 65.7s, 14 embedded)
+  "Pretty convincing hallucination."
+  "I really thought I was young again."
+  "And the Jake was still alive."
+  "And we were bjorking it up like old times."
+  "Ah-ha, the bugs are parasites."
+
+SPEAKER_11 (12 segs, 28.5s, 6 embedded)
+  "Strike."
+  "Strike now."
+  "Strike now."
+  "It's only a matter of time."
+  "Yoink!"
+
+SPEAKER_12 (19 segs, 21.0s, 4 embedded)
+  "Dead World 30, where life is purdy."
+  "No Jake, though."
+  "Help."
+  "Dang."
+  "You've reached dead world the first!"
+
+SPEAKER_13 (21 segs, 56.2s, 12 embedded)
+  "Algebraic!"
+  "It's no problem!"
+  "Jake?"
+  "What the hey-hey?"
+  "Get off me, you flippin' douche!"
+
+SPEAKER_14 (15 segs, 42.5s, 11 embedded)
+  "Enjoy my gift, little one."
+  "I won't."
+  "I know you're there, Finn and Jake."
+  "He's my son."
+  "He's always been difficult to deal with, but the dead worlds are his charge now."
+
+SPEAKER_15 (62 segs, 56.1s, 13 embedded)
+  "No normies allowed in the castle, bro."
+  "Princess."
+  "Princess."
+  "Princess."
+  "Princess."
+
+SPEAKER_16 (21 segs, 28.1s, 5 embedded)
+  "Holy smoke!"
+  "Jake."
+  "You found me."
+  "Princess."
+  "Princess."
+
+SPEAKER_17 (12 segs, 9.6s, 1 embedded)
+  "Mm-hmm."
+  "Mm-hmm."
+  "Ugh!"
+  "I'm not giving up!"
+  "Surprise, little brother!"
+
+SPEAKER_18 (122 segs, 125.3s, 27 embedded)
+  "Jake!"
+  "Jake!"
+  "Jake!"
+  "Jake!"
+  "Jake!"
+
+SPEAKER_19 (81 segs, 173.5s, 36 embedded)
+  "Stop!"
+  "Huh?"
+  "Surprised to see me, Finn?"
+  "And yet, how could you be?"
+  "Locked forever as we are in unbreakable chains of mutual hatred and respect."
+
+SPEAKER_20 (22 segs, 32.2s, 8 embedded)
+  "Come, come."
+  "I made you some treats."
+  "Fincakes?"
+  "No, no."
+  "Weaponry."
+
+SPEAKER_21 (42 segs, 96.2s, 22 embedded)
+  "War incoming!"
+  "You have soft hands."
+  "Ahh!"
+  "Shmow!"
+  "LSP, just a little bit closer."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_13 <-> SPEAKER_21: 0.853  <- likely same character
+  SPEAKER_13 <-> SPEAKER_16: 0.771  <- likely same character
+  SPEAKER_16 <-> SPEAKER_21: 0.733  <- possible match
+  SPEAKER_02 <-> SPEAKER_21: 0.692  <- possible match
+  SPEAKER_02 <-> SPEAKER_13: 0.643  <- possible match
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\DL.S01E03.npz

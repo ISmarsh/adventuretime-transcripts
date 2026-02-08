@@ -1,0 +1,75 @@
+Episode: AT.S05E31 (Too Old)
+10 speaker clusters, 199 total segments
+
+
+SPEAKER_00 (2 segs, 19.1s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 25.7s, 1 embedded)
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (60 segs, 115.2s, 27 embedded)
+  "The other one."
+  "Hey, Finn!"
+  "Let's go."
+  "Thanks again for coming to cast a lemon grab with me, Finn."
+  "I kind of hate these diplomatic dinners."
+
+SPEAKER_03 (3 segs, 7.3s, 1 embedded)
+  "Oh, hi."
+  "What's your name, little boy?"
+  "My name is Bad Lemon No Hope, but you can call me Lemon Hope."
+
+SPEAKER_04 (14 segs, 50.9s, 12 embedded)
+  "Poor little Lemon Hope, sweet little Lemon Hope."
+  "Stuck in this bathroom, thrown in the garbage, dunked in the pudding, dipped in "
+  "Poor little Lemon Hope, throw me a lemon rope."
+  "Is there a home for me and my harp?"
+  "A place where friends give me hugs."
+
+SPEAKER_05 (6 segs, 13.5s, 3 embedded)
+  "Oh, yeah."
+  "Oh, mine."
+  "Mine."
+  "Whoa!"
+  "Whoa!"
+
+SPEAKER_06 (8 segs, 15.4s, 3 embedded)
+  "Holy!"
+  "What?!"
+  "What?!"
+  "Unacceptable!"
+  "Unacceptable."
+
+SPEAKER_07 (41 segs, 104.0s, 27 embedded)
+  "Announcing arrival!"
+  "Princess, Babaga, and little boy!"
+  "I'm so pleased and gracious to welcome you to our sophisticated society."
+  "Yes, we'll go!"
+  "Do it now!"
+
+SPEAKER_08 (43 segs, 86.0s, 18 embedded)
+  "No way."
+  "No way, man."
+  "I got no expectates."
+  "Whatever happens, happens."
+  "Lace, bro."
+
+SPEAKER_09 (15 segs, 19.2s, 5 embedded)
+  "Sorry."
+  "Finn, I'm bored."
+  "Are you sure Princess Bubblegum doesn't like me anymore?"
+  "Yeah, that's what she said."
+  "Sounds weird."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_06: 0.609  <- possible match
+  SPEAKER_06 <-> SPEAKER_07: 0.603  <- possible match
+  SPEAKER_05 <-> SPEAKER_06: 0.609
+  SPEAKER_06 <-> SPEAKER_07: 0.603
+  SPEAKER_05 <-> SPEAKER_07: 0.573
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E31.npz

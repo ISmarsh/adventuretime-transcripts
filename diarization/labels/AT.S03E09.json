@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S03E09",
+  "title": "Fionna and Cake",
+  "season": 3,
+  "speaker_map": {
+    "SPEAKER_01": "Fionna",
+    "SPEAKER_04": "Ice King",
+    "SPEAKER_05": "Ice King",
+    "SPEAKER_02": "Prince Gumball",
+    "SPEAKER_03": "Cake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:32:22"
+}

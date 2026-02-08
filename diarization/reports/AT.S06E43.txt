@@ -1,0 +1,71 @@
+Episode: AT.S06E43 (The Comet)
+10 speaker clusters, 232 total segments
+
+
+SPEAKER_00 (1 segs, 25.4s, 0 embedded)
+  "Come along with me and the butterflies and bees We can wander through the forest"
+
+SPEAKER_01 (2 segs, 20.9s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (73 segs, 112.2s, 25 embedded)
+  "Hey, spaceman."
+  "Dad?"
+  "This is so crazy, Finn."
+  "What are you doing out here?"
+  "Can't, buddy."
+
+SPEAKER_03 (24 segs, 61.8s, 11 embedded)
+  "What am I doing?"
+  "A fog shrouds my true intent, even from myself."
+  "There!"
+  "The Catalyst Comet!"
+  "It all becomes clear."
+
+SPEAKER_04 (2 segs, 30.4s, 1 embedded)
+  "Everything's falling into place I'm right where I should be The tides of life wo"
+  "I know the answer will appear"
+
+SPEAKER_05 (28 segs, 35.0s, 8 embedded)
+  "Jake, you okay?"
+  "Yeah, man, just don't croak out here."
+  "Hey, man, look at Gunther."
+  "Behold!"
+  "I am Orgalorg!"
+
+SPEAKER_06 (61 segs, 96.2s, 22 embedded)
+  "I think we should go inside."
+  "Gunther!"
+  "What are you doing?"
+  "What's that?"
+  "You just say yes to stuff all the time?"
+
+SPEAKER_07 (8 segs, 13.3s, 6 embedded)
+  "It's too smokey to see."
+  "Oh, something's peeking."
+  "Someone's checking your spaceship."
+  "There we go, see?"
+  "Problem took care of itself."
+
+SPEAKER_08 (13 segs, 15.9s, 3 embedded)
+  "What the?"
+  "Why is it so purple outside?"
+  "What?"
+  "That is my ship."
+  "But it looks like it's been modded out."
+
+SPEAKER_09 (20 segs, 62.2s, 7 embedded)
+  "Finn, do you remember?"
+  "Who's creating the joke?"
+  "Are you?"
+  "And if so, then are you my creator?"
+  "Maybe?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_06: 0.478
+  SPEAKER_07 <-> SPEAKER_08: 0.393
+  SPEAKER_02 <-> SPEAKER_06: 0.322
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E43.npz

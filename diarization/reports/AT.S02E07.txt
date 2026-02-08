@@ -1,0 +1,105 @@
+Episode: AT.S02E07 (Power Animal)
+14 speaker clusters, 233 total segments
+
+
+SPEAKER_00 (4 segs, 47.2s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (14 segs, 41.9s, 11 embedded)
+  "Your friend is super weird dude I Thought he was your friend it's starting every"
+  "Okay, I've got a joke."
+  "What did the mermaid see?"
+  "A movie?"
+  "What?"
+
+SPEAKER_02 (9 segs, 17.7s, 3 embedded)
+  "Yeah!"
+  "I never slow down!"
+  "Ha!"
+  "You may have captured me, but you can't make me run."
+  "Ow!"
+
+SPEAKER_03 (10 segs, 14.1s, 3 embedded)
+  "Untie me so I can beat you with that sack!"
+  "Jake!"
+  "Whoa, man!"
+  "I didn't think it was already sealed yet!"
+  "Jake?"
+
+SPEAKER_04 (99 segs, 132.9s, 33 embedded)
+  "Triple flip with chips for the dip!"
+  "Watch this, everybody!"
+  "A cooler with stuff for the thing!"
+  "Man, I'm sleepy."
+  "Huh?"
+
+SPEAKER_05 (3 segs, 14.5s, 3 embedded)
+  "Where is Finn?"
+  "Is he in the kitchen?"
+  "Welcome, Finn."
+
+SPEAKER_06 (3 segs, 10.1s, 2 embedded)
+  "Ooh!"
+  "Musk, find Finn!"
+  "Musk, must party forever!"
+
+SPEAKER_07 (9 segs, 31.5s, 7 embedded)
+  "Finn, you always focus an endless amount of energy on everything you do."
+  "What about me?"
+  "What do I focus my energy on, cinnamon bun?"
+  "Uh, Jake, you don't really focus at all."
+  "Huh?"
+
+SPEAKER_08 (9 segs, 32.3s, 8 embedded)
+  "I am the Party God."
+  "Oh, Jake, you have won my favor for being a completely off-the-hook Party God."
+  "Because your gut way please me so."
+  "I will grant you one wish."
+  "What do you want most in the world?"
+
+SPEAKER_09 (33 segs, 71.4s, 18 embedded)
+  "You're that!"
+  "Yes, the charismatic stranger from last night!"
+  "Also, the Grand Master of the Gnomes!"
+  "Hop, hop, hop!"
+  "Oh no!"
+
+SPEAKER_10 (13 segs, 13.2s, 2 embedded)
+  "Ahh!"
+  "Stop!"
+  "Tug!"
+  "Tug!"
+  "Tug!"
+
+SPEAKER_11 (9 segs, 19.4s, 4 embedded)
+  "Never slow down?"
+  "Whoa, dude, can you like get off of me?"
+  "Do you think your energy could be used to power a huge machine?"
+  "I guess so, man."
+  "Goodnight, homie."
+
+SPEAKER_12 (4 segs, 7.9s, 1 embedded)
+  "Then go to sleep, man!"
+  "beneath the verse!"
+  "It's pretty nice."
+  "Hey, why don't you guys just untie me and we can pretend this whole thing didn't"
+
+SPEAKER_13 (6 segs, 9.6s, 2 embedded)
+  "You got that cooler, buddy?"
+  "Yep."
+  "Good, because we're going to need it for this root party!"
+  "Watch this, everybody!"
+  "Jake!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.684  <- possible match
+  SPEAKER_02 <-> SPEAKER_13: 0.611  <- possible match
+  SPEAKER_04 <-> SPEAKER_05: 0.684
+  SPEAKER_02 <-> SPEAKER_13: 0.611
+  SPEAKER_04 <-> SPEAKER_06: 0.582
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E07.npz

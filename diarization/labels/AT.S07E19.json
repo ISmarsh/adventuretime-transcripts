@@ -1,0 +1,21 @@
+{
+  "episode_id": "AT.S07E19",
+  "title": "Blank-Eyed Girl",
+  "season": 7,
+  "speaker_map": {
+    "SPEAKER_02": "Starchy",
+    "SPEAKER_03": "Finn_S07-S10",
+    "SPEAKER_04": "Jake",
+    "SPEAKER_05": "Jake",
+    "SPEAKER_06": "Banana Guard"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_07",
+    "SPEAKER_08"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:52:58"
+}

@@ -1,0 +1,89 @@
+Episode: AT.S04E18 (King Worm)
+12 speaker clusters, 198 total segments
+
+
+SPEAKER_00 (4 segs, 18.4s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+
+SPEAKER_01 (3 segs, 23.4s, 3 embedded)
+  "Come along with me and the butterflies and bees."
+  "We can wander through the forest and do so as we please."
+  "To a cliff under a tree"
+
+SPEAKER_02 (14 segs, 39.9s, 7 embedded)
+  "Hey guys Yeah"
+  "Listen, don't worry about it."
+  "What?"
+  "You can't defeat me."
+  "I'm the Kingworm."
+
+SPEAKER_03 (12 segs, 20.5s, 5 embedded)
+  "My king!"
+  "My king?"
+  "Wake up, husband."
+  "What?"
+  "Not much."
+
+SPEAKER_04 (10 segs, 18.3s, 6 embedded)
+  "You!"
+  "You haven't much time, sir."
+  "You are trapped in a dream and you are in danger."
+  "You need to find this worm and break it."
+  "until it fully sticks to the paper."
+
+SPEAKER_05 (10 segs, 12.7s, 4 embedded)
+  "Huh?"
+  "Fiona."
+  "Cake."
+  "I need your help."
+  "What?"
+
+SPEAKER_06 (8 segs, 20.3s, 6 embedded)
+  "Long live the king!"
+  "Long live the king!"
+  "The worm!"
+  "Who?"
+  "Get ready to eat it!"
+
+SPEAKER_07 (2 segs, 1.0s, 0 embedded)
+  "Like this?"
+  "Like this?"
+
+SPEAKER_08 (15 segs, 32.5s, 6 embedded)
+  "Who's it for?"
+  "It's for, um..."
+  "It's for me?"
+  "Play this."
+  "Um, okay."
+
+SPEAKER_09 (18 segs, 22.7s, 6 embedded)
+  "Mm-hmm."
+  "I don't think she's real."
+  "Weird."
+  "Ouch, what was that for?"
+  "Just wanted to make sure you were real."
+
+SPEAKER_10 (12 segs, 16.0s, 2 embedded)
+  "What?"
+  "Jake?"
+  "Oh..."
+  "Is it really you this time?"
+  "Yeah, man."
+
+SPEAKER_11 (88 segs, 149.9s, 36 embedded)
+  "What is going on?"
+  "Huh?"
+  "Hey, do I know you?"
+  "Hey, I know that guy."
+  "Huh?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_08 <-> SPEAKER_09: 0.534
+  SPEAKER_06 <-> SPEAKER_08: 0.469
+  SPEAKER_00 <-> SPEAKER_01: 0.434
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E18.npz

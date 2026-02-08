@@ -1,0 +1,80 @@
+Episode: AT.S06E12 (Ocarina)
+11 speaker clusters, 246 total segments
+
+
+SPEAKER_00 (9 segs, 21.4s, 6 embedded)
+  "I'm going nuts."
+  "Seriously, Mom, Dad's already three hours late with the food."
+  "You hush, Junior."
+  "You know Dad's a wonderful cook."
+  "Viola, when's the last time you even heard from Dad?"
+
+SPEAKER_01 (2 segs, 4.7s, 2 embedded)
+  "Charlie Viola TV Jake Junior Kim Ki-Rwan."
+  "J-Bar."
+
+SPEAKER_02 (3 segs, 26.8s, 1 embedded)
+  "Sweetheart, how did he go?"
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_03 (5 segs, 19.8s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+  "The book will never end, it's a bitch."
+
+SPEAKER_04 (3 segs, 13.8s, 2 embedded)
+  "Father love!"
+  "I love you, I love you, I love you, I love you, I love you, I love you, I love y"
+  "Come on, open it!"
+
+SPEAKER_05 (5 segs, 19.7s, 4 embedded)
+  "Ugh, I'm covered in noobs."
+  "Ugh, I've got hunger cranks."
+  "Can go on."
+  "Mom, when are you gonna eat?"
+  "Yeah, I love Dad and everything, but he's only ever met me twice."
+
+SPEAKER_06 (3 segs, 16.9s, 2 embedded)
+  "Woo!"
+  "Mmm."
+  "Oh, oh, holy cow."
+
+SPEAKER_07 (94 segs, 144.7s, 33 embedded)
+  "Dad, we have new business to discuss."
+  "Happy birthday, Kim Kilwan!"
+  "Birthday is our old business."
+  "Whoa, neat."
+  "Well, how are things going, son?"
+
+SPEAKER_08 (6 segs, 7.9s, 1 embedded)
+  "But, son, why?"
+  "Hey, son!"
+  "Dad, what are you doing here?"
+  "Shouldn't you be at work?"
+  "Yeah, yeah, yeah, no."
+
+SPEAKER_09 (69 segs, 127.7s, 33 embedded)
+  "Woo!"
+  "Yeah, yeah, yeah!"
+  "We're real late."
+  "Happy birthday, puppies!"
+  "OK, so putting it out there, I didn't remember to bring you guys any birthday pr"
+
+SPEAKER_10 (47 segs, 76.5s, 20 embedded)
+  "Yeah, when do we get our house back?"
+  "Nah, man."
+  "It's really not so bad."
+  "Let's just sleep on it tonight."
+  "You're gonna sleep like that?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_08: 0.649  <- possible match
+  SPEAKER_07 <-> SPEAKER_08: 0.649
+  SPEAKER_04 <-> SPEAKER_09: 0.422
+  SPEAKER_00 <-> SPEAKER_02: 0.291
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E12.npz

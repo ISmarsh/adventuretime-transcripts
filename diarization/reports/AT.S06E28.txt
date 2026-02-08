@@ -1,0 +1,82 @@
+Episode: AT.S06E28 (The Mountain)
+11 speaker clusters, 192 total segments
+
+
+SPEAKER_00 (2 segs, 28.2s, 0 embedded)
+  "Yo, yo, it's Kreese!"
+  "This party is..."
+
+SPEAKER_01 (2 segs, 20.4s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (12 segs, 21.9s, 8 embedded)
+  "Oh my God, you are killing salmon bun."
+  "This routine is locked up."
+  "Come, Earl of Lemongrab, let us play the game of catch."
+  "I am eager to relate to you."
+  "Oh!"
+
+SPEAKER_03 (10 segs, 19.5s, 6 embedded)
+  "Oh, thank you princess."
+  "Nope."
+  "Nope."
+  "Nuh-uh."
+  "Dang it!"
+
+SPEAKER_04 (7 segs, 16.6s, 4 embedded)
+  "Thank you."
+  "Thank you all."
+  "As your younger, more relatable new ruler, I shall endeavor to undo all the orde"
+  "I..."
+  "I unaccept."
+
+SPEAKER_05 (13 segs, 34.8s, 6 embedded)
+  "Continue forward."
+  "To reach me, you must choose correctly."
+  "Uh, cool."
+  "To reach me, you must choose correctly."
+  "Uh-oh."
+
+SPEAKER_06 (8 segs, 38.5s, 2 embedded)
+  "Lights out!"
+  "What?"
+  "No!"
+  "Cool."
+  "Heh heh."
+
+SPEAKER_07 (40 segs, 78.9s, 18 embedded)
+  "Coming."
+  "Just got to get this cocoa piping."
+  "OK. Let's watch some stars."
+  "Oh, OK. Hey, man."
+  "I think I hear something weird over there with my little dog ears."
+
+SPEAKER_08 (15 segs, 49.7s, 7 embedded)
+  "Hee-hee-hee!"
+  "No!"
+  "It is my love that he prefers!"
+  "He is spiteful of your love!"
+  "Don't hurt him!"
+
+SPEAKER_09 (35 segs, 73.0s, 14 embedded)
+  "Commence dinner."
+  "Dinner is concluded."
+  "Concluded."
+  "Up."
+  "Rocks."
+
+SPEAKER_10 (43 segs, 58.1s, 14 embedded)
+  "Better get up here, Jake."
+  "It's about to happen."
+  "You're lost, man."
+  "The tap of the heavens only happens every 20 years."
+  "Oh, man."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_08: 0.481
+  SPEAKER_04 <-> SPEAKER_08: 0.468
+  SPEAKER_06 <-> SPEAKER_08: 0.458
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E28.npz

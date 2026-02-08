@@ -1,0 +1,74 @@
+Episode: AT.S04E23 (The Hard Easy)
+10 speaker clusters, 219 total segments
+
+
+SPEAKER_00 (2 segs, 19.1s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (1 segs, 25.7s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and do so as we"
+
+SPEAKER_02 (22 segs, 20.7s, 2 embedded)
+  "My name's Wooby Woo."
+  "Oh, whoa!"
+  "I need your help."
+  "My people are in trouble."
+  "I'm a mud scamp."
+
+SPEAKER_03 (27 segs, 62.9s, 16 embedded)
+  "You know, we secrete stink oil all day out of our awful sauce glands."
+  "You know, I guess I should have warned you."
+  "Anyway, let me cut the cheese."
+  "Cut to the chase?"
+  "Yes."
+
+SPEAKER_04 (8 segs, 13.7s, 4 embedded)
+  "I'm hot again!"
+  "Thanks, little dudes."
+  "I really appreciate it."
+  "I don't get it, though."
+  "I kissed just about everything I could get my lips on."
+
+SPEAKER_05 (50 segs, 83.4s, 23 embedded)
+  "I said it might be good."
+  "It's not, though."
+  "True."
+  "You want to just go?"
+  "Whoa, relax, buddy."
+
+SPEAKER_06 (8 segs, 29.4s, 4 embedded)
+  "Oh, hey, you got the fire going right on."
+  "Ow."
+  "He's eating me!"
+  "Gah!"
+  "Gently eating me!"
+
+SPEAKER_07 (76 segs, 123.2s, 25 embedded)
+  "You getting all bit up by mosquitoes?"
+  "I don't know."
+  "I'm getting bit up by something."
+  "Man, I can't believe you said this was a good swimming hole."
+  "Yeah."
+
+SPEAKER_08 (6 segs, 38.2s, 5 embedded)
+  "I'm so sorry about that."
+  "Come on, Jake."
+  "What?"
+  "Ah!"
+  "Ah!"
+
+SPEAKER_09 (8 segs, 11.3s, 3 embedded)
+  "Mommy!"
+  "Mommy, Mommy, help me!"
+  "Billie, is that you?"
+  "Mommy, you sound exactly... Mommy, you sound exactly like me!"
+  "Mommy, you sound exactly like me!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_08: 0.508
+  SPEAKER_06 <-> SPEAKER_07: 0.450
+  SPEAKER_07 <-> SPEAKER_08: 0.431
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E23.npz

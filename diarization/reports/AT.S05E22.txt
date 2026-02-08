@@ -1,0 +1,53 @@
+Episode: AT.S05E22 (The Party's Over, Isla de Señorita)
+7 speaker clusters, 221 total segments
+
+
+SPEAKER_00 (35 segs, 72.9s, 15 embedded)
+  "Do you think I'd like being kidnapped?"
+  "Is that what you think I want?"
+  "Hey babe, is that his head on your face?"
+  "Gross."
+  "You seen my boombox?"
+
+SPEAKER_01 (120 segs, 239.9s, 53 embedded)
+  "Oh, you're so pretty while you sleep."
+  "Let's go back to Ice King's house."
+  "Baby, I was trying to surprise you by moving you to my place while you sleep, th"
+  "But now you ruined the surprise."
+  "Way to go."
+
+SPEAKER_02 (2 segs, 6.1s, 2 embedded)
+  "Ice King, what are you doing in my bedroom?"
+  "Banana guards!"
+
+SPEAKER_03 (8 segs, 21.8s, 7 embedded)
+  "Have you ever had a friend?"
+  "Como esté?"
+  "Have you ever had a friend?"
+  "Who would talk to a señorita?"
+  "And who would live and build a house on her pancita?"
+
+SPEAKER_04 (49 segs, 69.1s, 19 embedded)
+  "Okay, leave."
+  "Yes."
+  "Oh, hello there."
+  "Is my singing bothering you?"
+  "What?"
+
+SPEAKER_05 (2 segs, 26.0s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_06 (4 segs, 18.7s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.469
+  SPEAKER_00 <-> SPEAKER_01: 0.254
+  SPEAKER_05 <-> SPEAKER_06: 0.242
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E22.npz

@@ -1,0 +1,54 @@
+Episode: AT.S02E06 (Slow Love)
+7 speaker clusters, 193 total segments
+
+
+SPEAKER_00 (2 segs, 24.1s, 0 embedded)
+  "Hi."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (9 segs, 23.3s, 5 embedded)
+  "Hello."
+  "You seem like a reasonable male."
+  "We should go to a movie sometime."
+  "Yeah."
+  "I like old movies."
+
+SPEAKER_02 (21 segs, 47.2s, 8 embedded)
+  "But I heard you guys were heroes."
+  "I need a girlfriend."
+  "I have no one to love."
+  "Okay."
+  "Right after I get a girlfriend."
+
+SPEAKER_03 (92 segs, 177.4s, 45 embedded)
+  "BMO, turn the music down."
+  "BMO, turn it down."
+  "Come on, BMO."
+  "You're messing up my game."
+  "Hey, dude, can I borrow that paper?"
+
+SPEAKER_04 (53 segs, 128.5s, 25 embedded)
+  "Dudes!"
+  "We are heroes."
+  "We thought you were trying to attack us."
+  "Why'd you break in here all mad squirting that juice all over us?"
+  "It's not bad juice."
+
+SPEAKER_05 (11 segs, 42.2s, 7 embedded)
+  "Oh, sick!"
+  "Girlfriend!"
+  "Girlfriend!"
+  "Dude, our house!"
+  "You think he can do that, Snorlock?"
+
+SPEAKER_06 (2 segs, 21.0s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_05: 0.549
+  SPEAKER_05 <-> SPEAKER_06: 0.532
+  SPEAKER_04 <-> SPEAKER_05: 0.528
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E06.npz

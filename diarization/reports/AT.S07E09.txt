@@ -1,0 +1,53 @@
+Episode: AT.S07E09 (The Empress Eyes)
+6 speaker clusters, 201 total segments
+
+
+SPEAKER_00 (59 segs, 111.2s, 26 embedded)
+  "I don't know."
+  "Gunter, you having a bad dream?"
+  "Gunter?"
+  "Wait, you don't remember me?"
+  "Oh, man."
+
+SPEAKER_01 (63 segs, 124.5s, 33 embedded)
+  "Hello, Simon."
+  "Oh, Lenny, hi."
+  "Huh."
+  "Looks like you've lost it all the way."
+  "You've crossed the valley of tears and come out the other side but a shadow."
+
+SPEAKER_02 (33 segs, 70.0s, 17 embedded)
+  "Vampire, I'm gonna kick you, vampire."
+  "I'm gonna lick you, vampire."
+  "Uh-oh, it's PB's outside clock."
+  "You did a tremendous job guarding the cabin, Jake, but it looks like you need to"
+  "Yeah, I need relief."
+
+SPEAKER_03 (12 segs, 37.9s, 8 embedded)
+  "Show me!"
+  "Simon, you have to resist the Empress!"
+  "She's a vampire!"
+  "Marceline!"
+  "Yeah, you're welcome."
+
+SPEAKER_04 (27 segs, 104.6s, 18 embedded)
+  "Adventure time, come on, grab your friends We're going to a very distant land Wi"
+  "What has she done to you?"
+  "Did she bite you?"
+  "How my life was without you."
+  "I thought my life was through."
+
+SPEAKER_05 (5 segs, 8.7s, 3 embedded)
+  "State."
+  "I got your back, Marceline!"
+  "No!"
+  "No!"
+  "This party is over!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_05: 0.428
+  SPEAKER_03 <-> SPEAKER_04: 0.353
+  SPEAKER_00 <-> SPEAKER_01: 0.328
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E09.npz

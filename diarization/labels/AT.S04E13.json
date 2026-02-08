@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S04E13",
+  "title": "Princess Cookie",
+  "season": 4,
+  "speaker_map": {
+    "SPEAKER_00": "Princess Bubblegum",
+    "SPEAKER_03": "Finn_S04-S06",
+    "SPEAKER_04": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_05",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:19:55"
+}

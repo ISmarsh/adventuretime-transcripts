@@ -1,0 +1,21 @@
+{
+  "episode_id": "AT.S05E14",
+  "title": "Simon & Marcy",
+  "season": 5,
+  "speaker_map": {
+    "SPEAKER_03": "Simon",
+    "SPEAKER_04": "Ice King",
+    "SPEAKER_07": "Young Marceline",
+    "SPEAKER_08": "Marceline"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_05",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:19:11"
+}

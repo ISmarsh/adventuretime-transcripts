@@ -1,0 +1,20 @@
+{
+  "episode_id": "AT.S07E22",
+  "title": "Scamps",
+  "season": 7,
+  "speaker_map": {
+    "SPEAKER_01": "Princess Bubblegum",
+    "SPEAKER_02": "Finn_S07-S10",
+    "SPEAKER_03": "Starchy",
+    "SPEAKER_05": "Finn_S07-S10",
+    "SPEAKER_06": "Young Marceline",
+    "SPEAKER_07": "Young Marceline"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_04"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:49:55"
+}

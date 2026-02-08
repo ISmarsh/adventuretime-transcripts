@@ -1,0 +1,46 @@
+Episode: AT.S09E12 (Fionna and Cake and Fionna)
+5 speaker clusters, 213 total segments
+
+
+SPEAKER_00 (20 segs, 55.4s, 13 embedded)
+  "Oh, come on."
+  "You're just gonna read those weird stories that are basically about us."
+  "I kinda did get loosely adapted."
+  "Dude, I literally have one bazillion questions."
+  "How can we save you, tiny mummy?"
+
+SPEAKER_01 (43 segs, 102.3s, 22 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends, we'll go to very distant lands."
+  "Kick the cat, every one of the human fun will never end, it's Adventure Time!"
+  "What format is that?"
+  "According to this map, we're very close."
+
+SPEAKER_02 (61 segs, 116.3s, 34 embedded)
+  "Your story was completely wrong."
+  "And how would you know?"
+  "I know because I am."
+  "Fiona!"
+  "I can show you what really happened."
+
+SPEAKER_03 (83 segs, 144.5s, 39 embedded)
+  "These ghoul dudes take the form of whatever you're thinking about."
+  "What if life was always just constant fun times in the river?"
+  "Let's never do anything boring ever again."
+  "Fiona spoke with the voice of an angelic choir."
+  "You can have the rest of the screaming chili cheese dip if you want, she said."
+
+SPEAKER_04 (5 segs, 15.7s, 4 embedded)
+  "An angry, no shy, sharp baby."
+  "Yes, let's never do anything boring ever again."
+  "Time for Ice King's boring book reading."
+  "Oh no!"
+  "Come on."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_04: 0.471
+  SPEAKER_00 <-> SPEAKER_01: 0.426
+  SPEAKER_00 <-> SPEAKER_04: 0.269
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S09E12.npz

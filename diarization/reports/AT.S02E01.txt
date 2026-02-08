@@ -1,0 +1,63 @@
+Episode: AT.S02E01 (It Came from the Nightosphere)
+9 speaker clusters, 212 total segments
+
+
+SPEAKER_00 (2 segs, 24.9s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 26.1s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (2 segs, 12.1s, 1 embedded)
+  "So I popped his head like a cork, and I says, that's what I think of expanding E"
+  "Your mama?"
+
+SPEAKER_03 (14 segs, 33.2s, 9 embedded)
+  "Who the fluff are you?"
+  "Good, because that's like my number one fear."
+  "Whoa."
+  "OK. You got to kill me."
+  "Yeah, I guess."
+
+SPEAKER_04 (3 segs, 10.2s, 1 embedded)
+  "What?"
+  "No!"
+  "Oh, Marceline, I am so..."
+
+SPEAKER_05 (67 segs, 127.4s, 33 embedded)
+  "No problem, Marceline."
+  "I would never dream of it, my lady."
+  "Huh?"
+  "Finn, you messed the beat up!"
+  "Marceline, if you're thinking about your dad so much, then why don't you go see "
+
+SPEAKER_06 (66 segs, 176.8s, 37 embedded)
+  "Thanks for helping me record, Finn."
+  "Now, I'm gonna sing something really personal, so don't laugh at me."
+  "Now, start a slow beat and keep it steady, or it'll mess up everything."
+  "You got it."
+  "Daddy, why did you eat my fries?"
+
+SPEAKER_07 (50 segs, 98.5s, 25 embedded)
+  "Is this kid your evil servant?"
+  "Super good?"
+  "Stealing your soul."
+  "Oh, Marceline, I never know what's gonna set you off."
+  "Whoa, is this the family axe?"
+
+SPEAKER_08 (5 segs, 9.0s, 2 embedded)
+  "What?"
+  "Nah."
+  "I totally saw Hot Dog Princess get sucked in here, and I wasn't invited."
+  "I was all, what the lump?"
+  "So I'm crashing this party."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_07: 0.591
+  SPEAKER_02 <-> SPEAKER_08: 0.351
+  SPEAKER_05 <-> SPEAKER_06: 0.313
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E01.npz

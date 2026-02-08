@@ -1,0 +1,104 @@
+Episode: AT.S05E23 (One Last Job)
+14 speaker clusters, 224 total segments
+
+
+SPEAKER_00 (7 segs, 15.7s, 4 embedded)
+  "Oh, Bernard, are you sure?"
+  "What's happening?"
+  "What am I feeling now?"
+  "I do."
+  "Bernard, don't ever leave me."
+
+SPEAKER_01 (2 segs, 26.8s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "Do a cliff under a tree."
+
+SPEAKER_02 (21 segs, 27.5s, 8 embedded)
+  "I'm back with your milk, sir."
+  "What flavor did you bring me, Private?"
+  "Banana, sir!"
+  "What?"
+  "Banana milk!"
+
+SPEAKER_03 (69 segs, 116.3s, 29 embedded)
+  "Little bird family on vacay?"
+  "Daddy's got the mad beautiful tail feathers."
+  "Mommy's taking up the rear all plain Jane styles."
+  "Glad I get to date a beautiful rainicorn, not some nasty boy."
+  "Urgent."
+
+SPEAKER_04 (23 segs, 34.0s, 11 embedded)
+  "Ouch."
+  "I hurt my butt sledding."
+  "Hey, BMO, where's Jake?"
+  "Jake got back with his old gang and is going to rob the Candy Kingdom."
+  "No, I like organized sound."
+
+SPEAKER_05 (25 segs, 76.2s, 17 embedded)
+  "Well, well, from the shadows of dream, the dog wakes to find its, uh, the dog wa"
+  "That fish is me, Tiffany!"
+  "I'm coming, Jeannie!"
+  "Never mind that."
+  "The real question is, what does that slo-mo fan know about this?"
+
+SPEAKER_06 (5 segs, 23.8s, 4 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "OK, BMO."
+  "You want to join my primitive noise band?"
+  "Huh?"
+
+SPEAKER_07 (5 segs, 17.8s, 4 embedded)
+  "Nice."
+  "That's super dumb."
+  "You dirty son!"
+  "Alert."
+  "Security alert."
+
+SPEAKER_08 (3 segs, 5.8s, 2 embedded)
+  "Thanks, man."
+  "Goodbye, fair lad."
+  "The master returns."
+
+SPEAKER_09 (13 segs, 18.1s, 7 embedded)
+  "I ain't no clown town snitch, baby."
+  "All right."
+  "Dining Dash, I saw that."
+  "Hey, boss, I wanted to..."
+  "Shut up, Tanya."
+
+SPEAKER_10 (10 segs, 17.4s, 4 embedded)
+  "Yeah, babe, I'm totally famous and you love me."
+  "You are under the spell of my face."
+  "I got you, girl, in my face trap and you love it."
+  "Oops, I gotta go."
+  "Laters."
+
+SPEAKER_11 (15 segs, 37.0s, 9 embedded)
+  "Jake the Dog, we have your daughter."
+  "She is safe for now."
+  "We need you to reassemble your old team."
+  "Garroth, aka the Lady Master, the Flying Lettuce Brothers, notorious con-men imp"
+  "Globbit."
+
+SPEAKER_12 (11 segs, 17.1s, 4 embedded)
+  "Hey, don't be talking trash."
+  "Our ladies are beautiful on the inside, you creep."
+  "All ladybirds around the whole world are beautiful on the inside?"
+  "Yes."
+  "Fair enough."
+
+SPEAKER_13 (12 segs, 22.3s, 7 embedded)
+  "Captain, the milk delivery has arrived."
+  "Well, check them in, Private."
+  "Yes, sir."
+  "And Private, I'm very thirsty."
+  "Bring me back the most delicious flavor they have."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_13: 0.565
+  SPEAKER_04 <-> SPEAKER_05: 0.491
+  SPEAKER_00 <-> SPEAKER_01: 0.405
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E23.npz

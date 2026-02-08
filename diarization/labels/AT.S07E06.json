@@ -1,0 +1,20 @@
+{
+  "episode_id": "AT.S07E06",
+  "title": "Marceline The Vampire Queen",
+  "season": 7,
+  "speaker_map": {
+    "SPEAKER_00": "Peppermint Butler",
+    "SPEAKER_01": "Princess Bubblegum",
+    "SPEAKER_02": "Marceline",
+    "SPEAKER_05": "Jake",
+    "SPEAKER_06": "Finn_S07-S10"
+  },
+  "skipped": [
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_07"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:52:58"
+}

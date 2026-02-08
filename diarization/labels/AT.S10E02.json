@@ -1,0 +1,20 @@
+{
+  "episode_id": "AT.S10E02",
+  "title": "Always BMO Closing",
+  "season": 10,
+  "speaker_map": {
+    "SPEAKER_01": "Tree Trunks",
+    "SPEAKER_02": "BMO",
+    "SPEAKER_05": "Ice King",
+    "SPEAKER_06": "Finn_S07-S10",
+    "SPEAKER_07": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_03",
+    "SPEAKER_04"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T13:31:41"
+}

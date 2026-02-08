@@ -1,0 +1,75 @@
+Episode: AT.S08E07 (Normal Man)
+9 speaker clusters, 252 total segments
+
+
+SPEAKER_00 (5 segs, 30.7s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "I want to eat those brownies."
+  "Come along with me and the butterflies and bees."
+  "This party is"
+
+SPEAKER_01 (9 segs, 13.5s, 3 embedded)
+  "Sorry."
+  "So your profile said you were into music."
+  "That's crazy."
+  "So am I."
+  "It's stressing me out that there's food on a blanket."
+
+SPEAKER_02 (23 segs, 28.9s, 6 embedded)
+  "That's because we freed him from your sick nightmare house."
+  "Hey, Jonah."
+  "Hey, Luke."
+  "What's going on today?"
+  "Freaking nothing yet."
+
+SPEAKER_03 (6 segs, 5.2s, 1 embedded)
+  "You can keep your little guys here."
+  "Shh."
+  "Ah, hmm."
+  "I know that force!"
+  "Ahh!"
+
+SPEAKER_04 (47 segs, 94.9s, 25 embedded)
+  "What the freak am I doing?"
+  "Come again?"
+  "Nothing."
+  "Never mind."
+  "Oh, crud."
+
+SPEAKER_05 (20 segs, 29.8s, 6 embedded)
+  "Pull up."
+  "Pull up."
+  "Magic Man, have some of these bangers, why don't you?"
+  "Bang!"
+  "What's that?"
+
+SPEAKER_06 (86 segs, 161.6s, 43 embedded)
+  "Hey, how's it going up there?"
+  "Have you made visual confirmation with Glob?"
+  "This is freaking hard."
+  "Come again?"
+  "You're breaking up."
+
+SPEAKER_07 (14 segs, 22.7s, 6 embedded)
+  "I'm following to watch you die!"
+  "You know what, though, Magic Man?"
+  "I've been doing a lot of thinking up in orbit."
+  "I shouldn't have shut you out when you got exiled to Ool."
+  "In some ways, I too was a total beanshell."
+
+SPEAKER_08 (39 segs, 45.6s, 12 embedded)
+  "Hey, Jake."
+  "You need help with dema eggs benedicts in a dema hollandaise sauce?"
+  "Get over here, dude."
+  "Yo, no dogs on the table."
+  "Shoo, get down, boy."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.614  <- possible match
+  SPEAKER_06 <-> SPEAKER_07: 0.614
+  SPEAKER_01 <-> SPEAKER_02: 0.469
+  SPEAKER_05 <-> SPEAKER_06: 0.452
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E07.npz

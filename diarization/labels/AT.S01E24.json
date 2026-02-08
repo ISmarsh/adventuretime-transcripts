@@ -1,0 +1,20 @@
+{
+  "episode_id": "AT.S01E24",
+  "title": "What Have You Done",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_00": "BMO",
+    "SPEAKER_02": "Jake",
+    "SPEAKER_03": "Princess Bubblegum",
+    "SPEAKER_04": "Ice King",
+    "SPEAKER_05": "Finn_S01-S03"
+  },
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_06",
+    "SPEAKER_07"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:08:40"
+}

@@ -1,0 +1,100 @@
+Episode: AT.S06E34 (Chips and Ice Cream)
+14 speaker clusters, 231 total segments
+
+
+SPEAKER_00 (2 segs, 26.0s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (9 segs, 7.6s, 1 embedded)
+  "Hmm."
+  "Nice choice."
+  "Those are two of my fav."
+  "Yeah, we have chips."
+  "Sorry, I don't have any ice cream, but I know who does."
+
+SPEAKER_02 (32 segs, 81.4s, 16 embedded)
+  "Now, who wants to invite me over for dinner?"
+  "Yeah, dinner sounds great."
+  "Yeah."
+  "Wait, the place where you eat dinner, does the moon shine through the window at "
+  "Sure."
+
+SPEAKER_03 (2 segs, 10.4s, 2 embedded)
+  "No, those are my chips and ice cream!"
+  "By the light of the waxing moon, which was just unveiled by the potting clouds, "
+
+SPEAKER_04 (27 segs, 61.4s, 16 embedded)
+  "No."
+  "But Jake, I never ask you for anything."
+  "When did I ever ask you for anything?"
+  "You don't understand me, Jake."
+  "Please come over for dinner."
+
+SPEAKER_05 (2 segs, 21.4s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_06 (13 segs, 14.7s, 3 embedded)
+  "Enjoy and stay awesome."
+  "Yo, I got ice creams."
+  "Ice cream?"
+  "I recommend the hamburger flavor."
+  "Also, the pizza flavor is tremendous."
+
+SPEAKER_07 (32 segs, 65.7s, 14 embedded)
+  "I don't get it."
+  "Just keep watching."
+  "BMO said the second act gets crazy."
+  "What the stuff was that?"
+  "Yesterday."
+
+SPEAKER_08 (46 segs, 53.2s, 9 embedded)
+  "Chips?"
+  "Ice cream?"
+  "Chips!"
+  "Chips!"
+  "Chips!"
+
+SPEAKER_09 (6 segs, 35.8s, 3 embedded)
+  "Come on, kids."
+  "We're going to Grandma's."
+  "Dinner."
+  "Yeah, okay."
+  "Chips, chips."
+
+SPEAKER_10 (9 segs, 9.3s, 1 embedded)
+  "Chips!"
+  "Chips!"
+  "Chips!"
+  "Chips!"
+  "Chips!"
+
+SPEAKER_11 (17 segs, 8.2s, 2 embedded)
+  "Chips!"
+  "Chips!"
+  "Chips!"
+  "Chips!"
+  "Chips!"
+
+SPEAKER_12 (12 segs, 13.8s, 4 embedded)
+  "Don't worry, man."
+  "I'm gonna pretend they're not even there."
+  "What's on your head?"
+  "Why are you up so early?"
+  "Oh, why is BMO on your head?"
+
+SPEAKER_13 (21 segs, 25.6s, 3 embedded)
+  "No."
+  "No."
+  "Stay away."
+  "You can't make me take them back."
+  "Oh, hey, Morty Rogers."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_11 <-> SPEAKER_12: 0.479
+  SPEAKER_04 <-> SPEAKER_08: 0.438
+  SPEAKER_02 <-> SPEAKER_03: 0.394
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E34.npz

@@ -1,0 +1,62 @@
+Episode: AT.S06E32 (Friends Forever)
+8 speaker clusters, 220 total segments
+
+
+SPEAKER_00 (12 segs, 18.1s, 6 embedded)
+  "You're alive?"
+  "No."
+  "Yeah, get in here, bro."
+  "It helps keep my skin cold and clammy."
+  "He needs to hear more devastating truth."
+
+SPEAKER_01 (4 segs, 34.5s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "That's right, Gunter."
+  "Fine."
+
+SPEAKER_02 (1 segs, 25.3s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and do so as we"
+
+SPEAKER_03 (29 segs, 55.9s, 17 embedded)
+  "Hello?"
+  "Hello?"
+  "Well, one isn't purely defined by their sex or gender."
+  "I've yet to find out who I really am."
+  "I have freedom no longer bound by the limits of my court."
+
+SPEAKER_04 (5 segs, 13.1s, 3 embedded)
+  "Whoa, me too!"
+  "What?"
+  "Sure, we all feel alive now, but how do we know it's not all, you know, just an "
+  "I mean, I can reach out and touch you, but it's all just signals to the brain, e"
+  "You know what I mean?"
+
+SPEAKER_05 (25 segs, 73.1s, 14 embedded)
+  "Yeah, yeah, yeah, yeah, but no."
+  "Listen."
+  "Watch this."
+  "Through the simple act of creation, have I become a reflection of my own creator"
+  "Seriously, someone explain it to me."
+
+SPEAKER_06 (45 segs, 88.8s, 22 embedded)
+  "Just a sec."
+  "I got your telegraph inviting me to come over and share some whiz-blizzes, Beth'"
+  "I brought tiny umbrellas."
+  "I was kind of surprised you invited me over."
+  "I thought Averick Daniel was your best friend."
+
+SPEAKER_07 (99 segs, 188.5s, 45 embedded)
+  "Keep it up."
+  "Oh, Gunter."
+  "Just you wait."
+  "All right."
+  "Here we go."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.528
+  SPEAKER_04 <-> SPEAKER_05: 0.466
+  SPEAKER_01 <-> SPEAKER_06: 0.401
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E32.npz

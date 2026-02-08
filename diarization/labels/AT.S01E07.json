@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S01E07",
+  "title": "Ricardio the Heart Guy",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_01": "LSP",
+    "SPEAKER_02": "Ricardio",
+    "SPEAKER_03": "Finn_S01-S03",
+    "SPEAKER_04": "Princess Bubblegum",
+    "SPEAKER_05": "Jake",
+    "SPEAKER_06": "Ice King"
+  },
+  "skipped": [
+    "SPEAKER_00"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:08:54"
+}

@@ -1,0 +1,109 @@
+Episode: FC.S01E08 (Jerry)
+15 speaker clusters, 376 total segments
+
+
+SPEAKER_00 (2 segs, 7.9s, 2 embedded)
+  "Ice Wizard, so you have risen again."
+  "In olden days, I would have rewarded your insolence with death a thousandfold."
+
+SPEAKER_01 (8 segs, 12.6s, 3 embedded)
+  "What are you gonna look for next?"
+  "Magic beans?"
+  "Betty just left."
+  "She's finally going on that research trip to the Outback."
+  "What?"
+
+SPEAKER_02 (5 segs, 9.5s, 4 embedded)
+  "Every night I hear that blasted foghorn moaning like a man."
+  "You're ruining my vision!"
+  "Yes!"
+  "We can zap to another reality."
+  "Then it's next stop, Crown Town."
+
+SPEAKER_03 (108 segs, 276.5s, 70 embedded)
+  "Looks chilly."
+  "Whoa."
+  "Step carefully, Betty."
+  "These rocks are slippery, fellas."
+  "Well, I've been meaning to test my waterproof gear."
+
+SPEAKER_04 (10 segs, 29.3s, 8 embedded)
+  "A robot?"
+  "BMO?"
+  "Hello, dear diary."
+  "Ready to get swole?"
+  "Everything bagel, right where I left it."
+
+SPEAKER_05 (21 segs, 35.2s, 11 embedded)
+  "Hey, Scrabby."
+  "Orbo."
+  "You're up, mate."
+  "Ignoring our calls, giving yourself missions, bestowing your own monomanias."
+  "I tell you, you're really whiffing that bomb lately."
+
+SPEAKER_06 (68 segs, 120.0s, 36 embedded)
+  "Hey, at least we haven't seen any vampires here."
+  "Yeah, it's my fault you're not dead."
+  "Be careful."
+  "You don't know what's out there!"
+  "I just didn't want to see her hurt."
+
+SPEAKER_07 (3 segs, 54.7s, 1 embedded)
+  "You and me, we got something to lose The more you got your dreams, I got everyth"
+  "Ooh, and I love you, love you, love you No, it's not so hard to tell And I love "
+  "And maybe this is killing part of me But it ain't cold love without a little tra"
+
+SPEAKER_08 (4 segs, 11.8s, 2 embedded)
+  "Baby!"
+  "Hey!"
+  "My office supplies!"
+  "It's working!"
+
+SPEAKER_09 (45 segs, 109.1s, 23 embedded)
+  "What?"
+  "Water's not too cold, and now I definitely won't slip."
+  "Dr. Petrikov!"
+  "I touched his hand in the library once."
+  "Excuse me, Dr. Petrikov?"
+
+SPEAKER_10 (53 segs, 84.0s, 20 embedded)
+  "Apologies, Cat."
+  "I goofed you in the spirit of fun."
+  "Yes."
+  "Now, old man, prepare for your goofing."
+  "They are around."
+
+SPEAKER_11 (3 segs, 14.8s, 2 embedded)
+  "This is a mistake."
+  "I need to be out there looking for that rogue universe."
+  "Here it is."
+
+SPEAKER_12 (14 segs, 51.1s, 13 embedded)
+  "Orbo, if I could just have more time, I'm onto something really important."
+  "Listen, just be cool."
+  "Prismo has made his own secret unauthorized universe."
+  "You're my boss, but you're not the boss."
+  "Why don't I give them a call?"
+
+SPEAKER_13 (4 segs, 8.8s, 4 embedded)
+  "Can you use any of this stuff to fix the remote?"
+  "They still treat me like I'm a house cat."
+  "BMO talked about that Jerry guy a lot."
+  "Maybe we should find him and tell him the bad news."
+
+SPEAKER_14 (24 segs, 44.5s, 12 embedded)
+  "Oh, great!"
+  "We left Monster World and ended up in Crat World."
+  "I could've taken that crown."
+  "It's all your fault."
+  "Nah!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_04: 0.673  <- possible match
+  SPEAKER_13 <-> SPEAKER_14: 0.651  <- possible match
+  SPEAKER_02 <-> SPEAKER_04: 0.673
+  SPEAKER_13 <-> SPEAKER_14: 0.651
+  SPEAKER_02 <-> SPEAKER_03: 0.577
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S01E08.npz

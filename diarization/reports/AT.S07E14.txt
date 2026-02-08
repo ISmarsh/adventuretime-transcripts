@@ -1,0 +1,80 @@
+Episode: AT.S07E14 (The More You Moe, The Moe You Know (Part I))
+11 speaker clusters, 408 total segments
+
+
+SPEAKER_00 (2 segs, 20.5s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 30.8s, 1 embedded)
+  "B-b-b-bread, where's my needle and thread?"
+  "This party is so crazy!"
+
+SPEAKER_02 (5 segs, 11.7s, 1 embedded)
+  "Hooray!"
+  "Hooray!"
+  "Hooray!"
+  "Hooray!"
+  "Oh."
+
+SPEAKER_03 (9 segs, 24.0s, 6 embedded)
+  "Hey, it's me."
+  "Is there a big rainbow over your house right now spelling out Happy Birthday, BM"
+  "Okay, that's what I was afraid of."
+  "Peppermint Butler spilled grape juice on my experimental weather machine and now"
+  "I gotta stay here and fix this thing."
+
+SPEAKER_04 (13 segs, 25.5s, 6 embedded)
+  "Hey!"
+  "Hello there, BMO."
+  "Hello there, DMO."
+  "I'm here on a solo birthday mission."
+  "Oh, yes, yes, BMO."
+
+SPEAKER_05 (2 segs, 4.8s, 2 embedded)
+  "But one time it's Finn and Jake?"
+  "But won't Finn and Jake miss me?"
+
+SPEAKER_06 (101 segs, 219.6s, 60 embedded)
+  "Hooray!"
+  "Mo is coming!"
+  "And he brought me a special surprise for my birthday!"
+  "Mo is the smartest man in the world!"
+  "He's way smarter than you, and you, and you to take."
+
+SPEAKER_07 (38 segs, 83.0s, 25 embedded)
+  "Mo!"
+  "Mo's dead!"
+  "Aw, Mo."
+  "You don't love me!"
+  "Ugh!"
+
+SPEAKER_08 (111 segs, 247.5s, 64 embedded)
+  "Man, birthday holiday overlap."
+  "That's some tough luck."
+  "Everyone's all jollied out when it's your turn for jollies."
+  "But you don't gotta be so technical about it."
+  "Jake, what are you doing?"
+
+SPEAKER_09 (69 segs, 151.8s, 44 embedded)
+  "Why, of course I am, BMO."
+  "She conked out on me months ago."
+  "I guess I don't make them like I used to."
+  "Not like little BMO here."
+  "You got all my love and affection."
+
+SPEAKER_10 (49 segs, 70.6s, 17 embedded)
+  "Well... You know, it's not actually the holidays."
+  "Plus, BMO wasn't actually even really born."
+  "Well, I suppose."
+  "Listen, all I'm saying is we... Hello?"
+  "No."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_06: 0.650  <- possible match
+  SPEAKER_05 <-> SPEAKER_06: 0.650
+  SPEAKER_04 <-> SPEAKER_06: 0.517
+  SPEAKER_08 <-> SPEAKER_09: 0.492
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E14.npz

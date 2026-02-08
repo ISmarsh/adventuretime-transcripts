@@ -1,0 +1,73 @@
+Episode: AT.S06E40 (Orgalorg)
+11 speaker clusters, 118 total segments
+
+
+SPEAKER_00 (2 segs, 25.6s, 2 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "This party is so crazy!"
+
+SPEAKER_01 (1 segs, 23.0s, 0 embedded)
+  "I'm going to get you."
+
+SPEAKER_02 (10 segs, 25.8s, 4 embedded)
+  "The signal!"
+  "The signal!"
+  "We haven't had a communication from Orgalorg in thousands of years!"
+  "He must be mad at us!"
+  "Everybody kneel!"
+
+SPEAKER_03 (20 segs, 69.8s, 14 embedded)
+  "We told you Orgalorg is real and horrifying."
+  "But nobody would listen."
+  "You all just wanted to make out."
+  "After you had kids and they didn't want to listen to you, how did that make you "
+  "Terrible."
+
+SPEAKER_04 (3 segs, 12.7s, 2 embedded)
+  "Gunter!"
+  "Oh, my little pal."
+  "That's her."
+
+SPEAKER_05 (42 segs, 102.2s, 27 embedded)
+  "Oh, man, these things are gonna make me rich."
+  "It's like a big yarmulke for the tummy."
+  "Mmm, I think I'll keep this one for myself."
+  "Hoi coiture."
+  "Nice."
+
+SPEAKER_06 (12 segs, 93.2s, 4 embedded)
+  "I should probably go polish off that cheesecake in the fridge Oh"
+  "I love... Quack, quack, quack."
+  "Quack, quack."
+  "Quack, quack, quack."
+  "Quack, quack, quack."
+
+SPEAKER_07 (2 segs, 4.7s, 1 embedded)
+  "That's so true!"
+  "I am the prettiest one here!"
+
+SPEAKER_08 (2 segs, 26.4s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_09 (14 segs, 17.0s, 5 embedded)
+  "on number five to win?"
+  "I feel lucky!"
+  "Come on, number five!"
+  "What?"
+  "I've got a lot of money riding on you to win, you jerk!"
+
+SPEAKER_10 (10 segs, 18.3s, 4 embedded)
+  "Gunter!"
+  "Don't touch my stomach."
+  "Better do as he says, kids."
+  "Oh, well, uh... Um, to be honest, we thought he was just a myth."
+  "Her stupid grandparents told us so we wouldn't make out."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.560
+  SPEAKER_08 <-> SPEAKER_09: 0.523
+  SPEAKER_02 <-> SPEAKER_06: 0.509
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E40.npz

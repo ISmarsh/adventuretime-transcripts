@@ -1,0 +1,68 @@
+Episode: AT.S07E22 (Scamps)
+8 speaker clusters, 249 total segments
+
+
+SPEAKER_00 (7 segs, 31.8s, 4 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then the human."
+  "The fun will never end."
+
+SPEAKER_01 (14 segs, 21.7s, 7 embedded)
+  "Sounds good, Finn."
+  "I trust you."
+  "Hey Finn, just wanted to see how the nature walk is going."
+  "Uh... You know those marshmallow kids remind me of you when you were a young lad"
+  "I'm glad you're helping them get on the right path."
+
+SPEAKER_02 (17 segs, 31.9s, 9 embedded)
+  "There we go."
+  "Banana guards, move out!"
+  "Let's roll."
+  "Where'd they go?"
+  "Aww!"
+
+SPEAKER_03 (6 segs, 11.1s, 3 embedded)
+  "Oh, I know!"
+  "How much can I wager?"
+  "As much as you've got!"
+  "And they laugh at me for carrying my life savings in my pocket."
+  "That one!"
+
+SPEAKER_04 (5 segs, 7.4s, 1 embedded)
+  "Gary, be careful!"
+  "Hey, you guys tricked me."
+  "Hey, wait!"
+  "Yes!"
+  "Yay!"
+
+SPEAKER_05 (70 segs, 120.9s, 31 embedded)
+  "Jake, they're in tunnel four!"
+  "End of the line, marshmallow kids."
+  "Wow, five hundred bucks."
+  "Wow."
+  "Sorry, guys, but I gotta take y'all in for baby booking."
+
+SPEAKER_06 (44 segs, 78.1s, 27 embedded)
+  "Your five-way intersection?"
+  "This is our five-way intersection."
+  "No, no, it's theirs."
+  "Ours is like way over there."
+  "Well, if they want it, they could take it."
+
+SPEAKER_07 (81 segs, 120.3s, 33 embedded)
+  "Hey, Johnny, look at this."
+  "It's the Notorious Poop Gang making a big mess all over our five-way intersectio"
+  "Okay, you guys, let's get this over to the orphanage for the charity jam sale."
+  "Bless you, marshmallow kids."
+  "Always keeping the bad elements at bay."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.686  <- possible match
+  SPEAKER_06 <-> SPEAKER_07: 0.686
+  SPEAKER_01 <-> SPEAKER_06: 0.486
+  SPEAKER_02 <-> SPEAKER_05: 0.464
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E22.npz

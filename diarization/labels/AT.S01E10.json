@@ -1,0 +1,23 @@
+{
+  "episode_id": "AT.S01E10",
+  "title": "Memories of Boom Boom Mountain",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_00": "Joshua",
+    "SPEAKER_02": "Margaret",
+    "SPEAKER_07": "Jake",
+    "SPEAKER_08": "Finn_S01-S03"
+  },
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_09",
+    "SPEAKER_10"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:08:30"
+}

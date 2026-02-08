@@ -1,0 +1,86 @@
+Episode: AT.S10E03 (Son of Rap Bear)
+12 speaker clusters, 221 total segments
+
+
+SPEAKER_00 (3 segs, 9.5s, 3 embedded)
+  "Maybe there is an interesting thing about you that you just don't realize."
+  "Like how Neptune just found out there is a face on his can."
+  "And now he thinks the can is his conjoined queen."
+
+SPEAKER_01 (4 segs, 36.6s, 4 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Come along with me and the butterflies and bees"
+  "This party is so crazy!"
+
+SPEAKER_02 (13 segs, 28.1s, 11 embedded)
+  "You're a small bear with fuzzy hair over there."
+  "Get away from me, I don't wanna share my air."
+  "Doesn't matter where, anywhere, everywhere with you."
+  "Chop you in two with my rap kung fu."
+  "Are you scared of me?"
+
+SPEAKER_03 (31 segs, 68.8s, 20 embedded)
+  "You're like a cookie who's about to crumble."
+  "Your rapping is stale, also you mumble."
+  "Did you just make a mistake smelling like a cake who just stumbled into a lyrica"
+  "Your raps causes naps."
+  "You look a little frail and you're about to collapse."
+
+SPEAKER_04 (5 segs, 10.4s, 4 embedded)
+  "My name is Nectar."
+  "I stay rapping no matter what the weather."
+  "I'm by the fire because it's hot like a dryer."
+  "I don't expect you to understand the bond I share with my family."
+  "He's good."
+
+SPEAKER_05 (17 segs, 35.5s, 11 embedded)
+  "No room for the body."
+  "Let's make him swim."
+  "Is that you, Bun-Bun?"
+  "You're not here to put me back in lantern jail, are you?"
+  "Oh."
+
+SPEAKER_06 (9 segs, 12.2s, 4 embedded)
+  "Who's there?"
+  "Rat Bear."
+  "My son and I were having Sunday dinner."
+  "We were lightly rapping back and forth."
+  "It turned into a rap battle."
+
+SPEAKER_07 (2 segs, 2.2s, 1 embedded)
+  "What's up, bro?"
+  "Whoa."
+
+SPEAKER_08 (70 segs, 163.8s, 39 embedded)
+  "Yeah, dump it in, stir it up."
+  "I'm like a library book, so check me out."
+  "Read my front and back cover so you know what I'm about."
+  "I'm straight drooling, spitting out rhymes."
+  "People gather round and they're waiting in lines."
+
+SPEAKER_09 (37 segs, 61.8s, 15 embedded)
+  "Clams and wrappings."
+  "Doesn't get any better than this, right, Phoebe?"
+  "It's actually my first clam wrap."
+  "Boom, boom, boom, clams, clams."
+  "Ate this plate of clams."
+
+SPEAKER_10 (2 segs, 2.6s, 1 embedded)
+  "I heard you laid down some serious rhymes earlier."
+  "My card."
+
+SPEAKER_11 (27 segs, 63.2s, 13 embedded)
+  "I'm a talent scout by trade and..."
+  "And I'd love to book you for a big-time rap battle next week."
+  "Rap Fest Aid."
+  "But before I can book you anywhere, I'm gonna have to have you sign some waivers"
+  "Boilerplate stuff."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_10 <-> SPEAKER_11: 0.484
+  SPEAKER_02 <-> SPEAKER_03: 0.381
+  SPEAKER_07 <-> SPEAKER_08: 0.287
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S10E03.npz

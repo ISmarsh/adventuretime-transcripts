@@ -1,0 +1,34 @@
+{
+  "episode_id": "DL.S01E03",
+  "title": "Together Again",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_03": "Ice King",
+    "SPEAKER_04": "Jake",
+    "SPEAKER_09": "Joshua",
+    "SPEAKER_15": "Peppermint Butler",
+    "SPEAKER_19": "Young Marceline"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_10",
+    "SPEAKER_11",
+    "SPEAKER_12",
+    "SPEAKER_13",
+    "SPEAKER_14",
+    "SPEAKER_16",
+    "SPEAKER_17",
+    "SPEAKER_18",
+    "SPEAKER_20",
+    "SPEAKER_21"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T17:13:50"
+}

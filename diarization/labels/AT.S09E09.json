@@ -1,0 +1,21 @@
+{
+  "episode_id": "AT.S09E09",
+  "title": "Skyhooks II",
+  "season": 9,
+  "speaker_map": {
+    "SPEAKER_02": "Princess Bubblegum",
+    "SPEAKER_03": "Ice King",
+    "SPEAKER_04": "Finn_S07-S10",
+    "SPEAKER_06": "LSP"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_05",
+    "SPEAKER_07",
+    "SPEAKER_08"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T13:20:32"
+}

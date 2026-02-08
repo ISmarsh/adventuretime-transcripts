@@ -1,0 +1,66 @@
+Episode: AT.S04E11 (Beyond this Earthly Realm)
+9 speaker clusters, 217 total segments
+
+
+SPEAKER_00 (2 segs, 33.0s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "Do a cliff under a tree This party is"
+
+SPEAKER_01 (5 segs, 6.8s, 2 embedded)
+  "Do you see it?"
+  "Oh, it sees you."
+  "Catch it and put it in the spirit hole!"
+  "In the spirit hole where it can't see me anymore so you can be free!"
+  "Uh..."
+
+SPEAKER_02 (74 segs, 172.2s, 44 embedded)
+  "Leaf Princess, come to me, my arboreal beauty!"
+  "Gotcha!"
+  "I know, but it's mine."
+  "Oh, yeah."
+  "You're trapped in the spirit realm."
+
+SPEAKER_03 (10 segs, 15.1s, 3 embedded)
+  "Oh!"
+  "There it is!"
+  "No!"
+  "I'm sorry."
+  "I'm sorry."
+
+SPEAKER_04 (46 segs, 76.8s, 20 embedded)
+  "Man, let's go home."
+  "Next to that, I want to find a mystery cave."
+  "Come on, Jake."
+  "Oh my gory."
+  "Yeah, I want it for my sacred bathroom."
+
+SPEAKER_05 (35 segs, 52.6s, 10 embedded)
+  "Jake!"
+  "Come on, quit messing with me!"
+  "Whoa!"
+  "Ow!"
+  "What?"
+
+SPEAKER_06 (37 segs, 67.1s, 20 embedded)
+  "Finn, I'm getting all cranky around my joke hole."
+  "Ooh-la-la."
+  "What's that?"
+  "Mystery cave."
+  "Dude, no!"
+
+SPEAKER_07 (3 segs, 7.4s, 2 embedded)
+  "But Finn always loved BMO farting."
+  "Okay."
+  "One, one, one."
+
+SPEAKER_08 (2 segs, 22.1s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_05: 0.549
+  SPEAKER_01 <-> SPEAKER_02: 0.521
+  SPEAKER_03 <-> SPEAKER_05: 0.512
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E11.npz

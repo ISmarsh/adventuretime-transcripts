@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S05E29",
+  "title": "Sky Witch",
+  "season": 5,
+  "speaker_map": {
+    "SPEAKER_04": "Marceline",
+    "SPEAKER_05": "Princess Bubblegum",
+    "SPEAKER_06": "Princess Bubblegum"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:29:39"
+}

@@ -1,0 +1,207 @@
+Episode: AT.S10E13 (Come Along With Me)
+29 speaker clusters, 768 total segments
+
+
+SPEAKER_00 (5 segs, 7.4s, 2 embedded)
+  "In position, ma'am."
+  "Codename Father's Brother appears testing."
+  "Oh, no!"
+  "Uh, no."
+  "Can we flee in a panic?"
+
+SPEAKER_01 (6 segs, 11.5s, 3 embedded)
+  "Jake's right."
+  "A good song can really wrap people up in a mood better than any words alone coul"
+  "Actually, I've been working on a new song myself."
+  "It's about a really specific feeling that's hard to describe."
+  "Would you like to hear it?"
+
+SPEAKER_02 (3 segs, 16.5s, 3 embedded)
+  "Cake, pick me up!"
+  "My friends, it is time to set aside past differences."
+  "We must join the fight!"
+
+SPEAKER_03 (56 segs, 160.9s, 32 embedded)
+  "Welcome, friends."
+  "I've been expecting you."
+  "Because of my proximity radar."
+  "Come on inside."
+  "Yeah, that's me, all right."
+
+SPEAKER_04 (48 segs, 65.6s, 19 embedded)
+  "Adventure time."
+  "Come on, grab your friends."
+  "We'll go too far off."
+  "Future lands with Shermie and Beth, the pup princess."
+  "The fun will never end."
+
+SPEAKER_05 (33 segs, 65.9s, 18 embedded)
+  "A word?"
+  "Alright, just make it quick."
+  "Please."
+  "Well, I know you're under a lot of pressure here."
+  "But I..."
+
+SPEAKER_06 (45 segs, 66.8s, 17 embedded)
+  "Beth, you're doing it wrong."
+  "Like this."
+  "What about you, Princess Zip?"
+  "What are your goals?"
+  "Princess Zip's got a one-track mind."
+
+SPEAKER_07 (35 segs, 61.3s, 17 embedded)
+  "That's great."
+  "Come on, let's make sundaes."
+  "Good thing he isn't here then."
+  "Hey, you want some cherries with that chocolate syrup?"
+  "Simon."
+
+SPEAKER_08 (102 segs, 182.4s, 42 embedded)
+  "At the stroke of high noon, when the sun is at its most zenithist, banana battal"
+  "But my... My plan!"
+  "Hot air balloon!"
+  "Hey!"
+  "Now's not the time."
+
+SPEAKER_09 (74 segs, 122.2s, 33 embedded)
+  "Hey, there it is again."
+  "It's close."
+  "Let me see!"
+  "It looks like... Normal Man, Betty, and... Maja?"
+  "Hey, maybe this is like a bad omen."
+
+SPEAKER_10 (10 segs, 36.1s, 7 embedded)
+  "See?"
+  "This is our shared torment!"
+  "I blocked this stuff out for a reason!"
+  "Well, now you know how I feel about knowing how you feel about- Okay, okay, just"
+  "We gotta confront them head on!"
+
+SPEAKER_11 (28 segs, 52.8s, 13 embedded)
+  "Your farts aren't funny, Dad."
+  "No!"
+  "Yep."
+  "We donked up for real."
+  "Yes, Mom?"
+
+SPEAKER_12 (5 segs, 8.7s, 2 embedded)
+  "Enemy threat restrained."
+  "They got him!"
+  "Awaiting orders."
+  "Help me, Mom."
+  "I'm turning nasty."
+
+SPEAKER_13 (59 segs, 111.7s, 23 embedded)
+  "It's been real cool being in this rogue's gallery with you."
+  "Me and Gutter were gonna go, uh... Oh... my... Gulp!"
+  "Look, Betty, I keep seeing reference to this mysterious entity that embodies cha"
+  "Gulp would say ice cream is without meaning."
+  "Just empty calories devoid of purpose."
+
+SPEAKER_14 (27 segs, 44.4s, 8 embedded)
+  "Sleepy puppies."
+  "Ah, a nightmare fart!"
+  "Ah, what reeks?"
+  "Repressed memories!"
+  "My vault!"
+
+SPEAKER_15 (76 segs, 123.3s, 33 embedded)
+  "Come on!"
+  "Hey, just let me... Maja's got smoke coming off her."
+  "You think they're with the Gumbaldians?"
+  "I don't know, but they're flipping freaking me out."
+  "Guess we better tell PB, huh?"
+
+SPEAKER_16 (8 segs, 8.7s, 2 embedded)
+  "War!"
+  "War!"
+  "War!"
+  "War!"
+  "War!"
+
+SPEAKER_17 (7 segs, 17.3s, 3 embedded)
+  "More bananas?"
+  "You're weird, bubblegum!"
+  "You!"
+  "I'm gonna figure out how to wake myself up and take my revenge on you sleepy chu"
+  "You're leaving me?"
+
+SPEAKER_18 (22 segs, 37.7s, 7 embedded)
+  "Well, that settles it then."
+  "If we know, and she knows, and we know she knows we know, which we do, then we k"
+  "We must strike now."
+  "Ladies and gentlemen, to war!"
+  "Give me your lunch."
+
+SPEAKER_19 (2 segs, 6.1s, 1 embedded)
+  "I'm me again."
+  "Whoa."
+
+SPEAKER_20 (2 segs, 21.3s, 1 embedded)
+  "Poodly-doodly-doodly-doo-dong-dong-doy Dreaming of imagination Give me imaginati"
+  "Thanks."
+
+SPEAKER_21 (27 segs, 40.1s, 13 embedded)
+  "I don't need your help."
+  "I'm gonna fly around and wreck things until I feel better."
+  "Or until I tire myself out."
+  "Peaceful thoughts."
+  "Why don't you just fight me like a real butterfly?"
+
+SPEAKER_22 (8 segs, 11.6s, 1 embedded)
+  "He never was the epiphany type, but I am willing to let bygones be bygones."
+  "Very well."
+  "Don't let it touch you!"
+  "No!"
+  "Well, great."
+
+SPEAKER_23 (8 segs, 28.4s, 5 embedded)
+  "Here we go."
+  "So, I guess everyone's just going home, huh?"
+  "Containing enemy..."
+  "So this is it."
+  "Oh, tender lad, I give you the parting gift of my lips."
+
+SPEAKER_24 (5 segs, 108.1s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "To a cliff under a tree Where we can gaze upon the water As a never-lasting drea"
+  "Maybe by next summer We won't have changed our tune We'll still want to be With "
+  "I'll share them all with you I'll be here for you always And always be with you "
+  "Check it out, dude."
+
+SPEAKER_25 (14 segs, 36.7s, 5 embedded)
+  "This is crazy."
+  "Please be careful with..."
+  "Sorry, sir."
+  "Whoa!"
+  "What?"
+
+SPEAKER_26 (8 segs, 39.3s, 3 embedded)
+  "It's adventure time."
+  "Ha!"
+  "Watch me do my tiny cafe dance!"
+  "Ha ha ha!"
+  "Yes!"
+
+SPEAKER_27 (6 segs, 16.9s, 3 embedded)
+  "Excuse me, princess, if I may."
+  "I think I have a plan that'll put an end to all this tonight."
+  "I just need a bowie knife, a snowmobile, a parachute, rubber gloves, and a..."
+  "Terrible plan!"
+  "But... No."
+
+SPEAKER_28 (12 segs, 18.6s, 5 embedded)
+  "Stonk!"
+  "They're dead!"
+  "They're actually dead!"
+  "Sneak attack!"
+  "And I'm done."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_14 <-> SPEAKER_15: 0.645  <- possible match
+  SPEAKER_14 <-> SPEAKER_15: 0.645
+  SPEAKER_14 <-> SPEAKER_28: 0.537
+  SPEAKER_07 <-> SPEAKER_25: 0.521
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S10E13.npz

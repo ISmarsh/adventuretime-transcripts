@@ -1,0 +1,12 @@
+Episode: AT.S00E09 (Frog Seasons Spring)
+1 speaker clusters, 42 total segments
+
+
+SPEAKER_00 (41 segs, 66.4s, 13 embedded)
+  "What do you think's gonna happen when he puts it on?"
+  "I don't know, but I bet it'll be froggin' cute."
+  "Maybe he'll turn into a prince."
+  "Nah, man."
+  "You gotta kiss him for that to happen."
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S00E09.npz

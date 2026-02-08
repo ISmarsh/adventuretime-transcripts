@@ -1,0 +1,60 @@
+Episode: AT.S08E17 (High Strangeness)
+7 speaker clusters, 136 total segments
+
+
+SPEAKER_00 (12 segs, 14.8s, 4 embedded)
+  "Mashed potato?"
+  "Pie pie?"
+  "Hey, where'd you go?"
+  "What?"
+  "All right, sweetie."
+
+SPEAKER_01 (12 segs, 53.2s, 7 embedded)
+  "What's that?"
+  "Oh!"
+  "It's Bushi."
+  "Hello."
+  "Welcome, Bushi."
+
+SPEAKER_02 (10 segs, 57.2s, 7 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Welcome, Train Tracks."
+  "We're the Toss Brigade!"
+  "So let's let her talk."
+
+SPEAKER_03 (62 segs, 221.0s, 41 embedded)
+  "Mmm."
+  "Oh, it's you."
+  "Meh."
+  "Okay, bye!"
+  "I think I was visited by aliens again."
+
+SPEAKER_04 (10 segs, 27.5s, 8 embedded)
+  "My babies."
+  "I am the disembodied voice of the people, and I have witnessed your fire."
+  "If given the opportunity, would you lead a small group of resistance fighters st"
+  "Starchy always screams."
+  "Hello, everyone."
+
+SPEAKER_05 (7 segs, 31.1s, 5 embedded)
+  "Hi, everyone."
+  "Hello."
+  "Yeah, there are websites that teach you."
+  "I wanted to tell you that I did what you said."
+  "We're going to fly Princess Bubblegum's probes back to our abandoned home planet"
+
+SPEAKER_06 (19 segs, 49.7s, 11 embedded)
+  "Science rules!"
+  "Here's some proof."
+  "I'm doing the right thing."
+  "Free fireworks!"
+  "Right!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_02: 0.362
+  SPEAKER_01 <-> SPEAKER_04: 0.259
+  SPEAKER_04 <-> SPEAKER_05: 0.239
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E17.npz

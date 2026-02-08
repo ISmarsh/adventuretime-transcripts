@@ -1,0 +1,20 @@
+{
+  "episode_id": "AT.S01E25",
+  "title": "His Hero",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_01": "LSP",
+    "SPEAKER_02": "Jake",
+    "SPEAKER_03": "Finn_S01-S03"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_07"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:08:41"
+}

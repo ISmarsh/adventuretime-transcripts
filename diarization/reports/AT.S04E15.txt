@@ -1,0 +1,86 @@
+Episode: AT.S04E15 (Sons of Mars)
+12 speaker clusters, 207 total segments
+
+
+SPEAKER_00 (4 segs, 27.7s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Ahh!"
+  "Whoa!"
+
+SPEAKER_01 (1 segs, 25.4s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and do so as we"
+
+SPEAKER_02 (22 segs, 58.4s, 14 embedded)
+  "It was totally silent for like a whole second."
+  "Huh."
+  "Oh, yeah."
+  "Cool."
+  "Sometimes we get so wrapped up battling stuff, we forget to... Hey."
+
+SPEAKER_03 (9 segs, 13.9s, 4 embedded)
+  "Hey, friend."
+  "Don't be afraid."
+  "I'm a gypsy child like you, running wild and crazy."
+  "Wow."
+  "A falling star."
+
+SPEAKER_04 (4 segs, 8.4s, 3 embedded)
+  "King of Mars, what's your business?"
+  "I need this one back."
+  "What will you give me for him?"
+  "Not this time, Your Majesty."
+
+SPEAKER_05 (49 segs, 78.8s, 18 embedded)
+  "Wait, wait!"
+  "Shush!"
+  "I wasn't... You hear that?"
+  "It's not..."
+  "Magic man get up."
+
+SPEAKER_06 (4 segs, 4.2s, 1 embedded)
+  "My juice!"
+  "Not flowing, right?"
+  "Dream on, honey!"
+  "Oh my god."
+
+SPEAKER_07 (2 segs, 2.0s, 0 embedded)
+  "It's downstairs."
+  "My special thing."
+
+SPEAKER_08 (40 segs, 78.8s, 22 embedded)
+  "You can't catch this!"
+  "Magic away!"
+  "Did it work?"
+  "Is he gone?"
+  "I can probably barely float So I just gotta wait till they kill your friend."
+
+SPEAKER_09 (11 segs, 23.0s, 6 embedded)
+  "There."
+  "Wait."
+  "Oh, glob."
+  "He is here somewhere, my brothers."
+  "Blob, can you see Magic Man on the centaur?"
+
+SPEAKER_10 (30 segs, 81.4s, 19 embedded)
+  "Yes, God."
+  "Our little brother is very close."
+  "Hey, flip me."
+  "Okay."
+  "I'm gonna activate the thingy that drains his magic juice."
+
+SPEAKER_11 (25 segs, 81.0s, 19 embedded)
+  "Magic Man, it bums me out to see this."
+  "I remember when you were really cool."
+  "Before that night, you spent on Olympus Mons with Margils."
+  "What happened, magic?"
+  "Why did you go crazy?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_09: 0.726  <- possible match
+  SPEAKER_03 <-> SPEAKER_09: 0.726
+  SPEAKER_03 <-> SPEAKER_10: 0.554
+  SPEAKER_04 <-> SPEAKER_11: 0.538
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E15.npz

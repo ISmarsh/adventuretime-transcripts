@@ -1,0 +1,59 @@
+Episode: AT.S02E11 (The Chamber of Frozen Blades)
+8 speaker clusters, 249 total segments
+
+
+SPEAKER_00 (2 segs, 22.1s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 26.3s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (4 segs, 11.6s, 2 embedded)
+  "Red!"
+  "Oh..."
+  "It's the Ice King!"
+  "Oh, no, no, no, not that."
+
+SPEAKER_03 (4 segs, 7.7s, 3 embedded)
+  "You sure this tip is good, Flambeau?"
+  "Come on, you know I'm on the level."
+  "The Ice King is scheming the NASA Princess today."
+  "I swaz it."
+
+SPEAKER_04 (69 segs, 139.7s, 39 embedded)
+  "Oh, great."
+  "A line."
+  "Excuse me."
+  "Pardon me."
+  "I think you actually... You're ahead of me."
+
+SPEAKER_05 (61 segs, 117.5s, 25 embedded)
+  "And if I do this hand position, my boogers should turn into smoke bombs."
+  "Relax, restless pants."
+  "A true ninja can sense the intentions of his enemies."
+  "Yep."
+  "Ever since we fished this ninja manual out of a ditch."
+
+SPEAKER_06 (87 segs, 161.1s, 43 embedded)
+  "Now we're sixth of our Ice Kingdom stakeout."
+  "After nothing's going on there."
+  "Ninjas."
+  "Ninjas ain't real for nothin' no-ho."
+  "Whoa, now."
+
+SPEAKER_07 (20 segs, 28.8s, 7 embedded)
+  "Pardon the intrusion."
+  "I'm Doctor Princess."
+  "Don't worry, sir."
+  "I specialize in treating little tuxedo people."
+  "Oh, my."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_06: 0.538
+  SPEAKER_02 <-> SPEAKER_06: 0.528
+  SPEAKER_04 <-> SPEAKER_05: 0.405
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E11.npz

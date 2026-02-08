@@ -1,0 +1,83 @@
+Episode: AT.S05E33 (Time Sandwich)
+11 speaker clusters, 203 total segments
+
+
+SPEAKER_00 (2 segs, 43.1s, 0 embedded)
+  "Come along with me and the butterflies and bees we can wander through"
+  "and you so as we please come along with me to a cliff under a tree this party is"
+
+SPEAKER_01 (4 segs, 18.8s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we can win the battle."
+
+SPEAKER_02 (4 segs, 12.4s, 3 embedded)
+  "Oh, hey Jake."
+  "Hey Sam."
+  "How long have we been in here?"
+  "I don't know."
+
+SPEAKER_03 (20 segs, 28.0s, 7 embedded)
+  "I win!"
+  "That is when he will probably take a bite."
+  "Oh, you need help?"
+  "I can help."
+  "Processing."
+
+SPEAKER_04 (17 segs, 33.1s, 8 embedded)
+  "Of course, Finn."
+  "Once you explained about Jake's sandwich, I had to."
+  "I'm picking up major levels here."
+  "Molasses."
+  "Oh."
+
+SPEAKER_05 (11 segs, 17.4s, 5 embedded)
+  "It's okay, lady."
+  "You gotta let go."
+  "He's gone now."
+  "Let me take you out for a coffee."
+  "Get your mind off things."
+
+SPEAKER_06 (6 segs, 14.7s, 4 embedded)
+  "One, two, three, four, five, six."
+  "Rosemary time."
+  "Sous vide."
+  "Keep that at 135 degrees."
+  "You're the most important part."
+
+SPEAKER_07 (24 segs, 51.5s, 15 embedded)
+  "Thank you."
+  "Magic Man!"
+  "Magic Dog!"
+  "I'll take some sandwich."
+  "You stay away from that woman."
+
+SPEAKER_08 (62 segs, 129.0s, 27 embedded)
+  "Oh, hey, ma'am."
+  "You and BMO play finger spread quietly."
+  "I need to get into the zone."
+  "I am ready to receive instruction from the realm of creation above me for the sa"
+  "I am open."
+
+SPEAKER_09 (10 segs, 19.0s, 5 embedded)
+  "What the... Jake, wait!"
+  "Stay sad man."
+  "Make yourself sad Okay"
+  "Hey, Mr. Cupcake, you stay away from Lady."
+  "No, man, stay sad."
+
+SPEAKER_10 (42 segs, 59.0s, 12 embedded)
+  "You guys want some?"
+  "It's cool, man."
+  "I know you want to eat the whole thing, and I'm cool with that."
+  "What's he doing in there?"
+  "Why did he freeze himself with my sandwich?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_09 <-> SPEAKER_10: 0.597
+  SPEAKER_06 <-> SPEAKER_08: 0.551
+  SPEAKER_08 <-> SPEAKER_09: 0.542
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E33.npz

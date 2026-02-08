@@ -1,0 +1,26 @@
+{
+  "episode_id": "FC.S01E03",
+  "title": "Cake the Cat",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_02": "Ice King",
+    "SPEAKER_09": "Young PB",
+    "SPEAKER_10": "Fionna",
+    "SPEAKER_11": "Fionna",
+    "SPEAKER_12": "Cake",
+    "SPEAKER_13": "Ice King"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_08"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T17:13:49"
+}

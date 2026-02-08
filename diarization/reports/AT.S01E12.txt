@@ -1,0 +1,63 @@
+Episode: AT.S01E12 (Evicted!)
+9 speaker clusters, 277 total segments
+
+
+SPEAKER_00 (1 segs, 20.8s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and do so as we"
+
+SPEAKER_01 (2 segs, 34.5s, 1 embedded)
+  "You know you should've stayed And fought that sexy vampire lady Jake was feeling"
+  "I'm infested in this very cute video game So there go our boys, walking on the i"
+
+SPEAKER_02 (10 segs, 47.7s, 9 embedded)
+  "What'd I tell ya?"
+  "So Finn and Jake set out to find a new home."
+  "It's gonna be tough for a kid and a dog on their own."
+  "Here's a little house off and sticking his foot in."
+  "Well, that's a bad idea, dude, because now that bird thinks you're a jerk, Finn."
+
+SPEAKER_03 (2 segs, 20.9s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_04 (64 segs, 106.9s, 29 embedded)
+  "Hey guys, what's up?"
+  "I'm Marceline, the vampire queen."
+  "Calm down, weenies."
+  "I'm not gonna do that."
+  "So you don't suck blood?"
+
+SPEAKER_05 (73 segs, 143.0s, 29 embedded)
+  "Ah, jeez!"
+  "Jake, is this stuff you're saying true or are you just trying to mess me up?"
+  "You have to be honest!"
+  "Reliable?"
+  "Rats."
+
+SPEAKER_06 (13 segs, 32.0s, 6 embedded)
+  "No way!"
+  "You're wonderful."
+  "Yes, I can."
+  "It's vampire fighting time!"
+  "Finn, no!"
+
+SPEAKER_07 (82 segs, 107.1s, 26 embedded)
+  "And as it waded through the carnage it had wrought, the vampire smashed their sk"
+  "Yes way it did!"
+  "And also, the vampire hunched over its victims and breathed their vaporized bloo"
+  "Oh, it's true, man."
+  "I heard it through a reliable source."
+
+SPEAKER_08 (3 segs, 2.8s, 1 embedded)
+  "Mm."
+  "Mm."
+  "Yeah, man."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.664  <- possible match
+  SPEAKER_06 <-> SPEAKER_07: 0.664
+  SPEAKER_02 <-> SPEAKER_03: 0.595
+  SPEAKER_01 <-> SPEAKER_02: 0.461
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E12.npz

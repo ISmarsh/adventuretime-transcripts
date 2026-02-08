@@ -1,0 +1,62 @@
+Episode: AT.S03E05 (Too Young)
+8 speaker clusters, 227 total segments
+
+
+SPEAKER_00 (3 segs, 23.1s, 3 embedded)
+  "Picture time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "I like your game, boy."
+
+SPEAKER_01 (2 segs, 27.5s, 1 embedded)
+  "Come along with me"
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+SPEAKER_02 (23 segs, 38.9s, 7 embedded)
+  "What's the status?"
+  "Good, man."
+  "Nice."
+  "Seal the deal, bro."
+  "Okay, man."
+
+SPEAKER_03 (59 segs, 112.5s, 28 embedded)
+  "Finn, where are you?"
+  "I need you to try this."
+  "I'll be there in a sec."
+  "Nah."
+  "This is an instant bath serum."
+
+SPEAKER_04 (46 segs, 59.9s, 17 embedded)
+  "OK, Finn."
+  "She's 13."
+  "You're 13."
+  "Just have fun."
+  "Be yourself."
+
+SPEAKER_05 (25 segs, 33.0s, 7 embedded)
+  "Ah!"
+  "So Spice!"
+  "You So Spice!"
+  "Blah, blah, blah!"
+  "Announcing the arrival of the Earl of Lemongrab!"
+
+SPEAKER_07 (45 segs, 116.1s, 25 embedded)
+  "This castle is in UNACCEPTABLE CONDITION!"
+  "UNACCEPTABLE!"
+  "Thirty days in the dungeon!"
+  "For who?"
+  "Everyone in this room!"
+
+SPEAKER_08 (19 segs, 38.1s, 10 embedded)
+  "Who are you talking to?"
+  "Yes, all the castle staff."
+  "Thank you for releasing me from the dungeon early, Master Leningrad."
+  "I determine what is early and what is late, Mr. Peppermint."
+  "Yes, Your Earlness."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_07: 0.568
+  SPEAKER_07 <-> SPEAKER_08: 0.473
+  SPEAKER_00 <-> SPEAKER_05: 0.472
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E05.npz

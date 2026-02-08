@@ -1,0 +1,60 @@
+Episode: AT.S04E07 (In Your Footsteps)
+8 speaker clusters, 205 total segments
+
+
+SPEAKER_00 (5 segs, 19.4s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+  "The fun will never end today."
+
+SPEAKER_01 (3 segs, 4.9s, 1 embedded)
+  "Did you bring the book?"
+  "Yes."
+  "One step closer."
+
+SPEAKER_02 (4 segs, 4.9s, 1 embedded)
+  "It's awesome."
+  "Sweeping weak."
+  "Brathtub."
+  "In."
+
+SPEAKER_03 (12 segs, 15.7s, 5 embedded)
+  "Very, very well."
+  "What?"
+  "Hey, Princess Bubblegum."
+  "Hey, everybody."
+  "What?"
+
+SPEAKER_04 (103 segs, 166.6s, 36 embedded)
+  "You gonna do the thing again?"
+  "Yeah, man."
+  "What?"
+  "Nice."
+  "Hey, Princess Bubblegum."
+
+SPEAKER_05 (4 segs, 5.9s, 1 embedded)
+  "Um, yeah, okay."
+  "Sweepy, sweepy, sweepy."
+  "Sweep, sweep, sweep."
+  "Sweepin'."
+
+SPEAKER_06 (70 segs, 130.1s, 31 embedded)
+  "Man, dancing is rough."
+  "Hey, man, I'm Jake."
+  "I'm Jake."
+  "Whoa, Finn."
+  "Nice book."
+
+SPEAKER_07 (2 segs, 28.2s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "To a cliff under a tree This party is so crazy"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_06: 0.552
+  SPEAKER_00 <-> SPEAKER_07: 0.408
+  SPEAKER_04 <-> SPEAKER_06: 0.234
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E07.npz

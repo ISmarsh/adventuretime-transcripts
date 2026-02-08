@@ -1,0 +1,96 @@
+Episode: AT.S03E11 (Apple Thief)
+13 speaker clusters, 224 total segments
+
+
+SPEAKER_00 (6 segs, 9.1s, 3 embedded)
+  "Hey, hey, Finn."
+  "Um, no."
+  "I've been kind of down this hole for a long time."
+  "I got knocked down here by some naredi whales."
+  "It was terrible."
+
+SPEAKER_01 (16 segs, 20.0s, 6 embedded)
+  "Yeah, all right."
+  "I'm sorry, y'all."
+  "They're making me do this."
+  "I'll try to make it quick."
+  "Apples?"
+
+SPEAKER_02 (5 segs, 11.1s, 3 embedded)
+  "Apples?"
+  "Okay, show them the apples, Smudge."
+  "Grab them!"
+  "You go back and you tell your boss to stop looking for those apples, because the"
+  "Dr. J gonna take my apples."
+
+SPEAKER_03 (1 segs, 28.3s, 0 embedded)
+  "This party is so crazy!"
+
+SPEAKER_04 (2 segs, 26.1s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_05 (10 segs, 17.5s, 4 embedded)
+  "Banana Yard speaking."
+  "This is hard to watch."
+  "I'm gonna look away."
+  "This place could use a scarecrow."
+  "Huh?"
+
+SPEAKER_06 (47 segs, 138.1s, 28 embedded)
+  "All of what?"
+  "Apples."
+  "My apples that I raised with love from mere seedlings."
+  "Without my special apples, I won't be able to bake any more apple pies."
+  "Let me show you the crime scene."
+
+SPEAKER_07 (13 segs, 18.1s, 5 embedded)
+  "What boss?"
+  "Your boss, Dr. J!"
+  "We don't know any Dr. J. Ouch!"
+  "Come on, Smudge."
+  "What the?"
+
+SPEAKER_08 (23 segs, 41.6s, 10 embedded)
+  "Ben, lunch is ready!"
+  "Ugh, what are you cooking?"
+  "It's good, man."
+  "I learned it from Rainicorn."
+  "No ghost duties."
+
+SPEAKER_09 (15 segs, 36.7s, 8 embedded)
+  "Who's the heck happening?"
+  "Oh, OK. Let's see your ring."
+  "Um, here."
+  "Come on in."
+  "Follow this guy."
+
+SPEAKER_10 (5 segs, 14.5s, 3 embedded)
+  "What can I do for you?"
+  "You know where a guy might maybe score some apples?"
+  "Well, when you put it like that, a couple of bunnies I know have some apples for"
+  "I'll show you."
+  "Hey, fellas, these folks been asking about your... apples?"
+
+SPEAKER_11 (6 segs, 11.6s, 4 embedded)
+  "Seen any apples?"
+  "You'll ask a lot of dumb butt questions."
+  "Almost like you're trying to solve something."
+  "What?"
+  "Oh, no, no, no, no, no, no, no."
+
+SPEAKER_12 (74 segs, 128.7s, 32 embedded)
+  "Oh, I'm not eating that."
+  "It smells funny."
+  "Dude, this took me like... Let's go over to Tree Trunks's and get some apple pie"
+  "Apple pie, apple pie, apple pie, apple pie, apple pie."
+  "Let's go!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_10 <-> SPEAKER_11: 0.660  <- possible match
+  SPEAKER_10 <-> SPEAKER_11: 0.660
+  SPEAKER_09 <-> SPEAKER_10: 0.476
+  SPEAKER_09 <-> SPEAKER_11: 0.457
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E11.npz

@@ -1,0 +1,49 @@
+Episode: AT.S08E22 (Mysterious Island)
+6 speaker clusters, 161 total segments
+
+
+SPEAKER_00 (5 segs, 5.4s, 1 embedded)
+  "Oui."
+  "Ah, this is the life."
+  "I wish you guys could be here too."
+  "on the moon."
+  "And Susan, too, I guess."
+
+SPEAKER_01 (23 segs, 25.8s, 5 embedded)
+  "Hey!"
+  "No!"
+  "Jay!"
+  "Hey, Jay!"
+  "Oh, hey, buddy."
+
+SPEAKER_02 (2 segs, 10.6s, 1 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands With Ben and Jake and "
+
+SPEAKER_03 (111 segs, 221.8s, 36 embedded)
+  "Jake?"
+  "Oh, hey there, fellas."
+  "Have you by any chance seen a cool dog or a giant smelly lady come through here?"
+  "Uh, are you guys being weird?"
+  "Or is that normal crab stuff?"
+
+SPEAKER_04 (13 segs, 39.2s, 3 embedded)
+  "See?"
+  "I told you."
+  "Stop."
+  "Nay, nay, nay."
+  "Lesson, Albert."
+
+SPEAKER_05 (4 segs, 36.5s, 3 embedded)
+  "Oh."
+  "Hey, hey, hey, hey!"
+  "No!"
+  "She seems fine."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.484
+  SPEAKER_03 <-> SPEAKER_05: 0.340
+  SPEAKER_01 <-> SPEAKER_05: 0.249
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E22.npz

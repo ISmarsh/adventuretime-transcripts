@@ -1,0 +1,23 @@
+Episode: AT.S00E10 (Frog Seasons Summer)
+2 speaker clusters, 33 total segments
+
+
+SPEAKER_00 (25 segs, 34.5s, 9 embedded)
+  "Dude, how long are we going to follow this frog?"
+  "Patience, man."
+  "Something's totally going to happen."
+  "Ah, so hot."
+  "Sorry, water nymphs."
+
+SPEAKER_01 (7 segs, 31.6s, 3 embedded)
+  "Yo, Finn and Jake, if you can't take the heat, get off the kitchen."
+  "Wait, come to with us."
+  "We're ladies."
+  "Aw, you've done it now!"
+  "You know the old thing!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_01: 0.103
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S00E10.npz

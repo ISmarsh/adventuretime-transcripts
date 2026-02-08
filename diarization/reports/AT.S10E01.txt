@@ -1,0 +1,60 @@
+Episode: AT.S10E01 (The Wild Hunt)
+7 speaker clusters, 268 total segments
+
+
+SPEAKER_00 (6 segs, 29.1s, 5 embedded)
+  "Who indeed?"
+  "Who is the brilliant puppet master working tirelessly behind the scenes, complet"
+  "Why, it's me, Uncle G. Ready yourself, Princessin."
+  "Your boy hero will be no match for my next creation."
+  "Come along with me"
+
+SPEAKER_01 (52 segs, 39.8s, 5 embedded)
+  "I'm youuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu"
+  "Oh, Finn, I'm so sorry."
+  "Death is no laughing ma- Banana guard number 216?"
+  "Oh my glob, he's dead!"
+  "This is a banana fudge massacre!"
+
+SPEAKER_02 (10 segs, 15.0s, 4 embedded)
+  "Feeling good, buddy?"
+  "I'm good, but this chump's about to get slain."
+  "Slay him quick."
+  "He's got crazy double strength."
+  "Finn!"
+
+SPEAKER_03 (66 segs, 137.6s, 29 embedded)
+  "No prob."
+  "Here comes the slay."
+  "Don't kill me, Finn."
+  "Um, here I go."
+  "Mathematical."
+
+SPEAKER_04 (60 segs, 54.7s, 1 embedded)
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Okay, yeah sick of Jake I"
+  "Princess!"
+  "Princess!"
+  "Princess!"
+
+SPEAKER_05 (22 segs, 29.7s, 6 embedded)
+  "I'm scared it'll come back tonight."
+  "Me too."
+  "Can we hold hands?"
+  "I need my hand to hold my spear."
+  "Why don't you use your other hand?"
+
+SPEAKER_06 (39 segs, 71.6s, 19 embedded)
+  "Um, it's getting away."
+  "Ah!"
+  "Oh, Huntress Wizard."
+  "Hey, Finn."
+  "Come on, after that booger."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.522
+  SPEAKER_03 <-> SPEAKER_04: 0.393
+  SPEAKER_01 <-> SPEAKER_06: 0.295
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S10E01.npz

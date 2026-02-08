@@ -1,0 +1,45 @@
+Episode: AT.S01E04 (Tree Trunks)
+5 speaker clusters, 259 total segments
+
+
+SPEAKER_00 (95 segs, 216.3s, 58 embedded)
+  "Ooh, floor!"
+  "Yes!"
+  "Floor!"
+  "Ooh!"
+  "Oh, man, isn't this sore."
+
+SPEAKER_01 (107 segs, 194.9s, 54 embedded)
+  "I'm gonna eat it all before you even get there!"
+  "No!"
+  "Why are you throwing the pie away?"
+  "What are you talking about, Tree Chunks?"
+  "What could be better than your apple pie?"
+
+SPEAKER_02 (46 segs, 68.3s, 19 embedded)
+  "Don't let him eat it all."
+  "Ahh!"
+  "Best apple pie ever!"
+  "I'd carve my face on the moon so the moon would look like my face."
+  "That sounds awesome!"
+
+SPEAKER_03 (4 segs, 3.2s, 1 embedded)
+  "Ooh!"
+  "Huh?"
+  "Uh, tree trunks?"
+  "Ahh!"
+
+SPEAKER_04 (6 segs, 42.3s, 4 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then the human."
+  "The book will never end its adventure."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.321
+  SPEAKER_01 <-> SPEAKER_02: 0.298
+  SPEAKER_01 <-> SPEAKER_03: 0.190
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E04.npz

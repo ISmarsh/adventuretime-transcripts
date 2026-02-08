@@ -1,0 +1,108 @@
+Episode: AT.S06E29 (Dark Purple)
+15 speaker clusters, 173 total segments
+
+
+SPEAKER_00 (2 segs, 26.3s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (14 segs, 21.3s, 5 embedded)
+  "Check it out."
+  "I got snack for while we wait."
+  "For Marcy, red licorice."
+  "Thanks."
+  "And for BMO."
+
+SPEAKER_02 (8 segs, 12.2s, 4 embedded)
+  "Attention!"
+  "All employees report to the break room for the daily port break."
+  "Sponsored by Superport."
+  "Baby."
+  "Break time, sponsored by Super Corp, is over."
+
+SPEAKER_03 (9 segs, 28.0s, 6 embedded)
+  "Enjoy super pour."
+  "I love you, Cheryl."
+  "Enjoy Superpork!"
+  "We will, Cheryl."
+  "And welcome to the original super pork factory."
+
+SPEAKER_04 (13 segs, 21.3s, 5 embedded)
+  "Are you new here?"
+  "Break time."
+  "Break time."
+  "Get down on that fizzy."
+  "Get down on that fizzy."
+
+SPEAKER_05 (42 segs, 83.5s, 25 embedded)
+  "No, Cheryl."
+  "Susan will not enjoy."
+  "No, it's fake juice."
+  "Tough guy humans do not drink fake juice."
+  "Baby!"
+
+SPEAKER_06 (2 segs, 26.7s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "to a cliff under a tree"
+
+SPEAKER_07 (7 segs, 19.4s, 5 embedded)
+  "No one is allowed to taste pure porpoise syrup."
+  "You know this, Carla."
+  "But it looks so good."
+  "Well, of course it does."
+  "I mean, I'd smash everyone's face in this room for a single drop of pure porpois"
+
+SPEAKER_08 (11 segs, 18.0s, 5 embedded)
+  "Poor fountain."
+  "Break time."
+  "Break time."
+  "If you're thirsty and out of shape, get down on that fizzy grape."
+  "Susan didn't think this through."
+
+SPEAKER_09 (18 segs, 35.8s, 7 embedded)
+  "What?"
+  "Dude, it's Super Pork Day."
+  "Yeah."
+  "Don't you know about Super Pork Day?"
+  "Yeah, yeah, that's the one."
+
+SPEAKER_10 (8 segs, 19.9s, 4 embedded)
+  "Supercorp!"
+  "Yay!"
+  "Deimos!"
+  "Whoa!"
+  "Good job, Bozo."
+
+SPEAKER_11 (4 segs, 8.1s, 3 embedded)
+  "Where's your hairnet?"
+  "Where's your hairnet?"
+  "Where's your..."
+  "Okay, verbal warning this time."
+
+SPEAKER_12 (4 segs, 23.5s, 0 embedded)
+  "Hmm."
+  "Go away, Will!"
+  "Baby."
+  "Oh."
+
+SPEAKER_13 (16 segs, 51.4s, 5 embedded)
+  "Freak!"
+  "Sick!"
+  "So thick!"
+  "Dying!"
+  "Here he comes!"
+
+SPEAKER_14 (9 segs, 26.7s, 8 embedded)
+  "Pressy boing!"
+  "So, Finn, what are we waiting here for?"
+  "Wait, super porp, like in the old commercials?"
+  "Uh, let's see, like super porp, it hits the spot, messes up your train of though"
+  "What?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_13: 0.576
+  SPEAKER_02 <-> SPEAKER_03: 0.441
+  SPEAKER_00 <-> SPEAKER_06: 0.420
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E29.npz

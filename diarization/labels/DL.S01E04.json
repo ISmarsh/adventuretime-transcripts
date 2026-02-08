@@ -1,0 +1,37 @@
+{
+  "episode_id": "DL.S01E04",
+  "title": "Wizard City",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_04": "Young PB",
+    "SPEAKER_05": "Peppermint Butler",
+    "SPEAKER_06": "Young Marceline",
+    "SPEAKER_07": "Young Marceline",
+    "SPEAKER_08": "Peppermint Butler"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_09",
+    "SPEAKER_10",
+    "SPEAKER_11",
+    "SPEAKER_12",
+    "SPEAKER_13",
+    "SPEAKER_14",
+    "SPEAKER_15",
+    "SPEAKER_16",
+    "SPEAKER_17",
+    "SPEAKER_18",
+    "SPEAKER_19",
+    "SPEAKER_20",
+    "SPEAKER_21",
+    "SPEAKER_22",
+    "SPEAKER_23",
+    "SPEAKER_24"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T17:13:50"
+}

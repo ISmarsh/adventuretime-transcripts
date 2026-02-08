@@ -1,0 +1,93 @@
+Episode: AT.S08E03 (Beyond the Grotto)
+13 speaker clusters, 224 total segments
+
+
+SPEAKER_00 (5 segs, 15.1s, 3 embedded)
+  "A poem by me."
+  "Listen for a sound and look, look around."
+  "Unless it gresses the salt, smiles will be not"
+  "Hmm?"
+  "It's a metaphor."
+
+SPEAKER_01 (2 segs, 2.3s, 1 embedded)
+  "Hello, friends."
+  "Hello, friends."
+
+SPEAKER_02 (20 segs, 14.0s, 2 embedded)
+  "What?"
+  "Lard!"
+  "Lard!"
+  "Lard!"
+  "Lard!"
+
+SPEAKER_04 (13 segs, 27.9s, 6 embedded)
+  "Bad Lord!"
+  "Lord!"
+  "Huh?"
+  "Don't go near there!"
+  "It's too dangerous!"
+
+SPEAKER_05 (9 segs, 14.0s, 4 embedded)
+  "Yeah."
+  "We're the guardians of this grotto."
+  "You guys want to stay for lunch?"
+  "We're making hot dogs."
+  "You do know sea lards are mammals, right?"
+
+SPEAKER_06 (4 segs, 11.6s, 2 embedded)
+  "Well, seeing as sea lards are saltwater fish and the pond is a freshwater enviro"
+  "He's a stenohaline fish."
+  "Haven't you guys ever heard of osmo-regulation?"
+  "Allow me to explain."
+
+SPEAKER_07 (3 segs, 29.5s, 1 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Later."
+
+SPEAKER_08 (2 segs, 5.8s, 1 embedded)
+  "Finn and Jake."
+  "Yo, Finn and Jake are here."
+
+SPEAKER_09 (11 segs, 53.5s, 6 embedded)
+  "A one and a two."
+  "I'd rather be anything but me."
+  "A leaf on a tree, a bug or a bee."
+  "I just wanna see the sea I wanna be free from this body This flower body Please "
+  "Oh, I know."
+
+SPEAKER_10 (16 segs, 33.0s, 8 embedded)
+  "Yes, I've lost my rolling pin."
+  "Understood."
+  "What's your name, miss?"
+  "I'm Bush Boots, the little apricot anteater."
+  "Hugs!"
+
+SPEAKER_11 (80 segs, 120.4s, 34 embedded)
+  "Ugh, the sea lard's in my bed again."
+  "Gross."
+  "Dude, that's like the eighth time."
+  "I can't believe we never thought of this before."
+  "The pond is the perfect place for a sea lard."
+
+SPEAKER_12 (19 segs, 39.9s, 11 embedded)
+  "Little purple, you're a catch."
+  "I love your pretty purple sash."
+  "We're a perfect purple match."
+  "Welcome to my purple patch."
+  "I'm Princess Purple Patch and this is my little special purple."
+
+SPEAKER_13 (36 segs, 68.3s, 19 embedded)
+  "Why don't you just get rid of it?"
+  "I don't know what's gotten into it lately."
+  "It's gross as butts, man."
+  "We're taking care of this right now."
+  "Dude, it's the lard."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_07: 0.406
+  SPEAKER_12 <-> SPEAKER_13: 0.376
+  SPEAKER_04 <-> SPEAKER_07: 0.330
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E03.npz

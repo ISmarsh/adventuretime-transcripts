@@ -1,0 +1,69 @@
+Episode: AT.S06E17 (Ghost Fly)
+9 speaker clusters, 223 total segments
+
+
+SPEAKER_00 (2 segs, 20.6s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (3 segs, 25.6s, 1 embedded)
+  "Whew."
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (8 segs, 27.1s, 5 embedded)
+  "Let's get this ritual rolling."
+  "I got stuff to do."
+  "Hey!"
+  "No!"
+  "Unclean demon, feel the sting of holy water!"
+
+SPEAKER_03 (24 segs, 43.7s, 10 embedded)
+  "Yeah."
+  "Oh, that's pretty good."
+  "You said 8 to 10 is my time to do karate."
+  "It's my karate time."
+  "Jake, what's wrong?"
+
+SPEAKER_04 (33 segs, 43.7s, 8 embedded)
+  "My bad."
+  "What are you reading?"
+  "This old copy of Adventure Boy magazine."
+  "The only magazine for boy adventurers."
+  "This kid Rusty is getting chased down the river by three grown otters."
+
+SPEAKER_05 (4 segs, 7.0s, 3 embedded)
+  "We should ask what its unfinished business is."
+  "Ghosts always have unfinished business."
+  "Ghostfly, what's your problem?"
+  "Come on, dude."
+
+SPEAKER_06 (45 segs, 61.2s, 10 embedded)
+  "Jake."
+  "No more!"
+  "Ew, gross!"
+  "Nasty!"
+  "Ghostfly, catch me!"
+
+SPEAKER_07 (83 segs, 136.3s, 30 embedded)
+  "Timo, keep it down."
+  "I know, but I got a headache and I'm in a funky mood."
+  "What's wrong, dude?"
+  "I don't know."
+  "I think I got restless leg syndrome."
+
+SPEAKER_08 (11 segs, 37.8s, 3 embedded)
+  "Hey, I killed you!"
+  "Whoa!"
+  "Ah!"
+  "Ah!"
+  "Ah!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_08: 0.696  <- possible match
+  SPEAKER_06 <-> SPEAKER_08: 0.696
+  SPEAKER_05 <-> SPEAKER_07: 0.531
+  SPEAKER_00 <-> SPEAKER_08: 0.487
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E17.npz

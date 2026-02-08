@@ -1,0 +1,99 @@
+Episode: AT.S07E10 (May I Come In)
+13 speaker clusters, 189 total segments
+
+
+SPEAKER_00 (11 segs, 17.6s, 5 embedded)
+  "Whoa, girl!"
+  "Oh, no, stop!"
+  "Shush up."
+  "It's... it's okay."
+  "Animals can't climb trees."
+
+SPEAKER_01 (11 segs, 35.1s, 4 embedded)
+  "Mm-hmm."
+  "I'm gonna get you!"
+  "Come on!"
+  "See, Marcy?"
+  "Yep."
+
+SPEAKER_02 (7 segs, 16.1s, 6 embedded)
+  "You're one of those old-fashioned revenants, aren't you?"
+  "You can't come in unless I invite you in."
+  "What do you think would even happen if you just walked in here, huh?"
+  "You're so dumb, you sad old relic."
+  "How about some garlic?"
+
+SPEAKER_03 (9 segs, 6.6s, 0 embedded)
+  "Wait!"
+  "Don't go that way!"
+  "Look!"
+  "I'm out of the house!"
+  "Come back!"
+
+SPEAKER_04 (4 segs, 4.2s, 1 embedded)
+  "Ah, I feel refreshed."
+  "Are y'all hunting wabbits?"
+  "Yeah, okay, girl."
+  "You got this."
+
+SPEAKER_05 (3 segs, 11.3s, 3 embedded)
+  "Adventure time, come on, grab your friends."
+  "We're going to a very distant land with Finn and Jake and Marceline and Princess"
+  "It's adventure time."
+
+SPEAKER_06 (21 segs, 32.5s, 10 embedded)
+  "Whoa, chill, Jake."
+  "These pearls were dropped by the moon."
+  "Her main power is accelerated healing."
+  "It'll be like fighting a cutting board."
+  "Isn't vampire hunting better with friends?"
+
+SPEAKER_07 (32 segs, 51.4s, 16 embedded)
+  "Stop!"
+  "Please!"
+  "Don't be such a nerd, Crunchy."
+  "Hunting is the most royal of sports."
+  "The people expect it of their princess king."
+
+SPEAKER_08 (30 segs, 74.9s, 22 embedded)
+  "No, no, no, no, no, no, no!"
+  "Marceline, where is she?"
+  "May I come in?"
+  "Geez, aren't you cold up here?"
+  "Don't people wear coats anymore?"
+
+SPEAKER_09 (19 segs, 44.6s, 13 embedded)
+  "Oh!"
+  "Don't put that biz in your mouth, man."
+  "They could be booby-trapped or poisoned."
+  "Okay."
+  "Anyways, we should try to find her before... No!"
+
+SPEAKER_10 (6 segs, 13.4s, 5 embedded)
+  "Man, I can't believe they just left me here."
+  "All unarmed and tethered like this."
+  "Boy, my neck sure is hot."
+  "This baby needs to get some air."
+  "Let's do it."
+
+SPEAKER_11 (27 segs, 37.6s, 9 embedded)
+  "What are you gonna turn into next?"
+  "A puppy?"
+  "Baby Goose?"
+  "I'm a... vampire."
+  "Hierophant!"
+
+SPEAKER_12 (6 segs, 6.7s, 2 embedded)
+  "Mm-hmm."
+  "1619."
+  "One vampire."
+  "Two vampire."
+  "Jake, check me out."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_10 <-> SPEAKER_12: 0.495
+  SPEAKER_00 <-> SPEAKER_11: 0.445
+  SPEAKER_05 <-> SPEAKER_06: 0.416
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E10.npz

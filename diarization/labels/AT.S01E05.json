@@ -1,0 +1,23 @@
+{
+  "episode_id": "AT.S01E05",
+  "title": "The Enchiridion!",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_05": "Princess Bubblegum",
+    "SPEAKER_06": "Finn_S01-S03",
+    "SPEAKER_07": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_10"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:08:28"
+}

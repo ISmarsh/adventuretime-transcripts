@@ -1,0 +1,26 @@
+{
+  "episode_id": "FC.S01E01",
+  "title": "Fionna Campbell",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_09": "Young Marceline",
+    "SPEAKER_10": "LSP",
+    "SPEAKER_11": "Fionna"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_12",
+    "SPEAKER_13"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T17:13:49"
+}

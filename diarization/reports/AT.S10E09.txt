@@ -1,0 +1,57 @@
+Episode: AT.S10E09 (Blenanas)
+7 speaker clusters, 216 total segments
+
+
+SPEAKER_00 (3 segs, 42.0s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "This party is so crazy!"
+
+SPEAKER_01 (19 segs, 28.1s, 6 embedded)
+  "What you doing, Bin?"
+  "It's for me!"
+  "This is Jake's special quote to tell me he loves me."
+  "Be right back."
+  "Fluffin, my Jake Valentines."
+
+SPEAKER_02 (23 segs, 55.0s, 10 embedded)
+  "I repeat, this is a drill!"
+  "You two, raise your resonance glaze shield!"
+  "Activate the BHT to preserve freshness."
+  "We're not ready."
+  "Intruder!"
+
+SPEAKER_03 (4 segs, 31.9s, 4 embedded)
+  "This is a drill!"
+  "Hello, Ice King."
+  "What do you like to wish for?"
+  "Hello, boys."
+
+SPEAKER_04 (21 segs, 30.8s, 8 embedded)
+  "Hey."
+  "Aw, who are you?"
+  "I'm a pudding troll, and I guard this humor magazine."
+  "Uh, why?"
+  "It's my job."
+
+SPEAKER_05 (56 segs, 118.1s, 32 embedded)
+  "Hey, what do you think you're... Oh, Princess Bubblegum."
+  "Thank you, Princess."
+  "This is so funny!"
+  "Come on!"
+  "Yeah, I didn't draw that, but, uh, cool."
+
+SPEAKER_06 (90 segs, 161.5s, 48 embedded)
+  "BRB."
+  "Jake."
+  "Hmm."
+  "BRB."
+  "BRB."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_03: 0.481
+  SPEAKER_01 <-> SPEAKER_02: 0.395
+  SPEAKER_02 <-> SPEAKER_06: 0.243
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S10E09.npz

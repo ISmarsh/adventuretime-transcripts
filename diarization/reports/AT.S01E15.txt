@@ -1,0 +1,55 @@
+Episode: AT.S01E15 (What is Life)
+7 speaker clusters, 275 total segments
+
+
+SPEAKER_00 (7 segs, 19.7s, 4 embedded)
+  "Hey, man."
+  "Whatever."
+  "I'm going to take a day-long nap."
+  "Whoa!"
+  "Alarm."
+
+SPEAKER_01 (3 segs, 1.0s, 0 embedded)
+  "Yay!"
+  "To the Mesosphere!"
+  "Oh!"
+
+SPEAKER_02 (81 segs, 151.0s, 43 embedded)
+  "Is that you, honey?"
+  "How was your day at work?"
+  "Terrible!"
+  "How could I possibly stand to be apart from you, the Ice King?"
+  "You see, Gunter, that's how it would go if I actually had a wife."
+
+SPEAKER_03 (149 segs, 290.5s, 82 embedded)
+  "What's so funny?"
+  "Oh, you know, just taking this garbage bag of butter into the house."
+  "Dude, that's not that funny."
+  "Aw, butter pranked!"
+  "I can't believe I didn't see that coming."
+
+SPEAKER_04 (21 segs, 45.2s, 12 embedded)
+  "Greetings, Creator."
+  "Oh, whoa."
+  "Hey, man."
+  "My name is NEPTER, which stands for Never-Ending Pie-Throwing Robot."
+  "Creator, I am eager to commence the creation and propulsion of pies forever, but"
+
+SPEAKER_05 (2 segs, 19.8s, 2 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "To a cliff under a tree"
+
+SPEAKER_06 (5 segs, 19.8s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then the human."
+  "The book will never end its adventure."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.539
+  SPEAKER_05 <-> SPEAKER_06: 0.355
+  SPEAKER_00 <-> SPEAKER_03: 0.277
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E15.npz

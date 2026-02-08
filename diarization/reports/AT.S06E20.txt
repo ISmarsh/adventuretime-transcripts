@@ -1,0 +1,43 @@
+Episode: AT.S06E20 (Jake The Brick)
+5 speaker clusters, 161 total segments
+
+
+SPEAKER_00 (43 segs, 48.5s, 11 embedded)
+  "Hey, man."
+  "Yeah."
+  "So how's your experiment going?"
+  "It's going great."
+  "I really feel like I fit in, so to speak."
+
+SPEAKER_01 (5 segs, 6.9s, 2 embedded)
+  "Oh, hey, Finn."
+  "So you got my map?"
+  "Oh my god, it's a crazy storm."
+  "This might be it."
+  "This weather might knock the whole thing down."
+
+SPEAKER_02 (106 segs, 306.9s, 69 embedded)
+  "No, I think I'm just going to keep being a brick for a while."
+  "Umm... What are you doing again?"
+  "Finn, ever since I was little, I wanted to see what it's like to be a brick in a"
+  "And this shack is gonna fall down."
+  "Just look at it!"
+
+SPEAKER_03 (5 segs, 29.8s, 4 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "A bunny."
+  "Hi, Jake."
+  "Yay!"
+
+SPEAKER_04 (2 segs, 26.1s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "to a cliff under a tree"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_02: 0.474
+  SPEAKER_03 <-> SPEAKER_04: 0.471
+  SPEAKER_00 <-> SPEAKER_02: 0.231
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E20.npz

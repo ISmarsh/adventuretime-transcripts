@@ -1,0 +1,25 @@
+{
+  "episode_id": "FC.S01E04",
+  "title": "Prismo the Wishmaster",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_02": "Fionna",
+    "SPEAKER_03": "Fionna",
+    "SPEAKER_04": "Cake",
+    "SPEAKER_09": "Ice King",
+    "SPEAKER_11": "Fionna",
+    "SPEAKER_12": "Fionna",
+    "SPEAKER_10": "Prismo_FC"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_08"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T18:09:20"
+}

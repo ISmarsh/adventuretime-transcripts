@@ -1,0 +1,94 @@
+Episode: AT.S03E12 (The Creeps)
+13 speaker clusters, 226 total segments
+
+
+SPEAKER_00 (2 segs, 27.5s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 25.8s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (76 segs, 148.1s, 38 embedded)
+  "Let me check the spooky invites sent to us by our anonymous host."
+  "Oh, we're here."
+  "Party's in that castle."
+  "It's for us."
+  "What's it say?"
+
+SPEAKER_03 (26 segs, 42.7s, 15 embedded)
+  "Yoo-hoo!"
+  "Hey, guys!"
+  "Why, yes, indeed."
+  "Although, according to the invitation, we're supposed to use mystery names."
+  "And mine is Lady Quietbottom."
+
+SPEAKER_04 (10 segs, 24.3s, 5 embedded)
+  "Ooh!"
+  "Don't touch me!"
+  "Don't touch me!"
+  "Dad!"
+  "This wasn't supposed to ha-happen."
+
+SPEAKER_05 (12 segs, 33.9s, 9 embedded)
+  "My eyeballs."
+  "Processing data Huh, so who's the ghost bemo?"
+  "Oh um?"
+  "I don't have a ghost detecting equipment."
+  "I just like taking nice pictures."
+
+SPEAKER_06 (3 segs, 3.1s, 0 embedded)
+  "I'm ready for you now, Brad."
+  "Isn't that up, V?"
+  "I'm so ready."
+
+SPEAKER_07 (7 segs, 14.0s, 4 embedded)
+  "Now's my chance."
+  "No way."
+  "But I can make you happy."
+  "Puke up, you big Jonah."
+  "Okay."
+
+SPEAKER_08 (29 segs, 74.0s, 17 embedded)
+  "My name is Duchess Gummybuns."
+  "I'm Professor Pence."
+  "I'm Cinnamonbun."
+  "What's the name on your invite?"
+  "Oh, yeah."
+
+SPEAKER_09 (5 segs, 7.0s, 2 embedded)
+  "Okay."
+  "Nah, you must have been so scared you imagined that part."
+  "No, I didn't."
+  "Ha ha, nice try, Finn."
+  "Let's get out of here."
+
+SPEAKER_10 (4 segs, 10.6s, 3 embedded)
+  "Yeah, right."
+  "OK. Lay truth on me, BMO."
+  "Is Finn pulling some elaborate prank on me?"
+  "The ghost got him."
+
+SPEAKER_11 (26 segs, 41.4s, 8 embedded)
+  "This stinks."
+  "Hey, how much longer till we get to the mysterious party?"
+  "Let's find some candles."
+  "Ooh!"
+  "Thanks, BMO!"
+
+SPEAKER_12 (20 segs, 36.3s, 10 embedded)
+  "Come on, you don't remember when I pulled this same trick on your birthday?"
+  "I used the fake skeletons to make you think everyone was dead."
+  "What do you mean hmm?"
+  "Sounds like she's in there"
+  "Why did you break up with Brad?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_11 <-> SPEAKER_12: 0.717  <- possible match
+  SPEAKER_11 <-> SPEAKER_12: 0.717
+  SPEAKER_10 <-> SPEAKER_12: 0.589
+  SPEAKER_04 <-> SPEAKER_11: 0.587
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E12.npz

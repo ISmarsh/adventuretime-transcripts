@@ -1,0 +1,78 @@
+Episode: AT.S07E08 (Vamps About)
+10 speaker clusters, 191 total segments
+
+
+SPEAKER_00 (14 segs, 25.9s, 7 embedded)
+  "Fell asleep?"
+  "We died."
+  "The demon Marceline staked us all."
+  "Why are we back?"
+  "How did it happen?"
+
+SPEAKER_01 (32 segs, 60.7s, 19 embedded)
+  "Fool, this is life."
+  "Get a hot dog if you can't take the bun."
+  "The gold leaf was stupid."
+  "It didn't taste like anything."
+  "Surely?"
+
+SPEAKER_02 (7 segs, 21.9s, 4 embedded)
+  "Hold on, I'm working."
+  "If I may."
+  "Strong enough for an ultra vampire, but made for a vampire."
+  "Yes, and what's this behind your ear?"
+  "A super garlic bomb."
+
+SPEAKER_03 (20 segs, 46.7s, 14 embedded)
+  "It tastes different here."
+  "Where are we?"
+  "It's like we fell asleep on a raft and woke up in strange seas."
+  "This is well and good for you, Hierophant."
+  "All you ever needed was a forest and something hot to chew on."
+
+SPEAKER_04 (11 segs, 17.2s, 5 embedded)
+  "It's all over there, safely in the safety bucket."
+  "What?"
+  "Pat-Butt, what'd you do with the gunk?"
+  "How do we fight them?"
+  "What the heck, Peps?"
+
+SPEAKER_05 (4 segs, 15.1s, 3 embedded)
+  "Adventure Time, come on, grab your friends."
+  "We're going to a very distant land with Finn and Jake and Marceline and Princess"
+  "It's Adventure Time."
+  "Oh, getting dizzy."
+
+SPEAKER_06 (64 segs, 141.3s, 32 embedded)
+  "You sure the sun's not hurting you at all?"
+  "No, this is great."
+  "I can even feel my skin aging."
+  "What?"
+  "No, I'm cured."
+
+SPEAKER_07 (3 segs, 3.6s, 0 embedded)
+  "Surely..."
+  "Wait!"
+  "This party is so-"
+
+SPEAKER_08 (11 segs, 39.8s, 8 embedded)
+  "Hey, this is nuts, right?"
+  "Look, I got both my teeth."
+  "Look, I lost one in the box for the once."
+  "Also, I used to be dead."
+  "Does anyone have any milk for this?"
+
+SPEAKER_09 (23 segs, 58.5s, 14 embedded)
+  "Moo."
+  "Moo?"
+  "Good old backwards A. I don't like to dance."
+  "Cow, teeth, and chili tempo."
+  "I ran into some vampires."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_06: 0.399
+  SPEAKER_08 <-> SPEAKER_09: 0.268
+  SPEAKER_04 <-> SPEAKER_06: 0.221
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E08.npz

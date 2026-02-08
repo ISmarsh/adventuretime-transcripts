@@ -1,0 +1,50 @@
+Episode: AT.S10E04 (Bonnibel Bubblegum)
+6 speaker clusters, 167 total segments
+
+
+SPEAKER_00 (3 segs, 38.8s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "That guy."
+
+SPEAKER_01 (16 segs, 22.3s, 7 embedded)
+  "Thanks, Ven."
+  "Hey, where'd you get this goblet?"
+  "It reminds me of a cup my uncle used to have."
+  "You mean your Uncle Gumball, right?"
+  "I don't know."
+
+SPEAKER_02 (4 segs, 8.6s, 3 embedded)
+  "The juice!"
+  "No!"
+  "Hey, where's the party?"
+  "What a mess."
+
+SPEAKER_03 (18 segs, 30.9s, 9 embedded)
+  "Help."
+  "Help me."
+  "Oh, goodness me."
+  "Someone, please help me."
+  "I'm a defenseless little goblin surrounded by all this loot."
+
+SPEAKER_04 (64 segs, 141.8s, 40 embedded)
+  "No."
+  "It was from when BMO was playing dress-up."
+  "Do tell."
+  "You never talk about your family."
+  "Naturally, I am a gentleman of high standing."
+
+SPEAKER_05 (62 segs, 104.2s, 27 embedded)
+  "Whew."
+  "A goblet of sparkling apple juice for my lady."
+  "Oh, I think we went in a fight with an octopus we were fighting in, like, a sea "
+  "Oh, you poor thing."
+  "Here, have a drink to ease your nerves while I untie you."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_05: 0.597
+  SPEAKER_00 <-> SPEAKER_02: 0.408
+  SPEAKER_00 <-> SPEAKER_03: 0.363
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S10E04.npz

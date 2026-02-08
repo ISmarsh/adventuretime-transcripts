@@ -1,0 +1,54 @@
+Episode: AT.S02E16 (Guardians of Sunshine)
+7 speaker clusters, 249 total segments
+
+
+SPEAKER_00 (2 segs, 36.7s, 1 embedded)
+  "Come along with me and the butterflies and bees We can wander through the forest"
+  "To a cliff under a tree This party is so crazy!"
+
+SPEAKER_01 (18 segs, 27.2s, 8 embedded)
+  "Oh wait."
+  "Hold up guys, check it out."
+  "Sunshine."
+  "Oh boy, that feels good."
+  "Alright."
+
+SPEAKER_02 (14 segs, 28.7s, 7 embedded)
+  "Oh, no."
+  "It's much more dangerous than you think."
+  "Whoa, whoa, wait."
+  "Yes, of course, Jake."
+  "If I push this button..."
+
+SPEAKER_03 (10 segs, 10.5s, 1 embedded)
+  "Finn's dead!"
+  "Finn!"
+  "No!"
+  "Why?"
+  "Error, error, error."
+
+SPEAKER_05 (117 segs, 224.2s, 52 embedded)
+  "Time to protect the Sun Yeah, he knows how to get things started fire pit number"
+  "It's probably a computer bleach ha"
+  "Please."
+  "Bleep."
+  "I had my eyes closed on that one."
+
+SPEAKER_06 (79 segs, 135.8s, 29 embedded)
+  "Now comes some real trouble."
+  "It's Bouncy B."
+  "He's gonna get that sun, man."
+  "Man, you were hot tonight."
+  "Think you can do it this time?"
+
+SPEAKER_07 (2 segs, 20.8s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_06: 0.508
+  SPEAKER_03 <-> SPEAKER_06: 0.501
+  SPEAKER_00 <-> SPEAKER_07: 0.398
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E16.npz

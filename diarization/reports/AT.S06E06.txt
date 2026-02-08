@@ -1,0 +1,94 @@
+Episode: AT.S06E06 (Breezy)
+13 speaker clusters, 201 total segments
+
+
+SPEAKER_00 (2 segs, 28.5s, 1 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 26.0s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (5 segs, 9.5s, 3 embedded)
+  "I'm lost in the darkness."
+  "What will this bring?"
+  "Autumn descends on me, autumn."
+  "What?"
+  "Who calls to my heart?"
+
+SPEAKER_03 (14 segs, 22.3s, 8 embedded)
+  "Ben!"
+  "Ben!"
+  "I saw this already!"
+  "I know all about your dirty deeds."
+  "Now it's Lumpy's time to slump those lips."
+
+SPEAKER_04 (13 segs, 14.8s, 4 embedded)
+  "Watch it, crab princess!"
+  "I'm sorry."
+  "You ain't my man, so why are you all up in my lungs?"
+  "You're about to get waggle-danced, you chicken!"
+  "Ow!"
+
+SPEAKER_05 (20 segs, 40.1s, 10 embedded)
+  "Eh, I'm trying something new."
+  "Hey, how's it going, miss?"
+  "Whoa, you're a dead ringer for Flame Princess, with a smidge of Princess Bubbleg"
+  "Guess you're still hung up on both of them, bro."
+  "I ain't hung up on nobody."
+
+SPEAKER_06 (10 segs, 23.1s, 6 embedded)
+  "Yo, shut it!"
+  "She's an independent lady!"
+  "Yeah, shut it!"
+  "I... Hey, you guys want to roast a wiener?"
+  "Oh no, Flower!"
+
+SPEAKER_07 (3 segs, 19.5s, 2 embedded)
+  "That's what I meant."
+  "What's up with your head?"
+  "Woo-hoo!"
+
+SPEAKER_08 (6 segs, 45.0s, 5 embedded)
+  "What do I see?"
+  "Oh, so beautiful My heart, it beats Oh, so magical I'm lost in the darkness What"
+  "I see love beyond reason What do I hear?"
+  "Oh, so beautiful Blooming, this voiceless singing Is this a dream?"
+  "Oh, so magical My chest is full to burst"
+
+SPEAKER_09 (46 segs, 85.4s, 19 embedded)
+  "Hey, Finn, could you pour this juice into my mouth?"
+  "I can't reach my juice."
+  "Oh, I'm so sorry."
+  "I didn't realize."
+  "Uh, yes, I'm sorry, but it's only because your flower's the greatest miracle of "
+
+SPEAKER_10 (21 segs, 31.6s, 8 embedded)
+  "Hmm."
+  "What is it?"
+  "It's looking droopier."
+  "But I've been pounding pickle juice like I was preggos for the electrolytes."
+  "Well, switch back to water."
+
+SPEAKER_11 (8 segs, 14.6s, 5 embedded)
+  "Hey, I'm our old princess."
+  "You know it would blow this party up."
+  "What?"
+  "We all got in a line and just showed off our moves."
+  "Thanks for locking me home, Finn."
+
+SPEAKER_12 (49 segs, 81.4s, 22 embedded)
+  "What?"
+  "Oh, I don't know."
+  "I guess I don't feel anything."
+  "Bleh."
+  "You wanna go with me to Crab Princess's party tonight?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_10 <-> SPEAKER_11: 0.595
+  SPEAKER_02 <-> SPEAKER_12: 0.563
+  SPEAKER_00 <-> SPEAKER_07: 0.483
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E06.npz

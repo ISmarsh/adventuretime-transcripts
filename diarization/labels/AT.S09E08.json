@@ -1,0 +1,22 @@
+{
+  "episode_id": "AT.S09E08",
+  "title": "Hero Heart",
+  "season": 9,
+  "speaker_map": {
+    "SPEAKER_01": "Ice King",
+    "SPEAKER_03": "LSP",
+    "SPEAKER_04": "LSP",
+    "SPEAKER_05": "Finn_S07-S10",
+    "SPEAKER_06": "Princess Bubblegum",
+    "SPEAKER_08": "Marceline"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_02",
+    "SPEAKER_07",
+    "SPEAKER_09"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:49:55"
+}

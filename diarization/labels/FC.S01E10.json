@@ -1,0 +1,30 @@
+{
+  "episode_id": "FC.S01E10",
+  "title": "Cheers",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_04": "Fionna",
+    "SPEAKER_06": "Ice King",
+    "SPEAKER_07": "Simon",
+    "SPEAKER_05": "The Scarab"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_10",
+    "SPEAKER_11",
+    "SPEAKER_12",
+    "SPEAKER_13",
+    "SPEAKER_14",
+    "SPEAKER_15",
+    "SPEAKER_16",
+    "SPEAKER_17"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T18:09:25"
+}

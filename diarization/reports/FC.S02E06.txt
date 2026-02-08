@@ -1,0 +1,161 @@
+Episode: FC.S02E06 (The Bird in the Clock)
+22 speaker clusters, 358 total segments
+
+
+SPEAKER_00 (6 segs, 8.4s, 2 embedded)
+  "A little-known fact, Sammy."
+  "Your ancient Egyptians there worshipped the feline animal."
+  "Finn?"
+  "I hate this."
+  "This is it!"
+
+SPEAKER_01 (4 segs, 2.9s, 0 embedded)
+  "Simone?"
+  "Simone?"
+  "Simone!"
+  "What?"
+
+SPEAKER_02 (8 segs, 20.2s, 5 embedded)
+  "I hate seeing him this way."
+  "I didn't want to bring this up, but I know a way to save him."
+  "Okay!"
+  "Why did you have to be such a stupid, blubbering meat sack?"
+  "Why did you have to get hurt?"
+
+SPEAKER_03 (22 segs, 45.7s, 11 embedded)
+  "Fiona, I wanted to say... Hey, Fiona, I'm sorry I hung up on you."
+  "I was feeling..."
+  "Hey!"
+  "Don't touch me."
+  "You're me?"
+
+SPEAKER_04 (32 segs, 46.9s, 10 embedded)
+  "Finn!"
+  "Croak dream?"
+  "Yeah, the Cosmic Owl's presence makes dreams come true."
+  "And he's on his way to give Finn a death dream."
+  "I was trying to stop him, but I lost his trail thanks to you."
+
+SPEAKER_05 (15 segs, 56.4s, 7 embedded)
+  "Wrong!"
+  "Fin."
+  "Huh?"
+  "Huh?"
+  "Huh?"
+
+SPEAKER_06 (18 segs, 21.9s, 4 embedded)
+  "Shout out to all my babies out there."
+  "Looking forward to being with you through the night."
+  "Flame's got you."
+  "Just like my dream."
+  "Up next, we got something off my first EP, Firefly."
+
+SPEAKER_07 (17 segs, 15.1s, 2 embedded)
+  "You."
+  "My head is fine."
+  "My heart is heavy."
+  "Che ran away with little destiny."
+  "Your world?"
+
+SPEAKER_08 (14 segs, 33.3s, 9 embedded)
+  "You're listening to the original GROF."
+  "My name is DJ Slime."
+  "It's five past the hour."
+  "Get ready for an all night jam with DJ Flame."
+  "You're so cool."
+
+SPEAKER_09 (9 segs, 15.8s, 7 embedded)
+  "But that's just cosmetic."
+  "You're only treating the symptoms."
+  "Marceline!"
+  "There you go, Marcy."
+  "Get all those color nutrients."
+
+SPEAKER_10 (15 segs, 28.0s, 8 embedded)
+  "What's up, Fiona?"
+  "Is everything okay?"
+  "You sounded so serious on the phone."
+  "Dead serious."
+  "Who's your surly friend?"
+
+SPEAKER_11 (21 segs, 37.1s, 9 embedded)
+  "Oh, she's an alternate version of Hunter, marooned in our universe."
+  "Hey, don't go down that path with that lady."
+  "I know where it leads."
+  "What?"
+  "No, you don't."
+
+SPEAKER_12 (14 segs, 58.6s, 12 embedded)
+  "A long time ago, before the dawn of most things, there were two brothers."
+  "And they were inseparable."
+  "They were a mischievous pair."
+  "And one day, their pranks went too far."
+  "They were so proud of eating the etheric pizza which they had been told never to"
+
+SPEAKER_13 (12 segs, 19.2s, 7 embedded)
+  "You're just gonna plump them up?"
+  "That's not real."
+  "That's so weird."
+  "You're dreaming about my next stop."
+  "I'm gonna give Finn a croak dream."
+
+SPEAKER_14 (6 segs, 12.6s, 4 embedded)
+  "Oh."
+  "Wait, what are we doing here?"
+  "Why?"
+  "But why would you want to?"
+  "Man, I don't know about this."
+
+SPEAKER_15 (4 segs, 6.3s, 3 embedded)
+  "It's okay, Emcron."
+  "She's gone now."
+  "Let me take you out for coffee."
+  "Get your mind off things."
+
+SPEAKER_16 (7 segs, 6.1s, 1 embedded)
+  "Marceline."
+  "Marceline."
+  "Why hesitate, child?"
+  "Bestow upon him the dark gift."
+  "Do it."
+
+SPEAKER_17 (4 segs, 6.7s, 2 embedded)
+  "Finn?"
+  "Archers, ready!"
+  "Losers!"
+  "Yeah, yeah!"
+
+SPEAKER_18 (2 segs, 1.0s, 0 embedded)
+  "Who are you?"
+  "Dang!"
+
+SPEAKER_19 (21 segs, 30.6s, 10 embedded)
+  "Welcome!"
+  "Why?"
+  "Can't a mother help her son?"
+  "Oh, Marshall, you belong here."
+  "How do you like yourself in Carrara marble, darling?"
+
+SPEAKER_20 (14 segs, 38.4s, 8 embedded)
+  "No vampire stuff."
+  "I have a better idea."
+  "Hey, old lady princess!"
+  "Oh, oh, oh, I'm here!"
+  "Are we doing more kissing?"
+
+SPEAKER_21 (86 segs, 192.9s, 34 embedded)
+  "Nice ambiance."
+  "No, Hunter."
+  "I've got good news, everybody."
+  "Follow me."
+  "You coming, HW?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_20 <-> SPEAKER_21: 0.674  <- possible match
+  SPEAKER_02 <-> SPEAKER_04: 0.649  <- possible match
+  SPEAKER_20 <-> SPEAKER_21: 0.674
+  SPEAKER_02 <-> SPEAKER_04: 0.649
+  SPEAKER_03 <-> SPEAKER_04: 0.581
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S02E06.npz

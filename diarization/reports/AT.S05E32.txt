@@ -1,0 +1,119 @@
+Episode: AT.S05E32 (Earth & Water)
+16 speaker clusters, 235 total segments
+
+
+SPEAKER_00 (6 segs, 12.7s, 3 embedded)
+  "The word!"
+  "The word!"
+  "What's the word?"
+  "The word is your newborn baby will have greater powers than you'll ever dream of"
+  "Ah."
+
+SPEAKER_01 (4 segs, 18.8s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we can win the battle."
+
+SPEAKER_02 (41 segs, 116.4s, 24 embedded)
+  "Yeah, yeah, just act like I'm not here."
+  "Are you spying on me?"
+  "What?"
+  "No, of course not."
+  "I was observing you for research."
+
+SPEAKER_03 (8 segs, 17.4s, 6 embedded)
+  "Ah!"
+  "And what is that noise?"
+  "Blame king!"
+  "I found your lost daughter!"
+  "You never let me have any of those things."
+
+SPEAKER_04 (39 segs, 75.5s, 22 embedded)
+  "It's so confusing!"
+  "I thought Finn was a stand-up guy, you know?"
+  "But he basically betrayed me."
+  "Why do people even have secrets?"
+  "It's like that in the Fire Kingdom, too."
+
+SPEAKER_05 (9 segs, 7.7s, 0 embedded)
+  "Should be fine."
+  "Flame Princess isn't crazy."
+  "You're blind, Finn."
+  "You're blind."
+  "Wait, she isn't here, is she?"
+
+SPEAKER_06 (30 segs, 49.7s, 11 embedded)
+  "Why are you sneaking up our house?"
+  "Mmm."
+  "Fighting Snola constrictors really helped take my mind off things."
+  "So, uh, why am I here again?"
+  "We gotta save her."
+
+SPEAKER_07 (2 segs, 27.3s, 1 embedded)
+  "Come along with me."
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+SPEAKER_08 (18 segs, 34.2s, 11 embedded)
+  "Uh, have my baby sent into the wilderness of the outside world to perish."
+  "What do you want, princess of the gum world?"
+  "I don't remember losing anything."
+  "OK, you got me."
+  "I had her sent to wander in the woods."
+
+SPEAKER_09 (3 segs, 5.4s, 3 embedded)
+  "I need to get inside to file my taxes."
+  "Also, I like using the bathroom here."
+  "Also, I like to crop dust the lobby."
+
+SPEAKER_10 (22 segs, 34.1s, 9 embedded)
+  "Yes."
+  "Yes, Princess."
+  "Hello."
+  "You look sad."
+  "Huh, me too."
+
+SPEAKER_11 (5 segs, 31.0s, 3 embedded)
+  "Princess!"
+  "We need you and your ball-blam burglarber right away!"
+  "Kudur has created a race of strangling snow snakes!"
+  "Or snow constrictors!"
+  "What's this?"
+
+SPEAKER_12 (13 segs, 33.9s, 8 embedded)
+  "79th consecutive victory!"
+  "In your face!"
+  "You okay, buddy?"
+  "Still bummed out about Flame Princess?"
+  "I know what'll fix you up."
+
+SPEAKER_13 (13 segs, 21.8s, 8 embedded)
+  "State your business here and be quick about it!"
+  "Sorry, I'm on edge because I'm worried that Jerry here will find out I'm dating "
+  "Yeah, but why?"
+  "Doesn't your mom live in a nursing home?"
+  "Yeah, and in a different city."
+
+SPEAKER_14 (14 segs, 24.7s, 7 embedded)
+  "The Ice King!"
+  "Geez, you couldn't wait two seconds?"
+  "Didn't you get my text?"
+  "It said I'm staying with you guys."
+  "Well, didn't go through."
+
+SPEAKER_15 (5 segs, 10.6s, 3 embedded)
+  "Woo!"
+  "Ugh!"
+  "OK. Oh."
+  "Ah."
+  "Boop, boop, boop, boop."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.770  <- likely same character
+  SPEAKER_11 <-> SPEAKER_12: 0.676  <- possible match
+  SPEAKER_02 <-> SPEAKER_04: 0.672  <- possible match
+  SPEAKER_03 <-> SPEAKER_04: 0.619  <- possible match
+  SPEAKER_03 <-> SPEAKER_09: 0.602  <- possible match
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E32.npz

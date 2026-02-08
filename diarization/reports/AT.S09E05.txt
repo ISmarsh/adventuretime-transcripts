@@ -1,0 +1,52 @@
+Episode: AT.S09E05 (Cloudy)
+6 speaker clusters, 262 total segments
+
+
+SPEAKER_00 (4 segs, 5.7s, 1 embedded)
+  "It wasn't that great."
+  "The dog was better tasting, actually."
+  "Although a little mangy."
+  "A food critic."
+
+SPEAKER_01 (9 segs, 8.5s, 3 embedded)
+  "Well, that's great."
+  "I'm proud of you, buddy."
+  "No, not you."
+  "I said buddy, not Gunty."
+  "Hmm."
+
+SPEAKER_02 (112 segs, 165.0s, 40 embedded)
+  "Okay, I'm a-coming."
+  "You're wired, buddy."
+  "We've been going like gangbusters since we got back."
+  "Shh, shh, shh."
+  "What are you doing?"
+
+SPEAKER_03 (11 segs, 31.8s, 4 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very messed up lands With Finn and Jake, "
+  "Tra-la."
+  "Cheep, cheep, cheep, cheep, cheep, cheep."
+  "Tra-la."
+
+SPEAKER_04 (109 segs, 155.5s, 34 embedded)
+  "Come on guys."
+  "Come on guys."
+  "Let's work the problem Let's fix ooh."
+  "Come on guys."
+  "I Know I'm saying come on guys a lot."
+
+SPEAKER_05 (16 segs, 37.7s, 3 embedded)
+  "Whoa neato How do you make it bigger my magic skills are seriously drained right"
+  "Doesn't make any sense."
+  "Where's the dog?"
+  "Can the dog do something about this?"
+  "Wait."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_02: 0.356
+  SPEAKER_00 <-> SPEAKER_02: 0.233
+  SPEAKER_03 <-> SPEAKER_04: 0.219
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S09E05.npz

@@ -1,0 +1,71 @@
+Episode: AT.S06E36 (Hoots)
+10 speaker clusters, 191 total segments
+
+
+SPEAKER_00 (2 segs, 20.7s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 26.2s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (4 segs, 25.2s, 2 embedded)
+  "Excuse me."
+  "Yeah!"
+  "Well, after all I've done for you... Well, something's wrong."
+  "No."
+
+SPEAKER_03 (30 segs, 50.7s, 15 embedded)
+  "Oh, I love shrimp puffs."
+  "This is a dream come true."
+  "Do I know you?"
+  "Whose dream?"
+  "Whose dream did you see me in?"
+
+SPEAKER_04 (2 segs, 2.0s, 0 embedded)
+  "Butt feathers."
+  "Butt feathers."
+
+SPEAKER_05 (35 segs, 48.6s, 14 embedded)
+  "Dude, you've been working on that since you got here."
+  "Take a break!"
+  "You haven't even asked me about my banjo lessons."
+  "They're going great!"
+  "Dude?"
+
+SPEAKER_06 (8 segs, 21.9s, 5 embedded)
+  "Who's that?"
+  "Oh, thank you."
+  "Thank you!"
+  "You interfered with a dream!"
+  "Oh, man!"
+
+SPEAKER_07 (75 segs, 161.4s, 29 embedded)
+  "I'm home."
+  "Who's gonna have dinner with me tonight?"
+  "Sorry, fellas."
+  "I gotta go make some dreams come true."
+  "Where are we headed, Dream Token?"
+
+SPEAKER_08 (15 segs, 26.2s, 5 embedded)
+  "Huh?"
+  "Wait, wait!"
+  "Huh?"
+  "Whoa, the cosmic owl?"
+  "Does that mean this dream is important?"
+
+SPEAKER_09 (16 segs, 30.2s, 8 embedded)
+  "Say cheese!"
+  "Cheese!"
+  "Hello!"
+  "I don't know, Shelby."
+  "I think it's too dark in there."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_09: 0.406
+  SPEAKER_02 <-> SPEAKER_06: 0.374
+  SPEAKER_00 <-> SPEAKER_06: 0.365
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E36.npz

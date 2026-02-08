@@ -1,0 +1,66 @@
+Episode: AT.S07E16 (Summer Showers)
+9 speaker clusters, 201 total segments
+
+
+SPEAKER_00 (3 segs, 7.9s, 2 embedded)
+  "Are you really here or are you like an eye floater?"
+  "A venue served!"
+  "You were great, kid!"
+
+SPEAKER_01 (4 segs, 12.4s, 4 embedded)
+  "Yes, Miss Hobson, you won't remember me, but my name is Wilfred."
+  "We met in April at the Chestnut Festival at St. Margaret's School."
+  "I'm between trains and I thought I might drop by."
+  "Ages and ages, but not nearly long enough."
+
+SPEAKER_02 (26 segs, 73.3s, 21 embedded)
+  "Our lives are subtle."
+  "They come and go like a summer shower."
+  "I do hope that Nigel had no trouble at Chelsea Head station."
+  "There are never any taxi cabs."
+  "Poor, suffering Nigel."
+
+SPEAKER_03 (3 segs, 6.6s, 2 embedded)
+  "Okay, let's rehearse."
+  "Mr. Cranford will be drenched if he walks to the cottage from the station."
+  "But he..."
+
+SPEAKER_04 (2 segs, 36.8s, 0 embedded)
+  "come on grab your friends we'll go to very distant lands"
+  "You're amazing!"
+
+SPEAKER_05 (98 segs, 195.6s, 51 embedded)
+  "Oh my glob!"
+  "You got the part!"
+  "I did?"
+  "Well, not that part."
+  "You were terrible."
+
+SPEAKER_06 (20 segs, 28.5s, 7 embedded)
+  "Hi, Viola."
+  "How's my big shot actress daughter?"
+  "Did you get that part you wanted?"
+  "Well, I think that's great."
+  "Just great."
+
+SPEAKER_07 (16 segs, 33.0s, 9 embedded)
+  "When are we going to resume rehearsing?"
+  "Coming down like cats and dogs."
+  "Reminds me of the rain we had."
+  "Very well, tree trunks."
+  "I don't know if I can call tree trunks by that other name."
+
+SPEAKER_08 (28 segs, 72.5s, 21 embedded)
+  "Time is a slippery devil."
+  "Our lives are sudden."
+  "They come and go like... like a summer shower."
+  "Well, I guess I have to start somewhere."
+  "Hey."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_05: 0.493
+  SPEAKER_03 <-> SPEAKER_06: 0.329
+  SPEAKER_01 <-> SPEAKER_06: 0.277
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E16.npz

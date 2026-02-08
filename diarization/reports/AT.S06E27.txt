@@ -1,0 +1,49 @@
+Episode: AT.S06E27 (The Visitor)
+7 speaker clusters, 222 total segments
+
+
+SPEAKER_00 (2 segs, 2.2s, 0 embedded)
+  "Everything is ruined."
+  "Everyone is fat."
+
+SPEAKER_01 (4 segs, 25.5s, 4 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Lionel, what did I tell you about talking to strangers?"
+  "You get your butt inside this instant!"
+
+SPEAKER_02 (1 segs, 23.3s, 0 embedded)
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_03 (133 segs, 261.3s, 66 embedded)
+  "Human boy."
+  "What the?"
+  "The tree spirit does not permit freeloaders."
+  "Either help fetch the escape pod engine or kindly move along."
+  "Dad?"
+
+SPEAKER_04 (7 segs, 11.4s, 3 embedded)
+  "In a little farming village?"
+  "How long have I been walking?"
+  "Man, two whole days, at least."
+  "Wow, I need some water."
+  "No, wait, uh, geez."
+
+SPEAKER_05 (73 segs, 152.0s, 28 embedded)
+  "That's the comet you're supposed to follow."
+  "That's... true."
+  "Wow, already?"
+  "That was fast."
+  "Yep, we're here."
+
+SPEAKER_06 (2 segs, 13.0s, 1 embedded)
+  "Come here!"
+  "This is new to me"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_06: 0.285
+  SPEAKER_04 <-> SPEAKER_05: 0.278
+  SPEAKER_03 <-> SPEAKER_06: 0.205
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E27.npz

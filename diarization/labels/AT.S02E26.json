@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S02E26",
+  "title": "Heat Signature",
+  "season": 2,
+  "speaker_map": {
+    "SPEAKER_03": "Marceline",
+    "SPEAKER_04": "Finn_S01-S03",
+    "SPEAKER_06": "Jake",
+    "SPEAKER_02": "LSP",
+    "SPEAKER_05": "Princess Bubblegum"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:49:54"
+}

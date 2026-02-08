@@ -1,0 +1,53 @@
+Episode: AT.S09E03 (Bespoken For)
+6 speaker clusters, 196 total segments
+
+
+SPEAKER_00 (8 segs, 19.2s, 6 embedded)
+  "Ow!"
+  "Whoa."
+  "Let's get to work!"
+  "Maybe you're going after someone who doesn't exist anymore."
+  "Why not take him as he is?"
+
+SPEAKER_01 (12 segs, 56.0s, 9 embedded)
+  "Adventure time come on grab your friends."
+  "We'll go to very Messed-up plans with Finn and Jake ice King and Betty who knows"
+  "No!"
+  "It's all wrong!"
+  "Elemental, elemental."
+
+SPEAKER_02 (21 segs, 43.2s, 12 embedded)
+  "Hey, roomie!"
+  "I'm going out to pick up some magic ingredients."
+  "Oh, I'm building a magic battery to power my elemental purification spell."
+  "Like a donut?"
+  "Surprise me."
+
+SPEAKER_03 (30 segs, 65.1s, 18 embedded)
+  "Simon, I've been trying so hard to help you."
+  "I've tried reprogramming your crown, code mapping, penguin napping, code minglin"
+  "It's saddening, it's maddening, and I'm rapping, and..."
+  "So I'm trying the direct approach."
+  "It's okay, I know you don't remember me."
+
+SPEAKER_04 (15 segs, 30.7s, 8 embedded)
+  "Fire, ice, candy, and slime."
+  "Ugh."
+  "No."
+  "You need to get a nice bespoke suit."
+  "A bee what-a-what?"
+
+SPEAKER_05 (109 segs, 206.3s, 48 embedded)
+  "Weird."
+  "How did this happen, Ice King?"
+  "Look, I know it's a lot to take in."
+  "Let's go to the living room."
+  "Now settle in, get comfortable, because I am going to tell you everything."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.512
+  SPEAKER_04 <-> SPEAKER_05: 0.381
+  SPEAKER_00 <-> SPEAKER_05: 0.377
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S09E03.npz

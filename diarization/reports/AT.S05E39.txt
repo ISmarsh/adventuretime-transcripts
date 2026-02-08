@@ -1,0 +1,84 @@
+Episode: AT.S05E39 (We Fixed a Truck)
+11 speaker clusters, 198 total segments
+
+
+SPEAKER_00 (3 segs, 24.1s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "He's very smart and very single."
+
+SPEAKER_01 (8 segs, 16.5s, 2 embedded)
+  "You're on the graveyard shift."
+  "What am I?"
+  "Oh, hi."
+  "I'm a long-time listener, first-time caller, so, um, I think Princess Bubblegum "
+  "A lizard?"
+
+SPEAKER_03 (2 segs, 26.1s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "This party is so crazy!"
+
+SPEAKER_04 (12 segs, 16.4s, 4 embedded)
+  "Maybe... Ice King, you know anything about cars?"
+  "Nope, not a car guy."
+  "Too confusing."
+  "Got better things to do with my life."
+  "Hey, Speedy."
+
+SPEAKER_05 (74 segs, 169.2s, 32 embedded)
+  "Hey, guys!"
+  "Hi!"
+  "Hey, Banana Man."
+  "Wow!"
+  "I haven't seen you fellas since you destroyed my home, my land, and my rocket!"
+
+SPEAKER_06 (11 segs, 11.1s, 2 embedded)
+  "What?"
+  "What's happening?"
+  "Yeah, buddy, nice."
+  "Let's crank this beast up."
+  "Can't."
+
+SPEAKER_07 (17 segs, 27.1s, 8 embedded)
+  "Wait, I know someone who's good with mechanics."
+  "Hey!"
+  "Whew, I'm booked."
+  "You guys want to pick this up again in the morning?"
+  "Sure."
+
+SPEAKER_08 (34 segs, 50.4s, 12 embedded)
+  "Jake, wake up!"
+  "I found a truck!"
+  "You mean an air-fuel mixture?"
+  "Yay!"
+  "BMO is so pretty and smart!"
+
+SPEAKER_09 (6 segs, 12.0s, 3 embedded)
+  "Oh, it's just my luck."
+  "Oh, it's just my luck."
+  "I went on a walk and I found a truck."
+  "Oh, it's just my luck."
+  "Oh, it's just my luck."
+
+SPEAKER_10 (21 segs, 25.5s, 5 embedded)
+  "Where did you get this baby?"
+  "I found it in the woods."
+  "I named it Hot Daniel."
+  "Anyway, I figure we can do some pretty sick stuff with it."
+  "Oh, yeah, like what?"
+
+SPEAKER_11 (7 segs, 21.5s, 3 embedded)
+  "It's 10 past the hour, and this is Graveyard Shift, hosted by me, Starchy the Gr"
+  "Hello, caller."
+  "Oh, Starkey's very interested in this topic."
+  "What led you to this discovery, caller?"
+  "Hold up."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.702  <- possible match
+  SPEAKER_06 <-> SPEAKER_07: 0.702
+  SPEAKER_09 <-> SPEAKER_10: 0.465
+  SPEAKER_00 <-> SPEAKER_03: 0.347
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E39.npz

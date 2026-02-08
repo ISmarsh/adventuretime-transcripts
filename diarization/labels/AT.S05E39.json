@@ -1,0 +1,23 @@
+{
+  "episode_id": "AT.S05E39",
+  "title": "We Fixed a Truck",
+  "season": 5,
+  "speaker_map": {
+    "SPEAKER_06": "Jake",
+    "SPEAKER_07": "Jake",
+    "SPEAKER_08": "Princess Bubblegum",
+    "SPEAKER_10": "Finn_S04-S06",
+    "SPEAKER_11": "Starchy",
+    "SPEAKER_01": "Banana Guard"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_09"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:49:55"
+}
