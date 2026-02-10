@@ -9,7 +9,15 @@ import time
 from collections import defaultdict
 from pathlib import Path
 
-from .config import DEFAULT_VIDEO_DIRS, EMBED_DIM, PROGRESS_FILE
+from .config import (
+    DEFAULT_VIDEO_DIRS,
+    EMBED_DIM,
+    MIN_SLICE_DURATION,
+    PROGRESS_FILE,
+    PROJECT_ROOT,
+    SPLIT_SIM_POSSIBLE,
+    SPLIT_SIM_THRESHOLD,
+)
 from .discovery import (
     discover_transcripts,
     format_duration,
@@ -73,7 +81,7 @@ def _embed_clusters_one(
             valid_segs = []
             for seg in eligible:
                 sliced = _slice_segment(waveform, sr, seg["start"], seg["end"])
-                if sliced.shape[1] >= sr * 0.5:
+                if sliced.shape[1] >= sr * MIN_SLICE_DURATION:
                     audio_segments.append(sliced)
                     valid_segs.append(seg)
 
@@ -123,10 +131,10 @@ def _embed_clusters_one(
 
             has_likely_split = False
             for a, b, sim in pairs:
-                if sim >= 0.75:
+                if sim >= SPLIT_SIM_THRESHOLD:
                     has_likely_split = True
                     lines.append(f"  {a} <-> {b}: {sim:.3f}  <- likely same character")
-                elif sim >= 0.60:
+                elif sim >= SPLIT_SIM_POSSIBLE:
                     lines.append(f"  {a} <-> {b}: {sim:.3f}  <- possible match")
 
             if not has_likely_split:
@@ -171,8 +179,7 @@ def cmd_embed_clusters(args: argparse.Namespace) -> None:
         sys.stdout = io.TextIOWrapper(
             sys.stdout.buffer, encoding="utf-8", errors="replace")
 
-    root = Path(__file__).resolve().parent.parent.parent
-    dia_dir = root / args.diarization_dir
+    dia_dir = PROJECT_ROOT / args.diarization_dir
     force = getattr(args, "force", False)
     limit = getattr(args, "limit", None)
 
@@ -214,7 +221,7 @@ def cmd_embed_clusters(args: argparse.Namespace) -> None:
     # Resolve video paths
     video_dirs = getattr(args, "video_dirs", DEFAULT_VIDEO_DIRS)
     video_index = scan_videos(video_dirs)
-    all_transcripts = discover_transcripts(root)
+    all_transcripts = discover_transcripts(PROJECT_ROOT)
     match_episodes(all_transcripts, video_index)
     transcript_map = {ep.episode_id: ep for ep in all_transcripts}
 

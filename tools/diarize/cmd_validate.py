@@ -11,6 +11,7 @@ from pathlib import Path
 from .config import (
     EPISODE_RE,
     PROGRESS_FILE,
+    PROJECT_ROOT,
     TRANSCRIPT_SERIES_DIRS,
     ClusterMap,
     EpResult,
@@ -166,14 +167,13 @@ def cmd_validate(args: argparse.Namespace) -> None:
     if sys.stderr.encoding != "utf-8":
         sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
-    root = Path(__file__).resolve().parent.parent.parent
-    dia_dir = root / args.diarization_dir
+    dia_dir = PROJECT_ROOT / args.diarization_dir
 
     if not dia_dir.exists():
         print(f"Error: {dia_dir} not found", file=sys.stderr)
         sys.exit(1)
 
-    episodes = discover_for_validate(root, dia_dir)
+    episodes = discover_for_validate(PROJECT_ROOT, dia_dir)
     print(f"Found {len(episodes)} episodes with diarization output")
 
     # Apply filters

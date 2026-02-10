@@ -7,8 +7,9 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from .config import PROJECT_ROOT
 from .embeddings import _compute_centroid
-from .profiles import _load_profile, _profile_dir, _save_index, _save_profile
+from .profiles import _load_profile, _profile_dir, _rebuild_index, _save_profile
 from .speakers import _get_profile_name, _resolve_speaker
 
 
@@ -20,8 +21,7 @@ def cmd_embed_label(args: argparse.Namespace) -> None:
         sys.stdout = io.TextIOWrapper(
             sys.stdout.buffer, encoding="utf-8", errors="replace")
 
-    root = Path(__file__).resolve().parent.parent.parent
-    dia_dir = root / args.diarization_dir
+    dia_dir = PROJECT_ROOT / args.diarization_dir
     pdir = _profile_dir(dia_dir)
 
     ep_id = args.episode
@@ -139,23 +139,5 @@ def cmd_embed_label(args: argparse.Namespace) -> None:
     )
     print(f"\nSaved label mapping to {label_path}")
 
-    # Update profile index (preserve custom fields like first/last_episode)
-    existing_index = {}
-    index_path = pdir / "_index.json"
-    if index_path.exists():
-        existing_index = json.loads(
-            index_path.read_text(encoding="utf-8")
-        ).get("profiles", {})
-    profiles_meta = {}
-    for npz_path in pdir.glob("*.npz"):
-        prof = _load_profile(npz_path)
-        episodes_in = list({
-            m.get("episode", "") for m in prof["metadata"]
-        })
-        entry = dict(existing_index.get(npz_path.stem, {}))
-        entry["samples"] = len(prof["embeddings"])
-        entry["episodes"] = sorted(e for e in episodes_in if e)
-        entry["updated"] = datetime.now().isoformat(timespec="seconds")
-        profiles_meta[npz_path.stem] = entry
-    _save_index(pdir, profiles_meta)
-    print(f"Updated index: {len(profiles_meta)} profiles")
+    n_profiles = _rebuild_index(pdir)
+    print(f"Updated index: {n_profiles} profiles")

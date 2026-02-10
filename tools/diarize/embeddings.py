@@ -101,35 +101,3 @@ def _compute_centroid(embeddings):
     if norm > 0:
         centroid /= norm
     return centroid
-
-
-def _classify_segments(
-    embeddings, profiles: dict, threshold: float = 0.5,
-) -> list[dict]:
-    """Classify embeddings against voice profiles by cosine similarity."""
-    import numpy as np
-    if not profiles:
-        return [{"speaker": "", "confidence": 0.0, "scores": {}}] * len(embeddings)
-
-    names = list(profiles.keys())
-    centroids = np.stack([profiles[n] for n in names])
-
-    e_norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
-    c_norms = np.linalg.norm(centroids, axis=1, keepdims=True)
-    e_normed = embeddings / np.maximum(e_norms, 1e-10)
-    c_normed = centroids / np.maximum(c_norms, 1e-10)
-
-    sims = e_normed @ c_normed.T  # (N, C)
-
-    results = []
-    for i in range(len(embeddings)):
-        best_idx = int(sims[i].argmax())
-        best_sim = float(sims[i, best_idx])
-        scores = {n: float(sims[i, j]) for j, n in enumerate(names)}
-        scores = dict(sorted(scores.items(), key=lambda x: -x[1]))
-        results.append({
-            "speaker": names[best_idx] if best_sim >= threshold else "",
-            "confidence": best_sim,
-            "scores": scores,
-        })
-    return results

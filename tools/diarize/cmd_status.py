@@ -6,7 +6,7 @@ import logging
 import sys
 from pathlib import Path
 
-from .config import PROGRESS_FILE
+from .config import PROGRESS_FILE, PROJECT_ROOT
 from .discovery import discover_transcripts, match_episodes, scan_videos
 
 logger = logging.getLogger("whisperx_diarize")
@@ -58,8 +58,7 @@ def cmd_status(args: argparse.Namespace) -> None:
         sys.stdout = io.TextIOWrapper(
             sys.stdout.buffer, encoding="utf-8", errors="replace")
 
-    root = Path(__file__).resolve().parent.parent.parent
-    dia_dir = root / args.diarization_dir
+    dia_dir = PROJECT_ROOT / args.diarization_dir
 
     # Try video scan (graceful skip if drives offline)
     video_index = None
@@ -68,7 +67,7 @@ def cmd_status(args: argparse.Namespace) -> None:
     except Exception:
         pass
 
-    all_eps = discover_pipeline_status(root, dia_dir, video_index)
+    all_eps = discover_pipeline_status(PROJECT_ROOT, dia_dir, video_index)
 
     # Apply filters
     if args.series != "all":

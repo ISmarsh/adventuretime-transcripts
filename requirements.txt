@@ -1,0 +1,20 @@
+# Local development dependencies
+# GPU pipeline (whisperx, pyannote) runs in Docker — see Dockerfile
+
+# Core — needed for most diarize subcommands (auto-label, embed-label, validate)
+numpy
+
+# Speaker embeddings — needed for embed-clusters
+speechbrain
+torch
+torchaudio
+
+# Speaker identification — vision_identify.py, extract_speakers.py
+anthropic
+
+# PGS subtitle OCR — pgs_to_srt.py
+pillow
+pytesseract
+
+# Wiki transcript fetching — wiki_to_transcript.py (optional)
+requests

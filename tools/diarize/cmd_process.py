@@ -13,7 +13,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
 
-from .config import Episode, PYANNOTE_MODEL, WHISPER_MODEL
+from .config import Episode, PROJECT_ROOT, PYANNOTE_MODEL, WHISPER_MODEL
 from .discovery import (
     discover_transcripts,
     find_tool,
@@ -369,8 +369,7 @@ def cmd_process(args: argparse.Namespace) -> None:
         from .cmd_status import setup_logging
         setup_logging(output_dir)
 
-    project_root = Path(__file__).resolve().parent.parent.parent
-    all_episodes = discover_transcripts(project_root)
+    all_episodes = discover_transcripts(PROJECT_ROOT)
     logger.info("Found %d transcripts", len(all_episodes))
 
     logger.info("Scanning video directories: %s",

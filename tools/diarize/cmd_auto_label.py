@@ -7,6 +7,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from .config import AUTO_LABEL_MARGIN, PROJECT_ROOT, SMALL_PROFILE_PENALTY, SMALL_PROFILE_SAMPLES
 from .embeddings import _compute_centroid
 from .profiles import (
     _load_all_profiles,
@@ -15,7 +16,7 @@ from .profiles import (
     _load_profile_last_episodes,
     _load_profile_sample_counts,
     _profile_dir,
-    _save_index,
+    _rebuild_index,
     _save_profile,
     _select_season_profiles,
 )
@@ -30,8 +31,7 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
         sys.stdout = io.TextIOWrapper(
             sys.stdout.buffer, encoding="utf-8", errors="replace")
 
-    root = Path(__file__).resolve().parent.parent.parent
-    dia_dir = root / args.diarization_dir
+    dia_dir = PROJECT_ROOT / args.diarization_dir
     pdir = _profile_dir(dia_dir)
     threshold = args.threshold
     apply = args.apply
@@ -198,16 +198,15 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
                 eff_threshold = char_thresholds[best_name]
             else:
                 n_samples = sample_counts.get(best_name, 0)
-                # Small profiles get a penalty: up to +0.10 for <100 samples
-                if n_samples < 100:
-                    penalty = 0.10 * (1 - n_samples / 100)
+                if n_samples < SMALL_PROFILE_SAMPLES:
+                    penalty = SMALL_PROFILE_PENALTY * (1 - n_samples / SMALL_PROFILE_SAMPLES)
                 else:
                     penalty = 0.0
                 eff_threshold = threshold + penalty
 
             if best_sim >= eff_threshold:
                 margin = best_sim - second_sim
-                marker = "AUTO" if margin >= 0.05 else "auto"
+                marker = "AUTO" if margin >= AUTO_LABEL_MARGIN else "auto"
                 proposed_map[cluster] = best_name
                 thresh_note = (f" thr={eff_threshold:.2f}"
                                if eff_threshold != threshold else "")
@@ -331,26 +330,8 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
 
             merged_count += 1
 
-        # Update profile index (preserve custom fields like first/last_episode)
         if merged_count > 0:
-            existing_index = {}
-            index_path = pdir / "_index.json"
-            if index_path.exists():
-                existing_index = json.loads(
-                    index_path.read_text(encoding="utf-8")
-                ).get("profiles", {})
-            profiles_meta = {}
-            for npz_path in pdir.glob("*.npz"):
-                prof = _load_profile(npz_path)
-                episodes_in = list({
-                    m.get("episode", "") for m in prof["metadata"]
-                })
-                entry = dict(existing_index.get(npz_path.stem, {}))
-                entry["samples"] = len(prof["embeddings"])
-                entry["episodes"] = sorted(e for e in episodes_in if e)
-                entry["updated"] = datetime.now().isoformat(timespec="seconds")
-                profiles_meta[npz_path.stem] = entry
-            _save_index(pdir, profiles_meta)
+            _rebuild_index(pdir)
             print(f"\nMerged profiles from {merged_count} episodes")
 
     print(f"\n{'=' * 60}")

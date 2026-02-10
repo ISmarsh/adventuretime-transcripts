@@ -21,6 +21,12 @@ FC_PATTERN = re.compile(
 )
 
 # ---------------------------------------------------------------------------
+# Project root (config.py -> diarize/ -> tools/ -> project root)
+# ---------------------------------------------------------------------------
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+
+# ---------------------------------------------------------------------------
 # Model / path configuration
 # ---------------------------------------------------------------------------
 
@@ -51,7 +57,7 @@ MIN_CLUSTER_VOTES = 3
 MULTI_SPEAKER = frozenset({"both", "all", "everyone", "together"})
 
 # ---------------------------------------------------------------------------
-# Embedding constants
+# Embedding / clustering constants
 # ---------------------------------------------------------------------------
 
 ECAPA_SOURCE = "speechbrain/spkrec-ecapa-voxceleb"
@@ -59,16 +65,25 @@ ECAPA_SAVEDIR = "diarization/models/ecapa"
 EMBED_DIM = 192
 MIN_EMBED_DURATION = 1.5
 MAX_EMBED_DURATION = 15.0
+MIN_SLICE_DURATION = 0.5           # minimum usable audio slice (seconds)
+SPLIT_SIM_THRESHOLD = 0.75        # cosine sim for "likely same character" split
+SPLIT_SIM_POSSIBLE = 0.60         # cosine sim for "possible match"
+
+# ---------------------------------------------------------------------------
+# Auto-label constants
+# ---------------------------------------------------------------------------
+
+AUTO_LABEL_MARGIN = 0.05           # sim margin for AUTO vs auto confidence tag
+SMALL_PROFILE_PENALTY = 0.10      # max threshold penalty for small profiles
+SMALL_PROFILE_SAMPLES = 100       # sample count below which penalty applies
 SEASON_BUCKETS: dict[str, list[tuple[int, int]]] = {
     "Finn": [(1, 3), (4, 6), (7, 10)],
 }
 BUCKET_RE = re.compile(r"(.+)_S(\d{2})-S(\d{2})$")
 
 # Character alias resolution (from the-enchiridion sibling project)
-# 4 parents: config.py -> diarize/ -> tools/ -> project root -> workspace root
 ENCHIRIDION_CHARACTERS = (
-    Path(__file__).resolve().parent.parent.parent.parent
-    / "the-enchiridion" / "src" / "data" / "characters.json"
+    PROJECT_ROOT.parent / "the-enchiridion" / "src" / "data" / "characters.json"
 )
 
 # Preferred canonical transcript name per character id

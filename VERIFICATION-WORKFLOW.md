@@ -82,7 +82,7 @@ audio track.
 Requires Python packages: `pyannote.audio`, `faster-whisper`, `torch`, `soundfile`
 
 ```bash
-pip install pyannote.audio faster-whisper soundfile
+pip install -r requirements.txt  # or use Docker (already included)
 ```
 
 Requires a HuggingFace token with accepted terms for:

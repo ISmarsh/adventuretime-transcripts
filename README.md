@@ -66,6 +66,20 @@ docker compose run whisperx embed-clusters --season 1
 
 See [docker-compose.example.yml](docker-compose.example.yml) for full setup notes.
 
+### Local development (no Docker)
+
+Most subcommands (`status`, `auto-label`, `embed-label`, `validate`, `vision_identify.py`) run locally without GPU. Set up a venv:
+
+```bash
+python -m venv .venv
+.venv/Scripts/activate   # Windows
+source .venv/bin/activate # Linux/macOS
+pip install -r requirements.txt
+python -m tools.diarize status
+```
+
+`embed-clusters` also runs locally (loads ECAPA-TDNN model, ~20s/episode on CPU). Only `process` benefits significantly from GPU/Docker.
+
 ## Format
 
 Wiki transcript format:

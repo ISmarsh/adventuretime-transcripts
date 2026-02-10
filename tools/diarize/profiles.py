@@ -110,6 +110,31 @@ def _save_index(profile_dir: Path, profiles_meta: dict) -> None:
     )
 
 
+def _rebuild_index(profile_dir: Path) -> None:
+    """Scan all .npz profiles and rebuild _index.json, preserving custom fields."""
+    index_path = profile_dir / "_index.json"
+    existing_index: dict = {}
+    if index_path.exists():
+        existing_index = json.loads(
+            index_path.read_text(encoding="utf-8")
+        ).get("profiles", {})
+
+    profiles_meta: dict = {}
+    for npz_path in profile_dir.glob("*.npz"):
+        prof = _load_profile(npz_path)
+        episodes_in = list({
+            m.get("episode", "") for m in prof["metadata"]
+        })
+        entry = dict(existing_index.get(npz_path.stem, {}))
+        entry["samples"] = len(prof["embeddings"])
+        entry["episodes"] = sorted(e for e in episodes_in if e)
+        entry["updated"] = datetime.now().isoformat(timespec="seconds")
+        profiles_meta[npz_path.stem] = entry
+
+    _save_index(profile_dir, profiles_meta)
+    return len(profiles_meta)
+
+
 def _select_season_profiles(profiles: dict, season: int) -> dict:
     """Select profiles appropriate for a given season.
 
