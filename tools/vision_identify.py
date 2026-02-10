@@ -28,21 +28,27 @@ from __future__ import annotations
 
 import argparse
 import base64
-import ctypes
 import json
 import re
 import shutil
 import subprocess
 import sys
 import tempfile
-import threading
 import time
 from datetime import datetime, timezone
 from pathlib import Path
 
 # Reuse frame extraction + dedup from extract_speakers
 sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent.parent))
 from extract_speakers import extract_frame, image_hash
+from tools.diarize.vlc import (
+    CLIP_PADDING,
+    extract_clip,
+    find_vlc,
+    play_clips_vlc,
+    stop_vlc,
+)
 
 # --- Paths -----------------------------------------------------------
 
@@ -62,15 +68,9 @@ MAX_DIALOGUE_LINES = 10
 
 CLIP_SAMPLES = 7        # clips to play per cluster in interactive mode
 CLIP_EXPAND = 5         # additional clips per "more" request
-CLIP_PADDING = 0.5      # seconds of padding before/after each clip
 
 EPISODE_RE = re.compile(r"S(\d{2})E(\d{2,3})")
 VIDEO_EXTS = {".mkv", ".mp4", ".avi", ".webm"}
-
-VLC_PATHS = [
-    "C:/Program Files/VideoLAN/VLC/vlc.exe",
-    "C:/Program Files (x86)/VideoLAN/VLC/vlc.exe",
-]
 
 SERIES_NAMES = {
     "AT": "Adventure Time",
@@ -197,87 +197,6 @@ def series_context(episode_id: str) -> tuple[str, str, int]:
     return name, code, season
 
 
-# --- VLC clip playback ------------------------------------------------
-
-
-def find_vlc() -> str | None:
-    """Find VLC executable."""
-    path = shutil.which("vlc")
-    if path:
-        return path
-    for p in VLC_PATHS:
-        if Path(p).exists():
-            return p
-    return None
-
-
-def extract_clip(
-    video_path: str, start: float, end: float, output_path: str,
-    audio_track: int | None = None,
-) -> bool:
-    """Extract a short video clip using ffmpeg stream copy."""
-    ffmpeg = shutil.which("ffmpeg")
-    if not ffmpeg:
-        return False
-
-    padded_start = max(0, start - CLIP_PADDING)
-    padded_end = end + CLIP_PADDING
-
-    duration = padded_end - padded_start
-    cmd = [
-        ffmpeg, "-y",
-        "-ss", str(padded_start),
-        "-i", video_path,
-        "-t", str(duration),
-    ]
-    if audio_track is not None:
-        cmd += ["-map", "0:v:0", "-map", f"0:a:{audio_track}"]
-    cmd += ["-c", "copy", "-avoid_negative_ts", "1", output_path]
-
-    result = subprocess.run(cmd, capture_output=True, timeout=30)
-    return (
-        result.returncode == 0
-        and Path(output_path).exists()
-        and Path(output_path).stat().st_size > 100
-    )
-
-
-def play_clips_vlc(vlc_path: str, clip_paths: list[str]) -> subprocess.Popen:
-    """Play clips in VLC (non-blocking). Returns process handle."""
-    # Capture current foreground window so we can refocus after VLC steals it
-    user32 = ctypes.windll.user32
-    hwnd = user32.GetForegroundWindow()
-
-    proc = subprocess.Popen(
-        [vlc_path, "--play-and-exit", "--no-repeat", "--no-loop"] + clip_paths,
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL,
-    )
-
-    # Refocus terminal in background thread (Alt key trick bypasses foreground lock)
-    def _refocus():
-        for _ in range(5):
-            time.sleep(0.3)
-            if hwnd:
-                user32.keybd_event(0x12, 0, 0, 0)   # ALT down
-                user32.SetForegroundWindow(hwnd)
-                user32.keybd_event(0x12, 0, 2, 0)   # ALT up
-
-    threading.Thread(target=_refocus, daemon=True).start()
-
-    return proc
-
-
-def stop_vlc(proc: subprocess.Popen | None) -> None:
-    """Kill a running VLC process if still alive."""
-    if proc and proc.poll() is None:
-        proc.terminate()
-        try:
-            proc.wait(timeout=3)
-        except subprocess.TimeoutExpired:
-            proc.kill()
-
-
 def review_episode_interactive(
     episode_id: str,
     video_path: str,
@@ -380,12 +299,12 @@ def review_episode_interactive(
             while True:
                 print()
                 answer = input(
-                    f"  {spk} = ? (name / skip / mixed / more / replay / quit): "
+                    f"  {spk} = ? (name / skip / more / replay / quit): "
                 ).strip()
 
-                if answer.lower() == "" :
+                if answer.lower() == "":
                     continue
-                elif answer.lower() == "replay":
+                elif answer.lower() in ("replay", "r"):
                     stop_vlc(vlc_proc)
                     if clip_paths:
                         print(f"  Replaying {len(clip_paths)} clips...")
@@ -393,7 +312,7 @@ def review_episode_interactive(
                     else:
                         print("  (no clips yet — use 'play' first)")
                     continue
-                elif answer.lower() == "more":
+                elif answer.lower() in ("more", "m"):
                     stop_vlc(vlc_proc)
                     # Find segments not yet clipped
                     remaining = [
@@ -421,19 +340,16 @@ def review_episode_interactive(
                     else:
                         print("  (no more clips could be extracted)")
                     continue
-                # User submitted a name, skip, mixed, or quit — stop VLC
+                # User submitted a name, skip, or quit — stop VLC
                 stop_vlc(vlc_proc)
                 break
 
-            if answer.lower() == "quit":
+            if answer.lower() in ("quit", "q"):
                 print("  Quitting review.")
                 break
-            elif answer.lower() == "skip":
+            elif answer.lower() in ("skip", "s"):
                 skipped.append(spk)
-                print(f"  -> skipped")
-            elif answer.lower() == "mixed":
-                skipped.append(spk)
-                print(f"  -> mixed (skipped)")
+                print("  -> skipped")
             else:
                 speaker_map[spk] = answer
                 print(f"  -> {answer}")

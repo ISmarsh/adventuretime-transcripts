@@ -4,7 +4,8 @@
   "season": 4,
   "speaker_map": {
     "SPEAKER_02": "Jake",
-    "SPEAKER_05": "Finn_S04-S06"
+    "SPEAKER_05": "Finn_S04-S06",
+    "SPEAKER_08": "Magic Man"
   },
   "skipped": [
     "SPEAKER_00",
@@ -13,12 +14,11 @@
     "SPEAKER_04",
     "SPEAKER_06",
     "SPEAKER_07",
-    "SPEAKER_08",
     "SPEAKER_09",
     "SPEAKER_10",
     "SPEAKER_11"
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:19:56"
+  "timestamp": "2026-02-10T00:06:25"
 }

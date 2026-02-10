@@ -14,6 +14,7 @@ from .cmd_auto_label import cmd_auto_label
 from .cmd_embed_clusters import cmd_embed_clusters
 from .cmd_embed_label import cmd_embed_label
 from .cmd_process import cmd_process
+from .cmd_spot_check import cmd_spot_check
 from .cmd_status import cmd_status
 from .cmd_validate import cmd_validate
 
@@ -60,6 +61,8 @@ def main() -> None:
     p_val.add_argument("--dry-run", action="store_true", help="Preview fixes")
     p_val.add_argument("--force", action="store_true", help="Reprocess validated episodes")
     p_val.add_argument("--limit", type=int, help="Max episodes per run")
+    p_val.add_argument("--rescore", action="store_true",
+                       help="Compare segment embeddings against profile centroids")
     p_val.add_argument("--diarization-dir", default="diarization", help="JSON directory")
 
     # embed-clusters subcommand
@@ -142,6 +145,27 @@ def main() -> None:
     p_auto.add_argument(
         "--diarization-dir", default="diarization", help="JSON directory")
 
+    # spot-check subcommand
+    p_spot = sub.add_parser(
+        "spot-check", help="Review validation disagrees via VLC clips")
+    p_spot.add_argument("--episode", nargs="+", help="Episode ID(s)")
+    p_spot.add_argument("--series", help="Filter by series: at, dl, fc")
+    p_spot.add_argument("--season", type=int, help="Filter by season")
+    p_spot.add_argument(
+        "--video-dirs", nargs="+", type=Path, default=DEFAULT_VIDEO_DIRS)
+    p_spot.add_argument(
+        "--audio-track", type=int, default=None,
+        help="Audio stream index to extract (e.g. 1 for second track)")
+    p_spot.add_argument("--limit", type=int, help="Max episodes")
+    p_spot.add_argument(
+        "--write", action="store_true",
+        help="Apply corrections to transcripts")
+    p_spot.add_argument(
+        "--force", action="store_true",
+        help="Re-review already checked disagrees")
+    p_spot.add_argument(
+        "--diarization-dir", default="diarization", help="JSON directory")
+
     # status subcommand
     p_status = sub.add_parser("status", help="Show pipeline progress across all episodes")
     p_status.add_argument("--series", choices=["all", "at", "dl", "fc"], default="all")
@@ -168,5 +192,7 @@ def main() -> None:
         cmd_embed_label(args)
     elif args.command == "auto-label":
         cmd_auto_label(args)
+    elif args.command == "spot-check":
+        cmd_spot_check(args)
     elif args.command == "status":
         cmd_status(args)

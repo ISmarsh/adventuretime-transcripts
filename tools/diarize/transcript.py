@@ -296,14 +296,18 @@ def validate_and_fix(lines: list[TLine], cmap: dict[str, ClusterMap]) -> EpResul
                         "diarization": cm.character,
                         "cluster": tl.dia_speaker,
                         "conf": round(cm.confidence, 2),
+                        "w_start": tl.w_start,
+                        "w_end": tl.w_end,
                     })
             else:
                 tl.validation = "unmatched"
         else:
             r.unlabeled += 1
+            if not tl.is_placeholder:
+                continue  # continuation lines -- not fixable
             inferred = _infer_speaker(lines, i, cmap, merged)
             if inferred:
-                tl.inferred = inferred
+                tl.inferred = _canon(inferred)
                 r.fixed += 1
             else:
                 r.unknown += 1

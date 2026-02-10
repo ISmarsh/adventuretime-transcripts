@@ -30,6 +30,7 @@ Transcripts are NOT used as ground truth — they are the thing being validated.
 | `embed-label` | Save cluster→character mapping, merge into voice profiles | instant |
 | `auto-label` | Propose/apply cluster labels using voice profiles (cosine similarity) | instant |
 | `validate` | Compare diarization against transcript (uses label files when available) | ~20s |
+| `spot-check` | Interactive VLC review of validation disagrees | ~30s/disagree |
 | `status` | Show pipeline progress across all episodes | instant |
 
 ### Workflow per episode
@@ -55,6 +56,8 @@ Transcripts are NOT used as ground truth — they are the thing being validated.
 5. [Review + fix false positives in labels]          # Claude spot-checks reports, user approves
 6. auto-label --series AT --season 1 --merge         # merge reviewed labels into voice profiles
 7. validate --series AT --season 1                   # compare against transcripts
+8. spot-check --series AT --season 1                 # interactive VLC review of disagrees
+9. spot-check --series AT --season 1 --write         # apply confirmed corrections
 ```
 
 `auto-label` classifies each cluster centroid against voice profile centroids via cosine
@@ -105,6 +108,7 @@ diarization/
   reports/AT.S08E01.txt       # cluster ID report for review (from embed-clusters)
   voice_profiles/Finn.npz     # accumulated character profiles (from embed-label)
   voice_profiles/_index.json   # profile metadata
+  spot_check/AT.S08E01.json   # per-episode spot-check decisions (from spot-check)
   validation_progress.json    # validate results with full disagree details per episode
 ```
 

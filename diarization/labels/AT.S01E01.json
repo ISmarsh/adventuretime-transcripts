@@ -7,15 +7,15 @@
     "SPEAKER_03": "Princess Bubblegum",
     "SPEAKER_04": "Candy People",
     "SPEAKER_05": "Finn_S01-S03",
-    "SPEAKER_07": "Jake"
+    "SPEAKER_07": "Jake",
+    "SPEAKER_06": "Gumball Guardian"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_01",
-    "SPEAKER_06",
     "SPEAKER_08"
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:08:26"
+  "timestamp": "2026-02-10T00:07:45"
 }

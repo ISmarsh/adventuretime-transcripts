@@ -4,7 +4,7 @@
   "season": 5,
   "speaker_map": {
     "SPEAKER_03": "Joshua",
-    "SPEAKER_04": "BMO",
+    "SPEAKER_04": "Lady Rainicorn",
     "SPEAKER_09": "Jake",
     "SPEAKER_10": "Finn_S04-S06"
   },
@@ -19,5 +19,5 @@
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:29:46"
+  "timestamp": "2026-02-10T00:06:26"
 }

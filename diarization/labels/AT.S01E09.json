@@ -4,10 +4,10 @@
   "season": 1,
   "speaker_map": {
     "SPEAKER_05": "Finn_S01-S03",
-    "SPEAKER_07": "Jake"
+    "SPEAKER_07": "Jake",
+    "SPEAKER_00": "Shelby"
   },
   "skipped": [
-    "SPEAKER_00",
     "SPEAKER_01",
     "SPEAKER_02",
     "SPEAKER_03",
@@ -16,5 +16,5 @@
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T12:08:30"
+  "timestamp": "2026-02-10T00:07:45"
 }

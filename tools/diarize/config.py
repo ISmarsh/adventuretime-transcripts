@@ -11,7 +11,7 @@ from pathlib import Path
 
 EPISODE_RE = re.compile(r"S(\d{2})E(\d{2,3})")
 MULTI_EP_RE = re.compile(r"S(\d{2})E(\d{2,3})-E?(\d{2,3})")
-SPEAKER_RE = re.compile(r"^([A-Z][A-Za-z \u2019'.\-()]+):\s")
+SPEAKER_RE = re.compile(r"^([A-Z][A-Za-z0-9 \u2019'.\-()]+):\s")
 PLACEHOLDER_RE = re.compile(r"^\?\?\?:\s+|^([A-Z][A-Za-z .\-]+) \[\?\]:\s+")
 _NORM_RE = re.compile(r"[^\w\s']")
 _SPACE_RE = re.compile(r"\s+")

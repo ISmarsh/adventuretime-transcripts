@@ -271,6 +271,65 @@ def cmd_validate(args: argparse.Namespace) -> None:
             if len(result.disagree_details) > 5:
                 print(f"    ... and {len(result.disagree_details) - 5} more")
 
+            # Rescore: segment-level profile comparison
+            if getattr(args, "rescore", False) and result.disagree_details:
+                from .rescore import rescore_disagrees, split_clusters
+
+                # Cluster split analysis — get label map
+                label_path = (label_dir / f"{eid}.json") if label_dir else None
+                if label_path and label_path.exists():
+                    ldata = json.loads(label_path.read_text(encoding="utf-8"))
+                    lmap = ldata.get("speaker_map", {})
+                elif result.cluster_info:
+                    lmap = {k: v["character"]
+                            for k, v in result.cluster_info.items()}
+                else:
+                    lmap = {}
+
+                if lmap:
+                    splits = split_clusters(
+                        eid, ep["segments"], dia_dir, lmap)
+                    if splits:
+                        print("  Cluster splits:")
+                        for cid, info in sorted(splits.items()):
+                            parts = [f"{k}: {v}" for k, v
+                                     in info["splits"].items()]
+                            print(f"    {cid} ({info['assigned']}): "
+                                  f"{', '.join(parts)} "
+                                  f"[{info['mixed_pct']}% mixed]")
+
+                # Per-segment rescoring
+                rescored = rescore_disagrees(
+                    eid, result.disagree_details, ep["segments"], dia_dir)
+                n_seg = sum(1 for r in rescored
+                            if r.get("rescore_type") == "segment")
+                n_cent = sum(1 for r in rescored
+                             if r.get("rescore_type") == "centroid")
+                n_t = sum(1 for r in rescored
+                          if r.get("rescore_verdict") == "transcript")
+                n_d = sum(1 for r in rescored
+                          if r.get("rescore_verdict") == "diarization")
+                n_scored = n_t + n_d
+
+                if n_scored > 0:
+                    print(f"  Rescore ({n_seg} segment, {n_cent} centroid):")
+                    for r in rescored[:5]:
+                        v = r.get("rescore_verdict", "")
+                        if not v:
+                            continue
+                        ts = r.get("rescore_transcript", 0)
+                        ds = r.get("rescore_diarization", 0)
+                        mark = "T" if v == "transcript" else "D"
+                        print(f"    L{r['line']}: {r['transcript']}({ts:.2f})"
+                              f" vs {r['diarization']}({ds:.2f})"
+                              f" -> {mark}")
+                    if n_scored > 5:
+                        print(f"    ... and {n_scored - 5} more")
+                    print(f"  Rescore summary: {n_t} transcript, "
+                          f"{n_d} diarization "
+                          f"({n_scored} rescored, "
+                          f"{len(rescored) - n_scored} no profile)")
+
             fix_lines = [tl for tl in lines if tl.inferred]
             if args.write and fix_lines:
                 new_text = format_fixed(lines, original)
