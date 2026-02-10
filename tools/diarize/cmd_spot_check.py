@@ -22,7 +22,7 @@ from .cmd_validate import (
     load_progress,
     validate_episode,
 )
-from .discovery import scan_videos
+from .discovery import _best_score, _normalize, scan_videos
 from .speakers import _canon
 from .vlc import extract_clip, find_vlc, play_clips_vlc, stop_vlc
 
@@ -171,9 +171,12 @@ def spot_check_episode(
     print(f"Video:   {video_path}")
     print(f"Disagrees: {len(disagrees)} total, {len(existing)} reviewed, "
           f"{len(remaining)} remaining")
-    print(f"\nCommands: transcript / diarization / skip / replay / quit "
-          f"(or first letter)")
+    print(f"\nCommands: transcript / diarization / name <Speaker> / "
+          f"skip / replay / quit (or first letter)")
     print()
+
+    # Build line index for context display
+    line_index = {tl.line_num: tl for tl in lines}
 
     decisions = dict(existing)
     vlc_proc = None
@@ -184,8 +187,35 @@ def spot_check_episode(
             dia_speaker = item["diarization_speaker"]
             conf = item["conf"]
 
+            # Find best-matching whisperX segment text in time range
+            wx_text = ""
+            tl_norm = _normalize(tl.text)
+            wx_best_r = 0.0
+            for seg in ep.get("segments", []):
+                if seg["start"] <= tl.w_end and seg["end"] >= tl.w_start:
+                    stxt = seg.get("text", "").strip()
+                    sr = _best_score(tl_norm, _normalize(stxt))
+                    if sr > wx_best_r:
+                        wx_best_r = sr
+                        wx_text = stxt
+                elif seg["start"] > tl.w_end:
+                    break
+
+            # Show context lines (2 before, 2 after)
             print(f"--- [{i}/{len(remaining)}] Line {tl.line_num} ---")
-            print(f'  Text: "{tl.text[:80]}"')
+            for offset in range(-2, 3):
+                ctx = line_index.get(tl.line_num + offset)
+                if not ctx or ctx.is_scene:
+                    continue
+                if offset == 0:
+                    marker = ">>"
+                else:
+                    marker = "  "
+                print(f"  {marker} L{ctx.line_num} {ctx.speaker}: "
+                      f"{ctx.text[:60]}")
+
+            if wx_text:
+                print(f'  WhisperX:   "{wx_text[:80]}"')
             print(f"  Transcript says:   {tl.speaker}")
             print(f"  Diarization says:  {dia_speaker} "
                   f"(cluster {tl.dia_speaker}, conf {conf:.0%})")
@@ -200,25 +230,42 @@ def spot_check_episode(
             else:
                 print("  (clip extraction failed)")
 
+            custom_speaker = None
             while True:
                 answer = input(
-                    "\n  Decision (transcript / diarization / skip / "
-                    "replay / quit): "
-                ).strip().lower()
+                    "\n  Decision (transcript / diarization / name <Speaker>"
+                    " / skip / replay / quit): "
+                ).strip()
 
-                if answer in ("replay", "r"):
+                answer_lower = answer.lower()
+                if answer_lower in ("replay", "r"):
                     stop_vlc(vlc_proc)
                     if Path(clip_path).exists():
                         vlc_proc = play_clips_vlc(vlc_path, [clip_path])
                     continue
-                elif answer in ("transcript", "t", "diarization", "d",
-                                "skip", "s", "quit", "q"):
+                elif answer_lower.startswith("name ") or \
+                        answer_lower.startswith("n "):
+                    # Custom speaker name (preserve case from input)
+                    parts = answer.split(None, 1)
+                    if len(parts) == 2 and parts[1].strip():
+                        custom_speaker = parts[1].strip()
+                        stop_vlc(vlc_proc)
+                        vlc_proc = None
+                        answer = "name"
+                        break
+                    else:
+                        print("  Usage: name <Speaker Name>")
+                        continue
+                elif answer_lower in ("transcript", "t", "diarization", "d",
+                                      "skip", "s", "quit", "q"):
+                    answer = answer_lower
                     stop_vlc(vlc_proc)
                     vlc_proc = None
                     break
                 else:
                     print("  Invalid. Use: transcript (t), diarization (d), "
-                          "skip (s), replay (r), quit (q)")
+                          "name <Speaker> (n), skip (s), replay (r), "
+                          "quit (q)")
 
             if answer in ("quit", "q"):
                 print("  Quitting.")
@@ -229,10 +276,11 @@ def spot_check_episode(
                 "t": "transcript", "transcript": "transcript",
                 "d": "diarization", "diarization": "diarization",
                 "s": "skip", "skip": "skip",
+                "name": "name",
             }
             decision = decision_map[answer]
 
-            decisions[str(tl.line_num)] = {
+            entry = {
                 "decision": decision,
                 "transcript_speaker": tl.speaker,
                 "diarization_speaker": dia_speaker,
@@ -240,10 +288,14 @@ def spot_check_episode(
                 "cluster": tl.dia_speaker,
                 "ts": datetime.now().isoformat(timespec="seconds"),
             }
+            if custom_speaker:
+                entry["custom_speaker"] = custom_speaker
+            decisions[str(tl.line_num)] = entry
 
             label = {
                 "transcript": f"-> TRANSCRIPT correct ({tl.speaker})",
                 "diarization": f"-> DIARIZATION correct ({dia_speaker})",
+                "name": f"-> CUSTOM: {custom_speaker}",
                 "skip": "-> skipped",
             }
             print(f"  {label[decision]}")
@@ -254,7 +306,7 @@ def spot_check_episode(
             _save_spot_check(dia_dir, sc_data)
 
     # Summary
-    counts = {"transcript": 0, "diarization": 0, "skip": 0}
+    counts = {"transcript": 0, "diarization": 0, "name": 0, "skip": 0}
     for d in decisions.values():
         dec = d.get("decision", "skip") if isinstance(d, dict) else d
         if dec in counts:
@@ -264,7 +316,9 @@ def spot_check_episode(
         f"Summary for {eid}:\n"
         f"  Transcript correct: {counts['transcript']}\n"
         f"  Diarization correct: {counts['diarization']}\n"
-        f"  Skipped: {counts['skip']}\n"
+        + (f"  Custom name: {counts['name']}\n"
+           if counts['name'] else "")
+        + f"  Skipped: {counts['skip']}\n"
         f"  Total reviewed: {sum(counts.values())}/{len(disagrees)}"
     )
     print(f"\n{summary}")
@@ -358,6 +412,8 @@ def cmd_spot_check(args: argparse.Namespace) -> None:
                     # Clean bucket name before writing to transcript
                     speaker = _canon(d["diarization_speaker"])
                     corrections[int(line_str)] = speaker
+                elif d.get("decision") == "name" and d.get("custom_speaker"):
+                    corrections[int(line_str)] = d["custom_speaker"]
 
             if corrections:
                 changed = _apply_corrections(ep["transcript"], corrections)

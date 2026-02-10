@@ -142,6 +142,19 @@ MANUAL_ALIASES: dict[str, str] = {
     "Red-tie businessman": "Business Men",
     "Businessmen": "Business Men",
     "Imaginary Neptr": "NEPTR",
+    "Dr. Princess": "Doctor Princess",
+    "Guardian 1": "Gumball Guardian",
+    "Guardian 2": "Gumball Guardian",
+    "Crystal Guardian Jake": "Jake",
+    "Crystal Guardian Finn": "Finn",
+    "Jake's subconscious": "Jake",
+    "Jake as Finn": "Jake",
+    "Hallucination of Princess Bubblegum": "Princess Bubblegum",
+    "Young Bubblegum": "Young PB",
+    "Young Princess Bubblegum": "Young PB",
+    "Banana Guard Leader": "Banana Guard",
+    "Banana Guard 1": "Banana Guard",
+    "Banana Guard 2": "Banana Guard",
 }
 
 PROGRESS_FILE = "validation_progress.json"

@@ -97,7 +97,8 @@ Finn:  You should have hung back with P.B.
 Marceline:  But I've got a bad feeling like you guys are gonna die without me.
 Finn:  Dang, Marci. Have some faith. Geez.
 Jake:  Guys, look.
-Cow:  Moo! [Hissing] [Jake screams]
+Cow:  Moo! [Hissing]
+[Jake screams]
 Finn:  Get it! [Both screaming] You see it?
 Jake:  No. But what's that?
 Finn:  Must be its filthy lair. [Jake Whimpers] What's wrong?
@@ -117,7 +118,8 @@ Finn:  Hang in there, bro.
 Jake:  I can't be here, man. It's too real.
 Finn:  Wait, you hear that? Listen. [Sucking] There!
 Horse:  [Groans] A little help.
-Finn:  [Jake screaming and faints] Jake! [Grumbling] Hey, get back here! [Panting] Dang! Lost him! Marci? Hey, Marci, you still out here?
+[Jake screaming and faints]
+Finn:  Jake! [Grumbling] Hey, get back here! [Panting] Dang! Lost him! Marci? Hey, Marci, you still out here?
 Cloud Dance:  She's still out here, all right.
 Finn:  Oh, hey, man. Did you see a scary beast go by? I chased it out here, but it got away.
 Cloud Dance:  Oh, we found that beast, and we took care of her real nice You vampire hugger!
@@ -126,7 +128,8 @@ Cloud Dance:  Lookum yonder.
 Finn:  What the blood?
 [Fat Villagers chanting "vamp"]
 Marceline:  [Groans] You dumb bumbags!
-Cloud Dance:  [Finn gasps] Now look at the other yonder.
+[Finn gasps]
+Cloud Dance:  Now look at the other yonder.
 Finn:  Huh? Oh, fudge! You're sick, man! What's wrong with you?
 Cloud Dance:  What? I'm the good guy here.
 Finn:  You're gonna explode my friend.

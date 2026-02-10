@@ -50,8 +50,12 @@ def match_to_segments(lines: list[TLine], segments: list[dict]) -> None:
     Each segment already has text + speaker, so we fuzzy-match transcript text
     to segment text and read the speaker directly.  No separate diarization
     lookup needed.
+
+    Tracks claimed segments to prevent collisions (multiple transcript lines
+    matching the same whisperX segment).
     """
     seg_idx = 0
+    used: set[int] = set()  # segment indices already claimed
     seg_norm = [_normalize(s.get("text", "")) for s in segments]
     seg_words = [_word_set(n) for n in seg_norm]
 
@@ -65,11 +69,15 @@ def match_to_segments(lines: list[TLine], segments: list[dict]) -> None:
         best_r = 0.0
         best_spk = ""
         best_s, best_e = -1.0, -1.0
+        best_seg_lo = -1  # first segment index in best match
+        best_seg_hi = -1  # last segment index in best match
 
         lo = max(0, seg_idx - 5)
         hi = min(len(segments), seg_idx + 25)
 
         for j in range(lo, hi):
+            if j in used:
+                continue
             seg = segments[j]
 
             if _word_overlap(tl_words, seg_words[j]) > 0.15:
@@ -78,12 +86,16 @@ def match_to_segments(lines: list[TLine], segments: list[dict]) -> None:
                     best_r = r
                     best_spk = seg.get("speaker", "")
                     best_s, best_e = seg["start"], seg["end"]
+                    best_seg_lo = j
+                    best_seg_hi = j
 
             # Concatenate adjacent segments (transcript line may span multiple)
             cat_words = set(seg_words[j])
             cat = seg_norm[j]
             cat_e = seg["end"]
             for k in range(j + 1, min(j + 4, len(segments))):
+                if k in used:
+                    break  # stop extending past a claimed segment
                 cat += " " + seg_norm[k]
                 cat_e = segments[k]["end"]
                 cat_words |= seg_words[k]
@@ -91,9 +103,20 @@ def match_to_segments(lines: list[TLine], segments: list[dict]) -> None:
                     cr = _best_score(text, cat)
                     if cr > best_r:
                         best_r = cr
+                        # Pick speaker + timestamps from best-matching segment
+                        best_sub_r = 0.0
                         best_spk = seg.get("speaker", "")
                         best_s = seg["start"]
                         best_e = cat_e
+                        best_seg_lo = j
+                        best_seg_hi = k
+                        for m in range(j, k + 1):
+                            mr = _best_score(text, seg_norm[m])
+                            if mr > best_sub_r:
+                                best_sub_r = mr
+                                best_spk = segments[m].get("speaker", "")
+                                best_s = segments[m]["start"]
+                                best_e = segments[m]["end"]
 
             if best_r >= 0.85:
                 break
@@ -103,6 +126,8 @@ def match_to_segments(lines: list[TLine], segments: list[dict]) -> None:
             for j in range(len(segments)):
                 if lo <= j < hi:
                     continue
+                if j in used:
+                    continue
                 if _word_overlap(tl_words, seg_words[j]) < 0.2:
                     continue
                 r = _best_score(text, seg_norm[j])
@@ -111,12 +136,16 @@ def match_to_segments(lines: list[TLine], segments: list[dict]) -> None:
                     best_spk = segments[j].get("speaker", "")
                     best_s = segments[j]["start"]
                     best_e = segments[j]["end"]
+                    best_seg_lo = j
+                    best_seg_hi = j
                     if r >= 0.85:
                         break
 
         if best_r >= MIN_MATCH_RATIO:
             tl.w_start, tl.w_end, tl.w_ratio = best_s, best_e, best_r
             tl.dia_speaker = best_spk
+            if best_seg_lo >= 0:
+                used.update(range(best_seg_lo, best_seg_hi + 1))
             for j in range(seg_idx, len(segments)):
                 if segments[j]["start"] >= best_e:
                     seg_idx = j
@@ -253,10 +282,10 @@ def validate_and_fix(lines: list[TLine], cmap: dict[str, ClusterMap]) -> EpResul
     r = EpResult()
     merged = build_merged_character_map(cmap)
 
-    # Build canon-keyed merged map for alias-aware lookups
+    # Build canon-keyed merged map for alias-aware lookups (lowercased keys)
     canon_merged: dict[str, tuple[int, int, float, set[str]]] = {}
     for char, data in merged.items():
-        ckey = _canon(char)
+        ckey = _canon(char).lower()
         if ckey in canon_merged:
             prev = canon_merged[ckey]
             canon_merged[ckey] = (
@@ -279,10 +308,10 @@ def validate_and_fix(lines: list[TLine], cmap: dict[str, ClusterMap]) -> EpResul
                 cs = _canon(tl.speaker)
                 cc = _canon(cm.character)
                 # Check merged: line's speaker might match a different cluster
-                if cc == cs:
+                if cc.lower() == cs.lower():
                     tl.validation = "agree"
                     r.agree += 1
-                elif cs in canon_merged and tl.dia_speaker in canon_merged[cs][3]:
+                elif cs.lower() in canon_merged and tl.dia_speaker in canon_merged[cs.lower()][3]:
                     # Speaker is in the set of clusters for this character
                     tl.validation = "agree"
                     r.agree += 1

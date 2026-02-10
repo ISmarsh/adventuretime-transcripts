@@ -272,6 +272,8 @@ def cmd_validate(args: argparse.Namespace) -> None:
                 print(f"    ... and {len(result.disagree_details) - 5} more")
 
             # Rescore: segment-level profile comparison
+            save_disagrees = result.disagree_details
+            rescore_summary = None
             if getattr(args, "rescore", False) and result.disagree_details:
                 from .rescore import rescore_disagrees, split_clusters
 
@@ -301,6 +303,7 @@ def cmd_validate(args: argparse.Namespace) -> None:
                 # Per-segment rescoring
                 rescored = rescore_disagrees(
                     eid, result.disagree_details, ep["segments"], dia_dir)
+                save_disagrees = rescored
                 n_seg = sum(1 for r in rescored
                             if r.get("rescore_type") == "segment")
                 n_cent = sum(1 for r in rescored
@@ -310,6 +313,11 @@ def cmd_validate(args: argparse.Namespace) -> None:
                 n_d = sum(1 for r in rescored
                           if r.get("rescore_verdict") == "diarization")
                 n_scored = n_t + n_d
+                rescore_summary = {
+                    "segment": n_seg, "centroid": n_cent,
+                    "transcript": n_t, "diarization": n_d,
+                    "no_profile": len(rescored) - n_scored,
+                }
 
                 if n_scored > 0:
                     print(f"  Rescore ({n_seg} segment, {n_cent} centroid):")
@@ -346,7 +354,7 @@ def cmd_validate(args: argparse.Namespace) -> None:
             total_fixed += result.fixed
             total_unknown += result.unknown
 
-            progress["processed"][eid] = {
+            ep_progress = {
                 "ts": datetime.now().isoformat(),
                 "total": result.total,
                 "labeled": result.labeled,
@@ -357,8 +365,11 @@ def cmd_validate(args: argparse.Namespace) -> None:
                 "fixed": result.fixed,
                 "unknown": result.unknown,
                 "clusters": result.cluster_info,
-                "disagreements": result.disagree_details,
+                "disagreements": save_disagrees,
             }
+            if rescore_summary:
+                ep_progress["rescore"] = rescore_summary
+            progress["processed"][eid] = ep_progress
             save_progress(progress_path, progress)
 
         except Exception as e:

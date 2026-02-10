@@ -4,14 +4,14 @@
   "season": 1,
   "speaker_map": {
     "SPEAKER_01": "LSP",
-    "SPEAKER_02": "Ricardio",
     "SPEAKER_03": "Finn_S01-S03",
     "SPEAKER_04": "Princess Bubblegum",
     "SPEAKER_05": "Jake",
     "SPEAKER_06": "Ice King"
   },
   "skipped": [
-    "SPEAKER_00"
+    "SPEAKER_00",
+    "SPEAKER_02"
   ],
   "auto_labeled": true,
   "threshold": 0.6,

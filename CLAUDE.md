@@ -12,6 +12,7 @@ See also: [README.md](README.md) (format standard, project overview),
 
 - `tools/extract_speakers.py` — line merge + SDH mining + rule-based + batched Vision attribution
 - `tools/cleanup_transcript.py` — format normalization (brackets, dashes, colon spacing, blank lines)
+- `tools/split_brackets.py` — split cross-speaker audible actions (`[Finn coughs]`) out of dialogue lines into standalone lines. Idempotent.
 - `tools/pgs_to_srt.py` — PGS bitmap subtitle → SRT via Tesseract OCR
 - `tools/diarize/` — speaker diarization + voice embedding pipeline (see below). Run via `python -m tools.diarize`.
 - `tools/vision_identify.py` — speaker identification via VLC clip review or Vision API (see below)
@@ -29,9 +30,9 @@ Transcripts are NOT used as ground truth — they are the thing being validated.
 | `embed-clusters` | Build per-cluster embeddings, print ID report, save to reports/ | ~20s/ep |
 | `embed-label` | Save cluster→character mapping, merge into voice profiles | instant |
 | `auto-label` | Propose/apply cluster labels using voice profiles (cosine similarity) | instant |
-| `validate` | Compare diarization against transcript (uses label files when available) | ~20s |
-| `spot-check` | Interactive VLC review of validation disagrees | ~30s/disagree |
-| `status` | Show pipeline progress across all episodes | instant |
+| `validate` | Compare diarization against transcript; `--rescore` adds segment-level embedding comparison | ~20s |
+| `spot-check` | Interactive VLC review of validation disagrees; `--write` applies corrections | ~30s/disagree |
+| `status` | Show pipeline progress; `--needs {process,clusters,labels,any}` filters by missing stage | instant |
 
 ### Workflow per episode
 
@@ -59,6 +60,10 @@ Transcripts are NOT used as ground truth — they are the thing being validated.
 8. spot-check --series AT --season 1                 # interactive VLC review of disagrees
 9. spot-check --series AT --season 1 --write         # apply confirmed corrections
 ```
+
+`spot-check` plays VLC clips for each disagree and prompts for a decision: `transcript` (t), `diarization` (d), `name <Speaker>` (n) for a custom speaker (neither was right), `skip` (s), `replay` (r), `quit` (q). Saves after each decision to `spot_check/<episode>.json` — resume-safe, re-run skips reviewed items. Use `--force` to re-review. `--write` reads saved decisions and applies corrections to transcript files.
+
+`validate --rescore` compares individual segment embeddings (from cluster `.npz` files) against voice profile centroids to determine which attribution (transcript or diarization) is more plausible per-disagree. Also reports cluster split analysis showing what percentage of a cluster's segments affiliate with different character profiles. Results are saved to `validation_progress.json`.
 
 `auto-label` classifies each cluster centroid against voice profile centroids via cosine
 similarity. Labels with `AUTO` (margin >= 0.05 over 2nd best) or `auto` (close margin).
@@ -173,10 +178,10 @@ Investigated whether surgical profile cleanup could improve Finn/Jake separation
 
 `validate` fuzzy-matches transcript lines to whisperX segments by timestamp, then compares speaker attributions using canonical name resolution.
 
-- **~51% agree rate** is the S01 baseline after alias resolution. Remaining disagrees are real diarization errors, not transcript issues.
-- **Finn↔Jake confusion**: 35% of all S01 disagrees. Pyannote struggles to separate two young male voices. Transcript is almost always correct.
-- **Minor characters in major clusters**: 26% of disagrees. Characters without voice profiles land in the nearest major cluster. Expected and not fixable without seeding more profiles.
-- **Finn→PB confusion**: Severe in close dialogue scenes (e.g. S01E01 cemetery scene: 26/68 disagrees). Young Finn and PB cluster together when alone.
+- **~63% agree rate** is the full-series baseline (AT: 11995/18968 = 63.2%, DL: 228/810 = 28.1%, FC: 678/1696 = 40.0%). Remaining disagrees are real diarization errors, not transcript issues.
+- **Finn↔Jake confusion**: 32% of all S01 disagrees. Pyannote struggles to separate two young male voices. Transcript is almost always correct.
+- **Minor characters in major clusters**: 32% of disagrees. Characters without voice profiles land in the nearest major cluster (Finn_S01-S03 is the biggest attractor — 47% of all disagrees point TO it). Expected and not fixable without seeding more profiles.
+- **Finn→PB confusion**: Severe in close dialogue scenes (e.g. S01E01 cemetery scene). Young Finn and PB cluster together when alone. Concentrated in 3 episodes (E01, E05, E24).
 - **Multi-speaker lines**: "Finn and Jake" etc. — inherently ambiguous, ~1% of disagrees.
 - Validate is primarily useful for **spotting transcript attribution errors** and **measuring diarization quality**, not for correcting diarization.
 

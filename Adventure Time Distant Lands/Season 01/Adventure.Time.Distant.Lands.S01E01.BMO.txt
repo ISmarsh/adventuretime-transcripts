@@ -331,7 +331,9 @@ Hugo:  Dang, this robot is one-of-a-kind. But nothing here I can use.
 Hugo:  Bummer. Well, maybe next time, KS-2's daughter.
 BMO:  Not so fast! The sheriff is here to help. Tell me what you need.
 Hugo:  Okay... We've located the final component for the Unity Pod... the Genesis Crystal. Unfortunately, it lies within the impenetrable Jungle Pod. And all our attempts to grab it have been hot garbo. So, we're engineering our own. How's it going, guys?
-One of the Engineers:  I think we've finally cracked it, sir. Permission to run a test? [Hugo whistles.] Cool, cool. Commencing test 325.
+One of the Engineers:  I think we've finally cracked it, sir. Permission to run a test?
+[Hugo whistles.]
+One of the Engineers:  Cool, cool. Commencing test 325.
 [A synthetic crystal is being tested but it soon explodes.]
 Y5:  Huh? [distracted; accidentally pressing one of her cards] That... That shouldn't count!
 Mr. M:  Tough beans, kid. A deal's a deal.
