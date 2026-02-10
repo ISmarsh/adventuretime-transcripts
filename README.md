@@ -6,8 +6,8 @@ Transcripts for Adventure Time and spin-off series, scraped from the [Adventure 
 
 ```
 Adventure Time/
-  Season 00 (Specials)/  - 2 files
-  Season 01-10/          - 258 files
+  Season 00 (Specials)/  - 12 files
+  Season 01-10/          - 279 files
 
 Adventure Time Distant Lands/
   Season 01/             - 4 files
@@ -17,7 +17,7 @@ Adventure Time Fionna and Cake/
   Season 02/             - 10 files
 ```
 
-Total: 282 transcript files
+Total: 315 transcript files
 
 ## Gap Filling
 
@@ -36,6 +36,7 @@ Some episodes were missing or incomplete on the wiki. These gaps were filled by 
 - `tools/cleanup_transcript.py` — Format normalization (brackets, dashes, colon spacing, blank lines)
 - `tools/pgs_to_srt.py` — PGS bitmap subtitle (Blu-ray) to SRT via Tesseract OCR
 - `tools/whisperx_diarize.py` — Speaker diarization + voice embedding pipeline (see below)
+- `tools/vision_identify.py` — Interactive VLC clip review + Vision API for speaker identification
 
 ## Diarization Pipeline
 

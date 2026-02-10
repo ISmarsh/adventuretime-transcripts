@@ -121,8 +121,36 @@ All 282 transcript files were normalized with `tools/cleanup_transcript.py --wri
 
 Second pass: 38/282 files updated (speaker merge + digit-name colon spacing). 29 joined-word OCR warnings flagged (not auto-fixed).
 
+## Future Work — FC Transcript Correction
+
+FC S01-S02 transcripts are generated/fan-made (not wiki-scraped) with lower quality speaker attribution. Diarization validation shows ~33% agree rate (vs AT's ~51%). Three approaches under consideration:
+
+### Option A: Diarization-guided correction
+
+Use labeled diarization clusters as primary signal. For each transcript line, find the closest diarization segment by timestamp. If the diarization speaker label (via label files) disagrees with the transcript speaker, flag or auto-correct.
+
+- **Pro**: No API cost, uses existing data
+- **Con**: Diarization itself is only ~40% mapped, so coverage is limited
+
+### Option B: Vision-based transcript regeneration
+
+Re-generate transcripts from scratch using whisperX text + Vision API to identify speakers per line. Essentially rebuild the transcript from diarization output rather than correcting the existing one.
+
+- **Pro**: Clean slate, no inherited errors
+- **Con**: Higher API cost, loses any correct attributions from existing transcript
+
+### Option C: Hybrid (recommended)
+
+Use diarization labels as primary signal for confident matches. For lines where diarization disagrees with the transcript AND the diarization label has high confidence, use Vision API as a tiebreaker — extract a frame at the line's timestamp and ask Sonnet who's speaking.
+
+- **Pro**: Targeted API spend (~$0.13/episode), best of both approaches
+- **Con**: More complex implementation
+
+Manual VLC clip review preferred before sending to Vision API.
+
 ## Tools
 
 - `tools/pgs_to_srt.py` - PGS bitmap subtitle → SRT via Tesseract OCR
 - `tools/extract_speakers.py` - Speaker attribution via SDH mining + rule-based + Claude Vision
 - `tools/cleanup_transcript.py` - Format normalization across all transcript files
+- `tools/vision_identify.py` - Speaker identification via VLC clip review or Vision API

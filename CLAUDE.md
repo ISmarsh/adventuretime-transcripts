@@ -1,6 +1,6 @@
 # Adventure Time Transcripts
 
-282 transcript files across Adventure Time, Distant Lands, and Fionna & Cake.
+315 transcript files across Adventure Time, Distant Lands, and Fionna & Cake.
 
 See also: [README.md](README.md) (format standard, project overview),
 [PGS-OCR-WORKFLOW.md](PGS-OCR-WORKFLOW.md) (BluRay subtitle extraction),
@@ -14,6 +14,7 @@ See also: [README.md](README.md) (format standard, project overview),
 - `tools/cleanup_transcript.py` — format normalization (brackets, dashes, colon spacing, blank lines)
 - `tools/pgs_to_srt.py` — PGS bitmap subtitle → SRT via Tesseract OCR
 - `tools/whisperx_diarize.py` — speaker diarization + voice embedding pipeline (see below)
+- `tools/vision_identify.py` — speaker identification via VLC clip review or Vision API (see below)
 
 ## Diarization Pipeline
 
@@ -71,9 +72,30 @@ Threshold system (layered):
 - **Sample-count scaling**: profiles with <100 samples get up to +0.10 penalty
 - **Per-character override**: `--char-threshold "Ice King=0.65"` for known confusable voices (Tom Kenny voices many AT characters)
 
+### Interactive clip workflow (transcript-independent)
+
+For episodes where voice profiles don't exist or clusters are too mixed for auto-label, use `vision_identify.py --clips` to play audio/video clips per cluster in VLC. No transcript files needed.
+
+```
+1. process --episode FC.S02E02                                                      # diarize
+2. python tools/vision_identify.py --clips --episode FC.S02E02 --video <path> --apply  # review + label
+3. embed-label --episode FC.S02E02 --map <confirmed mappings>                       # merge into profiles
+4. validate --episode FC.S02E02                                                     # compare against transcript
+```
+
+Batch mode: `python tools/vision_identify.py --clips --series fc --season 2 --video-dir "D:\Shows"`
+
+Plays 5 clips per cluster (longest segments with dialogue), sorted by cluster size. Prompts for character name after each cluster. Commands: `more` (load 5 additional clips), `replay` (replay all clips), `skip`, `mixed`, `quit`. Writes standard label files compatible with `validate` and `auto-label --merge`.
+
+Target specific speakers: `--speakers SPEAKER_04 SPEAKER_13` (bypasses min-segs filter, merges additively with existing labels).
+
+For DUAL audio releases: `--audio-track 1` selects the English stream (0=default, usually non-English).
+
+Also supports `--vision` mode (no `--clips` flag) which uses Claude Sonnet Vision API (~$0.40/episode) for automated identification. Less accurate than manual review due to off-screen speakers in animation.
+
 ### Data layout
 
-50 voice profiles, ~42K samples across S01-S10. 277 label files.
+78 voice profiles, ~43K samples across AT/DL/FC. 311 label files.
 
 ```
 diarization/

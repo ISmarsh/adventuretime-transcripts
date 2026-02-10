@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S06E41",
+  "title": "On the Lam",
+  "season": 6,
+  "speaker_map": {
+    "SPEAKER_05": "Martin"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T18:28:54"
+}

@@ -1,0 +1,33 @@
+{
+  "episode_id": "FC.S02E10",
+  "title": "The Bear and the Rose",
+  "season": 2,
+  "speaker_map": {
+    "SPEAKER_02": "Princess Bubblegum",
+    "SPEAKER_04": "Fionna",
+    "SPEAKER_09": "Cake",
+    "SPEAKER_13": "Prismo_FC",
+    "SPEAKER_05": "Finn_FC",
+    "SPEAKER_15": "Minerva Campbell",
+    "SPEAKER_19": "Huntress Wizard",
+    "SPEAKER_03": "Fionna",
+    "SPEAKER_18": "Fennel",
+    "SPEAKER_20": "NEPTR",
+    "SPEAKER_08": "Gary Prince",
+    "SPEAKER_07": "Gary Prince",
+    "SPEAKER_00": "Banana Guard"
+  },
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_06",
+    "SPEAKER_10",
+    "SPEAKER_11",
+    "SPEAKER_12",
+    "SPEAKER_14",
+    "SPEAKER_16",
+    "SPEAKER_17"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-09T22:11:58"
+}
