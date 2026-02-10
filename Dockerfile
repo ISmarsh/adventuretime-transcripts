@@ -17,4 +17,4 @@ RUN pip install --no-cache-dir \
 
 WORKDIR /app
 
-ENTRYPOINT ["python", "tools/whisperx_diarize.py"]
+ENTRYPOINT ["python", "-m", "tools.diarize"]

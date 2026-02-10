@@ -35,7 +35,7 @@ Some episodes were missing or incomplete on the wiki. These gaps were filled by 
 - `tools/extract_speakers.py` — Line merge + SDH mining + rule-based + batched Vision speaker attribution
 - `tools/cleanup_transcript.py` — Format normalization (brackets, dashes, colon spacing, blank lines)
 - `tools/pgs_to_srt.py` — PGS bitmap subtitle (Blu-ray) to SRT via Tesseract OCR
-- `tools/whisperx_diarize.py` — Speaker diarization + voice embedding pipeline (see below)
+- `tools/diarize/` — Speaker diarization + voice embedding pipeline (see below). Run via `python -m tools.diarize`.
 - `tools/vision_identify.py` — Interactive VLC clip review + Vision API for speaker identification
 
 ## Diarization Pipeline

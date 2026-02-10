@@ -13,7 +13,7 @@ See also: [README.md](README.md) (format standard, project overview),
 - `tools/extract_speakers.py` — line merge + SDH mining + rule-based + batched Vision attribution
 - `tools/cleanup_transcript.py` — format normalization (brackets, dashes, colon spacing, blank lines)
 - `tools/pgs_to_srt.py` — PGS bitmap subtitle → SRT via Tesseract OCR
-- `tools/whisperx_diarize.py` — speaker diarization + voice embedding pipeline (see below)
+- `tools/diarize/` — speaker diarization + voice embedding pipeline (see below). Run via `python -m tools.diarize`.
 - `tools/vision_identify.py` — speaker identification via VLC clip review or Vision API (see below)
 
 ## Diarization Pipeline
