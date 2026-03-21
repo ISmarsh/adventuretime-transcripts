@@ -5,28 +5,28 @@
   "speaker_map": {
     "SPEAKER_03": "Ice King",
     "SPEAKER_04": "Jake",
+    "SPEAKER_05": "Finn_DL",
+    "SPEAKER_06": "New Death",
+    "SPEAKER_07": "New Death",
+    "SPEAKER_08": "New Death",
     "SPEAKER_09": "Joshua",
-    "SPEAKER_15": "Peppermint Butler",
-    "SPEAKER_19": "Young Marceline"
+    "SPEAKER_13": "Finn_DL",
+    "SPEAKER_15": "Peppermint Butler_DL",
+    "SPEAKER_18": "Finn_DL",
+    "SPEAKER_19": "Tiffany Oiler",
+    "SPEAKER_21": "Finn_DL"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_01",
     "SPEAKER_02",
-    "SPEAKER_05",
-    "SPEAKER_06",
-    "SPEAKER_07",
-    "SPEAKER_08",
     "SPEAKER_10",
     "SPEAKER_11",
     "SPEAKER_12",
-    "SPEAKER_13",
     "SPEAKER_14",
     "SPEAKER_16",
     "SPEAKER_17",
-    "SPEAKER_18",
-    "SPEAKER_20",
-    "SPEAKER_21"
+    "SPEAKER_20"
   ],
   "auto_labeled": true,
   "threshold": 0.6,

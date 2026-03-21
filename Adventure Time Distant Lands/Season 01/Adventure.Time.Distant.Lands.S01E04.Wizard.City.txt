@@ -370,7 +370,7 @@ Bufo:  Eggs are especially susceptible to transmutation. [casts spell on an egg]
 
 'Bufo's Egg: Bufo!
 
-Bufo':  Hey, look at that. Nature is giving you a head start, so I expect you to have magicked up something really special by the next class. [his egg walks across the table, and falls when he slams the table] That includes you, Larry! I didn't buy enough eggs, so everyone has to pair off with the person next to you. [gives each pair their eggs] Open to page 6 in your textbook -- "The Primary Elements of Transmutation."
+Bufo:  Hey, look at that. Nature is giving you a head start, so I expect you to have magicked up something really special by the next class. [his egg walks across the table, and falls when he slams the table] That includes you, Larry! I didn't buy enough eggs, so everyone has to pair off with the person next to you. [gives each pair their eggs] Open to page 6 in your textbook -- "The Primary Elements of Transmutation."
 
 Pep:  [raising his hand] Can I get another partner?
 

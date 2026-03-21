@@ -3,18 +3,18 @@
   "title": "The Star",
   "season": 1,
   "speaker_map": {
-    "SPEAKER_03": "Ice King",
+    "SPEAKER_03": "Simon",
     "SPEAKER_06": "Marceline",
     "SPEAKER_12": "Princess Bubblegum",
     "SPEAKER_13": "Fionna",
     "SPEAKER_14": "Fionna",
     "SPEAKER_15": "Cake",
-    "SPEAKER_05": "Marshall Lee"
+    "SPEAKER_05": "Marshall Lee",
+    "SPEAKER_01": "Prismo_FC",
+    "SPEAKER_02": "Cake"
   },
   "skipped": [
     "SPEAKER_00",
-    "SPEAKER_01",
-    "SPEAKER_02",
     "SPEAKER_04",
     "SPEAKER_07",
     "SPEAKER_08",
@@ -24,5 +24,5 @@
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T18:09:24"
+  "timestamp": "2026-02-10T09:49:02"
 }

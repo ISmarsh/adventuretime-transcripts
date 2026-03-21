@@ -3,12 +3,12 @@
   "title": "Cake the Cat",
   "season": 1,
   "speaker_map": {
-    "SPEAKER_02": "Ice King",
+    "SPEAKER_02": "Simon",
     "SPEAKER_09": "Young PB",
     "SPEAKER_10": "Fionna",
     "SPEAKER_11": "Fionna",
     "SPEAKER_12": "Cake",
-    "SPEAKER_13": "Ice King"
+    "SPEAKER_13": "Simon"
   },
   "skipped": [
     "SPEAKER_00",
@@ -22,5 +22,5 @@
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T17:13:49"
+  "timestamp": "2026-02-10T09:49:02"
 }

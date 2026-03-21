@@ -4,11 +4,11 @@
   "season": 1,
   "speaker_map": {
     "SPEAKER_01": "Princess Bubblegum",
-    "SPEAKER_02": "Ice King",
+    "SPEAKER_02": "Simon",
     "SPEAKER_06": "Marceline",
     "SPEAKER_07": "Marceline",
     "SPEAKER_08": "Princess Bubblegum",
-    "SPEAKER_17": "Wildberry Princess",
+    "SPEAKER_17": "Glassboy",
     "SPEAKER_19": "Young Marceline"
   },
   "skipped": [
@@ -30,5 +30,5 @@
   ],
   "auto_labeled": true,
   "threshold": 0.6,
-  "timestamp": "2026-02-07T17:13:50"
+  "timestamp": "2026-02-10T10:13:11"
 }

@@ -7,12 +7,12 @@
     "SPEAKER_08": "Fionna",
     "SPEAKER_09": "Princess Bubblegum",
     "SPEAKER_02": "Winter King",
-    "SPEAKER_04": "Gary Prince"
+    "SPEAKER_04": "Gary Prince",
+    "SPEAKER_03": "Cake"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_01",
-    "SPEAKER_03",
     "SPEAKER_05",
     "SPEAKER_07",
     "SPEAKER_10",

@@ -3,17 +3,17 @@
   "title": "Wizard City",
   "season": 1,
   "speaker_map": {
-    "SPEAKER_04": "Young PB",
-    "SPEAKER_05": "Peppermint Butler",
-    "SPEAKER_06": "Young Marceline",
-    "SPEAKER_07": "Young Marceline",
-    "SPEAKER_08": "Peppermint Butler"
+    "SPEAKER_05": "Peppermint Butler_DL",
+    "SPEAKER_07": "Peppermint Butler_DL",
+    "SPEAKER_08": "Peppermint Butler_DL"
   },
   "skipped": [
     "SPEAKER_00",
     "SPEAKER_01",
     "SPEAKER_02",
     "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_06",
     "SPEAKER_09",
     "SPEAKER_10",
     "SPEAKER_11",
