@@ -6,8 +6,8 @@ Transcripts for Adventure Time and spin-off series, scraped from the [Adventure 
 
 ```
 Adventure Time/
-  Season 00 (Specials)/  - 2 files
-  Season 01-10/          - 258 files
+  Season 00 (Specials)/  - 12 files
+  Season 01-10/          - 279 files
 
 Adventure Time Distant Lands/
   Season 01/             - 4 files
@@ -17,7 +17,7 @@ Adventure Time Fionna and Cake/
   Season 02/             - 10 files
 ```
 
-Total: 282 transcript files
+Total: 315 transcript files
 
 ## Gap Filling
 
@@ -32,7 +32,53 @@ Some episodes were missing or incomplete on the wiki. These gaps were filled by 
 
 ## Tools
 
-- `tools/pgs_to_srt.py` - Convert PGS (Blu-ray bitmap) subtitles to SRT using OCR
+- `tools/extract_speakers.py` — Line merge + SDH mining + rule-based + batched Vision speaker attribution
+- `tools/cleanup_transcript.py` — Format normalization (brackets, dashes, colon spacing, blank lines)
+- `tools/pgs_to_srt.py` — PGS bitmap subtitle (Blu-ray) to SRT via Tesseract OCR
+- `tools/diarize/` — Speaker diarization + voice embedding pipeline (see below). Run via `python -m tools.diarize`.
+- `tools/vision_identify.py` — Interactive VLC clip review + Vision API for speaker identification
+
+## Diarization Pipeline
+
+Unsupervised speaker identification using whisperX + ECAPA-TDNN voice embeddings.
+Runs in a Docker container for GPU acceleration and reproducible dependencies.
+
+### Quick start
+
+```bash
+# 1. Copy and edit docker-compose.example.yml with your video paths
+cp docker-compose.example.yml docker-compose.yml
+
+# 2. Build the container (one-time, ~5 min)
+docker compose build
+
+# 3. Check pipeline progress
+docker compose run whisperx status
+
+# 4. Process episodes (GPU-accelerated)
+docker compose run whisperx process --season 1 --workers 1
+
+# 5. Build speaker cluster reports for review
+docker compose run whisperx embed-clusters --season 1
+```
+
+**Prerequisites:** Docker Desktop (WSL2 backend), NVIDIA GPU driver, [HuggingFace token](https://huggingface.co/pyannote/speaker-diarization-3.1) set as `HUGGINGFACE_TOKEN` env var.
+
+See [docker-compose.example.yml](docker-compose.example.yml) for full setup notes.
+
+### Local development (no Docker)
+
+Most subcommands (`status`, `auto-label`, `embed-label`, `validate`, `vision_identify.py`) run locally without GPU. Set up a venv:
+
+```bash
+python -m venv .venv
+.venv/Scripts/activate   # Windows
+source .venv/bin/activate # Linux/macOS
+pip install -r requirements.txt
+python -m tools.diarize status
+```
+
+`embed-clusters` also runs locally (loads ECAPA-TDNN model, ~20s/episode on CPU). Only `process` benefits significantly from GPU/Docker.
 
 ## Format
 

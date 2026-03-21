@@ -1,0 +1,33 @@
+# Diarization pipeline — GPU-accelerated whisperX in Docker.
+#
+# Prerequisites:
+#   - Docker Desktop with WSL2 backend
+#   - NVIDIA GPU driver (nvidia-smi should work from host)
+#   - HuggingFace token with pyannote access:
+#       1. Accept terms at https://huggingface.co/pyannote/speaker-diarization-3.1
+#       2. Set HUGGINGFACE_TOKEN in .env (see .env.example)
+#
+# Usage:
+#   docker compose build                          # one-time (~5 min)
+#   docker compose run whisperx status            # pipeline progress
+#   docker compose run whisperx process --workers 1  # GPU-accelerated
+#   docker compose run whisperx embed-clusters    # batch clustering
+
+services:
+  whisperx:
+    build: .
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    volumes:
+      - .:/app
+      # Mount video directories read-only. The container expects
+      # /shows-d and /shows-s — the script auto-detects these paths.
+      - ${VIDEO_DIR_D:?Set VIDEO_DIR_D in .env}:/shows-d:ro
+      - ${VIDEO_DIR_S:?Set VIDEO_DIR_S in .env}:/shows-s:ro
+    environment:
+      - HF_TOKEN=${HUGGINGFACE_TOKEN:?Set HUGGINGFACE_TOKEN in .env}

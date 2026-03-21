@@ -60,7 +60,7 @@ Not recommended as sole source due to OCR errors. Best used to supplement wiki t
 ## Files
 
 - `tools/pgs_to_srt.py` - Python script for PGS to SRT conversion
-- Requires: `pip install pillow pytesseract`
+- Requires: `pillow`, `pytesseract` (included in `requirements.txt`)
 
 ## Related Documentation
 
