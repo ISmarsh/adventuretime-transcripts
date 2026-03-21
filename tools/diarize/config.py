@@ -152,9 +152,16 @@ MANUAL_ALIASES: dict[str, str] = {
     "Hallucination of Princess Bubblegum": "Princess Bubblegum",
     "Young Bubblegum": "Young PB",
     "Young Princess Bubblegum": "Young PB",
+    "Younger Princess Bubblegum": "Young PB",
+    "Younger Marceline": "Young Marceline",
+    "Pep": "Peppermint Butler",
+    "Peppermint Butler Apparition": "Peppermint Butler",
     "Banana Guard Leader": "Banana Guard",
     "Banana Guard 1": "Banana Guard",
     "Banana Guard 2": "Banana Guard",
+    "Y4": "Y5",
+    "Glass Boy": "Glassboy",
+    "Tiffany": "Tiffany Oiler",
 }
 
 PROGRESS_FILE = "validation_progress.json"
@@ -221,6 +228,7 @@ class EpResult:
     n_clusters: int = 0
     agree: int = 0
     disagree: int = 0
+    uncertain: int = 0
     fixed: int = 0
     unknown: int = 0
     disagree_details: list = field(default_factory=list)

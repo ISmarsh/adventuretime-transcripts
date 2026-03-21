@@ -296,6 +296,9 @@ def validate_and_fix(lines: list[TLine], cmap: dict[str, ClusterMap]) -> EpResul
         else:
             canon_merged[ckey] = data
 
+    # Set of canonical labeled characters in this episode (for uncertain split)
+    labeled_chars = {_canon(cm.character).lower() for cm in cmap.values()}
+
     for i, tl in enumerate(lines):
         if tl.is_scene or not tl.text:
             continue
@@ -315,6 +318,21 @@ def validate_and_fix(lines: list[TLine], cmap: dict[str, ClusterMap]) -> EpResul
                     # Speaker is in the set of clusters for this character
                     tl.validation = "agree"
                     r.agree += 1
+                elif cs.lower() not in labeled_chars:
+                    # Transcript speaker has no labeled cluster — uncertain
+                    tl.validation = "uncertain"
+                    r.uncertain += 1
+                    r.disagree_details.append({
+                        "line": tl.line_num,
+                        "text": tl.text[:60],
+                        "transcript": tl.speaker,
+                        "diarization": cm.character,
+                        "cluster": tl.dia_speaker,
+                        "conf": round(cm.confidence, 2),
+                        "w_start": tl.w_start,
+                        "w_end": tl.w_end,
+                        "uncertain": True,
+                    })
                 else:
                     tl.validation = "disagree"
                     r.disagree += 1

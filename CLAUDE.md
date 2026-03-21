@@ -1,4 +1,5 @@
 # Adventure Time Transcripts
+@todo.md
 
 315 transcript files across Adventure Time, Distant Lands, and Fionna & Cake.
 
@@ -73,7 +74,7 @@ Clusters below threshold are flagged `REVIEW` for manual identification.
 - `--merge` reads existing label files and merges into voice profiles — run after review
 - Use both together (`--apply --merge`) to write + merge in one step (old behavior)
 - `--additive` only processes clusters currently in `skipped`, preserving existing `speaker_map` entries. Use after manual review to expand coverage without overwriting corrections.
-- **Temporal filtering**: `first_episode` and `last_episode` fields in `_index.json` per-profile prevent anachronistic matches. `first_episode` blocks early episodes (e.g. Fern profile from S09 won't match S01 clusters). `last_episode` blocks later episodes (e.g. AT Finn buckets and Prismo won't match FC/DL where voice actors differ). Applied automatically during auto-label.
+- **Per-series temporal filtering**: `series_range` in `_index.json` per-profile controls which series and episode ranges a profile can match. Omitted series = blocked. Example: `"series_range": {"AT": {"first": "S07E01", "last": "S10E13"}}` limits Finn_S07-S10 to AT S07-S10 only. Empty dict for a series = all episodes (`"DL": {}`). Profiles without `series_range` match everything. Applied automatically during auto-label.
 
 Threshold system (layered):
 - **Base threshold**: `--threshold` (default 0.60)
@@ -145,7 +146,7 @@ The script is live-mounted (`.:/app`), so code changes are immediately available
 ### Known false positive patterns
 
 - **Joshua (deep male voice)**: Consistently matches random deep-voiced background characters (Nightosphere demons, mud scamps). Hit 3 false positives in S04 alone. Sample-count penalty and temporal filtering help but don't fully prevent.
-- **Young female voices (worst confusable cluster)**: Me-Mow, Young Marceline, Fionna, and Young PB profiles all cross-match with each other and with random young/feminine-sounding characters. Worse than the deep male voice problem — temporal bounds (`last_episode`) are more effective than threshold tuning for preventing cross-series false positives.
+- **Young female voices (worst confusable cluster)**: Me-Mow, Young Marceline, Fionna, and Young PB profiles all cross-match with each other and with random young/feminine-sounding characters. Worse than the deep male voice problem — per-series temporal bounds (`series_range`) are more effective than threshold tuning for preventing cross-series false positives.
 - **Elements arc transformations** (S09E02-E09): Characters get elementally transformed and their voice shifts enough to match *other* profiles (e.g. transformed Flame Princess → Marceline). All S09 Elements episodes need manual review.
 - **Themed intros**: Special arcs (Elements, Islands) have custom intros sung by cast members. These cluster separately and match character profiles but aren't actual character dialogue — always false positives.
 - **Alternate-world episodes**: Same voice actors play alternate versions of characters (e.g. Beyond the Grotto S10E03). Voice matches are technically correct but character identities differ. Accept or skip based on project needs.
@@ -172,13 +173,17 @@ Investigated whether surgical profile cleanup could improve Finn/Jake separation
 - **MANUAL_ALIASES vs `_canon()`**: `MANUAL_ALIASES` feeds `_resolve_speaker()` which is called during **profile creation** (embed-label line 2020). Adding bucket names here (e.g. `"Prismo_FC": "Prismo"`) causes profile contamination — FC samples merge into the AT profile. Series-bucket stripping belongs in `_canon()` only, which is used for **validation comparison** only. Never add bucket variants to MANUAL_ALIASES.
 - **Profile rebuild procedure**: If a profile gets contaminated, delete the .npz, find label files with that character's mappings (`grep` labels/), re-run `embed-label` for each episode.
 - **Skip mixed clusters**: When pyannote merges two characters, skip rather than mislabel
-- **`last_episode` string comparison sorts series naturally**: Episode IDs sort alphabetically as `AT.*` < `DL.*` < `FC.*`, so `last_episode: "AT.S10E13"` blocks all DL/FC matches without series-aware logic. Convenient for this project's naming convention.
+- **Per-series temporal filtering**: `series_range` in `_index.json` maps each allowed series to an optional `{first, last}` episode range. Omitted series are blocked entirely. Replaces the old `first_episode`/`last_episode` string comparison which relied on alphabetical sort (`AT.*` < `DL.*` < `FC.*`) and couldn't express non-contiguous ranges like "AT + FC but not DL".
 
 ### Validate expected results
 
 `validate` fuzzy-matches transcript lines to whisperX segments by timestamp, then compares speaker attributions using canonical name resolution.
 
-- **~63% agree rate** is the full-series baseline (AT: 11995/18968 = 63.2%, DL: 228/810 = 28.1%, FC: 678/1696 = 40.0%). Remaining disagrees are real diarization errors, not transcript issues.
+- **~74% agree rate** (excluding uncertain) is the full-series baseline. Uncertain = transcript speaker has no labeled cluster in the episode; only true disagrees count where both speakers are labeled characters.
+  - AT: 11995 agree, 3900 disagree, 3073 uncertain (75.5% excl uncertain, 63.2% overall)
+  - DL: 530 agree, 186 disagree, 256 uncertain (74.0% excl uncertain, 54.5% overall)
+  - FC: 678 agree, 506 disagree, 512 uncertain (57.3% excl uncertain, 40.0% overall)
+  - Remaining disagrees are real diarization errors, not transcript issues.
 - **Finn↔Jake confusion**: 32% of all S01 disagrees. Pyannote struggles to separate two young male voices. Transcript is almost always correct.
 - **Minor characters in major clusters**: 32% of disagrees. Characters without voice profiles land in the nearest major cluster (Finn_S01-S03 is the biggest attractor — 47% of all disagrees point TO it). Expected and not fixable without seeding more profiles.
 - **Finn→PB confusion**: Severe in close dialogue scenes (e.g. S01E01 cemetery scene). Young Finn and PB cluster together when alone. Concentrated in 3 episodes (E01, E05, E24).

@@ -61,39 +61,22 @@ def _load_profile_sample_counts(profile_dir: Path) -> dict[str, int]:
     }
 
 
-def _load_profile_first_episodes(profile_dir: Path) -> dict[str, str]:
-    """Load first_episode constraints from the index file.
+def _load_profile_series_ranges(profile_dir: Path) -> dict[str, dict]:
+    """Load per-series episode range constraints from the index file.
 
-    Returns a dict mapping profile name -> earliest episode ID where the
-    character exists (e.g. "AT.S06E01").  Profiles without the field are
-    omitted — they match any episode.
+    Returns a dict mapping profile name -> series_range dict, e.g.:
+        {"AT": {"first": "S01E25"}, "DL": {"last": "S01E01"}}
+    Omitted series = blocked.  Empty dict for a series = all episodes.
+    Profiles without series_range are omitted — they match any episode.
     """
     index_path = profile_dir / "_index.json"
     if not index_path.exists():
         return {}
     index = json.loads(index_path.read_text(encoding="utf-8"))
     return {
-        name: info["first_episode"]
+        name: info["series_range"]
         for name, info in index.get("profiles", {}).items()
-        if "first_episode" in info
-    }
-
-
-def _load_profile_last_episodes(profile_dir: Path) -> dict[str, str]:
-    """Load last_episode constraints from the index file.
-
-    Returns a dict mapping profile name -> latest episode ID where the
-    profile is valid (e.g. "AT.S10E13").  Profiles without the field are
-    omitted — they match any episode.
-    """
-    index_path = profile_dir / "_index.json"
-    if not index_path.exists():
-        return {}
-    index = json.loads(index_path.read_text(encoding="utf-8"))
-    return {
-        name: info["last_episode"]
-        for name, info in index.get("profiles", {}).items()
-        if "last_episode" in info
+        if "series_range" in info
     }
 
 

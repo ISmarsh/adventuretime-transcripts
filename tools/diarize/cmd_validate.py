@@ -24,7 +24,6 @@ from .transcript import (
     validate_and_fix,
 )
 
-
 # ---------------------------------------------------------------------------
 # Progress tracking
 # ---------------------------------------------------------------------------
@@ -216,7 +215,7 @@ def cmd_validate(args: argparse.Namespace) -> None:
 
     print(f"Processing {len(episodes)} episodes\n")
 
-    total_agree = total_disagree = total_fixed = total_unknown = 0
+    total_agree = total_disagree = total_uncertain = total_fixed = total_unknown = 0
     errors = []
 
     for i, ep in enumerate(episodes, 1):
@@ -260,16 +259,25 @@ def cmd_validate(args: argparse.Namespace) -> None:
                         mparts.append(f"{char}({total_v} votes via {cids})")
                     print(f"  Merged: {', '.join(mparts)}")
 
-            print(f"  Validation: {result.agree} agree, {result.disagree} disagree"
+            unc_str = f", {result.uncertain} uncertain" if result.uncertain else ""
+            print(f"  Validation: {result.agree} agree, {result.disagree} disagree{unc_str}"
                   + (f" | Fixed: {result.fixed}, unknown: {result.unknown}"
                      if result.unlabeled else ""))
 
-            for d in result.disagree_details[:5]:
+            real_disagrees = [d for d in result.disagree_details if not d.get("uncertain")]
+            uncertains = [d for d in result.disagree_details if d.get("uncertain")]
+            for d in real_disagrees[:5]:
                 print(f"    DISAGREE L{d['line']}: "
                       f"{d['transcript']} -> {d['diarization']} "
                       f"(cluster {d['cluster']}, conf {d['conf']:.0%})")
-            if len(result.disagree_details) > 5:
-                print(f"    ... and {len(result.disagree_details) - 5} more")
+            if len(real_disagrees) > 5:
+                print(f"    ... and {len(real_disagrees) - 5} more")
+            for d in uncertains[:3]:
+                print(f"    UNCERTAIN L{d['line']}: "
+                      f"{d['transcript']} -> {d['diarization']} "
+                      f"(cluster {d['cluster']})")
+            if len(uncertains) > 3:
+                print(f"    ... and {len(uncertains) - 3} more uncertain")
 
             # Rescore: segment-level profile comparison
             save_disagrees = result.disagree_details
@@ -351,6 +359,7 @@ def cmd_validate(args: argparse.Namespace) -> None:
 
             total_agree += result.agree
             total_disagree += result.disagree
+            total_uncertain += result.uncertain
             total_fixed += result.fixed
             total_unknown += result.unknown
 
@@ -362,6 +371,7 @@ def cmd_validate(args: argparse.Namespace) -> None:
                 "matched": result.matched,
                 "agree": result.agree,
                 "disagree": result.disagree,
+                "uncertain": result.uncertain,
                 "fixed": result.fixed,
                 "unknown": result.unknown,
                 "clusters": result.cluster_info,
@@ -384,7 +394,8 @@ def cmd_validate(args: argparse.Namespace) -> None:
     print(f"\n{'=' * 60}")
     print(f"Processed: {total_processed}/{len(episodes)}"
           + (f" ({len(errors)} errors)" if errors else ""))
-    print(f"Validation: {total_agree} agree, {total_disagree} disagree")
+    unc_total = f", {total_uncertain} uncertain" if total_uncertain else ""
+    print(f"Validation: {total_agree} agree, {total_disagree} disagree{unc_total}")
     if total_fixed or total_unknown:
         print(f"Fixes: {total_fixed} applied, {total_unknown} still unknown")
     if errors:

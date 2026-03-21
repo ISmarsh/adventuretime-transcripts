@@ -5,16 +5,14 @@ import io
 import json
 import sys
 from datetime import datetime
-from pathlib import Path
 
 from .config import AUTO_LABEL_MARGIN, PROJECT_ROOT, SMALL_PROFILE_PENALTY, SMALL_PROFILE_SAMPLES
 from .embeddings import _compute_centroid
 from .profiles import (
     _load_all_profiles,
     _load_profile,
-    _load_profile_first_episodes,
-    _load_profile_last_episodes,
     _load_profile_sample_counts,
+    _load_profile_series_ranges,
     _profile_dir,
     _rebuild_index,
     _save_profile,
@@ -60,8 +58,7 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
     sample_counts = _load_profile_sample_counts(pdir)
 
     # Load temporal constraints for filtering
-    first_episodes = _load_profile_first_episodes(pdir)
-    last_episodes = _load_profile_last_episodes(pdir)
+    series_ranges = _load_profile_series_ranges(pdir)
 
     # Discover episodes
     if args.episode:
@@ -100,9 +97,6 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
         print("No episodes to auto-label.")
         return
 
-    # Load report text for sample dialogue context
-    report_dir = dia_dir / "reports"
-
     total = len(ep_ids)
     auto_applied = 0
     needs_review = 0
@@ -125,13 +119,21 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
             print(f"[{idx:03d}/{total}] {ep_id} -- SKIP (no profiles for season {season})")
             continue
 
-        # Filter by first_episode / last_episode constraints (skip profiles
-        # for characters that don't exist yet or whose voice changed)
-        if first_episodes or last_episodes:
+        # Filter by series_range constraints (skip profiles for characters
+        # that don't exist in this series or outside their episode range)
+        if series_ranges:
+            ep_series, ep_season_ep = ep_id.split(".", 1)
             profiles = {
                 n: v for n, v in profiles.items()
-                if ep_id >= first_episodes.get(n, "")
-                and (n not in last_episodes or ep_id <= last_episodes[n])
+                if n not in series_ranges  # unconstrained = match all
+                or (
+                    ep_series in series_ranges[n]
+                    and ep_season_ep >= series_ranges[n][ep_series].get("first", "")
+                    and (
+                        "last" not in series_ranges[n][ep_series]
+                        or ep_season_ep <= series_ranges[n][ep_series]["last"]
+                    )
+                )
             }
             if not profiles:
                 print(f"[{idx:03d}/{total}] {ep_id} -- SKIP (no eligible profiles)")
