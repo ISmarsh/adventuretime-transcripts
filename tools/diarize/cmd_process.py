@@ -251,8 +251,9 @@ def run_batch(
     if workers == 1:
         worker_init(threads_per_worker, hf_token, whisper_model, device)
     else:
-        # On Linux, use fork to share model memory via copy-on-write (CPU only)
-        if sys.platform != "win32":
+        # On Linux with CPU, use fork to share model memory via copy-on-write
+        # Fork after CUDA init causes deadlocks, so only fork for CPU
+        if sys.platform != "win32" and device == "cpu":
             worker_init(threads_per_worker, hf_token, whisper_model, device)
             import multiprocessing
             ctx = multiprocessing.get_context("fork")

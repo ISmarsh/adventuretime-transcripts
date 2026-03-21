@@ -193,7 +193,7 @@ def cmd_auto_label(args: argparse.Namespace) -> None:
             second_name, second_sim = ranked[1] if len(ranked) > 1 else ("", 0.0)
 
             # Load sample dialogue from report if available
-            n_segs = meta.get("clusters", {}).get(cluster, {}).get("n_segments", "?")
+            n_segs = meta.get("clusters", {}).get(cluster, {}).get("total_segments", "?")
 
             # Effective threshold: per-character override > sample-scaled > base
             if best_name in char_thresholds:

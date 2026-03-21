@@ -93,7 +93,7 @@ def _save_index(profile_dir: Path, profiles_meta: dict) -> None:
     )
 
 
-def _rebuild_index(profile_dir: Path) -> None:
+def _rebuild_index(profile_dir: Path) -> int:
     """Scan all .npz profiles and rebuild _index.json, preserving custom fields."""
     index_path = profile_dir / "_index.json"
     existing_index: dict = {}
