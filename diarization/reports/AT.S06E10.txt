@@ -1,0 +1,83 @@
+Episode: AT.S06E10 (Something Big)
+11 speaker clusters, 191 total segments
+
+
+SPEAKER_00 (4 segs, 23.9s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Thank you."
+  "What?"
+
+SPEAKER_01 (9 segs, 26.2s, 7 embedded)
+  "Hey, elephant, I'm more ancient than you."
+  "Someday I will engulf the solar system."
+  "What was and what will be is meaningless."
+  "Meanwhile, you should wonder, are you just a two-headed pile of meat on a crash "
+  "Or do you contain the soul memory of a million dead stars?"
+
+SPEAKER_02 (1 segs, 25.2s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and do so as we"
+
+SPEAKER_03 (4 segs, 5.3s, 2 embedded)
+  "Princess, no!"
+  "Wait, Daren."
+  "Dial it back."
+  "I need her residual feelings."
+
+SPEAKER_04 (40 segs, 104.8s, 25 embedded)
+  "Give up now, princess."
+  "And I, Maja the Sky Witch, promise not to completely donk up your kingdom."
+  "Oh, well."
+  "Keepers of the clock, masters of dimension, bear witness."
+  "By my power, I compel you to converge."
+
+SPEAKER_05 (16 segs, 40.6s, 5 embedded)
+  "Princess he did it root beer guys set up the forcefield, but he sacrificed himse"
+  "It's an ugly scene man Let me see"
+  "What can you do?"
+  "Break this witch out, Darren."
+  "What, the jam?"
+
+SPEAKER_06 (24 segs, 53.7s, 17 embedded)
+  "Hi, Darren."
+  "Yes, it's been a difficult adjustment."
+  "Yes, master."
+  "Finn, his weakness is his brain seed."
+  "Well, I guess my kids still have a daddy."
+
+SPEAKER_07 (25 segs, 70.3s, 23 embedded)
+  "I make no such promise."
+  "Darren must feed."
+  "I had a dream."
+  "I was fighting an army that could birth new soldiers from their own blood."
+  "I was endless."
+
+SPEAKER_08 (26 segs, 59.4s, 16 embedded)
+  "Yes, Princess."
+  "Will do, Princess."
+  "And let me just say, thank you for putting this old crease back in the field."
+  "I haven't been the same since my lovely Linda passed away."
+  "Oh, I tried dating again, you know."
+
+SPEAKER_09 (14 segs, 28.5s, 10 embedded)
+  "Rest in peace, root beer guy."
+  "Ready the cannons, you got me?"
+  "If they get through that barrier, I don't want to have to use our ground troops."
+  "Yeah, good luck."
+  "Where the jam is Finn?"
+
+SPEAKER_10 (22 segs, 27.4s, 6 embedded)
+  "Blaze his face, Ellie."
+  "I'll make the guac."
+  "Yo, what's up, APD dubsy?"
+  "Dude, I don't know."
+  "Probably not go back in the basement."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.607  <- possible match
+  SPEAKER_04 <-> SPEAKER_05: 0.607
+  SPEAKER_05 <-> SPEAKER_09: 0.497
+  SPEAKER_03 <-> SPEAKER_04: 0.435
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E10.npz

@@ -1,0 +1,36 @@
+Episode: AT.S05E36 (Dungeon Train)
+4 speaker clusters, 243 total segments
+
+
+SPEAKER_00 (99 segs, 126.7s, 28 embedded)
+  "What is the meaning of soup?"
+  "What?"
+  "I don't know."
+  "What's with all the weird questions?"
+  "Nah, that's all fine."
+
+SPEAKER_01 (134 segs, 256.7s, 67 embedded)
+  "What is the meaning of spoon?"
+  "Shoot, man, are you still lady sad about Flame Princess?"
+  "You know, it's okay if you are."
+  "Yeah, well, it sounds like you're sad."
+  "Listen, Ben, girls is like horses."
+
+SPEAKER_02 (5 segs, 42.2s, 4 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "OK. Yeah!"
+  "My jacket!"
+  "Stop!"
+
+SPEAKER_03 (2 segs, 27.4s, 1 embedded)
+  "Come along with me"
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_01: 0.270
+  SPEAKER_01 <-> SPEAKER_02: 0.252
+  SPEAKER_00 <-> SPEAKER_02: 0.194
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E36.npz

@@ -1,0 +1,60 @@
+Episode: AT.S02E03 (Loyalty to the King)
+7 speaker clusters, 243 total segments
+
+
+SPEAKER_00 (8 segs, 35.9s, 7 embedded)
+  "Excuse me for approaching you, sir."
+  "You just seem so approachable."
+  "Tell me about yourself."
+  "Oh, a nice king."
+  "Yeah, he's single Now get out of our way"
+
+SPEAKER_01 (4 segs, 21.8s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Woohoo!"
+  "Oh my goodness, I can't wait to meet him."
+
+SPEAKER_02 (9 segs, 22.8s, 5 embedded)
+  "Save me, Finn and Jake!"
+  "Save me, Finn and Jake!"
+  "We are!"
+  "Save me, Finn and Jake!"
+  "There's a new king in town."
+
+SPEAKER_03 (25 segs, 29.9s, 8 embedded)
+  "Oh my gosh."
+  "Yeah, guess what?"
+  "Slime Princess is in the park and she's like talking to a new nice king."
+  "And he's like totally single."
+  "By the way, don't tell anybody."
+
+SPEAKER_04 (66 segs, 139.3s, 27 embedded)
+  "And I was like leave him alone and he was like make me and I was like, okay and "
+  "Nah, let him keep it."
+  "Hey, if there's a new king and he's nice, we should offer our services."
+  "Finn and Jake style."
+  "Finn and Jake, you'll never take me alive!"
+
+SPEAKER_05 (21 segs, 40.8s, 9 embedded)
+  "Why does she keep saying that?"
+  "I think she's traumatized, dude."
+  "Don't worry, Princess."
+  "We're gonna get you out of here."
+  "Just trying to get a signal."
+
+SPEAKER_06 (107 segs, 211.1s, 60 embedded)
+  "Yeah!"
+  "What was that?"
+  "Darling, are you all right?"
+  "I thought I heard a... Oh, I see what happened."
+  "She broke up with me."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.744  <- possible match
+  SPEAKER_04 <-> SPEAKER_05: 0.744
+  SPEAKER_04 <-> SPEAKER_06: 0.400
+  SPEAKER_01 <-> SPEAKER_03: 0.329
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E03.npz

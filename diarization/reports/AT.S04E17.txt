@@ -1,0 +1,57 @@
+Episode: AT.S04E17 (BMO Noire)
+7 speaker clusters, 225 total segments
+
+
+SPEAKER_00 (4 segs, 7.0s, 2 embedded)
+  "I'm worried about BMO."
+  "You don't need two socks to have fun."
+  "Yeah, I guess."
+  "But maybe it would have been more fun with two socks."
+
+SPEAKER_01 (20 segs, 27.8s, 8 embedded)
+  "Jake?"
+  "What?"
+  "Jake, did you hide my sock?"
+  "No, man."
+  "I told you."
+
+SPEAKER_02 (29 segs, 36.8s, 5 embedded)
+  "This is real."
+  "BMO!"
+  "Who's BMO?"
+  "Hello?"
+  "Hello?"
+
+SPEAKER_03 (149 segs, 302.5s, 87 embedded)
+  "Take that, Master Chen."
+  "It looked like a tough case to crack, but I hate to see good friends fight, so I"
+  "It looked like I had a guilty mouse."
+  "Hello, Ronnie."
+  "What do you want, BMO?"
+
+SPEAKER_04 (14 segs, 22.2s, 4 embedded)
+  "We got this under control."
+  "Stay out of police business, or you will be the one behind bars."
+  "Ronnie?"
+  "Evening, BMO."
+  "Don't worry, buddy."
+
+SPEAKER_05 (5 segs, 20.6s, 4 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+  "Bang bang!"
+
+SPEAKER_06 (2 segs, 26.1s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "to a cliff under a tree"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_01: 0.657  <- possible match
+  SPEAKER_00 <-> SPEAKER_01: 0.657
+  SPEAKER_03 <-> SPEAKER_04: 0.495
+  SPEAKER_05 <-> SPEAKER_06: 0.380
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E17.npz

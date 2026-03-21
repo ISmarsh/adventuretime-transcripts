@@ -1,0 +1,62 @@
+Episode: AT.S03E22 (Paper Pete)
+8 speaker clusters, 263 total segments
+
+
+SPEAKER_00 (3 segs, 26.2s, 1 embedded)
+  "Woo!"
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (2 segs, 21.4s, 2 embedded)
+  "Picture time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (50 segs, 48.9s, 12 embedded)
+  "Whatever, man."
+  "I barely made it through the title."
+  "Listen, man."
+  "One day, I'm probably going to have half rainbow puffsters."
+  "I got to be able to share my baby's culture."
+
+SPEAKER_03 (5 segs, 17.2s, 2 embedded)
+  "Hmm."
+  "Books, books, hitties, zitties, whitties, mitties, mitties, pitties, hitties, ji"
+  "Oh, no."
+  "Damaged books?"
+  "Wow, yeah."
+
+SPEAKER_04 (120 segs, 208.2s, 52 embedded)
+  "It's slipping, dude."
+  "Rainicornicopia?"
+  "An unabridged history of the Rainicorns."
+  "Hey, this table is wobbly."
+  "We gotta take it to the last Tinker Goblin of Fog Mountain to fix it."
+
+SPEAKER_05 (58 segs, 122.4s, 28 embedded)
+  "We are the Pagelings!"
+  "I am Paper Pete, the leader of the Pagelings."
+  "But you can call me PeePee."
+  "I'll call you Pete."
+  "Okay."
+
+SPEAKER_06 (5 segs, 3.9s, 1 embedded)
+  "Yes!"
+  "We win victory!"
+  "Shh!"
+  "Shh!"
+  "Woo!"
+
+SPEAKER_07 (13 segs, 13.0s, 3 embedded)
+  "Oh."
+  "Oh."
+  "I'm Mildewin, leader of the Moldos."
+  "Oh, uh... Hmm."
+  "Shh!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_06: 0.412
+  SPEAKER_03 <-> SPEAKER_04: 0.356
+  SPEAKER_02 <-> SPEAKER_04: 0.338
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S03E22.npz

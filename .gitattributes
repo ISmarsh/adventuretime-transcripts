@@ -1,0 +1,7 @@
+# Binary files
+*.npz binary linguist-generated
+
+# Diarization data (machine-generated, not for code review)
+diarization/labels/*.json linguist-generated
+diarization/reports/*.txt linguist-generated
+diarization/voice_profiles/_index.json linguist-generated

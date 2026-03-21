@@ -1,0 +1,58 @@
+Episode: AT.S02E20 (Go With Me)
+8 speaker clusters, 227 total segments
+
+
+SPEAKER_00 (2 segs, 30.5s, 0 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "This party is over!"
+
+SPEAKER_01 (3 segs, 21.2s, 2 embedded)
+  "Guards!"
+  "What's that?"
+  "Farewell."
+
+SPEAKER_02 (61 segs, 91.4s, 19 embedded)
+  "Hey, man."
+  "It's couples only movie night tonight."
+  "Who are you bringing?"
+  "I don't know."
+  "Who are you bringing?"
+
+SPEAKER_03 (24 segs, 51.8s, 13 embedded)
+  "No, sorry, Finn."
+  "I'm busy practicing for the Whistling Choir Deathmatch Championship."
+  "But— Auf Wiedersehen!"
+  "Diggy-diggy!"
+  "Diggy-diggy!"
+
+SPEAKER_04 (60 segs, 107.9s, 30 embedded)
+  "Yeah, I'll help."
+  "It'll be funny."
+  "Hey, look, Finn, I know Jake's your friend and all, but if you really want Bubbl"
+  "But Jake said Phase Two is powerful!"
+  "How is Jake going to know what girls want more than a real girl?"
+
+SPEAKER_05 (70 segs, 128.2s, 34 embedded)
+  "Well, I'll take this blanket."
+  "Yeah, yeah."
+  "Who are you going to call?"
+  "I'm going to call a girl that I don't have to kiss."
+  "Hello?"
+
+SPEAKER_06 (4 segs, 5.3s, 2 embedded)
+  "No, not goodbye."
+  "Let's say..."
+  "Whoa!"
+  "Nothing."
+
+SPEAKER_07 (2 segs, 19.6s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_07: 0.465
+  SPEAKER_01 <-> SPEAKER_06: 0.364
+  SPEAKER_03 <-> SPEAKER_04: 0.245
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E20.npz

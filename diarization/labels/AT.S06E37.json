@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S06E37",
+  "title": "Water Park Prank",
+  "season": 6,
+  "speaker_map": {
+    "SPEAKER_02": "Jake",
+    "SPEAKER_03": "Ice King",
+    "SPEAKER_05": "Finn_S04-S06",
+    "SPEAKER_06": "Princess Bubblegum"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_04"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:48:15"
+}

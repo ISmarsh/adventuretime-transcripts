@@ -1,0 +1,59 @@
+Episode: AT.S01E07 (Ricardio the Heart Guy)
+7 speaker clusters, 271 total segments
+
+
+SPEAKER_00 (4 segs, 43.0s, 3 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (6 segs, 10.8s, 3 embedded)
+  "Ha-ha!"
+  "Pee-bee, you gotta check out this super cute guy."
+  "You're gonna love him."
+  "This is... Oh, my gosh."
+  "I don't even know your name."
+
+SPEAKER_02 (26 segs, 72.5s, 18 embedded)
+  "Foolish interlopers!"
+  "I will kiss her."
+  "Hold still."
+  "What?"
+  "The hour is yours, but the day shall be mine, just like you, Princess."
+
+SPEAKER_03 (93 segs, 143.8s, 40 embedded)
+  "I hate fart bait!"
+  "Unhand Princess Bubblegum!"
+  "My eyesight!"
+  "Huh?"
+  "Hey, Ice King!"
+
+SPEAKER_04 (47 segs, 83.4s, 27 embedded)
+  "Mine!"
+  "What a patoot."
+  "Thanks for saving the day yet again, boys."
+  "You're welcome, Princess."
+  "Oh..."
+
+SPEAKER_05 (57 segs, 101.0s, 32 embedded)
+  "That paper crane for Princess Bubblegum?"
+  "Heh."
+  "I bet you wish you were my butt."
+  "What?"
+  "I bet you wish you were my butt because then the princess, you know... No, wait."
+
+SPEAKER_06 (36 segs, 81.9s, 24 embedded)
+  "Stand back, everyone."
+  "This style of massage is called best friend massage."
+  "Oh, my gosh."
+  "Because it can only be done for friends."
+  "It is completely consensual."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_01: 0.384
+  SPEAKER_02 <-> SPEAKER_06: 0.370
+  SPEAKER_05 <-> SPEAKER_06: 0.324
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E07.npz

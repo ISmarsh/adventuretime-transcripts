@@ -1,0 +1,23 @@
+Episode: AT.S00E12 (Frog Seasons Winter)
+2 speaker clusters, 33 total segments
+
+
+SPEAKER_00 (21 segs, 41.6s, 9 embedded)
+  "No peace."
+  "Snow peace?"
+  "For intruders in my ice kingdom?"
+  "Psych."
+  "It's your buddy, the Ice King."
+
+SPEAKER_01 (12 segs, 14.2s, 3 embedded)
+  "How long are we gonna follow this frog?"
+  "I just want to see him put on that crown."
+  "Okay, but why though?"
+  "Why what?"
+  "Frog with crown."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_01: 0.417
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S00E12.npz

@@ -1,0 +1,109 @@
+Episode: FC.S01E03 (Cake the Cat)
+14 speaker clusters, 379 total segments
+
+
+SPEAKER_00 (6 segs, 7.2s, 2 embedded)
+  "I love you, Jake."
+  "Tiny."
+  "La-da-da-da."
+  "La-da-da-da-da."
+  "La-da-da-da."
+
+SPEAKER_01 (2 segs, 19.0s, 2 embedded)
+  "My, my, you care so much if I should live or die."
+  "I know where your mind is really at, thinking about a girl and her cat."
+
+SPEAKER_02 (14 segs, 41.2s, 6 embedded)
+  "I don't understand."
+  "Why am I still here?"
+  "Kitty, are you the portal?"
+  "Can't talk?"
+  "Oh, I know."
+
+SPEAKER_03 (9 segs, 21.1s, 5 embedded)
+  "Reveal the path and grant me passage!"
+  "Reveal the path and grant me passage!"
+  "Reveal the path and grant me passage!"
+  "Okay."
+  "Reveal the path!"
+
+SPEAKER_04 (7 segs, 18.2s, 5 embedded)
+  "Well, well, well."
+  "If it isn't Mr. Big Shot."
+  "Then I guess it's time for our upteenth attempt at kidnapping."
+  "Kitten, are you going to make trouble?"
+  "Fiona, man!"
+
+SPEAKER_05 (73 segs, 119.0s, 35 embedded)
+  "Hey, sorry I ran into you."
+  "Do you want to exchange information?"
+  "You talk too?"
+  "Oh, your voice is so harsh."
+  "You know you have this thing set to dog, right?"
+
+SPEAKER_06 (40 segs, 111.0s, 15 embedded)
+  "Push through it, Jake."
+  "Nine o'clock."
+  "They really don't want anyone taking this egg."
+  "King Cockatrice!"
+  "Are you thinking what I'm thinking?"
+
+SPEAKER_07 (16 segs, 24.0s, 6 embedded)
+  "I don't want to be tiny!"
+  "You were right."
+  "That does sound nuts."
+  "Nah, man, don't doubt yourself."
+  "Listen to your guts!"
+
+SPEAKER_08 (11 segs, 81.5s, 7 embedded)
+  "Perfect sea-clausicity!"
+  "Yes!"
+  "Are you lost?"
+  "Fiona!"
+  "Yeah, that's where I am."
+
+SPEAKER_09 (34 segs, 79.4s, 12 embedded)
+  "Bad cake!"
+  "Mr. Ice King?"
+  "Sir?"
+  "I can't sleep without my book."
+  "Mr. Ice King, your cat looks just like cake!"
+
+SPEAKER_10 (46 segs, 84.5s, 23 embedded)
+  "Cake!"
+  "Cake!"
+  "Thanks to you two geniuses, I've been searching for hours."
+  "I know this sounds nuts, but I swear I saw her jump into a sparkly blue portal i"
+  "Look for the portal."
+
+SPEAKER_11 (41 segs, 60.9s, 15 embedded)
+  "I'm not an egg!"
+  "I'm just out of shape!"
+  "Next time that guy will think twice about opposing Finn and Jake."
+  "Please!"
+  "What the heck is wrong with you?"
+
+SPEAKER_12 (65 segs, 177.9s, 41 embedded)
+  "What are you doing?"
+  "Don't touch my thing."
+  "Wait, go back."
+  "Go back."
+  "Yeah."
+
+SPEAKER_13 (13 segs, 29.6s, 6 embedded)
+  "Fiona?"
+  "Uh... Gary?"
+  "Geez, Doodles, Fiona, you scared me half to death."
+  "What are you doing?"
+  "Oh, no."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_10 <-> SPEAKER_11: 0.680  <- possible match
+  SPEAKER_02 <-> SPEAKER_13: 0.646  <- possible match
+  SPEAKER_06 <-> SPEAKER_08: 0.615  <- possible match
+  SPEAKER_10 <-> SPEAKER_11: 0.680
+  SPEAKER_02 <-> SPEAKER_13: 0.646
+  SPEAKER_06 <-> SPEAKER_08: 0.615
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S01E03.npz

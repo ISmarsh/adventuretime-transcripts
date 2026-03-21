@@ -10,13 +10,13 @@ The Adventure Time Wiki has incomplete transcripts for some episodes, particular
 
 | Episode | Title | Source | Status |
 |---------|-------|--------|--------|
-| E01 | Fionna Campbell | Wiki (incomplete) | Needs formatting |
-| E02 | Simon Petrikov | Wiki (incomplete) | Needs formatting |
-| E03 | Cake the Cat | Wiki (incomplete) | Needs formatting |
+| E01 | Fionna Campbell | Wiki (incomplete) | Vision attribution + formatting done |
+| E02 | Simon Petrikov | Wiki (incomplete) | Vision attribution + formatting done |
+| E03 | Cake the Cat | Wiki (incomplete) | Vision attribution + formatting done |
 | E04 | Prismo the Wishmaster | **SRT Conversion** | Verified |
 | E05 | Destiny | **SRT Conversion** | Verified |
-| E06 | The Winter King | Wiki (mixed format) | Needs formatting |
-| E07 | The Star | Wiki (incomplete) | Needs formatting |
+| E06 | The Winter King | Wiki (mixed format) | Vision attribution + formatting done |
+| E07 | The Star | Wiki (incomplete) | Vision attribution + formatting done |
 | E08 | Jerry | **SRT Conversion** | Verified |
 | E09 | Casper and Nova | **SRT Conversion** | Verified |
 | E10 | Cheers | **SRT Conversion** | Verified |

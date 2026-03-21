@@ -1,0 +1,35 @@
+Episode: AT.S01E13 (City of Thieves)
+4 speaker clusters, 278 total segments
+
+
+SPEAKER_00 (1 segs, 20.9s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and you so as w"
+
+SPEAKER_01 (5 segs, 16.2s, 2 embedded)
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Whoa, brother!"
+  "Your glasses!"
+  "My jammies!"
+  "Ya!"
+
+SPEAKER_02 (200 segs, 334.5s, 82 embedded)
+  "I'll never admit anything to you."
+  "Hey, where'd you go?"
+  "OK, I admit, it's harder than I thought."
+  "I think it's some kind of city of thieves."
+  "It's the city of thieves."
+
+SPEAKER_03 (69 segs, 104.8s, 31 embedded)
+  "You're totally slow, dude."
+  "Speed up them gams."
+  "I'm not used to running on all fours."
+  "Ready to admit it's harder than it looks?"
+  "Whoa!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.306
+  SPEAKER_01 <-> SPEAKER_03: 0.137
+  SPEAKER_01 <-> SPEAKER_02: 0.072
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E13.npz

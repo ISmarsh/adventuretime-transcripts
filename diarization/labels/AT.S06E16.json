@@ -1,0 +1,22 @@
+{
+  "episode_id": "AT.S06E16",
+  "title": "Joshua and Margaret Investigations",
+  "season": 6,
+  "speaker_map": {
+    "SPEAKER_02": "Jake",
+    "SPEAKER_04": "Finn_S04-S06",
+    "SPEAKER_06": "Tree Trunks",
+    "SPEAKER_08": "Joshua"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_03",
+    "SPEAKER_05",
+    "SPEAKER_07",
+    "SPEAKER_09"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:48:15"
+}

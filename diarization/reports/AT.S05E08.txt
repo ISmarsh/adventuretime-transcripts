@@ -1,0 +1,62 @@
+Episode: AT.S05E08 (Mystery Dungeon)
+8 speaker clusters, 226 total segments
+
+
+SPEAKER_00 (4 segs, 18.7s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+
+SPEAKER_01 (1 segs, 28.5s, 0 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+
+SPEAKER_02 (64 segs, 172.2s, 39 embedded)
+  "Oh!"
+  "Now where were we?"
+  "To free yourself from this tomb and nevermore re-enter."
+  "Find the room amidst the rooms that lies exactly center?"
+  "Huh?"
+
+SPEAKER_03 (47 segs, 120.5s, 30 embedded)
+  "Shelby?"
+  "Shelby, wake up."
+  "Where am I?"
+  "Tree trunks, what's going on?"
+  "You've been snoozing on my dome."
+
+SPEAKER_04 (21 segs, 4.9s, 0 embedded)
+  "Ooh!"
+  "Ooh!"
+  "Ooh!"
+  "Ooh!"
+  "Ooh!"
+
+SPEAKER_05 (20 segs, 37.1s, 10 embedded)
+  "Behind each door, on every floor, danger, danger evermore!"
+  "I think I have an idea."
+  "That's a good ol' treat, Trunks!"
+  "You can do it!"
+  "This is all gonna work out just fine."
+
+SPEAKER_06 (34 segs, 61.0s, 19 embedded)
+  "Stranger, hark!"
+  "The traps galore."
+  "May kill you whilst you do explore."
+  "To free yourself... Huh?"
+  "Oh, no."
+
+SPEAKER_07 (29 segs, 63.5s, 17 embedded)
+  "Awake!"
+  "Avast!"
+  "Hold tight your buns!"
+  "If buns you do, hold dear!"
+  "For time has come to wake and run and not give way to fear!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.500
+  SPEAKER_03 <-> SPEAKER_05: 0.469
+  SPEAKER_00 <-> SPEAKER_07: 0.346
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E08.npz

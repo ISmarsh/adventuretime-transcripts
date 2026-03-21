@@ -1,0 +1,45 @@
+Episode: AT.S08E27 (The Light Cloud)
+5 speaker clusters, 192 total segments
+
+
+SPEAKER_00 (15 segs, 17.0s, 5 embedded)
+  "Yeah."
+  "No!"
+  "But people need danger in order to grow."
+  "How will y'all survive when you leave the island?"
+  "Always."
+
+SPEAKER_01 (4 segs, 13.8s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends, we'll go to very distant lands with Finn and Jake an"
+  "It's Adventure Time!"
+  "This party is so crazy!"
+
+SPEAKER_02 (71 segs, 129.9s, 33 embedded)
+  "I'm leaving the island."
+  "I'm leaving my mom."
+  "What a wild adventure, yellow stretching dog."
+  "You said it, beautiful baby boy."
+  "The Guardian!"
+
+SPEAKER_03 (62 segs, 130.4s, 31 embedded)
+  "See?"
+  "You die."
+  "By my calculations, you stand a 0.00001% chance of making it past the Guardian."
+  "Can't you just turn him off?"
+  "He's here for our protection."
+
+SPEAKER_04 (40 segs, 74.0s, 20 embedded)
+  "Be right with you."
+  "I told you yesterday, we are a toy store."
+  "We don't sell soup."
+  "Hi, Frida."
+  "Kara, what are you doing here?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_02: 0.515
+  SPEAKER_03 <-> SPEAKER_04: 0.286
+  SPEAKER_00 <-> SPEAKER_02: 0.285
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E27.npz

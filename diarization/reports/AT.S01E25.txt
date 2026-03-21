@@ -1,0 +1,61 @@
+Episode: AT.S01E25 (His Hero)
+8 speaker clusters, 287 total segments
+
+
+SPEAKER_00 (2 segs, 25.8s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (5 segs, 8.4s, 3 embedded)
+  "How can we help?"
+  "I want surgery to make my body hot."
+  "Yikes."
+  "Yeah, I know I'm already pretty smokin'."
+  "But I bought this swimsuit, so I need a swimsuit body."
+
+SPEAKER_02 (45 segs, 85.4s, 28 embedded)
+  "How's the Mini Queen?"
+  "Me queen must have stepped in something funky."
+  "No, it's not tiny feet I'm smelling."
+  "This way!"
+  "Whoa!"
+
+SPEAKER_03 (115 segs, 200.7s, 54 embedded)
+  "Last chance, swamp giant."
+  "Tell us where you hid the Mini Queen."
+  "Huh?"
+  "Hi, Mini Queen."
+  "Jake, I've got her."
+
+SPEAKER_04 (58 segs, 100.3s, 25 embedded)
+  "Help!"
+  "Help!"
+  "A monster!"
+  "Oh, thank goodness."
+  "Heroes, I'm being chased by a horrible dragon."
+
+SPEAKER_05 (17 segs, 38.6s, 11 embedded)
+  "Never!"
+  "A hero of renown!"
+  "Who's stayed in evil ocean?"
+  "Who cast the Lich King down?"
+  "Billy!"
+
+SPEAKER_06 (35 segs, 58.1s, 18 embedded)
+  "No tongue!"
+  "Who's the greatest warrior ever?"
+  "Hello."
+  "Yep, it's me."
+  "What for?"
+
+SPEAKER_07 (2 segs, 21.7s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_05: 0.458
+  SPEAKER_02 <-> SPEAKER_05: 0.434
+  SPEAKER_02 <-> SPEAKER_03: 0.386
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E25.npz

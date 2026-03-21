@@ -1,0 +1,54 @@
+Episode: AT.S06E21 (Dentist)
+7 speaker clusters, 197 total segments
+
+
+SPEAKER_00 (1 segs, 25.1s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and you so as w"
+
+SPEAKER_01 (65 segs, 142.1s, 32 embedded)
+  "Hmm."
+  "Finn, this is literally serious."
+  "You have to go dentist."
+  "Yo, Finn!"
+  "I'm gonna kill you!"
+
+SPEAKER_02 (42 segs, 109.0s, 23 embedded)
+  "Hmm."
+  "Listen, I wasn't here when you came in."
+  "I'm a very busy woman."
+  "Hello, my name is General Tarsall."
+  "I am the current queen of this regiment, and please have a seat."
+
+SPEAKER_03 (20 segs, 28.1s, 5 embedded)
+  "Soft sand."
+  "Ant."
+  "Welcome to Dentist Cadet."
+  "I'm Lieutenant Gamergate."
+  "Snakes and rotten butter."
+
+SPEAKER_04 (6 segs, 28.9s, 4 embedded)
+  "your tooth looks bad dude smells like a garden shed in here Oh then I think you "
+  "This is so bad."
+  "What did Princess Bubblegum say when you showed her?"
+  "Dude, you got to go dentist."
+  "Right?"
+
+SPEAKER_05 (58 segs, 74.1s, 16 embedded)
+  "No!"
+  "I don't want to go dentist, Jake."
+  "They put you in a hole filled with snakes and rotten butter and they leave you t"
+  "Come on, man."
+  "It's not that bad."
+
+SPEAKER_06 (3 segs, 33.8s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Tiffany!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_05: 0.323
+  SPEAKER_02 <-> SPEAKER_05: 0.301
+  SPEAKER_05 <-> SPEAKER_06: 0.233
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E21.npz

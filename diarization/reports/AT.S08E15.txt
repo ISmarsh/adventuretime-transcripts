@@ -1,0 +1,72 @@
+Episode: AT.S08E15 (Do No Harm)
+9 speaker clusters, 230 total segments
+
+
+SPEAKER_00 (5 segs, 32.8s, 4 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Awesome."
+  "Come along with me"
+  "and the butterflies and bees."
+
+SPEAKER_01 (3 segs, 11.5s, 3 embedded)
+  "All right, so you fought your way to the center of the maze."
+  "But to pass this gate, you must answer my deadly widdle."
+  "What squats on stony feet?"
+
+SPEAKER_02 (20 segs, 33.0s, 10 embedded)
+  "Graspin!"
+  "Help me!"
+  "Who's out there?"
+  "Busting into the grassy wizard's grassy fortress?"
+  "Use your head!"
+
+SPEAKER_03 (38 segs, 65.1s, 15 embedded)
+  "Oh boy, my favorite."
+  "Hey, that's Finn's meatloaf."
+  "Yeah, my meatloaf bib."
+  "What about it?"
+  "Nothing."
+
+SPEAKER_04 (18 segs, 28.3s, 9 embedded)
+  "Jake?"
+  "Ouch!"
+  "Jake!"
+  "Hold on!"
+  "Hey, baby."
+
+SPEAKER_05 (49 segs, 73.3s, 19 embedded)
+  "I feel like crud, man."
+  "Why do I feel like such crud?"
+  "I totally forgot."
+  "I gotta go make sure she's all right."
+  "Wait, what about"
+
+SPEAKER_06 (47 segs, 107.3s, 24 embedded)
+  "What's the deal, bro?"
+  "I called you for grub forever ago."
+  "Is it because you lost the fin sword?"
+  "No."
+  "Is it because you lost your arm again and it got replaced with a metal one?"
+
+SPEAKER_07 (19 segs, 25.5s, 7 embedded)
+  "Ciao."
+  "Wait!"
+  "Dr. Princess!"
+  "Hey, Doc, can you help me?"
+  "Sorry, I'm not a real..."
+
+SPEAKER_08 (27 segs, 34.1s, 9 embedded)
+  "Finn!"
+  "You did this?"
+  "Dr. Princess!"
+  "Do you know what it means that she's hooked up to these?"
+  "Do you even know what that one does?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_02: 0.419
+  SPEAKER_02 <-> SPEAKER_06: 0.378
+  SPEAKER_04 <-> SPEAKER_06: 0.295
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E15.npz

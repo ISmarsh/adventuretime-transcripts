@@ -1,0 +1,73 @@
+Episode: AT.S08E04 (Lady Rainicorn of the Crystal Dimension)
+9 speaker clusters, 148 total segments
+
+
+SPEAKER_00 (24 segs, 56.7s, 13 embedded)
+  "Now, if it was a candy box, I could use it."
+  "You mean this stolen map?"
+  "I've been waiting for you for a long time."
+  "Prayer works."
+  "Roy!"
+
+SPEAKER_01 (11 segs, 32.5s, 8 embedded)
+  "Sorry, kid."
+  "Maybe if it was a music box."
+  "Get your kooks, get your zooks, get your hand woven, too."
+  "Oh, hey mom."
+  "Your mother and I were in the neighborhood."
+
+SPEAKER_02 (28 segs, 72.6s, 15 embedded)
+  "Mom, give me some money."
+  "Princess Bubblegum?"
+  "Does he even hang out anymore?"
+  "Hey, some kind of sandwich."
+  "This box looks vintage."
+
+SPEAKER_03 (28 segs, 84.9s, 18 embedded)
+  "Whoa."
+  "Give me money, Lee, and you can have it."
+  "Uh, BTW, my name's TV."
+  "You can't take a look at me."
+  "Hey, what's this thing?"
+
+SPEAKER_04 (16 segs, 56.4s, 7 embedded)
+  "Yeah, that's right!"
+  "I'll be able to get the Kedla back!"
+  "Come on, come on, come on!"
+  "Woohoo!"
+  "Ah, the Kaedely's here!"
+
+SPEAKER_05 (3 segs, 2.8s, 0 embedded)
+  "Ah, I'm sorry."
+  "I'm sorry."
+  "I'm sorry, Papa."
+
+SPEAKER_06 (6 segs, 32.3s, 3 embedded)
+  "Doting parents delivery service."
+  "Whatever does she see in such an idiot?"
+  "I've been waiting for you for a long time."
+  "I've been waiting for you for a long time."
+  "I've been waiting for you for a long time."
+
+SPEAKER_07 (26 segs, 83.7s, 15 embedded)
+  "No, I'm good here."
+  "A job?"
+  "Lunch with who?"
+  "Lee?"
+  "Can I take a look at Lee?"
+
+SPEAKER_08 (5 segs, 31.2s, 5 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "No more nose ring bozo."
+  "Butter!"
+  "This part..."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.608  <- possible match
+  SPEAKER_03 <-> SPEAKER_04: 0.608
+  SPEAKER_04 <-> SPEAKER_06: 0.359
+  SPEAKER_03 <-> SPEAKER_06: 0.334
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E04.npz

@@ -1,0 +1,29 @@
+{
+  "episode_id": "FC.S02E07",
+  "title": "The Wolves Who Wandered",
+  "season": 2,
+  "speaker_map": {
+    "SPEAKER_17": "Fennel",
+    "SPEAKER_10": "Demon_FC",
+    "SPEAKER_07": "Ellis P",
+    "SPEAKER_11": "Queen of Venus",
+    "SPEAKER_09": "Spirit Warrior",
+    "SPEAKER_00": "Marshall Lee",
+    "SPEAKER_02": "Fionna",
+    "SPEAKER_03": "Fionna",
+    "SPEAKER_05": "Huntress Wizard",
+    "SPEAKER_06": "Cake"
+  },
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_04",
+    "SPEAKER_08",
+    "SPEAKER_12",
+    "SPEAKER_13",
+    "SPEAKER_14",
+    "SPEAKER_15",
+    "SPEAKER_16"
+  ],
+  "source": "clips",
+  "timestamp": "2026-02-09T21:14:42"
+}

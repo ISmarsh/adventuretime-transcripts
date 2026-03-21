@@ -1,0 +1,87 @@
+Episode: AT.S01E02 (Trouble in Lumpy Space)
+12 speaker clusters, 321 total segments
+
+
+SPEAKER_00 (3 segs, 29.1s, 2 embedded)
+  "Whoop."
+  "Cheers, Lumpy Space Princess."
+  "Come along with me and the butterflies and bees We can wander through the forest"
+
+SPEAKER_01 (4 segs, 4.1s, 1 embedded)
+  "Shah."
+  "I remember you You're just a smoothie."
+  "Why me love you poser."
+  "No!"
+
+SPEAKER_02 (102 segs, 163.2s, 45 embedded)
+  "Huh?"
+  "What?"
+  "No way, it's super easy."
+  "Fine, I'll prove it."
+  "Huh?"
+
+SPEAKER_03 (4 segs, 9.7s, 1 embedded)
+  "Ribbit."
+  "Password, please."
+  "Good day, Princess."
+  "Is your father okay with you entering lumpy space with two... non-lumpers?"
+
+SPEAKER_04 (8 segs, 22.6s, 5 embedded)
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "What did I say?"
+  "What did you just say?"
+  "Let that guy out of my eye!"
+  "Hello?"
+
+SPEAKER_05 (11 segs, 13.8s, 4 embedded)
+  "Jab on that."
+  "Huh?"
+  "I thought you guys left."
+  "We were drawn back by your plaintive will."
+  "We dig your directionless fury."
+
+SPEAKER_06 (114 segs, 190.3s, 51 embedded)
+  "Woo-hoo-hoo-hoo!"
+  "Bouncing!"
+  "Princess, this tea party sucks in a big way."
+  "But thanks for the invite."
+  "Oh, don't worry, Finn."
+
+SPEAKER_07 (7 segs, 12.0s, 4 embedded)
+  "Why are you sucking up to us?"
+  "Yeah, lumpiness sucks."
+  "Hey Monty, time's up spear hog."
+  "My turn."
+  "This orb is the antidote, bruh."
+
+SPEAKER_08 (3 segs, 3.8s, 1 embedded)
+  "You miss me at LSP?"
+  "Scooch over, fam."
+  "I'm gonna sit in the back."
+
+SPEAKER_09 (3 segs, 7.2s, 2 embedded)
+  "Daughter!"
+  "You have made your mother cry for the last time, daughter!"
+  "You are hereby banned from using the royal car!"
+
+SPEAKER_10 (17 segs, 20.1s, 5 embedded)
+  "Woo-hoo-hoo!"
+  "Yeah!"
+  "I should not have drunk that much tea."
+  "That's right, it's mine!"
+  "Give me that ball!"
+
+SPEAKER_11 (43 segs, 70.2s, 18 embedded)
+  "What?"
+  "You think I'm gonna turn all lumpy like her?"
+  "Get out of here."
+  "What?"
+  "Finn, I think I'm freaking out!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_10 <-> SPEAKER_11: 0.440
+  SPEAKER_01 <-> SPEAKER_11: 0.420
+  SPEAKER_09 <-> SPEAKER_11: 0.418
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E02.npz

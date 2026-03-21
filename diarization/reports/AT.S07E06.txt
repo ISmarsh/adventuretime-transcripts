@@ -1,0 +1,67 @@
+Episode: AT.S07E06 (Marceline The Vampire Queen)
+8 speaker clusters, 231 total segments
+
+
+SPEAKER_00 (18 segs, 36.8s, 8 embedded)
+  "You really like chopping wood, huh?"
+  "I'm not chopping wood."
+  "I made a toothpick from the ancient elm."
+  "See?"
+  "Every farm in our village was attacked!"
+
+SPEAKER_01 (36 segs, 83.1s, 22 embedded)
+  "You said you were working on a cure, right?"
+  "Well, the machine is built and the serums are ready, but are you sure you want t"
+  "Okay, let's do this."
+  "This means someday you'll die."
+  "You know that, right?"
+
+SPEAKER_02 (45 segs, 93.9s, 25 embedded)
+  "Adventure time, come on, grab your friends, we're going to a very distant land w"
+  "Come on, Mars."
+  "It'll only hurt for a second."
+  "That's nothing in the face of eternity."
+  "A second hurts really bad in the face of eternity, but only for a moment."
+
+SPEAKER_03 (8 segs, 25.0s, 6 embedded)
+  "Fin's been turned!"
+  "Now look at the other yonder Oh Fudge You're sick, man."
+  "Oh, Flip, you're right!"
+  "This is way messed up!"
+  "Run, Finn!"
+
+SPEAKER_04 (27 segs, 47.9s, 16 embedded)
+  "It's breakfast time for my sweet babies."
+  "Sweet babies!"
+  "Operator, put me through to Finn and Jake."
+  "It's an emergency."
+  "Poor Miss Baby."
+
+SPEAKER_05 (23 segs, 42.5s, 11 embedded)
+  "Victims lost a lot of blood."
+  "Clean entry wounds."
+  "It's an expert job."
+  "Well, I've heard enough."
+  "Come on, Finn, let's go arrest Marceline."
+
+SPEAKER_06 (63 segs, 72.6s, 15 embedded)
+  "Wait a minute!"
+  "We don't even know if Marceline did this."
+  "Come on!"
+  "Yeah, but we need to conduct a proper investigation."
+  "I know that."
+
+SPEAKER_07 (5 segs, 23.8s, 4 embedded)
+  "How long do we have to stay in the laundry house, Cloud Dance?"
+  "He does the vampire spitting!"
+  "Ugh!"
+  "Marceline, no!"
+  "Ready!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.471
+  SPEAKER_03 <-> SPEAKER_07: 0.431
+  SPEAKER_03 <-> SPEAKER_05: 0.411
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E06.npz

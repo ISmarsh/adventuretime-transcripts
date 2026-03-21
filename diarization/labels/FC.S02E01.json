@@ -1,0 +1,33 @@
+{
+  "episode_id": "FC.S02E01",
+  "title": "The Hare and the Sprout",
+  "season": 2,
+  "speaker_map": {
+    "SPEAKER_03": "Princess Bubblegum",
+    "SPEAKER_06": "Fionna",
+    "SPEAKER_11": "Simon"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_10",
+    "SPEAKER_12",
+    "SPEAKER_13",
+    "SPEAKER_14",
+    "SPEAKER_15",
+    "SPEAKER_16",
+    "SPEAKER_17",
+    "SPEAKER_18",
+    "SPEAKER_19",
+    "SPEAKER_20"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T18:28:22"
+}

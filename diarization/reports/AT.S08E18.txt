@@ -1,0 +1,81 @@
+Episode: AT.S08E18 (Horse and Ball)
+11 speaker clusters, 153 total segments
+
+
+SPEAKER_00 (2 segs, 8.5s, 2 embedded)
+  "Mole children, soon my body will explode from exhaustion."
+  "Please place my bits in trees where they will be reclaimed by nature."
+
+SPEAKER_01 (6 segs, 20.0s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then the human."
+  "The fun will never end."
+
+SPEAKER_02 (9 segs, 29.9s, 6 embedded)
+  "Oh, no."
+  "We have to save this precious unicorn."
+  "For James!"
+  "What is it?"
+  "No, it's just really sad."
+
+SPEAKER_03 (3 segs, 4.1s, 1 embedded)
+  "Normal, normal."
+  "So, uh, you got any weekend plans?"
+  "Doing anything fun for the weekend?"
+
+SPEAKER_04 (18 segs, 29.6s, 0 embedded)
+  "Just dream like a normal guy."
+  "That's what people want."
+  "Even great artists."
+  "Normal."
+  "You're really bad at this, man."
+
+SPEAKER_05 (3 segs, 24.5s, 3 embedded)
+  "Thank you, James Baxter."
+  "Now I can explode a happy mole man."
+  "James Ba... No!"
+
+SPEAKER_06 (21 segs, 67.9s, 14 embedded)
+  "Eldarolio, why are there only six crumb piles?"
+  "Uh, you mean the Raggenbone Kingdom."
+  "Raggedy Princess!"
+  "Looks like that ball requires a rubber patch."
+  "And rubber is the most difficult material to work with."
+
+SPEAKER_07 (24 segs, 36.7s, 14 embedded)
+  "Oh, Glove, no!"
+  "Finn, this ain't gonna work."
+  "Not without this."
+  "James Baxter's an artist."
+  "He needs the proper equipment to work."
+
+SPEAKER_08 (42 segs, 94.3s, 23 embedded)
+  "James Baxter!"
+  "Yes!"
+  "He makes me so happy!"
+  "James Baxter?"
+  "Uh... Oh, Jake!"
+
+SPEAKER_09 (9 segs, 11.9s, 4 embedded)
+  "Eldarolio!"
+  "Yes, cry and hug me."
+  "James Baxter!"
+  "No, no, no."
+  "No."
+
+SPEAKER_10 (14 segs, 74.1s, 10 embedded)
+  "James Baxter."
+  "James Baxter."
+  "James Baxter!"
+  "James Baxter James Baxter James Baxter"
+  "Whoa!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_05: 0.502
+  SPEAKER_05 <-> SPEAKER_09: 0.400
+  SPEAKER_01 <-> SPEAKER_09: 0.379
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E18.npz

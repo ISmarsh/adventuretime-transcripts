@@ -1,0 +1,76 @@
+Episode: AT.S02E04 (Blood Under the Skin)
+10 speaker clusters, 219 total segments
+
+
+SPEAKER_00 (1 segs, 21.2s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and do so as we"
+
+SPEAKER_01 (4 segs, 21.0s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Protect his butt!"
+  "Mama?"
+
+SPEAKER_02 (5 segs, 9.5s, 3 embedded)
+  "That is mighty healthy."
+  "Now hit me!"
+  "Oh, wow."
+  "Very impressive."
+  "Behold, the armor of Zelda Ra."
+
+SPEAKER_03 (25 segs, 61.4s, 17 embedded)
+  "This is real armor."
+  "Who is the one that bears the thimble?"
+  "This dude?"
+  "Oh, you foolish boy."
+  "Without full body armor, you're weak."
+
+SPEAKER_04 (24 segs, 54.7s, 19 embedded)
+  "That is but a thimble."
+  "Chews-goos, I need more armor."
+  "I've got something for you!"
+  "A metal shoe!"
+  "Don't you know you might stub your toe?"
+
+SPEAKER_05 (13 segs, 26.4s, 7 embedded)
+  "Uh, yeah."
+  "Listen when your mother is speaking to you."
+  "Yes, Mama."
+  "You should be ashamed of yourself, a boy your age, sitting in this cave alone fo"
+  "You need to go outside and get some sunlight."
+
+SPEAKER_06 (29 segs, 56.0s, 13 embedded)
+  "Wow, that's a tiny splinter."
+  "Yeah, what a bumbleberry."
+  "What's the poem say?"
+  "Hmm."
+  "It means that we have to cross that swamp."
+
+SPEAKER_07 (32 segs, 68.5s, 14 embedded)
+  "Minstrel?"
+  "He's been a blushing baby."
+  "His cheeks are bright and red."
+  "Hello."
+  "Begone, ghost."
+
+SPEAKER_08 (77 segs, 125.9s, 35 embedded)
+  "Whoa!"
+  "Get him out!"
+  "Don't you ever let me catch you here again."
+  "Did he get you with his poison stairs?"
+  "No, I got a splinter from the door."
+
+SPEAKER_09 (5 segs, 41.4s, 4 embedded)
+  "Get it!"
+  "No, Chews-goos."
+  "Poem, poem, poem!"
+  "You should be ashamed of yourself No"
+  "Huh?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_06: 0.561
+  SPEAKER_01 <-> SPEAKER_09: 0.507
+  SPEAKER_08 <-> SPEAKER_09: 0.493
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E04.npz

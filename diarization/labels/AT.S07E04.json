@@ -1,0 +1,22 @@
+{
+  "episode_id": "AT.S07E04",
+  "title": "Mama Said",
+  "season": 7,
+  "speaker_map": {
+    "SPEAKER_06": "Finn_S07-S10",
+    "SPEAKER_07": "Jake",
+    "SPEAKER_09": "Banana Guard",
+    "SPEAKER_05": "King of Ooo"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_08"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:49:55"
+}

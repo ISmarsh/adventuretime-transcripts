@@ -1,0 +1,83 @@
+Episode: AT.S04E26 (The Lich)
+11 speaker clusters, 151 total segments
+
+
+SPEAKER_00 (12 segs, 48.8s, 10 embedded)
+  "Hold on."
+  "Hello, my name is Booko."
+  "What you see here is a map of the multiverse."
+  "It shows all the known dimensions and the links between each of them."
+  "This is the dimension that contains the universe in which we currently reside."
+
+SPEAKER_01 (6 segs, 21.1s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+  "Lich and learn!"
+
+SPEAKER_02 (19 segs, 74.2s, 12 embedded)
+  "Dark times are coming."
+  "Whoa!"
+  "Make it stop!"
+  "Get off!"
+  "Get off of me!"
+
+SPEAKER_03 (1 segs, 28.3s, 0 embedded)
+  "This party is so crazy!"
+
+SPEAKER_04 (4 segs, 6.7s, 2 embedded)
+  "Gross."
+  "What?"
+  "Thanks, Finn."
+  "I couldn't have done it without you."
+
+SPEAKER_05 (7 segs, 12.4s, 3 embedded)
+  "Quickly, child."
+  "We're running out of time."
+  "No, child."
+  "It's all true."
+  "The book has great power."
+
+SPEAKER_06 (18 segs, 29.3s, 10 embedded)
+  "Billy?"
+  "Billy, wake up!"
+  "What the heck are you guys doing in my crack?"
+  "It's three o'clock in the morning."
+  "Was the cosmic hour there?"
+
+SPEAKER_07 (16 segs, 24.8s, 4 embedded)
+  "He'll know what to do."
+  "Whoa."
+  "I dreamed I was in kindergarten again, but I had really big feet and was also th"
+  "Come on."
+  "We better hurry."
+
+SPEAKER_08 (14 segs, 26.5s, 5 embedded)
+  "All numbers are on."
+  "You talk like justice, Billy, but you can't kick a plane."
+  "You all right, buddy?"
+  "Another nightmare?"
+  "Whoa, the cosmic owl?"
+
+SPEAKER_09 (12 segs, 26.1s, 7 embedded)
+  "I think so."
+  "So deep."
+  "Whoa, cool."
+  "What is this stuff?"
+  "Lich, you... you messed Billy up."
+
+SPEAKER_10 (40 segs, 77.5s, 14 embedded)
+  "Yeah, that dang snail again, man."
+  "Monkin' it up again."
+  "But there were other guys this time, too."
+  "The bear was there, and some dogs, and Billy's lady and Billy."
+  "And Billy was real scared something fierce, man."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_08: 0.540
+  SPEAKER_01 <-> SPEAKER_02: 0.532
+  SPEAKER_09 <-> SPEAKER_10: 0.517
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E26.npz

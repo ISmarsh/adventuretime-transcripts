@@ -1,0 +1,57 @@
+Episode: AT.S08E21 (Whipple the Happy Dragon)
+7 speaker clusters, 197 total segments
+
+
+SPEAKER_00 (6 segs, 10.4s, 2 embedded)
+  "Hello?"
+  "No!"
+  "Use your core!"
+  "No!"
+  "Remember, we love you!"
+
+SPEAKER_01 (14 segs, 19.9s, 5 embedded)
+  "You stowed away?"
+  "Who cares?"
+  "Give me the earplugs!"
+  "No."
+  "Oh, wait."
+
+SPEAKER_02 (15 segs, 48.5s, 9 embedded)
+  "Susan feel alive."
+  "Elemite, elemite emerge from the crystal's... form!"
+  "Susan does not think this is a good idea."
+  "What?"
+  "What if those people need to slay a lizard to feed babies?"
+
+SPEAKER_03 (56 segs, 88.4s, 27 embedded)
+  "Oh, no!"
+  "Giant fin hand straight ahead!"
+  "Ugh!"
+  "Jake?"
+  "Relax."
+
+SPEAKER_04 (51 segs, 113.4s, 20 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands With Ben and Jake and "
+  "So, if that's where we started, and this is the water, and this is where the hum"
+  "It's not how you navigate, man."
+  "Yeah, I know."
+
+SPEAKER_05 (50 segs, 116.5s, 27 embedded)
+  "Yoo-hoo!"
+  "Hi."
+  "I just wanted to say I'm sorry about your boat."
+  "I was just trying to get rid of those weirdos."
+  "Sorry."
+
+SPEAKER_06 (2 segs, 15.6s, 1 embedded)
+  "We're gonna die!"
+  "We deserve that."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_06: 0.460
+  SPEAKER_03 <-> SPEAKER_04: 0.414
+  SPEAKER_00 <-> SPEAKER_04: 0.389
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E21.npz

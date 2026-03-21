@@ -1,0 +1,29 @@
+{
+  "episode_id": "FC.S01E09",
+  "title": "Casper and Nova",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_05": "Lemongrab",
+    "SPEAKER_12": "Cake",
+    "SPEAKER_13": "Fionna",
+    "SPEAKER_15": "Fionna",
+    "SPEAKER_16": "Simon"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_10",
+    "SPEAKER_11",
+    "SPEAKER_14"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T17:13:49"
+}

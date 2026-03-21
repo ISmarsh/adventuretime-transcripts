@@ -1,0 +1,57 @@
+Episode: AT.S06E18 (Everything's Jake)
+7 speaker clusters, 182 total segments
+
+
+SPEAKER_00 (5 segs, 41.1s, 4 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "I'll finish this later."
+  "Mr. Meyer?"
+  "Right-o!"
+
+SPEAKER_01 (2 segs, 24.0s, 2 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "me to a cliff"
+
+SPEAKER_02 (16 segs, 50.0s, 8 embedded)
+  "I'm so tired, but also hungry."
+  "I should eat some..."
+  "Huh."
+  "Hmm."
+  "Everything's made of me."
+
+SPEAKER_03 (12 segs, 27.8s, 4 embedded)
+  "The waffle doll shall fall, lest you eat the yellow dough."
+  "Jake!"
+  "Hmm."
+  "Joan!"
+  "Why?!"
+
+SPEAKER_04 (122 segs, 267.0s, 60 embedded)
+  "Nice."
+  "Jake City."
+  "Oh, uh, hi!"
+  "Jake!"
+  "Huh?"
+
+SPEAKER_05 (13 segs, 26.5s, 7 embedded)
+  "Jake, we want to perform some tests on you to discover the cause of the quakes."
+  "Omelet."
+  "What's in the omelet?"
+  "Chili."
+  "It's a four-egg chili omelet."
+
+SPEAKER_06 (9 segs, 8.6s, 1 embedded)
+  "Jake!"
+  "Hey, I got a for real important question."
+  "Do you like cereal in your cake?"
+  "Jake?"
+  "BMO, resume."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_03: 0.473
+  SPEAKER_02 <-> SPEAKER_04: 0.467
+  SPEAKER_00 <-> SPEAKER_01: 0.405
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E18.npz

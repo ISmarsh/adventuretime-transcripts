@@ -1,0 +1,77 @@
+Episode: AT.S08E13 (Reboot)
+10 speaker clusters, 147 total segments
+
+
+SPEAKER_00 (5 segs, 34.6s, 3 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Yabba-dabba-dabba-dabba."
+  "Come back!"
+  "This party"
+
+SPEAKER_01 (10 segs, 16.0s, 4 embedded)
+  "No!"
+  "Susan's our friend!"
+  "Uh, hey, excuse me."
+  "Have you seen an electric eel around here?"
+  "We're supposed to catch an electric eel."
+
+SPEAKER_03 (19 segs, 32.5s, 5 embedded)
+  "Well, I would, but... Susan, wait!"
+  "I wasn't finished speaking!"
+  "Yabba dabba dabba dabba."
+  "Kalding, are you all..."
+  "Slamming."
+
+SPEAKER_04 (31 segs, 86.1s, 14 embedded)
+  "Jake!"
+  "Been in danger!"
+  "Why you not fight?"
+  "Use dog change magic."
+  "Seeker XJ77 strong."
+
+SPEAKER_05 (21 segs, 36.4s, 10 embedded)
+  "Jake, what the heck was that explosion?"
+  "Was that you guys?"
+  "What the heck is going on?"
+  "Okay, hang tight, Jake."
+  "I've got elite insulated banana guards en route, plus nurse pound cake too."
+
+SPEAKER_06 (11 segs, 13.1s, 3 embedded)
+  "Wait, Susan!"
+  "Don't!"
+  "You're not immune to electricity!"
+  "Who do you think you are?"
+  "Do you know who you're messing with?"
+
+SPEAKER_07 (7 segs, 10.5s, 3 embedded)
+  "Ow."
+  "Warning."
+  "Warning."
+  "Angry presence detected."
+  "I cannot hide in the shadows any longer."
+
+SPEAKER_08 (1 segs, 5.3s, 1 embedded)
+  "What?"
+
+SPEAKER_09 (18 segs, 34.4s, 5 embedded)
+  "Grass sword?"
+  "Susan?"
+  "Stop, Susan!"
+  "What are you doing?"
+  "Help!"
+
+SPEAKER_10 (23 segs, 76.3s, 12 embedded)
+  "Oh, jeez."
+  "Susan."
+  "She was acting pretty goonie down there in general."
+  "It's weird."
+  "It's not like a robo-arm or whatever."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_09 <-> SPEAKER_10: 0.539
+  SPEAKER_06 <-> SPEAKER_09: 0.489
+  SPEAKER_08 <-> SPEAKER_09: 0.451
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E13.npz

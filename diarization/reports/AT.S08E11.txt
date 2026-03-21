@@ -1,0 +1,60 @@
+Episode: AT.S08E11 (Daddy-Daughter Card Wars)
+7 speaker clusters, 226 total segments
+
+
+SPEAKER_00 (6 segs, 19.3s, 3 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends!"
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+  "The fun will never end."
+
+SPEAKER_01 (6 segs, 15.9s, 3 embedded)
+  "No!"
+  "Not today!"
+  "No cardboard!"
+  "We win!"
+  "Woo!"
+
+SPEAKER_02 (12 segs, 19.0s, 6 embedded)
+  "Grand Prix."
+  "Man, I thought you swore off tourney play, like angrily swore it off."
+  "Oh, pardon."
+  "But she's a chip off the old block, I'll bet."
+  "Us, we're running the local after school CW program."
+
+SPEAKER_03 (67 segs, 119.5s, 24 embedded)
+  "Hmm, let's see what else the cards say."
+  "This card means you're a man."
+  "OK. No, I'm kidding."
+  "It means you're nice."
+  "I'm learning truth about myself."
+
+SPEAKER_04 (29 segs, 59.4s, 15 embedded)
+  "I activate the barrel."
+  "I floop to Cooper."
+  "Round one, Jake and Charlie, AKA Team Dignified, versus Reggie and Pete the Punk"
+  "Whoa, whoa, whoa, whoa!"
+  "Commence card wars!"
+
+SPEAKER_05 (8 segs, 9.5s, 1 embedded)
+  "Hello, Jake."
+  "Is that you, moniker?"
+  "How are you?"
+  "We've been just great."
+  "Oh, this is my daughter slash Card Wars partner, Charlie."
+
+SPEAKER_06 (68 segs, 131.6s, 35 embedded)
+  "How are your card fingers feeling?"
+  "That's a weird thing to say, Papa."
+  "Have you seen cards like this?"
+  "What?"
+  "There's no time to go back."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_01: 0.571
+  SPEAKER_05 <-> SPEAKER_06: 0.567
+  SPEAKER_02 <-> SPEAKER_06: 0.170
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E11.npz

@@ -1,0 +1,66 @@
+Episode: AT.S05E04 (Up a Tree)
+9 speaker clusters, 194 total segments
+
+
+SPEAKER_00 (3 segs, 19.8s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Thanks"
+
+SPEAKER_01 (2 segs, 26.1s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (8 segs, 24.8s, 6 embedded)
+  "Oh, I thought I'd see you again soon."
+  "Pooped!"
+  "In the tree, part of the tree."
+  "In the tree, part of the tree."
+  "Sorry."
+
+SPEAKER_03 (39 segs, 71.8s, 20 embedded)
+  "Yeah, man."
+  "Oh, well, hello there, my friend."
+  "What are you doing?"
+  "I'm trying to get to the top of this tree to get my disc."
+  "Oh, well, maybe I can help."
+
+SPEAKER_04 (51 segs, 103.4s, 18 embedded)
+  "Oh, I apologize for staring."
+  "But I've never seen a chipmunk as big as you."
+  "You should eat an apple to reinvigorate your climbing ability."
+  "Huh?"
+  "Huh?"
+
+SPEAKER_05 (26 segs, 52.5s, 11 embedded)
+  "Throw and catch."
+  "Throw and catch."
+  "I call dog and you be human."
+  "Yeah."
+  "It's going to be good."
+
+SPEAKER_06 (12 segs, 19.2s, 4 embedded)
+  "Just gonna rest my meat hooks."
+  "I ruined your day, and now you'll never get your disc."
+  "No, it's okay."
+  "I've been in worse situations."
+  "Even though I'm tiny, I do feel invigorated."
+
+SPEAKER_07 (46 segs, 74.8s, 13 embedded)
+  "Oh, man."
+  "My throwing and catching disk."
+  "Jake, want to play throwing and catching disk?"
+  "Bark, bark, bark, bark."
+  "Hello, I'm a human."
+
+SPEAKER_08 (2 segs, 3.9s, 1 embedded)
+  "All right."
+  "In the tree, part of the tree."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.527
+  SPEAKER_04 <-> SPEAKER_06: 0.501
+  SPEAKER_05 <-> SPEAKER_07: 0.446
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E04.npz

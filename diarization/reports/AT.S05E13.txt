@@ -1,0 +1,58 @@
+Episode: AT.S05E13 (The Great Bird Man)
+7 speaker clusters, 238 total segments
+
+
+SPEAKER_00 (7 segs, 38.0s, 6 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Hey, Jeff, is that your real laugh?"
+  "No, it's Zergioch!"
+  "Oh, God!"
+
+SPEAKER_01 (3 segs, 27.9s, 1 embedded)
+  "I'm in love!"
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "To a cliff under a tree This party is so crazy!"
+
+SPEAKER_02 (10 segs, 18.0s, 4 embedded)
+  "Hey, Finn."
+  "How's the mission going?"
+  "Some say he's a half man, half bird that poops fire while he flies."
+  "It's all rumors so far."
+  "That's why I need you and Jake to find out everything you can about him and repo"
+
+SPEAKER_03 (7 segs, 8.6s, 3 embedded)
+  "Here, Finn."
+  "Take my eyes and bury them forever."
+  "I will not need them again."
+  "Okay, man."
+  "Thanks."
+
+SPEAKER_04 (51 segs, 74.6s, 20 embedded)
+  "Finn to Prubs."
+  "Come in, Prubs."
+  "So far, no sign of the Birdman."
+  "Why is this guy so dangerous?"
+  "Where are you?"
+
+SPEAKER_05 (137 segs, 274.0s, 68 embedded)
+  "Huh?"
+  "Where am I?"
+  "This is the Rookery, where I and my bird friends dwell."
+  "So are you like the Great Birdman?"
+  "That's what they call me nowadays."
+
+SPEAKER_06 (20 segs, 37.0s, 13 embedded)
+  "Come on, let's go look for that creep."
+  "So you got some slick new shades and now everything's different?"
+  "I almost told him because he was driving me nuts."
+  "Yeah, me too."
+  "You think he's got evil intentions behind his reborn star child act?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.434
+  SPEAKER_00 <-> SPEAKER_01: 0.394
+  SPEAKER_03 <-> SPEAKER_05: 0.357
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E13.npz

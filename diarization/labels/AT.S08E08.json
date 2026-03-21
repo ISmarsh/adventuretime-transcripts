@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S08E08",
+  "title": "Elemental",
+  "season": 8,
+  "speaker_map": {
+    "SPEAKER_01": "Banana Guard",
+    "SPEAKER_02": "Starchy",
+    "SPEAKER_03": "Ice King",
+    "SPEAKER_04": "Finn_S07-S10"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_05",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T13:09:01"
+}

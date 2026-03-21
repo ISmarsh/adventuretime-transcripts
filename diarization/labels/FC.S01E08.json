@@ -1,0 +1,27 @@
+{
+  "episode_id": "FC.S01E08",
+  "title": "Jerry",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_02": "Simon",
+    "SPEAKER_03": "Simon",
+    "SPEAKER_04": "Simon",
+    "SPEAKER_06": "Fionna",
+    "SPEAKER_10": "BMO",
+    "SPEAKER_13": "Cake",
+    "SPEAKER_14": "Cake",
+    "SPEAKER_05": "Orbo"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_11",
+    "SPEAKER_12"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-10T09:49:02"
+}

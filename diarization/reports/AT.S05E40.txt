@@ -1,0 +1,62 @@
+Episode: AT.S05E40 (Play Date)
+8 speaker clusters, 207 total segments
+
+
+SPEAKER_00 (3 segs, 28.8s, 1 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Hurry!"
+
+SPEAKER_01 (2 segs, 27.4s, 1 embedded)
+  "Come along with me."
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+SPEAKER_02 (15 segs, 23.5s, 4 embedded)
+  "I never has to be... Come on, dude."
+  "Hmm."
+  "Fat Jake!"
+  "Come quick!"
+  "You made it!"
+
+SPEAKER_03 (18 segs, 38.9s, 10 embedded)
+  "I am real."
+  "Bring me the true bearer of my blood sword, or I will destroy you both."
+  "You're wasting your powers on me!"
+  "Ah!"
+  "No!"
+
+SPEAKER_04 (19 segs, 35.4s, 9 embedded)
+  "Oh, uh, yeah, I suppose I could."
+  "Shimorracanta Floriana."
+  "So good!"
+  "Woo!"
+  "You're a good wizard."
+
+SPEAKER_05 (44 segs, 92.3s, 18 embedded)
+  "How about this room, bro?"
+  "just until Gunter finishes rebuilding the Ice Kingdom."
+  "Look, I hear you, but we can't kick him out because I still feel guilty about ju"
+  "Hey, what if we check him into a hotel room?"
+  "Hey, Simon, how would you like to stay in the coolest hotel?"
+
+SPEAKER_06 (65 segs, 106.2s, 27 embedded)
+  "Home sweet home, bro."
+  "Yeah, you said it."
+  "I've been home this whole time."
+  "I keep forgetting that he lives here now."
+  "What y'all whispering about?"
+
+SPEAKER_07 (38 segs, 49.5s, 14 embedded)
+  "Luke, bro!"
+  "Gear dump, bro."
+  "Looks like a bro-licious room to relax in and play video games."
+  "Bro."
+  "Excuse me."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_02: 0.512
+  SPEAKER_02 <-> SPEAKER_03: 0.470
+  SPEAKER_00 <-> SPEAKER_03: 0.462
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E40.npz

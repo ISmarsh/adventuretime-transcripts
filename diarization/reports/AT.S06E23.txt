@@ -1,0 +1,87 @@
+Episode: AT.S06E23 (The Pajama War)
+12 speaker clusters, 197 total segments
+
+
+SPEAKER_00 (1 segs, 25.2s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and do so as we"
+
+SPEAKER_01 (2 segs, 28.1s, 1 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (4 segs, 8.3s, 3 embedded)
+  "Tree Trunks, the slumber party's about to start."
+  "Get those hot buns in here, girl."
+  "Did you hear me?"
+  "I said get those hot... Hi, Mr."
+
+SPEAKER_03 (29 segs, 49.3s, 11 embedded)
+  "Pig."
+  "Why are you hitting me?"
+  "I was just talking about Tree Trunks' hot... Come on, Finn."
+  "Really?"
+  "What about the candy people?"
+
+SPEAKER_04 (9 segs, 19.0s, 6 embedded)
+  "There's no lush green field in the closet."
+  "Just tell us what you hear."
+  "Aren't you worried about Finn?"
+  "See these tears of worry?"
+  "It will be okay, Jake."
+
+SPEAKER_05 (15 segs, 26.1s, 6 embedded)
+  "Whoa."
+  "Secret passage."
+  "Nice."
+  "Boy, it's your quiet in there."
+  "What's going on in there, you think?"
+
+SPEAKER_06 (42 segs, 80.3s, 19 embedded)
+  "We're doing music chairs."
+  "Everyone ready?"
+  "Ready!"
+  "Hey, PB."
+  "Hey, Finn."
+
+SPEAKER_07 (4 segs, 23.5s, 1 embedded)
+  "Breathe!"
+  "Breathe!"
+  "Here, try this one."
+  "Crunchy!"
+
+SPEAKER_08 (26 segs, 47.3s, 14 embedded)
+  "Someone should listen at the door."
+  "What?"
+  "Why me?"
+  "Come on, Crunchy."
+  "You're the go-to guy."
+
+SPEAKER_09 (19 segs, 31.0s, 9 embedded)
+  "You're my guest."
+  "This is your party."
+  "No, no, I insist!"
+  "Time is up!"
+  "You two must now be sent to the closest closet to have heavenly thoughts."
+
+SPEAKER_10 (13 segs, 23.1s, 7 embedded)
+  "Take a seat!"
+  "Uh, uh... Uh-oh, uh-oh!"
+  "There's a seat by me."
+  "Oh!"
+  "You take it, Princess."
+
+SPEAKER_11 (30 segs, 70.0s, 17 embedded)
+  "No, don't!"
+  "Go, guys!"
+  "You gotta do something!"
+  "That's my best friend in there!"
+  "You okay in there?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_07: 0.607  <- possible match
+  SPEAKER_01 <-> SPEAKER_07: 0.607
+  SPEAKER_02 <-> SPEAKER_03: 0.503
+  SPEAKER_09 <-> SPEAKER_10: 0.416
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E23.npz

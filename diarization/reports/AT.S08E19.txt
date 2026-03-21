@@ -1,0 +1,57 @@
+Episode: AT.S08E19 (Jelly Beans Have Power)
+7 speaker clusters, 177 total segments
+
+
+SPEAKER_00 (20 segs, 47.1s, 14 embedded)
+  "Oh, hey, Princess."
+  "We were just wondering where all this rad slime was coming from."
+  "Sweetings, bubgum."
+  "Oh, this floor is stickier than it looks."
+  "Did someone lick this?"
+
+SPEAKER_01 (14 segs, 28.1s, 4 embedded)
+  "Slumming place!"
+  "Run, Skiboos!"
+  "Oh, no!"
+  "Hooray for Princess Bubblegum!"
+  "Hooray for Bubblegum!"
+
+SPEAKER_02 (79 segs, 172.5s, 53 embedded)
+  "It's not to celebrate your, wait, patience is totally nut cakes."
+  "She kidnapped us and messed with our molecules."
+  "Booty slime!"
+  "Stop sliming everything."
+  "No one likes it."
+
+SPEAKER_03 (7 segs, 16.1s, 5 embedded)
+  "East coast slime!"
+  "West coast slime!"
+  "Brag?"
+  "Wait, are you jelly of my slime?"
+  "Your slime is overrated."
+
+SPEAKER_04 (14 segs, 29.0s, 6 embedded)
+  "And then I was like, there's a slime in a place for everything."
+  "And they were all, OMG, you're the greatest slime elemental ever."
+  "Too bad you didn't invite patient Saint Pym to this party celebrating my new pow"
+  "Uh, so what?"
+  "She gave us these groovy powers."
+
+SPEAKER_05 (39 segs, 96.5s, 22 embedded)
+  "Princess, what are you doing here so late?"
+  "Show me your hand, young lady."
+  "Now, imagine this plate is an enemy of the kingdom."
+  "You sleep with a plate?"
+  "The whole kingdom's looking at you to beat it."
+
+SPEAKER_06 (2 segs, 28.5s, 1 embedded)
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "hey will you keep it down down there some of us have to work tomorrow come along"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_05: 0.435
+  SPEAKER_03 <-> SPEAKER_04: 0.313
+  SPEAKER_01 <-> SPEAKER_02: 0.308
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E19.npz

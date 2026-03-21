@@ -1,0 +1,21 @@
+{
+  "episode_id": "AT.S02E09",
+  "title": "The Other Tarts",
+  "season": 2,
+  "speaker_map": {
+    "SPEAKER_05": "Finn_S01-S03",
+    "SPEAKER_06": "Jake",
+    "SPEAKER_08": "Princess Bubblegum"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_07"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:10:25"
+}

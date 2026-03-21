@@ -1,0 +1,184 @@
+Episode: DL.S01E04 (Wizard City)
+25 speaker clusters, 811 total segments
+
+
+SPEAKER_00 (3 segs, 9.9s, 3 embedded)
+  "Your kids know that's illegal, right?"
+  "We'll let you off with a warning this time, young candy."
+  "But any more of that biz will land your minty little butt straight in the whizz-"
+
+SPEAKER_01 (11 segs, 24.6s, 3 embedded)
+  "Pretty sure he's just trash candy."
+  "Do I have to teach him?"
+  "Hot dog!"
+  "I am losing my mind at this choreography!"
+  "Yvonne is weak!"
+
+SPEAKER_02 (103 segs, 239.8s, 60 embedded)
+  "I think this child shows great potential."
+  "He deserves a chance to learn how to channel it."
+  "Uh... Peppermint, please accept this badge."
+  "What are you waiting for, kids?"
+  "History is happening all around us!"
+
+SPEAKER_03 (23 segs, 69.4s, 8 embedded)
+  "Wizards rule."
+  "Yeah!"
+  "Whoa!"
+  "I need these!"
+  "Ha!"
+
+SPEAKER_04 (14 segs, 29.8s, 6 embedded)
+  "OK, bye."
+  "Fire."
+  "Fire."
+  "Pep, did I ever tell you how I got into... Hey, there's my buddy."
+  "I'm gonna head back."
+
+SPEAKER_05 (7 segs, 19.5s, 2 embedded)
+  "I hereby instill my intensest intention to strive for the Dark Arts' accomplishe"
+  "What are you waiting for?"
+  "Drink the ichor."
+  "Kadevra?"
+  "You're not good enough."
+
+SPEAKER_06 (66 segs, 111.3s, 26 embedded)
+  "We're walking."
+  "Hello."
+  "I had to."
+  "I got responsibilities."
+  "The Dark One, the Lord of Chaos."
+
+SPEAKER_07 (327 segs, 629.7s, 167 embedded)
+  "Oh, hello."
+  "My books!"
+  "Hey!"
+  "How dare you take advantage of my childlike sense of wonder!"
+  "Whoa!"
+
+SPEAKER_08 (22 segs, 61.5s, 15 embedded)
+  "A flame from the nightosphere?"
+  "That's basic flippin' baby magic."
+  "Uh, I'm sorry."
+  "You absolute loser!"
+  "You think you're going to become me by slinging some baby egg spells?"
+
+SPEAKER_09 (16 segs, 49.9s, 5 embedded)
+  "Don't!"
+  "I repeat, last stop, Wizzwammer Canyon."
+  "Ha!"
+  "Uh..."
+  "The twisted trees sing dark, dark, dark."
+
+SPEAKER_10 (8 segs, 12.4s, 5 embedded)
+  "Let's talk about it."
+  "Well, really, this is hardly proper, madam."
+  "I know, I just got tired of waiting."
+  "A lack of respect to get around here."
+  "Back of the class."
+
+SPEAKER_11 (12 segs, 29.4s, 8 embedded)
+  "The signs speak to me."
+  "And now, finally,"
+  "The quest for the chalice begins."
+  "This locator spell requires a strong emotional bond, so team up with your bestie"
+  "Found him."
+
+SPEAKER_12 (9 segs, 36.2s, 5 embedded)
+  "Wait."
+  "Let me guess."
+  "Oh, I can sense you're new in town Soon putting on your wizard gown Stepping up "
+  "Wizard City Wizard City Oh, you're in Wizard City Wizard City See how the air is"
+  "With Wizard City."
+
+SPEAKER_13 (37 segs, 83.6s, 20 embedded)
+  "Mind if I... No, no, no, no, no."
+  "Not in my class, nuh-uh."
+  "Skinks in the nosebleed section."
+  "Oh, poop."
+  "Quiet."
+
+SPEAKER_14 (13 segs, 34.8s, 11 embedded)
+  "Oh boy, what a treat."
+  "By the power of Headmaster vested in me, we hereby bestow unto thee the rank of "
+  "What a cool child."
+  "I feel bad for whoever's next."
+  "And that is... Kadabra!"
+
+SPEAKER_15 (12 segs, 28.2s, 7 embedded)
+  "Ah, the sweet smell of justice."
+  "That's not justice."
+  "It smells vaguely like dark magic."
+  "And you'll bunk with real jerks, like this thief."
+  "Wayne, I'm right here."
+
+SPEAKER_16 (3 segs, 14.1s, 2 embedded)
+  "Kadabra, focus."
+  "If you don't raise your stats by 27.82578950%, you'll never be a salamander, and"
+  "Yes, Dark One!"
+
+SPEAKER_17 (7 segs, 15.7s, 5 embedded)
+  "Pretty good."
+  "I am the nutritious shadow that looms over your breakfast."
+  "I go too large for this soufflé you call space time!"
+  "Uh-oh."
+  "You're no wizard."
+
+SPEAKER_18 (9 segs, 19.1s, 6 embedded)
+  "This is our last stop, Wizzwammer Canyon."
+  "Get off of my bus, kid."
+  "The usual?"
+  "My presence is also surprising."
+  "Kokon Teppi!"
+
+SPEAKER_19 (13 segs, 31.3s, 9 embedded)
+  "Who's there?"
+  "School's closed."
+  "Come closer."
+  "I don't bite."
+  "Hurry, I don't have all night."
+
+SPEAKER_20 (8 segs, 10.4s, 3 embedded)
+  "I'm calling my uncle!"
+  "Keep back!"
+  "Dark Wizard!"
+  "Dark Wizard coming through!"
+  "Pay no attention to the Dark Wizard!"
+
+SPEAKER_21 (15 segs, 21.0s, 5 embedded)
+  "Hey there."
+  "Yes, hello."
+  "I am Song Wizard."
+  "I'm Pep."
+  "Hey, I'll buy you a brew!"
+
+SPEAKER_22 (17 segs, 38.3s, 10 embedded)
+  "Well done, Erika Daniel."
+  "My poor heart."
+  "Psst!"
+  "Hey, they only laugh because you're different."
+  "Ah, just use real magic!"
+
+SPEAKER_23 (8 segs, 40.1s, 4 embedded)
+  "Nice."
+  "We can't let this kid in."
+  "He'd ruin our rep."
+  "So crazy first week, right?"
+  "Peppermint, for your semi-heroic deeds in defeating the Dark Wizards, who for so"
+
+SPEAKER_24 (35 segs, 84.0s, 19 embedded)
+  "Whoa!"
+  "Hey, Kedorka, if you can't even get out of this, how are you gonna get into WizA"
+  "Hey, that was some pretty sick magic, candy boy."
+  "You trying for whizz-arts, right?"
+  "Walk with us."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_07: 0.794  <- likely same character
+  SPEAKER_06 <-> SPEAKER_07: 0.673  <- possible match
+  SPEAKER_07 <-> SPEAKER_08: 0.639  <- possible match
+  SPEAKER_06 <-> SPEAKER_20: 0.637  <- possible match
+  SPEAKER_06 <-> SPEAKER_08: 0.613  <- possible match
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\DL.S01E04.npz

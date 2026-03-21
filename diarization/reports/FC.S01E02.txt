@@ -1,0 +1,102 @@
+Episode: FC.S01E02 (Simon Petrikov)
+14 speaker clusters, 291 total segments
+
+
+SPEAKER_00 (16 segs, 38.0s, 11 embedded)
+  "What can I get started for you?"
+  "All right, straight up."
+  "You got it."
+  "Olives, onions."
+  "Shall I put it on your tab?"
+
+SPEAKER_01 (2 segs, 2.1s, 0 embedded)
+  "Is this also a phone?"
+  "What's this room for?"
+
+SPEAKER_02 (16 segs, 32.0s, 10 embedded)
+  "Simon, you won't believe what I'm doing right now."
+  "Me and PB are getting matching tattoos."
+  "Hey, Simon."
+  "Well, trying to get tattoos."
+  "My skin keeps healing over."
+
+SPEAKER_03 (124 segs, 269.5s, 66 embedded)
+  "Wow, this is one of the nicest sewers we've been in."
+  "No, darling, that's me."
+  "Not to worry."
+  "Guess who always carries around a sewing kit."
+  "Ah, you'd be just fine, I promise."
+
+SPEAKER_04 (10 segs, 30.7s, 7 embedded)
+  "It's stinky."
+  "Simon."
+  "Simon, what would I do without you?"
+  "Uh, is that supposed to happen?"
+  "Is the burning of the pants a 20th century ritual?"
+
+SPEAKER_05 (5 segs, 3.4s, 0 embedded)
+  "Yeah, I got a question."
+  "Down here."
+  "What's that?"
+  "Answer the question."
+  "What's that above it?"
+
+SPEAKER_06 (3 segs, 7.4s, 1 embedded)
+  "Walls down!"
+  "No, no, no, no, no!"
+  "Reveal the path and grant me passage!"
+
+SPEAKER_07 (2 segs, 5.7s, 1 embedded)
+  "Hey"
+  "Bury the past or even burn the suffering you can't unlearn."
+
+SPEAKER_08 (10 segs, 45.7s, 9 embedded)
+  "Oh, yeah."
+  "You shut up!"
+  "Stuff me with lemons and savory spices."
+  "It won't snuff out your existential crisis."
+  "Forever she will languish while you wallow in anguish."
+
+SPEAKER_09 (9 segs, 89.0s, 7 embedded)
+  "Does somebody jump for joy?"
+  "Does somebody cry?"
+  "Now that I'm not part of that sadness Does somebody want me now?"
+  "Now that I'm not part of a match"
+  "Part of a madness Part of a madness Laughter and screams seem to echo faintly I "
+
+SPEAKER_10 (6 segs, 10.1s, 4 embedded)
+  "Oh, Finn, you too."
+  "Yeah, he's the one who convinced us they were good."
+  "Honestly, I like them better than Finn and Dad."
+  "Okay, coming."
+  "Reveal the path and grant me passage!"
+
+SPEAKER_11 (68 segs, 151.7s, 36 embedded)
+  "You know, Simon, I used to bust your balls about those old stories, but I really"
+  "Yeah, Jake loved them."
+  "But there's more humans than ever now."
+  "Not just your boy, Finn the H. Sure."
+  "I'm sorry, Simon."
+
+SPEAKER_12 (8 segs, 44.8s, 5 embedded)
+  "Where everybody knows your name And they're always glad you came You wanna be wh"
+  "You wanna go where everybody knows your name?"
+  "Please leave."
+  "Simon!"
+  "Evil Bear!"
+
+SPEAKER_13 (10 segs, 91.6s, 7 embedded)
+  "Come on."
+  "Oh, jeez."
+  "What's under here?"
+  "Hey, let go of her."
+  "People in the 20th century were real tranches."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_12 <-> SPEAKER_13: 0.612  <- possible match
+  SPEAKER_12 <-> SPEAKER_13: 0.612
+  SPEAKER_07 <-> SPEAKER_08: 0.530
+  SPEAKER_03 <-> SPEAKER_10: 0.419
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S01E02.npz

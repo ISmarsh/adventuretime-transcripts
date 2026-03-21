@@ -1,0 +1,25 @@
+{
+  "episode_id": "AT.S04E02",
+  "title": "Five Short Graybles",
+  "season": 4,
+  "speaker_map": {
+    "SPEAKER_01": "LSP",
+    "SPEAKER_04": "LSP",
+    "SPEAKER_07": "BMO",
+    "SPEAKER_09": "Ice King",
+    "SPEAKER_10": "Princess Bubblegum",
+    "SPEAKER_11": "Princess Bubblegum",
+    "SPEAKER_12": "Jake",
+    "SPEAKER_00": "Peppermint Butler"
+  },
+  "skipped": [
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_08"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:49:54"
+}

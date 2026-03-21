@@ -1,0 +1,93 @@
+Episode: AT.S05E25 (Candy Streets)
+12 speaker clusters, 251 total segments
+
+
+SPEAKER_00 (5 segs, 27.1s, 4 embedded)
+  "Mumpy Space Princess?"
+  "Come along with me and the butterflies and bees."
+  "We can wander through the forest and do so as we please."
+  "Come along with me"
+  "to a cliff under a tree"
+
+SPEAKER_01 (4 segs, 18.8s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we can win the battle."
+
+SPEAKER_02 (15 segs, 32.9s, 7 embedded)
+  "Do something!"
+  "I've been... Oops."
+  "LSP, who robbed you?"
+  "It... was... for... Pete!"
+  "Pete Sassafras!"
+
+SPEAKER_03 (21 segs, 49.5s, 12 embedded)
+  "It's terrible!"
+  "What's wrong?"
+  "You guys!"
+  "Somebody stole something from me!"
+  "Something I can't live without!"
+
+SPEAKER_04 (8 segs, 10.1s, 2 embedded)
+  "Howdy, partner."
+  "Oh, hey, BMO."
+  "What's going on?"
+  "I finished processing the blood sample, and I have the result."
+  "Nice."
+
+SPEAKER_05 (27 segs, 58.8s, 14 embedded)
+  "And if the oozing persists, just come back."
+  "A lot of people come through my store, gentlemen."
+  "You can't seriously think I'd be able to remember any one particular customer am"
+  "I guess not."
+  "Fair dues."
+
+SPEAKER_06 (4 segs, 4.0s, 1 embedded)
+  "And I'll give you something a little stronger."
+  "I'm Finn."
+  "This is my partner Jake."
+  "Hello, citizen."
+
+SPEAKER_07 (6 segs, 16.6s, 3 embedded)
+  "Can you guys hold her down?"
+  "Oh, you mean Petey."
+  "He's out."
+  "He's making deliveries."
+  "Or maybe he's out tying up loose ends."
+
+SPEAKER_08 (8 segs, 8.8s, 1 embedded)
+  "I want to see a lawyer."
+  "Ahem."
+  "I'll handle this, Pete."
+  "You're upsetting my client."
+  "Just look at that face."
+
+SPEAKER_09 (73 segs, 128.5s, 30 embedded)
+  "What business are you into?"
+  "None of your business."
+  "Talk about it over lunch?"
+  "Heh, if you're buying."
+  "Hey!"
+
+SPEAKER_10 (26 segs, 50.3s, 15 embedded)
+  "Busted for attempting to board a train without a ticket."
+  "Sorry about that, officers."
+  "It was an honest mistake."
+  "Not yet we didn't."
+  "What?"
+
+SPEAKER_11 (48 segs, 79.3s, 19 embedded)
+  "Slam!"
+  "Hey, I was trying to read that."
+  "That book is above your level."
+  "Stolen."
+  "But all we have to go on is part of a name."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.562
+  SPEAKER_05 <-> SPEAKER_06: 0.546
+  SPEAKER_01 <-> SPEAKER_02: 0.533
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E25.npz

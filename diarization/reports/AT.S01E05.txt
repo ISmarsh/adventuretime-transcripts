@@ -1,0 +1,83 @@
+Episode: AT.S01E05 (The Enchiridion!)
+11 speaker clusters, 255 total segments
+
+
+SPEAKER_00 (2 segs, 21.8s, 1 embedded)
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (3 segs, 11.4s, 3 embedded)
+  "Come on, grab your friends, we'll go to very distant lands."
+  "We'll take the dog and then we can land."
+  "Oh my gosh, I can't believe you just said that."
+
+SPEAKER_02 (6 segs, 12.9s, 2 embedded)
+  "The book will never end, it's Adventure Time!"
+  "Ahh!"
+  "Oh!"
+  "Oh!"
+  "Yeah, man!"
+
+SPEAKER_03 (15 segs, 35.0s, 10 embedded)
+  "Ha-ha-ha!"
+  "What a wonderful, marvelous party!"
+  "OK, OK, OK. Everyone watch, I'm gonna do a flip!"
+  "Whoa!"
+  "Baby!"
+
+SPEAKER_04 (14 segs, 51.8s, 10 embedded)
+  "OK, I'm gonna do it."
+  "Congratulations, Finn the Human."
+  "You must be truly righteous to have made it this far."
+  "Now, enter my brain world, and I will show you some aspect of yourself that you'"
+  "For your final trial, slay the beast."
+
+SPEAKER_05 (47 segs, 78.2s, 22 embedded)
+  "Gee, this party is so crazy!"
+  "Ha-ha!"
+  "So Finn, do you have a girlfriend?"
+  "Please, calm yourselves, my people."
+  "I am safe!"
+
+SPEAKER_06 (65 segs, 99.0s, 22 embedded)
+  "Party!"
+  "Ooh!"
+  "Farewell, Fin... Oh, wait a minute."
+  "Farewell, Fin the human boy!"
+  "Bye, Princess!"
+
+SPEAKER_07 (35 segs, 87.5s, 18 embedded)
+  "Oh."
+  "Secret entrance."
+  "The Anchoridian is... that way."
+  "It's in the castle on top of the mountain."
+  "In a room."
+
+SPEAKER_08 (10 segs, 17.8s, 5 embedded)
+  "You cannot pass."
+  "No, it's okay, Finn."
+  "I can get out."
+  "It is impossible for you to hurt me."
+  "Don't worry, dude."
+
+SPEAKER_09 (27 segs, 54.2s, 11 embedded)
+  "I know, Finn, I know!"
+  "Ahh!"
+  "Princess Bubblegum's in trouble!"
+  "Watch where you're going!"
+  "No!"
+
+SPEAKER_10 (26 segs, 66.7s, 19 embedded)
+  "Greetings, young heroes-to-be!"
+  "This mountain is called Cragdor."
+  "Its purpose is twofold, to protect the Enchiridion and to test the hearts of tho"
+  "Many noble challengers have entered attempting to pass the grueling trials that "
+  "Only the truest, most worthy hero can receive the hero's Enchiridion and walk ou"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_09: 0.553
+  SPEAKER_08 <-> SPEAKER_09: 0.537
+  SPEAKER_05 <-> SPEAKER_06: 0.485
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E05.npz

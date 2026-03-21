@@ -1,0 +1,64 @@
+Episode: AT.S02E19 (Mystery Train)
+8 speaker clusters, 205 total segments
+
+
+SPEAKER_00 (5 segs, 19.6s, 3 embedded)
+  "It's your time!"
+  "Come on, grab your friends!"
+  "We'll go to very distant lands!"
+  "We'll take the dog and then we'll kill them!"
+  "The fun will never end!"
+
+SPEAKER_01 (2 segs, 26.8s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "To a cliff under a tree"
+
+SPEAKER_02 (12 segs, 30.5s, 5 embedded)
+  "This is gonna be the best birthday ever I'm gonna go grab a schedule It's terrib"
+  "Just don't let it happen again."
+  "Jeez, Louise."
+  "So sorry about that, Colonel."
+  "Hey, beg pardon."
+
+SPEAKER_03 (7 segs, 15.6s, 3 embedded)
+  "Hey, Mr."
+  "Conductor!"
+  "It's my birthday!"
+  "Thank you."
+  "So who do you think it is?"
+
+SPEAKER_04 (117 segs, 229.2s, 55 embedded)
+  "Happy birthday!"
+  "Jake!"
+  "Is that you?"
+  "I can't see!"
+  "Right."
+
+SPEAKER_05 (6 segs, 13.7s, 3 embedded)
+  "All right."
+  "Hmm, I think it was the guy who screamed, I'm gonna kill you."
+  "No, no, if it wasn't me, I swear!"
+  "You think it was me?"
+  "Are you kidding?"
+
+SPEAKER_06 (7 segs, 11.2s, 5 embedded)
+  "Thank you, Jake!"
+  "This isn't a gift."
+  "Huh?"
+  "We have to take the train to get to the gift."
+  "Oh, almost as cool as a free train."
+
+SPEAKER_07 (48 segs, 109.4s, 22 embedded)
+  "Jake!"
+  "I'm blind on my birthday!"
+  "No, dude."
+  "You're blindfolded."
+  "Oh."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.557
+  SPEAKER_05 <-> SPEAKER_07: 0.489
+  SPEAKER_02 <-> SPEAKER_03: 0.468
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E19.npz

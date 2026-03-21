@@ -1,0 +1,56 @@
+Episode: AT.S04E13 (Princess Cookie)
+7 speaker clusters, 260 total segments
+
+
+SPEAKER_00 (41 segs, 81.7s, 21 embedded)
+  "Okay, okay."
+  "How about I give you a big cowboy hat?"
+  "Then will you let the hostages go?"
+  "Well, obviously that's going to be a problem because I'm the Princess and I need"
+  "Yeah."
+
+SPEAKER_01 (6 segs, 5.7s, 1 embedded)
+  "Okay, in there."
+  "Over."
+  "I just saw a light going in the stock room."
+  "Probably nothing."
+  "I'll check it out."
+
+SPEAKER_02 (8 segs, 10.5s, 2 embedded)
+  "Come in, Cookie."
+  "This is Chipper."
+  "Over."
+  "I'm too short to lock the back door."
+  "Looks like a false alarm cookie."
+
+SPEAKER_03 (22 segs, 40.5s, 7 embedded)
+  "Yeah, yeah, and I could wear all black, and I could be like, you know, like your"
+  "Hmm."
+  "You ready?"
+  "Yeah."
+  "Let's bust it."
+
+SPEAKER_04 (175 segs, 273.5s, 56 embedded)
+  "Duncan Princess."
+  "No!"
+  "No!"
+  "Don't play games with me, Princess!"
+  "I want that crown!"
+
+SPEAKER_05 (1 segs, 28.0s, 0 embedded)
+  "This party is so crazy!"
+
+SPEAKER_06 (5 segs, 23.7s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Thanks."
+  "Thanks."
+  "That was our juice!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_02: 0.479
+  SPEAKER_00 <-> SPEAKER_02: 0.474
+  SPEAKER_00 <-> SPEAKER_01: 0.358
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E13.npz

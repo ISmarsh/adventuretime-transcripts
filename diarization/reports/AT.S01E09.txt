@@ -1,0 +1,60 @@
+Episode: AT.S01E09 (My Two Favorite People)
+8 speaker clusters, 242 total segments
+
+
+SPEAKER_00 (5 segs, 9.3s, 2 embedded)
+  "Hi, Jake."
+  "Why are you looking so down in the dumps?"
+  "No response, huh?"
+  "Guess you're good."
+  "Hey, jerk, why don't you just hang out with both of them at the same time?"
+
+SPEAKER_01 (2 segs, 21.2s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (1 segs, 21.3s, 0 embedded)
+  "with me and the butterflies and bees we can wander through the forest and do so "
+
+SPEAKER_03 (7 segs, 22.4s, 5 embedded)
+  "What?"
+  "Oh."
+  "Did she say diarrhea who?"
+  "Lady, how about you tell a joke?"
+  "What's the joke?"
+
+SPEAKER_04 (29 segs, 70.4s, 20 embedded)
+  "And then I ate all the peaches in the orchard."
+  "And that farmer was so angry."
+  "I like this voice."
+  "That's the end of my story."
+  "I mean her."
+
+SPEAKER_05 (77 segs, 152.0s, 31 embedded)
+  "Help!"
+  "Don't worry, his spells never last long."
+  "Yeah, you never fought them?"
+  "They come out every day at four o'clock on the docks."
+  "Oh, shoot, I'm late."
+
+SPEAKER_06 (6 segs, 12.5s, 4 embedded)
+  "Jake's my best friend now, forever!"
+  "Beat it, Tiffany!"
+  "Go on, get it!"
+  "You'll never defeat me!"
+  "I will be Jake's best friend!"
+
+SPEAKER_07 (110 segs, 214.0s, 53 embedded)
+  "Pussycat, come here!"
+  "Who are these guys?"
+  "This is a great fight."
+  "I guess that's because I meet Lady Rainicorn every day at four o'clock on the do"
+  "Oh, man, that sounds awesome."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.458
+  SPEAKER_01 <-> SPEAKER_04: 0.395
+  SPEAKER_05 <-> SPEAKER_06: 0.349
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E09.npz

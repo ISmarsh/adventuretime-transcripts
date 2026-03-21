@@ -1,0 +1,57 @@
+Episode: AT.S01E21 (Donny)
+9 speaker clusters, 250 total segments
+
+
+SPEAKER_00 (1 segs, 4.6s, 1 embedded)
+  "I am incapable of emotion, but you are making me chafed."
+
+SPEAKER_01 (2 segs, 21.5s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (7 segs, 8.1s, 2 embedded)
+  "Mr. Bank, are you all right?"
+  "Oh, it's fine."
+  "It's fine."
+  "All my assets are insured."
+  "Pardon."
+
+SPEAKER_03 (1 segs, 3.1s, 1 embedded)
+  "No!"
+
+SPEAKER_04 (112 segs, 223.2s, 63 embedded)
+  "Safety!"
+  "Patrol!"
+  "Safety!"
+  "Patrol!"
+  "Safety Patrol!"
+
+SPEAKER_05 (97 segs, 193.7s, 54 embedded)
+  "Come on, let's keep looking for hazards."
+  "Look out!"
+  "Shushers, man!"
+  "Look there!"
+  "Yeah."
+
+SPEAKER_06 (23 segs, 70.3s, 18 embedded)
+  "Careful, you oaf."
+  "Those chickens are rattles."
+  "We're having so much fun, huh?"
+  "Drop that chicken."
+  "You're under arrest."
+
+SPEAKER_07 (2 segs, 4.9s, 2 embedded)
+  "Well, we had a zoo, but he moved back east."
+  "Of course, there's always the old well."
+
+SPEAKER_08 (2 segs, 20.6s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.598
+  SPEAKER_02 <-> SPEAKER_05: 0.503
+  SPEAKER_04 <-> SPEAKER_05: 0.491
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E21.npz

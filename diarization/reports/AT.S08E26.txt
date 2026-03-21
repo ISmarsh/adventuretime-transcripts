@@ -1,0 +1,66 @@
+Episode: AT.S08E26 (Helpers)
+8 speaker clusters, 181 total segments
+
+
+SPEAKER_00 (8 segs, 10.3s, 1 embedded)
+  "Where's Minerva?"
+  "Man, that's a pretty weird question."
+  "Minerva's everywhere."
+  "Additionally, everyone knows that."
+  "Just look around for somebody who needs help, and Minerva will be there helping,"
+
+SPEAKER_01 (53 segs, 117.4s, 26 embedded)
+  "Hello, young man."
+  "Is there anything I can help you with?"
+  "Careful, citizens."
+  "Litter can be unattractive, but dangerous as well."
+  "Uh... Hello, young man."
+
+SPEAKER_02 (26 segs, 33.9s, 10 embedded)
+  "We're closing in on Minerva's brainwave signature."
+  "We should touch down in just a few minutes."
+  "Hold on."
+  "Whoa, that's her?"
+  "Mm-hmm."
+
+SPEAKER_03 (9 segs, 17.0s, 6 embedded)
+  "Mister, can I rub you dog's tummy, mister?"
+  "He's got a cute yellow tummy."
+  "Shoo, kid."
+  "You don't even have to ask."
+  "You're a talking dog?"
+
+SPEAKER_04 (4 segs, 7.1s, 2 embedded)
+  "Minerva!"
+  "Minerva!"
+  "Minerva!"
+  "Minerva!"
+
+SPEAKER_05 (52 segs, 117.4s, 19 embedded)
+  "Minerva!"
+  "Minerva!"
+  "Hey you, where's Minerva?"
+  "Geez, you scared me with that costume, citizen."
+  "Don't change the subject."
+
+SPEAKER_06 (5 segs, 14.6s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands With Ben and Jake and "
+  "He's my brother!"
+  "And I'm... your son!"
+  "Uh..."
+
+SPEAKER_07 (24 segs, 59.9s, 11 embedded)
+  "Whoa, so that's what my mom's thoughts look like."
+  "They look good, I think."
+  "Humans."
+  "There's so many."
+  "Are they friendly, Kara?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.500
+  SPEAKER_04 <-> SPEAKER_06: 0.402
+  SPEAKER_01 <-> SPEAKER_02: 0.280
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E26.npz

@@ -1,0 +1,57 @@
+Episode: AT.S07E25 (Flute Spell)
+7 speaker clusters, 243 total segments
+
+
+SPEAKER_00 (2 segs, 4.3s, 2 embedded)
+  "No, it takes up too much brain space."
+  "I cannot talk and run this game at the same time."
+
+SPEAKER_01 (9 segs, 16.4s, 4 embedded)
+  "Nice song, Jake."
+  "Uh, well..."
+  "If you don't know, I'm not sure it's my business to tell you."
+  "Word on the street is, Finn's been hanging with a new lady."
+  "Nobody knows."
+
+SPEAKER_02 (55 segs, 112.7s, 24 embedded)
+  "Huntress wizard!"
+  "Stop."
+  "This isn't working, Finn."
+  "Hello."
+  "How are you playing like that?"
+
+SPEAKER_03 (26 segs, 34.8s, 12 embedded)
+  "Welcome."
+  "I am the spirit of the forest."
+  "Wow, dude."
+  "But yeah, didn't you guys used to hang?"
+  "Most predatory species are like that."
+
+SPEAKER_04 (58 segs, 97.1s, 28 embedded)
+  "I want you to have a healthy relationship with someone cool."
+  "That's so sweet, Jake."
+  "I love you, man."
+  "Me too, man."
+  "OK, I'm OK."
+
+SPEAKER_05 (82 segs, 136.5s, 37 embedded)
+  "BMO, I've been playing this 72 hours straight."
+  "Can I please save after this battle?"
+  "I'm out of candles, huh?"
+  "Man, if Finn were here, we'd be doing this in shifts."
+  "Oh, well, let's keep grinding."
+
+SPEAKER_06 (10 segs, 45.7s, 4 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Mm-hmm."
+  "Hey!"
+  "Good work."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_01: 0.282
+  SPEAKER_03 <-> SPEAKER_04: 0.212
+  SPEAKER_04 <-> SPEAKER_05: 0.211
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E25.npz

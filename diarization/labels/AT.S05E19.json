@@ -1,0 +1,26 @@
+{
+  "episode_id": "AT.S05E19",
+  "title": "James Baxter the Horse",
+  "season": 5,
+  "speaker_map": {
+    "SPEAKER_03": "BMO",
+    "SPEAKER_07": "Jake",
+    "SPEAKER_10": "Jake",
+    "SPEAKER_11": "Finn_S04-S06",
+    "SPEAKER_12": "Wildberry Princess"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_13"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:49:55"
+}

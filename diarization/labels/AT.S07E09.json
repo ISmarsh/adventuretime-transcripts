@@ -1,0 +1,18 @@
+{
+  "episode_id": "AT.S07E09",
+  "title": "The Empress Eyes",
+  "season": 7,
+  "speaker_map": {
+    "SPEAKER_00": "Ice King",
+    "SPEAKER_02": "Finn_S07-S10",
+    "SPEAKER_03": "Marceline",
+    "SPEAKER_04": "Marceline"
+  },
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_05"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:52:58"
+}

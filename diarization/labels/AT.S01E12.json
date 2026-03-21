@@ -1,0 +1,21 @@
+{
+  "episode_id": "AT.S01E12",
+  "title": "Evicted!",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_02": "LSP",
+    "SPEAKER_04": "Marceline",
+    "SPEAKER_05": "Finn_S01-S03",
+    "SPEAKER_06": "Jake",
+    "SPEAKER_07": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_03",
+    "SPEAKER_08"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:08:31"
+}

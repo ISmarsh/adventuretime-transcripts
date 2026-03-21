@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S06E04",
+  "title": "The Tower",
+  "season": 6,
+  "speaker_map": {
+    "SPEAKER_01": "Princess Bubblegum",
+    "SPEAKER_02": "Jake",
+    "SPEAKER_05": "Finn_S04-S06"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:48:15"
+}

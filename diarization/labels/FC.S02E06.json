@@ -1,0 +1,33 @@
+{
+  "episode_id": "FC.S02E06",
+  "title": "The Bird in the Clock",
+  "season": 2,
+  "speaker_map": {
+    "SPEAKER_21": "Fionna",
+    "SPEAKER_04": "Huntress Wizard",
+    "SPEAKER_03": "Huntress Wizard",
+    "SPEAKER_11": "Cake",
+    "SPEAKER_19": "Hana Abadeer",
+    "SPEAKER_06": "DJ Flame",
+    "SPEAKER_07": "Finn_FC",
+    "SPEAKER_10": "Gary Prince",
+    "SPEAKER_20": "Princess Bubblegum",
+    "SPEAKER_08": "DJ Slime",
+    "SPEAKER_13": "Cosmic Owl_FC",
+    "SPEAKER_16": "Vampire King",
+    "SPEAKER_14": "Marshall Lee",
+    "SPEAKER_15": "Mrs Cupcake",
+    "SPEAKER_01": "Young Marshall Lee"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_02",
+    "SPEAKER_05",
+    "SPEAKER_09",
+    "SPEAKER_12",
+    "SPEAKER_17",
+    "SPEAKER_18"
+  ],
+  "source": "clips",
+  "timestamp": "2026-02-09T20:58:29"
+}

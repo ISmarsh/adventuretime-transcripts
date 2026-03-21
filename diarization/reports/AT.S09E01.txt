@@ -1,0 +1,64 @@
+Episode: AT.S09E01 (Orb)
+8 speaker clusters, 188 total segments
+
+
+SPEAKER_00 (5 segs, 39.9s, 4 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Finn!"
+  "I'm old!"
+  "This party is so crazy!"
+
+SPEAKER_01 (2 segs, 4.3s, 2 embedded)
+  "Director, where are your accessories?"
+  "Let's get the director's accessories, please."
+
+SPEAKER_02 (9 segs, 21.7s, 5 embedded)
+  "Who's like BMO?"
+  "I'm bad."
+  "But you still like me."
+  "The director's right this way, director."
+  "Director?"
+
+SPEAKER_03 (12 segs, 17.7s, 4 embedded)
+  "I'm too comfortable to move."
+  "Can you just describe it?"
+  "Forget the cloud."
+  "Tell us a story instead."
+  "A nice campfire bedtime story."
+
+SPEAKER_04 (22 segs, 38.3s, 9 embedded)
+  "Please, no."
+  "Literally, anything but bananas."
+  "Man, that got old quick."
+  "What's going on here, Jermaine?"
+  "It's a dream, dum-dum."
+
+SPEAKER_05 (41 segs, 63.8s, 15 embedded)
+  "Hey, Joshua home too."
+  "Whatcha doing, Dad?"
+  "Scrambling eggs?"
+  "Yes, in the refrigerator."
+  "Oh, boy."
+
+SPEAKER_06 (59 segs, 110.0s, 20 embedded)
+  "Oh, bananas."
+  "Bananas."
+  "BMO, it's your turn to say bananas."
+  "I'm flying."
+  "No more walking for this guy."
+
+SPEAKER_07 (35 segs, 72.0s, 16 embedded)
+  "There is a strange cloud following us."
+  "Come and see."
+  "Once upon a time, there was this cool guy and a banana with the sunglasses."
+  "Once upon a time, there was a banana with the sunglasses."
+  "Eh?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_02: 0.531
+  SPEAKER_04 <-> SPEAKER_05: 0.478
+  SPEAKER_03 <-> SPEAKER_04: 0.461
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S09E01.npz

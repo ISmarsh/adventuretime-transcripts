@@ -1,0 +1,36 @@
+Episode: AT.S00E07 (The Gift That Reaps Giving)
+4 speaker clusters, 39 total segments
+
+
+SPEAKER_00 (6 segs, 30.2s, 4 embedded)
+  "Uh-uh."
+  "Hello, beautiful."
+  "Uh, this seems pretty boring."
+  "Oh, another mixtape."
+  "That's... cool."
+
+SPEAKER_01 (3 segs, 12.2s, 2 embedded)
+  "Spending much of her time living in and eating rocks is what led Caramel Sally, "
+  "Now let's hear a track off her latest album, the song's called Lonely Bones."
+  "Whatcha doin'?"
+
+SPEAKER_02 (4 segs, 6.8s, 2 embedded)
+  "You know, uh, just, uh, bushin'."
+  "It's something we do in the land of the dead."
+  "Whoa, cool."
+  "Bushin'?"
+
+SPEAKER_03 (26 segs, 69.6s, 18 embedded)
+  "My darling life, please accept this gift."
+  "My darling life, sweet lily of my desert, might I humbly present this thing."
+  "I'll just write happy birthday."
+  "Oh!"
+  "Wait, hold on, hold on, hold on."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.509
+  SPEAKER_01 <-> SPEAKER_03: 0.189
+  SPEAKER_00 <-> SPEAKER_03: 0.161
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S00E07.npz

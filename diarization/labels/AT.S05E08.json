@@ -1,0 +1,20 @@
+{
+  "episode_id": "AT.S05E08",
+  "title": "Mystery Dungeon",
+  "season": 5,
+  "speaker_map": {
+    "SPEAKER_02": "Ice King",
+    "SPEAKER_03": "Tree Trunks",
+    "SPEAKER_06": "NEPTR",
+    "SPEAKER_07": "Lemongrab",
+    "SPEAKER_05": "Shelby"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_04"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:19:08"
+}

@@ -1,0 +1,71 @@
+Episode: AT.S10E08 (The First Investigation)
+9 speaker clusters, 208 total segments
+
+
+SPEAKER_00 (4 segs, 42.3s, 3 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Come along with me and the butterflies and bees."
+  "This party is so crazy!"
+
+SPEAKER_01 (6 segs, 18.2s, 5 embedded)
+  "Okay, boss, I'm here now."
+  "Yep, there's definitely been a break-in."
+  "And he's been like this ever since."
+  "Poor guy."
+  "Why do I love real estate?"
+
+SPEAKER_02 (3 segs, 6.1s, 3 embedded)
+  "You've really stepped in it now, darling."
+  "Something's about to happen with me, too!"
+  "Margaret!"
+
+SPEAKER_03 (10 segs, 19.6s, 5 embedded)
+  "Okay, so here's what happened."
+  "I had sent my top employee, Renny Hamlin, to check on one of my properties."
+  "Joshua and Margaret Investigations."
+  "Check out the damage."
+  "I'll call you back in 30 seconds."
+
+SPEAKER_04 (22 segs, 30.1s, 8 embedded)
+  "Well done, Margaret Love."
+  "Dad!"
+  "Hello, future people."
+  "I'm Joshua of Joshua and Margaret Investigations, and behind the camera I have m"
+  "Hello."
+
+SPEAKER_05 (6 segs, 8.2s, 2 embedded)
+  "Oh goodie, it's on now, dear."
+  "Margaret, stay awake."
+  "Something's about to happen."
+  "Margaret, stay awake."
+  "Something's about to happen."
+
+SPEAKER_06 (81 segs, 145.6s, 40 embedded)
+  "I wonder what it could be."
+  "Maybe it's a gross rotting fish gob with long slimy tentacles."
+  "Maybe it's a teenage silverware werewolf squatter."
+  "Hey, you know what it could be?"
+  "Could be a ghost."
+
+SPEAKER_07 (9 segs, 21.7s, 4 embedded)
+  "Baby Jake?"
+  "Finn!"
+  "I'm freaking out, man!"
+  "I just saw the most messed up thing!"
+  "He's sucking up all the smell time!"
+
+SPEAKER_08 (66 segs, 119.4s, 31 embedded)
+  "Ghosts, huh?"
+  "Whoa, wait."
+  "What if it's ghost mom and dad?"
+  "I have to brush my hair."
+  "I'll go get tulips for mom."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_08: 0.460
+  SPEAKER_02 <-> SPEAKER_05: 0.426
+  SPEAKER_00 <-> SPEAKER_02: 0.393
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S10E08.npz

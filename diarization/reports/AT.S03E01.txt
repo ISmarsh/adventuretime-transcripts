@@ -1,0 +1,76 @@
+Episode: AT.S03E01 (Conquest of Cuteness)
+11 speaker clusters, 212 total segments
+
+
+SPEAKER_00 (2 segs, 21.5s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (3 segs, 14.6s, 3 embedded)
+  "I think I left it here this morning Jake This is the voice of your mom"
+  "I've come back to tell you how dumb you always are."
+  "I hate you guys so much!"
+
+SPEAKER_02 (2 segs, 25.6s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_03 (6 segs, 14.8s, 3 embedded)
+  "We've been watching you, learning your weaknesses."
+  "What?"
+  "Why?"
+  "For tomorrow morning, when our army comes and kills you both."
+  "You think we're so cute when actually we're the opposite of that!"
+
+SPEAKER_04 (3 segs, 1.2s, 0 embedded)
+  "Oh, no."
+  "I'm dead."
+  "Okay."
+
+SPEAKER_05 (40 segs, 86.4s, 20 embedded)
+  "We're not cute."
+  "We're evil."
+  "And we're here to dominate you."
+  "What?"
+  "What?"
+
+SPEAKER_06 (24 segs, 22.3s, 4 embedded)
+  "Oh, man."
+  "I think someone wants to eat everything, Burrito."
+  "I won't let him get you, baby."
+  "Jake, come on."
+  "Get ready."
+
+SPEAKER_07 (37 segs, 67.2s, 16 embedded)
+  "Get the camera, Jake."
+  "I can't."
+  "I'm paralyzed by the cuteness."
+  "BMO!"
+  "BMO!"
+
+SPEAKER_08 (79 segs, 136.1s, 34 embedded)
+  "What's for beef ass, Jake?"
+  "Everything burrito!"
+  "Ready."
+  "Pete?"
+  "So cute."
+
+SPEAKER_09 (10 segs, 30.6s, 7 embedded)
+  "Yeah!"
+  "Die of a fake heart attack!"
+  "Oh, my heart!"
+  "My heart hurts because I fell out of love!"
+  "And now I have to die!"
+
+SPEAKER_10 (2 segs, 8.4s, 1 embedded)
+  "No way."
+  "First, I'm going to fall in love with one of those little guys, and then I'm goi"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.656  <- possible match
+  SPEAKER_06 <-> SPEAKER_07: 0.656
+  SPEAKER_07 <-> SPEAKER_08: 0.528
+  SPEAKER_01 <-> SPEAKER_05: 0.470
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E01.npz

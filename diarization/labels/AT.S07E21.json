@@ -1,0 +1,20 @@
+{
+  "episode_id": "AT.S07E21",
+  "title": "King's Ransom",
+  "season": 7,
+  "speaker_map": {
+    "SPEAKER_04": "Finn_S07-S10",
+    "SPEAKER_05": "Ice King",
+    "SPEAKER_07": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:52:58"
+}

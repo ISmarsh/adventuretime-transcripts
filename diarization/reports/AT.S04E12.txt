@@ -1,0 +1,66 @@
+Episode: AT.S04E12 (Gotcha!)
+9 speaker clusters, 203 total segments
+
+
+SPEAKER_00 (3 segs, 7.2s, 2 embedded)
+  "Jake, if I beat you, you have to call me Sensei for a month."
+  "Yay, I win!"
+  "Bow to your Sensei."
+
+SPEAKER_01 (2 segs, 8.6s, 1 embedded)
+  "Day one, on my way to Fen and Jake's."
+  "Good night, girl."
+
+SPEAKER_02 (12 segs, 19.1s, 3 embedded)
+  "Deal."
+  "Hi, guys!"
+  "Sup, Shadow Princess?"
+  "It's nice of you to want to be our secretary, but we don't need one."
+  "Hey, girl."
+
+SPEAKER_03 (3 segs, 23.7s, 3 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "That was so crazy."
+
+SPEAKER_04 (20 segs, 45.6s, 13 embedded)
+  "Brought you some little fruit pies."
+  "Actually, I've never been able to work my tea lumps."
+  "I just know what I read in books."
+  "Hey, you should write a book telling me how to do it."
+  "Oh my glob."
+
+SPEAKER_05 (38 segs, 71.8s, 21 embedded)
+  "Jake's ball landed over here, BMO!"
+  "Wanted, Adventure Secretary."
+  "Smells like fruit pie."
+  "Dude, look at her."
+  "Yeah, it's sad."
+
+SPEAKER_06 (108 segs, 193.3s, 47 embedded)
+  "Get your hands off me, Steven!"
+  "You too, Chad!"
+  "Hey, girl."
+  "Awesome."
+  "How you doing out here?"
+
+SPEAKER_07 (10 segs, 43.0s, 9 embedded)
+  "We all just tell you what to do."
+  "Hello?"
+  "No, LSP, it's not safe."
+  "The generosity is esteem."
+  "Bye, LSB!"
+
+SPEAKER_08 (4 segs, 26.4s, 3 embedded)
+  "Ah!"
+  "Come along with me and the butterflies and bees."
+  "We can wander through the forest and do so as we please."
+  "This party is so good!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_06: 0.590
+  SPEAKER_03 <-> SPEAKER_06: 0.569
+  SPEAKER_02 <-> SPEAKER_06: 0.468
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E12.npz

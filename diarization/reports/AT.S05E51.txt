@@ -1,0 +1,74 @@
+Episode: AT.S05E51 (Lemonhope Part 2)
+10 speaker clusters, 201 total segments
+
+
+SPEAKER_00 (2 segs, 21.0s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (1 segs, 28.2s, 0 embedded)
+  "Come along with me and the butterflies and bees We can wander through the forest"
+
+SPEAKER_02 (8 segs, 17.3s, 5 embedded)
+  "Hey, hey, what's going on back there?"
+  "Something don't feel right."
+  "Oh, hey, Lemon Hope is here."
+  "Hey, man, how's it going?"
+  "Whoa, what the heck?"
+
+SPEAKER_03 (11 segs, 86.0s, 9 embedded)
+  "Let me hear it."
+  "OK, OK. Young Lemon Hope, born from candy and glue."
+  "Creator of beauty and ugliness too."
+  "Poor Lemon Hope, I found you in the dark."
+  "You lived in the bathroom, now live in our hearts."
+
+SPEAKER_04 (16 segs, 36.6s, 10 embedded)
+  "You know, I was thinking, Lemonhope."
+  "Maybe you'd like to stay here in Lemongrab while Lemongrab recovers."
+  "Every kingdom needs a champion, and you're a true champion if ever I've seen one"
+  "Plus, I already set up a little room for you."
+  "Is he gonna stay like that?"
+
+SPEAKER_05 (27 segs, 69.3s, 13 embedded)
+  "Who are you?"
+  "Oh, I can't read."
+  "They tried to teach me in school, but I just faked it."
+  "Poor little Lemon Hope Throw me a lemon rope Is there a home for me in my heart?"
+  "A place where my friends give me hugs"
+
+SPEAKER_06 (13 segs, 43.1s, 4 embedded)
+  "Mm-hmm."
+  "No!"
+  "Flannel!"
+  "Stop the ship!"
+  "Stop the ship!"
+
+SPEAKER_07 (5 segs, 10.8s, 2 embedded)
+  "Oh my gosh, Flannel, yes!"
+  "It's a dream come true!"
+  "A dream come true!"
+  "A dream come true!"
+  "A dream come true!"
+
+SPEAKER_08 (36 segs, 37.4s, 9 embedded)
+  "Well, you found me!"
+  "Fat lemon crab!"
+  "Oh, what's that you've got?"
+  "Oh, you little harp!"
+  "What's this?"
+
+SPEAKER_09 (68 segs, 124.4s, 33 embedded)
+  "Lemon hope."
+  "Hey, that's better."
+  "My name's Flannel Boxing Day, and I've been watching you and your hard, hot life"
+  "I thought you might need a hand."
+  "Kid, truth be told, you're looking a little raw."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.544
+  SPEAKER_00 <-> SPEAKER_06: 0.535
+  SPEAKER_06 <-> SPEAKER_07: 0.482
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E51.npz

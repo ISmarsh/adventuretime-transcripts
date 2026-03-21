@@ -1,0 +1,21 @@
+{
+  "episode_id": "AT.S02E01",
+  "title": "It Came from the Nightosphere",
+  "season": 2,
+  "speaker_map": {
+    "SPEAKER_03": "Ice King",
+    "SPEAKER_05": "Finn_S01-S03",
+    "SPEAKER_06": "Marceline",
+    "SPEAKER_07": "Hunson Abadeer",
+    "SPEAKER_08": "LSP"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_04"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:18:37"
+}

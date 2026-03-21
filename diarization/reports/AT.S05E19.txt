@@ -1,0 +1,97 @@
+Episode: AT.S05E19 (James Baxter the Horse)
+14 speaker clusters, 166 total segments
+
+
+SPEAKER_00 (4 segs, 5.5s, 2 embedded)
+  "Come in, my noceros beetle."
+  "Scientific name, xylotropis, Ulysses."
+  "Common dung beep."
+  "Oh, my."
+
+SPEAKER_01 (1 segs, 25.2s, 0 embedded)
+  "come along with me and the butterflies and bees we can wander through the forest"
+
+SPEAKER_02 (9 segs, 54.7s, 5 embedded)
+  "Yeah In the human Jake"
+  "Frick!"
+  "Yay!"
+  "Yeah, right there."
+  "OK."
+
+SPEAKER_03 (10 segs, 31.5s, 7 embedded)
+  "Oh, oh, BMO, how'd you get so pregnant?"
+  "Who's the mother?"
+  "Oh, who's the father?"
+  "Shh, I'll tell you if you keep it a secret."
+  "We will, we will, we will."
+
+SPEAKER_04 (3 segs, 7.6s, 3 embedded)
+  "Speed it up."
+  "Slow it down."
+  "Yeah, that sounds makes me feel happy."
+
+SPEAKER_05 (4 segs, 18.7s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+
+SPEAKER_06 (3 segs, 8.1s, 2 embedded)
+  "I receive you."
+  "Welcome to the Sound Institute of Sohund."
+  "Just think happy thoughts and follow the beat of your hearts."
+
+SPEAKER_07 (1 segs, 5.4s, 1 embedded)
+  "You need to learn how to do your own solo."
+
+SPEAKER_08 (3 segs, 5.8s, 2 embedded)
+  "Sheesh, tough crowd."
+  "I think we should find an easier person to cheer up."
+  "It was a mistake to do this at a funeral."
+
+SPEAKER_09 (7 segs, 5.7s, 0 embedded)
+  "Let's just do it."
+  "Yeah, man."
+  "Boo!"
+  "Boo!"
+  "Boo!"
+
+SPEAKER_10 (63 segs, 125.4s, 34 embedded)
+  "Here, BMO, this will cheer you up."
+  "Well, I'm out of ideas."
+  "What?"
+  "James Baxter!"
+  "James Baxter!"
+
+SPEAKER_11 (35 segs, 67.1s, 17 embedded)
+  "I think he broke his egg."
+  "Hey, it's okay, BMO."
+  "Look, Jake and I will make you a funny face."
+  "So good man, we should do it to do his thing and spread the goodwill."
+  "Man, what's he doing that we're not?"
+
+SPEAKER_12 (13 segs, 32.1s, 3 embedded)
+  "Bling!"
+  "Bling!"
+  "Bling!"
+  "Bling!"
+  "Bling!"
+
+SPEAKER_13 (9 segs, 26.9s, 6 embedded)
+  "Whoa, whoa, whoa, whoa."
+  "BMO, what's wrong?"
+  "What do you want?"
+  "Please, make us a very sad girl!"
+  "Bling!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_12 <-> SPEAKER_13: 0.642  <- possible match
+  SPEAKER_02 <-> SPEAKER_13: 0.638  <- possible match
+  SPEAKER_02 <-> SPEAKER_12: 0.617  <- possible match
+  SPEAKER_07 <-> SPEAKER_10: 0.608  <- possible match
+  SPEAKER_12 <-> SPEAKER_13: 0.642
+  SPEAKER_02 <-> SPEAKER_13: 0.638
+  SPEAKER_02 <-> SPEAKER_12: 0.617
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E19.npz

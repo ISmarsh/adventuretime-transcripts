@@ -1,0 +1,34 @@
+{
+  "episode_id": "DL.S01E03",
+  "title": "Together Again",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_03": "Ice King",
+    "SPEAKER_04": "Jake",
+    "SPEAKER_05": "Finn_DL",
+    "SPEAKER_06": "New Death",
+    "SPEAKER_07": "New Death",
+    "SPEAKER_08": "New Death",
+    "SPEAKER_09": "Joshua",
+    "SPEAKER_13": "Finn_DL",
+    "SPEAKER_15": "Peppermint Butler_DL",
+    "SPEAKER_18": "Finn_DL",
+    "SPEAKER_19": "Tiffany Oiler",
+    "SPEAKER_21": "Finn_DL"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_10",
+    "SPEAKER_11",
+    "SPEAKER_12",
+    "SPEAKER_14",
+    "SPEAKER_16",
+    "SPEAKER_17",
+    "SPEAKER_20"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T17:13:50"
+}

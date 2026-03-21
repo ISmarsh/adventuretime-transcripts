@@ -1,0 +1,67 @@
+Episode: AT.S10E06 (Ring of Fire)
+8 speaker clusters, 191 total segments
+
+
+SPEAKER_00 (5 segs, 33.0s, 4 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Mwah."
+  "Come along with me."
+  "And the butterflies and bees"
+
+SPEAKER_01 (10 segs, 21.1s, 4 embedded)
+  "We did it, babe."
+  "We finally graduated high school."
+  "Baby."
+  "Let me be your adventure."
+  "Our wedding photos are here, just in time for the honeymoon."
+
+SPEAKER_02 (21 segs, 34.1s, 7 embedded)
+  "Uh, I'm Wyatt, your new secretary."
+  "Hey!"
+  "Somebody kiss me now!"
+  "Take care of me!"
+  "I've got the ring!"
+
+SPEAKER_03 (6 segs, 19.3s, 4 embedded)
+  "I beg of you, madam, while I am tight, my brother is not, and yet I love him."
+  "Hmm."
+  "My name is Daniel Prince, and this is my brother, Peanut."
+  "Please look into your heart and pity him, for though our family is quite wealthy"
+  "You are a very beautiful elephant, but I fear your banded ways have made you har"
+
+SPEAKER_04 (96 segs, 274.1s, 60 embedded)
+  "Vroom, vroom, vroom."
+  "Sweet Pea."
+  "Come and get it, Sweet Pea."
+  "Oh, boy."
+  "Breakfast porridge."
+
+SPEAKER_05 (27 segs, 52.8s, 16 embedded)
+  "Hello?"
+  "Tree Trunks?"
+  "Tree Trunks, it's me, Randy."
+  "Wow, it's so great to hear your voice."
+  "Randy?"
+
+SPEAKER_06 (14 segs, 33.0s, 8 embedded)
+  "Honey, can you get that?"
+  "Thanks, sweetie."
+  "Okay, hold on."
+  "Who was that, sweetie?"
+  "Really?"
+
+SPEAKER_07 (8 segs, 12.8s, 3 embedded)
+  "Vroom, vroom."
+  "Shh."
+  "Mmm."
+  "I think I must have the most perfect life in the whole world."
+  "Oh, that's lovely."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_05: 0.493
+  SPEAKER_04 <-> SPEAKER_07: 0.455
+  SPEAKER_01 <-> SPEAKER_02: 0.375
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S10E06.npz

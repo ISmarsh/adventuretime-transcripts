@@ -1,0 +1,56 @@
+Episode: AT.S03E13 (From Bad to Worse)
+7 speaker clusters, 153 total segments
+
+
+SPEAKER_00 (2 segs, 22.1s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (18 segs, 36.9s, 8 embedded)
+  "Hey, Princess Bubblegum trained her rat to dance."
+  "Neat."
+  "Tramp!"
+  "Oh, my, that's a lot of zombies down there."
+  "Starch is glad he's up here."
+
+SPEAKER_02 (29 segs, 75.2s, 18 embedded)
+  "It's happening again."
+  "That's right, Finn."
+  "Princess!"
+  "The zombie infection has spread across the kingdom once again."
+  "And once again, it's all my fault."
+
+SPEAKER_03 (31 segs, 48.2s, 10 embedded)
+  "Science is... No!"
+  "Get that zombie out of here!"
+  "Ah, nah."
+  "I am not getting eaten by zombies tonight."
+  "Oh, Princess!"
+
+SPEAKER_04 (7 segs, 38.0s, 6 embedded)
+  "Are you hungry?"
+  "The candy zombie flesh he ingested was highly contagious."
+  "Shaggy!"
+  "Did anyone get bit?"
+  "Oh, my God!"
+
+SPEAKER_05 (59 segs, 125.4s, 21 embedded)
+  "These notes make no sense."
+  "It's all gobbledygak."
+  "All right, we'll each make our own version of the formula."
+  "One of us is bound to get it right."
+  "Done!"
+
+SPEAKER_06 (3 segs, 26.4s, 1 embedded)
+  "Rejoice!"
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "to a cliff under a tree"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.625  <- possible match
+  SPEAKER_04 <-> SPEAKER_05: 0.625
+  SPEAKER_03 <-> SPEAKER_04: 0.561
+  SPEAKER_00 <-> SPEAKER_04: 0.553
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E13.npz

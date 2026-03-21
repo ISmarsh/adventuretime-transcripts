@@ -1,0 +1,41 @@
+{
+  "episode_id": "AT.S10E13",
+  "title": "Come Along With Me",
+  "season": 10,
+  "speaker_map": {
+    "SPEAKER_03": "BMO",
+    "SPEAKER_05": "Marceline",
+    "SPEAKER_08": "Princess Bubblegum",
+    "SPEAKER_09": "Finn_S07-S10",
+    "SPEAKER_13": "Ice King",
+    "SPEAKER_14": "Jake",
+    "SPEAKER_15": "Jake",
+    "SPEAKER_23": "LSP"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_04",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_10",
+    "SPEAKER_11",
+    "SPEAKER_12",
+    "SPEAKER_16",
+    "SPEAKER_17",
+    "SPEAKER_18",
+    "SPEAKER_19",
+    "SPEAKER_20",
+    "SPEAKER_21",
+    "SPEAKER_22",
+    "SPEAKER_24",
+    "SPEAKER_25",
+    "SPEAKER_26",
+    "SPEAKER_27",
+    "SPEAKER_28"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T13:31:41"
+}

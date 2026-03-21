@@ -1,0 +1,55 @@
+Episode: AT.S06E37 (Water Park Prank)
+7 speaker clusters, 239 total segments
+
+
+SPEAKER_00 (4 segs, 23.9s, 3 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "That's great, Ben."
+  "Waterslide."
+
+SPEAKER_01 (1 segs, 26.6s, 0 embedded)
+  "Come along with me and the butterflies and bees We can wander through the forest"
+
+SPEAKER_02 (42 segs, 81.3s, 21 embedded)
+  "These anti-fog goggles work a treat."
+  "I knew there was something different about you today."
+  "Oh, wait."
+  "Did you remember to pack your usual shorts and underwear for getting changed int"
+  "Carry on without me."
+
+SPEAKER_03 (35 segs, 82.4s, 20 embedded)
+  "I only wanted to rest and cool my legs down."
+  "But when I brought him back out of the water, they were covered in daddy sad hea"
+  "Ohhh!"
+  "Ginger hair."
+  "Gross."
+
+SPEAKER_04 (37 segs, 69.2s, 21 embedded)
+  "Water slide!"
+  "No running on poolside, guys."
+  "And we ask that all pool users take a quick shower on the way in."
+  "Cheers, guys."
+  "What just happened?"
+
+SPEAKER_05 (71 segs, 154.0s, 33 embedded)
+  "Yeah, but now they stink of dog breath."
+  "Guess what, though?"
+  "When we get to the water park, I'm going to be ready in super quick time."
+  "Because look, I'm already wearing my swim trunks."
+  "I'll take a shortcut through the toadstool fields and get there before you."
+
+SPEAKER_06 (46 segs, 91.2s, 26 embedded)
+  "Well done for remembering your underwear, Finn."
+  "Oh, that's where I'm going."
+  "I teach swimming lessons at the water park."
+  "Where's Jake?"
+  "Aw, don't cry."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_06: 0.416
+  SPEAKER_03 <-> SPEAKER_04: 0.393
+  SPEAKER_02 <-> SPEAKER_05: 0.358
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E37.npz

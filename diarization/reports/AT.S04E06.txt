@@ -1,0 +1,105 @@
+Episode: AT.S04E06 (Daddy's Little Monster)
+14 speaker clusters, 220 total segments
+
+
+SPEAKER_00 (2 segs, 24.5s, 0 embedded)
+  "Okay."
+  "I know you just wanna give your little girl the world But daddy I'm not just you"
+
+SPEAKER_01 (3 segs, 23.8s, 3 embedded)
+  "Come along with me and the butterflies and bees."
+  "We can wander through the forest and do so as we please."
+  "To a cliff under a tree"
+
+SPEAKER_02 (48 segs, 95.7s, 25 embedded)
+  "There you are, Marceline."
+  "Hello, Dog."
+  "Hello, Fin."
+  "Nothing."
+  "Come on, there's no bad blood here."
+
+SPEAKER_03 (13 segs, 12.8s, 4 embedded)
+  "What's your disguise?"
+  "And what do you desire?"
+  "Pee, pee, or WP?"
+  "I..."
+  "Pain?"
+
+SPEAKER_04 (7 segs, 9.7s, 3 embedded)
+  "We got mad prison overcrowding down here, fellas."
+  "So I gotta put you in the cage with the stuff."
+  "Sorry about that."
+  "But, you know, not really."
+  "Oh, my stomach."
+
+SPEAKER_05 (6 segs, 21.8s, 4 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+  "The fun will never end."
+
+SPEAKER_06 (17 segs, 24.4s, 5 embedded)
+  "What up, camera phone?"
+  "Hey!"
+  "What are you guys doing?"
+  "You can't run up to the front of the line!"
+  "These good people have been waiting forever!"
+
+SPEAKER_07 (16 segs, 30.2s, 8 embedded)
+  "Marceline, you guys want to come party in the nightosphere with me?"
+  "I'm visiting with my dad, and it's crazy boring."
+  "Don't be a wiener dog."
+  "Jake, you coming?"
+  "Oh, Dad, stop."
+
+SPEAKER_08 (5 segs, 8.0s, 3 embedded)
+  "Dad!"
+  "Dad, you tricked me."
+  "Dad, that sucks!"
+  "Yeah, I want you to be proud."
+  "I want you to be proud of me."
+
+SPEAKER_09 (48 segs, 70.7s, 15 embedded)
+  "Almost finished."
+  "Whoa, wait a minute, Marceline."
+  "Last time I saw your dad, I sliced open his soul sack."
+  "Oh, no."
+  "He's totally chill now."
+
+SPEAKER_10 (19 segs, 47.1s, 10 embedded)
+  "Whoo!"
+  "Yeah, baby!"
+  "Jake, grab the amulet!"
+  "Ow, my hippocampus!"
+  "I dang it!"
+
+SPEAKER_11 (5 segs, 6.9s, 3 embedded)
+  "Yo, yo, yo, yo, check it."
+  "This is Jake on my camera phone."
+  "Whoa."
+  "Whoa, whoa."
+  "Yo, Finn, say hi to my new camera phone."
+
+SPEAKER_12 (17 segs, 30.8s, 9 embedded)
+  "Yo, BMO, you done charging up that phone or what?"
+  "Thanks, BMO."
+  "All right, man."
+  "We're going to figure this out right now."
+  "All right, so this is the nightosphere, I guess."
+
+SPEAKER_13 (7 segs, 17.1s, 5 embedded)
+  "Who's next?"
+  "Who's next?"
+  "Uh, me, my Lord Aberdeer."
+  "What do you desire, cowering speck?"
+  "Pain, pleasure, or weird punishment?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_13: 0.701  <- possible match
+  SPEAKER_03 <-> SPEAKER_13: 0.701
+  SPEAKER_07 <-> SPEAKER_08: 0.592
+  SPEAKER_11 <-> SPEAKER_12: 0.586
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E06.npz

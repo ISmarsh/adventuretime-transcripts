@@ -1,0 +1,75 @@
+Episode: AT.S00E01 (Adventure Time (Pilot))
+9 speaker clusters, 144 total segments
+
+
+SPEAKER_00 (11 segs, 18.1s, 6 embedded)
+  "It's Adventure Time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "Jake the dog and Finn the human."
+  "The fun will never end."
+
+SPEAKER_01 (19 segs, 27.6s, 7 embedded)
+  "Check it out."
+  "I downloaded the little dance."
+  "What's up?"
+  "That guy is a total petite."
+  "He's like 50 petites!"
+
+SPEAKER_02 (9 segs, 15.3s, 2 embedded)
+  "Nice to meet you."
+  "He's my friend!"
+  "Yee-haw!"
+  "Yee-haw!"
+  "Princess!"
+
+SPEAKER_03 (16 segs, 34.3s, 8 embedded)
+  "Meditating."
+  "I'm connecting to the internet with my mind."
+  "Look, it's Princess Bubblegum's Rainicorn."
+  "She looked like she was crying."
+  "Yeah."
+
+SPEAKER_04 (8 segs, 9.4s, 3 embedded)
+  "You are free."
+  "Thank you, brave knight."
+  "I'm not a knight."
+  "I'm a boy."
+  "Well, then, thank you, brave boy."
+
+SPEAKER_05 (24 segs, 64.0s, 10 embedded)
+  "Huh."
+  "I like it."
+  "Ooh."
+  "Hey, what's wrong?"
+  "Want to hear a funny joke?"
+
+SPEAKER_06 (25 segs, 35.3s, 9 embedded)
+  "Jake!"
+  "Jake!"
+  "Good morning!"
+  "Whatcha doing, buddy?"
+  "What are you meditating about, dude?"
+
+SPEAKER_07 (9 segs, 17.5s, 3 embedded)
+  "Beep, boop, boop, boop, beep, boop."
+  "Man, that wasn't very funny."
+  "Nothing."
+  "We gotta go."
+  "Okay."
+
+SPEAKER_08 (18 segs, 27.0s, 9 embedded)
+  "I'm lost."
+  "Can you direct me towards the sun?"
+  "What?"
+  "Oh, geez."
+  "Thanks."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_03: 0.700  <- possible match
+  SPEAKER_01 <-> SPEAKER_03: 0.700
+  SPEAKER_02 <-> SPEAKER_05: 0.586
+  SPEAKER_05 <-> SPEAKER_08: 0.548
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S00E01.npz

@@ -1,0 +1,102 @@
+Episode: AT.S06E11 (Little Brother)
+14 speaker clusters, 272 total segments
+
+
+SPEAKER_00 (4 segs, 18.8s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog, and then we'll kill them."
+
+SPEAKER_01 (20 segs, 34.7s, 9 embedded)
+  "Whoo!"
+  "Show me them legs!"
+  "Mmm!"
+  "So many legs, that quiz is unreal!"
+  "Yeah!"
+
+SPEAKER_02 (58 segs, 107.3s, 29 embedded)
+  "Ha-ha-ha-ha!"
+  "Hey, dancing bug!"
+  "Uh, come on, man."
+  "The worm?"
+  "No, I'm gonna do parkour!"
+
+SPEAKER_03 (12 segs, 33.4s, 1 embedded)
+  "Boop!"
+  "Boop!"
+  "Boop!"
+  "Boop!"
+  "Boop!"
+
+SPEAKER_04 (77 segs, 73.5s, 15 embedded)
+  "But yeah."
+  "All right."
+  "Sounds good."
+  "Someday, you'll be Kent's food."
+  "Boop!"
+
+SPEAKER_05 (3 segs, 24.5s, 3 embedded)
+  "Come along with me, and the butterflies and bees."
+  "We can wander through the forest, and do so as we please."
+  "This party is so good!"
+
+SPEAKER_06 (13 segs, 15.0s, 4 embedded)
+  "Shelby?"
+  "Jake."
+  "Jake!"
+  "Hmm?"
+  "Whoa, Shelby."
+
+SPEAKER_07 (1 segs, 4.5s, 1 embedded)
+  "Hey, could you just... Oh, there she goes."
+
+SPEAKER_08 (7 segs, 16.7s, 5 embedded)
+  "Greetings!"
+  "Come to fight me, eh?"
+  "Yes, I have what you seek, but consider this instead."
+  "I offer you the hand of one of my beautiful daughters."
+  "You'll become a good husband and live the rest of your days in true love."
+
+SPEAKER_09 (6 segs, 11.7s, 3 embedded)
+  "Greetings."
+  "Yeah, and I got what you want."
+  "But consider this instead."
+  "Drink this sap, and you'll have life eternal."
+  "You'll never meet death, and you'll outlast the world."
+
+SPEAKER_10 (10 segs, 24.2s, 6 embedded)
+  "Greetings."
+  "I have what you seek, but consider this instead."
+  "I offer you this treasure of glittering emeralds."
+  "You'll be infinitely rich and live the rest of your days in comfort."
+  "Nah, I'm good."
+
+SPEAKER_11 (11 segs, 23.2s, 8 embedded)
+  "Greetings."
+  "Who's there?"
+  "I am the Rat King."
+  "Who are you fighting me for?"
+  "Your brother?"
+
+SPEAKER_12 (22 segs, 39.9s, 12 embedded)
+  "Shake it."
+  "Heh-heh."
+  "Well, no."
+  "I really could."
+  "Okay, maybe I could."
+
+SPEAKER_13 (4 segs, 20.4s, 4 embedded)
+  "Boop!"
+  "Boop!"
+  "Boop!"
+  "Mystic Earth."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_13: 0.697  <- possible match
+  SPEAKER_03 <-> SPEAKER_13: 0.697
+  SPEAKER_07 <-> SPEAKER_10: 0.495
+  SPEAKER_01 <-> SPEAKER_02: 0.489
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E11.npz

@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S03E26",
+  "title": "Incendium",
+  "season": 3,
+  "speaker_map": {
+    "SPEAKER_00": "Finn_S01-S03",
+    "SPEAKER_02": "Jake",
+    "SPEAKER_04": "Princess Bubblegum",
+    "SPEAKER_01": "Flame King",
+    "SPEAKER_03": "Flambo"
+  },
+  "skipped": [
+    "SPEAKER_05",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:39:38"
+}

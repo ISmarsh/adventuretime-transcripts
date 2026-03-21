@@ -1,0 +1,66 @@
+Episode: AT.S08E25 (Min and Marty)
+8 speaker clusters, 200 total segments
+
+
+SPEAKER_00 (5 segs, 13.2s, 4 embedded)
+  "Hey!"
+  "It's not a crosswalk, you know?"
+  "Hot breadsticks is what we bake."
+  "We don't bake pie and we don't bake cake."
+  "Hot bread sticks is what we bake We don't bake pie and we don't bake cake"
+
+SPEAKER_01 (9 segs, 56.6s, 5 embedded)
+  "It's Adventure Time!"
+  "I heard that you loved me but only for two weeks."
+  "To be hopeless or not to be I'm weak within decision Could we begin again on a t"
+  "Or be greatly appreciated by me?"
+  "I'll wear my normal shoes this time Then maybe you'd like me better in the sunli"
+
+SPEAKER_02 (12 segs, 34.0s, 4 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends, we'll go to very distant lands with Finn and Jake an"
+  "Susan?"
+  "It's not a..."
+  "Oh, hello, Dr. Campbell."
+
+SPEAKER_03 (7 segs, 13.1s, 1 embedded)
+  "What's happening?"
+  "Are we being arrested?"
+  "End of the line, Mertins."
+  "We're here for vengeance."
+  "Ha!"
+
+SPEAKER_04 (4 segs, 7.6s, 4 embedded)
+  "We understand that you can get us past the Seekers?"
+  "We understand that you like gadgets?"
+  "We insist you join us now."
+  "You pathetic man."
+
+SPEAKER_05 (90 segs, 154.8s, 36 embedded)
+  "So, I hear you guys want to do some exploring?"
+  "Santin's cool."
+  "So what do you got for me?"
+  "Credits?"
+  "I don't take credits."
+
+SPEAKER_06 (24 segs, 40.5s, 12 embedded)
+  "I mean, Kara?"
+  "Seems like you're leading us somewhere."
+  "We're taking a ship to Founders Island because judging by the state of these fac"
+  "This hub island has been abandoned for over a decade."
+  "Dang, I missed big words."
+
+SPEAKER_07 (43 segs, 75.2s, 18 embedded)
+  "Don't worry, ladies."
+  "I'll get you to your senior swim class."
+  "Thank you, Dr. Minnie."
+  "Oh, you're awake."
+  "We set both your legs."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.579
+  SPEAKER_00 <-> SPEAKER_03: 0.293
+  SPEAKER_00 <-> SPEAKER_07: 0.274
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E25.npz

@@ -1,0 +1,24 @@
+{
+  "episode_id": "AT.S06E09",
+  "title": "The Prince Who Wanted Everything",
+  "season": 6,
+  "speaker_map": {
+    "SPEAKER_04": "Ice King",
+    "SPEAKER_06": "LSP",
+    "SPEAKER_08": "Fionna",
+    "SPEAKER_05": "LSP",
+    "SPEAKER_07": "Fionna"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_09",
+    "SPEAKER_10",
+    "SPEAKER_11"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:49:55"
+}

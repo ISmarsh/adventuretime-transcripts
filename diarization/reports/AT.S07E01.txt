@@ -1,0 +1,57 @@
+Episode: AT.S07E01 (Bonnie and Neddy)
+7 speaker clusters, 148 total segments
+
+
+SPEAKER_00 (3 segs, 36.0s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "and the butterflies and bees"
+
+SPEAKER_01 (42 segs, 131.6s, 24 embedded)
+  "Oops."
+  "And I dub thee Sir Jake the Dog."
+  "You two now comprise the royal guard of the one true princess of Ooo."
+  "That's me."
+  "As such, you may no longer own property or operate children and must render all "
+
+SPEAKER_02 (38 segs, 77.5s, 21 embedded)
+  "Um... Fight a... Fight a dragon?"
+  "Wrong!"
+  "Follow me."
+  "Man, this is stupid as heck."
+  "I miss PB."
+
+SPEAKER_03 (9 segs, 25.8s, 3 embedded)
+  "Hello."
+  "We are the sworn protectors of the forbidden inner sanctum."
+  "To proceed, you must answer this ancient riddle."
+  "I forgot the riddle."
+  "That's okay."
+
+SPEAKER_04 (20 segs, 28.6s, 5 embedded)
+  "Joke's on you, man."
+  "We spent all our treasure the other day."
+  "Plus, don't even have any wives."
+  "Wait, what?"
+  "What about Lady?"
+
+SPEAKER_05 (4 segs, 38.5s, 3 embedded)
+  "Hmm?"
+  "It's pretty quiet, huh?"
+  "Hee hee!"
+  "Oh no!"
+
+SPEAKER_06 (30 segs, 67.4s, 18 embedded)
+  "Yeah, well maybe he should unblizz it then."
+  "Why do I always gotta unblizz everything?"
+  "Oh no, this is all my fault."
+  "Nettie."
+  "Princess?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_05: 0.481
+  SPEAKER_03 <-> SPEAKER_04: 0.446
+  SPEAKER_00 <-> SPEAKER_03: 0.300
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E01.npz

@@ -1,0 +1,71 @@
+Episode: AT.S07E05 (Football)
+9 speaker clusters, 206 total segments
+
+
+SPEAKER_00 (4 segs, 32.4s, 4 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Come along with me"
+  "and the butterflies and bees."
+
+SPEAKER_01 (7 segs, 12.6s, 3 embedded)
+  "Ow."
+  "Football?"
+  "Football, I know it's you."
+  "We are both walking backwards, holding chalalis."
+  "Football?"
+
+SPEAKER_02 (110 segs, 231.8s, 56 embedded)
+  "Football."
+  "You don't mean that."
+  "I do, BMO."
+  "I don't say things I don't mean."
+  "You look very smart and very handsome today."
+
+SPEAKER_03 (19 segs, 33.1s, 7 embedded)
+  "Ah!"
+  "Oh, my gosh."
+  "Oh, my gosh."
+  "Oh, my gosh."
+  "BMO, what is going on in here?"
+
+SPEAKER_04 (9 segs, 15.3s, 3 embedded)
+  "Hello, my name is Football."
+  "Very nice to meet you, Football."
+  "How'd you get the name Football, Football?"
+  "Is BMO your little papa?"
+  "Uh, so where do you live, Football?"
+
+SPEAKER_05 (15 segs, 22.6s, 4 embedded)
+  "Oh, yeah."
+  "I'm football."
+  "Hey, football."
+  "Grapefruit for your troubles?"
+  "Yeah?"
+
+SPEAKER_06 (2 segs, 3.2s, 1 embedded)
+  "Jake, get out of my fruit, man."
+  "You're cute, but you're dirty."
+
+SPEAKER_07 (27 segs, 27.4s, 8 embedded)
+  "Mm!"
+  "Mm-yah!"
+  "Yes?"
+  "Send another G fruit to the slaughter, Jake."
+  "You got it."
+
+SPEAKER_08 (6 segs, 21.7s, 1 embedded)
+  "Oh."
+  "Hello, my name is Football."
+  "Yeah!"
+  "Jake!"
+  "Jake, help me!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_02: 0.699  <- possible match
+  SPEAKER_01 <-> SPEAKER_02: 0.699
+  SPEAKER_02 <-> SPEAKER_04: 0.566
+  SPEAKER_03 <-> SPEAKER_08: 0.498
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E05.npz

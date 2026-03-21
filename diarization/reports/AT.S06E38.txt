@@ -1,0 +1,79 @@
+Episode: AT.S06E38 (You Forgot Your Floaties)
+11 speaker clusters, 248 total segments
+
+
+SPEAKER_00 (2 segs, 20.6s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (3 segs, 15.4s, 1 embedded)
+  "Aha!"
+  "I came from... your nightmares!"
+  "Wait, what's happening?"
+
+SPEAKER_02 (11 segs, 23.2s, 6 embedded)
+  "Whoa."
+  "Bingo."
+  "Whoa, whoa, whoa, whoa, whoa, whoa, whoa, whoa, whoa, whoa, whoa."
+  "Who's that?"
+  "Why didn't you magic us up?"
+
+SPEAKER_03 (2 segs, 28.2s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_04 (4 segs, 3.8s, 1 embedded)
+  "Whoa."
+  "It really is like he said."
+  "Sort of cool, though."
+  "The key."
+
+SPEAKER_05 (27 segs, 64.9s, 15 embedded)
+  "Do you hear me?"
+  "What's all that yelling?"
+  "Well, there it is."
+  "What remains of your brother glob?"
+  "So this thing's really gonna transmute you into the new glob?"
+
+SPEAKER_06 (25 segs, 43.8s, 10 embedded)
+  "You peepin', bro?"
+  "Yonder goes!"
+  "Glob's helmet comin' in fast."
+  "Yo, I'm zoomed in too far."
+  "It's makin' me sick."
+
+SPEAKER_07 (20 segs, 20.0s, 4 embedded)
+  "There goes!"
+  "There goes!"
+  "Huh, wha?"
+  "Who's that?"
+  "Oh, my truth, dude."
+
+SPEAKER_08 (37 segs, 56.4s, 15 embedded)
+  "You promised me I would rule."
+  "You gave me some kind of hostage syndrome."
+  "I need therapy."
+  "Finn and Jake, what did you do?"
+  "You monster!"
+
+SPEAKER_09 (7 segs, 17.4s, 4 embedded)
+  "Hi."
+  "Uh, could I talk to you in a sec?"
+  "That's our new planetary defense system?"
+  "Margo's is your wife, dude."
+  "But you named her after your wife."
+
+SPEAKER_10 (108 segs, 198.9s, 50 embedded)
+  "Good plan."
+  "Get the spine!"
+  "Whoa!"
+  "Baby!"
+  "There goes... Shh!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_09 <-> SPEAKER_10: 0.526
+  SPEAKER_04 <-> SPEAKER_05: 0.525
+  SPEAKER_00 <-> SPEAKER_01: 0.418
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E38.npz

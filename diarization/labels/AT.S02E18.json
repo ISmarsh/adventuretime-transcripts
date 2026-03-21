@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S02E18",
+  "title": "Susan Strong",
+  "season": 2,
+  "speaker_map": {
+    "SPEAKER_01": "Princess Bubblegum",
+    "SPEAKER_02": "Jake",
+    "SPEAKER_03": "Finn_S01-S03",
+    "SPEAKER_05": "Susan Strong"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_04",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:18:39"
+}

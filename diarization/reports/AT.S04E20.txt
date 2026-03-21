@@ -1,0 +1,68 @@
+Episode: AT.S04E20 (You Made Me)
+9 speaker clusters, 245 total segments
+
+
+SPEAKER_00 (2 segs, 27.8s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "To a cliff under a tree"
+
+SPEAKER_01 (2 segs, 19.1s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (11 segs, 20.5s, 4 embedded)
+  "All right."
+  "What's it gonna take, people?"
+  "Two things, Princess."
+  "Yeah, that's right."
+  "Back up, fools."
+
+SPEAKER_03 (7 segs, 20.8s, 4 embedded)
+  "What is it?"
+  "Please!"
+  "Come on, Mr. Cupcake."
+  "Huh."
+  "I have to use my sound sword now!"
+
+SPEAKER_04 (38 segs, 49.5s, 12 embedded)
+  "Whoa, what's that?"
+  "Security cams?"
+  "Yeah, man."
+  "You gotta see some crazy stuff."
+  "Yo, shut up."
+
+SPEAKER_05 (39 segs, 48.0s, 13 embedded)
+  "Whoa, the aura's gone."
+  "I want to see Peppermint Butler's aura."
+  "You don't want to see that."
+  "Yeah, we do."
+  "Oh, about that."
+
+SPEAKER_06 (82 segs, 154.1s, 47 embedded)
+  "It's creeping me out."
+  "I am the Earl."
+  "Yeah?"
+  "The Earl of nothing!"
+  "Wait!"
+
+SPEAKER_07 (9 segs, 26.3s, 6 embedded)
+  "Back up, Finn."
+  "I'll take you out."
+  "We came out of hiding, because all y'all's are scared of a lemon man."
+  "And we ain't afraid, so we gots demands."
+  "What is your second demand?"
+
+SPEAKER_08 (53 segs, 134.2s, 31 embedded)
+  "Okay, I'm going to lower the screen."
+  "Tell me what you see."
+  "Crunchy, you look like a rainbow."
+  "It's beautiful."
+  "Can you guys see that?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_08: 0.770  <- likely same character
+  SPEAKER_02 <-> SPEAKER_08: 0.656  <- possible match
+  SPEAKER_02 <-> SPEAKER_07: 0.617  <- possible match
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E20.npz

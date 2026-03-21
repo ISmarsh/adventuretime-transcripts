@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S04E17",
+  "title": "BMO Noire",
+  "season": 4,
+  "speaker_map": {
+    "SPEAKER_00": "Jake",
+    "SPEAKER_01": "Jake",
+    "SPEAKER_02": "NEPTR",
+    "SPEAKER_03": "BMO"
+  },
+  "skipped": [
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:19:57"
+}

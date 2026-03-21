@@ -1,0 +1,21 @@
+{
+  "episode_id": "AT.S00E01",
+  "title": "Adventure Time (Pilot)",
+  "season": 0,
+  "speaker_map": {
+    "SPEAKER_01": "Jake",
+    "SPEAKER_03": "Jake",
+    "SPEAKER_06": "Finn_S01-S03"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_02",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_07",
+    "SPEAKER_08"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T18:28:21"
+}

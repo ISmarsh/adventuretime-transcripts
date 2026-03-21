@@ -1,0 +1,77 @@
+Episode: AT.S05E07 (Davey)
+11 speaker clusters, 223 total segments
+
+
+SPEAKER_00 (2 segs, 4.1s, 1 embedded)
+  "Hey, come on, you gotta pay for those, man."
+  "I'm trying to run a business here."
+
+SPEAKER_01 (2 segs, 28.7s, 1 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (2 segs, 26.4s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_03 (14 segs, 30.2s, 7 embedded)
+  "Finn, can go outside today?"
+  "Oh, deal with me!"
+  "Let's play cups and rubbers!"
+  "Give me your bank account!"
+  "Bang bang!"
+
+SPEAKER_04 (50 segs, 90.8s, 17 embedded)
+  "Hello!"
+  "I'm Davey."
+  "Ha ha!"
+  "Hi, I'm Davey."
+  "You want to have dinner with me?"
+
+SPEAKER_05 (20 segs, 29.2s, 8 embedded)
+  "Yeah, yeah, we've heard that before."
+  "Come on, Robert."
+  "Come on, man."
+  "That last game wasn't fair."
+  "How about who can hold up their hand the longest?"
+
+SPEAKER_06 (44 segs, 59.0s, 14 embedded)
+  "Sure, man."
+  "Yeah, sure."
+  "Sometime."
+  "Sucks."
+  "Well, I guess I could."
+
+SPEAKER_07 (19 segs, 26.6s, 5 embedded)
+  "Thanks."
+  "Finn!"
+  "Have dinner with me!"
+  "Please!"
+  "Please!"
+
+SPEAKER_08 (11 segs, 24.4s, 7 embedded)
+  "Eh, so what?"
+  "You sure know how to party, Davey!"
+  "Yes, yes, yes, yes, yes, yes, yes, yes, yes, yes, yes!"
+  "No, no, no, no!"
+  "Davey?"
+
+SPEAKER_09 (51 segs, 70.5s, 16 embedded)
+  "Don't let the dragon drag on, man."
+  "Hmm."
+  "We should get out of here, Finn."
+  "Whoa!"
+  "Intruder!"
+
+SPEAKER_10 (3 segs, 16.8s, 2 embedded)
+  "I'm here just in time."
+  "Okay."
+  "I think someone called the heat."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_08 <-> SPEAKER_09: 0.575
+  SPEAKER_01 <-> SPEAKER_10: 0.545
+  SPEAKER_08 <-> SPEAKER_10: 0.523
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E07.npz

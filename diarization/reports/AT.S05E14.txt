@@ -1,0 +1,67 @@
+Episode: AT.S05E14 (Simon & Marcy)
+9 speaker clusters, 205 total segments
+
+
+SPEAKER_00 (2 segs, 19.2s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 26.3s, 1 embedded)
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (5 segs, 5.3s, 1 embedded)
+  "It's frozen!"
+  "Not now, Gunter."
+  "I'm doing big people things."
+  "Play in the snow."
+  "Build me a snowman."
+
+SPEAKER_03 (91 segs, 180.3s, 42 embedded)
+  "Marceline, Marceline, I'm open."
+  "I'm wide open."
+  "Marceline, I got ups."
+  "Check out my ups."
+  "Yeah!"
+
+SPEAKER_04 (22 segs, 48.0s, 7 embedded)
+  "Oh, nope."
+  "What you are talking about, Marceline?"
+  "Yeah, lay it out, Marcy."
+  "Yeah, lay down, Marceline."
+  "Go to sleep, right?"
+
+SPEAKER_05 (4 segs, 31.8s, 2 embedded)
+  "Too slow."
+  "Hmm."
+  "Oh No, oh you're fine just a bit warm, but you should get some sleep Oh"
+  "Whoa!"
+
+SPEAKER_06 (12 segs, 22.7s, 6 embedded)
+  "Marceline, why did you invite ancient chubs to play basketball?"
+  "Yeah!"
+  "Simon, look."
+  "What is that thing?"
+  "This is really bad."
+
+SPEAKER_07 (41 segs, 70.4s, 16 embedded)
+  "Ew!"
+  "It's a dead rat."
+  "Ew, no!"
+  "Yeah."
+  "You're so silly, Simon."
+
+SPEAKER_08 (13 segs, 20.6s, 7 embedded)
+  "Well, he's very dear to my heart."
+  "I love him."
+  "We've been around for a long time."
+  "We have a long history together."
+  "It's a long story."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.573
+  SPEAKER_03 <-> SPEAKER_04: 0.550
+  SPEAKER_02 <-> SPEAKER_03: 0.539
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E14.npz

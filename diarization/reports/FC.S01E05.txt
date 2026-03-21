@@ -1,0 +1,133 @@
+Episode: FC.S01E05 (Destiny)
+19 speaker clusters, 377 total segments
+
+
+SPEAKER_00 (2 segs, 4.0s, 1 embedded)
+  "Nothing, nothing."
+  "It's just good luck working the TV wall without the remote."
+
+SPEAKER_01 (2 segs, 3.9s, 1 embedded)
+  "Tires, tires, they're round the rubber."
+  "Get him here."
+
+SPEAKER_02 (36 segs, 90.8s, 21 embedded)
+  "The cat talked."
+  "It must be magic."
+  "Ha, everybody knows there's been no magic since the days of the snowman."
+  "Today, sadness is not allowed."
+  "Today, we party for the dead body of popcorn."
+
+SPEAKER_03 (13 segs, 29.0s, 7 embedded)
+  "Hush now, hush, don't cry, little one."
+  "Please don't you cry or the snowman will come."
+  "The snowman!"
+  "Oh, sweet!"
+  "Road loot!"
+
+SPEAKER_04 (7 segs, 33.0s, 4 embedded)
+  "Aah!"
+  "Oh, thank goodness."
+  "Magic fist!"
+  "Hee hee hee hee!"
+  "Oh, no."
+
+SPEAKER_06 (20 segs, 44.2s, 11 embedded)
+  "Keep him quiet."
+  "You keep quiet."
+  "Ah, nobody saw that."
+  "Magic cat!"
+  "Ooh, I'ma eat that cat."
+
+SPEAKER_07 (4 segs, 4.9s, 1 embedded)
+  "Okay, this is really starting to smell."
+  "Hold this for me."
+  "Uh-oh."
+  "A twist."
+
+SPEAKER_08 (50 segs, 82.1s, 23 embedded)
+  "Hmm."
+  "Sounds great."
+  "No downsides."
+  "Question, though."
+  "How do we get back inside your head after Fiona World is cool again?"
+
+SPEAKER_09 (41 segs, 62.4s, 12 embedded)
+  "Multiverse means multi-crowns to nap."
+  "It'll be as easy as hunting down a mouse in a big old pile of mice."
+  "Yes, finally."
+  "Should you be messing with that?"
+  "Oh, you're up."
+
+SPEAKER_10 (5 segs, 9.8s, 2 embedded)
+  "Shh!"
+  "My dad has ears like a bat."
+  "Dad, no!"
+  "If you really believe I would hurt you, then do it, little destiny."
+  "Finish what you started on the most beautiful night of my life."
+
+SPEAKER_11 (46 segs, 87.2s, 23 embedded)
+  "Huh?"
+  "How about your nose, Bully Boy?"
+  "No!"
+  "When I heard you talking about the Crown, I could tell you're new here."
+  "Locals don't like talking about magic."
+
+SPEAKER_12 (1 segs, 11.1s, 1 embedded)
+  "Uh, everyone here knows Popcorn signed a treaty on his deathbed, making all the "
+
+SPEAKER_13 (13 segs, 20.6s, 5 embedded)
+  "Yes, Daddy."
+  "But I'm scratching Jake."
+  "Hi, cat."
+  "Whoa, really?"
+  "That's so cool."
+
+SPEAKER_14 (15 segs, 52.8s, 8 embedded)
+  "Something funny."
+  "Definitely Prismo."
+  "You there."
+  "Have you seen a group of travelers recently?"
+  "Strange ones."
+
+SPEAKER_15 (30 segs, 42.4s, 10 embedded)
+  "You brought outsiders."
+  "Magic Cat?"
+  "I don't truck with magic."
+  "You know that."
+  "I don't like you mixing it up with the Destiny gang."
+
+SPEAKER_16 (4 segs, 16.9s, 4 embedded)
+  "Listen up, rabble."
+  "We're about to get this funeral started."
+  "So shut up and pay respects."
+  "Introducing the savior of the wastelands and the defeater of the snowman, Big De"
+
+SPEAKER_17 (21 segs, 31.3s, 10 embedded)
+  "Stepsy game rules!"
+  "Back off."
+  "Well, Destiny, you're a long way from home, Jay."
+  "!"
+  "Now what do I do with you?"
+
+SPEAKER_18 (49 segs, 116.0s, 32 embedded)
+  "If you think about it, it's the perfect solution."
+  "As Ice King, I'll be powerful enough to fend off this scarab person who's after "
+  "I'll be immortal, so your universe will last forever instead of dying with me."
+  "And finally, I'll be magic again."
+  "Ergo, magic will be restored to your world just like you want."
+
+SPEAKER_19 (15 segs, 45.6s, 13 embedded)
+  "I have the magic crown, you think."
+  "But the price I ask is very steep."
+  "The crown is but the rarest of treasure."
+  "Present your wares, and I'll take their measure."
+  "We should really verify it's the crown before we... Nah, nah, nah."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.666  <- possible match
+  SPEAKER_03 <-> SPEAKER_04: 0.666
+  SPEAKER_08 <-> SPEAKER_13: 0.503
+  SPEAKER_02 <-> SPEAKER_19: 0.497
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S01E05.npz

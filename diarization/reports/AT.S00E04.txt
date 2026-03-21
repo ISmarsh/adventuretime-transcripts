@@ -1,0 +1,12 @@
+Episode: AT.S00E04 (All's Well That Rats Swell)
+1 speaker clusters, 25 total segments
+
+
+SPEAKER_00 (24 segs, 63.0s, 7 embedded)
+  "Good morning."
+  "Drink."
+  "forever young."
+  "Mustaches belong in the cupboard."
+  "Mustaches belong in the cupboard."
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S00E04.npz

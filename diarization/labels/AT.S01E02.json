@@ -1,0 +1,24 @@
+{
+  "episode_id": "AT.S01E02",
+  "title": "Trouble in Lumpy Space",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_02": "LSP",
+    "SPEAKER_06": "Finn_S01-S03",
+    "SPEAKER_11": "Jake",
+    "SPEAKER_00": "Princess Bubblegum",
+    "SPEAKER_04": "LSP"
+  },
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_03",
+    "SPEAKER_05",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_10"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:08:52"
+}

@@ -1,0 +1,86 @@
+Episode: AT.S08E20 (The Invitation)
+12 speaker clusters, 216 total segments
+
+
+SPEAKER_00 (6 segs, 14.2s, 5 embedded)
+  "This shirt has, like, four different breakfasts on it."
+  "Goodbye, Creator."
+  "Now me and BMO can really cut loose."
+  "Look, BMO, I'm pretending to trash a hotel room."
+  "BMO?"
+
+SPEAKER_01 (15 segs, 22.5s, 7 embedded)
+  "What?"
+  "Help!"
+  "Well now, what seems to be the trouble?"
+  "How rude!"
+  "Well, whatever that little girl saw will be a mystery forever."
+
+SPEAKER_02 (11 segs, 21.1s, 6 embedded)
+  "How do you like my pinto?"
+  "I was too embarrassed to get a bra fitting."
+  "I know they are professionals, but it's just too intimate."
+  "You look great."
+  "Once again, BMO comes out on top!"
+
+SPEAKER_03 (1 segs, 9.1s, 1 embedded)
+  "Finn, did you bring your nail clippers?"
+
+SPEAKER_04 (44 segs, 77.7s, 19 embedded)
+  "Transport for seeker XJ77 Strong has arrived."
+  "Please verify identity as Strong."
+  "Verifying."
+  "Identifying."
+  "Dangerous mutant."
+
+SPEAKER_05 (38 segs, 53.0s, 13 embedded)
+  "Great!"
+  "We're gonna look so great for this funeral!"
+  "We gotta chop this thing into smash-a-getty."
+  "Yeah!"
+  "I'll take you out with these hug nubs!"
+
+SPEAKER_06 (3 segs, 23.3s, 1 embedded)
+  "Hi Bonnie, huh?"
+  "I'm Fern."
+  "I kind of already know you I have a lot of fuzzy half memories from when I was t"
+
+SPEAKER_07 (10 segs, 15.2s, 4 embedded)
+  "Are you up here, Fern?"
+  "Hey, thanks for letting me crash on the roof."
+  "It's nice up here."
+  "Are you sure?"
+  "I mean, Hero Biz is your whole thing."
+
+SPEAKER_08 (2 segs, 15.3s, 1 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands With Ben and Jake and "
+
+SPEAKER_09 (34 segs, 55.5s, 15 embedded)
+  "It took out the gumball guards like they was nothing."
+  "Pima doesn't like it."
+  "You got this, Finn Mertens."
+  "You're a buff little bionic baby."
+  "Rush!"
+
+SPEAKER_10 (37 segs, 71.5s, 16 embedded)
+  "How about it, Soos?"
+  "Does any of this look familiar?"
+  "Hey!"
+  "Looking for this?"
+  "I've been holding on to the remnants of your cranial implant since you kidnapped"
+
+SPEAKER_11 (14 segs, 29.5s, 6 embedded)
+  "Mom, I want to play outside with Consuelo."
+  "Cool your jet."
+  "Super dangerous outside."
+  "Little kids have to stay in the castle."
+  "But I'm rowdy."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_10 <-> SPEAKER_11: 0.516
+  SPEAKER_02 <-> SPEAKER_03: 0.505
+  SPEAKER_06 <-> SPEAKER_09: 0.481
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E20.npz

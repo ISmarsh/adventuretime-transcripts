@@ -1,0 +1,49 @@
+Episode: AT.S05E46 (Rattleballs)
+6 speaker clusters, 197 total segments
+
+
+SPEAKER_00 (2 segs, 26.0s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (4 segs, 24.6s, 4 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Bigger pimples mean bigger dimples."
+  "So mash up your mouth."
+
+SPEAKER_02 (65 segs, 157.8s, 40 embedded)
+  "Leave this dump now."
+  "No."
+  "Instead, I will pluck out your eyes with the point of my sword."
+  "And whenever you try to see stuff, you will think only of me."
+  "Rattle balls!"
+
+SPEAKER_03 (9 segs, 9.6s, 1 embedded)
+  "Hmm."
+  "What the?"
+  "Stop him!"
+  "Go!"
+  "Go!"
+
+SPEAKER_04 (41 segs, 84.5s, 20 embedded)
+  "Good morning, Princess!"
+  "Finn!"
+  "You scared me!"
+  "It's 5.30 in the morning."
+  "Thank you."
+
+SPEAKER_05 (71 segs, 116.8s, 31 embedded)
+  "I'm sorry, Princess!"
+  "What are you doing here, Finn?"
+  "Since I got out of my last relationship, I've been slacking on the job."
+  "So I'm rededicating my life to protecting, serving, and meeting your every need."
+  "Jake said I was acting bananas about the whole thing and wanted to know part of "
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_03: 0.339
+  SPEAKER_00 <-> SPEAKER_03: 0.173
+  SPEAKER_04 <-> SPEAKER_05: 0.171
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E46.npz

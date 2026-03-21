@@ -1,0 +1,17 @@
+{
+  "episode_id": "AT.S01E04",
+  "title": "Tree Trunks",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_00": "Tree Trunks",
+    "SPEAKER_01": "Finn_S01-S03",
+    "SPEAKER_02": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_03",
+    "SPEAKER_04"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:08:28"
+}

@@ -1,0 +1,64 @@
+Episode: AT.S07E26 (The Thin Yellow Line)
+8 speaker clusters, 220 total segments
+
+
+SPEAKER_00 (3 segs, 32.4s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Hooray!"
+
+SPEAKER_01 (4 segs, 16.0s, 2 embedded)
+  "Stop!"
+  "Sorry, BB."
+  "Hey man, that's not bad."
+  "Whoa, whoa, whoa, whoa."
+
+SPEAKER_02 (28 segs, 56.1s, 17 embedded)
+  "Hmm..."
+  "This..."
+  "This is... Delinquent vandalism?"
+  "Very interesting."
+  "Go back to the barracks and find out which Banana Guard is responsible for this."
+
+SPEAKER_03 (12 segs, 30.1s, 9 embedded)
+  "Well, that's enough, Banana Guard 12."
+  "Okay, everyone, time for morning calisthenics."
+  "Jump roll, Colonel."
+  "Ha-ha, you're good."
+  "All right, now that's enough."
+
+SPEAKER_04 (38 segs, 62.3s, 17 embedded)
+  "It's not that great."
+  "No, it's good, man."
+  "Maybe they'll add some shading around where the head shadows the neck."
+  "Make sure it's obvious where the light source is coming from."
+  "It'll help give the drawing more volume and depth."
+
+SPEAKER_05 (42 segs, 64.9s, 16 embedded)
+  "It's just pilgriming around."
+  "There's no point."
+  "The point is building and developing holdings while trading and acquiring resour"
+  "Magnifique?"
+  "No, this is bad."
+
+SPEAKER_06 (24 segs, 42.2s, 12 embedded)
+  "Hey!"
+  "Hey!"
+  "Huh?"
+  "Huh?"
+  "Hi."
+
+SPEAKER_07 (62 segs, 128.5s, 32 embedded)
+  "I'm tired of pilgrims or the land."
+  "I hate that board game."
+  "You're just saying that because Pep Butt beats you every time."
+  "Yeah, well, nobody ate my guac."
+  "This is homemade, Broham."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.536
+  SPEAKER_01 <-> SPEAKER_06: 0.443
+  SPEAKER_03 <-> SPEAKER_06: 0.356
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E26.npz

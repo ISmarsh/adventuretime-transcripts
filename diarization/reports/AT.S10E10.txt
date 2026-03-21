@@ -1,0 +1,38 @@
+Episode: AT.S10E10 (Jake the Starchild)
+4 speaker clusters, 242 total segments
+
+
+SPEAKER_00 (38 segs, 56.2s, 6 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Son?"
+  "It's really him!"
+  "Good luck, Jake!"
+
+SPEAKER_01 (4 segs, 5.4s, 2 embedded)
+  "Hey, Kim Kilwan."
+  "We solved the mystery of the haunted office."
+  "It was Clock Bear the whole time."
+  "Yeah, uh, Jake's around here somewhere."
+
+SPEAKER_02 (119 segs, 272.3s, 58 embedded)
+  "It's not weird."
+  "Oh, that's kind of a bad idea."
+  "Our homeworld's atmosphere is poisonous to his kind."
+  "Well, then I'd better write him a note."
+  "Destiny calls!"
+
+SPEAKER_03 (58 segs, 126.7s, 27 embedded)
+  "Man, it's crazy to think I was born here in this alley."
+  "Popped right out of my dad's head for some reason."
+  "Ah!"
+  "You scared me there."
+  "What, with the appearing out of thin air and staring at me all creepy and now yo"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.459
+  SPEAKER_00 <-> SPEAKER_03: 0.352
+  SPEAKER_00 <-> SPEAKER_02: 0.330
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S10E10.npz

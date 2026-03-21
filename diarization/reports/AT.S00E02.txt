@@ -1,0 +1,33 @@
+Episode: AT.S00E02 (The Wand)
+3 speaker clusters, 38 total segments
+
+
+SPEAKER_00 (13 segs, 18.9s, 5 embedded)
+  "Oh, why won't you die?"
+  "Yes, Finn?"
+  "Er..."
+  "We've got to stop it!"
+  "What are we going to do?"
+
+SPEAKER_01 (8 segs, 18.5s, 5 embedded)
+  "Hey, Ice King!"
+  "Stop hurting that ant, you old bag, or you're gonna get it!"
+  "You want some of this too?"
+  "Huh?"
+  "Turn it off, Jake!"
+
+SPEAKER_02 (17 segs, 36.9s, 8 embedded)
+  "Jake, these clouds are beautiful, dude."
+  "Yeah, man."
+  "Makes me wish I didn't have to poop ever again and could just let... Ow!"
+  "Hey, what the heck am I laying on?"
+  "Holy stuff!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_02: 0.609  <- possible match
+  SPEAKER_01 <-> SPEAKER_02: 0.609
+  SPEAKER_00 <-> SPEAKER_01: 0.519
+  SPEAKER_00 <-> SPEAKER_02: 0.413
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S00E02.npz

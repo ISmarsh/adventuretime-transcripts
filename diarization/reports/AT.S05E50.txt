@@ -1,0 +1,64 @@
+Episode: AT.S05E50 (Lemonhope Part 1)
+9 speaker clusters, 131 total segments
+
+
+SPEAKER_00 (2 segs, 20.6s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (34 segs, 73.1s, 18 embedded)
+  "You're our only Lemon Ho- Lights on."
+  "Oh, Lemon Hope, were you even paying attention?"
+  "Yes."
+  "I know this is a lot to take in, but one day saving those lemons is going to be "
+  "They're in trouble, and you need to work harder at this."
+
+SPEAKER_02 (6 segs, 54.5s, 3 embedded)
+  "Hello!"
+  "But read the next three chapters of your geometry text!"
+  "Remember, let it hop!"
+  "Pick it up, chumps."
+  "We've got to make Davis do my brunch."
+
+SPEAKER_03 (4 segs, 22.6s, 2 embedded)
+  "Oh, it's warm."
+  "Oh, man, that thing looks just lousy with freedom."
+  "Straight up right out the diddle-doo."
+  "Coming at you right straight up, huh?"
+
+SPEAKER_04 (39 segs, 162.1s, 30 embedded)
+  "I don't know."
+  "I'm not too worried about other people, I guess."
+  "Like, I got me, and they got them."
+  "Yes."
+  "But I don't want to."
+
+SPEAKER_05 (9 segs, 14.3s, 3 embedded)
+  "Hey."
+  "Hey, guy."
+  "Back here?"
+  "Think I might have fallen off back there?"
+  "Guy?"
+
+SPEAKER_06 (2 segs, 7.3s, 2 embedded)
+  "I'm one of my subjects."
+  "I'm being punished for helping women hope, but that's okay."
+
+SPEAKER_07 (32 segs, 63.7s, 15 embedded)
+  "And keep away from Castle Lemongrab!"
+  "How are you today?"
+  "I see, yes."
+  "I'm inside my fortified totalitarian city-state."
+  "Hello, I'm Lemongrab."
+
+SPEAKER_08 (1 segs, 27.2s, 0 embedded)
+  "Come along with me and the butterflies and bees We can wander through the forest"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.691  <- possible match
+  SPEAKER_06 <-> SPEAKER_07: 0.691
+  SPEAKER_03 <-> SPEAKER_04: 0.555
+  SPEAKER_02 <-> SPEAKER_05: 0.526
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E50.npz

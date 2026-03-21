@@ -1,0 +1,60 @@
+Episode: AT.S05E49 (Bad Timing)
+8 speaker clusters, 223 total segments
+
+
+SPEAKER_00 (1 segs, 26.8s, 0 embedded)
+  "This party is so crazy!"
+
+SPEAKER_01 (3 segs, 21.3s, 0 embedded)
+  "Everyone in here is a loser."
+  "Don't chew it, don't chew it, don't chew it!"
+  "I loved you."
+
+SPEAKER_02 (7 segs, 18.5s, 6 embedded)
+  "It's not really time travel, though."
+  "You just, you know, moved their stuff around."
+  "You didn't really manipulate time."
+  "Ice King's done it better before, with magic."
+  "Eh, I guess, but not really."
+
+SPEAKER_03 (9 segs, 25.6s, 5 embedded)
+  "That's what they do in movies."
+  "This isn't a movie, Charlie."
+  "It's real life."
+  "Another cucumber water, Your Majesty?"
+  "Manfried, where are the banana guards?"
+
+SPEAKER_04 (36 segs, 101.9s, 21 embedded)
+  "Ladies and gentlemen, I have invented time travel."
+  "This phasical sphere is flooded with infowaves that scan every second, logging e"
+  "I made special gloves for it."
+  "Now check it out!"
+  "It's logging time!"
+
+SPEAKER_05 (4 segs, 27.1s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Take me back to where my aunt is!"
+  "You don't know how hard I am with the whole candy kingdom in love with your pret"
+
+SPEAKER_06 (6 segs, 6.3s, 1 embedded)
+  "Well, I enjoyed your presentation very much, Princess."
+  "Thank you for inviting me."
+  "Hey, time."
+  "Where's my fiancee?"
+  "Am I right?"
+
+SPEAKER_07 (156 segs, 303.7s, 74 embedded)
+  "Get them to me."
+  "You witch."
+  "Get them to me now!"
+  "You skunk!"
+  "You skunk!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_05: 0.461
+  SPEAKER_03 <-> SPEAKER_07: 0.440
+  SPEAKER_05 <-> SPEAKER_07: 0.370
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E49.npz
