@@ -156,7 +156,7 @@ def pick_best_clips(segments: list[dict], n: int) -> list[dict]:
 
     # Sort by duration descending, take top 2*n, then spread evenly
     by_dur = sorted(viable, key=lambda s: s["end"] - s["start"], reverse=True)
-    pool = by_dur[:max(n * 2, len(by_dur))]
+    pool = by_dur[:min(n * 2, len(by_dur))]
 
     # Re-sort by time and pick evenly spaced
     pool.sort(key=lambda s: s["start"])
@@ -309,7 +309,7 @@ def review_episode_interactive(
                         print(f"  Replaying {len(clip_paths)} clips...")
                         vlc_proc = play_clips_vlc(vlc_path, clip_paths)
                     else:
-                        print("  (no clips yet — use 'play' first)")
+                        print("  (no clips yet — use 'more' first)")
                     continue
                 elif answer.lower() in ("more", "m"):
                     stop_vlc(vlc_proc)
@@ -637,7 +637,7 @@ def process_episode_vision(
     print(f"\n  Mapped {mapped}/{total} clusters")
 
     if apply and speaker_map:
-        write_labels(episode_id, data, speaker_map, skipped)
+        write_labels(episode_id, data, speaker_map, skipped, source="vision")
     elif apply:
         print("  Nothing to apply.")
 
@@ -652,6 +652,7 @@ def write_labels(
     data: dict,
     speaker_map: dict[str, str],
     skipped: list[str],
+    source: str = "clips",
 ) -> None:
     """Write or merge into label file (additive)."""
     LABELS_DIR.mkdir(parents=True, exist_ok=True)
@@ -680,7 +681,7 @@ def write_labels(
             "season": data.get("season", 0),
             "speaker_map": speaker_map,
             "skipped": sorted(skipped),
-            "source": "clips",
+            "source": source,
             "timestamp": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S"),
         }
 

@@ -252,6 +252,9 @@ def find_pgs_stream(mkv_path: Path) -> int | None:
     except FileNotFoundError:
         print("Error: ffprobe not found. Install ffmpeg.", file=sys.stderr)
         sys.exit(1)
+    except subprocess.CalledProcessError as e:
+        print(f"Error: ffprobe failed: {e.stderr or e}", file=sys.stderr)
+        sys.exit(1)
 
     for line in result.stdout.strip().splitlines():
         parts = line.strip().split(',')
@@ -275,6 +278,9 @@ def extract_pgs(mkv_path: Path, sup_path: Path, stream_index: int):
         )
     except FileNotFoundError:
         print("Error: ffmpeg not found.", file=sys.stderr)
+        sys.exit(1)
+    except subprocess.CalledProcessError as e:
+        print(f"Error: ffmpeg extraction failed: {e.stderr or e}", file=sys.stderr)
         sys.exit(1)
 
 

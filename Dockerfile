@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-# Remove torchvision from base image — incompatible with torch 2.8 and unused
+# Remove torchvision from base image — unused and avoids version conflicts
 RUN pip uninstall -y torchvision
 
 RUN pip install --no-cache-dir \
