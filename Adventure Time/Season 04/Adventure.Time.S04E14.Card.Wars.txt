@@ -72,7 +72,9 @@ Finn:  My Pig's in the Cave of Solitude.
 Jake:  Um... I cast Teleport—to move your Pig to the empty field so I can attack 'im!
 Finn:  Uh... wouldn't Teleport only work on your own creatures?
 Jake:  You're right. I'm gonna slay that Pig, though!
-Finn:  How? You don't have any creatures that can touch 'im! [Jake grunts angrily.] Face it, man. I'm the cool guy.
+Finn:  How? You don't have any creatures that can touch 'im!
+[Jake grunts angrily.]
+Finn:  Face it, man. I'm the cool guy.
 Jake:  Hmm. [Gasps] You're the cool guy, huh? Well, lemme make it a little hot for you, then. [Flooping Volcano card] Heh heh heh heh... I floop the Volcano!
 Finn:  What?! That'll destroy your kingdom too, won't it?!
 Jake:  Hmm. Maybe.
@@ -89,8 +91,8 @@ Jake:  I told you cornfields are awesome! Your Ancient Scholar and Cool Dog won'
 [The Immortal Maize Walker and Husker Knights move forward to attack.]
 Finn:  Actually, my Ancient Scholar's been studying the Raise the Dead ability.
 [The Ancient Scholar comes out of the schoolhouse, holding a spellbook.]
-Jake: So what?
-Finn: So, my Ancient Scholar raises the dead. [The Pig is revived.] I floop the Pig.
+Jake:  So what?
+Finn:  So, my Ancient Scholar raises the dead. [The Pig is revived.] I floop the Pig.
 Jake:  NOOOOO!
 [The Pig eats Jake's corn; the Husker Knights collapse.]
 Finn:  Look! My Tower's doin' a thing!

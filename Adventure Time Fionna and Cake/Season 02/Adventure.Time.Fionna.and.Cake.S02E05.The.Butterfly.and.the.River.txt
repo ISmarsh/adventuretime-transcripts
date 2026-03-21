@@ -6,13 +6,7 @@ Mom:  No, no.
 Mom:  Oh! No, no.
 [tapping rhythmically]
 Marshall:  Sorry, Mom.
-[woman singing, playing piano] ♪ <i>Loneliness never bothers me ♪</i>
-Woman:  <i>♪ Loneliness and I</i> <i>Are thick as thieves ♪</i>
-Woman:  ♪ <i>Forever I am, so is she ♪</i>
-Woman:  ♪ <i>So lonely I will never be ♪</i>
-Woman:  ♪ <i>Memories never bother me ♪</i>
-Woman:  ♪ <i>I only have the ones I-- ♪</i>
-Marshall:  May I get, uh... two scoops of double fudge delight?
+[woman singing, playing piano] ♪ Loneliness never bothers me ♪Woman:  ♪ Loneliness and IAre thick as thieves ♪Woman:  ♪ Forever I am, so is she ♪Woman:  ♪ So lonely I will never be ♪Woman:  ♪ Memories never bother me ♪Woman:  ♪ I only have the ones I-- ♪Marshall:  May I get, uh... two scoops of double fudge delight?
 Ice Cream Vendor:  Sure, kid. Comin' right up.
 [cats purring]
 Marshall:  Ahh!
@@ -40,8 +34,7 @@ Fionna:  Well, I lost the fundraiser venue.
 Fionna:  But I can still fix it.
 Cake:  And you got kicked out of your place.
 Fionna:  I can fix that, too.
-Fionna:  Just... later,
-Fionna:  after meeting up with Flame.
+Fionna:  Just... later, after meeting up with Flame.
 [groans]
 Fionna:  But first, we have to help Huntress!
 Cake:  What was that heart thing you were looking for?
@@ -59,8 +52,7 @@ Huntress Wizard:  Take me now!
 Marshall:  Sorry. Am I in the way?
 Gary:  Not at all.
 Gary:  I'm so hopped up on baking, I didn't even notice.
-Marshall:  <i>♪ My baby-- ♪</i>
-[mixer whirring]
+Marshall:  ♪ My baby-- ♪[mixer whirring]
 Gary:  [shouting] Hey! Is this too loud?
 Marshall:  Uh... No.
 [whirring stops]
@@ -82,8 +74,7 @@ Gary:  Well, I'm going over to their place tonight!
 Gary:  You should come!
 Marshall:  Uh... Okay.
 Gary:  Okay!
-Fionna:  And...
-Fionna:  here we are!
+Fionna:  And... here we are!
 Cake:  It's old as balls.
 Huntress Wizard:  Hey. Don't you know trees can scream?
 [screaming]
@@ -123,8 +114,7 @@ Fionna:  That's how I usually lunch. All right, Business. Come on.
 [pot shatters]
 Fionna:  And that's my plan to save The Sweet Spot. Right on. My friends are amazing. So I cannot mess this up! I don't have leads on a venue, but I've got hookups for the equipment. Is that okay if I-- Whatever contacts you have, use 'em. Do whatever it takes to make it happen. Thanks. By the way, I passed by your old place. The Scarab really did a number on it. I moved to the towers... there. It's not flashy. All my money goes into this place. Make yourself at home. Hey, kid! I got your text. How's it goin'? Bad. Everything's comin' out trash. Aw, come on, man. Can you give it one more shot? Aw, he's so good with kids. I got just the beat for you.
 [hip-hop instrumental music playing]
-Fionna:  [rapping] <i>♪ Marsh! ♪</i> <i>♪ Now put your hands up</i> <i>Now put your hands back down ♪</i> <i>♪ Now empty them pockets ♪</i> <i>♪ We wanna</i> <i>see in them pockets... ♪</i>
-[groaning]
+Fionna:  [rapping] ♪ Marsh! ♪♪ Now put your hands upNow put your hands back down ♪♪ Now empty them pockets ♪♪ We wannasee in them pockets... ♪[groaning]
 Fionna:  This isn't that weird heart space.
 [Cake groaning]
 Cake:  Where are we?
@@ -147,14 +137,12 @@ Gordie:  so of course I'm ready!
 Gordie:  Oh, this is his first batch of lemon bars.
 Gertie:  He mixed up the sugar with the salt, but we ate 'em anyway. Bubba just loved taking care of Nelly.
 Gordie:  Sure did. I mean, look at all the cookies he baked for his sister's school.
-Gertie:  Aw, he fell asleep in them. [Gordie in video] <i>All right, Bubba, tear it up!</i>
-[playing piano]
+Gertie:  Aw, he fell asleep in them. [Gordie in video] All right, Bubba, tear it up![playing piano]
 Gertie:  I didn't know you played. Oh, yeah. I took lessons for a bit, but... I got too busy. Bubba says you're a musician. We would love it if you'd play somethin'.
 [nervous chuckle]
 Gertie:  I haven't played keys in a while.
 [playing scale]
-Gertie:  [singing] <i>♪ Memories never bother me ♪</i> ♪ <i>I only have the ones</i> <i>I can't forget ♪</i> ♪ <i>Anticipation and regret ♪</i> ♪ <i>The dearest friends</i> <i>I've ever met ♪</i> ♪ <i>So lonely, I will never be ♪</i>
-[plays wrong chord]
+Gertie:  [singing] ♪ Memories never bother me ♪ ♪ I only have the onesI can't forget ♪ ♪ Anticipation and regret ♪ ♪ The dearest friendsI've ever met ♪ ♪ So lonely, I will never be ♪[plays wrong chord]
 Gertie:  Sorry. I forget the rest.
 [alarm buzzes]
 Gertie:  Dinner's ready! Nelly, it's hot dish!
@@ -174,7 +162,7 @@ Cake:  Yo...
 [thunderclap]
 [bellowing]
 [grunts]
-Cake:  Oh, my claw. [robotic voice] <i>Love a baby in a tree.</i> Tank? [robotic voice] <i>The willow is sentient?</i> What the heck happened? [robotic voice] <i>1,000 years ago,</i> <i>an epidemic of those monstrous</i> <i>biter-flies took over,</i> <i>covering the world</i> <i>in a shroud of silken death.</i> <i>By my calculation,</i> <i>it all started</i> <i>as a colony of just five</i> <i>in this very tree.</i> Aw, shit.
+Cake:  Oh, my claw. [robotic voice] Love a baby in a tree. Tank? [robotic voice] The willow is sentient? What the heck happened? [robotic voice] 1,000 years ago,an epidemic of those monstrousbiter-flies took over,covering the worldin a shroud of silken death.By my calculation,it all startedas a colony of just fivein this very tree. Aw, shit.
 [beast snarls]
 Cake:  Why did I squish that spider? It's your nature. All we can is deal with it in the present. And at present... I thirst. [gasps] This tastes like the rain from that janked-up future. This one!
 [- Ready? - Hell no!]
@@ -182,8 +170,7 @@ Cake:  [sighs] I'm sorry I dragged you along tonight. Nah. Your parents were gre
 [- you remind me of my mother. - Oh, God!]
 Cake:  I'm not used to talking about what I want. You know, I express how I feel through baking. Perhaps that could be done with music, too. You're looking for new material anyway. Yeah. Maybe. You can make one about how I'm basically your mom. Okay, "Bubba."
 [Fionna humming]
-Fionna:  I should go check in with Cake. Huh? [woman on loudspeaker] <i>All right, ladies!</i> <i>Who's ready</i> <i>to clear this dump?</i> [panting] What the hell? I thought I had till the end of the week to get you the money! Oh, yeah. [smacks lips] But then I remembered... [over loudspeaker] <i>I freakin' hate you!</i> <i>Go!</i> Stop! What if... What if we paid you more? 60K. Ha! There's no way you can do it. Plus, the people need parking. Did you know Hana Abadeer started her empire with just a few parking lots? Abadeer isn't stupid enough to let personal beef get in the way of a good deal! 70K. Ya have till Sunday. [over loudspeaker] <i>Shut her down, girls.</i>
-[dog panting in the distance]
+Fionna:  I should go check in with Cake. Huh? [woman on loudspeaker] All right, ladies!Who's readyto clear this dump? [panting] What the hell? I thought I had till the end of the week to get you the money! Oh, yeah. [smacks lips] But then I remembered... [over loudspeaker] I freakin' hate you!Go! Stop! What if... What if we paid you more? 60K. Ha! There's no way you can do it. Plus, the people need parking. Did you know Hana Abadeer started her empire with just a few parking lots? Abadeer isn't stupid enough to let personal beef get in the way of a good deal! 70K. Ya have till Sunday. [over loudspeaker] Shut her down, girls.[dog panting in the distance]
 [panting]
 [panting continues]
 [- [grunts] - [groans]]
@@ -208,10 +195,9 @@ Cake:  I saved and endangered the future. Oh. And you leveled up. Huh. Yeah. But
 [- [intense music playing] - [door opens]]
 Cake:  Damon, what have you found out about my boy? He still refuses to answer my calls. Madame Abadeer, we're not alone.
 [shudders]
-Flame Prince:  <i>Do whatever</i> <i>it takes to make it happen.</i>
-[clears throat]
+Flame Prince:  Do whateverit takes to make it happen.[clears throat]
 Flame Prince:  Demonic Wishing Eye... [in demonic voice] Hello, Simon. What do you like to wish for? Finn is trapped in a poison coma. I wish to shake him out of it. Hmm, I don't know about that one, sis. Please, Wishy! Mmm... Okay, I'll try. Deki-agari! He's like a new man. Useless!
 [all shriek]
 Flame Prince:  [shouting] Wishy!
 [mysterious music playing]
-Flame Prince:  [chorus] ♪ <i>Fred Films! ♪</i>
+Flame Prince:  [chorus] ♪ Fred Films! ♪
