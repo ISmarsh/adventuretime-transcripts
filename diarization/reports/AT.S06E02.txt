@@ -1,0 +1,64 @@
+Episode: AT.S06E02 (Escape from the Citadel)
+8 speaker clusters, 275 total segments
+
+
+SPEAKER_00 (29 segs, 21.8s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Ah!"
+  "Ah!"
+  "Ah!"
+
+SPEAKER_01 (10 segs, 17.4s, 5 embedded)
+  "Over here, fellas."
+  "Next stop, the Candy Kingdom."
+  "Previous stop, this weird place."
+  "Mr."
+  "Pig, I think we should get a..."
+
+SPEAKER_02 (9 segs, 31.0s, 7 embedded)
+  "You are alone, child."
+  "There is only darkness for you, and only death for your people."
+  "These ancients are just the beginning."
+  "I will command a great and terrible army, and we will sail to a billion worlds."
+  "We will sail until every light has been extinguished."
+
+SPEAKER_03 (6 segs, 41.8s, 4 embedded)
+  "Dad, I wanted to ask you about your... Ah!"
+  "It's okay."
+  "Look!"
+  "Dad, stop!"
+  "Finn!"
+
+SPEAKER_04 (21 segs, 38.9s, 8 embedded)
+  "Man, look at his clothes."
+  "Daddy!"
+  "Whoa!"
+  "Well, it had crossed my mind."
+  "Also, Finn's your son."
+
+SPEAKER_05 (54 segs, 95.4s, 25 embedded)
+  "Look, Jake, more Guardians."
+  "The Citadel, I presume."
+  "Likely so."
+  "Hey, do you think maybe one of them could be my dad?"
+  "Eh, I don't think so."
+
+SPEAKER_06 (65 segs, 108.6s, 28 embedded)
+  "Did he trick us again?"
+  "I think he did."
+  "Hey, kid."
+  "Hey, do me a favor."
+  "Get me out of here, huh?"
+
+SPEAKER_07 (2 segs, 28.7s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_03: 0.384
+  SPEAKER_03 <-> SPEAKER_06: 0.310
+  SPEAKER_01 <-> SPEAKER_06: 0.297
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E02.npz

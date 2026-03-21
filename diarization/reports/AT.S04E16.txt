@@ -1,0 +1,48 @@
+Episode: AT.S04E16 (Burning Low)
+6 speaker clusters, 216 total segments
+
+
+SPEAKER_00 (3 segs, 26.3s, 3 embedded)
+  "Come along with me and the butterflies and bees."
+  "We can wander through the forest and do so as we please."
+  "Come along with me to a cliff under a tree."
+
+SPEAKER_01 (9 segs, 20.9s, 5 embedded)
+  "OK."
+  "Tier two, baby."
+  "Word."
+  "Oh no."
+  "Bacon pancakes, makin' bacon pancakes."
+
+SPEAKER_02 (57 segs, 138.0s, 30 embedded)
+  "Nah, don't let me interrupt you."
+  "You two have fun."
+  "Okay Do the thing that I like Now do the thing that I like That's enough"
+  "Whoa, hold on, mama."
+  "OK, bro, tin foil's on."
+
+SPEAKER_03 (83 segs, 168.3s, 34 embedded)
+  "Thank you for building my new home, Finn."
+  "I'm so happy."
+  "Yes."
+  "Crap."
+  "Sup, guys?"
+
+SPEAKER_04 (61 segs, 96.6s, 26 embedded)
+  "Well, looks like your new house is done."
+  "Jake, you want to check out the new house?"
+  "I want to see inside."
+  "I love it!"
+  "Great!"
+
+SPEAKER_06 (2 segs, 20.2s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_02: 0.567
+  SPEAKER_00 <-> SPEAKER_06: 0.376
+  SPEAKER_03 <-> SPEAKER_04: 0.249
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E16.npz

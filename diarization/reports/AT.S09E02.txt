@@ -1,0 +1,95 @@
+Episode: AT.S09E02 (Skyhooks)
+12 speaker clusters, 231 total segments
+
+
+SPEAKER_00 (6 segs, 23.4s, 6 embedded)
+  "Yoo-hoo!"
+  "We bought some rollers and a bucket of sweet, juicy caramel."
+  "Let's get you back to normal."
+  "But, Mama, I am normal!"
+  "Just sit tight there like a window pane, and you'll be back to normal like a win"
+
+SPEAKER_01 (6 segs, 17.4s, 4 embedded)
+  "One day the candy came and turned Mommy and Daddy into something... different."
+  "She's not in the Candy Kingdom."
+  "She's in the Terrible Tower."
+  "Look."
+  "I'm gonna go now."
+
+SPEAKER_02 (62 segs, 93.8s, 25 embedded)
+  "Heck yeah!"
+  "We're home!"
+  "That was definitely the longest adventure we've ever done."
+  "Hey, look at this fish."
+  "It's...gummy?"
+
+SPEAKER_03 (42 segs, 76.1s, 22 embedded)
+  "What about when you got trapped in a mine dungeon for a bunch of years?"
+  "This trip was longer in emotional time."
+  "Yeah, I'm burnt out."
+  "No more adventures for a while, okay?"
+  "Yes!"
+
+SPEAKER_04 (6 segs, 14.2s, 5 embedded)
+  "Sweet Pea!"
+  "There you are."
+  "We've been looking for you everywhere."
+  "We just love you so much, son."
+  "You're gonna get into a great college."
+
+SPEAKER_05 (20 segs, 39.2s, 14 embedded)
+  "And I'm Nectar, the little robot."
+  "And I'm Shelby the worm, the gummy worm."
+  "We've always been candy."
+  "You silly billy bean."
+  "You seem upset, friend."
+
+SPEAKER_06 (25 segs, 53.5s, 12 embedded)
+  "Adventure time!"
+  "Come on, grab your friends, we'll go to very messed up lands with Finn and Jake,"
+  "Good tidings to you, my friends."
+  "Yahoo!"
+  "Oh, this?"
+
+SPEAKER_07 (5 segs, 8.8s, 2 embedded)
+  "Is this some kind of a sick joke?"
+  "Because I love it."
+  "Wait, we forgot BMO!"
+  "Goodbye, boys!"
+  "It's better this way!"
+
+SPEAKER_08 (18 segs, 33.2s, 8 embedded)
+  "I like the pink."
+  "Why you worry so much, worry baby?"
+  "Don't worry, Finn."
+  "We are only teasing you because you are a baby."
+  "But we haven't gone through any pools."
+
+SPEAKER_09 (7 segs, 10.6s, 3 embedded)
+  "Yeah, that's right."
+  "My skyhooks saved the day."
+  "Thanks for getting us out of there, Simon."
+  "Oh, I can't take all the credit."
+  "It's all thanks to my skyhooks."
+
+SPEAKER_10 (6 segs, 37.7s, 1 embedded)
+  "Sours get the tower!"
+  "Sours get the tower!"
+  "What?"
+  "Marceline?"
+  "Marshie?"
+
+SPEAKER_11 (28 segs, 38.4s, 7 embedded)
+  "Hey!"
+  "Hey, you look like me."
+  "Fern?"
+  "Who's Fern?"
+  "I'm Fun the Human."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_09: 0.498
+  SPEAKER_02 <-> SPEAKER_07: 0.498
+  SPEAKER_07 <-> SPEAKER_08: 0.451
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S09E02.npz

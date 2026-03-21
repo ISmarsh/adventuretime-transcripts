@@ -1,0 +1,68 @@
+Episode: AT.S01E26 (Gut Grinder)
+9 speaker clusters, 261 total segments
+
+
+SPEAKER_00 (2 segs, 21.8s, 1 embedded)
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (2 segs, 20.8s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (18 segs, 53.2s, 13 embedded)
+  "The Gut Grinder?"
+  "Yes!"
+  "The Gut Grinder is a gold-eating monster."
+  "In the past, the soft people of this village enjoyed piling our gold in the cent"
+  "It was awesome!"
+
+SPEAKER_03 (9 segs, 16.8s, 4 embedded)
+  "His paw matches the footprint."
+  "I'm so scared."
+  "I'm going to go wee-wee."
+  "Bye-bye, doggy."
+  "Zinnium danger!"
+
+SPEAKER_04 (19 segs, 35.7s, 12 embedded)
+  "Oh, thank goodness."
+  "Oh, yeah."
+  "We're terrified of him."
+  "Pet, pet, pet."
+  "Huh?"
+
+SPEAKER_05 (30 segs, 62.4s, 19 embedded)
+  "Hey cube people, what's going on here?"
+  "The gut grinder stormed into our village and ate all of our gold."
+  "Wait, what happened?"
+  "The gut grinder!"
+  "He's my friend."
+
+SPEAKER_06 (116 segs, 192.1s, 50 embedded)
+  "Jake!"
+  "Jake!"
+  "Jake?"
+  "Soft people!"
+  "Why are you all in a tizzy?"
+
+SPEAKER_07 (4 segs, 14.2s, 4 embedded)
+  "I am not the guy grinder."
+  "Oh He's just a cute little dog."
+  "Hey, y'all are the ones who are cute."
+  "Oh Look, he's a man even cuter."
+
+SPEAKER_08 (56 segs, 110.1s, 34 embedded)
+  "Hmm... Huh?"
+  "Sounded horrible, man!"
+  "I don't know how to play!"
+  "Exactly!"
+  "Huh?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_08: 0.656  <- possible match
+  SPEAKER_07 <-> SPEAKER_08: 0.656
+  SPEAKER_03 <-> SPEAKER_04: 0.517
+  SPEAKER_06 <-> SPEAKER_08: 0.502
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E26.npz

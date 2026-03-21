@@ -1,0 +1,106 @@
+Episode: AT.S08E09 (Five Short Tables)
+15 speaker clusters, 212 total segments
+
+
+SPEAKER_00 (1 segs, 9.6s, 1 embedded)
+  "I'll never look at tables the same way again."
+
+SPEAKER_01 (3 segs, 26.2s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends, we'll go to very distant lands."
+  "Kick the cat, every one of the human fun will never end, it's Adventure Time!"
+
+SPEAKER_02 (26 segs, 40.7s, 9 embedded)
+  "Come on, you've been coughing for five days."
+  "Just take one tablespoon."
+  "Then who am I talking to?"
+  "Huh."
+  "Well, if you're Jack, then I'm Michael Dean."
+
+SPEAKER_03 (24 segs, 47.2s, 10 embedded)
+  "Hmm?"
+  "Oh, no."
+  "Oh, I love that author."
+  "Sorry about that."
+  "No, no, no, no, no!"
+
+SPEAKER_04 (2 segs, 9.1s, 2 embedded)
+  "Butterscotch Butler, the Butterscotch Scottish Butler, I challenge you!"
+  "I've gathered all the necessary strategy and tactics to finally defeat you."
+
+SPEAKER_05 (10 segs, 14.9s, 3 embedded)
+  "Is it here?"
+  "No, no."
+  "Ah, just what I need."
+  "The periodic table of candy elements."
+  "If I use this one and this one here... Ha-ha!"
+
+SPEAKER_06 (35 segs, 72.7s, 23 embedded)
+  "Get back here, you worm!"
+  "What?"
+  "The last chapter of Cosmic Kissing?"
+  "My stirring lyrical interlude from Fiona Goes to the Market?"
+  "The epilogue from Flame Prince Breaks a Sweat?"
+
+SPEAKER_07 (4 segs, 17.0s, 2 embedded)
+  "Heh, heh, heh, heh."
+  "Heh, heh, heh, heh."
+  "Come along with me And the butterflies and bees"
+  "This party is so good!"
+
+SPEAKER_08 (11 segs, 20.9s, 6 embedded)
+  "Again?"
+  "To play, one must know strategy, yes."
+  "But to know victory, one must also know their opponent."
+  "Their dreams."
+  "Their ambitions."
+
+SPEAKER_09 (10 segs, 17.6s, 7 embedded)
+  "Have you read her newest book?"
+  "I could, uh, find it for you."
+  "Oh, uh, no, that's okay."
+  "I'll just start with this one."
+  "Thanks, though."
+
+SPEAKER_10 (24 segs, 55.1s, 19 embedded)
+  "Check out my sweet flippin' moves."
+  "You're a real ace in the kitchen."
+  "Know what's better than cooking?"
+  "Okay."
+  "This one?"
+
+SPEAKER_11 (11 segs, 26.4s, 5 embedded)
+  "Much better."
+  "Lounged atop their comfortable sense of all we, Flynn, the human being, and Jacq"
+  "Flynn and Jockside."
+  "They totally got it."
+  "The end!"
+
+SPEAKER_12 (16 segs, 18.2s, 6 embedded)
+  "Uh, Bumpy Space Prince?"
+  "There's no one here by that name."
+  "Uh, this is Jack."
+  "What?"
+  "No, I'm not."
+
+SPEAKER_13 (31 segs, 73.0s, 19 embedded)
+  "Roar!"
+  "Cooking is fun."
+  "Here come the flapjacks."
+  "Nope."
+  "These are narrative flapjacks."
+
+SPEAKER_14 (4 segs, 8.2s, 3 embedded)
+  "Lumpy Space Prince!"
+  "Lumpy Space Prince!"
+  "Uh-oh, it's coming towards your tree, Jack."
+  "I'm stuck."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.624  <- possible match
+  SPEAKER_04 <-> SPEAKER_05: 0.624
+  SPEAKER_08 <-> SPEAKER_11: 0.496
+  SPEAKER_10 <-> SPEAKER_11: 0.470
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E09.npz

@@ -1,0 +1,77 @@
+Episode: AT.S06E13 (Thanks for the Crabapples, Giuseppe)
+10 speaker clusters, 183 total segments
+
+
+SPEAKER_00 (11 segs, 55.9s, 9 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends!"
+  "We'll go to very distant lands."
+  "We'll take the dog and then the human."
+  "Um, no thanks."
+
+SPEAKER_01 (2 segs, 25.9s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (5 segs, 7.3s, 3 embedded)
+  "Sorry."
+  "I was hoping it wouldn't come to this."
+  "My last resort posh."
+  "Obtained from a mad yogi in the mystery mountains."
+  "It's time to find out what it does."
+
+SPEAKER_03 (12 segs, 46.7s, 9 embedded)
+  "OK, Ron James, it's time."
+  "Aye, listen up, Bros."
+  "Here's the plan."
+  "We're heading for Big Butt Rock."
+  "At sundown, we'll gather on the Cheeks Peak, and using the ahas, deep feels, and"
+
+SPEAKER_04 (5 segs, 21.5s, 3 embedded)
+  "Dance, dance, dance and dance writing."
+  "I'm dancing, dancing, dancing, dancing."
+  "Hey, check it out, y'all."
+  "The dirty old stranger's writing, too."
+  "See you at the secret thing tonight."
+
+SPEAKER_05 (109 segs, 181.0s, 44 embedded)
+  "Road trip!"
+  "Check out this sweet make-out wagon!"
+  "Life-giving makers, bro!"
+  "Yo, yo, yo!"
+  "Yo, yo!"
+
+SPEAKER_06 (17 segs, 33.3s, 9 embedded)
+  "Who's this guy?"
+  "I don't know."
+  "We just picked him up."
+  "That's the kind of trip this is going to be."
+  "It's a destiny will guide us kind of thing."
+
+SPEAKER_07 (2 segs, 10.4s, 2 embedded)
+  "Let's all write down arcane cryptic words and unexpected new combinations and pa"
+  "Maybe the nymphs can dance on top of the bus to be like our muses."
+
+SPEAKER_08 (4 segs, 20.4s, 4 embedded)
+  "Whoa, do you guys know this person?"
+  "No, but his eyes are just gorg."
+  "Maybe this is a test from destiny, guys."
+  "If we all just surrender to these events, the answer will reveal itself."
+
+SPEAKER_09 (12 segs, 38.3s, 8 embedded)
+  "Here we go."
+  "They're probably going to try to lure us on some dumb trip."
+  "Hey, water nymphs."
+  "Uh, hi."
+  "Do you girls feel like going on a road trip?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_09: 0.637  <- possible match
+  SPEAKER_07 <-> SPEAKER_09: 0.622  <- possible match
+  SPEAKER_02 <-> SPEAKER_03: 0.606  <- possible match
+  SPEAKER_06 <-> SPEAKER_09: 0.637
+  SPEAKER_07 <-> SPEAKER_09: 0.622
+  SPEAKER_02 <-> SPEAKER_03: 0.606
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E13.npz

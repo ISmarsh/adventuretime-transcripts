@@ -1,0 +1,21 @@
+{
+  "episode_id": "AT.S02E25",
+  "title": "Mortal Recoil",
+  "season": 2,
+  "speaker_map": {
+    "SPEAKER_03": "Ice King",
+    "SPEAKER_05": "Jake",
+    "SPEAKER_06": "Finn_S01-S03",
+    "SPEAKER_07": "Jake",
+    "SPEAKER_04": "Ice King"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_08"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-10T00:50:41"
+}

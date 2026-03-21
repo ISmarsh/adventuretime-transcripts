@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S06E19",
+  "title": "Is That You",
+  "season": 6,
+  "speaker_map": {
+    "SPEAKER_02": "Finn_S04-S06",
+    "SPEAKER_04": "Jake",
+    "SPEAKER_06": "Jake",
+    "SPEAKER_03": "Prismo"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_05"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T18:09:04"
+}

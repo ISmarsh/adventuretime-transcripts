@@ -1,0 +1,21 @@
+{
+  "episode_id": "AT.S10E12",
+  "title": "Gumbaldia",
+  "season": 10,
+  "speaker_map": {
+    "SPEAKER_02": "Princess Bubblegum",
+    "SPEAKER_03": "Princess Bubblegum",
+    "SPEAKER_07": "Finn_S07-S10"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_08"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T13:31:41"
+}

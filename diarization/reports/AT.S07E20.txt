@@ -1,0 +1,69 @@
+Episode: AT.S07E20 (Bad Jubies)
+9 speaker clusters, 244 total segments
+
+
+SPEAKER_00 (4 segs, 30.7s, 4 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Come along with me and the butterflies and bees."
+  "This party is so crazy!"
+
+SPEAKER_01 (7 segs, 15.1s, 4 embedded)
+  "This is a storm alert from the automated weather service in effect for the grass"
+  "Residents must evacuate or seek shelter immediately."
+  "Wait, what?"
+  "And now your local forecast."
+  "Today, expect storm later winds and an impending monsoonami."
+
+SPEAKER_02 (9 segs, 22.7s, 6 embedded)
+  "Holy tornado twins!"
+  "Peek-a-boo, I will hurt you."
+  "Now!"
+  "Don't hurt us!"
+  "But I only feel good about myself when I knock other people down."
+
+SPEAKER_03 (14 segs, 28.9s, 6 embedded)
+  "Hmm."
+  "Wait, wait, wait."
+  "That one."
+  "No, no, no."
+  "That tweet tweet one."
+
+SPEAKER_04 (61 segs, 71.1s, 15 embedded)
+  "Oh, man."
+  "My body feels weird."
+  "How long is this going to last, man?"
+  "A whole week?"
+  "What do we do?"
+
+SPEAKER_05 (59 segs, 111.4s, 30 embedded)
+  "Uh, dude, that's because you just got glide-sliced by the ice duo."
+  "Whoa."
+  "Too much electricity to the noggin, bro."
+  "It'll be fine."
+  "Oh."
+
+SPEAKER_06 (66 segs, 101.9s, 23 embedded)
+  "So then Melissa's like, what do you think of him?"
+  "And I'm all, well, he's no ray of sunshine or whatever."
+  "You know these people you just get like negi vibes from?"
+  "Yeah, like bad juvies or something."
+  "Totally."
+
+SPEAKER_07 (23 segs, 29.3s, 8 embedded)
+  "Oh, he's down by the river."
+  "Oh, okay."
+  "The Beemo will talk to him."
+  "Water butt."
+  "I am the water butt."
+
+SPEAKER_08 (1 segs, 19.3s, 0 embedded)
+  "It is so beautiful."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_03: 0.542
+  SPEAKER_02 <-> SPEAKER_03: 0.531
+  SPEAKER_02 <-> SPEAKER_05: 0.450
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E20.npz

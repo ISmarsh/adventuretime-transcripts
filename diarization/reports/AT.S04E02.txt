@@ -1,0 +1,93 @@
+Episode: AT.S04E02 (Five Short Graybles)
+13 speaker clusters, 168 total segments
+
+
+SPEAKER_00 (4 segs, 24.3s, 3 embedded)
+  "A glass of delicious nursing water for my lady."
+  "A chuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu"
+  "LSP!"
+  "That was the most amazing thing ever!"
+
+SPEAKER_01 (2 segs, 4.0s, 2 embedded)
+  "Everyone's worthless at this talent show."
+  "I'm totally gonna win when I sing."
+
+SPEAKER_02 (9 segs, 33.5s, 6 embedded)
+  "Ugh."
+  "I've been ready this whole time, dude!"
+  "Just waiting on you to say when you're- Super ultimate high-five, go!"
+  "Oh, yes!"
+  "Okay."
+
+SPEAKER_03 (7 segs, 13.0s, 4 embedded)
+  "These lumps."
+  "I know you want to slump up on these lumps."
+  "But you can't cause you're a chump."
+  "These lumps, I know you want to slump upon these lumps."
+  "Hey!"
+
+SPEAKER_04 (24 segs, 38.5s, 9 embedded)
+  "Oh, my glob."
+  "Back to your dump."
+  "Wow."
+  "That's my song."
+  "That sounds good."
+
+SPEAKER_05 (4 segs, 24.4s, 4 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Oh, man."
+  "Oh, boy."
+
+SPEAKER_06 (1 segs, 25.6s, 0 embedded)
+  "This party is so good!"
+
+SPEAKER_07 (19 segs, 29.8s, 4 embedded)
+  "No, I don't need anything."
+  "Thank you."
+  "Okay, goodbye, Finn and Jake."
+  "Bye, BMO."
+  "Jake?"
+
+SPEAKER_08 (25 segs, 71.5s, 17 embedded)
+  "Hm?"
+  "Oh, gleevil Babel Graves."
+  "You're just in time."
+  "Babel Cuberspoon to watch an incal-dribble adventure from days of old on my Holl"
+  "Five stories, each relating to one special theme."
+
+SPEAKER_09 (26 segs, 58.7s, 18 embedded)
+  "Gunter, something stinks."
+  "Gunter, do you smell that?"
+  "Gunter, stop playing the keyboard!"
+  "Smells like it's coming from..."
+  "Gunter, are you blowing it up in here?"
+
+SPEAKER_10 (5 segs, 19.7s, 3 embedded)
+  "Oh, oh."
+  "Oh, glob."
+  "Jingle, jingle!"
+  "Yeast on third, flour on first, swell the dough."
+  "Fit to burst!"
+
+SPEAKER_11 (4 segs, 16.5s, 3 embedded)
+  "Well, this is it, Cinnamon Bun."
+  "The most perfect sandwich that has ever existed, or ever will exist, within the "
+  "Will you do the honors?"
+  "But... but you didn't... you didn't even... taste it."
+
+SPEAKER_12 (33 segs, 39.2s, 9 embedded)
+  "All right, BMO."
+  "We're back in an hour."
+  "You sure you don't need anything from the Grocery Kingdom?"
+  "Yeah, see you later, BMO."
+  "You see, man?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_10: 0.615  <- possible match
+  SPEAKER_02 <-> SPEAKER_10: 0.615
+  SPEAKER_03 <-> SPEAKER_04: 0.583
+  SPEAKER_02 <-> SPEAKER_04: 0.572
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E02.npz

@@ -1,0 +1,26 @@
+{
+  "episode_id": "AT.S06E34",
+  "title": "Chips and Ice Cream",
+  "season": 6,
+  "speaker_map": {
+    "SPEAKER_04": "BMO",
+    "SPEAKER_07": "Jake",
+    "SPEAKER_11": "Finn_S04-S06",
+    "SPEAKER_12": "Finn_S04-S06"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_10",
+    "SPEAKER_13"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:48:15"
+}

@@ -1,0 +1,78 @@
+Episode: AT.S04E22 (Ignition Point)
+10 speaker clusters, 210 total segments
+
+
+SPEAKER_00 (5 segs, 30.2s, 2 embedded)
+  "Hey, is that new?"
+  "Yeah, I think it is."
+  "What do you guys think of this painting?"
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (12 segs, 33.0s, 5 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we can win the battle."
+  "Yes, it is new."
+
+SPEAKER_02 (7 segs, 7.2s, 2 embedded)
+  "This needs something more."
+  "Yes."
+  "Yes, that's the stuff."
+  "Whoa!"
+  "It's him!"
+
+SPEAKER_03 (10 segs, 30.4s, 8 embedded)
+  "You guys are full of magic air."
+  "Yeah, it's just the air smells bad from your magic tricks, and now I feel sad."
+  "I left all my scented candles at the castle."
+  "They'd really cut through the magic stink."
+  "Then I'll have to see my dad."
+
+SPEAKER_04 (5 segs, 17.4s, 3 embedded)
+  "That was awesome!"
+  "All right, all right, my turn."
+  "Naked babies, naked babies, naked babies."
+  "Naked babies, naked babies, naked babies."
+  "Naked babies, naked babies, naked babies."
+
+SPEAKER_05 (2 segs, 2.5s, 0 embedded)
+  "Panda!"
+  "My identity!"
+
+SPEAKER_06 (21 segs, 36.0s, 11 embedded)
+  "Kill the Flame King?"
+  "This is treason disguised as a play."
+  "Guards, seize them!"
+  "What?"
+  "No!"
+
+SPEAKER_07 (58 segs, 94.1s, 22 embedded)
+  "Gross!"
+  "No!"
+  "Princess?"
+  "You OK?"
+  "Flambeau, we need you to cast Flameshield on us."
+
+SPEAKER_08 (40 segs, 70.1s, 14 embedded)
+  "Ready?"
+  "Yes."
+  "Just go back to the fire kingdom and get them."
+  "Problem solved."
+  "Oh!"
+
+SPEAKER_09 (46 segs, 117.8s, 29 embedded)
+  "It ain't me."
+  "Whoa!"
+  "I love my grandma."
+  "No one comes here."
+  "Not since Flame Princess led the castle."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_09: 0.495
+  SPEAKER_04 <-> SPEAKER_07: 0.473
+  SPEAKER_08 <-> SPEAKER_09: 0.470
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E22.npz

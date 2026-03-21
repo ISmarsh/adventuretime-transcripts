@@ -1,0 +1,19 @@
+{
+  "episode_id": "AT.S08E12",
+  "title": "Preboot",
+  "season": 8,
+  "speaker_map": {
+    "SPEAKER_01": "Jake",
+    "SPEAKER_02": "Princess Bubblegum",
+    "SPEAKER_05": "Finn_S07-S10"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T13:09:01"
+}

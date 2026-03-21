@@ -1,0 +1,55 @@
+Episode: AT.S03E10 (What Was Missing)
+7 speaker clusters, 176 total segments
+
+
+SPEAKER_00 (3 segs, 23.2s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "One more time?"
+
+SPEAKER_01 (2 segs, 27.8s, 1 embedded)
+  "Come along with me"
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+SPEAKER_02 (33 segs, 63.3s, 16 embedded)
+  "Hey, man, what you doing?"
+  "Dude!"
+  "Don't worry, bro."
+  "We won't tell anyone about the private time you spend with your wad of Princess "
+  "You guys knew?"
+
+SPEAKER_03 (5 segs, 30.6s, 2 embedded)
+  "Who are you?"
+  "Hey!"
+  "Ooh!"
+  "It's over Jor Lord so hand over our stuff What's he trying to say"
+  "Oh, coolio!"
+
+SPEAKER_04 (33 segs, 70.7s, 23 embedded)
+  "Get back here, you thieving door lord!"
+  "You butt!"
+  "It's the door of the Door Lord, Finn."
+  "We used to lock them up, but they kept breaking out, because they're Door Lords."
+  "I'm just going to get stuff to cook that."
+
+SPEAKER_05 (32 segs, 111.8s, 19 embedded)
+  "They broke out because you let them live."
+  "I know how to get through this door."
+  "We're gonna lay down a chill jam."
+  "Yeah, yeah, yeah!"
+  "Just keep it cool."
+
+SPEAKER_06 (64 segs, 177.5s, 34 embedded)
+  "Jake?"
+  "BMO?"
+  "I'll get your kid back, toy!"
+  "Come on, Bubble Gum!"
+  "Marceline are you okay?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_03: 0.339
+  SPEAKER_04 <-> SPEAKER_05: 0.299
+  SPEAKER_03 <-> SPEAKER_06: 0.291
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E10.npz

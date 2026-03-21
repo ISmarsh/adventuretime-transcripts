@@ -1,0 +1,52 @@
+Episode: AT.S05E29 (Sky Witch)
+7 speaker clusters, 208 total segments
+
+
+SPEAKER_00 (4 segs, 20.9s, 3 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Whee!"
+  "Ha ha!"
+
+SPEAKER_01 (3 segs, 5.3s, 1 embedded)
+  "You...what?"
+  "Listen, Matcha, I am not your familiar anymore."
+  "I want to be a dancer."
+
+SPEAKER_02 (2 segs, 25.9s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_03 (2 segs, 1.4s, 0 embedded)
+  "Boo-hoo."
+  "Boo-hoo-hoo-hoo."
+
+SPEAKER_04 (24 segs, 49.5s, 12 embedded)
+  "Listen, Bubbubs."
+  "I tracked down Maja, the sky witch."
+  "Oh, what?"
+  "Yeah, I tailed her to an enchanted forest, but it's all jammed up with barrier s"
+  "Well, you love getting out your big brain, and I just thought it'd be cool to sp"
+
+SPEAKER_05 (125 segs, 218.3s, 55 embedded)
+  "Okay, okay, I'm up."
+  "Hey everybody, I've asked you here today because you are the best of the best."
+  "Anyway, recent data shows an increased chance of threat to the Candy Kingdom."
+  "So I'm developing a new defense."
+  "I've installed sleeping gas in the Gumball Guardians."
+
+SPEAKER_06 (43 segs, 84.8s, 21 embedded)
+  "Now, make a fist with your brain and punch against sleepy times!"
+  "Say no!"
+  "No!"
+  "No!"
+  "Don't go on gentle into that good night."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_06: 0.619  <- possible match
+  SPEAKER_05 <-> SPEAKER_06: 0.619
+  SPEAKER_04 <-> SPEAKER_05: 0.281
+  SPEAKER_04 <-> SPEAKER_06: 0.259
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E29.npz

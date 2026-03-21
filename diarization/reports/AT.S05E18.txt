@@ -1,0 +1,87 @@
+Episode: AT.S05E18 (Princess Potluck)
+11 speaker clusters, 299 total segments
+
+
+SPEAKER_00 (5 segs, 21.2s, 4 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+  "Okay."
+
+SPEAKER_01 (4 segs, 29.6s, 1 embedded)
+  "Hey Gunter!"
+  "Gunter, come party with us."
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "This party is so crazy!"
+
+SPEAKER_02 (13 segs, 18.8s, 6 embedded)
+  "No, Gunter!"
+  "This is a little old lady calling about the loud party."
+  "Yeah."
+  "Hold on."
+  "Let me get my husband."
+
+SPEAKER_03 (2 segs, 3.7s, 1 embedded)
+  "Yes, I did."
+  "I sent your invite in the mail."
+
+SPEAKER_04 (8 segs, 10.5s, 2 embedded)
+  "Welcome to the potluck, guys."
+  "What's up with the limp?"
+  "Well, sit down and relax."
+  "Oh, by the way, I entered everyone's name into a raffle."
+  "Oh, how wonderful."
+
+SPEAKER_05 (11 segs, 17.7s, 4 embedded)
+  "And the winner gets whatever is in that."
+  "It looks like you don't have to make that lemon run after all."
+  "That's it."
+  "Woo!"
+  "Party time, right guys?"
+
+SPEAKER_06 (38 segs, 56.4s, 14 embedded)
+  "I'm just kidding."
+  "Man, I wish I had my other sock."
+  "This cowess is going to junk up my good time at PB's potluck."
+  "Don't worry, man."
+  "Bootsoes!"
+
+SPEAKER_07 (35 segs, 28.0s, 5 embedded)
+  "He's got you."
+  "He's got everyone having a dream."
+  "Get them buns on the dance floor, girl!"
+  "Gunter!"
+  "Gunter!"
+
+SPEAKER_08 (31 segs, 44.2s, 9 embedded)
+  "The shooter ash is gross, man."
+  "Oh, I'm going to throw up."
+  "We're going to have a ton of fun."
+  "We'll eat some melon."
+  "I'll get some compliments on my pretty makeup."
+
+SPEAKER_09 (14 segs, 18.0s, 3 embedded)
+  "Wank."
+  "I need you to shut down this party."
+  "There's someone at the door."
+  "Yes?"
+  "Oh, hi, Johnny."
+
+SPEAKER_10 (114 segs, 196.3s, 52 embedded)
+  "Making hair teepees for my happy please to live in."
+  "Do, do, do, do."
+  "Live in."
+  "Do, do, do, do."
+  "Someone outside is messing with my eyes."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.732  <- possible match
+  SPEAKER_03 <-> SPEAKER_05: 0.607  <- possible match
+  SPEAKER_09 <-> SPEAKER_10: 0.601  <- possible match
+  SPEAKER_04 <-> SPEAKER_05: 0.732
+  SPEAKER_03 <-> SPEAKER_05: 0.607
+  SPEAKER_09 <-> SPEAKER_10: 0.601
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E18.npz

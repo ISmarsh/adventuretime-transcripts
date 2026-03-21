@@ -1,0 +1,69 @@
+Episode: AT.S05E10 (Little Dude)
+9 speaker clusters, 254 total segments
+
+
+SPEAKER_00 (13 segs, 33.9s, 6 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Hope you are hungry!"
+  "I just thought you kept better company."
+  "Don't touch anything."
+
+SPEAKER_01 (6 segs, 21.3s, 5 embedded)
+  "I did it up big time for you!"
+  "Oh, hello."
+  "Aren't you a cutie?"
+  "Hey, are you lost, tiny gentleman?"
+  "Evil presence detected."
+
+SPEAKER_02 (3 segs, 5.8s, 1 embedded)
+  "Thank you, my newly conscious bros. Now return your life forces to me."
+  "I loved every minute!"
+  "Not living!"
+
+SPEAKER_03 (8 segs, 24.5s, 4 embedded)
+  "Ah!"
+  "Hey, relax."
+  "Woo hoo!"
+  "Shh!"
+  "Night night."
+
+SPEAKER_04 (58 segs, 41.0s, 8 embedded)
+  "Yes!"
+  "Rob, dude, your hat's alive!"
+  "This is crazy."
+  "There's a hot green next door."
+  "Nang!"
+
+SPEAKER_05 (71 segs, 107.8s, 22 embedded)
+  "Didn't Lady tell you not to use the sausage flare?"
+  "Yeah?"
+  "Well, don't abuse it, man, because you're getting..."
+  "I'm getting what?"
+  "Because you're getting fat."
+
+SPEAKER_06 (48 segs, 103.5s, 28 embedded)
+  "What?"
+  "What are you talking about?"
+  "Your hat accidentally touched my head flower."
+  "See?"
+  "My magic imbues anything it touches with an evil spirit."
+
+SPEAKER_07 (33 segs, 57.6s, 18 embedded)
+  "I think the swimming hole is right around the corner."
+  "First one in the water is... First one in the water."
+  "No fair."
+  "I have to take off my stuff."
+  "We're getting a swirl!"
+
+SPEAKER_08 (1 segs, 28.6s, 0 embedded)
+  "Come along with me and the butterflies and bees We can wander through the forest"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.664  <- possible match
+  SPEAKER_03 <-> SPEAKER_04: 0.664
+  SPEAKER_02 <-> SPEAKER_06: 0.592
+  SPEAKER_04 <-> SPEAKER_06: 0.583
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E10.npz

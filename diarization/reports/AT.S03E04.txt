@@ -1,0 +1,50 @@
+Episode: AT.S03E04 (Hitman)
+7 speaker clusters, 193 total segments
+
+
+SPEAKER_00 (1 segs, 25.5s, 0 embedded)
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 28.3s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "To a cliff under a tree This party is so crazy!"
+
+SPEAKER_02 (9 segs, 14.4s, 4 embedded)
+  "You guys, I... What do you think grounded means?"
+  "It's wasted, man."
+  "Oh, great."
+  "Now see what you did to my buddy?"
+  "So help me, Ice King."
+
+SPEAKER_03 (32 segs, 50.1s, 15 embedded)
+  "Sis, give me the phone."
+  "Oh, hey, Finn."
+  "I've got another ice king situation here."
+  "Oh, yeah?"
+  "That would be great."
+
+SPEAKER_04 (113 segs, 227.7s, 64 embedded)
+  "Good morning, breakfast princesses."
+  "Okay."
+  "Awesome."
+  "This is so unfair!"
+  "They're the ones who should be grounded, not me!"
+
+SPEAKER_05 (33 segs, 73.6s, 16 embedded)
+  "Man, who cares if it's honey?"
+  "You stink anyways."
+  "What's up with the peace sign?"
+  "Oh, no, I was just trying to show you how many weeks you got."
+  "Get out of here, Bubble Butt!"
+
+SPEAKER_06 (1 segs, 2.3s, 1 embedded)
+  "Punch, punch, punch."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.640  <- possible match
+  SPEAKER_02 <-> SPEAKER_03: 0.640
+  SPEAKER_04 <-> SPEAKER_05: 0.585
+  SPEAKER_03 <-> SPEAKER_05: 0.568
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E04.npz

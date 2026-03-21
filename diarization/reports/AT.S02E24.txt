@@ -1,0 +1,61 @@
+Episode: AT.S02E24 (Mortal Folly)
+8 speaker clusters, 176 total segments
+
+
+SPEAKER_00 (2 segs, 20.3s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (1 segs, 23.2s, 0 embedded)
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (13 segs, 28.6s, 7 embedded)
+  "Don't know."
+  "I'm thinking of pillows stuffed with spaghetti."
+  "Me too."
+  "Here I go."
+  "My pack!"
+
+SPEAKER_03 (5 segs, 5.2s, 2 embedded)
+  "That's it!"
+  "I'm gonna bark him!"
+  "Whoa!"
+  "Ahh!"
+  "Stop!"
+
+SPEAKER_04 (48 segs, 131.6s, 33 embedded)
+  "Clear your minds."
+  "I have to go check on something."
+  "Can we go with?"
+  "Perhaps you are ready to go with."
+  "Guys, you'll need to put these on."
+
+SPEAKER_05 (47 segs, 101.0s, 26 embedded)
+  "Hey, hey, hey."
+  "So I've been thinking about this a lot lately."
+  "And well, gosh, I'm so nervous."
+  "Finn and Jake, will you give me your blessing so I can marry Princess Bubblegum?"
+  "What is wrong with you?"
+
+SPEAKER_06 (52 segs, 95.0s, 26 embedded)
+  "Jake, what am I supposed to be meditating about?"
+  "That's freaking nuts."
+  "Dude, be a big sword."
+  "Oh, OK."
+  "I'll try."
+
+SPEAKER_07 (6 segs, 13.3s, 3 embedded)
+  "Billy's big old beef fingers."
+  "Oh, what's wrong with me?"
+  "No."
+  "Phew!"
+  "Let's blow this stand!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_07: 0.645  <- possible match
+  SPEAKER_05 <-> SPEAKER_07: 0.645
+  SPEAKER_02 <-> SPEAKER_03: 0.495
+  SPEAKER_02 <-> SPEAKER_06: 0.457
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E24.npz

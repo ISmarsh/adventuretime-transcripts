@@ -1,0 +1,93 @@
+Episode: AT.S05E03 (Five More Short Graybles)
+14 speaker clusters, 181 total segments
+
+
+SPEAKER_00 (2 segs, 19.1s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (1 segs, 27.0s, 0 embedded)
+  "This party is so crazy!"
+
+SPEAKER_02 (23 segs, 27.0s, 4 embedded)
+  "Messed."
+  "Yeah, I'll try it."
+  "Could always stand to feel better."
+  "Check it."
+  "You sure you read that spell right?"
+
+SPEAKER_03 (13 segs, 36.8s, 8 embedded)
+  "Okay, so..."
+  "Okay, so I'm still pretty sure this old book's some warlock spell book or someth"
+  "Warlocks, dude."
+  "You ready for some ancient feel-good spellcraft?"
+  "Let's see."
+
+SPEAKER_04 (7 segs, 10.6s, 2 embedded)
+  "Oh, what a good boy, man."
+  "All right, ma'am."
+  "Let's see."
+  "How do you spell your name?"
+  "R. Okay."
+
+SPEAKER_05 (4 segs, 7.4s, 3 embedded)
+  "I'm glad you brought this matter to the authorities, ma'am."
+  "Now, what exactly happened?"
+  "Well, can you read somewhere else?"
+  "You kind of offended tree trunks here."
+
+SPEAKER_06 (9 segs, 36.1s, 6 embedded)
+  "Yeah, I don't know."
+  "Geez, I'm never going to find this place."
+  "Hmm."
+  "You seem cool!"
+  "Do you know where Wizard Bill's music shop is?"
+
+SPEAKER_07 (28 segs, 77.6s, 18 embedded)
+  "Poor football."
+  "You've come so far, but still have so much to learn."
+  "But I don't understand, BMO."
+  "I'm a real baby girl now."
+  "I can smell the reddest lilacs."
+
+SPEAKER_08 (28 segs, 96.5s, 22 embedded)
+  "Oh, hello there."
+  "Babel, Mabel, it's great to see you."
+  "Here for more Graybles, I reckon."
+  "Well, all right, just like last time."
+  "We'll watch five separate stories, each relating to one special theme."
+
+SPEAKER_09 (1 segs, 4.6s, 1 embedded)
+  "Let's clean up these streets."
+
+SPEAKER_10 (28 segs, 75.1s, 20 embedded)
+  "Always your manners."
+  "Oh, whoops!"
+  "Hey, tree trunks."
+  "Excuse me, sir."
+  "I wasn't looking where I was... Tree trunks, up here!"
+
+SPEAKER_11 (26 segs, 58.5s, 17 embedded)
+  "Family meeting."
+  "Family meeting."
+  "Gather round."
+  "Things are gonna change around here very soon."
+  "You're gonna have a new mommy to help boss you around."
+
+SPEAKER_12 (1 segs, 7.8s, 1 embedded)
+  "Super good boys!"
+
+SPEAKER_13 (8 segs, 13.4s, 4 embedded)
+  "Hey, tree trunks."
+  "Oh."
+  "Hey, tree trunks, how are you?"
+  "Shelby, have you been up there all day?"
+  "Yes."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_05: 0.477
+  SPEAKER_04 <-> SPEAKER_05: 0.466
+  SPEAKER_09 <-> SPEAKER_10: 0.462
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E03.npz

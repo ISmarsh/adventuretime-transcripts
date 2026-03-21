@@ -1,0 +1,69 @@
+Episode: AT.S02E02 (The Eyes)
+9 speaker clusters, 240 total segments
+
+
+SPEAKER_00 (2 segs, 24.1s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 26.3s, 1 embedded)
+  "Come along with me"
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (24 segs, 52.9s, 15 embedded)
+  "I should go."
+  "Gentlemen, I'll see you later."
+  "Well, you should really have more!"
+  "Okay, okay, I'll tell you."
+  "I was watching you!"
+
+SPEAKER_03 (5 segs, 6.8s, 2 embedded)
+  "Huh?"
+  "Come and get it, hawks!"
+  "Come and get it!"
+  "Easy, stupid, dumb, big bunny!"
+  "Yeah!"
+
+SPEAKER_04 (7 segs, 12.9s, 4 embedded)
+  "That's super creepy."
+  "Man, I just want to go to sleep."
+  "All right, man."
+  "Let's just go push him off that hill or something."
+  "Let's get back to bed, buddy."
+
+SPEAKER_05 (5 segs, 9.5s, 3 embedded)
+  "Right here!"
+  "Did you find out that I sleep in the nude?"
+  "It's none of your business how nude I sleep, Ice King."
+  "None of your business!"
+  "Yeah, and make it quick, because we're both really sleepy."
+
+SPEAKER_06 (147 segs, 230.1s, 62 embedded)
+  "Man, why am I so sleepy?"
+  "Dude, we've been up for like seven days."
+  "For realsies?"
+  "And we went to LSP's Quinceañera."
+  "I swear I found him like this."
+
+SPEAKER_07 (18 segs, 34.0s, 9 embedded)
+  "Not going to be able to sleep with that horse watching me."
+  "Out of sight, out of mind."
+  "Good work, Jake."
+  "See you in the morning, pal."
+  "Forget it, man."
+
+SPEAKER_08 (30 segs, 65.4s, 16 embedded)
+  "Yeah, for realsies."
+  "Remember, first we rescued the slime princess from the ghost ship Vortex."
+  "Then we slayed that fire dragon."
+  "And that took a couple of days."
+  "Oh, no way."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_08: 0.818  <- likely same character
+  SPEAKER_05 <-> SPEAKER_07: 0.694  <- possible match
+  SPEAKER_04 <-> SPEAKER_07: 0.643  <- possible match
+  SPEAKER_05 <-> SPEAKER_08: 0.608  <- possible match
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E02.npz

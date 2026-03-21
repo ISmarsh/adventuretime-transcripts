@@ -1,0 +1,60 @@
+Episode: AT.S08E16 (Wheels)
+7 speaker clusters, 215 total segments
+
+
+SPEAKER_00 (7 segs, 32.4s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Glam-pah!"
+  "Glam-pah!"
+  "Glam-pah!"
+
+SPEAKER_01 (44 segs, 90.6s, 24 embedded)
+  "Woo-hoo!"
+  "Yes, this is a hoot."
+  "Yes, quite."
+  "Of course, we could have murdered them, but I was holding back."
+  "I'm glad you didn't show up, Dad."
+
+SPEAKER_02 (83 segs, 129.9s, 25 embedded)
+  "And the winner of the three-legged race is... Not us!"
+  "But we ran a fair race, Kim Kil-won."
+  "I have a granddaughter?"
+  "Oh, mm-hmm."
+  "What are you thinking?"
+
+SPEAKER_03 (33 segs, 46.5s, 12 embedded)
+  "Hey, Bronwyn, isn't that your dad?"
+  "Nope, that's my granddad."
+  "What, you here to boss me?"
+  "Yeah, okay."
+  "Show me some moves."
+
+SPEAKER_04 (7 segs, 9.7s, 3 embedded)
+  "Classic Bronwyn."
+  "Jake!"
+  "Jake!"
+  "Math!"
+  "This dude don't give a dump."
+
+SPEAKER_05 (26 segs, 65.6s, 15 embedded)
+  "Nice one, Bronwyn."
+  "I mean, hey, I love your dad, but we're nothing alike."
+  "It looks like this round, Gramps, is a real square."
+  "Bronwyn beefed it."
+  "I got this."
+
+SPEAKER_06 (14 segs, 18.2s, 5 embedded)
+  "Yeah!"
+  "Whoa, radical."
+  "How'd you do that?"
+  "I got this."
+  "I got this."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.544
+  SPEAKER_02 <-> SPEAKER_06: 0.488
+  SPEAKER_03 <-> SPEAKER_05: 0.349
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E16.npz

@@ -1,0 +1,84 @@
+Episode: AT.S06E08 (Furniture & Meat)
+12 speaker clusters, 201 total segments
+
+
+SPEAKER_00 (2 segs, 20.8s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (1 segs, 25.7s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and you so as w"
+
+SPEAKER_02 (12 segs, 19.5s, 5 embedded)
+  "Hey, what are you doing?"
+  "No people or money allowed in the fountain, you dumbs."
+  "Where's your sunset?"
+  "Hey, no furniture or meat in the fountain."
+  "You'll wreck up the water."
+
+SPEAKER_03 (8 segs, 36.1s, 8 embedded)
+  "I don't like sleeping on your side."
+  "It's too close to the wall."
+  "Finn and Jake, yes, you have insulted me, but worse than that, you've abused the"
+  "We will deal with you swiftly and ironically by encasing you in your own molten "
+  "Release the golden flood!"
+
+SPEAKER_04 (1 segs, 0.6s, 0 embedded)
+  "Okay."
+
+SPEAKER_05 (10 segs, 12.3s, 2 embedded)
+  "Mabel, do you hear something?"
+  "Good evening."
+  "Okay."
+  "I can't sleep on my back, man."
+  "I got sleep apnea."
+
+SPEAKER_06 (22 segs, 40.1s, 12 embedded)
+  "Stand and deliver it, boy!"
+  "Because I'm Robin Hood!"
+  "Give me all your funny money, Cherry Folk Nottingham!"
+  "But BMO, I don't want to be the bad guy."
+  "I want to be Robin Hood's pal, Friar Tux."
+
+SPEAKER_07 (11 segs, 31.0s, 5 embedded)
+  "I'm sorry, master."
+  "You told me to stay inside the money room, but now I am outside."
+  "What is your punishment, master?"
+  "All right."
+  "I will chill where I am until you command me."
+
+SPEAKER_08 (8 segs, 12.9s, 4 embedded)
+  "Neptune knows just the place to blow your grease."
+  "Behold, this recent advertisement."
+  "Yep."
+  "Thanks, but we're middle class."
+  "Really?"
+
+SPEAKER_09 (78 segs, 165.9s, 35 embedded)
+  "Hey!"
+  "What are you kids doing breaking the treehouse?"
+  "Yo, BMO, what happened?"
+  "Whoa, we get mail?"
+  "Check it out, Jake."
+
+SPEAKER_10 (43 segs, 56.2s, 17 embedded)
+  "Who would have thought we could have too much treasure?"
+  "No punishment, dude."
+  "Just chill where you are."
+  "So what should we do with all this swash?"
+  "No way, BMO."
+
+SPEAKER_11 (5 segs, 11.3s, 4 embedded)
+  "Fellas, goofing in a public fountain is punishable by a lashing."
+  "And you're trying to bribe me?"
+  "Oh, that's what I'm talking about, fellas."
+  "Have a good time in the fountain."
+  "You can't buy me off twice, fellas."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_11: 0.498
+  SPEAKER_05 <-> SPEAKER_11: 0.465
+  SPEAKER_02 <-> SPEAKER_05: 0.435
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E08.npz

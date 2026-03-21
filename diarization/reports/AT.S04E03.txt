@@ -1,0 +1,59 @@
+Episode: AT.S04E03 (Web Weirdos)
+7 speaker clusters, 245 total segments
+
+
+SPEAKER_00 (4 segs, 18.7s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+
+SPEAKER_01 (4 segs, 27.7s, 4 embedded)
+  "Come along with me and the butterflies and bees."
+  "We can wander through the forest and do so as we please."
+  "Come along with me"
+  "To a cliff under a tree This party is so crazy!"
+
+SPEAKER_02 (38 segs, 68.3s, 14 embedded)
+  "Yo, Finn, look what I found."
+  "A vertical trampoline."
+  "It's sticky."
+  "This is cool, man."
+  "I'm gonna take a nap while you grow out your fingernails."
+
+SPEAKER_03 (94 segs, 162.7s, 36 embedded)
+  "No, I'm just tired from setting traps all day, solo style."
+  "Why are you mad?"
+  "I just said I was tired."
+  "But you're acting like you're mad."
+  "I'm not mad!"
+
+SPEAKER_04 (57 segs, 87.5s, 21 embedded)
+  "Dude, it's a spider web."
+  "Oh."
+  "Well, cut me out, yo."
+  "No way."
+  "I'll stunt you out."
+
+SPEAKER_05 (35 segs, 92.4s, 17 embedded)
+  "The spiders are back!"
+  "We gotta go, Jake."
+  "Jake!"
+  "So what, you're not talking to me now?"
+  "I spin webs too, Ed."
+
+SPEAKER_06 (9 segs, 10.7s, 2 embedded)
+  "Stunts!"
+  "Hi-yah!"
+  "It's over!"
+  "It's over!"
+  "We're free!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.609  <- possible match
+  SPEAKER_03 <-> SPEAKER_04: 0.609
+  SPEAKER_04 <-> SPEAKER_05: 0.575
+  SPEAKER_02 <-> SPEAKER_04: 0.442
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E03.npz

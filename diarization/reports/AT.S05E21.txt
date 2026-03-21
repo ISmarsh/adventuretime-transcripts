@@ -1,0 +1,70 @@
+Episode: AT.S05E21 (The Suitor)
+9 speaker clusters, 236 total segments
+
+
+SPEAKER_00 (4 segs, 18.7s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+
+SPEAKER_01 (9 segs, 31.2s, 6 embedded)
+  "Peanut butler this peppermint butler cease these dark magic activities."
+  "She has been in her lab for nine weeks."
+  "She needs to get out socialize Look her suitors her faithful suitors waiting for"
+  "You must try"
+  "The Candy Kingdom worries for its leader, and it worries for you, Dark One."
+
+SPEAKER_02 (67 segs, 116.9s, 33 embedded)
+  "Who's that?"
+  "Okay, yeah."
+  "Thank you, Brocco."
+  "That's very sweet, but no."
+  "That is way out of line, Peps."
+
+SPEAKER_03 (3 segs, 15.4s, 3 embedded)
+  "Lord Arduide, Master of Level 8 Shadow World."
+  "The Willing Vessel issues forth its pure essence."
+  "Who's that, huh?"
+
+SPEAKER_04 (47 segs, 75.7s, 17 embedded)
+  "You must overtake the vessel, as night must overtake the day!"
+  "By your very nature, you cannot deny my will!"
+  "Oh no, Ogoad!"
+  "You are mine!"
+  "All right, you guys."
+
+SPEAKER_05 (4 segs, 4.5s, 0 embedded)
+  "It's my right!"
+  "Princess all the night!"
+  "Princess!"
+  "You broke my hand!"
+
+SPEAKER_06 (73 segs, 138.7s, 27 embedded)
+  "What's your deal?"
+  "I'm Brocco, and I was born to court the Princess Bubblegum."
+  "How old are you?"
+  "21 years."
+  "I inherited my father's place in line after his ascension."
+
+SPEAKER_07 (11 segs, 21.8s, 4 embedded)
+  "PB, who's the new guy?"
+  "Oh, cool."
+  "That's cool."
+  "You're dating."
+  "That's cool."
+
+SPEAKER_08 (17 segs, 36.0s, 10 embedded)
+  "Hello, what jazz is this?"
+  "Peppermint Butler!"
+  "That's the last straw!"
+  "I will fill you with the shadow of a thousand brown portals!"
+  "Hey, let me go first I got stuff to do today What'd you do that for you neglect "
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.545
+  SPEAKER_06 <-> SPEAKER_07: 0.290
+  SPEAKER_02 <-> SPEAKER_04: 0.225
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E21.npz

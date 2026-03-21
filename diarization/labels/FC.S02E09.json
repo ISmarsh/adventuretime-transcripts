@@ -1,0 +1,25 @@
+{
+  "episode_id": "FC.S02E09",
+  "title": "The Worm and his Orchard",
+  "season": 2,
+  "speaker_map": {
+    "SPEAKER_00": "Princess Bubblegum",
+    "SPEAKER_02": "Fionna",
+    "SPEAKER_06": "Prismo_FC",
+    "SPEAKER_09": "Cake",
+    "SPEAKER_12": "Huntress Wizard",
+    "SPEAKER_03": "Fionna",
+    "SPEAKER_10": "Fern",
+    "SPEAKER_01": "Orbo",
+    "SPEAKER_11": "Witch Wizard",
+    "SPEAKER_05": "Orbo"
+  },
+  "skipped": [
+    "SPEAKER_04",
+    "SPEAKER_07",
+    "SPEAKER_08"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-09T22:00:17"
+}

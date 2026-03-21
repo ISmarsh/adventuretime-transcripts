@@ -1,0 +1,90 @@
+Episode: AT.S05E01 (Finn the Human)
+13 speaker clusters, 262 total segments
+
+
+SPEAKER_00 (2 segs, 25.8s, 0 embedded)
+  "Dang it!"
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+SPEAKER_01 (10 segs, 16.3s, 5 embedded)
+  "Mom?"
+  "Mom, what's wrong?"
+  "Finn, I need you to do something for me."
+  "It's very important."
+  "I need you to take the mule into town today and sell him for as much as you can."
+
+SPEAKER_02 (2 segs, 7.6s, 2 embedded)
+  "I'm gonna go up there and show them my face!"
+  "Hello?"
+
+SPEAKER_03 (1 segs, 17.7s, 0 embedded)
+  "He's heading for that cube!"
+
+SPEAKER_04 (2 segs, 21.9s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_05 (8 segs, 11.6s, 3 embedded)
+  "I'll take it."
+  "Oh, I'm poor."
+  "But what about I trade you for a personal concert at your house?"
+  "I'll come over later and sing you like four songs."
+  "I mostly do covers, but I have originals too."
+
+SPEAKER_06 (23 segs, 34.6s, 11 embedded)
+  "What?"
+  "He's gone."
+  "What?"
+  "What happened?"
+  "Hey, hey, did you guys see that?"
+
+SPEAKER_07 (15 segs, 17.8s, 5 embedded)
+  "Oh yeah."
+  "Oh, yeah."
+  "Jazz."
+  "Hmm."
+  "Hmm."
+
+SPEAKER_08 (59 segs, 81.5s, 19 embedded)
+  "Nasty- Hey, hey, easy buddy."
+  "That's our friend Billy."
+  "He got possessed by the Lich."
+  "What?"
+  "Oh, glob!"
+
+SPEAKER_09 (18 segs, 34.7s, 10 embedded)
+  "My eye!"
+  "I will junk your face!"
+  "What the?"
+  "Destiny Kang, get out of town!"
+  "We're sick of being bullied around!"
+
+SPEAKER_10 (38 segs, 94.4s, 14 embedded)
+  "No!"
+  "This crown is magic!"
+  "Two dangers for mortal fingies like yours."
+  "1,000 years ago, my beloved friend Simon Petrikoff gave his life to save this fo"
+  "A frightful bomb was poised to bathe the land in mutagenic horror."
+
+SPEAKER_11 (11 segs, 19.2s, 6 embedded)
+  "Hmm."
+  "Ooh."
+  "Um... Oh, man!"
+  "Trami, what you think?"
+  "Is it my style?"
+
+SPEAKER_12 (72 segs, 120.6s, 30 embedded)
+  "Come on, Jake."
+  "Do you know where he went?"
+  "We have to find our friend."
+  "I wish that life wasn't any more extinct."
+  "Whoa!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_12: 0.666  <- possible match
+  SPEAKER_02 <-> SPEAKER_12: 0.666
+  SPEAKER_11 <-> SPEAKER_12: 0.547
+  SPEAKER_02 <-> SPEAKER_11: 0.445
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E01.npz

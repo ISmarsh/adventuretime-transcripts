@@ -1,0 +1,84 @@
+Episode: AT.S05E48 (Betty)
+11 speaker clusters, 216 total segments
+
+
+SPEAKER_00 (9 segs, 28.6s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Yes, Belenoche."
+  "We've procured the staff using the full extent of our wizardy ways."
+  "But you look like a nerd."
+
+SPEAKER_01 (1 segs, 28.0s, 0 embedded)
+  "This party is so crazy!"
+
+SPEAKER_02 (79 segs, 188.8s, 32 embedded)
+  "And mine."
+  "What the blood?"
+  "Ice King."
+  "Listen, dudes, all I want is to be in the club and plus up my magic."
+  "What's the problem?"
+
+SPEAKER_03 (12 segs, 29.0s, 8 embedded)
+  "Hey, hey, I can't feel my magic!"
+  "Move the base down."
+  "Be reasonable."
+  "Do you still have impressions from all the times you flipped your bricks?"
+  "Yo, my lab got creamed."
+
+SPEAKER_04 (40 segs, 55.9s, 13 embedded)
+  "Where's my Princess?"
+  "Princess!"
+  "Simon, don't leave me like this."
+  "Betty?"
+  "Simon?"
+
+SPEAKER_06 (15 segs, 21.3s, 9 embedded)
+  "A one."
+  "A two."
+  "A one, two, three, four."
+  "Wait."
+  "What?"
+
+SPEAKER_07 (4 segs, 11.6s, 3 embedded)
+  "Stop that now, trash cones."
+  "Bello no che must not cross into our world."
+  "And why not again?"
+  "Stuck!"
+
+SPEAKER_08 (9 segs, 12.9s, 3 embedded)
+  "Me neither."
+  "What gives?"
+  "Belenoche is a being of pure anti-magic!"
+  "Y'all's got played!"
+  "Dang."
+
+SPEAKER_09 (13 segs, 24.7s, 7 embedded)
+  "Oh, what a fool am I!"
+  "Go!"
+  "Destroy!"
+  "Throw your boots at it or I don't know!"
+  "This brioche won't stop growing."
+
+SPEAKER_10 (10 segs, 19.3s, 8 embedded)
+  "So right and tight, I get restless leg syndrome about it."
+  "Look."
+  "Um, yeah, but... Kinda sounds like a good idea."
+  "I've got you in my sights, Simon."
+  "Get real, man."
+
+SPEAKER_11 (17 segs, 39.9s, 10 embedded)
+  "Have you obtained the Staff of Strand St. Doblo?"
+  "Then the time has come to reveal my true form."
+  "And when I materialize on this... All this stress has gone down, man."
+  "You will receive your end of the deal."
+  "The lost system of antediluvian magic, the tightest of all whispers."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_09: 0.643  <- possible match
+  SPEAKER_07 <-> SPEAKER_09: 0.643
+  SPEAKER_07 <-> SPEAKER_08: 0.529
+  SPEAKER_08 <-> SPEAKER_09: 0.527
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E48.npz

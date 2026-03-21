@@ -1,0 +1,64 @@
+Episode: AT.S07E19 (Blank-Eyed Girl)
+9 speaker clusters, 198 total segments
+
+
+SPEAKER_00 (3 segs, 37.6s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "I think it was beautiful."
+
+SPEAKER_01 (2 segs, 4.1s, 1 embedded)
+  "Girl stuff, boy stuff, gear stuff, butt stuff."
+  "Hey, creepy stuff."
+
+SPEAKER_02 (60 segs, 113.9s, 30 embedded)
+  "Welcome back to Graveyard Shift."
+  "I'm your host, Starchy."
+  "You know what today is, everybody?"
+  "It's our fifth anniversary show."
+  "So many things have happened in that time."
+
+SPEAKER_03 (68 segs, 128.2s, 34 embedded)
+  "I'm trying to listen to the frightened caller."
+  "Baloney!"
+  "The pizza."
+  "Take the rest to go."
+  "Okay, all boxed up and ready to go."
+
+SPEAKER_04 (34 segs, 76.3s, 16 embedded)
+  "Dude, come on."
+  "Yeah, that's pretty good."
+  "Why do they have a tune to this every time we're here?"
+  "I call bologna."
+  "I'm listening to a dumb nonsense radio show."
+
+SPEAKER_05 (15 segs, 39.3s, 4 embedded)
+  "Boo!"
+  "That was stupid."
+  "Yeah, stupid."
+  "Uh-uh."
+  "She's too creepy man, I know I know But I got an idea Welcome next Carla."
+
+SPEAKER_06 (8 segs, 17.1s, 4 embedded)
+  "So I think I might have seen something not from this world."
+  "Go ahead, caller."
+  "What happened last Sunday?"
+  "I was doing my laundry at the mat when I saw a reflection of a girl with eerie b"
+  "I turned around, but nobody was there."
+
+SPEAKER_07 (3 segs, 20.2s, 3 embedded)
+  "Boo!"
+  "Is this creeping you out?"
+  "Who is this?"
+
+SPEAKER_08 (2 segs, 12.7s, 2 embedded)
+  "Yes."
+  "Jake, stop!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.550
+  SPEAKER_04 <-> SPEAKER_06: 0.500
+  SPEAKER_03 <-> SPEAKER_05: 0.497
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E19.npz

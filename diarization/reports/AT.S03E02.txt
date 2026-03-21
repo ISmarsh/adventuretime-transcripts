@@ -1,0 +1,48 @@
+Episode: AT.S03E02 (Morituri Te Salutamus)
+6 speaker clusters, 163 total segments
+
+
+SPEAKER_00 (2 segs, 21.8s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 27.7s, 1 embedded)
+  "Come along with me"
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+SPEAKER_02 (56 segs, 103.5s, 27 embedded)
+  "Jake why didn't you stick to the plan?"
+  "Hey, you want to bump baby lumps?"
+  "Sick."
+  "No, just try to follow the plans."
+  "Okay?"
+
+SPEAKER_03 (19 segs, 36.4s, 11 embedded)
+  "We're back!"
+  "Fools!"
+  "Yeah!"
+  "Finn?"
+  "Amazonia!"
+
+SPEAKER_04 (33 segs, 129.4s, 28 embedded)
+  "Fighters."
+  "Fighters!"
+  "Seek you glory from the Fight King?"
+  "Then step forth beyond the Moonlight Seal to behave in blood and glory forever!"
+  "All exits are sealed!"
+
+SPEAKER_05 (51 segs, 157.8s, 33 embedded)
+  "It calls me forth."
+  "Man, it's probably just puberty calling."
+  "We sniffed out that trap like champs."
+  "Trying to get us up in that cursed arena."
+  "We probably have to fight gladiator ghosts."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.662  <- possible match
+  SPEAKER_02 <-> SPEAKER_03: 0.662
+  SPEAKER_03 <-> SPEAKER_04: 0.574
+  SPEAKER_03 <-> SPEAKER_05: 0.505
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E02.npz

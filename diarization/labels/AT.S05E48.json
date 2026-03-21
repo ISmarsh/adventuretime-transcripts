@@ -1,0 +1,23 @@
+{
+  "episode_id": "AT.S05E48",
+  "title": "Betty",
+  "season": 5,
+  "speaker_map": {
+    "SPEAKER_00": "LSP",
+    "SPEAKER_02": "Ice King",
+    "SPEAKER_06": "Marceline",
+    "SPEAKER_10": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_11"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:49:55"
+}

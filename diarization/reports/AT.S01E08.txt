@@ -1,0 +1,71 @@
+Episode: AT.S01E08 (Business Time)
+10 speaker clusters, 224 total segments
+
+
+SPEAKER_00 (2 segs, 27.8s, 1 embedded)
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (3 segs, 33.4s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Jake and I will fend off these battle cubes."
+
+SPEAKER_02 (4 segs, 4.5s, 1 embedded)
+  "Oh, my gosh."
+  "Leave me alone."
+  "All I saw was your ugly little solid trail."
+  "Somebody help me!"
+
+SPEAKER_03 (75 segs, 143.6s, 38 embedded)
+  "We found another bike and more computers."
+  "What do you got?"
+  "I keep finding baby shoes."
+  "What the heck, man?"
+  "And they're all lefties."
+
+SPEAKER_04 (10 segs, 20.3s, 7 embedded)
+  "Come on, let's try it out!"
+  "Guys, stop it!"
+  "Stop it, guys!"
+  "You're jacking up those fuzzy friends!"
+  "But you're making them unhappy!"
+
+SPEAKER_05 (13 segs, 18.0s, 5 embedded)
+  "Got him!"
+  "Ooh!"
+  "Take one for team two."
+  "Yay!"
+  "Oh, lost again!"
+
+SPEAKER_06 (3 segs, 9.0s, 2 embedded)
+  "All right, let me try."
+  "I'm Princess Bubblegum, and I'm a dwarf because I like science."
+  "I've also got a really annoying voice that then thinks is attractive."
+
+SPEAKER_07 (70 segs, 148.2s, 38 embedded)
+  "Keep it together, Chubby, because I think we found enough scrap to finish buildi"
+  "A dock that is also a gauntlet."
+  "Don't be lazy, J.B."
+  "Incoming iceberg!"
+  "Stand back, Jake!"
+
+SPEAKER_08 (4 segs, 2.4s, 1 embedded)
+  "Oh, dawg."
+  "Woo-hoo!"
+  "Happy."
+  "Thank you."
+
+SPEAKER_09 (38 segs, 84.3s, 19 embedded)
+  "I remember business."
+  "We are businessmen."
+  "What kind of business do you do?"
+  "Been frozen."
+  "So long, I can't remember."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_07: 0.779  <- likely same character
+  SPEAKER_06 <-> SPEAKER_07: 0.605  <- possible match
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E08.npz

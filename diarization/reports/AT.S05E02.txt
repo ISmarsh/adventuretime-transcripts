@@ -1,0 +1,74 @@
+Episode: AT.S05E02 (Jake the Dog)
+10 speaker clusters, 233 total segments
+
+
+SPEAKER_00 (2 segs, 27.1s, 0 embedded)
+  "What are you doing?"
+  "This party is so crazy!"
+
+SPEAKER_01 (4 segs, 18.7s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+
+SPEAKER_02 (2 segs, 16.0s, 2 embedded)
+  "Whew."
+  "I wish for the extinction of all life for Finn and Jake to go back home to Ooo."
+
+SPEAKER_03 (5 segs, 8.7s, 2 embedded)
+  "I've taught you well, my traitorous gang."
+  "Now, honey, I told you."
+  "You can take the sign off when you tell me where you hid Daddy's crown jewels."
+  "Mwah!"
+  "Gunter!"
+
+SPEAKER_04 (12 segs, 27.8s, 6 embedded)
+  "Oh."
+  "Man, your view of relationships is very bleak."
+  "Don't you get lonely?"
+  "I have friends."
+  "Hello, hello."
+
+SPEAKER_05 (53 segs, 104.7s, 24 embedded)
+  "I'll save you!"
+  "Finn?"
+  "Whoa, alternate wish world Finn is mad uglies."
+  "Dang, I'm mad uglies too!"
+  "Nah, sandwich is good."
+
+SPEAKER_06 (86 segs, 141.6s, 36 embedded)
+  "Finn!"
+  "Hey guy, where's my buddy?"
+  "Oh, when he wished for the Lich to have never existed, Finn left my time room an"
+  "We could watch him on my TV wall."
+  "Everything looks nuts."
+
+SPEAKER_07 (14 segs, 25.0s, 4 embedded)
+  "What on earth did this?"
+  "I did this."
+  "You see Big Destiny anywhere?"
+  "Big D's chillin' over here, wasteland style."
+  "Ow!"
+
+SPEAKER_08 (37 segs, 56.7s, 16 embedded)
+  "I can hear the Crown's promise of power invading my brain."
+  "No, that's not possible."
+  "I raised you better than that."
+  "It's true."
+  "I put out the fire."
+
+SPEAKER_09 (17 segs, 38.7s, 6 embedded)
+  "I warned you, Google."
+  "Destiny King!"
+  "Careful there."
+  "Careful."
+  "You dankos."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_08: 0.504
+  SPEAKER_08 <-> SPEAKER_09: 0.498
+  SPEAKER_04 <-> SPEAKER_05: 0.463
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E02.npz

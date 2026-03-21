@@ -1,0 +1,122 @@
+Episode: FC.S02E04 (The Cat Who Tipped the Box)
+16 speaker clusters, 356 total segments
+
+
+SPEAKER_00 (8 segs, 15.7s, 5 embedded)
+  "Marshall, I heard you got kicked out of your squad."
+  "If there's anything I can do... Jeez, Mom."
+  "I guess Wish Magic is off the table."
+  "I mean, unless you know another Wish Master."
+  "Fi!"
+
+SPEAKER_01 (3 segs, 9.4s, 3 embedded)
+  "Once upon a time, deep in the forest, dwelled an old huntsman and his wife."
+  "And more than anything, they wanted a family."
+  "Follow the beat to the roots."
+
+SPEAKER_02 (32 segs, 46.6s, 13 embedded)
+  "So what's the verdict?"
+  "I'm giving Prismo's pickles an eight or nine on crunch."
+  "Hello?"
+  "Am I talking to Cake, the cat?"
+  "Mm-hmm."
+
+SPEAKER_03 (11 segs, 24.1s, 9 embedded)
+  "What did you find, baby?"
+  "Hey, stop!"
+  "He's friendly."
+  "Perfect angel."
+  "Actions have consequences!"
+
+SPEAKER_04 (15 segs, 35.7s, 10 embedded)
+  "You used to be magnificent."
+  "Ugh."
+  "Was it always this cold?"
+  "Oh, long time no see."
+  "Hi, gun... ice thing."
+
+SPEAKER_05 (90 segs, 185.6s, 48 embedded)
+  "Time to get"
+  "Today is a new day."
+  "I have a fundraiser to organize and promote."
+  "Huh."
+  "Yeah."
+
+SPEAKER_06 (16 segs, 35.7s, 8 embedded)
+  "Hey Fiona, how are you doing?"
+  "I just wanted to let you know I set up a Parks Department meeting at five."
+  "Don't be late, okay?"
+  "Fiona, I wasn't expecting... How are you?"
+  "Uh... Hey, Hunter."
+
+SPEAKER_07 (8 segs, 30.4s, 4 embedded)
+  "I would have said no, but since she got back, she's really got it together."
+  "I got your text."
+  "Fiona?"
+  "Fiona?"
+  "Fiona?"
+
+SPEAKER_08 (14 segs, 22.7s, 7 embedded)
+  "Okay, we need flour, like a heap of flour."
+  "Hey, guys."
+  "Check out all this stuff I swiped."
+  "I'll be right back."
+  "And they told me I was the perfect candidate for their hybrid program."
+
+SPEAKER_09 (42 segs, 85.6s, 16 embedded)
+  "What are you waiting for?"
+  "We want to make a wish to cure Finn."
+  "He's in critical condition."
+  "Uh-oh."
+  "I gotta change!"
+
+SPEAKER_10 (10 segs, 41.0s, 4 embedded)
+  "I guess he moved."
+  "Stretching Cat!"
+  "Play it, girl!"
+  "Gotcha!"
+  "Phew."
+
+SPEAKER_11 (27 segs, 38.6s, 11 embedded)
+  "Nothing!"
+  "I... You made me walk all that way for nothing."
+  "Gotta be careful with these, new girl."
+  "Nah, I come in here all the time."
+  "What time do you get off?"
+
+SPEAKER_12 (17 segs, 40.7s, 11 embedded)
+  "Would you compromise your sound?"
+  "Don't worry."
+  "We're good."
+  "On my way."
+  "Everyone on TV makes big bucks."
+
+SPEAKER_13 (19 segs, 50.3s, 4 embedded)
+  "You are."
+  "Hey, Simon."
+  "Oh, yes."
+  "Hey."
+  "Hey, Scarab."
+
+SPEAKER_14 (19 segs, 24.9s, 7 embedded)
+  "The samples are free."
+  "Ah."
+  "Here we go."
+  "Sustainably milled, ultra-refined."
+  "Oof."
+
+SPEAKER_15 (18 segs, 41.6s, 12 embedded)
+  "DJ Slime coming to you this beautiful afternoon."
+  "Last night's DJ Flame show was packed."
+  "Seems like just yesterday our golden boy was doing tiny garage shows."
+  "I don't know how he got so big."
+  "And not only is he a world-class hunk, the kids at PR win."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_10: 0.623  <- possible match
+  SPEAKER_07 <-> SPEAKER_10: 0.623
+  SPEAKER_05 <-> SPEAKER_09: 0.578
+  SPEAKER_03 <-> SPEAKER_09: 0.560
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S02E04.npz

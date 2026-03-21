@@ -1,0 +1,1668 @@
+{
+  "model": "speechbrain/spkrec-ecapa-voxceleb",
+  "embedding_dim": 192,
+  "updated": "2026-02-10T10:13:11",
+  "profiles": {
+    "Ash": {
+      "samples": 89,
+      "episodes": [
+        "AT.S03E03",
+        "AT.S08E05"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Banana Guard": {
+      "samples": 239,
+      "episodes": [
+        "AT.S03E11",
+        "AT.S04E20",
+        "AT.S05E03",
+        "AT.S05E07",
+        "AT.S05E39",
+        "AT.S05E43",
+        "AT.S06E03",
+        "AT.S07E01",
+        "AT.S07E04",
+        "AT.S07E11",
+        "AT.S07E19",
+        "AT.S07E26",
+        "AT.S08E08",
+        "AT.S08E13",
+        "AT.S08E14",
+        "AT.S08E17",
+        "AT.S10E01",
+        "FC.S02E03",
+        "FC.S02E10"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Big Destiny": {
+      "samples": 4,
+      "episodes": [
+        "FC.S02E03"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Billy": {
+      "samples": 22,
+      "episodes": [
+        "AT.S01E25"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {
+          "first": "S01E25"
+        }
+      }
+    },
+    "BMO": {
+      "samples": 2030,
+      "episodes": [
+        "AT.S00E04",
+        "AT.S01E21",
+        "AT.S01E23",
+        "AT.S01E24",
+        "AT.S02E16",
+        "AT.S02E23",
+        "AT.S03E12",
+        "AT.S03E19",
+        "AT.S03E20",
+        "AT.S03E25",
+        "AT.S04E02",
+        "AT.S04E12",
+        "AT.S04E14",
+        "AT.S04E17",
+        "AT.S04E19",
+        "AT.S05E03",
+        "AT.S05E06",
+        "AT.S05E07",
+        "AT.S05E10",
+        "AT.S05E16",
+        "AT.S05E17",
+        "AT.S05E19",
+        "AT.S05E20",
+        "AT.S05E23",
+        "AT.S05E25",
+        "AT.S05E28",
+        "AT.S05E33",
+        "AT.S05E41",
+        "AT.S06E08",
+        "AT.S06E17",
+        "AT.S06E30",
+        "AT.S06E34",
+        "AT.S07E05",
+        "AT.S07E14",
+        "AT.S07E15",
+        "AT.S07E17",
+        "AT.S07E18",
+        "AT.S07E20",
+        "AT.S07E25",
+        "AT.S08E03",
+        "AT.S08E04",
+        "AT.S08E05",
+        "AT.S08E18",
+        "AT.S08E20",
+        "AT.S08E21",
+        "AT.S08E23",
+        "AT.S09E01",
+        "AT.S09E02",
+        "AT.S09E11",
+        "AT.S09E12",
+        "AT.S10E02",
+        "AT.S10E03",
+        "AT.S10E09",
+        "AT.S10E13",
+        "DL.S01E01"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {},
+        "DL": {
+          "last": "S01E01"
+        }
+      }
+    },
+    "Bufo": {
+      "samples": 224,
+      "episodes": [
+        "AT.S01E11",
+        "AT.S06E40"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {}
+      }
+    },
+    "Business Men": {
+      "samples": 76,
+      "episodes": [
+        "AT.S01E08"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Cake": {
+      "samples": 232,
+      "episodes": [
+        "AT.S03E09",
+        "AT.S05E11",
+        "AT.S08E09",
+        "FC.S02E02",
+        "FC.S02E04",
+        "FC.S02E05",
+        "FC.S02E06",
+        "FC.S02E07",
+        "FC.S02E08",
+        "FC.S02E09",
+        "FC.S02E10"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Candy People": {
+      "samples": 12,
+      "episodes": [
+        "AT.S01E01"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Cinnamon Bun": {
+      "samples": 122,
+      "episodes": [
+        "AT.S01E05",
+        "AT.S02E07",
+        "AT.S04E08",
+        "AT.S05E32",
+        "AT.S05E44",
+        "AT.S05E47",
+        "AT.S08E06",
+        "AT.S09E07"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Clarence": {
+      "samples": 42,
+      "episodes": [
+        "AT.S03E24"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Cosmic Owl_FC": {
+      "samples": 7,
+      "episodes": [
+        "FC.S02E06"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Demon_FC": {
+      "samples": 10,
+      "episodes": [
+        "FC.S02E07"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "DJ Flame": {
+      "samples": 25,
+      "episodes": [
+        "FC.S02E03",
+        "FC.S02E05",
+        "FC.S02E06",
+        "FC.S02E08"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "DJ Slime": {
+      "samples": 9,
+      "episodes": [
+        "FC.S02E06"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Doctor Princess": {
+      "samples": 55,
+      "episodes": [
+        "AT.S02E11",
+        "AT.S06E06",
+        "AT.S08E15"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Ellis P": {
+      "samples": 11,
+      "episodes": [
+        "FC.S02E07"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Fennel": {
+      "samples": 21,
+      "episodes": [
+        "FC.S02E07",
+        "FC.S02E10"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Fern": {
+      "samples": 6,
+      "episodes": [
+        "FC.S02E09"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Finn_DL": {
+      "samples": 131,
+      "episodes": [
+        "DL.S01E03"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "DL": {
+          "first": "S01E03",
+          "last": "S01E03"
+        }
+      }
+    },
+    "Finn_FC": {
+      "samples": 17,
+      "episodes": [
+        "FC.S02E10"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "FC": {
+          "first": "S02E01"
+        }
+      }
+    },
+    "Finn_S01-S03": {
+      "samples": 10396,
+      "episodes": [
+        "AT.S00E01",
+        "AT.S00E02",
+        "AT.S00E14",
+        "AT.S01E01",
+        "AT.S01E02",
+        "AT.S01E03",
+        "AT.S01E04",
+        "AT.S01E05",
+        "AT.S01E06",
+        "AT.S01E07",
+        "AT.S01E08",
+        "AT.S01E09",
+        "AT.S01E10",
+        "AT.S01E11",
+        "AT.S01E12",
+        "AT.S01E13",
+        "AT.S01E14",
+        "AT.S01E15",
+        "AT.S01E16",
+        "AT.S01E17",
+        "AT.S01E18",
+        "AT.S01E19",
+        "AT.S01E20",
+        "AT.S01E21",
+        "AT.S01E22",
+        "AT.S01E23",
+        "AT.S01E24",
+        "AT.S01E25",
+        "AT.S01E26",
+        "AT.S02E01",
+        "AT.S02E02",
+        "AT.S02E03",
+        "AT.S02E04",
+        "AT.S02E05",
+        "AT.S02E06",
+        "AT.S02E07",
+        "AT.S02E08",
+        "AT.S02E09",
+        "AT.S02E10",
+        "AT.S02E11",
+        "AT.S02E12",
+        "AT.S02E13",
+        "AT.S02E14",
+        "AT.S02E15",
+        "AT.S02E16",
+        "AT.S02E17",
+        "AT.S02E18",
+        "AT.S02E19",
+        "AT.S02E20",
+        "AT.S02E21",
+        "AT.S02E22",
+        "AT.S02E23",
+        "AT.S02E24",
+        "AT.S02E25",
+        "AT.S02E26",
+        "AT.S03E01",
+        "AT.S03E02",
+        "AT.S03E03",
+        "AT.S03E04",
+        "AT.S03E05",
+        "AT.S03E06",
+        "AT.S03E07",
+        "AT.S03E08",
+        "AT.S03E10",
+        "AT.S03E11",
+        "AT.S03E12",
+        "AT.S03E13",
+        "AT.S03E14",
+        "AT.S03E15",
+        "AT.S03E16",
+        "AT.S03E17",
+        "AT.S03E18",
+        "AT.S03E19",
+        "AT.S03E20",
+        "AT.S03E21",
+        "AT.S03E22",
+        "AT.S03E23",
+        "AT.S03E24",
+        "AT.S03E25",
+        "AT.S03E26"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {
+          "last": "S03E26"
+        }
+      }
+    },
+    "Finn_S04-S06": {
+      "samples": 4187,
+      "episodes": [
+        "AT.S04E01",
+        "AT.S04E03",
+        "AT.S04E04",
+        "AT.S04E05",
+        "AT.S04E06",
+        "AT.S04E07",
+        "AT.S04E08",
+        "AT.S04E09",
+        "AT.S04E10",
+        "AT.S04E11",
+        "AT.S04E12",
+        "AT.S04E13",
+        "AT.S04E14",
+        "AT.S04E15",
+        "AT.S04E16",
+        "AT.S04E18",
+        "AT.S04E20",
+        "AT.S04E21",
+        "AT.S04E22",
+        "AT.S04E23",
+        "AT.S04E24",
+        "AT.S04E26",
+        "AT.S05E01",
+        "AT.S05E02",
+        "AT.S05E03",
+        "AT.S05E04",
+        "AT.S05E05",
+        "AT.S05E06",
+        "AT.S05E07",
+        "AT.S05E09",
+        "AT.S05E10",
+        "AT.S05E12",
+        "AT.S05E13",
+        "AT.S05E15",
+        "AT.S05E16",
+        "AT.S05E18",
+        "AT.S05E19",
+        "AT.S05E20",
+        "AT.S05E21",
+        "AT.S05E25",
+        "AT.S05E26",
+        "AT.S05E27",
+        "AT.S05E28",
+        "AT.S05E30",
+        "AT.S05E31",
+        "AT.S05E32",
+        "AT.S05E33",
+        "AT.S05E34",
+        "AT.S05E35",
+        "AT.S05E36",
+        "AT.S05E37",
+        "AT.S05E38",
+        "AT.S05E39",
+        "AT.S05E40",
+        "AT.S05E41",
+        "AT.S05E42",
+        "AT.S05E46",
+        "AT.S05E47",
+        "AT.S05E52",
+        "AT.S06E01",
+        "AT.S06E02",
+        "AT.S06E04",
+        "AT.S06E06",
+        "AT.S06E07",
+        "AT.S06E08",
+        "AT.S06E10",
+        "AT.S06E12",
+        "AT.S06E15",
+        "AT.S06E16",
+        "AT.S06E17",
+        "AT.S06E19",
+        "AT.S06E20",
+        "AT.S06E21",
+        "AT.S06E23",
+        "AT.S06E25",
+        "AT.S06E27",
+        "AT.S06E28",
+        "AT.S06E29",
+        "AT.S06E31",
+        "AT.S06E33",
+        "AT.S06E34",
+        "AT.S06E35",
+        "AT.S06E36",
+        "AT.S06E37",
+        "AT.S06E38",
+        "AT.S06E42",
+        "AT.S06E43"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {
+          "first": "S04E01",
+          "last": "S06E43"
+        }
+      }
+    },
+    "Finn_S07-S10": {
+      "samples": 2772,
+      "episodes": [
+        "AT.S07E01",
+        "AT.S07E04",
+        "AT.S07E05",
+        "AT.S07E06",
+        "AT.S07E09",
+        "AT.S07E10",
+        "AT.S07E11",
+        "AT.S07E12",
+        "AT.S07E13",
+        "AT.S07E14",
+        "AT.S07E15",
+        "AT.S07E17",
+        "AT.S07E18",
+        "AT.S07E19",
+        "AT.S07E20",
+        "AT.S07E21",
+        "AT.S07E22",
+        "AT.S07E23",
+        "AT.S07E24",
+        "AT.S07E25",
+        "AT.S07E26",
+        "AT.S08E02",
+        "AT.S08E03",
+        "AT.S08E05",
+        "AT.S08E06",
+        "AT.S08E07",
+        "AT.S08E08",
+        "AT.S08E10",
+        "AT.S08E12",
+        "AT.S08E13",
+        "AT.S08E14",
+        "AT.S08E15",
+        "AT.S08E18",
+        "AT.S08E20",
+        "AT.S08E21",
+        "AT.S08E22",
+        "AT.S08E23",
+        "AT.S08E26",
+        "AT.S08E27",
+        "AT.S09E01",
+        "AT.S09E02",
+        "AT.S09E04",
+        "AT.S09E05",
+        "AT.S09E06",
+        "AT.S09E07",
+        "AT.S09E08",
+        "AT.S09E09",
+        "AT.S09E10",
+        "AT.S09E13",
+        "AT.S09E14",
+        "AT.S10E01",
+        "AT.S10E02",
+        "AT.S10E03",
+        "AT.S10E05",
+        "AT.S10E07",
+        "AT.S10E08",
+        "AT.S10E09",
+        "AT.S10E10",
+        "AT.S10E11",
+        "AT.S10E12",
+        "AT.S10E13"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {
+          "first": "S07E01",
+          "last": "S10E13"
+        },
+        "DL": {}
+      }
+    },
+    "Fionna": {
+      "samples": 616,
+      "episodes": [
+        "AT.S03E09",
+        "AT.S05E11",
+        "AT.S06E09",
+        "AT.S06E11",
+        "AT.S08E09",
+        "AT.S09E12",
+        "FC.S02E02",
+        "FC.S02E03",
+        "FC.S02E04",
+        "FC.S02E05",
+        "FC.S02E06",
+        "FC.S02E07",
+        "FC.S02E08",
+        "FC.S02E09",
+        "FC.S02E10"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Flambo": {
+      "samples": 12,
+      "episodes": [
+        "AT.S03E26"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Flame King": {
+      "samples": 193,
+      "episodes": [
+        "AT.S03E26",
+        "AT.S04E22",
+        "AT.S05E12",
+        "AT.S05E32",
+        "AT.S05E47",
+        "AT.S06E24",
+        "AT.S08E06",
+        "AT.S10E03"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Flame Princess": {
+      "samples": 628,
+      "episodes": [
+        "AT.S04E01",
+        "AT.S04E22",
+        "AT.S05E12",
+        "AT.S05E27",
+        "AT.S05E30",
+        "AT.S05E32",
+        "AT.S05E47",
+        "AT.S06E22",
+        "AT.S06E29",
+        "AT.S08E06",
+        "AT.S10E03"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Flying Squirrel": {
+      "samples": 7,
+      "episodes": [
+        "FC.S02E08"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Gary Prince": {
+      "samples": 88,
+      "episodes": [
+        "FC.S01E06",
+        "FC.S02E02",
+        "FC.S02E05",
+        "FC.S02E06",
+        "FC.S02E10"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "FC": {}
+      }
+    },
+    "Ghost Princess": {
+      "samples": 36,
+      "episodes": [
+        "AT.S03E24"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Glassboy": {
+      "samples": 9,
+      "episodes": [
+        "DL.S01E02"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "DL": {
+          "last": "S01E02"
+        }
+      }
+    },
+    "Gumball Guardian": {
+      "samples": 32,
+      "episodes": [
+        "AT.S01E01"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Hana Abadeer": {
+      "samples": 21,
+      "episodes": [
+        "FC.S02E06",
+        "FC.S02E08"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "FC": {
+          "first": "S02E01"
+        }
+      }
+    },
+    "Hugo": {
+      "samples": 24,
+      "episodes": [
+        "DL.S01E01"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "DL": {
+          "last": "S01E01"
+        }
+      }
+    },
+    "Hunson Abadeer": {
+      "samples": 236,
+      "episodes": [
+        "AT.S02E01",
+        "AT.S04E06",
+        "AT.S10E07"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Hunter": {
+      "samples": 18,
+      "episodes": [
+        "FC.S02E03",
+        "FC.S02E04"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Huntress Wizard": {
+      "samples": 96,
+      "episodes": [
+        "FC.S02E02",
+        "FC.S02E05",
+        "FC.S02E06",
+        "FC.S02E07",
+        "FC.S02E09",
+        "FC.S02E10"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Jake": {
+      "samples": 12562,
+      "episodes": [
+        "AT.S00E01",
+        "AT.S00E02",
+        "AT.S00E09",
+        "AT.S00E10",
+        "AT.S01E01",
+        "AT.S01E02",
+        "AT.S01E03",
+        "AT.S01E04",
+        "AT.S01E05",
+        "AT.S01E06",
+        "AT.S01E07",
+        "AT.S01E08",
+        "AT.S01E09",
+        "AT.S01E10",
+        "AT.S01E11",
+        "AT.S01E12",
+        "AT.S01E13",
+        "AT.S01E14",
+        "AT.S01E15",
+        "AT.S01E16",
+        "AT.S01E17",
+        "AT.S01E18",
+        "AT.S01E19",
+        "AT.S01E20",
+        "AT.S01E21",
+        "AT.S01E22",
+        "AT.S01E23",
+        "AT.S01E24",
+        "AT.S01E25",
+        "AT.S01E26",
+        "AT.S02E02",
+        "AT.S02E03",
+        "AT.S02E04",
+        "AT.S02E05",
+        "AT.S02E06",
+        "AT.S02E07",
+        "AT.S02E08",
+        "AT.S02E09",
+        "AT.S02E10",
+        "AT.S02E11",
+        "AT.S02E12",
+        "AT.S02E13",
+        "AT.S02E15",
+        "AT.S02E16",
+        "AT.S02E17",
+        "AT.S02E18",
+        "AT.S02E19",
+        "AT.S02E20",
+        "AT.S02E21",
+        "AT.S02E22",
+        "AT.S02E23",
+        "AT.S02E24",
+        "AT.S02E25",
+        "AT.S02E26",
+        "AT.S03E01",
+        "AT.S03E02",
+        "AT.S03E03",
+        "AT.S03E04",
+        "AT.S03E05",
+        "AT.S03E06",
+        "AT.S03E08",
+        "AT.S03E10",
+        "AT.S03E11",
+        "AT.S03E12",
+        "AT.S03E13",
+        "AT.S03E14",
+        "AT.S03E15",
+        "AT.S03E16",
+        "AT.S03E18",
+        "AT.S03E19",
+        "AT.S03E21",
+        "AT.S03E22",
+        "AT.S03E23",
+        "AT.S03E24",
+        "AT.S03E25",
+        "AT.S03E26",
+        "AT.S04E01",
+        "AT.S04E02",
+        "AT.S04E03",
+        "AT.S04E04",
+        "AT.S04E05",
+        "AT.S04E06",
+        "AT.S04E07",
+        "AT.S04E08",
+        "AT.S04E09",
+        "AT.S04E10",
+        "AT.S04E11",
+        "AT.S04E12",
+        "AT.S04E13",
+        "AT.S04E14",
+        "AT.S04E15",
+        "AT.S04E16",
+        "AT.S04E17",
+        "AT.S04E18",
+        "AT.S04E21",
+        "AT.S04E22",
+        "AT.S04E23",
+        "AT.S04E24",
+        "AT.S04E26",
+        "AT.S05E02",
+        "AT.S05E03",
+        "AT.S05E04",
+        "AT.S05E05",
+        "AT.S05E06",
+        "AT.S05E07",
+        "AT.S05E09",
+        "AT.S05E10",
+        "AT.S05E13",
+        "AT.S05E15",
+        "AT.S05E16",
+        "AT.S05E17",
+        "AT.S05E18",
+        "AT.S05E19",
+        "AT.S05E23",
+        "AT.S05E25",
+        "AT.S05E26",
+        "AT.S05E27",
+        "AT.S05E28",
+        "AT.S05E30",
+        "AT.S05E31",
+        "AT.S05E32",
+        "AT.S05E33",
+        "AT.S05E34",
+        "AT.S05E35",
+        "AT.S05E36",
+        "AT.S05E37",
+        "AT.S05E38",
+        "AT.S05E39",
+        "AT.S05E40",
+        "AT.S05E41",
+        "AT.S05E42",
+        "AT.S05E45",
+        "AT.S05E48",
+        "AT.S05E49",
+        "AT.S06E01",
+        "AT.S06E02",
+        "AT.S06E03",
+        "AT.S06E04",
+        "AT.S06E06",
+        "AT.S06E07",
+        "AT.S06E08",
+        "AT.S06E11",
+        "AT.S06E12",
+        "AT.S06E16",
+        "AT.S06E17",
+        "AT.S06E18",
+        "AT.S06E19",
+        "AT.S06E20",
+        "AT.S06E21",
+        "AT.S06E25",
+        "AT.S06E26",
+        "AT.S06E28",
+        "AT.S06E29",
+        "AT.S06E30",
+        "AT.S06E31",
+        "AT.S06E33",
+        "AT.S06E34",
+        "AT.S06E35",
+        "AT.S06E36",
+        "AT.S06E37",
+        "AT.S06E38",
+        "AT.S06E42",
+        "AT.S06E43",
+        "AT.S07E01",
+        "AT.S07E04",
+        "AT.S07E05",
+        "AT.S07E06",
+        "AT.S07E08",
+        "AT.S07E10",
+        "AT.S07E11",
+        "AT.S07E12",
+        "AT.S07E14",
+        "AT.S07E15",
+        "AT.S07E16",
+        "AT.S07E17",
+        "AT.S07E18",
+        "AT.S07E19",
+        "AT.S07E20",
+        "AT.S07E21",
+        "AT.S07E23",
+        "AT.S07E24",
+        "AT.S07E25",
+        "AT.S07E26",
+        "AT.S08E02",
+        "AT.S08E03",
+        "AT.S08E05",
+        "AT.S08E10",
+        "AT.S08E11",
+        "AT.S08E12",
+        "AT.S08E13",
+        "AT.S08E14",
+        "AT.S08E15",
+        "AT.S08E16",
+        "AT.S08E18",
+        "AT.S08E20",
+        "AT.S08E21",
+        "AT.S08E22",
+        "AT.S08E23",
+        "AT.S08E26",
+        "AT.S08E27",
+        "AT.S09E01",
+        "AT.S09E02",
+        "AT.S09E04",
+        "AT.S09E05",
+        "AT.S09E10",
+        "AT.S09E14",
+        "AT.S10E01",
+        "AT.S10E02",
+        "AT.S10E05",
+        "AT.S10E07",
+        "AT.S10E08",
+        "AT.S10E10",
+        "AT.S10E11",
+        "AT.S10E13",
+        "DL.S01E03"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {},
+        "DL": {
+          "last": "S01E03"
+        }
+      }
+    },
+    "Jermaine": {
+      "samples": 218,
+      "episodes": [
+        "AT.S06E33",
+        "AT.S09E01",
+        "AT.S09E10",
+        "AT.S10E11"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Joshua": {
+      "samples": 268,
+      "episodes": [
+        "AT.S01E10",
+        "AT.S02E08",
+        "AT.S03E25",
+        "AT.S05E41",
+        "AT.S06E16",
+        "AT.S10E08",
+        "DL.S01E03"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Karmic Worm": {
+      "samples": 1,
+      "episodes": [
+        "FC.S02E02"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "King of Ooo": {
+      "samples": 208,
+      "episodes": [
+        "AT.S05E44",
+        "AT.S06E26",
+        "AT.S06E42",
+        "AT.S07E01",
+        "AT.S07E02",
+        "AT.S07E04",
+        "AT.S07E10",
+        "AT.S07E13"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Lady Rainicorn": {
+      "samples": 13,
+      "episodes": [
+        "AT.S05E41"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {}
+      }
+    },
+    "Lemongrab": {
+      "samples": 631,
+      "episodes": [
+        "AT.S03E05",
+        "AT.S04E20",
+        "AT.S05E08",
+        "AT.S05E09",
+        "AT.S05E10",
+        "AT.S05E18",
+        "AT.S05E24",
+        "AT.S05E31",
+        "AT.S05E50",
+        "AT.S05E51",
+        "AT.S06E28",
+        "AT.S09E02"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {
+          "last": "S10E13"
+        }
+      }
+    },
+    "LSP": {
+      "samples": 1693,
+      "episodes": [
+        "AT.S00E14",
+        "AT.S01E02",
+        "AT.S01E03",
+        "AT.S01E07",
+        "AT.S01E12",
+        "AT.S01E25",
+        "AT.S02E01",
+        "AT.S02E03",
+        "AT.S02E05",
+        "AT.S02E10",
+        "AT.S02E23",
+        "AT.S02E26",
+        "AT.S03E01",
+        "AT.S03E06",
+        "AT.S03E12",
+        "AT.S03E13",
+        "AT.S04E02",
+        "AT.S04E09",
+        "AT.S04E12",
+        "AT.S04E26",
+        "AT.S05E23",
+        "AT.S05E44",
+        "AT.S05E48",
+        "AT.S05E49",
+        "AT.S06E06",
+        "AT.S06E09",
+        "AT.S06E14",
+        "AT.S06E39",
+        "AT.S06E40",
+        "AT.S07E10",
+        "AT.S07E16",
+        "AT.S07E20",
+        "AT.S08E07",
+        "AT.S08E09",
+        "AT.S09E06",
+        "AT.S09E07",
+        "AT.S09E08",
+        "AT.S09E09",
+        "AT.S10E13"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {
+          "last": "S10E13"
+        }
+      }
+    },
+    "Magic Man": {
+      "samples": 58,
+      "episodes": [
+        "AT.S01E20",
+        "AT.S04E15"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {
+          "first": "S01E20"
+        },
+        "DL": {},
+        "FC": {}
+      }
+    },
+    "Marceline": {
+      "samples": 1871,
+      "episodes": [
+        "AT.S00E06",
+        "AT.S00E14",
+        "AT.S01E12",
+        "AT.S02E01",
+        "AT.S02E20",
+        "AT.S02E26",
+        "AT.S03E03",
+        "AT.S03E10",
+        "AT.S03E21",
+        "AT.S04E06",
+        "AT.S04E25",
+        "AT.S05E03",
+        "AT.S05E11",
+        "AT.S05E14",
+        "AT.S05E29",
+        "AT.S05E38",
+        "AT.S05E48",
+        "AT.S06E14",
+        "AT.S06E29",
+        "AT.S07E02",
+        "AT.S07E06",
+        "AT.S07E07",
+        "AT.S07E08",
+        "AT.S07E09",
+        "AT.S07E10",
+        "AT.S07E11",
+        "AT.S07E12",
+        "AT.S07E13",
+        "AT.S08E01",
+        "AT.S09E08",
+        "AT.S09E11",
+        "AT.S10E07",
+        "AT.S10E13",
+        "DL.S01E02"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Margaret": {
+      "samples": 4,
+      "episodes": [
+        "AT.S01E10"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Marshall Lee": {
+      "samples": 67,
+      "episodes": [
+        "FC.S01E07",
+        "FC.S02E03",
+        "FC.S02E04",
+        "FC.S02E05",
+        "FC.S02E06",
+        "FC.S02E07",
+        "FC.S02E08"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Martin": {
+      "samples": 183,
+      "episodes": [
+        "AT.S06E02",
+        "AT.S06E27",
+        "AT.S06E43",
+        "AT.S08E25"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Me-Mow": {
+      "samples": 74,
+      "episodes": [
+        "AT.S03E16",
+        "AT.S05E11",
+        "AT.S07E17",
+        "AT.S08E26"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {
+          "last": "S10E13"
+        }
+      }
+    },
+    "Minerva Campbell": {
+      "samples": 12,
+      "episodes": [
+        "FC.S02E10"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Mr. M": {
+      "samples": 26,
+      "episodes": [
+        "DL.S01E01"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "DL": {
+          "last": "S01E01"
+        }
+      }
+    },
+    "Mr. Pig": {
+      "samples": 30,
+      "episodes": [
+        "AT.S04E04"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Mrs Cupcake": {
+      "samples": 3,
+      "episodes": [
+        "FC.S02E06"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "NEPTR": {
+      "samples": 236,
+      "episodes": [
+        "AT.S01E15",
+        "AT.S04E01",
+        "AT.S04E17",
+        "AT.S05E08",
+        "AT.S06E08",
+        "AT.S07E14",
+        "AT.S07E15",
+        "AT.S07E17",
+        "AT.S08E20",
+        "AT.S10E03",
+        "FC.S02E10"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "New Death": {
+      "samples": 40,
+      "episodes": [
+        "DL.S01E03"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "DL": {}
+      }
+    },
+    "Orbo": {
+      "samples": 28,
+      "episodes": [
+        "FC.S02E08",
+        "FC.S02E09"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Peppermint Butler": {
+      "samples": 381,
+      "episodes": [
+        "AT.S02E15",
+        "AT.S02E17",
+        "AT.S03E05",
+        "AT.S04E02",
+        "AT.S05E21",
+        "AT.S06E01",
+        "AT.S06E15",
+        "AT.S06E17",
+        "AT.S06E42",
+        "AT.S06E43",
+        "AT.S07E06",
+        "AT.S07E08",
+        "AT.S07E10",
+        "AT.S07E11",
+        "AT.S07E12",
+        "AT.S08E19",
+        "AT.S10E07"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {}
+      }
+    },
+    "Peppermint Butler_DL": {
+      "samples": 197,
+      "episodes": [
+        "DL.S01E03",
+        "DL.S01E04"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "DL": {}
+      }
+    },
+    "Peptank": {
+      "samples": 2,
+      "episodes": [
+        "FC.S02E05"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Prince Gumball": {
+      "samples": 129,
+      "episodes": [
+        "AT.S03E09",
+        "AT.S05E11"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Princess Bubblegum": {
+      "samples": 4530,
+      "episodes": [
+        "AT.S00E05",
+        "AT.S00E14",
+        "AT.S01E01",
+        "AT.S01E02",
+        "AT.S01E05",
+        "AT.S01E07",
+        "AT.S01E18",
+        "AT.S01E19",
+        "AT.S01E24",
+        "AT.S02E09",
+        "AT.S02E10",
+        "AT.S02E15",
+        "AT.S02E17",
+        "AT.S02E18",
+        "AT.S02E20",
+        "AT.S02E23",
+        "AT.S02E24",
+        "AT.S02E26",
+        "AT.S03E01",
+        "AT.S03E06",
+        "AT.S03E08",
+        "AT.S03E10",
+        "AT.S03E12",
+        "AT.S03E13",
+        "AT.S03E26",
+        "AT.S04E02",
+        "AT.S04E10",
+        "AT.S04E13",
+        "AT.S04E16",
+        "AT.S04E18",
+        "AT.S04E19",
+        "AT.S04E20",
+        "AT.S04E24",
+        "AT.S05E09",
+        "AT.S05E13",
+        "AT.S05E15",
+        "AT.S05E18",
+        "AT.S05E21",
+        "AT.S05E22",
+        "AT.S05E24",
+        "AT.S05E26",
+        "AT.S05E29",
+        "AT.S05E31",
+        "AT.S05E32",
+        "AT.S05E33",
+        "AT.S05E34",
+        "AT.S05E38",
+        "AT.S05E39",
+        "AT.S05E42",
+        "AT.S05E43",
+        "AT.S05E44",
+        "AT.S05E46",
+        "AT.S05E49",
+        "AT.S05E50",
+        "AT.S05E51",
+        "AT.S06E03",
+        "AT.S06E04",
+        "AT.S06E07",
+        "AT.S06E10",
+        "AT.S06E14",
+        "AT.S06E15",
+        "AT.S06E23",
+        "AT.S06E28",
+        "AT.S06E35",
+        "AT.S06E37",
+        "AT.S06E42",
+        "AT.S06E43",
+        "AT.S07E01",
+        "AT.S07E02",
+        "AT.S07E06",
+        "AT.S07E08",
+        "AT.S07E10",
+        "AT.S07E11",
+        "AT.S07E12",
+        "AT.S07E13",
+        "AT.S07E14",
+        "AT.S07E15",
+        "AT.S07E22",
+        "AT.S07E26",
+        "AT.S08E01",
+        "AT.S08E02",
+        "AT.S08E06",
+        "AT.S08E10",
+        "AT.S08E12",
+        "AT.S08E13",
+        "AT.S08E14",
+        "AT.S08E17",
+        "AT.S08E19",
+        "AT.S08E20",
+        "AT.S09E02",
+        "AT.S09E08",
+        "AT.S09E09",
+        "AT.S09E14",
+        "AT.S10E01",
+        "AT.S10E04",
+        "AT.S10E05",
+        "AT.S10E09",
+        "AT.S10E12",
+        "AT.S10E13",
+        "DL.S01E02",
+        "FC.S02E03",
+        "FC.S02E06",
+        "FC.S02E08",
+        "FC.S02E09",
+        "FC.S02E10"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Prismo": {
+      "samples": 200,
+      "episodes": [
+        "AT.S05E01",
+        "AT.S05E02",
+        "AT.S06E01",
+        "AT.S06E19",
+        "AT.S06E36",
+        "AT.S07E23"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {
+          "last": "S10E13"
+        }
+      }
+    },
+    "Prismo_FC": {
+      "samples": 127,
+      "episodes": [
+        "FC.S01E04",
+        "FC.S02E04",
+        "FC.S02E09",
+        "FC.S02E10"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "FC": {}
+      }
+    },
+    "Queen of Venus": {
+      "samples": 9,
+      "episodes": [
+        "FC.S02E07"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Shelby": {
+      "samples": 79,
+      "episodes": [
+        "AT.S01E09",
+        "AT.S02E23",
+        "AT.S03E20",
+        "AT.S05E08",
+        "AT.S06E11",
+        "AT.S07E25",
+        "AT.S08E02",
+        "AT.S08E03"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Simon": {
+      "samples": 163,
+      "episodes": [
+        "AT.S05E14",
+        "DL.S01E02",
+        "FC.S02E02",
+        "FC.S02E04",
+        "FC.S02E08"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {
+          "first": "S03E20"
+        },
+        "DL": {
+          "last": "S01E02"
+        },
+        "FC": {}
+      }
+    },
+    "Slime Princess": {
+      "samples": 68,
+      "episodes": [
+        "AT.S05E35",
+        "AT.S08E19"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Spirit of the Forest": {
+      "samples": 5,
+      "episodes": [
+        "FC.S02E02"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Spirit Warrior": {
+      "samples": 6,
+      "episodes": [
+        "FC.S02E03",
+        "FC.S02E07"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Starchy": {
+      "samples": 269,
+      "episodes": [
+        "AT.S01E01",
+        "AT.S05E23",
+        "AT.S05E39",
+        "AT.S06E15",
+        "AT.S06E35",
+        "AT.S06E42",
+        "AT.S07E03",
+        "AT.S07E19",
+        "AT.S07E22",
+        "AT.S08E08",
+        "AT.S08E17"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Susan Strong": {
+      "samples": 126,
+      "episodes": [
+        "AT.S02E18",
+        "AT.S03E14",
+        "AT.S06E29"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Sweet P": {
+      "samples": 102,
+      "episodes": [
+        "AT.S06E26",
+        "AT.S06E39",
+        "AT.S09E02",
+        "AT.S09E13",
+        "AT.S10E06"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {
+          "first": "S06E26"
+        }
+      }
+    },
+    "The Scarab": {
+      "samples": 22,
+      "episodes": [
+        "FC.S01E10",
+        "FC.S02E08"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "FC": {}
+      }
+    },
+    "Tiffany Oiler": {
+      "samples": 53,
+      "episodes": [
+        "AT.S05E23",
+        "DL.S01E03"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {
+          "first": "S01E09"
+        },
+        "DL": {},
+        "FC": {}
+      }
+    },
+    "Tiny Manticore": {
+      "samples": 12,
+      "episodes": [
+        "AT.S08E07"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Tree Trunks": {
+      "samples": 1114,
+      "episodes": [
+        "AT.S00E14",
+        "AT.S01E04",
+        "AT.S02E08",
+        "AT.S03E11",
+        "AT.S04E04",
+        "AT.S05E03",
+        "AT.S05E08",
+        "AT.S05E35",
+        "AT.S05E44",
+        "AT.S05E45",
+        "AT.S06E02",
+        "AT.S06E16",
+        "AT.S06E26",
+        "AT.S06E39",
+        "AT.S07E16",
+        "AT.S08E03",
+        "AT.S08E17",
+        "AT.S09E02",
+        "AT.S10E02",
+        "AT.S10E06"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Vampire King": {
+      "samples": 1,
+      "episodes": [
+        "FC.S02E06"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Water Nymphs": {
+      "samples": 33,
+      "episodes": [
+        "AT.S02E07"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Wildberry Princess": {
+      "samples": 36,
+      "episodes": [
+        "AT.S03E16",
+        "AT.S05E19"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Winter King": {
+      "samples": 34,
+      "episodes": [
+        "FC.S01E06"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "FC": {}
+      }
+    },
+    "Witch Wizard": {
+      "samples": 19,
+      "episodes": [
+        "FC.S02E02",
+        "FC.S02E09"
+      ],
+      "updated": "2026-02-10T10:13:11"
+    },
+    "Y5": {
+      "samples": 73,
+      "episodes": [
+        "DL.S01E01"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "DL": {
+          "last": "S01E01"
+        }
+      }
+    },
+    "Young Marceline": {
+      "samples": 241,
+      "episodes": [
+        "AT.S03E03",
+        "AT.S04E10",
+        "AT.S04E20",
+        "AT.S05E14",
+        "AT.S06E21",
+        "AT.S07E07",
+        "AT.S07E22",
+        "DL.S01E02"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {
+          "first": "S03E03"
+        },
+        "DL": {
+          "last": "S01E02"
+        }
+      }
+    },
+    "Young PB": {
+      "samples": 125,
+      "episodes": [
+        "AT.S03E05",
+        "AT.S08E24",
+        "AT.S10E04"
+      ],
+      "updated": "2026-02-10T10:13:11",
+      "series_range": {
+        "AT": {
+          "last": "S10E13"
+        }
+      }
+    }
+  }
+}

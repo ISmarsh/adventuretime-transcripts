@@ -1,0 +1,40 @@
+Episode: AT.S03E15 (No One Can Hear You)
+5 speaker clusters, 220 total segments
+
+
+SPEAKER_00 (2 segs, 21.5s, 2 embedded)
+  "Picture time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 28.3s, 0 embedded)
+  "Come along with me and the butterflies and bees We can wander through the forest"
+  "This party is so good!"
+
+SPEAKER_02 (120 segs, 170.7s, 45 embedded)
+  "Right."
+  "Yeah, I saw that."
+  "Did you save everybody?"
+  "Oh, yeah, I think so."
+  "Maybe."
+
+SPEAKER_03 (85 segs, 153.9s, 37 embedded)
+  "Be careful!"
+  "Grab him, Jake!"
+  "Jake!"
+  "Whatever."
+  "What happened?"
+
+SPEAKER_04 (8 segs, 25.2s, 4 embedded)
+  "No!"
+  "Oh my god!"
+  "Lo?"
+  "Whoa!"
+  "Thank you."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_04: 0.423
+  SPEAKER_00 <-> SPEAKER_04: 0.396
+  SPEAKER_02 <-> SPEAKER_03: 0.345
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E15.npz

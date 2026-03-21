@@ -1,0 +1,101 @@
+Episode: AT.S08E23 (Imaginary Resources)
+14 speaker clusters, 165 total segments
+
+
+SPEAKER_00 (1 segs, 8.8s, 1 embedded)
+  "Choose your avatar!"
+
+SPEAKER_01 (11 segs, 42.6s, 4 embedded)
+  "He targeted my booty disk."
+  "L-O-L-I-S-T-O-N-O-N-O-N-O-N-O-N-O-N-O-N-O-N-O-N-O-N-O-N-O-N-O-N-O-N-O-N-O-N-O-N-"
+  "Yep."
+  "Okay."
+  "Ah yeah, here comes the mod."
+
+SPEAKER_02 (23 segs, 71.0s, 9 embedded)
+  "Smeemo mo mo mo losing Where's all the dirt Yeah What are those balls the coffin"
+  "Yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, ye"
+  "Yo!"
+  "Parum Zero your hitbox, System Dumps!"
+  "Who's a System Dump?"
+
+SPEAKER_03 (7 segs, 15.1s, 1 embedded)
+  "Do it."
+  "I can't fit."
+  "Are you still carrying that egg?"
+  "Yeah, it feels good."
+  "Get rid of it, man."
+
+SPEAKER_04 (5 segs, 8.9s, 2 embedded)
+  "Yeah!"
+  "Yeah!"
+  "Get safer!"
+  "Ha ha ha ha!"
+  "This party is so crazy!"
+
+SPEAKER_05 (5 segs, 9.5s, 2 embedded)
+  "Get cup."
+  "Get cups."
+  "Get peas."
+  "Oh, we're back!"
+  "Get baseball bats!"
+
+SPEAKER_06 (16 segs, 42.7s, 12 embedded)
+  "Baby, head into my heart!"
+  "Yogurt!"
+  "Beemo, we found you!"
+  "What?"
+  "I can do nothing for you in this reality, Vinnie."
+
+SPEAKER_07 (2 segs, 25.5s, 0 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands With Ben and Jake and "
+
+SPEAKER_08 (14 segs, 17.1s, 5 embedded)
+  "I don't know yet."
+  "This, baby, this."
+  "Mama, this."
+  "BMO!"
+  "I'm gonna just go yank off his goggles."
+
+SPEAKER_09 (15 segs, 32.2s, 4 embedded)
+  "Is this whole place a fancy human graveyard?"
+  "What are you doing with that egg?"
+  "Beemo!"
+  "I'm beautiful."
+  "Ha ha!"
+
+SPEAKER_10 (13 segs, 29.8s, 7 embedded)
+  "Well, look who it is."
+  "Welcome back to your palace, your majesty."
+  "Hi, Vinny."
+  "Who's Vinny?"
+  "I thought I was hereby known as Get In Here."
+
+SPEAKER_11 (4 segs, 8.3s, 3 embedded)
+  "So, you really don't want to come with us?"
+  "You sure you don't want me to milk you up afresh in your style?"
+  "No, I'm used to it now."
+  "Why don't you want to come with us?"
+
+SPEAKER_12 (28 segs, 57.1s, 10 embedded)
+  "You all want to see my dance club?"
+  "I love your skin, BMO."
+  "I want to have your virus."
+  "Thank you."
+  "Dance responsibly."
+
+SPEAKER_13 (16 segs, 15.5s, 2 embedded)
+  "Huh."
+  "Old claim."
+  "Choose your avatar!"
+  "Oh wow, this place is objectively interesting."
+  "You look crazy!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_09: 0.511
+  SPEAKER_01 <-> SPEAKER_09: 0.500
+  SPEAKER_11 <-> SPEAKER_12: 0.482
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E23.npz

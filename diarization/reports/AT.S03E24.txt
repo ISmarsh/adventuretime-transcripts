@@ -1,0 +1,90 @@
+Episode: AT.S03E24 (Ghost Princess)
+13 speaker clusters, 240 total segments
+
+
+SPEAKER_00 (2 segs, 25.6s, 1 embedded)
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and you so as we p"
+
+SPEAKER_01 (2 segs, 21.9s, 2 embedded)
+  "It's adventure time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (27 segs, 58.9s, 14 embedded)
+  "Leave her be, Boyle B."
+  "A princess deserves empathy, not your sass."
+  "What up, Clarence?"
+  "Some of us still want to feel, you know, the vital..."
+  "Magnetism of life."
+
+SPEAKER_03 (5 segs, 10.1s, 3 embedded)
+  "Dude, we were at the Spirit Wave show."
+  "Kill these fools."
+  "Hold up."
+  "These guys are with me."
+  "A'ight, Clarence, but only because of that one time when I did that thing by acc"
+
+SPEAKER_04 (2 segs, 19.6s, 2 embedded)
+  "Ladies and gents, the Center for Ghost Community Outreach and ghoststates.com pr"
+  "Ghost princess!"
+
+SPEAKER_05 (9 segs, 19.2s, 5 embedded)
+  "Yo, Ghost, what do you know about the Lady Berry next to you?"
+  "What?"
+  "You mean her?"
+  "She's been here longer than almost everybody!"
+  "And don't think I don't see what you do, Ghost Princess."
+
+SPEAKER_06 (4 segs, 5.8s, 1 embedded)
+  "Wow."
+  "Your neighborhood is, uh, very peaceful."
+  "Right, right."
+  "And right."
+
+SPEAKER_07 (23 segs, 36.0s, 10 embedded)
+  "I don't want to talk about it."
+  "What was that?"
+  "Probably an owl."
+  "Oh, well, let's hear more about that, honey."
+  "It's a crime case!"
+
+SPEAKER_08 (2 segs, 3.9s, 1 embedded)
+  "He's right!"
+  "What?"
+
+SPEAKER_09 (10 segs, 34.0s, 9 embedded)
+  "Hey, GP."
+  "Sorry."
+  "Oh, that sounds wonderful."
+  "This way, gentlemen."
+  "It's the cradle of my despair."
+
+SPEAKER_10 (14 segs, 47.6s, 12 embedded)
+  "It's just I'm doomed to haunt this mortal place."
+  "Until I discover the cause of my death, my soul can't descend to the 50th dead w"
+  "But as a ghost, I have no memory of my mortal life, and no idea how I died."
+  "I feel like we have."
+  "So you really don't know how you died either?"
+
+SPEAKER_11 (112 segs, 170.8s, 41 embedded)
+  "Just about done."
+  "Mmm, oh boy."
+  "How much softy cheesy for you, Deezy?"
+  "A little?"
+  "A lot?"
+
+SPEAKER_12 (25 segs, 38.7s, 12 embedded)
+  "Warrior princess, give up your kingdom."
+  "I can't."
+  "My soul is stuck."
+  "I have to know how I died."
+  "Oh, glob."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_09: 0.608  <- possible match
+  SPEAKER_01 <-> SPEAKER_09: 0.608
+  SPEAKER_09 <-> SPEAKER_10: 0.579
+  SPEAKER_08 <-> SPEAKER_09: 0.537
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S03E24.npz

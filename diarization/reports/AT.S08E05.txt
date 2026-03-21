@@ -1,0 +1,74 @@
+Episode: AT.S08E05 (I Am a Sword)
+10 speaker clusters, 232 total segments
+
+
+SPEAKER_00 (2 segs, 20.8s, 0 embedded)
+  "And the gold, please."
+  "Okay, I like air."
+
+SPEAKER_01 (6 segs, 17.2s, 5 embedded)
+  "Talking to inanimate object."
+  "Get a load of this guy."
+  "Jake, why does this thing happen to Finn?"
+  "You mean some people are just a pure city sidewalk boom boom from a red dunk and"
+  "Here's a sticker I made of Finn's sword's face."
+
+SPEAKER_02 (18 segs, 73.2s, 10 embedded)
+  "Don't kill me."
+  "I've never known true love."
+  "Bandit princess."
+  "I, Cameron, mayor of Spiky Village, along with the trustees of Spiky Village Ban"
+  "What do you say?"
+
+SPEAKER_03 (20 segs, 38.9s, 14 embedded)
+  "Mwah."
+  "Hm."
+  "Call me bad foot money when I step in the street."
+  "Huh?"
+  "Someone there?"
+
+SPEAKER_04 (44 segs, 65.5s, 18 embedded)
+  "Yeah, dude, but it's getting pretty late."
+  "We might gotta catch him tomorrow."
+  "Dude, we gotta call it."
+  "Uh, swords don't talk."
+  "I don't think I'm totally scooping what you're pooping."
+
+SPEAKER_05 (93 segs, 131.4s, 31 embedded)
+  "When we catch that bandit, I'm gonna be like, yuff!"
+  "Then I'm gonna give him just a wicked noogie."
+  "Then a lecture on personal responsibility."
+  "Then another noogie."
+  "Like, get that knowledge in there!"
+
+SPEAKER_06 (15 segs, 24.3s, 7 embedded)
+  "No looking!"
+  "I bet you can't do that behind your back."
+  "Like this?"
+  "Sword trick!"
+  "What a sword trick."
+
+SPEAKER_07 (25 segs, 61.3s, 19 embedded)
+  "Yeah, that's that good, good."
+  "Now kiss."
+  "I'll be cutting and breaking you, Mr. Mayor."
+  "Oh no, I'm toast!"
+  "And I'll keep trashing it over and over and over until you can't remember ever h"
+
+SPEAKER_08 (3 segs, 11.3s, 3 embedded)
+  "Lady, you can't come in this bank."
+  "My whole job is you can't come in this bank."
+  "Oh, it is on."
+
+SPEAKER_09 (3 segs, 28.8s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Jake!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_06: 0.591
+  SPEAKER_05 <-> SPEAKER_06: 0.548
+  SPEAKER_02 <-> SPEAKER_08: 0.464
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E05.npz

@@ -1,0 +1,55 @@
+Episode: AT.S08E12 (Preboot)
+7 speaker clusters, 206 total segments
+
+
+SPEAKER_00 (3 segs, 32.5s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Butter!"
+
+SPEAKER_01 (27 segs, 73.1s, 18 embedded)
+  "I'll clob my door."
+  "I don't know."
+  "This place is kind of a bust, man."
+  "It has been a while since I had a good hex put on me."
+  "Ah, yeah, pretty spooky."
+
+SPEAKER_02 (38 segs, 72.3s, 18 embedded)
+  "Hey, bozos, it's me, Cyber Tiffany!"
+  "Come with me, and I'll explain almost everything."
+  "Pretty nice, huh?"
+  "I mean, I came straight from a worm queen's intestine, so I'm biased."
+  "I was like a crazed vermilion crab, limping along the sea floor."
+
+SPEAKER_03 (12 segs, 67.5s, 12 embedded)
+  "Welcome, new flesh."
+  "Evolution's a natural process, but it's not exactly the fastest."
+  "You can reach your potential with just a little help."
+  "Get some light surgery."
+  "Shake off the anesthesia and you'll see that science has made you more special w"
+
+SPEAKER_04 (83 segs, 153.7s, 43 embedded)
+  "Unlocking sequence confirmed."
+  "Whoa, look at all these dang beakers."
+  "Please keep out of restricted areas."
+  "Clearance confirmed."
+  "Hmm?"
+
+SPEAKER_05 (40 segs, 69.7s, 20 embedded)
+  "One, two, three, go!"
+  "Whoops!"
+  "Look what treasures the low tide has revealed."
+  "We're investigating early human culture."
+  "We'll probably find all kinds of cursed artifacts."
+
+SPEAKER_06 (2 segs, 6.3s, 1 embedded)
+  "Susan will protect you!"
+  "Susan!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_06: 0.379
+  SPEAKER_03 <-> SPEAKER_04: 0.371
+  SPEAKER_00 <-> SPEAKER_03: 0.316
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E12.npz

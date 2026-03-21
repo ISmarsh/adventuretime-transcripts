@@ -1,0 +1,71 @@
+Episode: AT.S10E12 (Gumbaldia)
+9 speaker clusters, 182 total segments
+
+
+SPEAKER_00 (14 segs, 33.6s, 10 embedded)
+  "What's that, dear?"
+  "I'm glad there's going to be another proper war before I kick the bucket."
+  "Wipe them out!"
+  "It's gonna happen, son."
+  "Best thing to do is sharpen your sword and stock up on flower wreaths."
+
+SPEAKER_01 (55 segs, 138.7s, 34 embedded)
+  "I'm on it!"
+  "Do I... do I just pull this lever?"
+  "No!"
+  "I'm on it."
+  "You're a beautiful flower and I love to watch you grow."
+
+SPEAKER_02 (5 segs, 14.8s, 3 embedded)
+  "I don't believe it!"
+  "A signed peace treaty?"
+  "Finn, you're amazing!"
+  "I could hug you right now- Did you stop at a craft store on the way here?"
+  "Candy citizens, we are going to war!"
+
+SPEAKER_03 (9 segs, 21.4s, 6 embedded)
+  "Okay, Starchy, now!"
+  "Excellent."
+  "These photos will help us find out what sort of forces Gumbald has amassed befor"
+  "These photos will help us find out..."
+  "I don't have any choice."
+
+SPEAKER_04 (2 segs, 14.0s, 2 embedded)
+  "Stop!"
+  "Gumbald!"
+
+SPEAKER_05 (5 segs, 10.6s, 4 embedded)
+  "Sorry about him."
+  "Now what's a sweet boy like you doing here?"
+  "I'm trying to stop this ridiculous war."
+  "I mean, this whole thing is crazy, right?"
+  "Between you and me, honey, I don't want war either."
+
+SPEAKER_06 (13 segs, 25.5s, 8 embedded)
+  "Bawk, bawk, bawk, bawk, bawk!"
+  "Bawk, bawk, bawk, bawk, bawk!"
+  "Boys, boys!"
+  "Stop all this roughhousing!"
+  "Gumbolt is becoming so paranoid and erratic."
+
+SPEAKER_07 (73 segs, 148.2s, 39 embedded)
+  "Hey, Princess."
+  "Fan, you donked up my recon!"
+  "I've got some important stuff to say."
+  "I don't think going to war with your uncle is a good idea."
+  "It seems to me that all these rhubarbs down through history don't do nobody no g"
+
+SPEAKER_08 (4 segs, 40.0s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Now I'm a better you!"
+  "It's gum war."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.640  <- possible match
+  SPEAKER_02 <-> SPEAKER_03: 0.640
+  SPEAKER_05 <-> SPEAKER_07: 0.566
+  SPEAKER_04 <-> SPEAKER_08: 0.506
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S10E12.npz

@@ -1,0 +1,27 @@
+{
+  "episode_id": "AT.S06E29",
+  "title": "Dark Purple",
+  "season": 6,
+  "speaker_map": {
+    "SPEAKER_01": "Finn_S04-S06",
+    "SPEAKER_09": "Jake",
+    "SPEAKER_14": "Marceline",
+    "SPEAKER_05": "Susan Strong",
+    "SPEAKER_07": "Flame Princess"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_06",
+    "SPEAKER_08",
+    "SPEAKER_10",
+    "SPEAKER_11",
+    "SPEAKER_12",
+    "SPEAKER_13"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:49:55"
+}

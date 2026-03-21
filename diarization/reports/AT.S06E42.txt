@@ -1,0 +1,72 @@
+Episode: AT.S06E42 (Hot Diggity Doom)
+10 speaker clusters, 188 total segments
+
+
+SPEAKER_00 (2 segs, 26.4s, 1 embedded)
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "to a cliff under a tree"
+
+SPEAKER_01 (2 segs, 20.6s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (4 segs, 26.8s, 3 embedded)
+  "Mm-hmm."
+  "I'm James' mother, Mrs. James."
+  "My son got turned into a mutant mass and was exiled to the Badlands by Princess "
+  "And you... Princess!"
+
+SPEAKER_03 (47 segs, 112.8s, 30 embedded)
+  "Ah, boo."
+  "I'm studying something that could be real important."
+  "This dumb election, it's not even..."
+  "I mean, it's barely even..."
+  "And even being legal, I mean, I made everyone."
+
+SPEAKER_04 (58 segs, 145.0s, 39 embedded)
+  "Thank you, little candies, thank you."
+  "You warm the wax heart of this poor king of oooh."
+  "Now I hear you asking, king of oooh, how can you be so wise?"
+  "I'll tell you how."
+  "Did you know that I am 8,000 years old?"
+
+SPEAKER_05 (15 segs, 15.5s, 2 embedded)
+  "Princess!"
+  "I don't know what a dillweed is."
+  "Hey, PB, what's the plan?"
+  "We pledged our allegiance to you."
+  "Yeah."
+
+SPEAKER_06 (36 segs, 57.5s, 16 embedded)
+  "Oh, yeah."
+  "I think that's the catalyst comment."
+  "Guess it's getting pretty close or whatever."
+  "Getting close?"
+  "Should we evacuate, or... What?"
+
+SPEAKER_07 (13 segs, 46.2s, 9 embedded)
+  "I mean, they know that I love them."
+  "And the votes are in."
+  "King Avu is our new princess."
+  "Starchy thought life would be better under the King of Ooo, but now there's even"
+  "Poor old Starchy."
+
+SPEAKER_08 (3 segs, 5.5s, 1 embedded)
+  "Come on!"
+  "Get ready, toys!"
+  "Yeah!"
+
+SPEAKER_09 (7 segs, 15.5s, 5 embedded)
+  "I'm made as a bus and I'm made as rocks!"
+  "Gumball Guardians, there's an enemy at the gates!"
+  "I'm an all-you-can-eat maniac!"
+  "Whoops!"
+  "Shut up."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_07: 0.413
+  SPEAKER_02 <-> SPEAKER_03: 0.410
+  SPEAKER_00 <-> SPEAKER_01: 0.381
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E42.npz

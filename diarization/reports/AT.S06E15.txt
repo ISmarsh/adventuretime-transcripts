@@ -1,0 +1,83 @@
+Episode: AT.S06E15 (Nemesis)
+11 speaker clusters, 203 total segments
+
+
+SPEAKER_00 (3 segs, 29.6s, 1 embedded)
+  "How do I even check my email?"
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (5 segs, 19.0s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends!"
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+  "The fun will never end."
+
+SPEAKER_02 (8 segs, 12.0s, 4 embedded)
+  "What was your count?"
+  "Three minutes."
+  "What about you?"
+  "Three minutes, 30 seconds."
+  "What's that?"
+
+SPEAKER_03 (20 segs, 36.9s, 11 embedded)
+  "Ho, uh-oh!"
+  "Whoa, holy flippin' flap!"
+  "Run alert!"
+  "Have bugs start brewing up some chamomile tea so I don't stress out!"
+  "Hey Dad, can we go to the sorcery and dark arts fair tomorrow?"
+
+SPEAKER_04 (2 segs, 5.9s, 2 embedded)
+  "My light will move in darkness."
+  "I go unseen by low-level biddies."
+
+SPEAKER_05 (39 segs, 101.8s, 27 embedded)
+  "Agure name."
+  "Jurad gure name."
+  "Sat gure name."
+  "Siriguru de name."
+  "Flight of the hermit, reveal my nemesis."
+
+SPEAKER_06 (12 segs, 25.7s, 8 embedded)
+  "Whoa."
+  "Be careful about old man nap time, please."
+  "That could've been it for me just now."
+  "PB, you can't teach a butterfly to bark."
+  "You know what I'm saying?"
+
+SPEAKER_07 (17 segs, 34.0s, 12 embedded)
+  "Hello?"
+  "Is this the secret mea... What errand?"
+  "What haste?"
+  "Oh, shoot."
+  "Oh, to Beelzebub with the brewer's nave."
+
+SPEAKER_08 (21 segs, 56.9s, 15 embedded)
+  "Ah, Kenneth."
+  "Hey, Starchy."
+  "Glad you could make it."
+  "I officially called this meeting of the Veritas Brigade to order."
+  "Lux in Tenebrous."
+
+SPEAKER_09 (67 segs, 155.7s, 36 embedded)
+  "So, a tinkerer, eh?"
+  "Fiddling at the fringes of unknown realms."
+  "Tell me, Kenneth, will you be ready when the flames of those evil places consume"
+  "What?"
+  "I thought not."
+
+SPEAKER_10 (7 segs, 10.0s, 2 embedded)
+  "He's time out."
+  "Wazzup!"
+  "No!"
+  "All right, all right."
+  "Oh, okay."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.526
+  SPEAKER_05 <-> SPEAKER_10: 0.440
+  SPEAKER_00 <-> SPEAKER_07: 0.408
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E15.npz

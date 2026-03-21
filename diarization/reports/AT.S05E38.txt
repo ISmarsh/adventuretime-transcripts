@@ -1,0 +1,61 @@
+Episode: AT.S05E38 (Red Starved)
+8 speaker clusters, 244 total segments
+
+
+SPEAKER_00 (2 segs, 21.4s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (56 segs, 102.8s, 25 embedded)
+  "Wait, there she goes!"
+  "Yo, wake up sand dude."
+  "I think they're dead."
+  "A spoon."
+  "What's PB want with that spoon anyway?"
+
+SPEAKER_02 (16 segs, 27.6s, 5 embedded)
+  "Yes."
+  "Have you returned to complete the plan?"
+  "Nah."
+  "Paris is like super dead."
+  "I must have zoned out."
+
+SPEAKER_03 (72 segs, 107.2s, 25 embedded)
+  "Oh, no."
+  "That explains why it didn't taste right."
+  "Nothing tastes right today."
+  "Like, I thought we were going to get into some serious flavor with these sand pe"
+  "Let's rock!"
+
+SPEAKER_04 (11 segs, 17.7s, 5 embedded)
+  "You sick?"
+  "Yeah."
+  "Come on, Jake, think."
+  "It's no good."
+  "I need brain food."
+
+SPEAKER_05 (71 segs, 116.8s, 30 embedded)
+  "What's wrong with you, man?"
+  "I ate all the candy in your backpack, and now I'm sick."
+  "I didn't bring any candy."
+  "That's how I feel, like a dying parsley."
+  "So what's going on with the spoon?"
+
+SPEAKER_07 (14 segs, 29.6s, 9 embedded)
+  "Yeah, yeah, that sounds great."
+  "That's great."
+  "Great, great, great."
+  "Bubblegum?"
+  "Hey, guys."
+
+SPEAKER_08 (2 segs, 27.7s, 1 embedded)
+  "Come along with me"
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.505
+  SPEAKER_00 <-> SPEAKER_04: 0.361
+  SPEAKER_03 <-> SPEAKER_05: 0.311
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E38.npz

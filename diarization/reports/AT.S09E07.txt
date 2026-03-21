@@ -1,0 +1,53 @@
+Episode: AT.S09E07 (Happy Warrior)
+6 speaker clusters, 182 total segments
+
+
+SPEAKER_00 (23 segs, 53.2s, 15 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends!"
+  "We'll go to Fairy!"
+  "Messed up plans with Finn and Jake!"
+  "Ice King and Betty!"
+
+SPEAKER_01 (8 segs, 38.6s, 5 embedded)
+  "Hmm, what?"
+  "I'm too trusting!"
+  "I have to save Jake!"
+  "Phoebe!"
+  "Stop!"
+
+SPEAKER_02 (5 segs, 11.3s, 3 embedded)
+  "Please keep your hands and bags away from the cloud's edge."
+  "Look guys, my ice powers are tapping out but with all the elemental fire magic d"
+  "But I would never ever let you down."
+  "So I'm sending Gunter."
+  "I use mugs."
+
+SPEAKER_03 (16 segs, 32.2s, 10 embedded)
+  "Dang, lady."
+  "It's no use, Finn."
+  "Like all of the Fire People, Lady Flamicorn knows only fighting."
+  "Cinnamonbun!"
+  "My flameshield protected me from the change."
+
+SPEAKER_04 (58 segs, 91.2s, 24 embedded)
+  "Cheer up, Fen."
+  "So what if Jake got absorbed into Slime Princess's rocking body?"
+  "He's probably having fun, and doing way better without you."
+  "Now!"
+  "Don't torture yourself!"
+
+SPEAKER_05 (69 segs, 153.1s, 31 embedded)
+  "Jake..."
+  "Hold on, buddy."
+  "Ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha"
+  "This doesn't look so bad."
+  "Whoa, tiny warriors."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_04: 0.378
+  SPEAKER_01 <-> SPEAKER_05: 0.369
+  SPEAKER_00 <-> SPEAKER_05: 0.343
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S09E07.npz

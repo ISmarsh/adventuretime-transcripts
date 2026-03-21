@@ -1,0 +1,68 @@
+Episode: AT.S03E17 (Thank You)
+9 speaker clusters, 139 total segments
+
+
+SPEAKER_00 (2 segs, 22.0s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (1 segs, 24.6s, 0 embedded)
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+SPEAKER_02 (13 segs, 7.6s, 0 embedded)
+  "Somebody help me!"
+  "Oh!"
+  "Oh!"
+  "Oh!"
+  "Oh!"
+
+SPEAKER_03 (20 segs, 78.2s, 12 embedded)
+  "You don't understand."
+  "If you were me, you would do things I would do."
+  "I... yeah, I would."
+  "But I wouldn't get past my invincible armor."
+  "Yah!"
+
+SPEAKER_04 (19 segs, 17.7s, 4 embedded)
+  "Uh... Whoo!"
+  "Whoo!"
+  "Whoo!"
+  "Whoo!"
+  "Whoo!"
+
+SPEAKER_05 (38 segs, 46.0s, 8 embedded)
+  "MMM!"
+  "MMM!"
+  "AH!"
+  "Ow!"
+  "Ow!"
+
+SPEAKER_06 (17 segs, 83.4s, 6 embedded)
+  "Uhh..."
+  "Mm-hmm."
+  "Fools!"
+  "Whoo!"
+  "Whoo!"
+
+SPEAKER_07 (7 segs, 20.5s, 0 embedded)
+  "Hmm."
+  "AH."
+  "AH."
+  "AH."
+  "AH."
+
+SPEAKER_08 (7 segs, 16.1s, 5 embedded)
+  "Ice King, this is the last time you steal our sandwiches."
+  "Yeah, and if you were us, you'd kick your fat butt."
+  "Jake, do you think that puddle needs our help?"
+  "Nah, it's a snow golem, man."
+  "I think he's laughing."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.647  <- possible match
+  SPEAKER_04 <-> SPEAKER_05: 0.647
+  SPEAKER_00 <-> SPEAKER_05: 0.568
+  SPEAKER_00 <-> SPEAKER_04: 0.466
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E17.npz

@@ -1,0 +1,76 @@
+Episode: AT.S04E19 (Lady & Peebles)
+11 speaker clusters, 143 total segments
+
+
+SPEAKER_00 (2 segs, 28.4s, 1 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 2.6s, 0 embedded)
+  "Your tea is ready."
+  "Pouring, pouring."
+
+SPEAKER_02 (6 segs, 33.6s, 4 embedded)
+  "Let's see if they show up on my heart monitor."
+  "Come on."
+  "Ah!"
+  "Lady!"
+  "Get out of my sight."
+
+SPEAKER_03 (29 segs, 84.1s, 18 embedded)
+  "Hey."
+  "Princess!"
+  "What a pleasant surprise."
+  "Yes, it is I."
+  "Did you find my dungeon stimulating?"
+
+SPEAKER_04 (2 segs, 27.8s, 1 embedded)
+  "Come along with me"
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+SPEAKER_05 (11 segs, 13.5s, 3 embedded)
+  "It hurt."
+  "Oh boy."
+  "How about a hug?"
+  "Give me a hug."
+  "I need it."
+
+SPEAKER_06 (6 segs, 15.4s, 3 embedded)
+  "This is total bunk, you copier!"
+  "You're only in love with her because I'm in love with her!"
+  "Ice King."
+  "I've been playing this game a lot longer than you, pal!"
+  "I've been working my moves, smooth-talking her, showing her magic tricks."
+
+SPEAKER_07 (2 segs, 15.3s, 1 embedded)
+  "Lady, are you okay?"
+  "No, lady, I won't leave you while you're hurt."
+
+SPEAKER_08 (17 segs, 127.7s, 10 embedded)
+  "Oh, I'm so sorry."
+  "I'm so sorry."
+  "It's okay, lady."
+  "Jake knows you love him."
+  "Don't worry."
+
+SPEAKER_09 (19 segs, 50.9s, 11 embedded)
+  "No, no, no!"
+  "Don't worry, lady!"
+  "I feel the vision!"
+  "Lady!"
+  "Ricardo!"
+
+SPEAKER_10 (46 segs, 106.0s, 28 embedded)
+  "My GPS show is Finn and Jake over there."
+  "I think that's where the Ice King has them hostage."
+  "I'm sure the boys are fine."
+  "The Ice King isn't usually a serious threat."
+  "Besides, this will be easy with the two of us."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_08: 0.595
+  SPEAKER_09 <-> SPEAKER_10: 0.576
+  SPEAKER_02 <-> SPEAKER_09: 0.510
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E19.npz

@@ -1,0 +1,46 @@
+Episode: AT.S07E23 (Crossover)
+5 speaker clusters, 258 total segments
+
+
+SPEAKER_00 (5 segs, 34.1s, 4 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Housekeeping."
+  "Come along with me."
+  "This party is so cool!"
+
+SPEAKER_01 (9 segs, 13.6s, 3 embedded)
+  "Hey, what's up?"
+  "Release."
+  "Sleep."
+  "Bring the book."
+  "Bobby."
+
+SPEAKER_02 (52 segs, 132.6s, 30 embedded)
+  "Hi-yah!"
+  "School's out yet, Trench?"
+  "You are lucky I don't take the other one, kid."
+  "Quit crying, baby!"
+  "Prismo!"
+
+SPEAKER_03 (77 segs, 97.9s, 20 embedded)
+  "Hey, there's our guy!"
+  "Round and round and round we go!"
+  "Vaguely, yes."
+  "What?"
+  "You don't remember making that wish?"
+
+SPEAKER_04 (111 segs, 178.4s, 44 embedded)
+  "Wow, everything sucks here."
+  "Finn, look!"
+  "Oh, geez."
+  "This looks pretty real."
+  "Oh, he's got the Enchiridion!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.399
+  SPEAKER_02 <-> SPEAKER_03: 0.268
+  SPEAKER_02 <-> SPEAKER_04: 0.238
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E23.npz

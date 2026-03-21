@@ -1,0 +1,57 @@
+Episode: AT.S05E09 (All Your Fault)
+8 speaker clusters, 195 total segments
+
+
+SPEAKER_00 (1 segs, 26.4s, 0 embedded)
+  "This party is so crazy!"
+
+SPEAKER_01 (2 segs, 21.7s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (25 segs, 43.8s, 11 embedded)
+  "Mmm, Princess Bubblegum, we are starving."
+  "Immediately send us all of your candy."
+  "How dare you?"
+  "Ours, lemon grabs."
+  "Bullgunk!"
+
+SPEAKER_03 (32 segs, 73.4s, 19 embedded)
+  "Whoa!"
+  "What the thing is up with this guy?"
+  "Does your head come to a nub?"
+  "What?"
+  "You are on Lemon."
+
+SPEAKER_04 (48 segs, 153.4s, 29 embedded)
+  "No food here."
+  "Lemon Grabs, you're free!"
+  "They broke the door!"
+  "The door is broken now!"
+  "Fix the door!"
+
+SPEAKER_05 (40 segs, 81.6s, 17 embedded)
+  "Sorry, CB."
+  "We'll finish this up later."
+  "Hey, Lemon Grabs, you home?"
+  "Holy... J-J-J..."
+  "Kiss it!"
+
+SPEAKER_06 (40 segs, 65.3s, 17 embedded)
+  "For sure, we'll do it."
+  "No food."
+  "Whatever, Lemon John."
+  "We've got to give those dumb butts these seeds."
+  "I don't know, but we got to bust them out."
+
+SPEAKER_07 (2 segs, 15.3s, 2 embedded)
+  "Bye, girlfriend!"
+  "Sorry, dudes, got no food."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_07: 0.452
+  SPEAKER_01 <-> SPEAKER_07: 0.441
+  SPEAKER_06 <-> SPEAKER_07: 0.405
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E09.npz

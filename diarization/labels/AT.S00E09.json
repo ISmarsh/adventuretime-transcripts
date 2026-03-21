@@ -1,0 +1,12 @@
+{
+  "episode_id": "AT.S00E09",
+  "title": "Frog Seasons Spring",
+  "season": 0,
+  "speaker_map": {
+    "SPEAKER_00": "Jake"
+  },
+  "skipped": [],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T18:28:21"
+}

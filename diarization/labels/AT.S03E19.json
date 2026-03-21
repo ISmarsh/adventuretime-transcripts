@@ -1,0 +1,20 @@
+{
+  "episode_id": "AT.S03E19",
+  "title": "Holly Jolly Secrets Part I",
+  "season": 3,
+  "speaker_map": {
+    "SPEAKER_01": "Ice King",
+    "SPEAKER_04": "BMO",
+    "SPEAKER_05": "Finn_S01-S03",
+    "SPEAKER_06": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_07"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:31:34"
+}

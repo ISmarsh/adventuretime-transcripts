@@ -1,0 +1,109 @@
+Episode: FC.S01E01 (Fionna Campbell)
+14 speaker clusters, 400 total segments
+
+
+SPEAKER_00 (7 segs, 13.5s, 2 embedded)
+  "Cheers this film before a live studio audience."
+  "Sammy, set me up."
+  "Cheers this film before a live..."
+  "Cheers this film before..."
+  "Cheers this..."
+
+SPEAKER_01 (6 segs, 21.9s, 5 embedded)
+  "Remus!"
+  "Stop the bus!"
+  "Hey, that was an impressive display of some real aggressive jerkiness."
+  "Yeah, you should join our roller derby team."
+  "We need bodies."
+
+SPEAKER_02 (12 segs, 26.4s, 6 embedded)
+  "Cat trick!"
+  "Egg, egg, egg, egg, egg, egg, egg, egg, egg, egg, egg, egg, egg, egg, egg, egg, "
+  "What is it?"
+  "Hey, focus!"
+  "Cake."
+
+SPEAKER_03 (23 segs, 45.5s, 11 embedded)
+  "Mine's too messed up to even talk about."
+  "Sorry, traveler."
+  "I mean no harm."
+  "I'm just planting some weeds back here."
+  "If you'll step into the bushes with me, I'll show you something amazing."
+
+SPEAKER_04 (7 segs, 18.0s, 3 embedded)
+  "Ice prince."
+  "The ice won't hold him for long."
+  "You've got this, Fiona."
+  "Good job, both of you."
+  "Fiona, Cake, you are great fighters, and so funny and interesting."
+
+SPEAKER_05 (7 segs, 15.4s, 2 embedded)
+  "I live in the graveyard next to the graveyard."
+  "Whatever, Marshal."
+  "You never pay anyway."
+  "Oh, thank you."
+  "Gary, I know it was quite a tall order, but my grandkids just love these little "
+
+SPEAKER_06 (26 segs, 52.4s, 14 embedded)
+  "Yes."
+  "Obviously, you're dreaming about a cool ice prince now because you just got dump"
+  "That's it."
+  "I'm right."
+  "You're bombing, Fi."
+
+SPEAKER_07 (6 segs, 12.9s, 5 embedded)
+  "I'm from around the corner."
+  "I had a dream once about some ice cream."
+  "I dream about being a banana."
+  "OK, get this."
+  "You know Jerry from HR?"
+
+SPEAKER_08 (41 segs, 82.6s, 20 embedded)
+  "Fiona and Ted to the rescue."
+  "Back at you, sis."
+  "One latte coming up."
+  "300 milliliters of milk."
+  "And froth to 55 degrees."
+
+SPEAKER_09 (20 segs, 44.0s, 12 embedded)
+  "I need to get through."
+  "That's Jerry for you."
+  "Excuse me!"
+  "Mouse!"
+  "What's this?"
+
+SPEAKER_10 (40 segs, 84.9s, 22 embedded)
+  "Good evening, everybody."
+  "No!"
+  "I have one for Bruno, one for Brock, one for Butch, one for Stanley."
+  "Wait, Stanley gets two, because he gets me."
+  "I love you, bro!"
+
+SPEAKER_11 (161 segs, 395.9s, 96 embedded)
+  "Hold on, citizens!"
+  "It's time for Tat, rat!"
+  "Han's Brinker Action, go!"
+  "Hook him up, girl!"
+  "Good job, Cake."
+
+SPEAKER_12 (22 segs, 48.9s, 8 embedded)
+  "No!"
+  "I'll get him."
+  "You have a bus to catch."
+  "I'm sorry."
+  "My allergies."
+
+SPEAKER_13 (5 segs, 76.8s, 1 embedded)
+  "Aw, shoot."
+  "I'm not really feeling like myself today Hated every job I've had, what's wrong "
+  "Every day's the same"
+  "I'm alone inside."
+  "Because nothing really matters And I don't know what's other The fact that I eve"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_09 <-> SPEAKER_11: 0.448
+  SPEAKER_02 <-> SPEAKER_09: 0.368
+  SPEAKER_02 <-> SPEAKER_12: 0.354
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S01E01.npz

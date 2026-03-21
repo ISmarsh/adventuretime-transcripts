@@ -1,0 +1,16 @@
+{
+  "episode_id": "AT.S05E36",
+  "title": "Dungeon Train",
+  "season": 5,
+  "speaker_map": {
+    "SPEAKER_00": "Finn_S04-S06",
+    "SPEAKER_01": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_02",
+    "SPEAKER_03"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:29:43"
+}

@@ -1,0 +1,124 @@
+Episode: FC.S01E09 (Casper and Nova)
+17 speaker clusters, 362 total segments
+
+
+SPEAKER_00 (3 segs, 6.3s, 2 embedded)
+  "Gary?"
+  "Fiona, you're back."
+  "Try my new pastry."
+
+SPEAKER_01 (4 segs, 14.3s, 3 embedded)
+  "By the Order of Gibbon, find them!"
+  "This way."
+  "You won't get away with this!"
+  "Gibbon doesn't forgive!"
+
+SPEAKER_02 (17 segs, 36.0s, 9 embedded)
+  "So, you're not a robot."
+  "You're a magic cat."
+  "But I don't want to forget anything."
+  "Marshall and I just met."
+  "Yeah, like if Simon knows Marshall and I are supposed to be together, it could w"
+
+SPEAKER_03 (66 segs, 134.3s, 37 embedded)
+  "Shoot."
+  "Hey, Beth, watch me!"
+  "Yeah!"
+  "Come on, Beth!"
+  "On it."
+
+SPEAKER_04 (47 segs, 96.6s, 25 embedded)
+  "Good technique on those little stink lines, Shermy."
+  "Step four of the revolution."
+  "Check."
+  "Quit wiggling around, you nugget, or you're walking."
+  "You just got real weird there."
+
+SPEAKER_05 (18 segs, 75.6s, 8 embedded)
+  "Hey, girl."
+  "Alice P.?"
+  "Look at me."
+  "I'm even more beautiful now."
+  "Chase me, Stanley."
+
+SPEAKER_06 (1 segs, 16.5s, 0 embedded)
+  "I love all plants and animals, but not these things."
+
+SPEAKER_07 (8 segs, 19.3s, 6 embedded)
+  "We didn't know this rink had a mascot."
+  "Oh, no."
+  "Where's the books?"
+  "Uh... What are you waiting for?"
+  "A godlike being outdone by a humble cheeseball barrel."
+
+SPEAKER_08 (5 segs, 11.7s, 4 embedded)
+  "Stay out of this."
+  "Ooh, sparkly."
+  "What's the matter, Simon?"
+  "Spell malfunction?"
+  "I'm a professional, and professionals don't hold grudges."
+
+SPEAKER_09 (6 segs, 14.8s, 3 embedded)
+  "It's you!"
+  "Ah!"
+  "Shoo, Simon."
+  "Paisley!"
+  "I got marks."
+
+SPEAKER_10 (11 segs, 19.5s, 5 embedded)
+  "Cool threads."
+  "Even thrifting?"
+  "But if everything's gonna change, will we still be together?"
+  "Sick."
+  "Yeah."
+
+SPEAKER_11 (18 segs, 39.5s, 8 embedded)
+  "Where am I?"
+  "Hey, Lich!"
+  "great embodiment of chaos."
+  "Hear me."
+  "For ages untold, I studied your ways, devoting my existence to you."
+
+SPEAKER_12 (43 segs, 82.0s, 22 embedded)
+  "I feel snacky."
+  "People eat cake at parties, right?"
+  "Okay, we're safe now."
+  "I'll put in a video game."
+  "You go make us margaritas."
+
+SPEAKER_13 (10 segs, 21.4s, 8 embedded)
+  "It's normal."
+  "Yeah, I know."
+  "I had the worst dream."
+  "When Simon put on the crown, it all went wrong."
+  "Gary became a scary gum blob."
+
+SPEAKER_14 (21 segs, 38.7s, 7 embedded)
+  "It worked!"
+  "Simon did it."
+  "Let's go to our house."
+  "Yeah, we can throw a party."
+  "Yeah!"
+
+SPEAKER_15 (42 segs, 81.4s, 20 embedded)
+  "Wait, where's cake?"
+  "Fiona!"
+  "Fiona!"
+  "Cake!"
+  "Let's get one from Phoebe."
+
+SPEAKER_16 (36 segs, 95.0s, 22 embedded)
+  "Are you happy, Fiona?"
+  "All this for you."
+  "The crown!"
+  "What did you do to my spell, huh?"
+  "Betty, are you in there?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_13 <-> SPEAKER_15: 0.669  <- possible match
+  SPEAKER_13 <-> SPEAKER_15: 0.669
+  SPEAKER_14 <-> SPEAKER_15: 0.526
+  SPEAKER_13 <-> SPEAKER_14: 0.466
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S01E09.npz

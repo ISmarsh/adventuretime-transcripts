@@ -1,0 +1,49 @@
+Episode: AT.S03E07 (Still)
+7 speaker clusters, 237 total segments
+
+
+SPEAKER_00 (4 segs, 9.7s, 1 embedded)
+  "You don't love... That penguin!"
+  "Gunter, come back!"
+  "Gunter!"
+  "Gunter!"
+
+SPEAKER_01 (146 segs, 268.5s, 71 embedded)
+  "I shouldn't be laughing, I'm sorry."
+  "I know, I'll do the opposite."
+  "This is weird."
+  "I didn't do anything to you."
+  "Come on, guys, I'm your friend."
+
+SPEAKER_02 (8 segs, 12.8s, 5 embedded)
+  "Come to me, Astral Beast."
+  "I've got lemonade."
+  "And a sword!"
+  "What do you want from me?"
+  "What do we want?"
+
+SPEAKER_03 (75 segs, 113.3s, 29 embedded)
+  "Huh?"
+  "Jake, I told you to stop staring at me right at the time when I wake up."
+  "I'm staring because I can't move my head."
+  "No, really, I can't move."
+  "I can't move either."
+
+SPEAKER_04 (1 segs, 5.6s, 1 embedded)
+  "Ice King!"
+
+SPEAKER_05 (2 segs, 24.7s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_06 (1 segs, 24.5s, 0 embedded)
+  "and the butterflies and bees we can wander through the forest and you so as we p"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_02: 0.656  <- possible match
+  SPEAKER_01 <-> SPEAKER_02: 0.656
+  SPEAKER_00 <-> SPEAKER_01: 0.577
+  SPEAKER_02 <-> SPEAKER_03: 0.515
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E07.npz

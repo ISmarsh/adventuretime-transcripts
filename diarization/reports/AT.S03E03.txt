@@ -1,0 +1,102 @@
+Episode: AT.S03E03 (Memory of a Memory)
+14 speaker clusters, 251 total segments
+
+
+SPEAKER_00 (3 segs, 8.6s, 3 embedded)
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+
+SPEAKER_01 (2 segs, 38.2s, 1 embedded)
+  "Come along with me and the butterflies and bees We can wander through the forest"
+  "Me to a cliff under a tree"
+
+SPEAKER_02 (19 segs, 26.0s, 4 embedded)
+  "Faster, she's in danger."
+  "Who is he talking about?"
+  "I have no idea."
+  "What?"
+  "Because... Because she's in trouble!"
+
+SPEAKER_03 (57 segs, 108.2s, 25 embedded)
+  "I'll transport you into Marceline's mind, where you will walk through her memori"
+  "Then what?"
+  "Find the memory of Marceline casting the sleep spell on herself."
+  "At your touch, you and the memory will be transported back to reality."
+  "But like, if you know all this, why not just do it yourself?"
+
+SPEAKER_04 (3 segs, 21.2s, 0 embedded)
+  "Hello?"
+  "Finn?"
+  "I'm a buff baby that can dance like a man I can shake him up, Fanny, I can shake"
+
+SPEAKER_05 (42 segs, 72.3s, 14 embedded)
+  "Marceline, what's wrong with her?"
+  "Did it work?"
+  "I can't tell."
+  "I don't feel like I'm inside Marceline's memories."
+  "Me neither."
+
+SPEAKER_06 (15 segs, 26.6s, 7 embedded)
+  "Who are you guys?"
+  "Hambo is my only friend."
+  "See?"
+  "You need another eyeball surgery, pal."
+  "Lucky for you, we found a donor."
+
+SPEAKER_07 (4 segs, 13.6s, 2 embedded)
+  "Whoa!"
+  "It's over, you psycho!"
+  "I've just got to show you something first."
+  "It's over, you psycho!"
+
+SPEAKER_08 (9 segs, 12.7s, 3 embedded)
+  "Yeah."
+  "I'm so glad we're doing this, Ash."
+  "Wow."
+  "Awesome."
+  "Where'd you get the money for that thing?"
+
+SPEAKER_09 (19 segs, 24.1s, 6 embedded)
+  "You what?"
+  "Are you crazy?"
+  "That was my favorite thing in the whole world."
+  "That's Ash."
+  "He's not my friend."
+
+SPEAKER_10 (11 segs, 17.0s, 2 embedded)
+  "Don't eat those."
+  "Marceline."
+  "Daddy, why?"
+  "Oh, no."
+  "What?"
+
+SPEAKER_11 (4 segs, 9.2s, 3 embedded)
+  "What?"
+  "And ever!"
+  "Master Wing, I love, I love."
+  "Oh, Ash."
+
+SPEAKER_12 (51 segs, 71.3s, 15 embedded)
+  "Then why am I running so hard?"
+  "Hey, Wizard, how do you know Marceline?"
+  "I'm her spirit animal."
+  "Oh."
+  "Hello, Marcy."
+
+SPEAKER_13 (9 segs, 18.3s, 3 embedded)
+  "What did you do to my forehead?"
+  "If you fail, Marceline will be trapped in eternal sleep forever!"
+  "And ever!"
+  "Huh?"
+  "Hey, you have arms."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_13: 0.663  <- possible match
+  SPEAKER_02 <-> SPEAKER_03: 0.619  <- possible match
+  SPEAKER_03 <-> SPEAKER_13: 0.663
+  SPEAKER_02 <-> SPEAKER_03: 0.619
+  SPEAKER_02 <-> SPEAKER_13: 0.543
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E03.npz

@@ -1,0 +1,53 @@
+Episode: AT.S02E18 (Susan Strong)
+7 speaker clusters, 205 total segments
+
+
+SPEAKER_00 (2 segs, 29.4s, 0 embedded)
+  "Yeah, I guess we are, brother."
+  "This party is so-"
+
+SPEAKER_01 (27 segs, 60.9s, 14 embedded)
+  "And here at this site, my great uncle Gumbald cut down all these taffy trees in "
+  "Right, Princess Bubblegum?"
+  "Nah."
+  "Hey, but I bet you have a ton of stories about your human relatives."
+  "Oh my..."
+
+SPEAKER_02 (37 segs, 84.7s, 17 embedded)
+  "Yeah, man, it'll be fun."
+  "Toss the jig-sploder."
+  "Again, man."
+  "Hook."
+  "Ow."
+
+SPEAKER_03 (118 segs, 224.3s, 57 embedded)
+  "Because those trees were evil."
+  "Um, not really."
+  "I've never even met any other humans."
+  "If I think about it too much, I get all soul searchy and weird."
+  "OK, I guess so."
+
+SPEAKER_04 (7 segs, 13.3s, 4 embedded)
+  "Ahh!"
+  "Ahh!"
+  "Ahh!"
+  "We made it through the building."
+  "What's wrong?"
+
+SPEAKER_05 (12 segs, 37.8s, 8 embedded)
+  "Shao!"
+  "Oh my god, Kupsa!"
+  "Just a rock."
+  "I'm a prayer as a blessing."
+  "Oh, that is good."
+
+SPEAKER_06 (1 segs, 10.7s, 1 embedded)
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.333
+  SPEAKER_03 <-> SPEAKER_05: 0.328
+  SPEAKER_04 <-> SPEAKER_05: 0.325
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E18.npz

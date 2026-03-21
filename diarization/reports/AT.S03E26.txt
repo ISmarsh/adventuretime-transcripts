@@ -1,0 +1,54 @@
+Episode: AT.S03E26 (Incendium)
+7 speaker clusters, 174 total segments
+
+
+SPEAKER_00 (10 segs, 50.3s, 4 embedded)
+  "Oh."
+  "I can't keep pushing this down any deeper."
+  "Why do I keep trying if I can't keep her?"
+  "Every move I make is just another mistake I wonder what it would take Because it"
+  "Oh, Finn."
+
+SPEAKER_01 (40 segs, 74.3s, 22 embedded)
+  "Mmm."
+  "What is it you seek?"
+  "Bold words."
+  "But know you that my daughter is a rare jewel."
+  "She cannot be wooed by just any ragamuffin prince."
+
+SPEAKER_02 (82 segs, 182.9s, 36 embedded)
+  "That's really cool, PB."
+  "Isn't it cool, Finn?"
+  "It's letting up."
+  "Hey, Finn, come on."
+  "Let's go do something."
+
+SPEAKER_03 (16 segs, 37.9s, 4 embedded)
+  "Flambo?"
+  "Yeah, it's me."
+  "Bet you thought it was a dame on account of my girlish screaming."
+  "I will."
+  "Thanks anyway, brother."
+
+SPEAKER_04 (18 segs, 43.6s, 8 embedded)
+  "And so, through my experiments with cloud seeding, I've invented liquid pyrotech"
+  "Aw, thanks, puppy."
+  "Uh, Finn, no."
+  "Come on, Finn."
+  "Don't be weird."
+
+SPEAKER_05 (1 segs, 27.3s, 0 embedded)
+  "with me and the butterflies and bees we can wander through the forest and do so "
+
+SPEAKER_06 (3 segs, 28.7s, 3 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Yeah, she seems normal."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_02: 0.347
+  SPEAKER_00 <-> SPEAKER_06: 0.254
+  SPEAKER_00 <-> SPEAKER_04: 0.213
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S03E26.npz

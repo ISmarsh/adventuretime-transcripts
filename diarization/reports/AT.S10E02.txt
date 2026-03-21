@@ -1,0 +1,65 @@
+Episode: AT.S10E02 (Always BMO Closing)
+8 speaker clusters, 185 total segments
+
+
+SPEAKER_00 (4 segs, 33.8s, 4 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Come along with me."
+  "and the butterflies and bees"
+
+SPEAKER_01 (18 segs, 39.7s, 11 embedded)
+  "No time for sleeping."
+  "Elizabeth's heart was racing like a watermelon after spring thaw."
+  "She knew her enemies were coming for her."
+  "But when?"
+  "Suddenly, there was a knock at the door."
+
+SPEAKER_02 (93 segs, 173.5s, 48 embedded)
+  "I am also excited about today."
+  "Today is the first day of my new job!"
+  "I'm a door-to-door salesman!"
+  "I've got so many great things."
+  "Like for the man about town, this piece of lint!"
+
+SPEAKER_03 (13 segs, 21.3s, 5 embedded)
+  "What'd you buy, honeybunch?"
+  "Huh."
+  "Huh?"
+  "Whoa."
+  "Huh, tree chunks."
+
+SPEAKER_04 (4 segs, 4.1s, 1 embedded)
+  "Oh."
+  "It's Ice King."
+  "I know."
+  "Look."
+
+SPEAKER_05 (17 segs, 31.3s, 11 embedded)
+  "Boy, this is great, huh?"
+  "You and me out in the fresh air."
+  "Now, the key to being a tip-top salesman is to get the old foot in the door."
+  "Well, mine does."
+  "BMO, I think we're gonna make an unbeatable team!"
+
+SPEAKER_06 (9 segs, 31.1s, 5 embedded)
+  "He'll feel better after we have a little party for him."
+  "Where'd you even get a set of human baby teeth?"
+  "These are like the only things I had left from when I was a little kid."
+  "Well... Stay back baby Finns!"
+  "Your man is some kind of hard-tooth-like material."
+
+SPEAKER_07 (27 segs, 46.0s, 10 embedded)
+  "Huh?"
+  "I was just sipping my coffee."
+  "Oh yeah?"
+  "What's your new job, BMO?"
+  "Yeah, are you a spy?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_06: 0.273
+  SPEAKER_00 <-> SPEAKER_04: 0.268
+  SPEAKER_05 <-> SPEAKER_07: 0.238
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S10E02.npz

@@ -1,0 +1,24 @@
+{
+  "episode_id": "AT.S01E23",
+  "title": "Rainy Day Daydream",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_02": "Jake",
+    "SPEAKER_03": "Finn_S01-S03",
+    "SPEAKER_04": "BMO",
+    "SPEAKER_05": "BMO",
+    "SPEAKER_11": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_10"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:08:39"
+}

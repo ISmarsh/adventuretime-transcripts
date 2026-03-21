@@ -1,0 +1,67 @@
+Episode: AT.S01E01 (Slumber Party Panic)
+9 speaker clusters, 272 total segments
+
+
+SPEAKER_00 (1 segs, 21.5s, 0 embedded)
+  "with me and the butterflies and bees we can wander through the forest and do so "
+
+SPEAKER_01 (2 segs, 21.9s, 1 embedded)
+  "Yeah, you think you're pretty way up there, but I can get you."
+  "Gimme some sugar, baby."
+
+SPEAKER_02 (8 segs, 17.1s, 6 embedded)
+  "Must eat sugar!"
+  "Princess, it's me, Starchy the Grave Digger."
+  "I brought you a larger corpse, Shuffle."
+  "Well, I'll just wait for you here, then."
+  "By the mausoleum, with my back turned, and my defenses lowered."
+
+SPEAKER_03 (93 segs, 192.9s, 48 embedded)
+  "All right, let me just add three more drops of explosive diarrhea..."
+  "Ooh."
+  "Hey, Princess Bubblegum, when we bring the dead back to life, will they be fille"
+  "No."
+  "If my decorpsinator serum works, then all the dead candy people will look as you"
+
+SPEAKER_04 (9 segs, 10.8s, 3 embedded)
+  "Sugar!"
+  "Um, does anyone else hear that?"
+  "I do hear something."
+  "I hear something I don't understand."
+  "And it makes me scared."
+
+SPEAKER_05 (95 segs, 160.9s, 42 embedded)
+  "Something's happening!"
+  "Very sweet citizens."
+  "All right, you heard the princess."
+  "Everyone in!"
+  "All right, no pushing."
+
+SPEAKER_06 (12 segs, 33.3s, 8 embedded)
+  "Dare?"
+  "Jake, truth or dare?"
+  "Finn, the human, you have broken a royal promise for which the penalty is trial "
+  "Yes, because you care for the promise breaker, we will give him a less hot trial"
+  "You must now answer math questions."
+
+SPEAKER_07 (43 segs, 73.7s, 20 embedded)
+  "Tell me about what, dude?"
+  "Alright, what's going on?"
+  "Hey, dude, I think you and Bubblegum are up to something."
+  "Whoa, you guys are up to something."
+  "Is it some sort of prank?"
+
+SPEAKER_08 (6 segs, 7.8s, 2 embedded)
+  "Ow!"
+  "Hey!"
+  "Hey!"
+  "Hey!"
+  "Hey!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_05: 0.518
+  SPEAKER_04 <-> SPEAKER_05: 0.313
+  SPEAKER_03 <-> SPEAKER_08: 0.292
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E01.npz

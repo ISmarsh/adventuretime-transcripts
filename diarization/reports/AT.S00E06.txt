@@ -1,0 +1,31 @@
+Episode: AT.S00E06 (Sow Do You Like Them Apples)
+3 speaker clusters, 46 total segments
+
+
+SPEAKER_00 (12 segs, 30.1s, 8 embedded)
+  "Hey, Simon, are you OK?"
+  "Must be pretty tough."
+  "Sup girl, you want a snacky?"
+  "Was that ol' Ice King rudin' you out?"
+  "He can be kinda stank sometimes."
+
+SPEAKER_01 (4 segs, 12.8s, 3 embedded)
+  "Ahh!"
+  "I'm so hungry and filthy and old!"
+  "The famine in my guts compares only to that of my heart!"
+  "Eh."
+
+SPEAKER_02 (28 segs, 53.1s, 10 embedded)
+  "Oh, fine."
+  "Getting so a man can't even get a decent carb around here."
+  "Not too fast."
+  "Well, maybe."
+  "Whoops."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_02: 0.551
+  SPEAKER_00 <-> SPEAKER_01: 0.142
+  SPEAKER_00 <-> SPEAKER_02: -0.023
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S00E06.npz

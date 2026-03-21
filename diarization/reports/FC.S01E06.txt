@@ -1,0 +1,94 @@
+Episode: FC.S01E06 (The Winter King)
+12 speaker clusters, 341 total segments
+
+
+SPEAKER_00 (4 segs, 14.1s, 3 embedded)
+  "Lost?"
+  "Psh."
+  "Has someone cooking maple syrup in here?"
+  "Because I smell something saucy!"
+
+SPEAKER_01 (8 segs, 11.5s, 2 embedded)
+  "Yes, Your Grace."
+  "Fiona!"
+  "Fiona!"
+  "She's got Simon."
+  "It's cool."
+
+SPEAKER_02 (79 segs, 235.3s, 34 embedded)
+  "Worry not, friends."
+  "You're safe now."
+  "Huh."
+  "The rascal is frozen inside my inescapable magic ice."
+  "Ha-ha!"
+
+SPEAKER_03 (46 segs, 86.2s, 24 embedded)
+  "This is just the way she lives."
+  "Who are you?"
+  "Okay, just chill out."
+  "Fiona does random flighty stuff all the time."
+  "She's probably okay."
+
+SPEAKER_04 (67 segs, 154.6s, 40 embedded)
+  "Fiona?"
+  "Fiona, why aren't you texting me back?"
+  "You're supposed to help me shop today."
+  "Oh, my God."
+  "She's been robbed."
+
+SPEAKER_05 (5 segs, 22.4s, 0 embedded)
+  "Simon!"
+  "Mmm."
+  "Mmm."
+  "Mmm."
+  "Fiona, help me!"
+
+SPEAKER_06 (39 segs, 78.9s, 20 embedded)
+  "Is this true, fellow Petrakov?"
+  "Yeah, I need to get my powers back."
+  "This is your throne room?"
+  "Ooh!"
+  "Let me ask you something."
+
+SPEAKER_07 (12 segs, 40.4s, 3 embedded)
+  "Action stuff."
+  "Bootery."
+  "Boons?"
+  "This is the address she gave us."
+  "Open the door!"
+
+SPEAKER_08 (28 segs, 54.3s, 14 embedded)
+  "I'm Fiona."
+  "The reason we need this crown is to transform Simon."
+  "Our world depends on him becoming cursed and magical again."
+  "Yeah, I can tell."
+  "Wait, if you tinker with the original curse, will I still be able to fight in th"
+
+SPEAKER_09 (34 segs, 131.9s, 19 embedded)
+  "Come here!"
+  "Baby, baby, why you gotta be like that?"
+  "Gives up."
+  "Bubblegum, stop!"
+  "What?"
+
+SPEAKER_10 (6 segs, 13.2s, 4 embedded)
+  "Cat."
+  "You two are abominations."
+  "A disease."
+  "I'll break free of this prison."
+  "And once free, I will rain down upon the..."
+
+SPEAKER_11 (10 segs, 33.3s, 4 embedded)
+  "Kiss each other!"
+  "Don't think it hasn't occurred to me."
+  "Bring me back something."
+  "Be gone, vile Candy Witch!"
+  "Onward!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_08 <-> SPEAKER_09: 0.558
+  SPEAKER_02 <-> SPEAKER_11: 0.484
+  SPEAKER_01 <-> SPEAKER_07: 0.387
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S01E06.npz

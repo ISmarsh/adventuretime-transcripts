@@ -1,0 +1,72 @@
+Episode: AT.S09E13 (Whispers)
+9 speaker clusters, 205 total segments
+
+
+SPEAKER_00 (4 segs, 5.4s, 1 embedded)
+  "What's shaking?"
+  "I can't come to the phone right now."
+  "I'm either hanging with Finn, my kids, my GF, or I'm dead."
+  "Bye."
+
+SPEAKER_01 (3 segs, 42.3s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "But that's a weird thing to call me."
+
+SPEAKER_02 (25 segs, 44.2s, 11 embedded)
+  "Mmm."
+  "Punch, punch."
+  "Kiss, kiss."
+  "Listen to your bones."
+  "I know."
+
+SPEAKER_03 (5 segs, 5.1s, 1 embedded)
+  "Beast, obey me!"
+  "Obey!"
+  "End of message."
+  "To repeat this message, press 7."
+  "What?"
+
+SPEAKER_04 (6 segs, 10.0s, 3 embedded)
+  "Uh, can I help you?"
+  "You didn't hear me scuttling around."
+  "Foxes are silent hunters."
+  "I mean, jeez, do you know how rude that is?"
+  "I'm gonna be brooding about this all week."
+
+SPEAKER_05 (27 segs, 74.8s, 20 embedded)
+  "The monster."
+  "The monster that whispers me bad thoughts."
+  "Mommy and Daddy came to save me, but they said I was imagining things, which was"
+  "But last night, I really did see it."
+  "And I've been running and running since then."
+
+SPEAKER_06 (10 segs, 34.8s, 5 embedded)
+  "Squish."
+  "Photo synthesize."
+  "Photo synthesize."
+  "Oh no, oh no, oh no."
+  "Sweet B. OK, Fern, what do you think we should do next?"
+
+SPEAKER_07 (46 segs, 88.1s, 25 embedded)
+  "Photo."
+  "You grabbing a snack, Fern?"
+  "Yeah."
+  "Water and light combined so I can make my own food in case I don't catch anythin"
+  "Nice."
+
+SPEAKER_08 (73 segs, 112.1s, 34 embedded)
+  "Come on, man."
+  "Don't be so doused."
+  "Hey, I got something."
+  "Hey, I got something too."
+  "Hey, stop it!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.697  <- possible match
+  SPEAKER_03 <-> SPEAKER_04: 0.697
+  SPEAKER_07 <-> SPEAKER_08: 0.404
+  SPEAKER_06 <-> SPEAKER_07: 0.345
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S09E13.npz

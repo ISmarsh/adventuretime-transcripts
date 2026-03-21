@@ -1,0 +1,117 @@
+Episode: FC.S01E07 (The Star)
+16 speaker clusters, 366 total segments
+
+
+SPEAKER_00 (12 segs, 22.8s, 5 embedded)
+  "Versus where are they?"
+  "Stop!"
+  "I can solve this."
+  "I've been chasing the wrong thing."
+  "If I get to the crown in this world first, I can wait for them to come to me."
+
+SPEAKER_01 (10 segs, 19.1s, 4 embedded)
+  "Scrabby, that's the second alert today."
+  "If you let me out, I could easily just zap everything back to normal."
+  "Shut up."
+  "Yeah, your plan of chasing them all over the vast multiverse is a real winner."
+  "Leave me alone!"
+
+SPEAKER_02 (17 segs, 27.8s, 7 embedded)
+  "Vampires!"
+  "Run!"
+  "Cake!"
+  "No!"
+  "What?"
+
+SPEAKER_03 (29 segs, 62.4s, 20 embedded)
+  "Your pocket's smoking."
+  "We can't make this world any worse."
+  "Bad news, gang."
+  "The jewel's magic is depleting."
+  "It might only be good for one more crown dimension jump."
+
+SPEAKER_04 (3 segs, 4.1s, 2 embedded)
+  "Oh, thank you, Ms. Abbott here."
+  "Marshall didn't say it was gonna be this fancy."
+  "I'm Gary, by the way."
+
+SPEAKER_05 (36 segs, 96.2s, 24 embedded)
+  "Fiona, stab it in the heart!"
+  "Huh."
+  "I don't remember this part of town being so gothic."
+  "You know about that?"
+  "I can't believe you live in such a swanky place."
+
+SPEAKER_06 (29 segs, 65.5s, 17 embedded)
+  "Did you like my welcome?"
+  "It's the star!"
+  "Martin!"
+  "Don't you look tasty."
+  "Fire!"
+
+SPEAKER_07 (14 segs, 28.5s, 7 embedded)
+  "Agents of Light, try some of these."
+  "It's funny."
+  "I don't even need this gaudy thing to be powerful, but I like going outside anyt"
+  "Stop toying with your prey and finish her off."
+  "Or toy with her in a more creative way."
+
+SPEAKER_08 (22 segs, 62.7s, 17 embedded)
+  "Darling, you're here!"
+  "Is that what you're wearing?"
+  "Your suit is pressed and waiting in your room, sweetheart."
+  "And young man, Marshall has extra suits that should fit you."
+  "Ah, yes, yes, yes."
+
+SPEAKER_09 (3 segs, 31.3s, 1 embedded)
+  "Ah!"
+  "Hmm..."
+  "Help!"
+
+SPEAKER_10 (13 segs, 23.9s, 5 embedded)
+  "You've been quiet tonight."
+  "Oh, I just got to steel myself before I see my mom."
+  "Hey, I got your back."
+  "Oh, I love this little guy."
+  "Mom?"
+
+SPEAKER_11 (5 segs, 11.2s, 2 embedded)
+  "The Star?"
+  "The Vampire King's ward is vicious, merciless."
+  "The Star has outlived the rest of his inner circle, trained by the VK himself."
+  "You're not welcome."
+  "Never again!"
+
+SPEAKER_12 (87 segs, 160.2s, 42 embedded)
+  "You left yourself vulnerable out there."
+  "Bunch of death-wishers."
+  "Princess Bubblegum."
+  "Thanks for saving..."
+  "Strange cat mutant."
+
+SPEAKER_13 (28 segs, 52.9s, 13 embedded)
+  "Show me them teeth."
+  "No vamps, just dum-dums, ma'am."
+  "Okay, but could an acorn kill a vampire?"
+  "What you mean?"
+  "Like if you planted it in their chest and waited for it to grow into a tree?"
+
+SPEAKER_14 (18 segs, 24.0s, 6 embedded)
+  "What about all those candy people?"
+  "Do they deserve to be chopped up?"
+  "That was self-defense!"
+  "I still feel bad, okay?"
+  "I want to make things better, not worse."
+
+SPEAKER_15 (36 segs, 52.3s, 14 embedded)
+  "Nothing's gonna top that universe."
+  "Best nap of my life."
+  "Fiona?"
+  "What's the matter?"
+  "You still pouting about that winter fling?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_13 <-> SPEAKER_14: 0.841  <- likely same character
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S01E07.npz

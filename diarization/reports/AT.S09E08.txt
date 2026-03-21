@@ -1,0 +1,72 @@
+Episode: AT.S09E08 (Hero Heart)
+10 speaker clusters, 176 total segments
+
+
+SPEAKER_00 (6 segs, 11.2s, 3 embedded)
+  "Hmm... Got any... caramel crunch pies?"
+  "Oh man, I don't think you should play this game ever again."
+  "You're too good at it."
+  "What is that sound?"
+  "Ooh!"
+
+SPEAKER_01 (32 segs, 67.8s, 19 embedded)
+  "Check it out, LSP."
+  "What?"
+  "It's a real magic flying carpet."
+  "I feel just like Scheherazade."
+  "Lump creature, did you get the fire jewel?"
+
+SPEAKER_02 (2 segs, 5.7s, 1 embedded)
+  "Is this the end?"
+  "Will I be the last witness to the glory of this world that I chose above all oth"
+
+SPEAKER_03 (58 segs, 103.8s, 32 embedded)
+  "Nerds!"
+  "No more Nerds!"
+  "Ben!"
+  "Fight!"
+  "Fight!"
+
+SPEAKER_04 (5 segs, 19.9s, 3 embedded)
+  "Dang it, Fen."
+  "Becoming a crazy, fiery bad boy has made you even more of a babe."
+  "Your face tastes like my happy place."
+  "Fire thing rules!"
+  "It's time to go professional."
+
+SPEAKER_05 (18 segs, 37.4s, 8 embedded)
+  "This is about the purity of battle."
+  "The fiery heartbeat of battle is its own reason."
+  "I ain't sweet!"
+  "I'm a pure warrior with guns, and I'm a moidal you for farts!"
+  "I've enjoyed just hanging out."
+
+SPEAKER_06 (32 segs, 83.2s, 20 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends, we'll go to Fairy."
+  "Messed up plans with Finn and Jake, Ice King and Betty."
+  "Who knows how it will end?"
+  "It's Adventure Time!"
+
+SPEAKER_07 (3 segs, 39.8s, 2 embedded)
+  "Let me hear you whisper that you love me too."
+  "Keep the love light glowing In your eyes so true Let me call you sweetheart I'm "
+  "This party is so crazy!"
+
+SPEAKER_08 (19 segs, 30.0s, 8 embedded)
+  "Nerds!"
+  "Smash the Nerds!"
+  "Over there in this world is the best kind of world!"
+  "Nerds!"
+  "Yes!"
+
+SPEAKER_09 (1 segs, 2.1s, 1 embedded)
+  "Nerds!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.501
+  SPEAKER_02 <-> SPEAKER_04: 0.471
+  SPEAKER_03 <-> SPEAKER_04: 0.422
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S09E08.npz

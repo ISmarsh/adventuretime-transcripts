@@ -1,0 +1,101 @@
+Episode: AT.S05E44 (Apple Wedding)
+14 speaker clusters, 210 total segments
+
+
+SPEAKER_00 (1 segs, 26.2s, 0 embedded)
+  "with me and the butterflies and bees we can wander through the forest and do so "
+
+SPEAKER_01 (3 segs, 30.7s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Um, I see like reddish-green blotches."
+
+SPEAKER_02 (4 segs, 4.5s, 2 embedded)
+  "There you go."
+  "Whoa, whoa!"
+  "Kids, gotta finish the ceremony first."
+  "Keep the baby in the basket."
+
+SPEAKER_03 (24 segs, 64.7s, 16 embedded)
+  "What else could go wrong?"
+  "Please go on."
+  "Describe the next Thought Forum."
+  "Ah!"
+  "One year good luck."
+
+SPEAKER_04 (25 segs, 53.9s, 12 embedded)
+  "Yay!"
+  "Hey, Barkeep, can I have another one of these ciders?"
+  "Hey, little robot."
+  "How you doing?"
+  "Hey, did you know I used to be married to tree trunks?"
+
+SPEAKER_05 (10 segs, 18.3s, 4 embedded)
+  "Get out of my way, fan!"
+  "Oh my God!"
+  "You're touching my woman's body!"
+  "Everyone at the party, get ready!"
+  "Cause here comes a hot bunch of grapes!"
+
+SPEAKER_06 (3 segs, 5.4s, 2 embedded)
+  "Oh, around for us."
+  "I thought you said walk to the zoo and back."
+  "God."
+
+SPEAKER_07 (8 segs, 19.0s, 4 embedded)
+  "Is that you?"
+  "Let me go to this party!"
+  "It's not your party, LSP!"
+  "Poor Ben."
+  "Don't you know?"
+
+SPEAKER_08 (14 segs, 38.4s, 9 embedded)
+  "Oh Okay Sweetie you look so nice Sounds really sweet"
+  "Psst."
+  "Sweetie, what are you doing?"
+  "Wait, the tree trunks."
+  "Look around."
+
+SPEAKER_09 (8 segs, 17.8s, 4 embedded)
+  "Oh, nonsense, baby."
+  "She's probably just jealous, because you're about to marry such a handsome, fine"
+  "Oh, but he is a saucy, fine, bologna factory."
+  "Mm-hmm."
+  "I tell you what."
+
+SPEAKER_10 (51 segs, 128.7s, 32 embedded)
+  "Oh, hey, princess."
+  "Wow."
+  "You look prettier than a sippy cup in a snowbank."
+  "Oh, well, Princess, I appreciate your generosity going to all this trouble to hi"
+  "What?"
+
+SPEAKER_11 (5 segs, 7.0s, 1 embedded)
+  "Sure!"
+  "No."
+  "It's starting!"
+  "The ceremony is starting!"
+  "La, la, la."
+
+SPEAKER_12 (47 segs, 98.1s, 25 embedded)
+  "Cinnamon Bun, what the heck are you doing out in the woods?"
+  "I asked you 20 minutes ago to take these drinks around for us."
+  "Finn, Cinnamon Buns can attend the juice bar now."
+  "I have a special job for you."
+  "As Boo's greatest champion, I'm relying on you to keep Lumpy Space Princess from"
+
+SPEAKER_13 (6 segs, 7.1s, 2 embedded)
+  "Oh, but what about Jake?"
+  "Lumpy Space Princess?"
+  "Are you crazy?"
+  "That loopy bird is going to string me up sideways."
+  "You can perform your own dang ceremony."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.626  <- possible match
+  SPEAKER_02 <-> SPEAKER_03: 0.626
+  SPEAKER_01 <-> SPEAKER_05: 0.507
+  SPEAKER_05 <-> SPEAKER_07: 0.489
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E44.npz

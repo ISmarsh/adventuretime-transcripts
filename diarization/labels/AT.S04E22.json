@@ -1,0 +1,22 @@
+{
+  "episode_id": "AT.S04E22",
+  "title": "Ignition Point",
+  "season": 4,
+  "speaker_map": {
+    "SPEAKER_03": "Flame Princess",
+    "SPEAKER_06": "Flame King",
+    "SPEAKER_07": "Finn_S04-S06",
+    "SPEAKER_08": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_09"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:19:59"
+}

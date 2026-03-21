@@ -1,0 +1,59 @@
+Episode: AT.S02E22 (The Limit)
+8 speaker clusters, 318 total segments
+
+
+SPEAKER_00 (2 segs, 20.8s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 34.7s, 1 embedded)
+  "Yeah, boy!"
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+SPEAKER_02 (3 segs, 10.6s, 3 embedded)
+  "Ah, I love kitties."
+  "Finn the human, are you worthy to command me?"
+  "I wish for what Finn desires!"
+
+SPEAKER_03 (16 segs, 42.4s, 9 embedded)
+  "Oh wow."
+  "What the?"
+  "Oh, that's a distress flare from my other hot dog knights."
+  "I sent them to rescue my other other hot dog knights who got trapped in the laby"
+  "Their message says, baby, us, treble, tame."
+
+SPEAKER_04 (18 segs, 8.9s, 1 embedded)
+  "Come on, baby!"
+  "Jake!"
+  "Jake!"
+  "Jake!"
+  "Jake!"
+
+SPEAKER_05 (141 segs, 186.4s, 36 embedded)
+  "Dude shooting star make a wish that's not a shooting star."
+  "Oh man, I wanna ride it so bad!"
+  "How do you even control those things?"
+  "You can't control it, dude."
+  "You have to let it give you control."
+
+SPEAKER_06 (124 segs, 170.2s, 37 embedded)
+  "It's just a firefly What are you gonna wish for dude, oh, you know, that's somet"
+  "Don't worry, Princess."
+  "Jake and I are on it."
+  "Whoa!"
+  "Fudge, man!"
+
+SPEAKER_07 (10 segs, 21.2s, 6 embedded)
+  "Forward and take your wishes."
+  "Who's next?"
+  "Oh, yes."
+  "Now you may each receive your wish for real."
+  "But be warned, there are no do-overs."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.429
+  SPEAKER_05 <-> SPEAKER_06: 0.419
+  SPEAKER_05 <-> SPEAKER_07: 0.363
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E22.npz

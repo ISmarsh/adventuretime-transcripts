@@ -1,0 +1,22 @@
+{
+  "episode_id": "AT.S07E08",
+  "title": "Vamps About",
+  "season": 7,
+  "speaker_map": {
+    "SPEAKER_02": "Peppermint Butler",
+    "SPEAKER_04": "Princess Bubblegum",
+    "SPEAKER_06": "Marceline",
+    "SPEAKER_09": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_03",
+    "SPEAKER_05",
+    "SPEAKER_07",
+    "SPEAKER_08"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:52:58"
+}

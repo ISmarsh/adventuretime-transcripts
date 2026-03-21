@@ -1,0 +1,25 @@
+{
+  "episode_id": "AT.S03E24",
+  "title": "Ghost Princess",
+  "season": 3,
+  "speaker_map": {
+    "SPEAKER_07": "Jake",
+    "SPEAKER_11": "Finn_S01-S03",
+    "SPEAKER_10": "Ghost Princess",
+    "SPEAKER_02": "Clarence"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_08",
+    "SPEAKER_09",
+    "SPEAKER_12"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:39:39"
+}

@@ -1,0 +1,20 @@
+{
+  "episode_id": "AT.S01E22",
+  "title": "Henchman",
+  "season": 1,
+  "speaker_map": {
+    "SPEAKER_02": "Finn_S01-S03",
+    "SPEAKER_05": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_06",
+    "SPEAKER_07"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:08:38"
+}

@@ -1,0 +1,25 @@
+{
+  "episode_id": "AT.S08E03",
+  "title": "Beyond the Grotto",
+  "season": 8,
+  "speaker_map": {
+    "SPEAKER_00": "BMO",
+    "SPEAKER_10": "Tree Trunks",
+    "SPEAKER_11": "Finn_S07-S10",
+    "SPEAKER_12": "Ice King",
+    "SPEAKER_13": "Jake",
+    "SPEAKER_06": "Shelby"
+  },
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_07",
+    "SPEAKER_08",
+    "SPEAKER_09"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:49:55"
+}

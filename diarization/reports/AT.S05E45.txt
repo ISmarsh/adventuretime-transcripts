@@ -1,0 +1,78 @@
+Episode: AT.S05E45 (Blade of Grass)
+11 speaker clusters, 188 total segments
+
+
+SPEAKER_00 (1 segs, 26.2s, 0 embedded)
+  "This party is so good!"
+
+SPEAKER_01 (3 segs, 22.9s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Yeah, not coming off."
+
+SPEAKER_02 (1 segs, 3.8s, 1 embedded)
+  "Owen will put it right by the entrance and it'll be our mascot, the Candle Man!"
+
+SPEAKER_03 (12 segs, 29.0s, 10 embedded)
+  "Yup!"
+  "Howdy, boys."
+  "Nice pillow and nice sword."
+  "My hands are full of fin."
+  "Uh, you mind slicing an apple for me?"
+
+SPEAKER_04 (10 segs, 16.4s, 5 embedded)
+  "Close the curtains behind you, please."
+  "Walk towards the candle."
+  "How can I help you?"
+  "Hold on."
+  "Here you go."
+
+SPEAKER_05 (5 segs, 10.8s, 3 embedded)
+  "Coming up here?"
+  "Uh, go forth!"
+  "Go... forth!"
+  "That was all my grassy objects."
+  "That's not how people are supposed to react to an eternal curse!"
+
+SPEAKER_06 (5 segs, 29.1s, 0 embedded)
+  "I got it!"
+  "Huh?"
+  "Don't let it get me, Jake!"
+  "Ah!"
+  "Stop chasing my candles!"
+
+SPEAKER_07 (28 segs, 59.4s, 15 embedded)
+  "Hey, there's Chew's goose!"
+  "Goose!"
+  "Come on!"
+  "We gotta find the dude who sold us this cursed sword."
+  "You know who he is?"
+
+SPEAKER_08 (91 segs, 154.4s, 28 embedded)
+  "Thanks, bro."
+  "They're for you, bro."
+  "But, Finn, I'm gonna tell you something gently."
+  "Okay."
+  "What is it, bro?"
+
+SPEAKER_09 (20 segs, 33.7s, 7 embedded)
+  "Help!"
+  "They're taking our candles!"
+  "It's the Hooligans who love candles!"
+  "Let's get them!"
+  "Hey!"
+
+SPEAKER_10 (7 segs, 15.5s, 4 embedded)
+  "Candles."
+  "Candles."
+  "Candles for all occasions."
+  "You saved our shop!"
+  "Thank you so much, you brave young man."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_10: 0.593
+  SPEAKER_07 <-> SPEAKER_09: 0.566
+  SPEAKER_08 <-> SPEAKER_09: 0.555
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E45.npz

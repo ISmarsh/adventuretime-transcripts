@@ -1,0 +1,88 @@
+Episode: AT.S07E18 (President Porpoise is Missing!)
+11 speaker clusters, 262 total segments
+
+
+SPEAKER_00 (12 segs, 7.4s, 1 embedded)
+  "Curly, Curly, Curly, Curly, Curly, Curly, Curly!"
+  "Call!"
+  "Hurry!"
+  "Hurry!"
+  "Hurry!"
+
+SPEAKER_01 (40 segs, 40.6s, 11 embedded)
+  "Hurry!"
+  "Hurry!"
+  "Hurry!"
+  "Hurry!"
+  "Hurry!"
+
+SPEAKER_02 (38 segs, 28.2s, 8 embedded)
+  "Hurry!"
+  "Hurry!"
+  "Hurry!"
+  "Hurry!"
+  "Hurry!"
+
+SPEAKER_03 (38 segs, 141.3s, 19 embedded)
+  "No problemo."
+  "Yeah!"
+  "Anything to help the friend of my friend."
+  "Uh, what are you doing behind our couch, neighbor?"
+  "Sometimes I get lonely and need to hear the sound of other people talking."
+
+SPEAKER_04 (13 segs, 24.3s, 6 embedded)
+  "Hey!"
+  "No, we're not."
+  "Think we'll see any beautiful mermaids?"
+  "Aye, aye, sir."
+  "Oh."
+
+SPEAKER_05 (6 segs, 19.9s, 5 embedded)
+  "I guess it is kind of weird that you guys just showed up and you're not even fis"
+  "OK, everyone who thinks these guys should just go away, raise their hands or cla"
+  "Wow, all right, eight."
+  "No one?"
+  "Oh, wait, Representative Sybil?"
+
+SPEAKER_06 (8 segs, 38.6s, 5 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Oh, eight?"
+  "Eh, come on."
+  "Huh?"
+
+SPEAKER_07 (39 segs, 55.8s, 16 embedded)
+  "Calling!"
+  "All!"
+  "Curlies!"
+  "Yeah!"
+  "One more and we'll have called all the Curlies!"
+
+SPEAKER_08 (31 segs, 40.2s, 13 embedded)
+  "Hurry!"
+  "Hurry!"
+  "Hurry!"
+  "Hurry!"
+  "Hurry!"
+
+SPEAKER_09 (23 segs, 48.6s, 10 embedded)
+  "Will my colleague from the great kelp force yield?"
+  "Thank you."
+  "The president is missing."
+  "Yes, we all agree."
+  "And while he is missing, Vice President Blowfish is acting president."
+
+SPEAKER_10 (11 segs, 16.3s, 5 embedded)
+  "Ooh, BRB."
+  "Jake?"
+  "Yeah, man, I'm fine."
+  "What?"
+  "Look at all this room I have!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_10: 0.562
+  SPEAKER_08 <-> SPEAKER_09: 0.500
+  SPEAKER_02 <-> SPEAKER_08: 0.411
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E18.npz

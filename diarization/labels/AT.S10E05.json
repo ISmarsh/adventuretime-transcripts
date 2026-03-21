@@ -1,0 +1,22 @@
+{
+  "episode_id": "AT.S10E05",
+  "title": "Seventeen",
+  "season": 10,
+  "speaker_map": {
+    "SPEAKER_03": "Princess Bubblegum",
+    "SPEAKER_05": "Jake",
+    "SPEAKER_09": "Finn_S07-S10"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_04",
+    "SPEAKER_06",
+    "SPEAKER_07",
+    "SPEAKER_08"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T13:31:41"
+}

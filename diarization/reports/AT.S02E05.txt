@@ -1,0 +1,76 @@
+Episode: AT.S02E05 (Storytelling)
+11 speaker clusters, 227 total segments
+
+
+SPEAKER_00 (2 segs, 30.6s, 1 embedded)
+  "It's time to let you grow up."
+  "This party is so crazy!"
+
+SPEAKER_01 (2 segs, 20.3s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (37 segs, 63.2s, 20 embedded)
+  "Yes."
+  "Tell me a story."
+  "I already heard that story before."
+  "A new story."
+  "Once upon a time... No!"
+
+SPEAKER_03 (6 segs, 8.2s, 4 embedded)
+  "I've been waiting for this my whole life."
+  "Mom, quit touching me."
+  "What?"
+  "I..."
+  "I've been wanting to date you for years."
+
+SPEAKER_04 (3 segs, 8.0s, 2 embedded)
+  "What?"
+  "I've been proved since you came here."
+  "Does that mean you're gonna release me your cage is made of sticks brother Just "
+
+SPEAKER_05 (9 segs, 30.0s, 5 embedded)
+  "Yes."
+  "Oh, no you don't."
+  "You never let me do anything."
+  "This is the right of forest justice."
+  "Huzzah!"
+
+SPEAKER_06 (7 segs, 16.6s, 5 embedded)
+  "I can't believe you made me do that!"
+  "I'm secretly in love with Mr."
+  "Goose!"
+  "And now he'll never love me!"
+  "Because now I'm soiled!"
+
+SPEAKER_07 (1 segs, 5.6s, 1 embedded)
+  "Are y'all kissing in there?"
+
+SPEAKER_08 (9 segs, 11.2s, 3 embedded)
+  "Yeah."
+  "What's this friend's name, huh?"
+  "Oh no, oh no."
+  "I really did want to kiss Boobafina."
+  "I'm secretly in love with her."
+
+SPEAKER_09 (9 segs, 11.6s, 1 embedded)
+  "Are y'all in love?"
+  "Uh... Um..."
+  "Pfft."
+  "Yeah, right."
+  "Sounds pretty fake."
+
+SPEAKER_10 (140 segs, 236.5s, 54 embedded)
+  "Blanking me."
+  "Blanking me, Finn."
+  "I'll get your blanket, dude."
+  "Where is it?"
+  "Right here."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.497
+  SPEAKER_07 <-> SPEAKER_10: 0.463
+  SPEAKER_06 <-> SPEAKER_07: 0.451
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E05.npz

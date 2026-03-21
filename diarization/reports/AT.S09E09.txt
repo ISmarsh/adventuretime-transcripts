@@ -1,0 +1,74 @@
+Episode: AT.S09E09 (Skyhooks II)
+9 speaker clusters, 202 total segments
+
+
+SPEAKER_00 (6 segs, 30.6s, 4 embedded)
+  "Boy, did I fail deep."
+  "Well, maybe I'll try again in another thousand years."
+  "I'm not sticking around to see how this ends."
+  "Mr. Fox, please roll me someplace safe."
+  "Uh, did you recently get a haircut?"
+
+SPEAKER_01 (9 segs, 31.1s, 6 embedded)
+  "Lumps are the subspace molecular lattice that binds together the scientific and "
+  "More powerful than any one element."
+  "It's the force that orders reality into its true shape."
+  "And LSP, this part is very, very important."
+  "No more learning!"
+
+SPEAKER_02 (13 segs, 42.5s, 9 embedded)
+  "Adventure time!"
+  "Come on, grab your friends We'll go to very messed up lands With Finn and Jake, "
+  "Don't worry, my children."
+  "I will send my joy out unto all of them."
+  "Bon bon ballad."
+
+SPEAKER_03 (26 segs, 52.7s, 11 embedded)
+  "You left my friend Finn down there."
+  "Okay, but we should turn back still."
+  "Finn loves me."
+  "He sees me as like our handsome older brother."
+  "Uh... Ahh!"
+
+SPEAKER_04 (47 segs, 87.2s, 20 embedded)
+  "Now let's grab LSP and get the buns out of here."
+  "Uh, guys?"
+  "Getting a little too close!"
+  "Uh..."
+  "Lumpy Space Princess, you were buried in candy and it didn't change you at all."
+
+SPEAKER_05 (8 segs, 19.3s, 6 embedded)
+  "It's working!"
+  "Climb your face, you noid!"
+  "Climb your face, you noid!"
+  "My boy!"
+  "Oh, blessings."
+
+SPEAKER_06 (13 segs, 33.0s, 6 embedded)
+  "I'm a tough tranche."
+  "People don't tell me what to do."
+  "I tell them what to do."
+  "Wait, what?"
+  "Michael... LSP, this is important!"
+
+SPEAKER_07 (42 segs, 49.1s, 11 embedded)
+  "Ahh!"
+  "Ahh!"
+  "Ahh!"
+  "Ahh!"
+  "Ahh!"
+
+SPEAKER_08 (31 segs, 68.3s, 16 embedded)
+  "Give me them jewels, Finn."
+  "We're out of time."
+  "I'm sorry, but we don't need him anymore."
+  "But don't worry, I've got a new plan."
+  "A plan where nothing that happens here matters."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.540
+  SPEAKER_05 <-> SPEAKER_06: 0.504
+  SPEAKER_05 <-> SPEAKER_07: 0.434
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S09E09.npz

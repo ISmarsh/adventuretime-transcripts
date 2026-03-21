@@ -1,0 +1,48 @@
+Episode: AT.S03E14 (Beautopia)
+6 speaker clusters, 177 total segments
+
+
+SPEAKER_00 (3 segs, 28.3s, 3 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "No move."
+
+SPEAKER_01 (2 segs, 36.5s, 1 embedded)
+  "Come along with me"
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+SPEAKER_02 (43 segs, 125.9s, 26 embedded)
+  "Finn?"
+  "Help Susan!"
+  "I need your hero heart and your magic."
+  "My magic?"
+  "Magic of red flower."
+
+SPEAKER_03 (8 segs, 9.8s, 3 embedded)
+  "Come on."
+  "We swim there."
+  "No, you don't understand."
+  "I'm not a fish person."
+  "I'm human."
+
+SPEAKER_04 (36 segs, 46.5s, 13 embedded)
+  "Hey, Zolnut!"
+  "Hey, Zolnut!"
+  "What if your name was Zolnut?"
+  "And then I would be like, hey, Zolnut!"
+  "Hey, Zolnut!"
+
+SPEAKER_05 (77 segs, 172.7s, 42 embedded)
+  "Hey, what kind of coffee do you want?"
+  "That's terrible!"
+  "Yeah."
+  "Susan Strong?"
+  "Of course I will."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_04: 0.580
+  SPEAKER_00 <-> SPEAKER_01: 0.407
+  SPEAKER_02 <-> SPEAKER_04: 0.401
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E14.npz

@@ -1,0 +1,50 @@
+Episode: AT.S03E18 (The New Frontier)
+6 speaker clusters, 207 total segments
+
+
+SPEAKER_00 (7 segs, 25.9s, 0 embedded)
+  "Whoo-hoo!"
+  "Whoo-hoo!"
+  "Whoo-hoo!"
+  "Whoo-hoo!"
+  "Whoo-hoo!"
+
+SPEAKER_01 (6 segs, 8.4s, 2 embedded)
+  "Hmm."
+  "Huh?"
+  "Stop chasing me."
+  "Yeah!"
+  "Whoo-hoo!"
+
+SPEAKER_02 (28 segs, 31.4s, 6 embedded)
+  "Huh?"
+  "Huh?"
+  "Yeah."
+  "There we go."
+  "Look out!"
+
+SPEAKER_03 (65 segs, 124.7s, 26 embedded)
+  "My glob."
+  "For real?"
+  "With the cosmic owl and everything?"
+  "Oh, a real croak dream."
+  "Yeah."
+
+SPEAKER_04 (97 segs, 207.5s, 41 embedded)
+  "Whoa!"
+  "Whoa!"
+  "Finn!"
+  "Finn!"
+  "Oh my gosh!"
+
+SPEAKER_05 (2 segs, 21.5s, 2 embedded)
+  "Picture time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_02: 0.537
+  SPEAKER_01 <-> SPEAKER_05: 0.513
+  SPEAKER_03 <-> SPEAKER_04: 0.429
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E18.npz

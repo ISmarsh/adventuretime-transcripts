@@ -1,0 +1,33 @@
+{
+  "episode_id": "FC.S02E08",
+  "title": "The Insect that Sang",
+  "season": 2,
+  "speaker_map": {
+    "SPEAKER_02": "Cake",
+    "SPEAKER_07": "Fionna",
+    "SPEAKER_08": "The Scarab",
+    "SPEAKER_10": "Princess Bubblegum",
+    "SPEAKER_04": "Orbo",
+    "SPEAKER_14": "The Scarab",
+    "SPEAKER_09": "DJ Flame",
+    "SPEAKER_13": "Flying Squirrel",
+    "SPEAKER_15": "Simon",
+    "SPEAKER_01": "Hana Abadeer",
+    "SPEAKER_18": "Marshall Lee",
+    "SPEAKER_20": "Cake",
+    "SPEAKER_17": "Marshall Lee",
+    "SPEAKER_12": "Hana Abadeer",
+    "SPEAKER_19": "Cake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_03",
+    "SPEAKER_05",
+    "SPEAKER_06",
+    "SPEAKER_11",
+    "SPEAKER_16"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-09T21:39:17"
+}

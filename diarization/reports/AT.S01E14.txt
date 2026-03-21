@@ -1,0 +1,58 @@
+Episode: AT.S01E14 (The Witch's Garden)
+8 speaker clusters, 253 total segments
+
+
+SPEAKER_00 (1 segs, 10.1s, 1 embedded)
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 21.5s, 1 embedded)
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_02 (4 segs, 15.0s, 4 embedded)
+  "Behold, the beautiful mermaid of the river."
+  "Which one of you mortals wants to mate with all this?"
+  "Hungry, hungry."
+  "Remember to save the brain for dessert."
+
+SPEAKER_03 (154 segs, 273.6s, 73 embedded)
+  "Dude, how long are we gonna follow this frog?"
+  "It looks cool in there."
+  "Woohoo!"
+  "Wow, look at this place."
+  "They look like donuts."
+
+SPEAKER_04 (15 segs, 25.6s, 6 embedded)
+  "Because I can tell the difference."
+  "Are you alright, my donut pretties?"
+  "Wait a second."
+  "Oh, you're doing so well."
+  "Apology denied."
+
+SPEAKER_05 (24 segs, 45.6s, 12 embedded)
+  "What gives?"
+  "He ate one of my donuts."
+  "You're lying!"
+  "The stink of magic dog lips is everywhere!"
+  "Holy slug lady, calm down!"
+
+SPEAKER_06 (49 segs, 97.9s, 26 embedded)
+  "I just wanna see him put on that crown."
+  "Wow!"
+  "Too bad we don't have the key to this."
+  "What are you talking about?"
+  "I got two keys right here."
+
+SPEAKER_07 (3 segs, 6.7s, 2 embedded)
+  "Magic has no more of us!"
+  "Yes!"
+  "Nope."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_06: 0.657  <- possible match
+  SPEAKER_05 <-> SPEAKER_06: 0.657
+  SPEAKER_04 <-> SPEAKER_05: 0.469
+  SPEAKER_05 <-> SPEAKER_07: 0.461
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E14.npz

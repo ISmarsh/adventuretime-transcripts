@@ -1,0 +1,75 @@
+Episode: AT.S01E23 (Rainy Day Daydream)
+12 speaker clusters, 260 total segments
+
+
+SPEAKER_00 (1 segs, 20.9s, 0 embedded)
+  "me and the butterflies and bees we can wander through the forest and do so as we"
+
+SPEAKER_01 (2 segs, 29.2s, 1 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (80 segs, 138.3s, 38 embedded)
+  "Oh, yeah."
+  "It's raining knives, man."
+  "Come on."
+  "Looks like we're staying in today, kid."
+  "Well, what are we gonna do?"
+
+SPEAKER_03 (147 segs, 272.8s, 78 embedded)
+  "Yes!"
+  "Jake, get ready for slapping the jowls."
+  "Seriously, though, get ready for a day filled with adventure."
+  "Whoa, really?"
+  "Yeah, man."
+
+SPEAKER_04 (2 segs, 5.7s, 2 embedded)
+  "That is an interesting response."
+  "But hello, shut down."
+
+SPEAKER_05 (5 segs, 13.2s, 3 embedded)
+  "Who wants to play?"
+  "BMO!"
+  "I've created a new game called Conversation Parade."
+  "Start it up, BMO."
+  "What do you think about the stars in the sky?"
+
+SPEAKER_06 (11 segs, 22.1s, 6 embedded)
+  "Now for that switch."
+  "Good morrow, sir."
+  "My name is Bellamy Bug."
+  "Would you care for a crocheted doily my daughter made?"
+  "She imbued it with her tears."
+
+SPEAKER_07 (2 segs, 1.9s, 0 embedded)
+  "Okay."
+  "Hey, you did it, man!"
+
+SPEAKER_08 (2 segs, 7.6s, 2 embedded)
+  "Tell me, Voyager, what is simple and yet also a riddle?"
+  "That is the wrong answer."
+
+SPEAKER_09 (2 segs, 11.1s, 2 embedded)
+  "Then brace yourself, fool, for this riddle comes from a mysterious, faraway land"
+  "Yes, um, the riddle, uh, it cometh."
+
+SPEAKER_10 (2 segs, 7.5s, 1 embedded)
+  "Oh, voyagers."
+  "To cross this bridge, you must first pass the test of the riddle."
+
+SPEAKER_11 (4 segs, 6.8s, 2 embedded)
+  "It tastes like banana candy, man."
+  "Here, man."
+  "Dang, girl."
+  "If you weren't a figment of my imagination, I'd want to have your baby."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_09 <-> SPEAKER_10: 0.676  <- possible match
+  SPEAKER_04 <-> SPEAKER_05: 0.664  <- possible match
+  SPEAKER_08 <-> SPEAKER_10: 0.627  <- possible match
+  SPEAKER_09 <-> SPEAKER_10: 0.676
+  SPEAKER_04 <-> SPEAKER_05: 0.664
+  SPEAKER_08 <-> SPEAKER_10: 0.627
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E23.npz

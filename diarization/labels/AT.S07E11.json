@@ -1,0 +1,24 @@
+{
+  "episode_id": "AT.S07E11",
+  "title": "Take Her Back",
+  "season": 7,
+  "speaker_map": {
+    "SPEAKER_00": "Banana Guard",
+    "SPEAKER_01": "Princess Bubblegum",
+    "SPEAKER_03": "Peppermint Butler",
+    "SPEAKER_04": "Peppermint Butler",
+    "SPEAKER_06": "Jake",
+    "SPEAKER_08": "Finn_S07-S10",
+    "SPEAKER_11": "Marceline"
+  },
+  "skipped": [
+    "SPEAKER_02",
+    "SPEAKER_05",
+    "SPEAKER_07",
+    "SPEAKER_09",
+    "SPEAKER_10"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:52:58"
+}

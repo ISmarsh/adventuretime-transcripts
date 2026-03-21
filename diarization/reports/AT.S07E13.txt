@@ -1,0 +1,64 @@
+Episode: AT.S07E13 (The Dark Cloud)
+8 speaker clusters, 171 total segments
+
+
+SPEAKER_00 (13 segs, 35.3s, 5 embedded)
+  "All right, people, this is our last stand."
+  "It's gonna take every one of us to see this thing through."
+  "Me, Onion Man, Short Man, Terry, whoa!"
+  "Short Stack, Good Beard, Deshaun, Seed Man, Sandwich Paul, Angry Sousa, Wee Lind"
+  "Whoa!"
+
+SPEAKER_01 (2 segs, 1.3s, 0 embedded)
+  "Marceline?"
+  "Marceline?"
+
+SPEAKER_02 (64 segs, 188.0s, 36 embedded)
+  "Adventure Time, come on, grab your friends."
+  "We're going to a very distant land with Finn and Jake and Marceline and Princess"
+  "It's Adventure Time."
+  "Me, I guess."
+  "Me, I'm wrong."
+
+SPEAKER_03 (16 segs, 34.2s, 5 embedded)
+  "Oh, geez."
+  "Oh, geez."
+  "Uh, come on."
+  "Uh, come on."
+  "Come on."
+
+SPEAKER_04 (10 segs, 18.7s, 3 embedded)
+  "Ah, this is nice."
+  "Getting a little warm for royal fineries though."
+  "Eesh, it does sound bad."
+  "Hey!"
+  "Banana Man!"
+
+SPEAKER_05 (19 segs, 34.3s, 9 embedded)
+  "Well, I saw through my peeping scope that everything was going boom and explodin"
+  "And you wanted to help?"
+  "No!"
+  "I felt left out."
+  "I'm just a phone call away, you know."
+
+SPEAKER_06 (19 segs, 39.0s, 13 embedded)
+  "Mm-hmm."
+  "Princess, sounds pretty bad out there."
+  "Perhaps you should protect your people."
+  "He's beautiful."
+  "You're preaching to the preacher, brother."
+
+SPEAKER_07 (26 segs, 53.7s, 12 embedded)
+  "Finn, don't worry about it."
+  "We've got bigger fish to fry right now."
+  "But..."
+  "It's fine."
+  "Pet Butt used to love being scattered all around."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_06: 0.565
+  SPEAKER_03 <-> SPEAKER_04: 0.268
+  SPEAKER_04 <-> SPEAKER_05: 0.257
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S07E13.npz

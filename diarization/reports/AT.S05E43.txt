@@ -1,0 +1,76 @@
+Episode: AT.S05E43 (Root Beer Guy)
+10 speaker clusters, 181 total segments
+
+
+SPEAKER_00 (4 segs, 23.0s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Emergency!"
+  "Quickly to Lake Butterscotch!"
+
+SPEAKER_01 (8 segs, 42.5s, 4 embedded)
+  "Thank you for your time."
+  "Hello?"
+  "Next stop, Lollipop Park Estates."
+  "Princess oh, yeah, it is the princess You were so good at solving the case What "
+  "But if you weren't following the clues I left, who was?"
+
+SPEAKER_02 (25 segs, 60.2s, 16 embedded)
+  "Candy."
+  "Oh, I've got a closing argument tomorrow, root beer guy."
+  "Okay, sweetie, that sounds like an interesting dream."
+  "You need to eat something before you go to work, and you can't keep falling asle"
+  "It's bad for your back."
+
+SPEAKER_03 (4 segs, 11.7s, 3 embedded)
+  "Wakey, wakey, wake!"
+  "Come on, now."
+  "Come on."
+  "You, you, you, you, you, you!"
+
+SPEAKER_04 (14 segs, 42.5s, 7 embedded)
+  "Root beer guy!"
+  "Root beer guy!"
+  "How many battles of product do you sell this month?"
+  "Zero."
+  "Great!"
+
+SPEAKER_05 (7 segs, 15.7s, 7 embedded)
+  "And it's easy to do when you have all the leads."
+  "Miles from where anyone could hear a person scream."
+  "If a person was screaming for some reason."
+  "Creepy now that I think about it."
+  "Nothing up there these days but some abandoned cabins."
+
+SPEAKER_06 (8 segs, 23.6s, 1 embedded)
+  "Exactly."
+  "Hey, root beer guy."
+  "It's all about the leads."
+  "See, I told you."
+  "It's Candy Stucco."
+
+SPEAKER_07 (19 segs, 38.5s, 10 embedded)
+  "That was a great thing we were doing at home with no other witnesses."
+  "But we're each other's witnesses."
+  "Oh, Princess Bubblegum."
+  "Yes?"
+  "I think some banana guards wish to speak with you."
+
+SPEAKER_08 (80 segs, 180.8s, 39 embedded)
+  "Yeah!"
+  "Wow, that was really something."
+  "Really something."
+  "Sure, I'll hold."
+  "I'd like to take a few minutes of your time to tell you about an amazing vitamin"
+
+SPEAKER_09 (1 segs, 26.8s, 0 embedded)
+  "This party is so crazy!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.740  <- possible match
+  SPEAKER_04 <-> SPEAKER_05: 0.740
+  SPEAKER_00 <-> SPEAKER_03: 0.438
+  SPEAKER_01 <-> SPEAKER_03: 0.363
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E43.npz

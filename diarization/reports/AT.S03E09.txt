@@ -1,0 +1,50 @@
+Episode: AT.S03E09 (Fionna and Cake)
+7 speaker clusters, 214 total segments
+
+
+SPEAKER_00 (2 segs, 25.6s, 1 embedded)
+  "Come along with me and the butterflies and bees We can wander through the forest"
+  "This party is so crazy!"
+
+SPEAKER_01 (100 segs, 190.4s, 46 embedded)
+  "Throw it, Kate."
+  "These jelly kinders aren't alive, are they?"
+  "What?"
+  "Sounds like it's going to be large."
+  "You want me to go with you to the ball?"
+
+SPEAKER_02 (67 segs, 159.1s, 32 embedded)
+  "No, they can't even talk."
+  "Kick it."
+  "Thanks for helping me out, guys."
+  "What are these boogers for anyway?"
+  "Oh, they're decorations for my biennial gumball ball."
+
+SPEAKER_03 (34 segs, 46.6s, 10 embedded)
+  "Fiona we got trouble."
+  "My tail is totally frizzing out."
+  "Well, that could change tonight."
+  "I'm coming to help you."
+  "Hold on."
+
+SPEAKER_04 (2 segs, 13.7s, 1 embedded)
+  "Then she turned to Prince Gumball and said, I hope Ice King will sweep me off my"
+  "Uh..."
+
+SPEAKER_05 (3 segs, 7.1s, 2 embedded)
+  "The end."
+  "So, what did you think of the fan fiction I wrote about you guys?"
+  "Tell me you thought it was good."
+
+SPEAKER_06 (2 segs, 21.8s, 2 embedded)
+  "Adventure time!"
+  "Come on, grab your friends We'll go to very distant lands Kick the cat if you do"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_05: 0.686  <- possible match
+  SPEAKER_04 <-> SPEAKER_05: 0.686
+  SPEAKER_03 <-> SPEAKER_04: 0.412
+  SPEAKER_01 <-> SPEAKER_06: 0.356
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E09.npz

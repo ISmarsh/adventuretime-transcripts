@@ -1,0 +1,17 @@
+{
+  "episode_id": "AT.S09E06",
+  "title": "Slime Central",
+  "season": 9,
+  "speaker_map": {
+    "SPEAKER_03": "LSP",
+    "SPEAKER_04": "Finn_S07-S10"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_02"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T13:20:32"
+}

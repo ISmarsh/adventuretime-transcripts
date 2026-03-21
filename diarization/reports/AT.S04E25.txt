@@ -1,0 +1,53 @@
+Episode: AT.S04E25 (I Remember You)
+7 speaker clusters, 176 total segments
+
+
+SPEAKER_00 (2 segs, 19.1s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_01 (2 segs, 26.8s, 1 embedded)
+  "Come along with me."
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+SPEAKER_02 (60 segs, 154.3s, 37 embedded)
+  "Well, well, well."
+  "Looks like Ice King is up to bad biscuits, brother."
+  "Bad biscuits make the baker broke, bro."
+  "Ice King, you make our job too easy."
+  "You ready to roll on this fool?"
+
+SPEAKER_03 (5 segs, 14.1s, 2 embedded)
+  "Eh."
+  "Get out of here."
+  "Okay."
+  "This, you took this picture."
+  "You scribbled all over it."
+
+SPEAKER_04 (4 segs, 8.3s, 2 embedded)
+  "Anybody!"
+  "Anybody!"
+  "Ah."
+  "Huh?"
+
+SPEAKER_05 (4 segs, 22.1s, 4 embedded)
+  "You look like a lot of fun."
+  "I'm right outside."
+  "Oh, bubblegum, I really need someone Or anyone, pretty much anyone I'm so alone"
+  "Won't somebody tell me what's wrong with me?"
+
+SPEAKER_06 (97 segs, 245.8s, 59 embedded)
+  "Okay, Gunther, you ready for the show to begin?"
+  "One, two, three."
+  "Goonter, why did you goon my fries?"
+  "I goonted them, and they were mine."
+  "What kind of goon goons his goonters fries?"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_05 <-> SPEAKER_06: 0.659  <- possible match
+  SPEAKER_05 <-> SPEAKER_06: 0.659
+  SPEAKER_02 <-> SPEAKER_03: 0.482
+  SPEAKER_04 <-> SPEAKER_05: 0.427
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S04E25.npz

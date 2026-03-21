@@ -1,0 +1,71 @@
+Episode: AT.S05E11 (Bad Little Boy)
+9 speaker clusters, 226 total segments
+
+
+SPEAKER_00 (6 segs, 38.5s, 3 embedded)
+  "A couple hours."
+  "It's good, but maybe it's time to let someone else try."
+  "Listen up, y'all."
+  "Yeah, don't change it!"
+  "I will."
+
+SPEAKER_01 (4 segs, 6.4s, 1 embedded)
+  "Ha!"
+  "Too bad I'm a really strong guy and I took my doctor pills this morning."
+  "Lasers don't hurt me."
+  "Next time."
+
+SPEAKER_02 (54 segs, 91.8s, 29 embedded)
+  "You've been acting like a real knucklehead, Dr."
+  "Prince."
+  "Go on, get out of here."
+  "And don't ever do wrong things again."
+  "You're right."
+
+SPEAKER_03 (67 segs, 105.7s, 23 embedded)
+  "Oh, it's just him."
+  "Oh, hey, Fiona."
+  "Ahem."
+  "Oh, forgive me."
+  "Hello, Your Majesty."
+
+SPEAKER_04 (39 segs, 88.6s, 21 embedded)
+  "You saved the day, Mega Rad Cool Guy."
+  "What's your name?"
+  "The Enchiridion."
+  "I want to be your best and closest friend."
+  "Oh, what a sweetie."
+
+SPEAKER_05 (27 segs, 50.4s, 12 embedded)
+  "Good job, girl."
+  "Have some spaghetti."
+  "Stan!"
+  "Oh, no."
+  "Give us the Inca-radian!"
+
+SPEAKER_06 (6 segs, 7.2s, 2 embedded)
+  "Woo!"
+  "Come on."
+  "You guys!"
+  "Marshall Lee is going to play a song, you guys!"
+  "Marshall!"
+
+SPEAKER_07 (20 segs, 33.9s, 11 embedded)
+  "Ice King, stop."
+  "Please, this story is terrible."
+  "What?"
+  "What if it were a little more like real life?"
+  "Real?"
+
+SPEAKER_08 (3 segs, 23.2s, 3 embedded)
+  "Adventure time!"
+  "Come on, grab your friends We'll go to very distant lands Kick the cat if you're"
+  "Maybe this story is a new form of torture."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_04 <-> SPEAKER_08: 0.428
+  SPEAKER_01 <-> SPEAKER_02: 0.420
+  SPEAKER_05 <-> SPEAKER_06: 0.381
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E11.npz

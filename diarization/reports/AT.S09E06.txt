@@ -1,0 +1,46 @@
+Episode: AT.S09E06 (Slime Central)
+5 speaker clusters, 232 total segments
+
+
+SPEAKER_00 (15 segs, 26.1s, 5 embedded)
+  "Whoa!"
+  "Snack Pack!"
+  "Snack Pack!"
+  "Snack Pack!"
+  "Snack Pack!"
+
+SPEAKER_01 (21 segs, 17.9s, 3 embedded)
+  "We'll go to very messed up lands with Finn and Jake, Ice King and Betty."
+  "Who knows how it will end?"
+  "It's adventure time."
+  "Skate size?"
+  "Okay, you look dope."
+
+SPEAKER_02 (39 segs, 103.2s, 30 embedded)
+  "Because it stares back, man."
+  "This smells like the locker room of a gym for dead fish."
+  "Universal."
+  "DJ Flop, DJ, DJ Flop Drop!"
+  "Psst, get ready to plop drop!"
+
+SPEAKER_03 (78 segs, 120.7s, 23 embedded)
+  "Adventure time."
+  "Come on, grab your friends."
+  "Finn!"
+  "Jake!"
+  "Over here!"
+
+SPEAKER_04 (75 segs, 107.2s, 26 embedded)
+  "OK. We'll find the crown, grab the jewel, and then give a couple of tugs on the "
+  "Got it."
+  "Here's some trail mix for the road."
+  "You think Betty and Simon hanging out is a good thing?"
+  "Totally."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_00 <-> SPEAKER_04: 0.454
+  SPEAKER_00 <-> SPEAKER_02: 0.431
+  SPEAKER_00 <-> SPEAKER_03: 0.402
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S09E06.npz

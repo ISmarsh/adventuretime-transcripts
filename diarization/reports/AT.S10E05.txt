@@ -1,0 +1,79 @@
+Episode: AT.S10E05 (Seventeen)
+10 speaker clusters, 187 total segments
+
+
+SPEAKER_00 (4 segs, 32.2s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Come along with me and the butterflies and bees."
+  "This party is so-"
+
+SPEAKER_01 (15 segs, 27.1s, 8 embedded)
+  "No, no!"
+  "Finally, I win!"
+  "Fern!"
+  "We've seen enough."
+  "It's a family reunion."
+
+SPEAKER_02 (12 segs, 25.8s, 8 embedded)
+  "It's a harmonica."
+  "Looks like another hit."
+  "Pin, Star Chay didn't get your squad."
+  "I got you a present too."
+  "It has emotional and metaphorical significance."
+
+SPEAKER_03 (38 segs, 73.3s, 20 embedded)
+  "Yeah, sorry about that."
+  "The Candy Kingdom is in full lockdown until I can sort out the rumors about my U"
+  "He's been gone for years, but we should stay vigilant."
+  "Vin, I designed an exciting new game for you."
+  "It's called Birthday Boy Fighter."
+
+SPEAKER_04 (8 segs, 37.5s, 6 embedded)
+  "One, two, three, go!"
+  "Yay, Finn!"
+  "Don't do it!"
+  "Wait, don't do it, Finn!"
+  "It's... my... birthday!"
+
+SPEAKER_05 (23 segs, 34.5s, 7 embedded)
+  "Yes, of course."
+  "One of Jake's classic pranks."
+  "I win!"
+  "Happy birthday, Finn!"
+  "Jake, when did you... Whose head did I... Are you pranking me?"
+
+SPEAKER_06 (5 segs, 9.8s, 3 embedded)
+  "Game's over, bro."
+  "The game isn't over until I strike you."
+  "And if I win, chop chop."
+  "Deal."
+  "Ah, just to keep things fair."
+
+SPEAKER_07 (11 segs, 23.9s, 6 embedded)
+  "But only if you play me a game for it."
+  "What's the game?"
+  "Oh, this game is called All You Have To Do Is Strike Me With It And It Is Yours."
+  "Hmm?"
+  "May your aim be steady."
+
+SPEAKER_08 (4 segs, 6.8s, 2 embedded)
+  "You're green."
+  "I'm the Green Knight."
+  "And before you ask, yes, of course, I brought you a birthday present."
+  "It's a battle axe."
+
+SPEAKER_09 (66 segs, 124.1s, 31 embedded)
+  "Birthday boy!"
+  "Enjoying your party?"
+  "It's great having fun with all my friends."
+  "Well, some of my friends."
+  "Mostly banana guards."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.537
+  SPEAKER_00 <-> SPEAKER_04: 0.499
+  SPEAKER_07 <-> SPEAKER_08: 0.445
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S10E05.npz

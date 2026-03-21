@@ -1,0 +1,100 @@
+Episode: FC.S02E09 (The Worm and his Orchard)
+13 speaker clusters, 331 total segments
+
+
+SPEAKER_00 (12 segs, 20.9s, 4 embedded)
+  "Huntress?"
+  "Kill!"
+  "Kill!"
+  "Kill!"
+  "Yay!"
+
+SPEAKER_01 (14 segs, 29.3s, 9 embedded)
+  "This trial in the court!"
+  "Holy dooley."
+  "Cosmic Al, is that you?"
+  "You look rank."
+  "I demand you let Finn go."
+
+SPEAKER_02 (20 segs, 38.3s, 9 embedded)
+  "Of course I land in an alien death trap."
+  "I guess this is what I deserve."
+  "Who are you?"
+  "So, are you Finn's doppelganger?"
+  "Is this your garden?"
+
+SPEAKER_03 (20 segs, 38.6s, 8 embedded)
+  "Wha... ...is my mind inside Huntress's mind?"
+  "Am I mine?"
+  "I'm sorry."
+  "Everything sucks."
+  "Screw it."
+
+SPEAKER_04 (16 segs, 28.0s, 10 embedded)
+  "I'm never gonna get back home."
+  "I won't be able to save Finn."
+  "The heart."
+  "I thought the weight of the heart would be within you."
+  "But it wasn't my inner Mope."
+
+SPEAKER_05 (2 segs, 4.1s, 1 embedded)
+  "Keeper Mom, eh?"
+  "Your silence is only digging you a deeper grave."
+
+SPEAKER_06 (84 segs, 211.5s, 41 embedded)
+  "You're not a pain ball."
+  "Ugh!"
+  "What is this?"
+  "Those are my castings."
+  "Sorry for slamming into you back there."
+
+SPEAKER_07 (17 segs, 92.5s, 10 embedded)
+  "Hi."
+  "I'm sorry."
+  "Warps."
+  "No!"
+  "Hey, old guy."
+
+SPEAKER_08 (7 segs, 9.5s, 2 embedded)
+  "Woah!"
+  "You know, you could beat me at video games more often if we lived together."
+  "Baby, you have no idea."
+  "Oh, you're gonna love him too."
+  "He basically shits therapy."
+
+SPEAKER_09 (53 segs, 128.6s, 17 embedded)
+  "What now?"
+  "Flip!"
+  "My girls!"
+  "I hear you!"
+  "Bush baby!"
+
+SPEAKER_10 (19 segs, 36.2s, 6 embedded)
+  "Used to be, yeah."
+  "I remember sort of dying anew, but my consciousness awoke here."
+  "I tried to be Finn."
+  "I wanted what he had."
+  "His things, his life."
+
+SPEAKER_11 (13 segs, 32.1s, 8 embedded)
+  "Well, hello, Huntress."
+  "I've been waiting for you."
+  "Did you drop something?"
+  "Give it here."
+  "Whoops."
+
+SPEAKER_12 (51 segs, 101.6s, 15 embedded)
+  "What are we looking for?"
+  "Something that connects you to the green magic of your world."
+  "Like, I've got this dark corner in the back of my mind where magic flows."
+  "You must have something similar... ...though it could be symbolized by anything."
+  "This is my exit."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.666  <- possible match
+  SPEAKER_02 <-> SPEAKER_03: 0.666
+  SPEAKER_01 <-> SPEAKER_05: 0.412
+  SPEAKER_00 <-> SPEAKER_02: 0.412
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S02E09.npz

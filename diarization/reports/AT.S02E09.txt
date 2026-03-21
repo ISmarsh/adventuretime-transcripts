@@ -1,0 +1,71 @@
+Episode: AT.S02E09 (The Other Tarts)
+9 speaker clusters, 272 total segments
+
+
+SPEAKER_00 (5 segs, 56.7s, 3 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Sheesh!"
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "This party is so-"
+
+SPEAKER_01 (6 segs, 25.5s, 4 embedded)
+  "Hush."
+  "I ain't gonna burn it."
+  "Ladies and gentlemen, the royal tarts have arrived."
+  "This cosmic dance of bursting decadence and withheld permissions twists all our "
+  "to high-five you yesterday, my friend."
+
+SPEAKER_02 (5 segs, 12.4s, 4 embedded)
+  "Incoming transmission from Princess Bubblegum."
+  "Then!"
+  "Oh well, I'll see you soon enough."
+  "Transmission complete."
+  "Hello?"
+
+SPEAKER_03 (23 segs, 28.9s, 9 embedded)
+  "Don't burn it now, Grimby."
+  "Bye."
+  "Goodbye."
+  "Bye-bye."
+  "Hello."
+
+SPEAKER_04 (2 segs, 7.9s, 1 embedded)
+  "Hm, hm, hm, hm, hm, hm, hm, hm, hm, hm, hm, hm, hm."
+  "Son of a... We eaten that tonight!"
+
+SPEAKER_05 (95 segs, 175.0s, 48 embedded)
+  "I'm stuck."
+  "Princess, let us deliver the tarts."
+  "Are you sure, Finn?"
+  "This is really important."
+  "Princess, I have never been more sure of anything in my whole life."
+
+SPEAKER_06 (52 segs, 62.7s, 16 embedded)
+  "He's magnificent!"
+  "Hey, Princess, here I go!"
+  "Mm-hmm."
+  "Yep."
+  "All right, let's hit it."
+
+SPEAKER_07 (16 segs, 24.2s, 5 embedded)
+  "Oh, yeah."
+  "But how come J.J. gets to hold it, Grampy?"
+  "Keep off them tarts!"
+  "Huh?"
+  "I said back off of them tarts."
+
+SPEAKER_08 (57 segs, 122.1s, 34 embedded)
+  "In the Kingdom of Ooo, there is a galaxy of flavors, but only one taste sensatio"
+  "Royal tarts are very rare."
+  "They are only eaten at the most sacred gathering in Ooo, the annual back rubbing"
+  "The tart is so legendary that countless thieves will risk their lives for just o"
+  "My head will be decapitated if the tarts don't make it to the ceremony."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_08: 0.535
+  SPEAKER_02 <-> SPEAKER_08: 0.498
+  SPEAKER_03 <-> SPEAKER_07: 0.426
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E09.npz

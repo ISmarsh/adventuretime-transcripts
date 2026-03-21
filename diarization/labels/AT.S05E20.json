@@ -1,0 +1,17 @@
+{
+  "episode_id": "AT.S05E20",
+  "title": "Shh!",
+  "season": 5,
+  "speaker_map": {
+    "SPEAKER_00": "Finn_S04-S06",
+    "SPEAKER_04": "BMO"
+  },
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T12:29:36"
+}

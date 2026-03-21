@@ -1,0 +1,63 @@
+Episode: AT.S03E19 (Holly Jolly Secrets Part I)
+8 speaker clusters, 204 total segments
+
+
+SPEAKER_00 (2 segs, 24.4s, 1 embedded)
+  "Fast forward, BMO."
+  "Play, BMO."
+
+SPEAKER_01 (73 segs, 183.6s, 39 embedded)
+  "Your evil tapes full of evil secrets."
+  "That's why I'm going to bury you and no one will ever find you."
+  "Under all these boogers!"
+  "Wee!"
+  "Ha ha ha!"
+
+SPEAKER_02 (5 segs, 11.0s, 3 embedded)
+  "What?"
+  "Oh, Ice King, you're so cool."
+  "You take such good care of yourself."
+  "I want to be with you."
+  "Just turn your alarm off."
+
+SPEAKER_03 (7 segs, 9.8s, 3 embedded)
+  "Phew."
+  "In the pocket."
+  "I can't do it."
+  "Hello, Fini."
+  "Hey, you sound weird."
+
+SPEAKER_04 (27 segs, 43.3s, 13 embedded)
+  "Yes, Finn."
+  "It goes in my butt."
+  "Can we sit on the floor?"
+  "I feel so far away from you guys."
+  "What?"
+
+SPEAKER_05 (66 segs, 138.1s, 36 embedded)
+  "Jake, you made this?"
+  "Yeah!"
+  "And you buried the treasure right here?"
+  "Huh?"
+  "Jake, you're awesome!"
+
+SPEAKER_06 (16 segs, 32.7s, 8 embedded)
+  "A suitcase?"
+  "Oh, man!"
+  "I found it in the dump and then buried it without looking inside."
+  "Mm-hmm."
+  "Let's have a secret screening."
+
+SPEAKER_07 (4 segs, 21.1s, 2 embedded)
+  "Come on, grab your friends, we'll go to a very distant land."
+  "You're Gunther, hey."
+  "OK."
+  "This party is..."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_03: 0.448
+  SPEAKER_01 <-> SPEAKER_02: 0.439
+  SPEAKER_02 <-> SPEAKER_05: 0.431
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E19.npz

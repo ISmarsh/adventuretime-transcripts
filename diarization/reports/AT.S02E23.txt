@@ -1,0 +1,65 @@
+Episode: AT.S02E23 (Video Makers)
+9 speaker clusters, 234 total segments
+
+
+SPEAKER_00 (2 segs, 28.8s, 1 embedded)
+  "Come along with me and the butterflies and bees We can wander through the forest"
+  "This party is so crazy!"
+
+SPEAKER_01 (5 segs, 12.7s, 1 embedded)
+  "You can just call me Shelby."
+  "Jake."
+  "Check, please."
+  "And one, two, three, action."
+  "Do you, Todd Johnson, take this Rainicorn to be your lawfully married wife?"
+
+SPEAKER_02 (2 segs, 1.7s, 1 embedded)
+  "Yeah?"
+  "Oh."
+
+SPEAKER_03 (7 segs, 39.6s, 5 embedded)
+  "Oh, with the summary?"
+  "Sounds great."
+  "Why are you fighting with your friends?"
+  "Jake, you know this can be the end Romance or action does not matter Hurting you"
+  "Oh, that you've been through."
+
+SPEAKER_04 (7 segs, 7.9s, 2 embedded)
+  "I don't know."
+  "It seems pretty important, Finn."
+  "Check, please!"
+  "About 10 hours."
+  "20 hours?"
+
+SPEAKER_05 (116 segs, 173.8s, 42 embedded)
+  "Don't forget LSP's Diet Cola."
+  "I won't."
+  "I really do love Finn and Jake Movie Club."
+  "Okay, everybody."
+  "Apple juice for tree trunks."
+
+SPEAKER_06 (71 segs, 138.8s, 31 embedded)
+  "Huh."
+  "Ice latte for my lady."
+  "We're so excited that you could be here tonight for Finn and Jake's Movie Club's"
+  "Heat Signature 3."
+  "Can we get a bit?"
+
+SPEAKER_07 (2 segs, 21.9s, 2 embedded)
+  "It's your time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_08 (21 segs, 29.2s, 7 embedded)
+  "Get on with it!"
+  "Finn, don't cancel movie club."
+  "I've literally been having the time of my life."
+  "That's all right."
+  "All right, well, we'll see you next time."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_08: 0.440
+  SPEAKER_02 <-> SPEAKER_03: 0.393
+  SPEAKER_05 <-> SPEAKER_06: 0.277
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E23.npz

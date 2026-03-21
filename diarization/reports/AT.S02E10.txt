@@ -1,0 +1,61 @@
+Episode: AT.S02E10 (To Cut a Woman's Hair)
+8 speaker clusters, 276 total segments
+
+
+SPEAKER_00 (2 segs, 27.1s, 1 embedded)
+  "Come along with me."
+  "And the butterflies and bees We can wander through the forest And do so as we pl"
+
+SPEAKER_01 (2 segs, 21.1s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (15 segs, 23.2s, 6 embedded)
+  "I need you to come with me."
+  "Why?"
+  "I'm watering right now."
+  "Whoa, really?"
+  "Where do we sit?"
+
+SPEAKER_03 (15 segs, 27.5s, 8 embedded)
+  "Get away from my cat!"
+  "I'll cut you!"
+  "I'm never gonna go back home."
+  "Oh my glob, what the stuff are you doing?"
+  "Why are you cutting my lumps?"
+
+SPEAKER_04 (8 segs, 13.6s, 3 embedded)
+  "What brings you by?"
+  "I understand."
+  "Trying to give you a hug."
+  "Oh, I see."
+  "You want to take things slow."
+
+SPEAKER_05 (66 segs, 114.8s, 27 embedded)
+  "Huh?"
+  "Hey, how's it going?"
+  "Is that true?"
+  "What the bird said?"
+  "You guys are heroes?"
+
+SPEAKER_06 (117 segs, 171.0s, 45 embedded)
+  "Hey, Jake, give me some of that apple."
+  "Coming up."
+  "Uh, should I keep going, Mrs. Yoder?"
+  "No, Finn, that's plenty."
+  "Thank you."
+
+SPEAKER_07 (44 segs, 83.1s, 24 embedded)
+  "I know what you're thinking about."
+  "Huh?"
+  "Kissing Princess Bubblegum on the mouth."
+  "No, I'm not."
+  "And I wouldn't even do that ever."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_05: 0.395
+  SPEAKER_06 <-> SPEAKER_07: 0.383
+  SPEAKER_05 <-> SPEAKER_06: 0.362
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S02E10.npz

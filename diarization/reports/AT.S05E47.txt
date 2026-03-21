@@ -1,0 +1,91 @@
+Episode: AT.S05E47 (The Red Throne)
+12 speaker clusters, 211 total segments
+
+
+SPEAKER_00 (3 segs, 28.0s, 2 embedded)
+  "What happened?"
+  "Come along with me And the butterflies and bees We can wander through the forest"
+  "This party is so crazy!"
+
+SPEAKER_01 (2 segs, 20.7s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (18 segs, 28.9s, 6 embedded)
+  "Man, you're looking shredded."
+  "Okay, okay."
+  "Whoo!"
+  "Whoo!"
+  "Man, I love staring out over things."
+
+SPEAKER_03 (14 segs, 23.9s, 7 embedded)
+  "Huh?"
+  "Oh, here he comes!"
+  "No!"
+  "Cinnamon Bond!"
+  "Don't let them escape!"
+
+SPEAKER_04 (5 segs, 16.2s, 4 embedded)
+  "Next."
+  "Oh, your highness, can you help my poor child?"
+  "His hair is starting to go and we can't afford flame care and... Take this forti"
+  "Put up your dukes."
+  "You have permission to leave when you out-duke us."
+
+SPEAKER_05 (10 segs, 7.9s, 1 embedded)
+  "Uh..."
+  "Yep."
+  "Oh, no."
+  "Watch this."
+  "Hey, guards!"
+
+SPEAKER_06 (43 segs, 75.3s, 21 embedded)
+  "Hi, um, my microwave seems to be broken and... Flame Princess!"
+  "Um, hey, Jake isn't here."
+  "He's sleeping over at Lady Rainicorns maybe."
+  "Oh, what?"
+  "I'll help you."
+
+SPEAKER_07 (23 segs, 28.8s, 4 embedded)
+  "Oh, glob, bless thy soul."
+  "More tea, your highness."
+  "Thank you."
+  "Who's next?"
+  "Don Jon!"
+
+SPEAKER_08 (20 segs, 37.4s, 12 embedded)
+  "It should last you through the cold season."
+  "Mm-hmm."
+  "How could you, Ursula?"
+  "Huh?"
+  "Thanks, CB."
+
+SPEAKER_09 (12 segs, 34.2s, 10 embedded)
+  "I fear you're not evil enough to rule the kingdom."
+  "So the keister get to come here."
+  "My gym is dark magic, and my protein shake is rage."
+  "Splendid work, Dom Tom."
+  "No big deal, bro."
+
+SPEAKER_10 (49 segs, 87.9s, 19 embedded)
+  "No, fight later."
+  "Now we get help."
+  "Why did I jump?"
+  "You're welcome."
+  "How are you feeling?"
+
+SPEAKER_11 (7 segs, 11.1s, 2 embedded)
+  "Yes!"
+  "Playtime's over, honey."
+  "Time to give Daddy his throne back."
+  "I've secretly arranged to make Dom John my vizier and give him my daughter's han"
+  "Uh, yeah, I know."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_07 <-> SPEAKER_08: 0.724  <- possible match
+  SPEAKER_07 <-> SPEAKER_08: 0.724
+  SPEAKER_02 <-> SPEAKER_09: 0.568
+  SPEAKER_03 <-> SPEAKER_11: 0.500
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E47.npz

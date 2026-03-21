@@ -1,0 +1,62 @@
+Episode: AT.S03E06 (The Monster)
+8 speaker clusters, 206 total segments
+
+
+SPEAKER_00 (3 segs, 24.5s, 3 embedded)
+  "Come along with me and the butterflies and bees."
+  "We can wander through the forest and do so as we please."
+  "This party is so crazy!"
+
+SPEAKER_01 (2 segs, 21.8s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (20 segs, 37.0s, 10 embedded)
+  "We can't find our baby girl."
+  "Yeah, OK. Oh."
+  "Oh!"
+  "Please, please help me."
+  "A monster is terrorizing our village and has eaten up all the crops."
+
+SPEAKER_03 (13 segs, 30.8s, 6 embedded)
+  "Why, why, why, why, why?"
+  "No, she's been missing for days."
+  "We're too scared to go near it."
+  "Nothing scares us!"
+  "Thanks, Finn."
+
+SPEAKER_04 (97 segs, 227.9s, 56 embedded)
+  "It's you!"
+  "Ben, what the junk?"
+  "It's you!"
+  "Oh, sama-chez!"
+  "No, I am the monster."
+
+SPEAKER_05 (28 segs, 51.0s, 18 embedded)
+  "Finn and Jake will make you cry."
+  "A message from their majesties."
+  "King, queen, lumpy space."
+  "No more tears for Willy Bear."
+  "Please, take her these sandwiches we made."
+
+SPEAKER_06 (31 segs, 56.7s, 18 embedded)
+  "Your momma lies."
+  "Jake likes pies."
+  "I'm a guy who'll stick my stick into your eye."
+  "And you'll say why, why, why, why, why?"
+  "Why, why, why, why, why?"
+
+SPEAKER_07 (6 segs, 19.2s, 2 embedded)
+  "Pizza!"
+  "Sir, my sir."
+  "Yeah, I marked it on the map, but it's only half... Well, we're all ready."
+  "We can't leave yet."
+  "All right, now we're ready."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_03: 0.537
+  SPEAKER_03 <-> SPEAKER_04: 0.507
+  SPEAKER_01 <-> SPEAKER_04: 0.415
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S03E06.npz

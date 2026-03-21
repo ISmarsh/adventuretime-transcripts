@@ -1,0 +1,75 @@
+Episode: AT.S05E28 (Be More)
+10 speaker clusters, 221 total segments
+
+
+SPEAKER_00 (3 segs, 30.7s, 2 embedded)
+  "Hi, BMO."
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (4 segs, 18.8s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we can win the battle."
+
+SPEAKER_02 (36 segs, 71.6s, 19 embedded)
+  "It wasn't me."
+  "I didn't do nothing."
+  "No, no."
+  "I am fine."
+  "Really."
+
+SPEAKER_03 (31 segs, 62.8s, 13 embedded)
+  "Hello there."
+  "Greetings, and welcome to MoCo."
+  "I am Deemo."
+  "Please state your business."
+  "Hey there, Deemo."
+
+SPEAKER_04 (2 segs, 36.4s, 1 embedded)
+  "Hello?"
+  "BMO?"
+
+SPEAKER_05 (39 segs, 65.5s, 17 embedded)
+  "Intruder spotted."
+  "Prepare to vaporize."
+  "Vaporize!"
+  "Deep fire!"
+  "No intruders spotted."
+
+SPEAKER_06 (36 segs, 55.7s, 12 embedded)
+  "BMO!"
+  "BMO, are you okay?"
+  "What did you do?"
+  "Come on, BMO."
+  "We gotta get you to the hospital or whatever."
+
+SPEAKER_07 (28 segs, 66.2s, 16 embedded)
+  "It is BMO."
+  "Looks like there's some software problems."
+  "Huh?"
+  "What?"
+  "No."
+
+SPEAKER_08 (15 segs, 35.0s, 7 embedded)
+  "Uh, what question?"
+  "That question."
+  "I'm serious."
+  "Holy!"
+  "Finn, how are we getting to BMO driver port?"
+
+SPEAKER_09 (21 segs, 32.0s, 8 embedded)
+  "Hey, hey, don't worry, buddy."
+  "We're Finn and Jake, remember?"
+  "Or should I say Finn and J-Mo."
+  "But nothing's moving down there."
+  "It's all shut down."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_08 <-> SPEAKER_09: 0.584
+  SPEAKER_06 <-> SPEAKER_08: 0.437
+  SPEAKER_07 <-> SPEAKER_08: 0.419
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E28.npz

@@ -1,0 +1,21 @@
+{
+  "episode_id": "AT.S02E02",
+  "title": "The Eyes",
+  "season": 2,
+  "speaker_map": {
+    "SPEAKER_02": "Ice King",
+    "SPEAKER_04": "Jake",
+    "SPEAKER_05": "Jake",
+    "SPEAKER_06": "Finn_S01-S03",
+    "SPEAKER_07": "Jake",
+    "SPEAKER_08": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_00",
+    "SPEAKER_01",
+    "SPEAKER_03"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T11:10:23"
+}

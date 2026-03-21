@@ -1,0 +1,71 @@
+Episode: AT.S05E24 (Another Five More Short Graybles)
+9 speaker clusters, 190 total segments
+
+
+SPEAKER_00 (5 segs, 10.2s, 4 embedded)
+  "Cinnamon Bun, you can't sleep with a nightlight anymore."
+  "You're basically 30."
+  "It's starting to bum everyone out."
+  "Enough!"
+  "Alan is not the super murderer!"
+
+SPEAKER_01 (7 segs, 32.9s, 3 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Oh."
+  "Uh-huh."
+  "Okay."
+
+SPEAKER_02 (1 segs, 22.9s, 0 embedded)
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_03 (36 segs, 86.6s, 23 embedded)
+  "Oh, hello."
+  "Here are for more Greybels, I presume."
+  "Well, you've come to the right computer, Fable."
+  "Face your eyes, Mable, on my hollow pyramid viewer and... Huh?"
+  "What's that?"
+
+SPEAKER_04 (45 segs, 108.4s, 26 embedded)
+  "Okay."
+  "You seem kind of dump trucks."
+  "Sounds like my little baby girl want to build a time machine."
+  "Leave it up to your daddy and Uncle Finn."
+  "Mm-hmm."
+
+SPEAKER_05 (32 segs, 53.9s, 17 embedded)
+  "Hmm?"
+  "Oh, sure, Dad."
+  "What?"
+  "You know, in the dumps."
+  "Oh, sorry."
+
+SPEAKER_06 (24 segs, 94.1s, 16 embedded)
+  "Hey, Jake Jr. You having fun at daddy's?"
+  "Hello?"
+  "Oh, is that the time machine part that I ordered?"
+  "Acceptance."
+  "Yeah, well... No!"
+
+SPEAKER_07 (7 segs, 25.7s, 5 embedded)
+  "Yay!"
+  "Here we go."
+  "Psst, she's coming back."
+  "I can't handle this denial of light!"
+  "Yuck!"
+
+SPEAKER_08 (33 segs, 60.2s, 22 embedded)
+  "My love seat, yeah."
+  "Gee, but it's great to be back home."
+  "It's always a blast visiting my cousin City Fox at his future palace."
+  "But you just can't beat that old country steez."
+  "City Fox's digs be mad sterile."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_06 <-> SPEAKER_07: 0.647  <- possible match
+  SPEAKER_06 <-> SPEAKER_07: 0.647
+  SPEAKER_01 <-> SPEAKER_07: 0.478
+  SPEAKER_05 <-> SPEAKER_06: 0.409
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E24.npz

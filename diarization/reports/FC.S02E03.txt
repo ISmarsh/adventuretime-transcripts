@@ -1,0 +1,121 @@
+Episode: FC.S02E03 (The Lion of Embers)
+16 speaker clusters, 344 total segments
+
+
+SPEAKER_00 (8 segs, 12.1s, 3 embedded)
+  "The more you struggle, the more steam you make for my isotomaton!"
+  "Get out!"
+  "Who is it?"
+  "I'm single."
+  "Let me try!"
+
+SPEAKER_01 (17 segs, 33.8s, 9 embedded)
+  "Oh."
+  "Please stand back, ladies."
+  "This is exciting."
+  "Yes, ma'am."
+  "Hey, man, they're princesses."
+
+SPEAKER_02 (20 segs, 32.9s, 11 embedded)
+  "But parking lots do nothing to revitalize neighborhoods!"
+  "We could do a bake sale."
+  "I'll make gourmet cookies."
+  "Can you bake like a million of them?"
+  "And I'll get started on a sick no-go."
+
+SPEAKER_03 (98 segs, 223.7s, 49 embedded)
+  "Look out!"
+  "Chill out, Ice Queen!"
+  "You're just jealous of my new fuel boy!"
+  "Let Flame Prince go, you creep!"
+  "Or else!"
+
+SPEAKER_04 (29 segs, 65.2s, 17 embedded)
+  "He's definitely poisoned."
+  "And it's killing him."
+  "But it's also keeping him alive somehow."
+  "I don't know."
+  "It doesn't."
+
+SPEAKER_05 (12 segs, 31.1s, 7 embedded)
+  "Do you guys hear that?"
+  "Don't flip out of me now, PB, but maybe we should give this kiss thing a go."
+  "Spirit Warrior!"
+  "I had the cure for Finn right in my hand."
+  "And I lost it."
+
+SPEAKER_06 (29 segs, 46.3s, 14 embedded)
+  "Booyah!"
+  "You owe me 20 crystals."
+  "Dang, I really thought baby wall Finn was gonna eat her."
+  "Thirty crystals on Huntress drying out before Fiona notices."
+  "What are you doing, Prismo?"
+
+SPEAKER_07 (6 segs, 12.9s, 4 embedded)
+  "Ugh, another croak dream."
+  "Stolen cotton candy just tastes sweeter."
+  "Eat well, my stupid flock."
+  "Of course, to spot a stupid dream."
+  "Big D could never be defeated in the real style world."
+
+SPEAKER_08 (13 segs, 40.1s, 9 embedded)
+  "So it's come to this."
+  "Forgive me, Lil' P!"
+  "Turtle princess, I need backup."
+  "These tranches are trying to steal my boy!"
+  "It's a princess invasion!"
+
+SPEAKER_09 (8 segs, 14.3s, 5 embedded)
+  "Actually, I'm gonna need that bag to buy a new piggy bank."
+  "Why are you letting this crossover slide?"
+  "There's nothing beyond the multiverse."
+  "Hmm?"
+  "Bam!"
+
+SPEAKER_10 (10 segs, 11.8s, 4 embedded)
+  "What can I get you?"
+  "Oh, you want to go where everyone knows your name."
+  "Yes."
+  "What do you call this?"
+  "Uh... beet?"
+
+SPEAKER_11 (10 segs, 14.6s, 4 embedded)
+  "I don't think this is legal tinder."
+  "No way."
+  "Oh, yeah."
+  "I see my mom putting a lot of money from those."
+  "Well, you need to find a venue, invite performers, sell tickets and merch."
+
+SPEAKER_12 (32 segs, 50.5s, 7 embedded)
+  "Fiona!"
+  "Help!"
+  "Let me out of here!"
+  "Dude!"
+  "Wow, what a jerk."
+
+SPEAKER_13 (23 segs, 55.1s, 10 embedded)
+  "That much, huh?"
+  "Please stand back, Fiona."
+  "I can't authorize that, but I can set you up with the park committee."
+  "Really?"
+  "Of course."
+
+SPEAKER_14 (7 segs, 75.9s, 5 embedded)
+  "Oh, come on, it's funny!"
+  "Peebs?"
+  "We'll figure it out."
+  "Oh lord, girl."
+  "Ooh, ooh, ooh."
+
+SPEAKER_15 (18 segs, 43.4s, 10 embedded)
+  "Next up, T.J. Flame's hot new single."
+  "Marshall, your mom's loaded."
+  "Ask her for money."
+  "Come on, rich boy, cough it up!"
+  "Yes!"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_08: 0.797  <- likely same character
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\FC.S02E03.npz

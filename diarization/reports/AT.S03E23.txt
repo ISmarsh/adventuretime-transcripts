@@ -1,0 +1,88 @@
+Episode: AT.S03E23 (Another Way)
+12 speaker clusters, 191 total segments
+
+
+SPEAKER_00 (2 segs, 25.5s, 1 embedded)
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+SPEAKER_01 (2 segs, 22.0s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (24 segs, 53.1s, 12 embedded)
+  "Who wants a cookie?"
+  "Milk dip chocolate chip cookie?"
+  "No, thanks."
+  "No, come on, Finn."
+  "You have to eat."
+
+SPEAKER_03 (54 segs, 121.9s, 22 embedded)
+  "Open sesame."
+  "Uh, Jake, can we get rid of these clown nurses?"
+  "They make me feel ridiculous."
+  "What does that even mean?"
+  "You're gross, man."
+
+SPEAKER_04 (17 segs, 23.1s, 6 embedded)
+  "No way, man."
+  "Ugh."
+  "Well, now you know we can't jump off of birds."
+  "I paid them up front."
+  "They don't leave until the job's done."
+
+SPEAKER_05 (7 segs, 10.3s, 4 embedded)
+  "Rainy!"
+  "Oh, God, oh, God, oh, God, oh, God."
+  "Uh, excuse me, friend."
+  "You're pretty tall."
+  "Can you reach up there and get my wheel for me?"
+
+SPEAKER_06 (4 segs, 0.8s, 0 embedded)
+  "Oh!"
+  "Oh!"
+  "Oh!"
+  "Oh!"
+
+SPEAKER_07 (12 segs, 17.1s, 5 embedded)
+  "Ring ring!"
+  "Look, there's only two choices, bro."
+  "Take your pick."
+  "There's a path on the left, hair fall out path."
+  "No more hair again ever."
+
+SPEAKER_08 (9 segs, 11.8s, 3 embedded)
+  "Isn't there another way?"
+  "No."
+  "But what if I just went?"
+  "No, that's it."
+  "You have to choose."
+
+SPEAKER_09 (13 segs, 30.8s, 5 embedded)
+  "I know you're here for my magical tears, but you won't have any because I never "
+  "I don't want him anymore."
+  "What?"
+  "Stop lying."
+  "You're just trying to make me feel sad so you can steal my tears when I cry."
+
+SPEAKER_11 (16 segs, 30.6s, 4 embedded)
+  "Huh?"
+  "What?"
+  "Wait, wait, wait, wait, wait!"
+  "Whoa!"
+  "It's the only way!"
+
+SPEAKER_12 (31 segs, 75.5s, 18 embedded)
+  "Ring ring Hello dummy police yes, there's a strange dummy lurking around my hous"
+  "Yes."
+  "Thank you."
+  "Goodbye What?"
+  "It's impossible."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_11: 0.493
+  SPEAKER_07 <-> SPEAKER_08: 0.477
+  SPEAKER_03 <-> SPEAKER_11: 0.474
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S03E23.npz

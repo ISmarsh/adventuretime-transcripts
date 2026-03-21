@@ -1,0 +1,76 @@
+Episode: AT.S05E41 (The Pit)
+11 speaker clusters, 239 total segments
+
+
+SPEAKER_00 (1 segs, 27.8s, 0 embedded)
+  "This party is so crazy!"
+
+SPEAKER_01 (2 segs, 20.8s, 2 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+SPEAKER_02 (15 segs, 12.8s, 1 embedded)
+  "Excuse me."
+  "Hmm?"
+  "Down here."
+  "Hi."
+  "Oh, my fun."
+
+SPEAKER_03 (22 segs, 40.4s, 9 embedded)
+  "Jake, Finn, Jermaine, whoever is watching this?"
+  "Dad."
+  "I just opened up an unexplored cavern deep in the underground grasslands complex"
+  "Please refer to my chart system, okay?"
+  "I'm in cave 73H."
+
+SPEAKER_04 (28 segs, 80.0s, 13 embedded)
+  "Huh."
+  "Lugu?"
+  "Jake?"
+  "Yo, my Korean is not that good."
+  "Well, she's here."
+
+SPEAKER_05 (3 segs, 4.8s, 1 embedded)
+  "Chaldam!"
+  "You're in the cave!"
+  "Fredda, where are you going?"
+
+SPEAKER_06 (2 segs, 17.7s, 2 embedded)
+  "See you soon, bye."
+  "Whoa."
+
+SPEAKER_07 (14 segs, 31.8s, 9 embedded)
+  "Hi, I'm Samantha."
+  "But I haven't seen a man dog in years."
+  "And now the universe has dropped one into my arms."
+  "This boy's got."
+  "But fate has brought us together."
+
+SPEAKER_08 (60 segs, 95.8s, 27 embedded)
+  "Your butt is mine, Joshua."
+  "What?"
+  "My butt?"
+  "Weird."
+  "Where are we?"
+
+SPEAKER_09 (50 segs, 89.5s, 20 embedded)
+  "Mmm, not that great."
+  "I feel weird in my skin."
+  "Yeah, but I could get used to this."
+  "Okay."
+  "Broke up dimension, you're breaking my heart."
+
+SPEAKER_10 (38 segs, 57.1s, 12 embedded)
+  "Jake?"
+  "Keedrat."
+  "Hmm."
+  "Hey lady, listen."
+  "Your husband got abducted by Khioth the demon."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_06: 0.413
+  SPEAKER_06 <-> SPEAKER_10: 0.357
+  SPEAKER_04 <-> SPEAKER_05: 0.345
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S05E41.npz

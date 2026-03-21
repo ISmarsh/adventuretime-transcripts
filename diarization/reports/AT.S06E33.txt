@@ -1,0 +1,50 @@
+Episode: AT.S06E33 (Jermaine)
+6 speaker clusters, 248 total segments
+
+
+SPEAKER_00 (19 segs, 32.4s, 9 embedded)
+  "Workout time!"
+  "I like the can."
+  "I don't know."
+  "Jermaine's always been kind of a dream hole."
+  "Eh, not a great time just this minute."
+
+SPEAKER_01 (36 segs, 68.6s, 13 embedded)
+  "We're the end."
+  "We'll be friends."
+  "Flip me end."
+  "We'll start again."
+  "I know."
+
+SPEAKER_02 (54 segs, 104.1s, 25 embedded)
+  "Hey, bear dude."
+  "Sorry to drop in like that."
+  "Oh, hey, brother."
+  "Whoa, Jermaine!"
+  "We must be dreaming at the same time again."
+
+SPEAKER_03 (118 segs, 200.3s, 56 embedded)
+  "Ugh... Jake, I'm here to work."
+  "I gotta keep everything where it should be."
+  "So, uh, how are you and Finn doing?"
+  "Whoop!"
+  "Ahh!"
+
+SPEAKER_04 (17 segs, 32.1s, 10 embedded)
+  "Woo-hoo-hoo!"
+  "Woo!"
+  "Woo-hoo-hoo!"
+  "Hello?"
+  "Give me my cup."
+
+SPEAKER_05 (2 segs, 20.3s, 2 embedded)
+  "It's Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_02 <-> SPEAKER_04: 0.456
+  SPEAKER_04 <-> SPEAKER_05: 0.352
+  SPEAKER_00 <-> SPEAKER_04: 0.351
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S06E33.npz

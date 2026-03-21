@@ -1,0 +1,23 @@
+{
+  "episode_id": "AT.S04E26",
+  "title": "The Lich",
+  "season": 4,
+  "speaker_map": {
+    "SPEAKER_00": "LSP",
+    "SPEAKER_08": "Jake",
+    "SPEAKER_09": "Finn_S04-S06",
+    "SPEAKER_10": "Finn_S04-S06",
+    "SPEAKER_07": "Jake"
+  },
+  "skipped": [
+    "SPEAKER_01",
+    "SPEAKER_02",
+    "SPEAKER_03",
+    "SPEAKER_04",
+    "SPEAKER_05",
+    "SPEAKER_06"
+  ],
+  "auto_labeled": true,
+  "threshold": 0.6,
+  "timestamp": "2026-02-07T14:49:54"
+}

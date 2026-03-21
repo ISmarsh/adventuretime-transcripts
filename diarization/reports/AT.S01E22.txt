@@ -1,0 +1,59 @@
+Episode: AT.S01E22 (Henchman)
+8 speaker clusters, 255 total segments
+
+
+SPEAKER_00 (5 segs, 19.2s, 3 embedded)
+  "It's your time."
+  "Come on, grab your friends."
+  "We'll go to very distant lands."
+  "We'll take the dog and then we'll kill them."
+  "The fun will never end."
+
+SPEAKER_01 (4 segs, 15.5s, 2 embedded)
+  "It's adventure time."
+  "Here I go!"
+  "I thought it."
+  "Sick!"
+
+SPEAKER_02 (187 segs, 356.5s, 95 embedded)
+  "Yeah!"
+  "Woo-hoo!"
+  "Awesome!"
+  "Someone needs our help."
+  "What is it about henchmen for life that you don't understand?"
+
+SPEAKER_03 (2 segs, 6.1s, 1 embedded)
+  "I want to help you out of this man, but she scares the filling out of my donut."
+  "Let's just leave."
+
+SPEAKER_04 (4 segs, 8.8s, 2 embedded)
+  "Don't you worry, Finn."
+  "I'll get you out of there."
+  "I've got a perfect plan."
+  "I love you, brother."
+
+SPEAKER_05 (31 segs, 48.3s, 11 embedded)
+  "Yes, mistress."
+  "I'll figure something out."
+  "I'm not running away, Finn."
+  "This is just part of my plan."
+  "Don't worry, dude."
+
+SPEAKER_06 (15 segs, 32.9s, 11 embedded)
+  "Oh, come on."
+  "Yes, Duke and Duchess of Nut's residence."
+  "My boss is gonna sack your castle."
+  "Oh, well that's certainly bad news for us."
+  "Lizby, who's at the door?"
+
+SPEAKER_07 (2 segs, 21.6s, 1 embedded)
+  "Come along with me."
+  "and the butterflies and bees we can wander through the forest and do so as we pl"
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_03 <-> SPEAKER_05: 0.546
+  SPEAKER_04 <-> SPEAKER_05: 0.461
+  SPEAKER_01 <-> SPEAKER_02: 0.397
+
+Saved cluster embeddings to /app/diarization/clusters/AT.S01E22.npz

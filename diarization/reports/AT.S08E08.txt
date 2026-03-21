@@ -1,0 +1,55 @@
+Episode: AT.S08E08 (Elemental)
+7 speaker clusters, 229 total segments
+
+
+SPEAKER_00 (4 segs, 32.4s, 4 embedded)
+  "Adventure Time!"
+  "Come on, grab your friends We'll go to very distant lands We'll take the dog and"
+  "Come along with me."
+  "and the butterflies and bees."
+
+SPEAKER_01 (4 segs, 5.9s, 3 embedded)
+  "You're missing hangers too?"
+  "Well, I don't really use hangers."
+  "Have you considered folding?"
+  "We better call Princess Bubblegum."
+
+SPEAKER_02 (7 segs, 13.1s, 5 embedded)
+  "Honey, I'm home."
+  "Oops, I forgot I lived alone."
+  "Well, no bother."
+  "I won the Golden Shovel Award."
+  "Candy Kingdom's premier award for grave dig and excellence."
+
+SPEAKER_03 (60 segs, 92.9s, 21 embedded)
+  "Oh, hi, guys."
+  "You think this is about hangers?"
+  "You're stealing everyone's hangers, dude."
+  "It's about so much more."
+  "Come back to my place and I'll explain everything."
+
+SPEAKER_04 (45 segs, 71.1s, 19 embedded)
+  "To find all the wire hangers."
+  "Wouldn't you rather have us fighting evil demons or something?"
+  "Hmm."
+  "See anything?"
+  "No, it's pretty quiet out there."
+
+SPEAKER_05 (104 segs, 202.6s, 55 embedded)
+  "And then I called you guys."
+  "Maybe an evil demon is stealing all the hangers."
+  "Chill, you guys."
+  "Huh, chill."
+  "Get it?"
+
+SPEAKER_06 (2 segs, 3.3s, 1 embedded)
+  "I need to lie down."
+  "I'm fine."
+
+============================================================
+PAIRWISE SIMILARITY:
+  SPEAKER_01 <-> SPEAKER_03: 0.319
+  SPEAKER_02 <-> SPEAKER_03: 0.312
+  SPEAKER_00 <-> SPEAKER_06: 0.304
+
+Saved cluster embeddings to C:\Dev\adventuretime-transcripts\diarization\clusters\AT.S08E08.npz
